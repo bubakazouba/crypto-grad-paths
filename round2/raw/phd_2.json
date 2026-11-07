@@ -1,0 +1,669 @@
+{
+ "31": {
+  "school": "USC Thomas Lord Dept. of CS (Viterbi)",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://viterbigradadmission.usc.edu/doctoral/how-to-apply-phd/",
+   "quote": "Fall 2027 deadline: December 15, 2026 ... 11:59 PM (23:59), Pacific Time",
+   "note": "Single Viterbi-wide PhD deadline. GRE not required (only ASTE and ISE require it for 2027). $120 application fee."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "I have finished my Masters and now I am interested in the PhD program. How do I go about it? You will need to fill out a new application online and provided the following: 3 letters of recommendation, a CV and a statement of purpose.",
+    "url": "https://www.cs.usc.edu/students/ms-students/academic-faqs/"
+   },
+   "ms_research_publish": {
+    "value": "partial",
+    "quote": "M.S. Students: Choose CSCI 590 only. ... A maximum combination of 2 units of CSCI 590 Directed Research and 2 units of CSCI 591 Research Colloquium can be used toward the M.S. program.",
+    "url": "https://www.cs.usc.edu/students/directed-research/"
+   },
+   "ra_for_ms": {
+    "value": "no",
+    "quote": "MS: Research/teaching assistantships are reserved for our PhD students and are not available to Master's students.",
+    "url": "https://viterbigradadmission.usc.edu/programs/masters/faq/"
+   },
+   "program_size": null
+  }
+ },
+ "32": {
+  "school": "Drexel CCI CS",
+  "phd": {
+   "deadline_iso": "2027-02-15",
+   "priority_iso": "2026-12-15",
+   "url": "https://drexel.edu/cci/admissions/doctoral/",
+   "quote": "Priority deadline: December 15, 2026 ... Rolling admission review will occur through February 15, 2027",
+   "note": "deadline_iso = end of rolling review (Feb 15 2027); priority Dec 15 2026. Dec 15 is a priority deadline; rolling review to 2027-02-15. GRE optional but recommended. 'All PhD students are fully supported with an assistantship.' Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "33": {
+  "school": "Duke CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://gradschool.duke.edu/academics/programs-degrees/computer-science/",
+   "quote": "Application Deadlines: December 15",
+   "note": "Year not printed on program page (Grad School deadlines page lists 'Computer Science 12/15/2026' per search). GRE General optional. Fee not shown. PhD and MS require separate applications."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "There may be advantages to having already earned a Master's degree because you may have experience in research and with graduate level courses. However, all PhD students enter the program with the same requirements, Master's or not.",
+    "url": "https://cs.duke.edu/graduate/faq"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "PhD admit rate 9.1% of 614 applicants (years unspecified); 105 PhD students enrolled 2024-25",
+    "quote": "PhD: 9.1% accepted ... out of 614 applicants (quote via search-engine snippet of official PDF, not fetched)",
+    "url": "https://cs.duke.edu/sites/cs.duke.edu/files/documents/dukecs-infographics-2024-compressed.pdf"
+   }
+  }
+ },
+ "34": {
+  "school": "Florida State CS",
+  "phd": {
+   "deadline_iso": "2027-01-01",
+   "priority_iso": null,
+   "url": "https://www.cs.fsu.edu/admissions/graduate-admissions/fsu-computer-science-department-graduate-study-application-information/",
+   "quote": "Students Seeking Assistantships & International Students: January 1st",
+   "note": "Year not printed; page appears several years old. Domestic students not seeking assistantships: April 1st. PhD applicants must submit GRE unless waiver approved. $30 application processing fee."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "yes",
+    "quote": "We offer financial support to new and existing PhD and MS students in the form of teaching assistantship (TA), research assistantship (RA), and fellowship. Each semester, a number of (typically 25-35 in the Fall and 5-10 in the Spring) best qualifying new students ... are offered financial support with admission.",
+    "url": "https://www.cs.fsu.edu/admissions/funding-policy-and-statistics/"
+   },
+   "program_size": {
+    "value": "65 PhD / 97 MS students (Spring 2017); 74 PhD / 98 MS (Spring 2018) - old totals, not cohort",
+    "quote": "Statistics of Recent Graduate Student Financial Support Fiscal Year Spring 2017 Spring 2018 No. of MS Students 97 98 No. of PhD Students 65 74 No. of Students with Assistantships 114 132",
+    "url": "https://www.cs.fsu.edu/admissions/funding-policy-and-statistics/"
+   }
+  }
+ },
+ "35": {
+  "school": "Harvard CS (via Harvard Griffin GSAS)",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://gsas.harvard.edu/program/computer-science",
+   "quote": "Dec 15, 2026 | 05:00 pm",
+   "note": "GRE General optional; GRE subject tests optional. Fee not on page. PhD only listed under degrees offered."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "no",
+    "quote": "Degrees Offered: Doctor of Philosophy (PhD) [only degree listed for the CS program at GSAS]",
+    "url": "https://gsas.harvard.edu/program/computer-science"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "157 CS PhD students total (Fall 2025); SEAS-wide ~7,710 applications / ~274 enrolled across all PhD+master's",
+    "quote": "Computer Science: 157 Ph.D.s ... For the class of graduate students entering in Fall 2025, SEAS received nearly 7,710 applications across all PhD and masters programs; nearly 274 graduate students enrolled in Fall 2025.",
+    "url": "https://seas.harvard.edu/prospective-students/prospective-graduate-students/graduate-student-data"
+   }
+  }
+ },
+ "36": {
+  "school": "NC State CSC",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://csc.ncsu.edu/academics/graduate/application-deadlines/",
+   "quote": "PhD, Fall admission: December 15",
+   "note": "Year not printed. Same Dec 15 for foreign nationals ('PhD and Masters, Fall admission only: December 15'). GRE/fee not on this page."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "If a promising student applies for the masters degree initially, and is admitted, it is quite possible after some time in the masters program to apply for entry into the PhD.",
+    "url": "https://csc.ncsu.edu/academics/graduate/faqs/"
+   },
+   "ms_research_publish": {
+    "value": "partial",
+    "quote": "The Master of Science (MS) is a research-oriented degree. The curriculum requires 31 graduate credits, including a maximum of six for thesis research.",
+    "url": "https://csc.ncsu.edu/academics/graduate/faqs/"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "37": {
+  "school": "Northwestern CS",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/",
+   "quote": "The deadline for PhD applicants is Tuesday, December 1, 2026 (for Fall 2027).",
+   "note": "'You can still apply after this deadline, up to December 15, 2026' (may be processed more slowly). PhD: 'GRE scores are required.' Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "A current Northwestern University CS MS student can request a transfer from the MS program to the PhD program. ... Such a transfer request is only seriously considered if there is a CS faculty member who advocates the transfer. ... it is rare (approximately 6 percent of the students admitted to our MS program in the past have been offered to continue for a PhD), and there is absolutely *no* guarantee.",
+    "url": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "no",
+    "quote": "MS Applicants Financial aid is not available in any form, including fellowships, research assistantships, and teaching assistantships. However, several types of loans are available.",
+    "url": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/financial-aid.html"
+   },
+   "program_size": null
+  }
+ },
+ "40": {
+  "school": "Stanford CS",
+  "phd": {
+   "deadline_iso": "2026-12-08",
+   "priority_iso": null,
+   "url": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
+   "quote": "December 8, 2026",
+   "note": "PhD Autumn-entry deadline. GRE/fee not on this page."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "no",
+    "quote": "No, the MS program and PhD program are two separate programs. The MS degree does not automatically lead to a PhD degree. Applicants planning to pursue a PhD degree should apply directly to that program.",
+    "url": "https://www.cs.stanford.edu/admissions/masters-admissions-frequently-asked-questions"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "CS RA/CA resources are very limited and are largely used to support ongoing PhD students. Stanford MS students are discouraged from relying on assistantships to pay for tuition.",
+    "url": "https://www.cs.stanford.edu/admissions/masters-admissions-frequently-asked-questions"
+   },
+   "program_size": null
+  }
+ },
+ "30": {
+  "school": "Univ. of Pennsylvania CIS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://gradadm.engineering.upenn.edu/how-to-apply/",
+   "quote": "Applications for our doctoral programs are open from September 15, 2026, until December 15, 2026.",
+   "note": "Penn Engineering-wide doctoral deadline (11:59 p.m. EST); not CIS-specific. 'The GRE is optional during the current application cycle.' $95 nonrefundable application fee."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": {
+    "value": "partial",
+    "quote": "Our CIS MSE graduates have obtained a wide range of positions in industry and continued in doctoral studies. ... A student wishing to complete a master's thesis may enroll in two course units of CIS 9990: Masters Thesis Research",
+    "url": "https://catalog.upenn.edu/graduate/programs/computer-information-science-mse/"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "38": {
+  "school": "Portland State CS",
+  "phd": {
+   "deadline_iso": "2027-03-01",
+   "priority_iso": "2026-12-15",
+   "url": "https://www.pdx.edu/computer-science/graduate-admission",
+   "quote": "December 15 to be considered for guaranteed funding for 1 year otherwise March 1",
+   "note": "deadline_iso = general priority March 1; Year not printed. Dec 15 = funding-priority date; general priority March 1; table lists final fall deadline September 1 (layout ambiguous). 'GRE scores are optional.' No application fee waivers."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "can apply for the remaining TA roles each term ... highly encouraged to connect with a potential faculty advisor for a research assistantship",
+    "url": "https://www.pdx.edu/computer-science/graduate-admission"
+   },
+   "program_size": null
+  }
+ },
+ "39": {
+  "school": "Rutgers New Brunswick CS",
+  "phd": {
+   "deadline_iso": "2027-01-01",
+   "priority_iso": null,
+   "url": "https://www.cs.rutgers.edu/graduate/frequently-asked-questions-about-admissions",
+   "quote": "January 1st for all Ph.D. applications.",
+   "note": "Year not printed (Rutgers grad admissions portal lists Jan 1, 2027 for Fall 2027 per search). GRE optional. $70 application fee. No spring PhD admission."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "There are exceptions for Rutgers (New Brunswick) MS students who joined our PhD program.",
+    "url": "https://www.cs.rutgers.edu/academics/graduate/ph-d-program/summary-of-requirements"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "University or Department funding can not be offered to M.S. students at Rutgers. ... individual research groups are sometimes able to provide funding on a case-by-case basis to admitted M.S. students.",
+    "url": "https://www.cs.rutgers.edu/graduate/frequently-asked-questions-about-admissions"
+   },
+   "program_size": null
+  }
+ },
+ "41": {
+  "school": "City College of New York (CS PhD is via the CUNY Graduate Center)",
+  "phd": null,
+  "phd_null_note": "Current-cycle deadline not verified: gc.cuny.edu and compsci.commons.gc.cuny.edu block automated fetches (Cloudflare/captcha). Last cycle, official GC open-house deck (https://www.gc.cuny.edu/sites/default/files/2025-12/CS_OpenHouse_F26_Presentation.pdf): \"Application Deadline: January 1st, 2026 (for Fall '26 Enrollment)\" -> likely Jan 1 2027, unverified. Deck: 'GRE: at least 80 percentile in Quantitative Reasoning'; GC fee $75 (per search, not verified). Funding: '5-year GC Fellowships (Stipend + Tuition)'.",
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "100+ CS PhD students (total, not cohort)",
+    "quote": "100+ CS PhD students, 50+ Data Science MS students",
+    "url": "https://www.gc.cuny.edu/sites/default/files/2025-12/CS_OpenHouse_F26_Presentation.pdf"
+   }
+  }
+ },
+ "42": {
+  "school": "George Washington Univ CS",
+  "phd": {
+   "deadline_iso": "2027-01-15",
+   "priority_iso": "2026-12-01",
+   "url": "https://graduate.engineering.gwu.edu/doctoral-admissions-requirements",
+   "quote": "To apply for Fall semester entry, the priority deadline is December 1 . The final deadline is January 15 .",
+   "note": "Year not printed. SEAS-wide doctoral page; CS bulletin (https://bulletin.gwu.edu/engineering-applied-science/computer-science/phd/) also says 'Fall - January 15'. Materials complete by January 20th. GRE optional. Fee $80."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "Students with GW's MS in Computer Science degree - A minimum of 30 credits, at least 12 of which must be in courses taken for qualifying graduate credit",
+    "url": "https://bulletin.gwu.edu/engineering-applied-science/computer-science/phd/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "43": {
+  "school": "Tufts CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://asegrad.tufts.edu/program/computer-science-doctorate",
+   "quote": "Application Deadlines Fall: December 15 (final) Spring: October 1 (final) Summer: n/a",
+   "note": "Year not printed. GRE not required for applicants with a US/Canada degree; required for all others. Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": {
+    "value": "partial",
+    "quote": "The degree has an optional MS Thesis. Acceptance to the thesis track occurs after matriculation into the program and only with the support of a faculty advisor who is interested in supervising the thesis work.",
+    "url": "https://engineering.tufts.edu/cs/current-students/graduate/ms-computer-science"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "44": {
+  "school": "UC Irvine CS (ICS)",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://ics.uci.edu/admissions-information-and-computer-science/graduate-admissions/graduate-research-admissions-faq/",
+   "quote": "Applications open in early October and will close on December 15 for the Master of Science and Doctoral programs.",
+   "note": "Year not printed. GRE: see program-specific page (not shown). Separate application fee per application (amount not shown). Search snippet: full funding offered to all PhD students."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "A student who was admitted to the master's degree program may be considered by the unit's graduate affairs committee [for subsequent admission to Ph.D. status] ... Notification must be sent via the Change of Degree Level form along with two letters, one from the advisor [and] another professor providing funding support.",
+    "url": "https://grad.uci.edu/uc-irvine-graduate-policies-and-procedures/standards-and-requirements-for-graduate-degree-programs/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "45": {
+  "school": "UC Riverside CSE",
+  "phd": {
+   "deadline_iso": "2027-05-01",
+   "priority_iso": "2027-01-05",
+   "url": "https://www1.cs.ucr.edu/graduate/admissions/domestic-applicants",
+   "quote": "Application Deadlines - Fall 2027 January 5 : Application deadline for fellowship consideration for PhD applicants* May 1 : General application deadline",
+   "note": "Domestic page; international page lists March 1 general deadline (per search). 'PhD applicants - the GRE is optional.' '$135 non-refundable application fee.' Fellowship packages offered to PhD applicants only."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "MS students interested in pursuing the PhD degree may request a change in their degree objective to PhD. For such requests to be considered, they should have strong recommendations from CSE Department faculty members and have a research advisor interested in supervising their PhD dissertation. Such requests will be reviewed in the same manner as a regular PhD application",
+    "url": "https://www1.cs.ucr.edu/graduate-student-handbook/ms-program-overview"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "no",
+    "quote": "Due to limited funding, the CSE department does not award MS in CS students departmental fellowships or TA positions.",
+    "url": "https://www1.cs.ucr.edu/graduate/for-new-students"
+   },
+   "program_size": null
+  }
+ },
+ "46": {
+  "school": "UC Santa Barbara CS",
+  "phd": {
+   "deadline_iso": "2026-12-16",
+   "priority_iso": null,
+   "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=CMPSC-PHD-0",
+   "quote": "Fall 2027 N/A N/A Wednesday, December 16, 2026",
+   "note": "Graduate Division program page (Priority Financial Deadline N/A, Priority Deadline N/A, Final Deadline Dec 16 2026). Dept: 'The department does not currently require the GRE for any applicants.' Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "To switch to or add a Computer Science Doctor of Philosophy (PhD) degree objective, please complete the on-line application by the annual December final deadline date. Do not complete the Graduate Division Change of Degree Petition.",
+    "url": "https://cs.ucsb.edu/education/graduate/how-to-apply"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "yes",
+    "quote": "MS students may apply for TA positions each quarter and may be employed as GSRs upon availability with a faculty member.",
+    "url": "https://cs.ucsb.edu/education/graduate/how-to-apply"
+   },
+   "program_size": null
+  }
+ },
+ "47": {
+  "school": "Univ. of Delaware CIS",
+  "phd": {
+   "deadline_iso": "2027-07-01",
+   "priority_iso": "2027-02-01",
+   "url": "https://www.udel.edu/academics/colleges/grad/prospective-students/programs/computer-science/",
+   "quote": "February 1: To be considered for departmental funding (Ph.D.) ... July 1: Final deadline to apply (Ph.D.)",
+   "note": "Year not printed. Funding consideration Feb 1 is the practical deadline. Dept page: 'GRE test scores are optional and not required for admission.' 'All or nearly all doctoral students receive a stipend and full tuition scholarship.' Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "A student who entered the CIS department as an MS student may switch to the PhD program provided all of the following conditions are met: a. The student has an overall GPA of at least 3.2 at the time of the switch. ... d. The student should not have been in the MS program for more than five semesters (policy PDF dated 2018)",
+    "url": "https://www.cis.udel.edu/wp-content/uploads/2018/10/MS-to-PhD-Transfer-PolicyForWeb.pdf"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "As a general rule, most financial aid in the CIS Department is offered to PhD applicants only. In special cases, outstanding applicants to the MS program may be considered for aid.",
+    "url": "https://www.cis.udel.edu/academics/graduate-programs/graduate-admissions/"
+   },
+   "program_size": null
+  }
+ },
+ "48": {
+  "school": "Univ. of Illinois Chicago CS",
+  "phd": {
+   "deadline_iso": "2027-02-15",
+   "priority_iso": "2026-12-15",
+   "url": "https://cs.uic.edu/graduate/admissions/phd/",
+   "quote": "Fall Admission December 15: Recommended deadline for PhD applicants February 15: Final deadline for ALL applicants",
+   "note": "Year not printed on deadline table; same page: fee waived 'if application and all supporting documents are submitted by December 15, 2026' for the Fall 2027 cohort (domestic $0; intl $100 credential-eval only; $80 fee waived). GRE not required."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "49": {
+  "school": "UMass Amherst CICS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cics.umass.edu/academics/phd-computer-science",
+   "quote": "Fall Admission December 15, 2026 Application deadline",
+   "note": "Applicants without a CS master's apply to the MS/PhD track; with a master's, the PhD track (per search of How to Apply page). GRE/fee not shown here."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "Students who already have a master's degree in computer science should apply and be admitted to the PhD track, while students who do not already have a master's degree in computer science should apply and be admitted to the MS/PhD track.",
+    "url": "https://www.cics.umass.edu/academics/phd-computer-science"
+   },
+   "ms_research_publish": {
+    "value": "partial",
+    "quote": "Complete a 6-credit MS project ... MS Project/synthesis completed (6 cr.) [MS/PhD-track requirement]",
+    "url": "https://www.cics.umass.edu/academics/academic-policies/graduate-programs-policies/msphd-degree-requirements"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "50": {
+  "school": "Univ. of Utah Kahlert School of Computing",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.utah.edu/graduate/prospective-students/admissions/",
+   "quote": "The Application Deadline is December 15, 2026",
+   "note": "GRE optional. Fee: PhD domestic $0* (request waiver code from grad-admission@cs.utah.edu), PhD international $65."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "Masters Forms ... KSoC MS to PhD application",
+    "url": "https://www.cs.utah.edu/graduate/current-students/graduate-student-resources/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "Most MS students do not receive financial support ... However, MS students have the opportunity to apply for teaching assistantships with the department, or approach individual faculty members about research assistantships.",
+    "url": "https://www.cs.utah.edu/graduate/prospective-students/admissions/graduate-financial-support-and-costs/"
+   },
+   "program_size": null
+  }
+ },
+ "51": {
+  "school": "UW-Madison CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.wisc.edu/grad/programs/admissions/",
+   "quote": "Admit Term: Fall semester only Application Deadline: December 15",
+   "note": "Year not printed (confirmed known 2026-12-15). 'GRE test scores are NOT required.' No departmental fee waivers. MS and PhD applicants 'reviewed for admission as one applicant pool'."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "If a student applies and is admitted for the MS program, but later decides to pursue a PhD degree, the student does not need to reapply to the department. If a student has made satisfactory progress, continuing for a PhD is contingent upon successfully completing the department's PhD Qualifying Process.",
+    "url": "https://www.cs.wisc.edu/grad/programs/admissions/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "We offer financial support to a large number of our admitted students in the form of teaching assistantships, research assistantships and/or competitive fellowships. Decisions on financial support are made at the same time as admission decisions.",
+    "url": "https://www.cs.wisc.edu/grad/programs/admissions/"
+   },
+   "program_size": null
+  }
+ },
+ "52": {
+  "school": "UW-Milwaukee CS",
+  "phd": {
+   "deadline_iso": "2027-04-01",
+   "priority_iso": null,
+   "url": "https://uwm.edu/graduateschool/program-deadlines/",
+   "quote": "{\"program\": \"Computer Science\", \"degree\": \"Ph.D.\", \"academic_plan_code\": \"COMPSCIPHD\", \"program_deadlines\": [{\"deadline\": \"1970-04-01\", \"semester\": \"f\"}, {\"deadline\": \"1970-09-01\", \"semester\": \"s\"}]}",
+   "note": "Year not printed: April 1 fall (Sept 1 spring) from the Graduate School's deadline-chart data feed (https://web.uwm.edu/datastore/api/v1/program-all-data) that renders the official chart page. Catalog (https://catalog.uwm.edu/engineering-applied-science/computer-science/computer-science-phd/, via Wayback 2025): 'The Graduate Record Examination (GRE) is required for all international and domestic applicants.' Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "Students in the regular track are eligible for, but not guaranteed departmental support. To apply for a teaching assistantship, complete the teaching assistant application.",
+    "url": "https://uwm.edu/engineering/academics/computer-science-masters/"
+   },
+   "program_size": null
+  }
+ },
+ "53": {
+  "school": "Virginia Commonwealth CS",
+  "phd": {
+   "deadline_iso": "2027-06-01",
+   "priority_iso": "2027-02-15",
+   "url": "https://bulletin.vcu.edu/graduate/school-engineering/computer-science/computer-science-phd/",
+   "quote": "Ph.D. Fall Jun 1 (Feb 15 for financial assistance) ... Spring Nov 15",
+   "note": "Year not printed; VCU Bulletin admission table (may be dated). Feb 15 for funding. GRE/fee not shown in table."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "Entering a Ph.D. program after first enrolling as a master's student is possible, but it depends upon a variety of factors. If you are a current master's student interested in doctoral studies, consult with your faculty advisor or graduate program director.",
+    "url": "https://egr.vcu.edu/future-students/graduate/faq/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "54": {
+  "school": "Virginia Tech CS",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html",
+   "quote": "Fall 2027 Admission PhD Program (Fall admission only) : Application Deadline: December 1, 2026 (Blacksburg & Northern Virginia campuses). Notification Date: Decisions are typically issued by March 1, 2027.",
+   "note": "GRE/fee not shown on this page."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "If approved, this would be done using the \"Request for Change of Degree Status\" form ... However, permission to switch is not automatically granted. Students who came into the MS program and have received GTA or GRA funding might not be permitted to switch since we consider this a commitment to complete a thesis.",
+    "url": "https://students.cs.vt.edu/Graduate/FAQs.html"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "yes",
+    "quote": "Students who came into the MS program and have received GTA or GRA funding ...",
+    "url": "https://students.cs.vt.edu/Graduate/FAQs.html"
+   },
+   "program_size": null
+  }
+ },
+ "55": {
+  "school": "Washington State (Pullman) EECS",
+  "phd": {
+   "deadline_iso": "2027-01-10",
+   "priority_iso": "2027-01-10",
+   "url": "https://school.eecs.wsu.edu/academics/graduate-program/admission/",
+   "quote": "Priority deadline is January 10 for fall semester and July 1 for spring semester.",
+   "note": "Year not printed. Priority deadline only; later applications still reviewed but with lower funding preference. '*GRE scores are optional.' Fee not shown."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "Funded positions typically go to Ph.D. students, but there are occasional positions available for Master's students. Assistantship positions are dependent on availability of funds as well as faculty interest and research openings.",
+    "url": "https://school.eecs.wsu.edu/academics/graduate-program/prospective-graduate-student-faq/"
+   },
+   "program_size": null
+  }
+ },
+ "56": {
+  "school": "Rice CS",
+  "phd": {
+   "deadline_iso": "2027-01-01",
+   "priority_iso": null,
+   "url": "https://csweb.rice.edu/academics/graduate-programs/admission/graduate-program-application",
+   "quote": "Fall 2027 January 1, 2027: Ph.D. Program ... Ph.D. applications will continue to be reviewed on a rolling basis after January 1, with preference to those who submit by January 1, 2027",
+   "note": "'There is no application fee for the Ph.D. program.' Decisions mid-March. GRE not checked."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "The MCS program does not normally lead to further graduate study. [Research M.S./Ph.D. track is combined: 'Almost all M.S./Ph.D. students in Computer Science receive stipends and tuition waivers']",
+    "url": "https://gradhandbooks.rice.edu/2026_27/Computer_Science_Graduate_Handbook.pdf"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "partial",
+    "quote": "The CS department supports M.S. students who have received the CS Graduate Fellowship. This support includes a stipend and tuition. ... As a matter of University policy, Rice does not offer financial support for MCS students.",
+    "url": "https://gradhandbooks.rice.edu/2026_27/Computer_Science_Graduate_Handbook.pdf"
+   },
+   "program_size": null
+  }
+ },
+ "57": {
+  "school": "Univ. of Chicago CS",
+  "phd": {
+   "deadline_iso": "2026-12-10",
+   "priority_iso": null,
+   "url": "https://computerscience.uchicago.edu/academics/admission/",
+   "quote": "To apply, you should use the online system (Deadline: December 10, 2026, a $90 application fee).",
+   "note": "UNVERIFIED BY DIRECT FETCH: quote is from the search engine's index of the official page; the live page is down (cert error / 'Site Maintenance' on 2026-11-06). Wayback (2026-06-30) shows the prior cycle: 'Deadline: December 11, 2025, a $90 application fee' and 'UChicago CS will not require the GRE exam for this PhD application cycle.' Re-check before relying."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "58": {
+  "school": "Cornell Tech = Cornell CS PhD",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.cornell.edu/index.php/phd-computer-science/apply",
+   "quote": "The department accepts applications for the Fall semester only. The deadline for the Fall semester is December 15th. Applying early is strongly advised.",
+   "note": "Year not printed (confirmed known 2026-12-15). Student-Applicant Support Program deadlines passed (form Oct 23, materials Nov 6, 2026)."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "At Cornell, PhD students receive an MS degree midway through their studies, when they take and pass the A exam ... Regardless of if you will have earned either a Bachelor's or a Master's degree, you should be applying directly to our PhD Program.",
+    "url": "https://www.cs.cornell.edu/index.php/phd-computer-science/apply"
+   },
+   "ms_research_publish": {
+    "value": "yes",
+    "quote": "Six to twelve (6-12) of the 34 credits must be associated with thesis research. ... Written thesis and oral presentation. [Ithaca CS MS]",
+    "url": "https://www.cs.cornell.edu/master-science-computer-science"
+   },
+   "ra_for_ms": {
+    "value": "yes",
+    "quote": "The fully-funded program combines graduate-level research with hands-on teaching opportunities. ... Supported by teaching assistantships for fall and spring semesters with good standing. [Ithaca CS MS; 'Small program with strong preference for Cornell undergraduates']",
+    "url": "https://www.cs.cornell.edu/master-science-computer-science"
+   },
+   "program_size": null
+  }
+ }
+}

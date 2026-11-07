@@ -1,0 +1,80 @@
+{
+ "0": {
+  "school": "Carnegie Mellon",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 31482,
+  "fees_usd": 1040,
+  "health_usd": 3352,
+  "url": "https://www.cmu.edu/sfs/tuition/graduate/scs.html",
+  "quote": "Student Activities Fee $248; Living Expenses - Housing $14,752; Living Expenses - Food $8,664; Books and Supplies $2,212; Health Insurance $3,352; Personal and Misc. $4,098; Travel Allowance $1,756; Transportation Fee $302; Technology Fee $490; Estimated Loan Fees* $1,500; TOTAL $37,374 + tuition",
+  "basis": "living = housing 14,752 + food 8,664 + books 2,212 + personal 4,098 + travel allowance 1,756 = 31,482. fees = activities 248 + technology 490 + transportation fee 302 = 1,040 (matches 'Fees: $1,040' on the CMU 2026-27 graduate tuition index). Excludes health 3,352 and est. loan fees 1,500.",
+  "fees_included_in_tuition": false,
+  "note": "SCS (School of Computer Science) master's page; same line items on College of Engineering page per search. Budget period not stated (Fall/Spring columns only, so 9 mo implied). SCS master's tuition $62,200/yr listed separately. Activities fee updated to $248 on July 29 2026."
+ },
+ "1": {
+  "school": "NYU (Tandon/graduate, Traditional Programs 9 cr)",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 38472,
+  "fees_usd": null,
+  "health_usd": 5100,
+  "url": "https://bulletins.nyu.edu/graduate/engineering/cost-attendance/",
+  "quote": "Indirect Expenses for Traditional Programs, Traditional Programs (9 credits), Food $6,910, Housing $24,414, Books $1,564, Transportation $2,438, Personal Expenses $3,146, Health Insurance $5,100, Total (Fall/Spring semesters) $42,274 (via search snippet; site unreachable from this machine)",
+  "basis": "living = food 6,910 + housing 24,414 + books 1,564 + transportation 2,438 + personal 3,146 = 38,472; health 5,100 separate.",
+  "fees_included_in_tuition": null,
+  "note": "Could not fetch NYU pages directly (bulletins.nyu.edu timeout, nyu.edu 403); values come from search-engine snippets of the official pages. Conflict: snippet total 42,274 does not equal the sum of lines (43,572). The nyu.edu/admissions cost-of-attendance page reportedly shows housing $25,306 and total $44,464 (which does sum), giving living 39,364. Budget is for two semesters, not living with family. Tuition/fees come from Bursar lookup (not retrieved); fees_usd null."
+ },
+ "2": {
+  "school": "Boston University",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 21926,
+  "fees_usd": 1048,
+  "health_usd": 4054,
+  "url": "https://www.bu.edu/cas/admissions/phd-mfa/fellowship-aid/cost-of-attendance/",
+  "quote": "AY26-27 Housing $12,315 Food $3,935 Personal $3,292 Transportation $1,120 Books and Supplies $1,264 Direct Loan Fees* $214 TOTAL $22,140 ... annual premium for 2026-2027 is $4,054",
+  "basis": "living = 12,315 + 3,935 + 3,292 + 1,120 + 1,264 = 21,926 (excludes 214 loan fees). fees = Student Services 458 + Health & Wellness 590 = 1,048 per academic year (full-time).",
+  "fees_included_in_tuition": false,
+  "note": "Page is CAS PhD/MFA grad page but states 'typical full-time graduate student' standard living expenses; Summer is a separate column, so AY = fall+spring (9 mo implied, not stated). MS tuition (CAS MA/MS) is a different rate; living budget likely shared across BU grad but not confirmed for MS CS. Tuition on that page $73,024/yr is PhD/MFA rate. Off-campus not distinguished."
+ },
+ "3": {
+  "school": "Georgia Tech",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 25256,
+  "fees_usd": null,
+  "health_usd": null,
+  "url": "https://finaid.gatech.edu/costs/graduate-costs",
+  "quote": "Page (via fetch summary, paraphrased labels) 2026-2027 Out of State off campus: books $800, housing allowance $14,380, food $6,310, personal/misc $2,800, transportation $966, avg loan costs $140; total per year excluding tuition/fees $25,396",
+  "basis": "living = 800 + 14,380 + 6,310 + 2,800 + 966 = 25,256 (out-of-state, off campus, excludes 140 loan cost). Georgia-resident: 24,856 (transport 566). Out-of-country listed total 25,256.",
+  "fees_included_in_tuition": null,
+  "note": "Page excludes tuition and fees and points to bursar.gatech.edu; budget period not stated ('per year'). Mandatory fees: Bursar sp27 totals sheet has an unlabeled column of $211/$758 per Atlanta grad row, which may be fees, but headers were not interpretable so fees_usd left null. Health insurance not listed on COA page. Quote is a paraphrase from the fetch tool, not verbatim."
+ },
+ "4": {
+  "school": "UIUC",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 20802,
+  "fees_usd": 5680,
+  "health_usd": null,
+  "url": "https://cost.illinois.edu/Home/Cost/N/G/Compare/12/120268/120268",
+  "quote": "Non-Illinois U.S. resident, Graduate, Fall 2026, 12 credit hours, yearly: Tuition $32,204.00; Fees $5,680.00; Food & Housing $16,512.00; Books & Supplies $1,200.00; Other Expenses $3,090.00; Total $58,686.00",
+  "basis": "living = 16,512 + 1,200 + 3,090 (Other = transportation, clothing, recreation, other living) = 20,802. fees 5,680 listed separately from tuition.",
+  "fees_included_in_tuition": false,
+  "note": "Official UIUC cost calculator, base rate with no program selected (not Grainger MS CS, whose differential tuition is higher). Fall-Spring academic year, months not stated. Health insurance not itemized (campus insurance fee likely within Fees; unconfirmed). A later search snippet showed fees 5,776; fetched page shows 5,680."
+ },
+ "5": {
+  "school": "George Mason",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 39473,
+  "fees_usd": null,
+  "health_usd": null,
+  "url": "https://www.gmu.edu/admissions-aid/cost-attendance",
+  "quote": "Graduate Estimated Off-Campus food and housing $28,446; Transportation Off-Campus $3,220; Personal Expenses Off-Campus $6,427; Books $1,380; Graduate tuition in-state $18,681 / out-of-state $41,782 based on 9 credits per semester",
+  "basis": "living = 28,446 + 3,220 + 6,427 + 1,380 = 39,473 (off-campus graduate).",
+  "fees_included_in_tuition": null,
+  "note": "Mandatory fees not itemized on COA page; separate one-time $60 graduate New Student Fee. Per-credit sheet (studentaccounts.gmu.edu AY26-27) reportedly lists $610 tuition + $169 fees in-state, $1,571 out-of-state; unverified whether the $18,681/$41,782 tuition figure bundles fees, so left null. Months not stated."
+ }
+}

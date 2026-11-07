@@ -39,13 +39,32 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "Year inferred: page says \"December 20\" without a year; positions start in 2027.",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "Posting seeks \"top minds and rising stars in cryptography research\"; interns are matched with a CIS research scientist and must be PhD students in crypto/security/theoretical CS.",
   "track_source": "https://careers.ntt-research.com/cis",
   "letters_required": "yes (1)",
   "letters_required_reason": "\"List a minimum of 1 reference for this job\"; referees get an upload link.",
-  "letters_required_source": "https://careers.ntt-research.com/intern"
+  "letters_required_source": "https://careers.ntt-research.com/intern",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Interested individuals should have demonstrated strong mathematical ability and be enrolled in a PhD program with a focus on cryptography, computer security, or theoretical computer science.",
+    "url": "https://careers.ntt-research.com/cis",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "CRYPTO/EUROCRYPT pubs (in practice)",
+    "quote": "typically only take on summer interns who are full-time PhD students and who have already published at the top cryptography conferences like CRYPTO/EUROCRYPT",
+    "url": "email from NTT CIS to candidate, Nov 2026 (no public URL; quote taken from row, not re-verified)",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Posting: interns \"will be matched with one of our research scientists as a mentor\". Lab page lists Dr. Brent Waters (Director), Dr. Elette Boyle, Dr. Pratish Datta, Dr. Vipul Goyal, Dr. Abhishek Jain - theory cryptographers publishing at CRYPTO/EUROCRYPT/STOC/FOCS (venue claim is my judgment; names verified).",
+  "letter_value_url": "https://cis.ntt-research.com/",
+  "event_type": "internship"
  },
  {
   "org": "Microsoft Research",
@@ -86,13 +105,32 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "Group page: research spans \"core cryptography\" and the team \"regularly publish[es] in top conferences in the field\"; interns join through the research-intern program.",
   "track_source": "https://www.microsoft.com/en-us/research/group/msr-cryptography/",
   "letters_required": "yes (2)",
   "letters_required_reason": "Microsoft research-intern postings: \"a minimum of two reference letters\".",
-  "letters_required_source": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography"
+  "letters_required_source": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Currently enrolled in a PhD program in Computer Science or related STEM field.",
+    "url": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Min. 2 reference letters",
+    "quote": "you'll need to submit a minimum of two reference letters for this position",
+    "url": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Group page says it hosts \"interns every year through Microsoft's internship program\"; People page: Josh Benaloh, Melissa Chase, Craig Costello, Betul Durak, Esha Ghosh, Kim Laine, Patrick Longa, Greg Zaverucha et al. (Chase/Ghosh/Zaverucha publish at CRYPTO/EUROCRYPT - my judgment). Gate quotes are from last-cycle aggregator copy (jobs.anitab.org, secondary); no Summer 2027 crypto posting found.",
+  "letter_value_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/people/",
+  "event_type": "internship"
  },
  {
   "org": "Microsoft Research",
@@ -133,13 +171,32 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Security Research Group posting: interns explore \"building secure and trustworthy software and cloud services\" (confidential computing, ZK, formal verification); prefers \"ability to build and extend complex software\".",
   "track_source": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
   "letters_required": "yes (2)",
   "letters_required_reason": "\"submit a minimum of two reference letters for this position\".",
-  "letters_required_source": "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557022480&domain=microsoft.com&hl=en"
+  "letters_required_source": "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557022480&domain=microsoft.com&hl=en",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Currently enrolled in a Doctorate Degree program in Computer Science, STEM, or a related field.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Min. 2 reference letters",
+    "quote": "you'll need to submit a minimum of two reference letters for this position as well as a cover letter and any relevant work or research samples.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Posting: group \"investigates systems that leverage general software/systems security, confidential computing, formal verification, zero-knowledge proofs, data-driven security, and agentic security\" - security/systems researchers with some ZK work, not a theory-crypto group.",
+  "letter_value_url": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+  "event_type": "internship"
  },
  {
   "org": "Microsoft Research",
@@ -177,7 +234,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Posting desires \"hardware RTL development (Verilog/VHDL), validation and side channel analysis using FPGAs\" and AI-built testbenches: hardware validation work despite the research-intern title.",
   "track_source": "https://simplify.jobs/p/af9ab5dc-ea22-45aa-8e47-1a9dd4e899f4",
@@ -222,13 +278,32 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Azure Research security/privacy: \"Build prototypes for new ideas\" in confidential computing, protocol verification and side channels, communicated through papers; systems-security research, not crypto theory.",
   "track_source": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557050102&domain=microsoft.com&hl=en"
+  "letters_required_source": "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557050102&domain=microsoft.com&hl=en",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD, or MS w/ research exp.",
+    "quote": "Students enrolled in a PhD program or outstanding undergraduate/master's students with research experience.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Top-venue papers strongly desired",
+    "quote": "One or two papers at top security conferences (e.g., USENIX, CCS, S&P, NDSS) ... is strongly desired.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Posting focus: \"confidential computing systems, secure distributed computing, secure agentic AI, software security, microarchitectural security, and formal verification\" - systems security; crypto appears only as protocol verification.",
+  "letter_value_url": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+  "event_type": "internship"
  },
  {
   "org": "Google",
@@ -269,7 +344,6 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "Window may close earlier if projects fill.",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "General Google Student Researcher pool; listed areas are NLU, HCI, vision, ML, optimization, quantum, data science, SWE, with no crypto/security area named.",
   "track_source": "https://www.google.com/about/careers/applications/jobs/results/131518356678156998-student-researcher-bsms-wintersummer-2027",
@@ -315,13 +389,25 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "Window may close earlier if projects fill.",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "General Google Research Intern pool: interns \"develop and execute a research agenda\"; privacy is the only security-adjacent area listed, so crypto placement depends on team match.",
   "track_source": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
+  "letters_required_source": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Currently enrolled in a PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences, or related technical field.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "General research-intern pool (ML-heavy area list); host team unspecified. Google does employ cryptographers (e.g., Mariana Raykova: \"I work in the areas of cryptography and security\"; ASIACRYPT/CCS/S&P papers), so the letter is high only if matched to such a host.",
+  "letter_value_url": "https://research.google/people/mariana-raykova/",
+  "event_type": "internship"
  },
  {
   "org": "IBM Research",
@@ -359,13 +445,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Interns \"design, implement, and evaluate state-of-the-art tools and systems to secure AI agents\"; systems-security research with proof-of-concept implementations, no cryptography.",
   "track_source": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://careers.ibm.com/careers/JobDetail?jobId=132704"
+  "letters_required_source": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "Bachelor's required",
+    "quote": "Required education Bachelor's Degree Preferred education Master's Degree",
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Posting requires \"Knowledge of systems security and software security\" and prefers \"Experience with AI agents and agentic software development\" - AI-agent/systems security, not cryptography.",
+  "letter_value_url": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+  "event_type": "internship"
  },
  {
   "org": "IBM Research",
@@ -406,13 +504,19 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "Only current IBM Zurich crypto opening is the Foundational Cryptography group's \"research on cryptographic proof systems\" (a 4-year PhD position, not a summer internship).",
   "track_source": "https://www.zurich.ibm.com/careers/2026_022.html",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.zurich.ibm.com/careers/"
+  "letters_required_source": "https://www.zurich.ibm.com/careers/",
+  "gates": [],
+  "letter_value": "high",
+  "letter_value_reason": "No intern posting exists (gates empty). Zurich careers page (2026-11-06) lists only Security Research \"PhD Position Time and Memory Efficient Proof Systems\" (Ref. 2026_022): \"The Foundational Cryptography group at IBM Research Zurich has an opening for a PhD position\"; contact Dr. Jonathan Bootle. Group (Lyubashevsky/Seiler/Bootle; lattice crypto, CRYPTO/EUROCRYPT authors - my judgment) would be a high-value letter if a position existed.",
+  "letter_value_url": "https://www.zurich.ibm.com/careers/2026_022.html",
+  "event_type": "internship",
+  "top_pick": 5,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (high), then theory before applied, then reachability (Very hard). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Apple",
@@ -451,7 +555,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Apple software PhD pool: responsibilities are back-end, OS, UI/UX, iOS/web development; Information Security is one SWE track.",
   "track_source": "https://jobs.apple.com/en-us/details/200664323-3810/software-phd-internships?team=STDNT",
@@ -495,7 +598,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Apple software-engineering masters pool: back-end, Core OS, web and iOS development; Information Security is one SWE track.",
   "track_source": "https://jobs.apple.com/en-us/details/200664320-3810/software-engineering-masters-internships?team=STDNT",
@@ -540,7 +642,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "AIML PhD internship: \"design and implement an innovative solution for a Machine Learning problem\"; privacy appears only as one ML-adjacent area.",
   "track_source": "https://jobs.apple.com/en-us/details/200664223-3810/machine-learning-and-artificial-intelligence-phd-internships?team=STDNT",
@@ -585,13 +686,34 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Meta Research Scientist Intern, Security & Privacy: systems/OS/hardware security research (from stored description; posting unreadable)",
   "track_source": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635"
+  "letters_required_source": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD (current/recent) only",
+    "quote": "Currently pursuing or recently completed PhD in Computer Science, Electrical Engineering, Cybersecurity, or related field",
+    "url": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Aggregator copy (career.com, secondary; expired 4/4/2026) shows the host is Reality Labs Research, which \"brings together a world-class team of researchers, developers, and engineers to create the future of AR and VR\" - systems/architecture security, not crypto.",
+  "letter_value_url": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "eligibility",
+    "old": "Enrolled in or recently finished a PhD in computer science, electrical engineering, cybersecurity, or a related field, focused on systems/OS security or computer architecture (aggregator copy, paraphrased).",
+    "new": "\"Currently pursuing or recently completed PhD in Computer Science, Electrical Engineering, Cybersecurity, or related field\"; team is Reality Labs Research (AR/VR); posting expired 4/4/2026.",
+    "url": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+    "quote": "Currently pursuing or recently completed PhD in Computer Science, Electrical Engineering, Cybersecurity, or related field"
+   }
+  ]
  },
  {
   "org": "Meta",
@@ -631,13 +753,41 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "IACR posting: PhD interns in PETs, \"Honest-Majority MPC and Non-Malleable Encryption\"; crypto expertise is key but it is \"categorized as a general software engineering internship (PhD)\".",
   "track_source": "https://iacr.org/news/item/22180",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://iacr.org/news/item/22180"
+  "letters_required_source": "https://iacr.org/news/item/22180",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD interns only",
+    "quote": "Meta is looking for several PhD interns with expertise in Cryptography",
+    "url": "https://iacr.org/news/item/22180",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Coding assessed (SWE PhD intern)",
+    "quote": "Basic coding skills are a requirement which will be assessed during the application process since the internships are categorized as a general software engineering internship (PhD) at Meta.",
+    "url": "https://iacr.org/news/item/22180",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "IACR call (18 December 2023) names contact Daniel Masny (Meta crypto team; CRYPTO/EUROCRYPT/TCC author - my judgment) and topics \"Honest-Majority MPC and Non-Malleable Encryption\".",
+  "letter_value_url": "https://iacr.org/news/item/22180",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "notes",
+    "old": "(no contact named)",
+    "new": "IACR item names contact Daniel Masny; internships are categorized as a general software engineering internship (PhD).",
+    "url": "https://iacr.org/news/item/22180",
+    "quote": "For other questions: Daniel Masny"
+   }
+  ]
  },
  {
   "org": "Meta",
@@ -676,7 +826,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Product Security Engineer intern: AI-enhanced security reviews, building static/dynamic analysis tooling, fuzzing for memory-safety bugs.",
   "track_source": "https://www.metacareers.com/profile/job_details/2535222523640873",
@@ -723,13 +872,46 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Applied Science intern in formal methods: \"design and implementation of algorithms and formal methods for automated reasoning\" (SAT/SMT, theorem proving), with cryptographic assurance as one application area.",
   "track_source": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning"
+  "letters_required_source": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Are enrolled in a PhD",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Formal-methods background",
+    "quote": "Experience in one or more of the following: mathematical logic, formal verification, satisfiability solving (SAT/SMT), mechanical theorem proving, model checking, or program analysis",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Research depth (pubs/thesis)",
+    "quote": "Demonstrated science depth in a specific research area, evidenced through publications, thesis work, or equivalent contributions",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "12 wk, 40 h/wk, relocate",
+    "quote": "Can relocate to where the internship is based - Work 40 hours/week minimum and commit to 12 week internship minimum",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "AWS Automated Reasoning is formal methods (Lean/SMT/Isabelle); crypto touchpoint is verifying PQC implementations (Amazon Science article \"Verifying and optimizing post-quantum cryptography at Amazon\"), not theory-crypto research.",
+  "letter_value_url": "https://www.amazon.science/research-areas/automated-reasoning",
+  "event_type": "internship"
  },
  {
   "org": "Amazon / AWS",
@@ -767,7 +949,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "Masters applied-science pool for ML, NLP, CV, automated reasoning, robotics; interns \"own the design and development of end-to-end systems\"; no crypto.",
   "track_source": "https://www.amazon.jobs/en/jobs/10564586/2027-applied-science-internship-united-states-master-s-student-science-recruiting",
@@ -778,7 +959,7 @@
  {
   "org": "Cloudflare",
   "program_name": "Cloudflare Research - Research Engineer Intern (Summer)",
-  "url": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+  "url": "https://job-boards.greenhouse.io/cloudflare",
   "location": "Austin, TX (2026 posting: in office 3-4 days/week); other cycles listed London and Austin",
   "focus_area": "applied cryptography, privacy, security, systems/networking research",
   "eligibility": "\"students at all levels are welcome to apply\"; requires \"Proven track record of peer-reviewed research, open-source software contributions, or standards development, that is commensurate with level of training\"",
@@ -797,7 +978,7 @@
   "prestige_justification": "My judgment: Cloudflare Research ships and standardizes PQ TLS, Privacy Pass and similar work at Internet scale. Well regarded in applied crypto, but not a theory-crypto lab.",
   "difficulty_for_sahmoud": "Moderate",
   "difficulty_reason": "Open to students at all levels and counts open-source/standards work. His 9y systems SWE and Mitiq OSS contribution fit, but competition is heavy and his crypto record is thin.",
-  "notes": "Original Greenhouse posting (job 8089407) returns 404. Text comes from the Built In mirror (aggregator, flagged). Applicants may also submit a project proposal of at most 200 words. Pay was not shown in the mirror. No 2027 Research intern posting was live on 2026-11-06.",
+  "notes": "Original Greenhouse posting (job 8089407) returns 404. Text comes from the Built In mirror (aggregator, flagged). Applicants may also submit a project proposal of at most 200 words. Pay was not shown in the mirror. No 2027 Research intern posting was live on 2026-11-06. Round 2: the old link was a builtin.com copy of the Summer 2026 posting (removed May 2026). As of 2026-11-06 Cloudflare's Greenhouse board lists no 2027 Research intern role (only Software Engineer Intern (2027), Product Manager Intern (2027) and a People Team intern), so the URL now points to the board.",
   "sources": [
    "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
    "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
@@ -814,13 +995,41 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Cloudflare Research work \"involves engineering, data analysis, open source software development, protocol design, implementation of primitives, with lots of measurement\" (posting removed but text readable).",
   "track_source": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514"
+  "letters_required_source": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "Peer-reviewed/OSS/standards record",
+    "quote": "Proven track record of peer-reviewed research, open-source software contributions, or standards development, that is commensurate with level of training",
+    "url": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Students at all levels",
+    "quote": "students at all levels are welcome to apply",
+    "url": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Cloudflare Research (\"Our team includes experts in many disciplines, including applied cryptography, privacy\"); research engineers incl. Bas Westerbaan, Christopher Patton, Thibault Meunier, Luke Valenta - applied crypto / IETF standards, not theory venues.",
+  "letter_value_url": "https://research.cloudflare.com/people/",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "url/status",
+    "old": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514 (Summer 2026 posting)",
+    "new": "None: no 2027 Research intern posting on Cloudflare Greenhouse as of 2026-11-06 (public board API, 464 jobs; only intern roles are Software Engineer Intern (2027), Product Manager Intern (2027) x3, People Team Intern). Built In mirror says job removed May 7, 2026; Greenhouse job 8089407 returns 404.",
+    "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
+    "quote": "Software Engineer Intern (2027) | Product Manager Intern (2027) - Austin, TX | People Team Intern, HR Transformation (Winter 2027)"
+   }
+  ]
  },
  {
   "org": "Visa Research",
@@ -860,13 +1069,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Visa Research PhD intern posting describes \"applied research in quantum algorithms ... and quantum cryptography\" for payments, with publication track record required.",
   "track_source": "https://jobs.smartrecruiters.com/Visa/744000081110136",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://jobs.smartrecruiters.com/Visa/744000081110136"
+  "letters_required_source": "https://jobs.smartrecruiters.com/Visa/744000081110136",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD, grad. Dec 2026+",
+    "quote": "Students pursuing a Ph.D. with a graduation date in December 2026 or later",
+    "url": "https://jobs.smartrecruiters.com/Visa/744000081110136",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Visa Research crypto staff publish at theory venues, e.g. Srinivasan Raghuraman \"has published papers in several international conferences and journals, including CRYPTO, EUROCRYPT, Theory of Cryptography Conference (TCC)\"; also Suvradip Chakraborty, Navid Alamati, Peter Rindal. Caveat: this posting is the quantum/AI track; high only if hosted by the crypto group. Staff-page quote from search snippet, not re-fetched.",
+  "letter_value_url": "https://usa.visa.com/about-visa/visa-research/srinivasan-raghuraman.html",
+  "event_type": "internship"
  },
  {
   "org": "JPMorgan Chase",
@@ -907,13 +1128,41 @@
   "deadline_kind": "posting end",
   "status": "open",
   "deadline_iso_note": "Scheduled posting end from the JPMC careers API; not stated as a hard deadline.",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "JPMC AI Research PhD intern program; team includes \"experts in trustworthy AI, privacy, and cryptography\" but the role requires AI/ML research publications.",
   "track_source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354"
+  "letters_required_source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "Currently pursuing a PhD in Computer science, Engineering, or related fields with relevant research experience in AI/ML",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Top-venue pubs (NeurIPS/ICML/CRYPTO)",
+    "quote": "Research publications in top-tier AI/ML venues (e.g., conferences, journals) - broad conferences such as NeurIPS, ICML, ICLR, etc., or highly regarded specialized conferences such as ICAPS, CRYPTO, etc.",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Only if placed in research area (g) 'Cryptography and secure multi-party computation': JPMC AI Research cryptography is led by Antigoni Polychroniadou (Aarhus PhD under Damgard; MPC theory). Her homepage: \"As of January 2019, I am a vice president at J.P. Morgan AI research and cryptographer lead\" and \"My research interests lie in cryptography and more broadly in theoretical computer science.\" Homepage is dated; current title and CRYPTO/EUROCRYPT counts not re-verified this run (dblp rate-limited). In an AI/ML area the letter would be low for theory crypto.",
+  "letter_value_url": "https://www.cs.cornell.edu/~polychroniadou/",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "notes",
+    "old": "No program named 'AlgoCRYPT' was found",
+    "new": "'AlgoCRYPT' appears (web-search snippet only, PDF not opened) as a JPMC Center of Excellence name in an Oct 2025 Polychroniadou presentation, not as an intern program. JPMC careers API keyword 'cryptography' (2026-11-06) shows no separate crypto intern req beyond 210800354/210800615.",
+    "url": "https://sf-web-assets-prod.s3.amazonaws.com/wp-content/uploads/2025/10/21154833/Antigoni-Presentation.pdf",
+    "quote": "(search snippet, unverified) places her under the AlgoCRYPT CoE, with research pillars including encryption, zero-knowledge proofs, quantum cryptography"
+   }
+  ]
  },
  {
   "org": "JPMorgan Chase",
@@ -954,13 +1203,33 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "JPMC GTAR applied research on quantum-safe/post-quantum crypto and quantum communication (from stored description; posting unreadable)",
   "track_source": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301"
+  "letters_required_source": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "MS or PhD student (math/sci/eng/CS)",
+    "quote": "Enrolled in a master's or Ph.D. degree program in math, science, engineering, computer science or related fields",
+    "url": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "GTAR is JPMC's applied quantum/crypto research center (QKD, PQC migration), applied venues rather than CRYPTO/TCC. Gate quote is from the row (search-index snippet of a 2025 posting); URL returns HTTP 404 on 2026-11-06, so quote UNVERIFIED. JPMC careers REST search 2026-11-06 (keywords cryptography, quantum, applied research) shows no 2027 GTAR summer-associate req. No mentor evidence URL found.",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "eligibility_source",
+    "old": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+    "new": null,
+    "url": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+    "quote": "HTTP 404 on 2026-11-06; no live 2027 GTAR crypto/quantum summer-associate req in JPMC careers API"
+   }
+  ]
  },
  {
   "org": "Bosch Research (Research and Technology Center North America)",
@@ -1000,13 +1269,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Bosch RTC-NA: \"conduct applied research\" in \"applied cryptography, security, privacy, and embedded systems\" (automotive security; embedded C/Assembly, JTAG, FPGA skills).",
   "track_source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254"
+  "letters_required_source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "Embedded sec + C/ASM, JTAG, Verilog",
+    "quote": "Required Qualification: Expertise in Security : Strong knowledge of embedded systems security ... Proficiency in low-level programming languages for embedded systems, especially C and Assembly, with experience using debugging interfaces such as JTAG and UART as well as hardware description languages for FPGAs such as Verilog and VHDL",
+    "url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Applied automotive/embedded security: \"automotive system security, IT security applications, and security for and with machine learning\"; no theory-crypto mentors identified. PhD enrollment is only 'Desired'. Posting active=false (released 2025-01-30).",
+  "letter_value_url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
+  "event_type": "internship"
  },
  {
   "org": "Intel Labs",
@@ -1046,7 +1327,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Intel Labs Security Circuits intern: hardware accelerators / security circuit design for crypto workloads (from stored description; posting unreadable)",
   "track_source": "https://jobs.intel.com/en/job/-/security-circuits-research-intern/41147/76024207776",
@@ -1092,13 +1372,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "SandboxAQ residency: residents work on Large Quantitative Model projects across fields incl. cybersecurity (\"mapping vulnerabilities\"); no crypto-theory track named on the current page.",
   "track_source": "https://www.sandboxaq.com/company/residencies",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.sandboxaq.com/company/residencies"
+  "letters_required_source": "https://www.sandboxaq.com/company/residencies",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "STEM grad/undergrad/postdoc",
+    "quote": "Open to STEM graduate students, medical students, MBA candidates, undergraduates, and postdocs",
+    "url": "https://www.sandboxaq.com/company/residencies",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "SandboxAQ employs top PQC/lattice researchers, e.g. Martin Albrecht: \"I am a professor in cryptography at King's College London . I am also a Principal Research Scientist for SandboxAQ . I work in cryptography, especially post-quantum and lattice-based cryptography\". But the residency page frames projects around \"Large Quantitative Models (LQMs)\" with no crypto track named, so such supervision is not assured.",
+  "letter_value_url": "https://malb.io/",
+  "event_type": "internship"
  },
  {
   "org": "Zama",
@@ -1139,13 +1431,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Zama intern \"will mix some research ... and some implementation\"; \"main tasks will be to write high performance code in Rust\" for the Concrete FHE library.",
   "track_source": "https://iacr.org/news/index.php?next=17886",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://iacr.org/news/index.php?next=17886"
+  "letters_required_source": "https://iacr.org/news/index.php?next=17886",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student (2022 post)",
+    "quote": "We are looking for a PhD student to join our team as a research intern (during the summer).",
+    "url": "https://iacr.org/news/index.php?next=17886",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Intern \"will work with a team of cryptographers\" (Zama FHE) but the role \"will mix some research ... and some implementation\" in the Concrete library. Applied FHE, not theory. IACR news post dated 02 March 2022; no 2027 call found.",
+  "letter_value_url": "https://iacr.org/news/index.php?next=17886",
+  "event_type": "internship"
  },
  {
   "org": "PQShield",
@@ -1186,7 +1490,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "PQShield \"Software Prototype Intern\": integrate and benchmark PQC libraries, build proof-of-concept integrations, write docs (posting removed but text readable).",
   "track_source": "https://builtin.com/job/software-prototype-intern-post-quantum-cryptography/8304510",
@@ -1233,7 +1536,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Trail of Bits security consultancy internship: assessments, tool development, reverse engineering; cryptography/cryptanalysis is one team's audit domain.",
   "track_source": "https://builtin.com/job/summer-internship-2026/8094619",
@@ -1279,7 +1581,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "NEC Data Science & System Security intern: LLMs, AI agents, time-series and graph mining; security only as \"AI for security and security for AI\".",
   "track_source": "https://www.appone.com/MainInfoReq.asp?R_ID=7221693&B_ID=83&fid=1&Adid=0&ssbgcolor=FFFFFF&SearchScreenID=1381&CountryID=3&LanguageID=2",
@@ -1323,13 +1624,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Ericsson: \"conceptual research studies and prototype work\" on 6G/cellular security, possibly contributing \"to a conference or journal publication\".",
   "track_source": "https://builtin.com/job/research-internship-cellular-security/8547294",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://builtin.com/job/research-internship-cellular-security/8547294"
+  "letters_required_source": "https://builtin.com/job/research-internship-cellular-security/8547294",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "Currently enrolled in a PhD program in Computer Science, Telecommunications, Electrical Engineering, or a related field",
+    "url": "https://builtin.com/job/research-internship-cellular-security/8547294",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Telecom/6G cellular security research, not cryptography theory. Built In: \"Sorry, this job was removed at 02:15 p.m. (UTC) on Friday, Mar 06, 2026\".",
+  "letter_value_url": "https://builtin.com/job/research-internship-cellular-security/8547294",
+  "event_type": "internship"
  },
  {
   "org": "a16z (Andreessen Horowitz) - a16z Frontier research lab (formerly a16z crypto research)",
@@ -1361,7 +1674,6 @@
   ],
   "category": "Industry research labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 6,
   "location_bucket": [
    "NYC"
   ],
@@ -1376,7 +1688,29 @@
   "track_source": "https://boards-api.greenhouse.io/v1/boards/a16z/jobs/8046730003",
   "letters_required": "yes (1)",
   "letters_required_reason": "\"one letter is required, a second letter is optional but recommended\".",
-  "letters_required_source": "https://a16z.com/about/jobs/?gh_jid=8046730003"
+  "letters_required_source": "https://a16z.com/about/jobs/?gh_jid=8046730003",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "1 rec letter required",
+    "quote": "Letters of recommendation (one letter is required, a second letter is optional but recommended)",
+    "url": "https://a16z.com/about/jobs/?gh_jid=8046730003",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "In-office NYC",
+    "quote": "This role will be based in New York City, NY and requires in-office presence in our New York City, NY office.",
+    "url": "https://a16z.com/about/jobs/?gh_jid=8046730003",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Lab founded as a16z crypto research under Tim Roughgarden with cryptographers Valeria Nikolaenko (\"specializes in modern cryptography, computer and web security, post-quantum cryptography\") and Joseph Bonneau (2022 announcement); Justin Thaler (Georgetown; proof systems) appears in current a16zfrontier research posts. Current roster not re-verified and the lab \"has recently expanded its focus from crypto-focused research\" to AI/materials/energy, so a crypto mentor depends on placement. Venue counts not dblp-verified (rate-limited). Deadline: \"submit applications by 12 p.m. PT on November 20, 2026\".",
+  "letter_value_url": "https://a16zfrontier.com/posts/article/announcing-a16z-crypto-research/",
+  "event_type": "internship",
+  "top_pick": 6,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (high), then theory before applied, then reachability (Hard). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Ethereum Foundation",
@@ -1408,7 +1742,6 @@
   ],
   "category": "Blockchain / web3 research",
   "date_retrieved": "2026-11-06",
-  "top_pick": 2,
   "location_bucket": [
    "Remote",
    "International"
@@ -1423,7 +1756,22 @@
   "track_source": "https://blog.ethereum.org/2025/10/14/internship-2026",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://blog.ethereum.org/2025/10/14/internship-2026"
+  "letters_required_source": "https://blog.ethereum.org/2025/10/14/internship-2026",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Univ. student or recent grad",
+    "quote": "The program is intended for university students or recent graduates passionate about Ethereum, open-source contributions, and decentralized technologies.",
+    "url": "https://blog.ethereum.org/2025/10/14/internship-2026",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Intern joins EF Cryptography Research, which \"publishes peer-reviewed results\"; team page lists Gottfried Herold (public key cryptanalysis), George Kadianakis, Dmitry Khovratovich, Antonio Sanso, Benedikt Wagner (\"variants of digital signatures\") and Arantxa Zapico (\"Succinct arguments, zero-knowledge, zkVMs\"). High rests on several being IACR-venue authors; not dblp-verified this run (rate-limited).",
+  "letter_value_url": "https://crypto.ethereum.org/team",
+  "event_type": "internship",
+  "top_pick": 1,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (high), then theory before applied, then reachability (Moderate). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Ethereum Foundation (Protocol Support)",
@@ -1461,7 +1809,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "EPF: pathway for \"aspiring protocol developers\"; work is client implementations, testing and specifications.",
   "track_source": "https://blog.ethereum.org/2026/04/30/epf-7",
@@ -1506,13 +1853,34 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Chainlink Labs research intern: study, invent and \"build production solutions\" in applied crypto/mechanism design; \"professional software development experience is required\".",
   "track_source": "https://builtin.com/job/research-internship/7122716",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://builtin.com/job/research-internship/7122716"
+  "letters_required_source": "https://builtin.com/job/research-internship/7122716",
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "BS CS or equiv. experience",
+    "quote": "B.S. in computer science or equivalent professional experience along with coursework in algorithms and data structures and discrete math.",
+    "url": "https://builtin.com/job/research-internship/7122716",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Prof. software dev experience",
+    "quote": "Professional software development experience is required.",
+    "url": "https://builtin.com/job/research-internship/7122716",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Research led by Ari Juels: \"Ari Juels is currently Chief Scientist at Chainlink Labs. He is also the Weill Family Foundation and Joan and Sanford I. Weill Professor in the Jacobs Technion-Cornell Institute at Cornell Tech\". Group publishes mostly at security/systems venues and the intern role is build-oriented, so medium unless Juels supervises. Posting \"was removed at 06:43 p.m. (UTC) on Friday, Nov 21, 2025\".",
+  "letter_value_url": "https://chainlinklabs.com/research",
+  "event_type": "internship",
+  "top_pick": 9,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (medium), then theory before applied, then reachability (Reachable). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Flashbots",
@@ -1550,13 +1918,17 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Flashbots MEV fellowship: self-directed MEV research (mechanism design, privacy) with a paper on arXiv or forum post as deliverable.",
   "track_source": "https://github.com/flashbots/mev-research/blob/main/grants.md",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://github.com/flashbots/mev-research/blob/main/grants.md"
+  "letters_required_source": "https://github.com/flashbots/mev-research/blob/main/grants.md",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Part-time self-directed MEV grant; a fellow should be \"comfortable working independently, leading research directions for others to follow and be familiar with the standards and rigour required for academic research\". MEV/mechanism-design collaboration, not theory-crypto supervision. No formal eligibility gates on grants.md.",
+  "letter_value_url": "https://github.com/flashbots/mev-research/blob/main/grants.md",
+  "event_type": "fellowship"
  },
  {
   "org": "Mysten Labs",
@@ -1595,13 +1967,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Mysten Labs: \"Pursue applied and fundamental research\" in secure distributed systems/crypto and \"contribute to academic publications\" for Sui.",
   "track_source": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern"
+  "letters_required_source": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "Enrolled in a Ph.D. program in Computer Science, or related technical field.",
+    "url": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Industry crypto/distributed-systems research; interns \"Contribute to academic publications and blog posts\", areas include \"cryptography, security, distributed computing\". Mentors not verified (mystenlabs.com research/team pages 404). Source is Simplify aggregator copy posted Jan 14, 2025.",
+  "letter_value_url": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
+  "event_type": "internship"
  },
  {
   "org": "Aptos Labs",
@@ -1639,13 +2023,25 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Aptos \"Software Engineering Graduate Internship, Research\": research in cryptography/consensus and \"coding up your solution\" for open-source products (2024 posting).",
   "track_source": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819"
+  "letters_required_source": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD in Crypto/Parallelism/Blockchain",
+    "quote": "You are pursuing a Doctorate degree with a specialization in Cryptography, Parallelism, or Blockchain",
+    "url": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Aptos research page lists mostly consensus/systems papers (Narwhal and Tusk, Bullshark, Block-STM) plus crypto such as \"Aggregatable Distributed Key Generation\" (Gurkan, Jovanovic, Maller, Meiklejohn, Stern, Tomescu). Applied crypto/consensus; role involves \"coding up your solution\".",
+  "letter_value_url": "https://aptoslabs.com/research",
+  "event_type": "internship"
  },
  {
   "org": "Matter Labs (ZKsync)",
@@ -1684,13 +2080,32 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Matter Labs PhD research intern in applied cryptography/ZK for zkSync; \"we appreciate the emergence of research papers resulting from internships\".",
   "track_source": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern"
+  "letters_required_source": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "We are actively seeking PhD students specialising in these fields",
+    "url": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Recent papers expected",
+    "quote": "We are seeking individuals who possess pertinent expertise, as evident from their recent research outcomes like papers",
+    "url": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Applied ZK/blockchain research: \"we appreciate the emergence of research papers resulting from internships at the PhD level\". Mentors not identified; ZK engineering org rather than a theory group.",
+  "letter_value_url": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+  "event_type": "internship"
  },
  {
   "org": "Algorand Technologies",
@@ -1728,7 +2143,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Algorand \"Intern - Cryptography\": aggregator files it under engineering and shows no research description (from stored description; posting unreadable)",
   "track_source": "https://cryptocurrencyjobs.co/engineering/algorand-intern-cryptography",
@@ -1747,7 +2161,7 @@
   "eligibility_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
   "publications_expected": "not stated (references should speak to \"your research contributions\" per 2025 posting)",
   "publications_source": "https://app.joinhandshake.com/jobs/9027283/share_preview",
-  "letters_of_recommendation": "Three references required (names); letters of recommendation not required",
+  "letters_of_recommendation": "Three references who can speak to your research, OR letters; letters optional. \"Provide three references who can speak knowledgeably about your research contributions or letters of recommendation. Note that you are not required to submit letters of recommendation.\"",
   "letters_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
   "deadline_summer_2027": "November 14, 2026 (\"applications should be received by November 14, 2026\" for full consideration; listing stays up to Jan 31, 2027)",
   "deadline_last_year_or_typical_window": "SCAMP 2025: \"applications should be received by November 15, 2024\"; job ad \"usually appears in September each year\"",
@@ -1767,7 +2181,6 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 3,
   "location_bucket": [
    "SoCal"
   ],
@@ -1782,12 +2195,64 @@
   "track_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
   "letters_required": "optional",
   "letters_required_reason": "\"Provide three references ... or letters of recommendation. Note that you are not required to submit letters of recommendation.\"",
-  "letters_required_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL"
+  "letters_required_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "US citizenship is required for all applicants.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Mostly PhDs; grad students considered",
+    "quote": "Most SCAMP participants have a PhD in mathematics, statistics, computer science, or a related field. Graduate students and exceptional undergraduates in such fields will also be considered.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Clearance (IDA-sponsored)",
+    "quote": "Employment is contingent on obtaining an appropriate security clearance (which we will sponsor).",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "2027 start unlikely (clearance)",
+    "quote": "The earliest possible SCAMP for applicants in this cycle is SCAMP 2027, but later start dates are more likely.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Not for professional cryptographers",
+    "quote": "we typically do not accept SCAMP applicants whose main occupation is cryptography.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Participants 'work full time for 10 weeks on a few projects side-by-side with our research staff', mostly PhD mathematicians doing classified cryptologic math. They are respected mathematicians, but because the work is classified a letter cannot say much about it. Medium value.",
+  "letter_value_url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+  "event_type": "research-program",
+  "review2_corrections": [
+   {
+    "field": "letters_of_recommendation",
+    "old": "Three references required (names); letters of recommendation not required",
+    "new": "Three references who can speak to research contributions, OR letters (letters optional)",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "quote": "References: Provide three references who can speak knowledgeably about your research contributions or letters of recommendation. Note that you are not required to submit letters of recommendation."
+   }
+  ],
+  "top_pick": 7,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (medium), then theory before applied, then reachability (Hard). Watch: Mostly PhDs; grad students considered; 2027 start unlikely (clearance). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "IDA Center for Communications Research, Princeton (CCR-P)",
   "program_name": "Summer Associate - SCAMP 2027-28 (CCRP)",
-  "url": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+  "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
   "location": "Princeton, NJ",
   "focus_area": "cryptology (\"The conference concentrates on a problem area in cryptology\")",
   "eligibility": "\"Most SCAMP participants have a PhD in mathematics, statistics, computer science or a related field.\" \"Graduate students and exceptional undergraduates in such fields will also be considered.\" \"U.S. Citizenship is required\"; must be able to obtain and maintain a top-secret clearance.",
@@ -1821,13 +2286,64 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "CCRP SCAMP \"concentrates on a problem area in cryptology\"; algebra, number theory, combinatorics applied by research mathematicians.",
   "track_source": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton"
+  "letters_required_source": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "U.S. citizenship is required.",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Mostly PhD holders/students; no fixed background",
+    "quote": "Most SCAMP participants hold or are pursuing a Ph.D. in one of the fields mentioned above, but we do not require any particular academic background. Exceptional undergraduates will also be considered.",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Background check + polygraph",
+    "quote": "Employment is contingent upon successful completion of a security background investigation and polygraph (which we sponsor).",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Visitors work with CCRP research staff and NSA visitors on cryptology ('The conference concentrates on a problem area in cryptology. Some 20-25 academic mathematicians are invited'). They are strong mathematicians, but the work is classified and does not appear at theory-crypto venues. Medium value.",
+  "letter_value_url": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+  "event_type": "research-program",
+  "review2_corrections": [
+   {
+    "field": "url",
+    "old": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+    "new": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "quote": "Position ID: IDA-CCRPSCAMP [#27107] Position Title: Adjunct Research Staff Member or Summer Associate ... Position Location: Princeton, New Jersey"
+   },
+   {
+    "field": "deadline_summer_2027",
+    "old": "(no official deadline found)",
+    "new": "No deadline; rolling ('applicants long-listed'); apply ASAP due to clearance",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "quote": "Appl Deadline: none ( applicants long-listed posted 2026/09/23 ...) ... Due to the lengthy clearance process, please apply as soon as possible"
+   },
+   {
+    "field": "letters_of_recommendation",
+    "old": "not stated",
+    "new": "Names of two references; letters not required",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "quote": "the names of two references (you do not have to send recommendation letters)"
+   }
+  ],
+  "top_pick": 8,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (medium), then theory before applied, then reachability (Hard). Watch: Mostly PhD holders/students; no fixed background. Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1869,7 +2385,6 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "closed",
-  "top_pick": null,
   "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261493. Status confirmed closed. A 2028 target.",
   "eligibility_note_review": "IC job 1261493: \"Applicants may be at any stage in their graduate careers\"; \"1 Letter of Recommendation from a faculty member familiar with your technical work\".",
   "track": "theory",
@@ -1877,7 +2392,55 @@
   "track_source": "https://www.usajobs.gov/job/880807100",
   "letters_required": "unclear",
   "letters_required_reason": "2027 job page closed; older GMP materials asked for \"at least two letters of recommendation\".",
-  "letters_required_source": "https://www.math.ucdavis.edu/~saito/nsa-grad.html"
+  "letters_required_source": "https://www.math.ucdavis.edu/~saito/nsa-grad.html",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Must be a U.S. Citizen",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled in degree program",
+    "quote": "Must be enrolled in a degree-seeking program (undergraduate, graduate, doctorate) at time of application",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0 preferred",
+    "quote": "Preferred cumulative GPA of 3.0 or higher",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI + full-scope polygraph",
+    "quote": "Must be eligible to be granted a TS/SCI security clearance after successfully completing a background investigation, a Full-scope Polygraph and a Psychological Evaluation",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Summer 2027 cycle closed 9/5/26",
+    "quote": "Open date: 08/15/2026 Closed date: 09/05/2026",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Math grad program (older flyer)",
+    "quote": "[from row; older reproduced NSA flyer, not re-verified on a live NSA page] currently enrolled in a mathematics graduate program",
+    "url": "https://www.math.ucdavis.edu/~saito/nsa-grad.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "NSA mission work is classified. Mentors are NSA mathematicians who rarely publish at CRYPTO/EUROCRYPT/TCC/STOC/FOCS and cannot describe the work in detail. The Handshake ad says mathematicians 'draw from ... number theory, abstract algebra, graph theory, combinatorics' on problems in 'mathematics, cryptology'. A government math-researcher letter rates medium for a theory-crypto PhD.",
+  "letter_value_url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "event_type": "internship"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1918,14 +2481,61 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "closed",
-  "top_pick": null,
   "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261551. Status confirmed closed. A 2028 target.",
   "track": "theory",
   "track_reason": "NSA CASASP: cryptanalysis and signals-analysis math problems for the mission; individual 2027 job page now closed.",
   "track_source": "https://app.joinhandshake.com/jobs/6948281/share_preview",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.usajobs.gov/job/880807100"
+  "letters_required_source": "https://www.usajobs.gov/job/880807100",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Must be a U.S. Citizen",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled in degree program",
+    "quote": "Must be enrolled in a degree-seeking program (undergraduate, graduate, doctorate) at time of application",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0 preferred",
+    "quote": "Preferred cumulative GPA of 3.0 or higher",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI + full-scope polygraph",
+    "quote": "Must be eligible to be granted a TS/SCI security clearance after successfully completing a background investigation, a Full-scope Polygraph and a Psychological Evaluation",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Summer 2027 cycle closed 9/5/26",
+    "quote": "Open date: 08/15/2026 Closed date: 09/05/2026",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Historically undergrad-only (2019)",
+    "quote": "[from row; 2019 Handshake listing, not re-verified] Must be an undergraduate student, preferably majoring in mathematics or computer science",
+    "url": "https://middlebury.joinhandshake.com/jobs/3056308/share_preview",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "NSA mission work is classified. Mentors are NSA mathematicians who rarely publish at CRYPTO/EUROCRYPT/TCC/STOC/FOCS and cannot describe the work in detail. The Handshake ad says mathematicians 'draw from ... number theory, abstract algebra, graph theory, combinatorics' on problems in 'mathematics, cryptology'. A government math-researcher letter rates medium for a theory-crypto PhD.",
+  "letter_value_url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "event_type": "internship"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1965,14 +2575,54 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "closed",
-  "top_pick": null,
   "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261519. Status confirmed closed. A 2028 target.",
   "track": "applied-research",
   "track_reason": "NSA Science of Security summer program: security research for NSA's cybersecurity mission; individual 2027 job page now closed.",
   "track_source": "https://www.usajobs.gov/job/880807100",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.usajobs.gov/job/880807100"
+  "letters_required_source": "https://www.usajobs.gov/job/880807100",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Must be a U.S. Citizen",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled in degree program",
+    "quote": "Must be enrolled in a degree-seeking program (undergraduate, graduate, doctorate) at time of application",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0 preferred",
+    "quote": "Preferred cumulative GPA of 3.0 or higher",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI + full-scope polygraph",
+    "quote": "Must be eligible to be granted a TS/SCI security clearance after successfully completing a background investigation, a Full-scope Polygraph and a Psychological Evaluation",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Summer 2027 cycle closed 9/5/26",
+    "quote": "Open date: 08/15/2026 Closed date: 09/05/2026",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "The 2027 announcement lists it by name only ('NSA Summer 2027 Internship Program - Science of Security - Entry - Maryland'). There is no public description of mentors or crypto content, and the work is classified. Low value.",
+  "letter_value_url": "https://www.usajobs.gov/job/880807100",
+  "event_type": "internship"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -2013,13 +2663,39 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "NSA math internship (DSP): \"solving problems in mathematics, cryptology ... number theory, abstract algebra\" for the mission.",
   "track_source": "https://app.joinhandshake.com/jobs/6948281/share_preview",
   "letters_required": "unclear",
   "letters_required_reason": "2027 job page closed; older materials asked for \"at least two letters of recommendation\".",
-  "letters_required_source": "https://www.math.ucdavis.edu/~saito/nsa-ugrad.html"
+  "letters_required_source": "https://www.math.ucdavis.edu/~saito/nsa-ugrad.html",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Undergrads only",
+    "quote": "[from row; 2019 Handshake listing, not re-verified] Must be an undergraduate student, preferably majoring in mathematics or computer science",
+    "url": "https://middlebury.joinhandshake.com/jobs/3056308/share_preview",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Be a U.S. citizen;",
+    "url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI/TK + polygraph",
+    "quote": "Be eligible to be granted a TS/SCI/TK security clearance after successfully completing a background investigation that includes passing a Full-Scope Polygraph and a Psychological Evaluation",
+    "url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "NSA mission work is classified. Mentors are NSA mathematicians who rarely publish at CRYPTO/EUROCRYPT/TCC/STOC/FOCS and cannot describe the work in detail. The Handshake ad says mathematicians 'draw from ... number theory, abstract algebra, graph theory, combinatorics' on problems in 'mathematics, cryptology'. A government math-researcher letter rates medium for a theory-crypto PhD.",
+  "letter_value_url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "event_type": "internship"
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -2052,7 +2728,6 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 5,
   "location_bucket": [
    "Other"
   ],
@@ -2067,7 +2742,52 @@
   "track_source": "https://cyberfire.energy.gov/school/2027/research/",
   "letters_required": "no",
   "letters_required_reason": "Listed application materials are resume/CV and cover letter only.",
-  "letters_required_source": "https://cyberfire.energy.gov/school/2027/research/"
+  "letters_required_source": "https://cyberfire.energy.gov/school/2027/research/",
+  "gates": [
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.2 (grad)",
+    "quote": "Must have and maintain a cumulative GPA, on a 4-point scale: 3.0 (undergrad), 3.2 (graduate)",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "citizenship",
+    "label": "Q-clearance eligible (US citizen)",
+    "quote": "we require basic eligibility for a DOE Q clearance to qualify: To obtain a clearance, an individual must be at least 18 years of age; U.S. citizenship is required except in very limited circumstances.",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Undergrad/grad; CS/Eng/Stats/Math",
+    "quote": "Any level of undergraduate and graduate students in Computer Science, Engineering, Statistics, Mathematics, or a related field.",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "There is an 'Advanced Cryptography' topic, and students are 'paired with a mentor, who are leading scientists in their fields'. Past projects include 'Zero-Knowledge Proofs For (Some) Probabilistic Computations Using Quasi-Randomness [Paper]'. These are crypto researchers, but at a national lab that emphasizes proof-of-concept tooling, not CRYPTO/TCC theorists. Medium value.",
+  "letter_value_url": "https://cyberfire.energy.gov/school/2027/research/",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "eligibility",
+    "old": "\"Any level of undergraduate and graduate students in Computer Science, Engineering, Statistics\" (and related)",
+    "new": "Mathematics is explicitly listed",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "quote": "Any level of undergraduate and graduate students in Computer Science, Engineering, Statistics, Mathematics, or a related field."
+   },
+   {
+    "field": "deadline_summer_2027",
+    "old": "(rolling)",
+    "new": "Applications Sep 13, 2026 - Jan 31, 2027, rolling review",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "quote": "Applications will be accepted September 13, 2026 – January 31, 2027 or until all positions have been filled, whichever comes first."
+   }
+  ],
+  "top_pick": 10,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (medium), then theory before applied, then reachability (Reachable). Watch: GPA ≥3.2 (grad). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -2105,7 +2825,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "LANL Quantum Computing Summer School: lectures plus an 8-week quantum computing research project; not crypto.",
   "track_source": "https://www.lanl.gov/engage/collaboration/internships/summer-schools/quantumschool/",
@@ -2149,13 +2868,48 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "LANL GRA: generic graduate research-assistant appointment in any technical or professional field; crypto only if a crypto group hires you.",
   "track_source": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php"
+  "letters_required_source": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php",
+  "gates": [
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.2 cumulative",
+    "quote": "Must currently have and maintain a cumulative GPA of at least 3.2 on a 4.0 scale (or equivalent).",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled grad, ≥6 credit hrs",
+    "quote": "Currently enrolled in an accredited graduate program. ● Must be enrolled in at least 6 semester credit hours (or full-time equivalent) in an accredited degree program (or international equivalent).",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Drug test",
+    "quote": "Pass a new employment drug test",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "GRA is LANL's general grad-student hiring channel ('appointments in both technical and professional fields'). The mentor depends on the hiring group, and nothing ties it to cryptography. Low value unless he is placed in a crypto group that publishes.",
+  "letter_value_url": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php",
+  "event_type": "internship",
+  "review2_corrections": [
+   {
+    "field": "notes",
+    "old": "3.2 GPA only from CareerBuilder/third-party guides, not verified",
+    "new": "3.2 cumulative GPA is stated in LANL's official GRA applicant guide PDF",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "quote": "Must currently have and maintain a cumulative GPA of at least 3.2 on a 4.0 scale (or equivalent)."
+   }
+  ]
  },
  {
   "org": "Lawrence Livermore National Laboratory (LLNL)",
@@ -2186,7 +2940,6 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": null,
   "location_bucket": [
    "Bay Area"
   ],
@@ -2241,7 +2994,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "Sandia MARTIANS: applied math/analytics (imaging, NLP, functional data analysis) for national security (from stored description; posting unreadable)",
   "track_source": "https://www.sandia.gov/careers/jobs-app/",
@@ -2292,7 +3044,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Sandia CCD: grows \"R&D cybersecurity staff\"; skills are Ghidra/IDA, reverse engineering, pen testing, FPGA; cryptography research is one item among many.",
   "track_source": "https://www.sandia.gov/ccd",
@@ -2338,7 +3089,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "PNNL NSIP: general national-security research internships across AI, threats, nuclear/chem/bio, detection; crypto not named.",
   "track_source": "https://www.pnnl.gov/national-security-internship",
@@ -2382,13 +3132,46 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "INL Computer/Cyber Security Researcher intern: ICS/critical-infrastructure security research, no crypto (from stored description; posting unreadable)",
   "track_source": "https://www.career.com/job/battelle-energy-alliance/computer-security-researcher-internship-summer-2026/j202509301804536307294",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.career.com/job/battelle-energy-alliance/computer-security-researcher-internship-summer-2026/j202509301804536307294"
+  "letters_required_source": "https://www.career.com/job/battelle-energy-alliance/computer-security-researcher-internship-summer-2026/j202509301804536307294",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Full-time student",
+    "quote": "University freshman-senior, Masters degree, or PhD seeking student enrolled full time at an accredited college/university",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Fields incl. CS/Math",
+    "quote": "studying Computer Science, Computer Engineering, Cybersecurity, Cyber Operations, Mathematics, Electrical Engineering, or a closely related degree",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0",
+    "quote": "A minimum overall 3.0 GPA",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "citizenship",
+    "label": "DOE L/Q clearance (US citizen)",
+    "quote": "This position may require the ability to obtain and maintain and Department of Energy \"L\" or \"Q\" clearance, which requires US Citizenship.",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "This is an ICS/infrastructure cyber lab internship, not a crypto research group. Quotes come from the DiversityJobs mirror of the 2026 BEA posting: career.com is behind a captcha and no official INL page was found. Low value.",
+  "letter_value_url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+  "event_type": "internship"
  },
  {
   "org": "U.S. Department of Energy / ORISE",
@@ -2427,7 +3210,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "DOE Omni: rotational cybersecurity/IT internships \"to secure the Nation's energy ... technologies from malicious attackers\" (2024 posting); ops-oriented.",
   "track_source": "https://www.zintellect.com/Opportunity/Details/DOE-Omni-2024",
@@ -2473,13 +3255,46 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "MIT LL Summer Research Program: hands-on research on lab projects; Group 05-53 does secure systems/applied cryptography (group not named on program page).",
   "track_source": "https://www.ll.mit.edu/careers/summer-research.html",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.ll.mit.edu/careers/summer-research.html"
+  "letters_required_source": "https://www.ll.mit.edu/careers/summer-research.html",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Past sophomore / MS / PhD",
+    "quote": "students must have at least completed their sophomore year of college or be enrolled in a master's or doctoral program.",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "In addition, students must have maintained an excellent academic record and be a U.S. citizen.",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "\"Excellent academic record\" (no number)",
+    "quote": "students must have maintained an excellent academic record",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Secret clearance (2026 group posting)",
+    "quote": "[from row; 2026 Group 05-53 posting, not re-verified] must obtain a Secret DoD clearance",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Group 05-53 does applied crypto ('High-Assurance Cryptography: Lincoln Laboratory is developing technologies to meet the highest standards for information security at the tactical edge'). These are crypto researchers at a systems-oriented FFRDC, not theory-venue authors. Medium value.",
+  "letter_value_url": "https://www.ll.mit.edu/r-d/cyber-security-and-information-sciences/secure-resilient-systems-and-technology",
+  "event_type": "internship"
  },
  {
   "org": "MITRE",
@@ -2518,7 +3333,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "MITRE interns \"work side by side with senior staff on crucial sponsor programs\"; mostly CS/ECE/cyber engineering.",
   "track_source": "https://careers.mitre.org/us/en/co-ops-interns",
@@ -2563,7 +3377,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "Aerospace Hardware Security Engineering intern: define threat paths, FPGA/ASIC/embedded mitigations, debug hardware/firmware.",
   "track_source": "https://www.dice.com/job-detail/06d016d5-18c5-44d1-804c-031cc843ae5e",
@@ -2608,7 +3421,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "NIST SURF: undergraduate STEM research across NIST labs (MRI, nanofab, etc.); crypto not featured.",
   "track_source": "https://www.nist.gov/surf",
@@ -2652,7 +3464,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "NIST PREP: general measurement-science research appointments via university consortia; crypto not featured.",
   "track_source": "https://www.nist.gov/iaao/nist-professional-research-experience-program-prep",
@@ -2697,7 +3508,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "NIST Pathways: federal student-employment hiring path, not a research program.",
   "track_source": "https://www.nist.gov/itl/math/how-work-us-0/pathways-program",
@@ -2741,7 +3551,6 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "closed",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "NRC RAP: postdoctoral/senior research associateships at federal labs; not a student internship and not crypto-specific.",
   "track_source": "https://www.nationalacademies.org/our-work/rap/nrc-research-associateship-programs",
@@ -2787,13 +3596,98 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "First Friday in December; 5 PM ET per aggregators.",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "SMART: DoD STEM scholarship-for-service with internships at DoD facilities; no crypto focus.",
   "track_source": "https://www.smartscholarship.org/smart",
-  "letters_required": "yes",
-  "letters_required_reason": "References required by the deadline (count not verified).",
-  "letters_required_source": "https://www.studyabroad.pk/scholarships/smart-scholarship-for-service-program-2027"
+  "letters_required": "yes (2-3 references)",
+  "letters_required_reason": "\"At least two completed references are required. Applicants may enter up to three references.\" (SMART knowledge base)",
+  "letters_required_source": "https://www.smartscholarship.org/smart/en?id=kb_article&sys_id=84f05b02db5ac3006bb8f4b40f9619cc",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US/AUS/CAN/NZ/UK citizen",
+    "quote": "Be a citizen of the United States, Australia, Canada, New Zealand, or United Kingdom",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0",
+    "quote": "Have and maintain a cumulative GPA of 3.0 on a 4.0 scale",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "age",
+    "label": "18+ by Jan 1 2028",
+    "quote": "Be 18 years of age or older by January 1, 2028",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "In school Fall 2027; funding from Aug 2027",
+    "quote": "Be currently pursuing, or intend to pursue, education in Fall 2027* ... Be requesting between 1-5 years of degree funding (funding begins August 2027)",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "service",
+    "label": "1 yr DoW service per yr funded",
+    "quote": "Awardees commit to one year of DoW civilian employment at their Sponsoring Facility for every year of SMART-sponsored degree funding.",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Summer internships if award >1.5 yr",
+    "quote": "Complete summer internships for awards greater than 1.5 years",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Security clearance",
+    "quote": "Able to obtain and maintain a security clearance**",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "≥2 references (up to 3)",
+    "quote": "At least two completed references are required. Applicants may enter up to three references.",
+    "url": "https://www.smartscholarship.org/smart/en?id=kb_article&sys_id=84f05b02db5ac3006bb8f4b40f9619cc",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Internships and service take place at one of 'over 150 Department of War facilities' focused on 'artificial intelligence, biotechnology, autonomy, space, 5G'. Mentors are DoD lab staff, not academic crypto theorists. It is a scholarship-for-service, not a research internship. Low value.",
+  "letter_value_url": "https://www.smartscholarship.org/smart",
+  "event_type": "scholarship",
+  "review2_corrections": [
+   {
+    "field": "eligibility",
+    "old": "Citizenship requirement per aggregator sources (permanent residents not eligible)",
+    "new": "Official: citizen of US/Australia/Canada/NZ/UK; permanent residents not eligible",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "quote": "Be a citizen of the United States, Australia, Canada, New Zealand, or United Kingdom"
+   },
+   {
+    "field": "letters_of_recommendation",
+    "old": "References required; count not verified (task brief said 3 letters)",
+    "new": "At least 2 references required, up to 3",
+    "url": "https://www.smartscholarship.org/smart/en?id=kb_article&sys_id=84f05b02db5ac3006bb8f4b40f9619cc",
+    "quote": "At least two completed references are required. Applicants may enter up to three references."
+   },
+   {
+    "field": "notes",
+    "old": "service commitment equal to scholarship length (details not fetched)",
+    "new": "One year of DoW civilian employment per year of degree funding (one-for-one)",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "quote": "Accept a one-for-one post graduation service commitment as a civilian employee of the Department of War"
+   }
+  ],
+  "category_note": "Scholarship-for-service, not an internship: \"Accept a one-for-one post graduation service commitment as a civilian employee of the Department of War\"."
  },
  {
   "org": "NSF / OPM",
@@ -2833,7 +3727,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "engineering",
   "track_reason": "CyberCorps SFS: scholarships to train \"information technology professionals ... and security managers\" for government cyber jobs.",
   "track_source": "https://www.sfs.opm.gov/",
@@ -2870,7 +3763,6 @@
   ],
   "category": "Academic summer programs / schools",
   "date_retrieved": "2026-11-06",
-  "top_pick": 1,
   "location_bucket": [
    "International"
   ],
@@ -2885,7 +3777,29 @@
   "track_source": "https://career.cispa.de/internship",
   "letters_required": "optional",
   "letters_required_reason": "\"Optional references: Contact details for potential referees.\"",
-  "letters_required_source": "https://career.cispa.de/internship"
+  "letters_required_source": "https://career.cispa.de/internship",
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "Fields: CS/CE/EE/telecom (Math not listed)",
+    "quote": "Computer science, computer engineering, electrical engineering, telecommunications, or an equivalent field.",
+    "url": "https://career.cispa.de/internship",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "BSc/MSc students only; 4+ semesters done",
+    "quote": "Bachelor's and master's students ... At least four completed semesters ... This program is not open to PhD students or master's graduates seeking a PhD position.",
+    "url": "https://career.cispa.de/internship",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Interns work inside a CISPA research group; CISPA has a cryptography research area, so a placement with a crypto group can yield a letter from a publishing cryptographer (judgment; group placement not guaranteed).",
+  "letter_value_url": "https://career.cispa.de/internship",
+  "event_type": "internship",
+  "top_pick": 2,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (high), then theory before applied, then reachability (Moderate). Watch: Fields: CS/CE/EE/telecom (Math not listed). Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Max Planck Institutes for Computer Science (incl. MPI for Security and Privacy, Bochum)",
@@ -2925,13 +3839,25 @@
   "deadline_kind": "final",
   "status": "closed",
   "deadline_iso_note": "Passed; a 2028 target.",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "Max Planck CS internships: \"pursue world-class research\" with a faculty mentor; MPI-SP Bochum hosts cryptography groups.",
   "track_source": "https://cis.mpg.de/internships",
   "letters_required": "yes (1)",
   "letters_required_reason": "\"contact information for at least one reference ... we do not request references in all cases\".",
-  "letters_required_source": "https://cis.mpg.de/internships"
+  "letters_required_source": "https://cis.mpg.de/internships",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "Exceptional BSc/MSc/PhD students",
+    "quote": "Internships are open to exceptional Bachelors, Masters, and Doctoral students worldwide.",
+    "url": "https://cis.mpg.de/internships",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Joint program across MPI computer-science institutes including MPI for Security and Privacy; a letter from a supervising MPI researcher in a crypto group would be strong (judgment; specific hosts not verified here).",
+  "letter_value_url": "https://cis.mpg.de/internships",
+  "event_type": "internship"
  },
  {
   "org": "ETH Zurich, Department of Computer Science",
@@ -2971,13 +3897,34 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "13:00 CET",
-  "top_pick": 4,
   "track": "theory",
   "track_reason": "ETH SSRF: first research experience in a chosen area; \"Information Security\" and \"Theory\" are listed areas.",
   "track_source": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
   "letters_required": "no",
   "letters_required_reason": "Required documents: Europass CV, transcript, 1-page motivation letter; no letters.",
-  "letters_required_source": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html"
+  "letters_required_source": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+  "gates": [
+   {
+    "kind": "grad_year",
+    "label": "Graduation 2028 or later",
+    "quote": "Your expected graduation date in your current study programme (bachelor or master) is in the year following the fellowship or later",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled BSc/MSc (Math OK)",
+    "quote": "You are enrolled in a study programme (bachelor or master) in computer science or a closely related field (e.g., electrical engineering, mathematics, physics)",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Fellows do research in an ETH CS group of their choice; choosing a cryptography group yields a letter from a publishing cryptographer (judgment; groups not verified here).",
+  "letter_value_url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+  "event_type": "fellowship",
+  "top_pick": 4,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (high), then theory before applied, then reachability (Hard). Watch: Graduation 2028 or later. Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "EPFL School of Computer and Communication Sciences (IC)",
@@ -3016,13 +3963,25 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "AoE",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Summer@EPFL: research-lab fellowship but \"often ... challenging programming or design tasks to prove new concepts\"; crypto/security labs among hosts.",
   "track_source": "https://summer.epfl.ch/",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting (stored record: not stated on main page).",
-  "letters_required_source": "https://summer.epfl.ch/"
+  "letters_required_source": "https://summer.epfl.ch/",
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "Fields: CS/CE/telecom/EE (Math not listed)",
+    "quote": "Fellowships are awarded to students enrolled in BSc, BTech, MSc, MTech, or equivalent programmes in Computer Science, Computer Engineering, Telecommunications, or Electrical Engineering. PhD students are not eligible.",
+    "url": "https://summer.epfl.ch/",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Research internship in an EPFL IC lab; EPFL has crypto groups (e.g. LASEC/COMPSEC) but placement is not guaranteed in one (judgment).",
+  "letter_value_url": "https://summer.epfl.ch/",
+  "event_type": "internship"
  },
  {
   "org": "Weizmann Institute of Science (Weizmann School of Science)",
@@ -3061,13 +4020,41 @@
   "opens_iso": "2026-12-20",
   "deadline_kind": "final",
   "status": "open",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "Weizmann Kupcinet-Getz: research project in a chosen group, open to math & CS majors (Weizmann CS is theory-heavy incl. crypto); crypto not named.",
   "track_source": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
   "letters_required": "yes (1)",
   "letters_required_reason": "\"must provide at least one letter of recommendation\" uploaded by an academic recommender.",
-  "letters_required_source": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/"
+  "letters_required_source": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+  "gates": [
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.6/4.0",
+    "quote": "You have a GPA of 3.6/4.0 or the equivalent in the grades associated with your major subject.",
+    "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "BSc/MSc (not PhD), after first year",
+    "quote": "You are currently a bachelor or a master's student (not PhD) in the Physical Sciences, Chemical Sciences, Life Sciences, Mathematics or Computer Science, after completing the first year of your studies.",
+    "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "1+ academic recommendation letter",
+    "quote": "Applicants for this program must provide at least one letter of recommendation ... Recommenders should be from the academic world",
+    "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Students do research in a Weizmann lab (\"Meet the Labs\"); a placement in a CS/math crypto lab would give a strong theory letter (judgment; specific labs not verified here).",
+  "letter_value_url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+  "event_type": "research-program",
+  "top_pick": 3,
+  "rank_reason": "Ranked by the value of the likely letter to a theory-crypto PhD application (high), then theory before applied, then reachability (Moderate). Watch: GPA ≥3.6/4.0. Rows that are PhD-only, closed, or blocked by a hard gate are not ranked. A self-arranged summer RA with a professor on your topics (Other routes tab) is likely worth more than any of these."
  },
  {
   "org": "Radboud University / MPI-SP / TU Eindhoven / Univ. of Zagreb (organizers)",
@@ -3107,13 +4094,17 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Summer school (not an internship) on \"the latest advances in cryptography, security, and privacy\" in the real world.",
   "track_source": "https://summerschool-croatia.cs.ru.nl/",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://summerschool-croatia.cs.ru.nl/"
+  "letters_required_source": "https://summerschool-croatia.cs.ru.nl/",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Lecture-based summer school (\"brings together Master's and PhD students, academics, and industry experts\"); no supervised research, so no research letter (judgment).",
+  "letter_value_url": "https://summerschool-croatia.cs.ru.nl/",
+  "event_type": "school/workshop"
  },
  {
   "org": "Graz University of Technology, Institute of Information Security (ISEC)",
@@ -3152,13 +4143,17 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "Security summer school: \"Cryptography and Cryptographic Implementations\" lectures plus side-channel labs and CTF.",
   "track_source": "https://www.securityweek.at/",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.securityweek.at/"
+  "letters_required_source": "https://www.securityweek.at/",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "One-week security summer school for graduate students; lectures, no research supervision (judgment).",
+  "letter_value_url": "https://www.securityweek.at/",
+  "event_type": "school/workshop"
  },
  {
   "org": "CASA Cluster of Excellence, Ruhr University Bochum",
@@ -3197,13 +4192,17 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "theory",
   "track_reason": "CASA Summer School: 2026 edition was \"Kryptographie und Distributed Computing\" with theory speakers (Katz, Loss); 2027 topic TBA.",
   "track_source": "https://casa.rub.de/veranstaltungen/casa-summer-school",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting (stored record: not stated (2026 form asked for a motivation statement)).",
-  "letters_required_source": "https://casa.rub.de/veranstaltungen/casa-summer-school/application-casa-summer-school-2026"
+  "letters_required_source": "https://casa.rub.de/veranstaltungen/casa-summer-school/application-casa-summer-school-2026",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Summer school (lectures/workshops); no research supervision (judgment).",
+  "letter_value_url": "https://casa.rub.de/veranstaltungen/casa-summer-school",
+  "event_type": "school/workshop"
  },
  {
   "org": "SLMath (Simons Laufer Mathematical Sciences Institute, formerly MSRI)",
@@ -3211,9 +4210,9 @@
   "url": "https://www.slmath.org/summer-schools",
   "location": "Berkeley CA and partner institutions worldwide",
   "focus_area": "mathematics summer graduate schools (no crypto/number-theory/lattice school among 2027 listings)",
-  "eligibility": "\"Graduate students from SLMath Academic Sponsoring Institutions or from the Department of Mathematics at U.S. universities are eligible for nomination.\" Must be nominated by the Director of Graduate Studies.",
+  "eligibility": "\"Graduate students from MSRI Academic Sponsoring Institutions or from the mathematics department of any U.S. institution are eligible to be nominated by their Director of Graduate Studies. Admission is on a first-come, first-served basis up to the limits of the capacity of the school. Early nominations are not accepted.\" So the CSULA math graduate director must submit the nomination as soon as nominations open.",
   "ms_students_eligible": "yes",
-  "eligibility_source": "https://www.slmath.org/summer-schools",
+  "eligibility_source": "https://legacy.slmath.org/web/msri/education/for-graduate-students",
   "publications_expected": "not stated",
   "publications_source": "https://www.slmath.org/summer-schools",
   "letters_of_recommendation": "No letters; nomination by Director of Graduate Studies",
@@ -3223,8 +4222,8 @@
   "deadline_source": "https://www.slmath.org/summer-schools",
   "pay": "SLMath covers travel and local expenses; travel reimbursement up to $600 for US/Canadian students",
   "pay_source": "https://www.slmath.org/summer-schools",
-  "prestige_tier": "Top",
-  "prestige_justification": "NSF/NSA-funded flagship US math institute.",
+  "prestige_tier": "Good",
+  "prestige_justification": "Well-run two-week math graduate school, but lectures rather than crypto research; demoted from Top in round 2 (letter value for a theory-crypto PhD app is low).",
   "difficulty_for_sahmoud": "Reachable",
   "difficulty_reason": "CSULA math grad students are eligible via DGS nomination with no letters or pubs, but no 2027 school matches crypto.",
   "notes": "SCHOOL. 2027 listed schools: Tensors and Their Applications (Columbia, Jun 1-11), Ricci Flow, SMS Montreal geometry, Min-Max Methods, Ecological Systems, Geometric Topology of Complex Surfaces, Fusion Categories, PIMS-CRM Probability, Modular Representation Theory, Resolutions of Singularities. None is cryptography/number theory. Quota: up to two students for entry-level sponsors and other U.S. institutions.",
@@ -3243,13 +4242,32 @@
   "deadline_kind": "opens",
   "status": "open",
   "deadline_iso_note": "Nominations are first-come first-served from Dec 1; no closing date.",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "SLMath summer graduate schools: two-week math schools, none on crypto; nomination-only.",
   "track_source": "https://www.slmath.org/summer-schools",
   "letters_required": "no",
   "letters_required_reason": "No letters; students are nominated by their Director of Graduate Studies.",
-  "letters_required_source": "https://www.slmath.org/summer-schools"
+  "letters_required_source": "https://www.slmath.org/summer-schools",
+  "gates": [
+   {
+    "kind": "nomination",
+    "label": "Nominated by your math grad director",
+    "quote": "Graduate students from MSRI Academic Sponsoring Institutions or from the mathematics department of any U.S. institution are eligible to be nominated by their Director of Graduate Studies. Admission is on a first-come, first-served basis up to the limits of the capacity of the school. Early nominations are not accepted.",
+    "url": "https://legacy.slmath.org/web/msri/education/for-graduate-students",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Two-week math graduate school with lectures and problem sessions, not crypto research; no research letter (judgment).",
+  "letter_value_url": "https://www.slmath.org/summer-schools",
+  "event_type": "school/workshop",
+  "review2_corrections": [
+   {
+    "field": "eligibility",
+    "new": "Any US math department's Director of Graduate Studies can nominate (not only member institutions); first-come, first-served; early nominations not accepted.",
+    "url": "https://legacy.slmath.org/web/msri/education/for-graduate-students"
+   }
+  ]
  },
  {
   "org": "IAS / Park City Mathematics Institute",
@@ -3258,7 +4276,7 @@
   "location": "Park City, Utah",
   "focus_area": "analytic/additive number theory and ergodic theory (summer school; not crypto)",
   "eligibility": "\"GSS applicants will have completed their first year of graduate school, and in some cases, may already be working on a thesis.\" Non-US citizens and students abroad may apply.",
-  "ms_students_eligible": "unclear",
+  "ms_students_eligible": "yes",
   "eligibility_source": "https://www.ias.edu/node/324591",
   "publications_expected": "not stated",
   "publications_source": "https://www.ias.edu/node/324591",
@@ -3269,8 +4287,8 @@
   "deadline_source": "https://www.ias.edu/node/324591",
   "pay": null,
   "pay_source": null,
-  "prestige_tier": "Top",
-  "prestige_justification": "IAS-run premier 3-week US math summer school; 2027 lecturers include Ben Green.",
+  "prestige_tier": "Good",
+  "prestige_justification": "Prestigious IAS math school, but a lecture-based graduate summer school, not crypto research; demoted from Top in round 2.",
   "difficulty_for_sahmoud": "Hard",
   "difficulty_reason": "He will only have finished one MS year; audience is mostly PhD students in analytic number theory/ergodic theory, far from his background.",
   "notes": "SCHOOL. ias.edu pages are Cloudflare-blocked to fetch tools; details taken from search-indexed excerpts of ias.edu/node/324591 (GSS application) and 324596 (research program); confirm on ias.edu/pcmi. MS eligibility not explicitly addressed. GSS funding not verified (lodging is shared double occupancy at Westgate Park City). Number-theory topic only loosely related to crypto.",
@@ -3289,13 +4307,34 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "open",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "PCMI Graduate Summer School: analytic number theory and dynamics; not crypto.",
   "track_source": "https://www.ias.edu/node/324591",
   "letters_required": "yes (1)",
   "letters_required_reason": "\"One letter of reference is REQUIRED\"; up to two accepted.",
-  "letters_required_source": "https://www.ias.edu/node/324591"
+  "letters_required_source": "https://www.ias.edu/node/324591",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "1st year of grad school done (you will be)",
+    "quote": "In general, GSS applicants will have completed their first year of graduate school, and in some cases, may already be working on a thesis.",
+    "url": "https://www.ias.edu/pcmi/pcmi-2027-graduate-summer-school",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Three-week math graduate summer school (lectures); not crypto research (judgment).",
+  "letter_value_url": "https://www.ias.edu/pcmi",
+  "event_type": "school/workshop",
+  "review2_corrections": [
+   {
+    "field": "ms_students_eligible",
+    "old": "unclear",
+    "new": "yes",
+    "url": "https://www.ias.edu/pcmi/pcmi-2027-graduate-summer-school",
+    "quote": "In general, GSS applicants will have completed their first year of graduate school"
+   }
+  ]
  },
  {
   "org": "Southwest Center for Arithmetic Geometry (Univ. of Arizona) / Clay Math Institute",
@@ -3333,14 +4372,18 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "open",
-  "top_pick": null,
   "review_change": "Deadline added 2026-11-06 (was null and shown as \"not posted yet\"): \"The application deadline for students is November 24th, 2026.\" Dates: \"AWS 2027 will be held March 6-10, 2027\".",
   "track": "non-crypto",
   "track_reason": "Arizona Winter School 2027: \"Rationality and Irrationality: Geometry and Arithmetic\"; not crypto.",
   "track_source": "https://swc-math.github.io/aws/2027/index.html",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://swc-math.github.io/aws/2027/index.html"
+  "letters_required_source": "https://swc-math.github.io/aws/2027/index.html",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "A March winter school in arithmetic geometry (lectures and project groups); not crypto research (judgment).",
+  "letter_value_url": "https://swc-math.github.io/aws/2027/index.html",
+  "event_type": "school/workshop"
  },
  {
   "org": "IPAM (Institute for Pure and Applied Mathematics), UCLA",
@@ -3379,13 +4422,17 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "IPAM: \"We don't have any Summer Schools scheduled right now\"; 2027 topic unknown.",
   "track_source": "https://www.ipam.ucla.edu/programs/summer-schools/",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://www.ipam.ucla.edu/programs/summer-schools/"
+  "letters_required_source": "https://www.ipam.ucla.edu/programs/summer-schools/",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Graduate summer school (lectures), 2027 topic TBA (judgment).",
+  "letter_value_url": "https://www.ipam.ucla.edu/programs/summer-schools/",
+  "event_type": "school/workshop"
  },
  {
   "org": "DIMACS, Rutgers University",
@@ -3423,7 +4470,6 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "non-crypto",
   "track_reason": "DIMACS REU: original research in algorithms/TCS with a Rutgers mentor; undergraduate, crypto not named.",
   "track_source": "https://dimacs.rutgers.edu/apply-to-the-dimacs-reu",
@@ -3468,12 +4514,31 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null,
   "track": "applied-research",
   "track_reason": "CMU SPUR: undergrad security & privacy research (hardware security, usable privacy, program analysis, cryptography, verification).",
   "track_source": "https://www.cylab.cmu.edu/education/internships.html",
   "letters_required": "unclear",
   "letters_required_reason": "not stated in the posting.",
-  "letters_required_source": "https://cylab.cmu.edu/news/2026/01/23-spur.html"
+  "letters_required_source": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Full-time undergrads only",
+    "quote": "Applications for SPUR are open to U.S. citizens, nationals, and permanent residents who are currently enrolled as full-time undergraduates.",
+    "url": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "citizenship",
+    "label": "US citizen/national/PR",
+    "quote": "open to U.S. citizens, nationals, and permanent residents",
+    "url": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Each student gets a faculty mentor; project areas are 'hardware security, usable privacy and security, software testing, program analysis, cryptography, and verification'. The program is run by S3D (software engineering), so a theory-crypto mentor is not assured. Moot, since he is ineligible.",
+  "letter_value_url": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+  "event_type": "research-program"
  }
 ]

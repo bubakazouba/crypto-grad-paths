@@ -1,0 +1,14 @@
+{
+ "33": {
+  "school": "Duke",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 25966,
+  "fees_usd": 1644,
+  "health_usd": 4290,
+  "url": "https://gradschool.duke.edu/financial-support/cost-attend/",
+  "quote": "2026-2027 Estimated COA for DOMESTIC Master's Students, 9 Months: Tuition $69,880; Health Fee* $1,048; Transcript Fee $120; Graduate Student Serv. Fee $28; Recreation Fee $408; Activity Fee $40; Health Insurance $4,290; Books, Course Materials, Supplies, & Equipment $676; Estimated Loan Fees $216; Housing $14,220; Food $4,428; Transportation $2,142; Miscellaneous $4,500; Total - Living Expenses $26,182; Total Est. COA $101,996",
+  "basis": "living = 676 books + 14,220 housing + 4,428 food + 2,142 transportation + 4,500 misc = 25,966 (excl. $216 loan fees); fees = 1,048 health fee + 120 transcript + 28 GSSF + 408 recreation + 40 activity = 1,644",
+  "note": "Duke Graduate School (TGS) master's budget; PhD 12-month living is $34,734. Health fee is a mandatory student health services fee, not insurance."
+ }
+}

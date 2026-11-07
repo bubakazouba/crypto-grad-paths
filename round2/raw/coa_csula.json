@@ -1,0 +1,11 @@
+{"csula": {"school": "California State University, Los Angeles", "coa_year": "2026-27", "months": 9,
+ "living_usd": 31122, "living_usd_commuter": 21706,
+ "living_components_off_campus": {"housing": 13604, "food": 8662, "books_supplies": 1128, "transportation": 3002, "miscellaneous": 4726, "loan_fees_excluded": 52},
+ "living_components_commuter": {"housing": 10000, "food": 4420, "books_supplies": 1128, "transportation": 2096, "miscellaneous": 4062, "loan_fees_excluded": 52},
+ "fees_usd": 1094.06, "health_usd": null,
+ "tuition_per_semester": 4274.00, "fees_per_semester": 547.03,
+ "tuition_url": "https://www.calstatela.edu/finance-onestop/student-fees",
+ "url": "https://www.calstatela.edu/financialaid/cost-attendance",
+ "quote": "2026-2027 Graduate Budget (CA Residents), Full Time for Two Semesters: Tuition & Mandatory Fees $9,648 | Housing Commuter $10,000 / On Campus $13,682 / Off Campus $13,604 | Food $4,420 / $7,972 / $8,662 | Books, Course Materials, Supplies, and Equipment $1,128 | Transportation $2,096 / $3,002 / $3,002 | Miscellaneous $4,062 / $4,726 / $4,726 | Loan Fees $52 | CA Resident Total $31,406 / $40,210 / $40,822. Student-fees page (Spring Semester 2027): Graduate/Post-Baccalaureate 6.1 units or more Tuition $4,274.00, Total $4,821.03; 0-6 units $2,480.00, Total $3,027.03; campus fees Health Facilities $3.00, Athletics $39.27, ASB $26.88, University Student Union $137.25, IRA $30.00, Student Health Services $161.67, Student Success Fee $148.96 (sum $547.03).",
+ "basis": "Official CSULA 2026-27 graduate CA-resident budget, off-campus column; living = COA minus tuition/fees ($9,648) minus loan fees ($52).",
+ "note": "Confirmed 2026-27 resident grad tuition $4,274/sem (6.1+ units) + $547.03 campus fees/sem = $4,821.03/sem ($9,642.06/yr; COA rounds to $9,648). Commuter column not explicitly labelled 'with parents'. No health line (Student Health Services fee is in campus fees). Prior-year 2025-26 off-campus total was $38,454."}}

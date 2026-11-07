@@ -1,0 +1,186 @@
+{
+ "62": {
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "Fields: CS/CE/EE/telecom (Math not listed)",
+    "quote": "Computer science, computer engineering, electrical engineering, telecommunications, or an equivalent field.",
+    "url": "https://career.cispa.de/internship",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "BSc/MSc students only; 4+ semesters done",
+    "quote": "Bachelor's and master's students ... At least four completed semesters ... This program is not open to PhD students or master's graduates seeking a PhD position.",
+    "url": "https://career.cispa.de/internship",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Interns work inside a CISPA research group; CISPA has a cryptography research area, so a placement with a crypto group can yield a letter from a publishing cryptographer (judgment; group placement not guaranteed).",
+  "letter_value_url": "https://career.cispa.de/internship",
+  "event_type": "internship"
+ },
+ "63": {
+  "gates": [
+   {
+    "kind": "other",
+    "label": "Exceptional BSc/MSc/PhD students",
+    "quote": "Internships are open to exceptional Bachelors, Masters, and Doctoral students worldwide.",
+    "url": "https://cis.mpg.de/internships",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Joint program across MPI computer-science institutes including MPI for Security and Privacy; a letter from a supervising MPI researcher in a crypto group would be strong (judgment; specific hosts not verified here).",
+  "letter_value_url": "https://cis.mpg.de/internships",
+  "event_type": "internship"
+ },
+ "64": {
+  "gates": [
+   {
+    "kind": "grad_year",
+    "label": "Graduation 2028 or later",
+    "quote": "Your expected graduation date in your current study programme (bachelor or master) is in the year following the fellowship or later",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled BSc/MSc (Math OK)",
+    "quote": "You are enrolled in a study programme (bachelor or master) in computer science or a closely related field (e.g., electrical engineering, mathematics, physics)",
+    "url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Fellows do research in an ETH CS group of their choice; choosing a cryptography group yields a letter from a publishing cryptographer (judgment; groups not verified here).",
+  "letter_value_url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+  "event_type": "fellowship"
+ },
+ "65": {
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "Fields: CS/CE/telecom/EE (Math not listed)",
+    "quote": "Fellowships are awarded to students enrolled in BSc, BTech, MSc, MTech, or equivalent programmes in Computer Science, Computer Engineering, Telecommunications, or Electrical Engineering. PhD students are not eligible.",
+    "url": "https://summer.epfl.ch/",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Research internship in an EPFL IC lab; EPFL has crypto groups (e.g. LASEC/COMPSEC) but placement is not guaranteed in one (judgment).",
+  "letter_value_url": "https://summer.epfl.ch/",
+  "event_type": "internship"
+ },
+ "66": {
+  "gates": [
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.6/4.0",
+    "quote": "You have a GPA of 3.6/4.0 or the equivalent in the grades associated with your major subject.",
+    "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "BSc/MSc (not PhD), after first year",
+    "quote": "You are currently a bachelor or a master's student (not PhD) in the Physical Sciences, Chemical Sciences, Life Sciences, Mathematics or Computer Science, after completing the first year of your studies.",
+    "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "1+ academic recommendation letter",
+    "quote": "Applicants for this program must provide at least one letter of recommendation ... Recommenders should be from the academic world",
+    "url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Students do research in a Weizmann lab (\"Meet the Labs\"); a placement in a CS/math crypto lab would give a strong theory letter (judgment; specific labs not verified here).",
+  "letter_value_url": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+  "event_type": "research-program"
+ },
+ "67": {
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Lecture-based summer school (\"brings together Master's and PhD students, academics, and industry experts\"); no supervised research, so no research letter (judgment).",
+  "letter_value_url": "https://summerschool-croatia.cs.ru.nl/",
+  "event_type": "school/workshop"
+ },
+ "68": {
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "One-week security summer school for graduate students; lectures, no research supervision (judgment).",
+  "letter_value_url": "https://www.securityweek.at/",
+  "event_type": "school/workshop"
+ },
+ "69": {
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Summer school (lectures/workshops); no research supervision (judgment).",
+  "letter_value_url": "https://casa.rub.de/veranstaltungen/casa-summer-school",
+  "event_type": "school/workshop"
+ },
+ "70": {
+  "gates": [
+   {
+    "kind": "nomination",
+    "label": "Nominated by your math grad director",
+    "quote": "Graduate students from MSRI Academic Sponsoring Institutions or from the mathematics department of any U.S. institution are eligible to be nominated by their Director of Graduate Studies. Admission is on a first-come, first-served basis up to the limits of the capacity of the school. Early nominations are not accepted.",
+    "url": "https://legacy.slmath.org/web/msri/education/for-graduate-students",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Two-week math graduate school with lectures and problem sessions, not crypto research; no research letter (judgment).",
+  "letter_value_url": "https://www.slmath.org/summer-schools",
+  "event_type": "school/workshop",
+  "corrections": [
+   {
+    "field": "eligibility",
+    "new": "Any US math department's Director of Graduate Studies can nominate (not only member institutions); first-come, first-served; early nominations not accepted.",
+    "url": "https://legacy.slmath.org/web/msri/education/for-graduate-students"
+   }
+  ]
+ },
+ "71": {
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "1st year of grad school done (you will be)",
+    "quote": "In general, GSS applicants will have completed their first year of graduate school, and in some cases, may already be working on a thesis.",
+    "url": "https://www.ias.edu/pcmi/pcmi-2027-graduate-summer-school",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Three-week math graduate summer school (lectures); not crypto research (judgment).",
+  "letter_value_url": "https://www.ias.edu/pcmi",
+  "event_type": "school/workshop",
+  "corrections": [
+   {
+    "field": "ms_students_eligible",
+    "old": "unclear",
+    "new": "yes",
+    "url": "https://www.ias.edu/pcmi/pcmi-2027-graduate-summer-school",
+    "quote": "In general, GSS applicants will have completed their first year of graduate school"
+   }
+  ]
+ },
+ "72": {
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "A March winter school in arithmetic geometry (lectures and project groups); not crypto research (judgment).",
+  "letter_value_url": "https://swc-math.github.io/aws/2027/index.html",
+  "event_type": "school/workshop"
+ },
+ "73": {
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Graduate summer school (lectures), 2027 topic TBA (judgment).",
+  "letter_value_url": "https://www.ipam.ucla.edu/programs/summer-schools/",
+  "event_type": "school/workshop"
+ }
+}

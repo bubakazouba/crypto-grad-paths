@@ -1,0 +1,272 @@
+{
+ "19": {
+  "org": "JPMorgan Chase",
+  "program_name": "2027 AI Research Associate Program - Internship",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "Currently pursuing a PhD in Computer science, Engineering, or related fields with relevant research experience in AI/ML",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Top-venue pubs (NeurIPS/ICML/CRYPTO)",
+    "quote": "Research publications in top-tier AI/ML venues (e.g., conferences, journals) - broad conferences such as NeurIPS, ICML, ICLR, etc., or highly regarded specialized conferences such as ICAPS, CRYPTO, etc.",
+    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Only if placed in research area (g) 'Cryptography and secure multi-party computation': JPMC AI Research cryptography is led by Antigoni Polychroniadou (Aarhus PhD under Damgard; MPC theory). Her homepage: \"As of January 2019, I am a vice president at J.P. Morgan AI research and cryptographer lead\" and \"My research interests lie in cryptography and more broadly in theoretical computer science.\" Homepage is dated; current title and CRYPTO/EUROCRYPT counts not re-verified this run (dblp rate-limited). In an AI/ML area the letter would be low for theory crypto.",
+  "letter_value_url": "https://www.cs.cornell.edu/~polychroniadou/",
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "notes",
+    "old": "No program named 'AlgoCRYPT' was found",
+    "new": "'AlgoCRYPT' appears (web-search snippet only, PDF not opened) as a JPMC Center of Excellence name in an Oct 2025 Polychroniadou presentation, not as an intern program. JPMC careers API keyword 'cryptography' (2026-11-06) shows no separate crypto intern req beyond 210800354/210800615.",
+    "url": "https://sf-web-assets-prod.s3.amazonaws.com/wp-content/uploads/2025/10/21154833/Antigoni-Presentation.pdf",
+    "quote": "(search snippet, unverified) places her under the AlgoCRYPT CoE, with research pillars including encryption, zero-knowledge proofs, quantum cryptography"
+   }
+  ]
+ },
+ "20": {
+  "org": "JPMorgan Chase",
+  "program_name": "GTAR Quantum Communication & Quantum Cryptography / Blockchain & Cryptography Summer Associate",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "MS or PhD student (math/sci/eng/CS)",
+    "quote": "Enrolled in a master's or Ph.D. degree program in math, science, engineering, computer science or related fields",
+    "url": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "GTAR is JPMC's applied quantum/crypto research center (QKD, PQC migration), applied venues rather than CRYPTO/TCC. Gate quote is from the row (search-index snippet of a 2025 posting); URL returns HTTP 404 on 2026-11-06, so quote UNVERIFIED. JPMC careers REST search 2026-11-06 (keywords cryptography, quantum, applied research) shows no 2027 GTAR summer-associate req. No mentor evidence URL found.",
+  "letter_value_url": null,
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "eligibility_source",
+    "old": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+    "new": null,
+    "url": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+    "quote": "HTTP 404 on 2026-11-06; no live 2027 GTAR crypto/quantum summer-associate req in JPMC careers API"
+   }
+  ]
+ },
+ "21": {
+  "org": "Bosch Research (RTC-NA)",
+  "program_name": "Automotive Security Intern (Pittsburgh)",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "Embedded sec + C/ASM, JTAG, Verilog",
+    "quote": "Required Qualification: Expertise in Security : Strong knowledge of embedded systems security ... Proficiency in low-level programming languages for embedded systems, especially C and Assembly, with experience using debugging interfaces such as JTAG and UART as well as hardware description languages for FPGAs such as Verilog and VHDL",
+    "url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Applied automotive/embedded security: \"automotive system security, IT security applications, and security for and with machine learning\"; no theory-crypto mentors identified. PhD enrollment is only 'Desired'. Posting active=false (released 2025-01-30).",
+  "letter_value_url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "23": {
+  "org": "SandboxAQ",
+  "program_name": "SandboxAQ Residency Program",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "STEM grad/undergrad/postdoc",
+    "quote": "Open to STEM graduate students, medical students, MBA candidates, undergraduates, and postdocs",
+    "url": "https://www.sandboxaq.com/company/residencies",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "SandboxAQ employs top PQC/lattice researchers, e.g. Martin Albrecht: \"I am a professor in cryptography at King's College London . I am also a Principal Research Scientist for SandboxAQ . I work in cryptography, especially post-quantum and lattice-based cryptography\". But the residency page frames projects around \"Large Quantitative Models (LQMs)\" with no crypto track named, so such supervision is not assured.",
+  "letter_value_url": "https://malb.io/",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "24": {
+  "org": "Zama",
+  "program_name": "Summer Internship - FHE research and Concrete lib (2022 posting)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student (2022 post)",
+    "quote": "We are looking for a PhD student to join our team as a research intern (during the summer).",
+    "url": "https://iacr.org/news/index.php?next=17886",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Intern \"will work with a team of cryptographers\" (Zama FHE) but the role \"will mix some research ... and some implementation\" in the Concrete library. Applied FHE, not theory. IACR news post dated 02 March 2022; no 2027 call found.",
+  "letter_value_url": "https://iacr.org/news/index.php?next=17886",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "28": {
+  "org": "Ericsson Research",
+  "program_name": "Research Internship Cellular Security (Santa Clara)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "Currently enrolled in a PhD program in Computer Science, Telecommunications, Electrical Engineering, or a related field",
+    "url": "https://builtin.com/job/research-internship-cellular-security/8547294",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Telecom/6G cellular security research, not cryptography theory. Built In: \"Sorry, this job was removed at 02:15 p.m. (UTC) on Friday, Mar 06, 2026\".",
+  "letter_value_url": "https://builtin.com/job/research-internship-cellular-security/8547294",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "29": {
+  "org": "a16z Frontier research lab",
+  "program_name": "Research Intern, Frontier (Summer 2027)",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "1 rec letter required",
+    "quote": "Letters of recommendation (one letter is required, a second letter is optional but recommended)",
+    "url": "https://a16z.com/about/jobs/?gh_jid=8046730003",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "In-office NYC",
+    "quote": "This role will be based in New York City, NY and requires in-office presence in our New York City, NY office.",
+    "url": "https://a16z.com/about/jobs/?gh_jid=8046730003",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Lab founded as a16z crypto research under Tim Roughgarden with cryptographers Valeria Nikolaenko (\"specializes in modern cryptography, computer and web security, post-quantum cryptography\") and Joseph Bonneau (2022 announcement); Justin Thaler (Georgetown; proof systems) appears in current a16zfrontier research posts. Current roster not re-verified and the lab \"has recently expanded its focus from crypto-focused research\" to AI/materials/energy, so a crypto mentor depends on placement. Venue counts not dblp-verified (rate-limited). Deadline: \"submit applications by 12 p.m. PT on November 20, 2026\".",
+  "letter_value_url": "https://a16zfrontier.com/posts/article/announcing-a16z-crypto-research/",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "30": {
+  "org": "Ethereum Foundation",
+  "program_name": "EF Internship Program - Cryptography Research Intern (2026 call; 2027 not announced)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Univ. student or recent grad",
+    "quote": "The program is intended for university students or recent graduates passionate about Ethereum, open-source contributions, and decentralized technologies.",
+    "url": "https://blog.ethereum.org/2025/10/14/internship-2026",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Intern joins EF Cryptography Research, which \"publishes peer-reviewed results\"; team page lists Gottfried Herold (public key cryptanalysis), George Kadianakis, Dmitry Khovratovich, Antonio Sanso, Benedikt Wagner (\"variants of digital signatures\") and Arantxa Zapico (\"Succinct arguments, zero-knowledge, zkVMs\"). High rests on several being IACR-venue authors; not dblp-verified this run (rate-limited).",
+  "letter_value_url": "https://crypto.ethereum.org/team",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "32": {
+  "org": "Chainlink Labs",
+  "program_name": "Research Internship (Chainlink Labs Research)",
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "BS CS or equiv. experience",
+    "quote": "B.S. in computer science or equivalent professional experience along with coursework in algorithms and data structures and discrete math.",
+    "url": "https://builtin.com/job/research-internship/7122716",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Prof. software dev experience",
+    "quote": "Professional software development experience is required.",
+    "url": "https://builtin.com/job/research-internship/7122716",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Research led by Ari Juels: \"Ari Juels is currently Chief Scientist at Chainlink Labs. He is also the Weill Family Foundation and Joan and Sanford I. Weill Professor in the Jacobs Technion-Cornell Institute at Cornell Tech\". Group publishes mostly at security/systems venues and the intern role is build-oriented, so medium unless Juels supervises. Posting \"was removed at 06:43 p.m. (UTC) on Friday, Nov 21, 2025\".",
+  "letter_value_url": "https://chainlinklabs.com/research",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "33": {
+  "org": "Flashbots",
+  "program_name": "MEV Fellowship (research grant)",
+  "gates": [],
+  "letter_value": "low",
+  "letter_value_reason": "Part-time self-directed MEV grant; a fellow should be \"comfortable working independently, leading research directions for others to follow and be familiar with the standards and rigour required for academic research\". MEV/mechanism-design collaboration, not theory-crypto supervision. No formal eligibility gates on grants.md.",
+  "letter_value_url": "https://github.com/flashbots/mev-research/blob/main/grants.md",
+  "event_type": "fellowship",
+  "corrections": []
+ },
+ "34": {
+  "org": "Mysten Labs",
+  "program_name": "Research Intern (2025 posting)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "Enrolled in a Ph.D. program in Computer Science, or related technical field.",
+    "url": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Industry crypto/distributed-systems research; interns \"Contribute to academic publications and blog posts\", areas include \"cryptography, security, distributed computing\". Mentors not verified (mystenlabs.com research/team pages 404). Source is Simplify aggregator copy posted Jan 14, 2025.",
+  "letter_value_url": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "35": {
+  "org": "Aptos Labs",
+  "program_name": "Software Engineering Graduate Internship, Research (2024 posting)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD in Crypto/Parallelism/Blockchain",
+    "quote": "You are pursuing a Doctorate degree with a specialization in Cryptography, Parallelism, or Blockchain",
+    "url": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Aptos research page lists mostly consensus/systems papers (Narwhal and Tusk, Bullshark, Block-STM) plus crypto such as \"Aggregatable Distributed Key Generation\" (Gurkan, Jovanovic, Maller, Meiklejohn, Stern, Tomescu). Applied crypto/consensus; role involves \"coding up your solution\".",
+  "letter_value_url": "https://aptoslabs.com/research",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "36": {
+  "org": "Matter Labs (ZKsync)",
+  "program_name": "Research Intern - Cryptography",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD student only",
+    "quote": "We are actively seeking PhD students specialising in these fields",
+    "url": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Recent papers expected",
+    "quote": "We are seeking individuals who possess pertinent expertise, as evident from their recent research outcomes like papers",
+    "url": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Applied ZK/blockchain research: \"we appreciate the emergence of research papers resulting from internships at the PhD level\". Mentors not identified; ZK engineering org rather than a theory group.",
+  "letter_value_url": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+  "event_type": "internship",
+  "corrections": []
+ }
+}

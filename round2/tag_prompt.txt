@@ -1,0 +1,14 @@
+Classification task (no web needed; do NOT edit any repo files; do NOT message anyone). Read the whole input file INPUT (use Read with allow_large or in parts; read ALL of it). It lists, for each professor ("=== School|Name | dblp url | N papers"), every dblp publication 2021-2026 as "year | title | venue".
+
+For each professor, assign research_tags from this FIXED vocabulary only:
+"lower bounds", "memory checking", "ORAM", "PIR", "garbling", "oblivious algorithms", "MPC", "ZK", "lattices/PQC", "FHE", "obfuscation", "quantum crypto", "foundations", "signatures/PKE", "symmetric/hash", "blockchain/consensus", "applied/systems", "privacy/DP", "non-crypto theory"
+
+Rules (judge by reading titles yourself; do not write keyword/regex scripts):
+- "memory checking", "ORAM", "PIR", "garbling", "lower bounds", "oblivious algorithms": tag if at least 1 title is clearly and primarily about it (PIR includes doubly-efficient PIR, private information retrieval, keyword PIR; garbling includes garbled circuits/RAM, lookup tables in garbling; lower bounds = titles proving lower bounds/impossibility/separations for crypto or data structures; oblivious algorithms = oblivious sorting/shuffling/data structures/parallel oblivious algorithms, not ORAM itself; memory checking = memory checkers/online memory checking/authenticated data structures lower bounds).
+- every other tag: at least 2 titles primarily on that topic. "foundations" = OWFs, PRFs/PRGs, hardness, meta-complexity-for-crypto, black-box separations, definitions. "lattices/PQC" = LWE/SIS/lattice/isogeny/code-based/post-quantum. "ZK" includes SNARKs/proof systems/IOPs. "non-crypto theory" = mostly non-crypto TCS (PCPs, approximation, complexity, algorithms).
+- Order tags by how much of their 2021-2026 output they represent; at most 6 tags.
+- For each tag give evidence: up to 2 exact titles (copied) with year.
+- dblp_suspect: true if the title list looks like it mixes in a different person (e.g. obviously unrelated fields), with a one-line reason; else false.
+- crypto_core: "core" (majority crypto, publishes at CRYPTO/EUROCRYPT/TCC/ASIACRYPT/PKC/JoC), "security" (crypto mostly at CCS/USENIX/S&P or applied), "adjacent" (mostly non-crypto, some crypto), "not-crypto".
+
+Write JSON to OUTPUT: {"School|Name": {"research_tags":[...], "evidence":{"tag":[{"y":2024,"t":"..."}]}, "crypto_core":"...", "dblp_suspect":false, "suspect_reason":""}, ...} covering EVERY professor in the file (count them and verify the count). Validate with python json.load. Final reply: 2-3 lines (count, any suspects).

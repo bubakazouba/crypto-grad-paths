@@ -1,0 +1,80 @@
+{
+ "6": {
+  "school": "Purdue (West Lafayette)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 20604,
+  "fees_usd": 274,
+  "health_usd": null,
+  "url": "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/",
+  "quote": "Fall/Spring flat rate (8+ cr) annual: General Service Fee $9,718; Student Fitness and Wellness Fee $234; Student Activity Fee $40; Housing/Food $16,734 (on-campus billed est.; off-campus est. $16,734 per academic year); Books/Course Materials/Supplies/Equipment $750; Transportation $570; Miscellaneous/Federal Student Loan Fees $2,550; Subtotal Estimated Expenses (not billed) $3,870",
+  "basis": "16,734 housing/food + 750 books + 570 transportation + 2,550 misc/loan fees = 20,604. Fees = 234 fitness + 40 activity = 274 (the page's 'Subtotal Tuition' $9,992 resident bundles General Service Fee + these; nonresident adds $18,802 tuition).",
+  "fees_included_in_tuition": true,
+  "note": "Source is the Bursar/Treasurer rate page (Purdue's financial aid page points there for COA amounts); no standalone grad COA page found at purdue.edu/dfa. Misc line includes federal loan fees (not separable). No health insurance line. Page as relayed by WebFetch summarizer, quotes assembled from its table, not character-verbatim. Residents pay 9,992 total tuition+fees; nonresident 28,794."
+ },
+ "7": {
+  "school": "UC San Diego",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 38841,
+  "fees_usd": 1152,
+  "health_usd": 6660,
+  "url": "https://fas.ucsd.edu/cost-of-attendance/graduate-students/index.html",
+  "quote": "Graduate - 2026-27 ... UC Systemwide Tuition and Fees: $15,066; UC San Diego Campus-Based Fees: $1,152; UC San Diego Health Insurance Fee: $6,660 (may be waived ...); One-time Enrollment Services Fee $115 -> $22,878 (direct, off campus); Food & Housing $31,548 (off campus); Books $729; Miscellaneous Personal Expenses $2,574; Transportation Expenses $3,990; Graduate Estimated CA Resident Cost Totals $61,719 (off campus)",
+  "basis": "Off campus: 31,548 food&housing + 729 books + 2,574 misc + 3,990 transportation = 38,841. Check: 22,878 + 38,841 = 61,719.",
+  "fees_included_in_tuition": false,
+  "note": "Page content loads dynamically (year dropdown, rendered via headless Edge). On-campus living = 38,293 (31,056+729+2,574+3,990). Three quarters, full-time. Nonresident adds $15,102 supplemental tuition. 'Figures may not be final'. Excludes $115 one-time fee."
+ },
+ "8": {
+  "school": "UC Berkeley",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 33248,
+  "fees_usd": null,
+  "health_usd": 8206,
+  "url": "https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance",
+  "quote": "2026-27 Graduate Student Budgets (Academic) Updated April 6th, 2026 ... Off Campus: Tuition and Fees $17,550; Student Health Insurance Plan $8,206; Housing and Utilities $17,748; Food $8,972; Books, Course Materials, Supplies and Equipment $446; Miscellaneous and Personal $2,790; Transportation $3,292; Total Estimated Personal Expenses $33,248; Total Expected Graduate Costs $59,004",
+  "basis": "Off campus personal expenses: 17,748 + 8,972 + 446 + 2,790 + 3,292 = 33,248. Direct: 17,550 tuition&fees + 8,206 SHIP = 25,756.",
+  "fees_included_in_tuition": true,
+  "note": "Berkeley lists a single 'Tuition and Fees' line ($17,550, academic-track grad); fees not separable so fees_usd null. Nonresidents add $15,102. Professional/MEng/Info programs have different schedules (this is academic track, not MEng). Months not stated on page (academic year, assumed 9). Figures may be revised."
+ },
+ "9": {
+  "school": "UConn (Storrs)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 24592,
+  "fees_usd": 3886,
+  "health_usd": null,
+  "url": "https://financialaid.uconn.edu/cost/",
+  "quote": "Graduate Students (2026-2027) ... In-State: Tuition 19,512; University and Student Fees 3,886; Books, Course Materials, Supplies & Equipment 928; Transportation 2,494; Off-Campus Housing Estimate 11,922; On/Off-Campus Food Estimate 6,896; Miscellaneous Personal Expenses 2,352; Loan Fees 216; Estimated Total Expenses 48,206",
+  "basis": "928 + 2,494 + 11,922 + 6,896 + 2,352 = 24,592 (excludes 216 loan fees). Fees 3,886 separate line from tuition. Out-of-state transportation 2,704 (living 24,802); out-of-state tuition 41,424.",
+  "fees_included_in_tuition": false,
+  "note": "Full-time 9-credit, fall+spring; assistants' COA adjusted. No health insurance line. In-state total 48,206."
+ },
+ "10": {
+  "school": "University of Maryland (College Park)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 22982,
+  "fees_usd": 764,
+  "health_usd": null,
+  "url": "https://financialaid.umd.edu/costs",
+  "quote": "Graduate Costs (Estimated) State of Maryland Resident: Annual tuition $12,782; Mandatory fees $764; Housing & food off-campus $17,724; Personal expenses $1,200; Books and supplies $1,000; Transportation $3,058; Loan Fees $220; Total $36,748",
+  "basis": "17,724 + 1,200 + 1,000 + 3,058 = 22,982 (excludes 220 loan fees). Fees 764 listed separately from tuition.",
+  "fees_included_in_tuition": false,
+  "note": "Non-resident: tuition $26,824, same other lines, total $50,790. Tuition shown is generic grad; business/engineering/CS differential tuition may apply (footnote 3). Nonresidents requiring I-20 pay $125/semester fee. No health insurance line. Budget period not stated (annual, assumed 9)."
+ },
+ "11": {
+  "school": "University of Washington (Seattle)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 28113,
+  "fees_usd": null,
+  "health_usd": null,
+  "url": "https://www.washington.edu/financialaid/cost-of-attendance/",
+  "quote": "Resident Graduate (Seattle): Tuition & Fees $19,254 (based on graduate tier 1 rates); Books & Course Supplies $825; Housing & Food (living on/off campus) $23,199; Transportation $1,581; Miscellaneous $2508; Total living on/off campus $47,367",
+  "basis": "23,199 housing&food + 825 books + 1,581 transportation + 2,508 misc = 28,113. Check: 19,254 + 28,113 = 47,367.",
+  "fees_included_in_tuition": true,
+  "note": "UW lists a combined 'Tuition & Fees' line (tier 1 grad); fees not separable. Nonresident tuition & fees $33,555 (total $61,668). Tier 2 programs higher. No health insurance line on page (UW student insurance fees noted elsewhere as extra). Quotes via WebFetch summarizer (page blocked direct curl); academic year = 3 quarters. Undergrad-only PDF at finance.uw.edu not used."
+ }
+}

@@ -1,26 +1,43 @@
 {
  "date_retrieved": "2026-11-06",
  "situation": [
-  {"label": "Now: CSULA M.S. Mathematics (baseline)",
+  {
+   "label": "Now: CSULA M.S. Mathematics (baseline)",
    "text": "Every other option is implicitly 'vs. staying here'. 2026-27 California-resident graduate tuition $4,274 per semester (6.1+ units; $2,480 at 0-6 units) plus about $547 campus fees, so about $9,640 a year full-time. Culminating option: a thesis (MATH 5990, needs a 3.5 program GPA) or comprehensive exams in Algebra and Analysis. Official page: \"You can finish the program in two years by taking an average of 2.5 courses per semester.\" A thesis with a crypto-adjacent advisor is the cheapest way to a first paper. Total unit count not confirmed on an official page.",
-   "sources": ["https://www.calstatela.edu/finance-onestop/student-fees", "https://www.calstatela.edu/nss/math/masters-degree-mathematics"]},
-  {"label": "Already admitted: USC MS CS (unused)",
-   "text": "Admitted for Fall 2026, never enrolled. USC Viterbi FAQ: \"You may submit a request to defer your application for a future semester within one (1) year of your original application semester\"; \"Admission is not guaranteed, and deferred applications are reviewed along with all other applications for that term\"; no new application or fee. Viterbi confirmed this by email on 2026-11-03; the Deferral Request Form has not been submitted. Cost: $2,742 per unit, so about $87,744 for 32 units, and MS students get no RA/TA. 2 crypto professors listed.",
-   "sources": ["https://viterbigradadmission.usc.edu/faq/", "https://viterbigradadmission.usc.edu/programs/masters/tuition-funding/tuition-funding-masters/"]},
-  {"label": "Key dates in the next 6 weeks",
-   "text": "IDA SCAMP La Jolla Nov 14, a16z Frontier Nov 20, Arizona Winter School Nov 24, EPFL Nov 29, CISPA Nov 30, PhD deadlines Dec 1-15 (MIT/Berkeley Dec 1, Stanford Dec 8, CMU Dec 9, NYU Dec 12, others Dec 15), ETH SSRF Dec 16, NTT Dec 20. See the Apply-by timeline tab for days left.",
-   "sources": []}
+   "sources": [
+    "https://www.calstatela.edu/finance-onestop/student-fees",
+    "https://www.calstatela.edu/nss/math/masters-degree-mathematics"
+   ]
+  },
+  {
+   "label": "Already admitted: USC MS CS (unused)",
+   "text": "Admitted for Fall 2026, never enrolled. USC Viterbi FAQ: \"You may submit a request to defer your application for a future semester within one (1) year of your original application semester\"; \"Admission is not guaranteed, and deferred applications are reviewed along with all other applications for that term\"; no new application or fee. Viterbi confirmed this by email on 2026-11-03; the Deferral Request Form has not been submitted. Cost: $2,742 per unit, so about $87,744 for 32 units, and MS students get no RA/TA. No core cryptographer at USC CS: Jiapeng Zhang is a crypto-adjacent theorist and Mengyuan Li works on systems/TEE security (round-2 review). To keep the admit for Fall 2027, updated materials are due by the Fall application deadline (January 15); the timeline shows this as the USC deferral row.",
+   "sources": [
+    "https://viterbigradadmission.usc.edu/faq/",
+    "https://viterbigradadmission.usc.edu/programs/masters/tuition-funding/tuition-funding-masters/",
+    "https://viterbi.usc.edu/directory/faculty/Li/Mengyuan"
+   ]
+  }
  ],
  "summer_ra_intro": "For an MS student without crypto papers, summer research arranged directly with a professor is often the most realistic route. Every professor in the Master's tab is a potential host: open a school's 'Professors' list. Start with the people whose recent papers you can genuinely engage with.",
  "summer_ra": [
-  {"name": "Wei-Kai Lin (University of Virginia)", "url": "https://weikailin.github.io",
+  {
+   "name": "Wei-Kai Lin (University of Virginia)",
+   "url": "https://weikailin.github.io",
    "where": "Charlottesville, VA (or remote)",
    "note": "Assistant Professor of CS at UVA (title from his homepage; the UVA faculty page was not readable). His homepage says: \"I am interested in cryptography and theoretical computer science in general.\" He works on oblivious RAM (e.g. OptORAMa) and memory-checking lower bounds, which your own work builds on. His homepage says nothing about summer interns, so ask directly. This is your first contact to make.",
-   "sources": ["https://weikailin.github.io", "https://dblp.org/pid/03/1108"]},
-  {"name": "Any professor in the Master's tab (sorted by theory-venue papers)", "url": "#ms.sort=core",
+   "sources": [
+    "https://weikailin.github.io",
+    "https://dblp.org/pid/03/1108"
+   ]
+  },
+  {
+   "name": "Any professor in the Master's tab (sorted by theory-venue papers)",
+   "url": "#ms.sort=core",
    "where": "",
    "note": "Use the school cards' 'Professors' lists, which link each person's homepage and dblp. Prefer people with recent papers on topics you have actually worked on (ORAM, memory checking, lattices).",
-   "sources": []}
+   "sources": []
+  }
  ],
  "how_to_approach": [
   "Read 2-3 of their recent papers first, and pick one concrete open question or limitation you have actually thought about.",
@@ -31,32 +48,95 @@
  ],
  "math_intro": "Math-department groups in number theory, arithmetic geometry, finite fields and coding theory feed into cryptography (isogenies, lattices, multivariate and code-based crypto). This is the most natural bridge from an M.S. in Math. Each person below was checked on an official page; the list is a starting point, not exhaustive.",
  "math_routes": [
-  {"name": "Katherine Stange", "school": "University of Colorado Boulder, Mathematics", "url": "https://www.colorado.edu/math/katherine-stange",
-   "topics": ["isogeny-based crypto", "elliptic curves", "lattices", "arithmetic geometry"],
+  {
+   "name": "Katherine Stange",
+   "school": "University of Colorado Boulder, Mathematics",
+   "url": "https://www.colorado.edu/math/katherine-stange",
+   "topics": [
+    "isogeny-based crypto",
+    "elliptic curves",
+    "lattices",
+    "arithmetic geometry"
+   ],
    "ms_url": "https://www.colorado.edu/academics/grad-mathematics",
    "note": "Professor. Research: \"Arithmetic geometry, elliptic curves, algebraic and integer sequences, cryptography\". Boulder offers an M.A., an M.S. and a Ph.D. in mathematics.",
-   "sources": ["https://www.colorado.edu/math/katherine-stange", "https://www.colorado.edu/academics/grad-mathematics"]},
-  {"name": "Shuhong Gao", "school": "Clemson University, School of Mathematical and Statistical Sciences", "url": "https://www.math.clemson.edu/~sgao/",
-   "topics": ["finite fields", "cryptography", "coding theory", "computational number theory"],
+   "sources": [
+    "https://www.colorado.edu/math/katherine-stange",
+    "https://www.colorado.edu/academics/grad-mathematics"
+   ]
+  },
+  {
+   "name": "Shuhong Gao",
+   "school": "Clemson University, School of Mathematical and Statistical Sciences",
+   "url": "https://www.math.clemson.edu/~sgao/",
+   "topics": [
+    "finite fields",
+    "cryptography",
+    "coding theory",
+    "computational number theory"
+   ],
    "ms_url": "https://www.clemson.edu/science/academics/departments/mathstat/academics/grad-math.html",
    "note": "Listed in Clemson's algebra research group (\"Computational algebra, computational number theory, coding theory, cryptography\"), which also includes Felice Manganiello (coding theory). His personal page is old, so his current rank is not verified. Clemson offers an M.S. in Mathematical Sciences.",
-   "sources": ["https://www.clemson.edu/science/academics/departments/mathstat/research/algebra.html", "https://www.math.clemson.edu/~sgao/"]},
-  {"name": "Daniel Smith-Tone", "school": "University of Louisville, Mathematics (also NIST)", "url": "https://artsandsciences.louisville.edu/mathematics/faculty-staff",
-   "topics": ["multivariate public-key crypto", "post-quantum"],
+   "sources": [
+    "https://www.clemson.edu/science/academics/departments/mathstat/research/algebra.html",
+    "https://www.math.clemson.edu/~sgao/"
+   ]
+  },
+  {
+   "name": "Daniel Smith-Tone",
+   "school": "University of Louisville, Mathematics (also NIST)",
+   "url": "https://artsandsciences.louisville.edu/mathematics/faculty-staff",
+   "topics": [
+    "multivariate public-key crypto",
+    "post-quantum"
+   ],
    "ms_url": "https://artsandsciences.louisville.edu/academics-programs/academic-departments/mathematics",
    "note": "Professor; research area multivariate public-key cryptography. Louisville offers an M.A. in Mathematics and a Ph.D. in Applied and Industrial Mathematics.",
-   "sources": ["https://artsandsciences.louisville.edu/mathematics/faculty-staff"]},
-  {"name": "Kirsten Eisentraeger", "school": "Penn State, Mathematics", "url": "https://science.psu.edu/math/people/kxe8",
-   "topics": ["number theory", "arithmetic geometry", "cryptography", "quantum computing"],
+   "sources": [
+    "https://artsandsciences.louisville.edu/mathematics/faculty-staff"
+   ]
+  },
+  {
+   "name": "Kirsten Eisentraeger",
+   "school": "Penn State, Mathematics",
+   "url": "https://science.psu.edu/math/people/kxe8",
+   "topics": [
+    "number theory",
+    "arithmetic geometry",
+    "cryptography",
+    "quantum computing"
+   ],
    "ms_url": null,
    "note": "Professor of Mathematics and Pentz Professor of Science. PhD route only: Penn State says \"We do not admit new students into the Master's program.\"",
-   "sources": ["https://science.psu.edu/math/people/kxe8", "https://science.psu.edu/math/graduate/other-math-degrees"]}
+   "sources": [
+    "https://science.psu.edu/math/people/kxe8",
+    "https://science.psu.edu/math/graduate/other-math-degrees"
+   ]
+  }
  ],
  "funding": [
-  {"name": "NSF Graduate Research Fellowship (GRFP), NSF 26-526", "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation",
-   "dates": [{"label": "Letters", "iso": "2026-10-16"}, {"label": "CISE", "iso": "2026-10-20"}, {"label": "Math", "iso": "2026-10-23"}],
+  {
+   "name": "NSF Graduate Research Fellowship (GRFP), NSF 26-526",
+   "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation",
+   "dates": [
+    {
+     "label": "Letters",
+     "iso": "2026-10-16"
+    },
+    {
+     "label": "CISE",
+     "iso": "2026-10-20"
+    },
+    {
+     "label": "Math",
+     "iso": "2026-10-23"
+    }
+   ],
    "eligible": true,
    "note": "The cycle for 2027 awards has PASSED (8:00 p.m. ET deadlines in October 2026). Rules: \"Graduate students can apply only once, in the first year of their first graduate program\"; \"Second-year graduate students are not eligible to apply\"; \"graduate programs that are primarily course-based without a thesis are ineligible for GRFP support\". Since the CSULA M.S. started in Fall 2026, the next cycle (fall 2027) would be in his second year, so he is likely no longer eligible unless he starts a new first graduate program. Check the next solicitation to be sure.",
-   "sources": ["https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation"]}
+   "sources": [
+    "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program/nsf26-526/solicitation"
+   ]
+  }
  ]
 }

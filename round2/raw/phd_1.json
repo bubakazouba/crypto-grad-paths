@@ -1,0 +1,600 @@
+{
+ "0": {
+  "school": "Carnegie Mellon CSD",
+  "phd": {
+   "deadline_iso": "2026-12-09",
+   "priority_iso": "2026-11-18",
+   "url": "https://csd.cmu.edu/academics/doctoral/admissions",
+   "quote": "Early Application Deadline* : November 18, 2026 (3 p.m. EST) Final Application Deadline : December 9, 2026 (3 p.m. EST)",
+   "note": "Early deadline is a cost-savings option only, not early decision. GRE optional."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "1": {
+  "school": "NYU Courant CS",
+  "phd": {
+   "deadline_iso": "2026-12-12",
+   "priority_iso": null,
+   "url": "https://cs.nyu.edu/dynamic/phd/admissions/",
+   "quote": "The deadline for applications is December 12.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Applications via GSAS."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "2": {
+  "school": "Boston University CS",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://www.bu.edu/cs/phd-program/admissions/",
+   "quote": "The deadline to apply for the PhD program is December 1, 2026 . Applications close at 11:59pm (23h59) Boston Time",
+   "note": "Application fee required for processing; GRS fee waiver available."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "3": {
+  "school": "Georgia Tech School of CS (College of Computing)",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://grad.gatech.edu/degree-programs/computer-science-campus",
+   "quote": "Computer Science - On Campus (School of Computer Science) ... Doctoral Fall 2026 Fall 2027 12/15/2025 12/15/2026",
+   "note": "JS-rendered program table (gradapp.gatech.edu), read via headless Edge."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "4": {
+  "school": "UIUC Siebel School of Computing",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
+   "quote": "Ph.D. in Computer Science Fall only December 1 March 15",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. March 15 is the decision deadline. 11:59 PM Central."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": {
+    "value": "MS thesis track exists",
+    "quote": "A master's thesis and registration in 4 credit hours of CS 599 associated with the thesis research.",
+    "url": "https://siebelschool.illinois.edu/academics/graduate/ms-program"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "5": {
+  "school": "George Mason CS",
+  "phd": {
+   "deadline_iso": "2027-03-15",
+   "priority_iso": "2026-12-01",
+   "url": "https://itsapps.gmu.edu/graduate-deadlines-and-requirements/Programs/Details/0u2Kb000000oMh7IAE",
+   "quote": "Computer Science - PHD ... Fall Deadlines Funding Deadline: December 01, 2026 Standard Deadline: March 15, 2027",
+   "note": "Dec 1 is the funding-consideration deadline; read via headless Edge."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "6": {
+  "school": "Purdue CS",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://www.cs.purdue.edu/graduate/admission/steps.html",
+   "quote": "MS and PhD Spring 2027 start—October 1, 2026 Fall 2027 start—December 1, 2026",
+   "note": "FAQ: no priority deadline used."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "Admitted MS students who pass the core requirements of the doctoral program and show strong potential for research with a CS faculty member may petition to join the PhD program.",
+    "url": "https://cs.purdue.edu/graduate/admission/faq.html"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "~290 admitted of 3900+ applicants (PhD+MS combined, Fall 2024)",
+    "quote": "For Fall 2024 we received over 3900 applications for PhD and MS combined and admitted around 290.",
+    "url": "https://www.cs.purdue.edu/graduate/admission/steps.html"
+   }
+  }
+ },
+ "7": {
+  "school": "UC San Diego CSE",
+  "phd": {
+   "deadline_iso": "2026-12-16",
+   "priority_iso": null,
+   "url": "https://cse.ucsd.edu/graduate/admissions",
+   "quote": "The UCSD Application for Graduate Admission opens for Fall 2027 admission from September 2, 2026 until December 16, 2026 at 11:59 p.m. PST.",
+   "note": "Fee waiver form closes Dec 2, 2026 3:00 PM PST."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "Current or former UCSD students in the MS program who wish to continue/transfer to the PhD program, will complete the UCSD Application for Graduate Admission by the general application deadline for the year they are seeking admission",
+    "url": "https://cse.ucsd.edu/graduate/admissions"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "6,000+ applications annually",
+    "quote": "Our department receives over 6,000 applications annually.",
+    "url": "https://cse.ucsd.edu/graduate/admissions"
+   }
+  }
+ },
+ "8": {
+  "school": "UC Berkeley EECS",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
+   "quote": "The deadline to apply is December 1, 2026, at 8:59 pm PST.",
+   "note": "Late applications or materials not accepted."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "Students interested in a research oriented degree should consider applying directly to the MS/PhD program.",
+    "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "M.S.-only cohort generally <10",
+    "quote": "Occasionally we admit exceptional applicants with research experience, but the cohort generally is limited to less than 10.",
+    "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/"
+   }
+  }
+ },
+ "9": {
+  "school": "UConn CSE",
+  "phd": {
+   "deadline_iso": "2027-01-01",
+   "priority_iso": null,
+   "url": "https://computing.engineering.uconn.edu/graduate-studies/ph-d-program/ph-d-admissions/",
+   "quote": "For full consideration, applications must arrive by January 1.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. GRE not explicitly required."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "10": {
+  "school": "Univ. of Maryland CS",
+  "phd": {
+   "deadline_iso": "2026-12-04",
+   "priority_iso": null,
+   "url": "https://www.cs.umd.edu/grad/apply",
+   "quote": "Application deadline December 4, 2026",
+   "note": "Letter writers have two weeks past the deadline."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "You will need to apply through the standard online application system. Please refer to section \" Continuation to Ph.D. Program ,\" in the Policy Manual.",
+    "url": "https://www.cs.umd.edu/grad/faq"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "11": {
+  "school": "Univ. of Washington Allen School",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.washington.edu/academics/graduate/phd-program/phd-admissions/",
+   "quote": "Application Deadline: December 15 (or the next business day if the 15th falls on a weekend)",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle (Dec 15, 2026 is a Tuesday)."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "no",
+    "quote": "Note: The Allen School does not currently offer a stand-alone, full-time master’s degree program.",
+    "url": "https://www.cs.washington.edu/academics/graduate/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "~50-60 starting PhD students/year from 3,500+ applicants",
+    "quote": "Admissions from over 3,500 prospective graduate students, from around the globe, with the goal of starting approximately 50-60 students each year.",
+    "url": "https://www.cs.washington.edu/academics/graduate/phd-program/phd-admissions/"
+   }
+  }
+ },
+ "12": {
+  "school": "Yale CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://gsas.yale.edu/programs-of-study/computer-science",
+   "quote": "Application Deadline PhD - December 15 MS - January 2 11:59pm ET",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "13": {
+  "school": "Columbia CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.columbia.edu/education/admissions8/",
+   "quote": "Doctoral: MS/PhD*, PhD December 15 October 15",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Table columns: Fall / Spring."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": {
+    "value": "yes (encouraged)",
+    "quote": "MS students are encouraged to participate in state-of-the-art research with our research groups and labs.",
+    "url": "https://www.cs.columbia.edu/education/ms/"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "14": {
+  "school": "Cornell CS (Ithaca)",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.cornell.edu/phd-computer-science/apply",
+   "quote": "The deadline for the Fall semester is December 15th.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial",
+    "quote": "Although it is feasible to later transfer from the pure MS program into the MS/PhD program, we prefer that students who plan to obtain a PhD apply directly to our PhD program.",
+    "url": "https://www.cs.cornell.edu/phd-computer-science/apply"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "15": {
+  "school": "Johns Hopkins CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.jhu.edu/academic-programs/graduate-studies/phd-program/",
+   "quote": "The PhD deadline for fall is December 15th.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "16": {
+  "school": "Northeastern Khoury",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.khoury.northeastern.edu/programs/computer-science-phd/",
+   "quote": "Deadline: December 15 for fall admission",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Advanced-entry option exists for MS degree holders."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "17": {
+  "school": "UVA CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/phd-computer-science",
+   "quote": "Application Deadlines for Fall 2027: PhD: December 15, 2026 MCS: January 30, 2027",
+   "note": "Read via headless Edge (FAQ accordion; plain fetch 403)."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "18": {
+  "school": "Arizona State SCAI",
+  "phd": {
+   "deadline_iso": "2026-12-31",
+   "priority_iso": null,
+   "url": "https://scai.engineering.asu.edu/graduate-admissions/",
+   "quote": "Computer Science December 1 (MS) or December 31 (PhD) August 1 (MS, and PhD)",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Fee waivers only for PhD applicants at direction of a sponsoring faculty."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "19": {
+  "school": "Brown CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://cs.brown.edu/degrees/doctoral/applications/",
+   "quote": "The deadline for applications (including test scores and letters of recommendation) for entry in September is December 15 .",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. GRE no longer mandatory."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "partial (MS grads admitted to PhD programs incl. Brown; no internal path stated)",
+    "quote": "Brown CS Master's graduates are regularly admitted to top PhD programs at schools such as Boston University, Brown University, Carnegie Mellon University, MIT, ...",
+    "url": "https://cs.brown.edu/degrees/masters/"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "~40 admitted from ~300-400 applicants",
+    "quote": "In recent years, we've admitted about 40 students from an applicant pool of about 300-400 students.",
+    "url": "https://cs.brown.edu/degrees/doctoral/faq/"
+   }
+  }
+ },
+ "20": {
+  "school": "Georgetown CS",
+  "phd": {
+   "deadline_iso": "2027-01-15",
+   "priority_iso": "2026-12-15",
+   "url": "https://cs.georgetown.edu/academics/graduate/phd/",
+   "quote": "Application deadlines Priority Deadline : December 15 Final Deadline : January 15",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Grad school list also shows 'Ph.D. in Computer Science (priority)' under December 15."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "PhD cohorts 15-25",
+    "quote": "Cohorts are usually between 15-25 students, providing meaningful opportunities to engage with faculty and peers.",
+    "url": "https://cs.georgetown.edu/academics/graduate/phd/"
+   }
+  }
+ },
+ "21": {
+  "school": "MIT EECS",
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/graduate-admissions-faqs/",
+   "quote": "the deadline for submitting your application is December 1 and the online application system will shut down that day.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Letters may arrive later; TOEFL/IELTS accepted after deadline."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "22": {
+  "school": "Oregon State EECS (CS)",
+  "phd": {
+   "deadline_iso": "2026-12-10",
+   "priority_iso": null,
+   "url": "https://engineering.oregonstate.edu/academics/programs/computer-science/graduate",
+   "quote": "The deadline for priority consideration Fall 2027: Ph.D. Fall 2027: December 10, 2026",
+   "note": "gradadmissions.oregonstate.edu also lists 'Ph.D Applicants: Dec. 10'. Funding consideration automatic."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": {
+    "value": "yes (research-oriented MS, thesis/project)",
+    "quote": "The Master of Science (M.S.) degree is research-oriented and suited for students interested in advanced technical research or pursuing a Ph.D., typically requiring a thesis or research project.",
+    "url": "https://engineering.oregonstate.edu/academics/programs/computer-science/graduate"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "23": {
+  "school": "Princeton CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science",
+   "quote": "Ph.D. - December 15, 11:59 p.m. Eastern Standard Time; M.S.E. - Not accepting M.S.E. applications for Fall 2027. (This deadline is for applications for enrollment beginning in fall 2027)",
+   "note": "Read via headless Edge. cs.princeton.edu/grad/faq still shows the Fall 2026 date (Dec 15, 2025)."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "no (M.S.E. not admitting for Fall 2027)",
+    "quote": "M.S.E. - Not accepting M.S.E. applications for Fall 2027.",
+    "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "yes (TA, if available)",
+    "quote": "Master's candidates are normally offered financial aid via teaching assistantships (if available).",
+    "url": "https://www.cs.princeton.edu/grad/faq"
+   },
+   "program_size": null
+  }
+ },
+ "24": {
+  "school": "Stony Brook CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://graduateadmissions.stonybrook.edu/portal/deadline_dates",
+   "quote": "Computer Science PhD Doctorate Fall 2027 1278 December 15, 2026 December 15, 2026",
+   "note": "Domestic and international deadlines identical."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": {
+    "value": "yes",
+    "quote": "If interested in the PhD program, please see the Graduate Student Handbook (Sec 4.9) to learn about the MS to PhD pathway",
+    "url": "https://www.cs.stonybrook.edu/academics/graduate/admissions.html"
+   },
+   "ms_research_publish": null,
+   "ra_for_ms": {
+    "value": "no (not at admission)",
+    "quote": "MS students are not typically considered for financial support or tuition waiver at the time of admission.",
+    "url": "https://www.cs.stonybrook.edu/academics/graduate/admissions.html"
+   },
+   "program_size": null
+  }
+ },
+ "25": {
+  "school": "Texas A&M CSE",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://engineering.tamu.edu/cse/admissions-and-aid/graduate-admissions/index.html",
+   "quote": "Deadlines for Fall (September) admissions: Ph.D. degrees: December 15",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Applied via EngineeringCAS; all applicants auto-considered for aid."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "26": {
+  "school": "UNC Chapel Hill CS",
+  "phd": {
+   "deadline_iso": "2027-03-09",
+   "priority_iso": "2026-12-15",
+   "url": "https://gradschool.sites.unc.edu/computer-science",
+   "quote": "Doctoral PhD COMP Fall* March 9, 2027 ... Fall Graduate School Fellowships December 15, 2026 (Recommended) Computer Science Research and Teaching Assistantships January 5, 2027",
+   "note": "Read via headless Edge. Priority = Grad School fellowship date (recommended); dept RA/TA consideration date is 2027-01-05."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": {
+    "value": "<10% of applicants accepted",
+    "quote": "Admission to the graduate program in Computer Science at UNC is highly selective, with fewer than 10 percent of applicants accepted to the program each year.",
+    "url": "https://cs.unc.edu/graduate/graduate-admissions"
+   }
+  }
+ },
+ "27": {
+  "school": "UT Austin CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.utexas.edu/graduate/apply",
+   "quote": "Application Opens October 15 Application Deadline December 15 Letters of Recommendation Deadline December 20",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. PhD decisions released March 30."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "28": {
+  "school": "UCLA CS",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.ucla.edu/graduate-admissions/",
+   "quote": "To apply for the Computer Science PhD or MS program, submit the UCLA application for graduate admission by December 15th.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. Apply to PhD or MS, not both."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": {
+    "value": "yes (MS thesis option)",
+    "quote": "The MS thesis option is designed to provide in-depth research opportunities with CS faculty.",
+    "url": "https://www.cs.ucla.edu/graduate-admissions/"
+   },
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ },
+ "29": {
+  "school": "Univ. of Michigan CSE",
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://cse.engin.umich.edu/academics/graduate/admissions",
+   "quote": "For full admission and financial aid consideration, applications to the doctoral program must be completed and submitted by December 15th.",
+   "note": "year not printed; assigned Dec 2026/Jan 2027 cycle. 11:59 PM ET. Read via headless Edge (plain fetch 403)."
+  },
+  "phd_null_note": null,
+  "ms_phd": {
+   "ms_feeds_phd": null,
+   "ms_research_publish": null,
+   "ra_for_ms": null,
+   "program_size": null
+  }
+ }
+}

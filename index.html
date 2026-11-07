@@ -5,51 +5,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Crypto Grad Paths</title>
+<link rel="icon" href="data:,">
 <style>
-:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e3e3e0;--accent:#2f5bea;--good:#1f8a4c;--warn:#b26a00;--bad:#c0392b;--chip:#eef1fb;--past:#f0f0ee;--hover:#f3f5fd}
-@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#9a9aa2;--line:#2e2e33;--accent:#7b9bff;--chip:#262b3d;--good:#4cc27e;--warn:#e0a240;--bad:#ef6b5c;--past:#19191b;--hover:#23262f}}
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#5f5f66;--line:#e3e3e0;--accent:#2a52d6;--on-accent:#fff;--good:#17703d;--warn:#8a5000;--bad:#a8302a;--chip:#eef1fb;--past:#f0f0ee;--hover:#f3f5fd;--mark:#fff3c4;--shadow:0 6px 24px rgba(0,0,0,.12)}
+@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#a3a3ab;--line:#34343a;--accent:#8fa8ff;--on-accent:#0d1020;--chip:#262b3d;--good:#5fd08f;--warn:#f0b354;--bad:#ff8a7a;--past:#19191b;--hover:#23262f;--mark:#3a3420;--shadow:0 6px 24px rgba(0,0,0,.5)}}
 *{box-sizing:border-box}
 html,body{overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-header{padding:20px 16px 8px;max-width:1200px;margin:0 auto}
-h1{font-size:22px;margin:0 0 4px}
+header{padding:14px 16px 4px;max-width:1200px;margin:0 auto}
+h1{font-size:20px;margin:0}
 h3{margin:18px 0 8px}
 .sub{color:var(--muted);font-size:13px}
-nav{display:flex;flex-wrap:wrap;gap:6px;max-width:1200px;margin:10px auto 0;padding:0 16px}
-nav button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer;font-size:14px}
-nav button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
-main{max-width:1200px;margin:0 auto;padding:12px 16px 40px}
+.sub details{margin:2px 0 0}
+.sub summary{display:inline}
+nav{display:flex;gap:6px;max-width:1200px;margin:8px auto 0;padding:0 16px 2px;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 13px;border-radius:999px;cursor:pointer;font-size:14px;white-space:nowrap}
+nav .sm{display:none}
+@media (max-width:600px){nav .lg{display:none}nav .sm{display:inline}nav button{padding:7px 11px}}
+nav button[aria-selected=true]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{max-width:1200px;margin:0 auto;padding:8px 16px 40px}
 main *{overflow-wrap:anywhere;min-width:0}
-.controls{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px;align-items:flex-start}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 10px;align-items:flex-start}
 .controls input[type=search],.controls select{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px;max-width:100%}
-.controls input[type=search]{flex:1 1 200px}
-.controls label.ck{font-size:13px;color:var(--muted);display:flex;gap:4px;align-items:center;padding:7px 0}
-.msel{margin:0;max-width:100%}
-.msel>summary{list-style:none;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.controls input[type=search]{flex:1 1 220px}
+.controls label.ck{font-size:13px;color:var(--ink);display:flex;gap:4px;align-items:center;padding:7px 0}
+.fbox{margin:0;flex:1 1 100%}
+.fbox>summary{display:none}
+.fbox .fin{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start}
+.msel{margin:0;max-width:100%;position:relative}
+.msel>summary{list-style:none;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:min(320px,calc(100vw - 32px))}
 .msel>summary::-webkit-details-marker{display:none}
 .msel>summary::after{content:" ▾";color:var(--muted)}
 .msel.act>summary{border-color:var(--accent);color:var(--accent)}
-.msel .opts{display:flex;flex-wrap:wrap;gap:6px;padding:8px 0 2px;max-width:min(560px,calc(100vw - 32px))}
-.msel .opts label{display:flex;gap:4px;align-items:center;font-size:13px;background:var(--chip);border-radius:999px;padding:3px 10px;cursor:pointer}
-.msel .opts label:has(input:checked){background:var(--accent);color:#fff}
+.msel .opts{position:absolute;z-index:20;top:calc(100% + 4px);left:0;display:flex;flex-wrap:wrap;gap:6px;padding:10px;background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);width:max-content;max-width:min(520px,calc(100vw - 32px))}
+.msel .opts label{display:flex;gap:4px;align-items:center;font-size:13px;background:var(--chip);color:var(--ink);border-radius:999px;padding:3px 10px;cursor:pointer}
+.msel .opts label:has(input:checked){background:var(--accent);color:var(--on-accent)}
 .msel .opts input{margin:0}
 .msel .opts button,.vt button{border:1px solid var(--line);background:var(--card);color:var(--accent);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
 .vt{display:flex;gap:0}
 .vt button{border-radius:0;padding:7px 12px;font-size:13px;color:var(--ink)}
 .vt button:first-child{border-radius:8px 0 0 8px}.vt button:last-child{border-radius:0 8px 8px 0;border-left:0}
-.vt button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.vt button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
 .count{color:var(--muted);font-size:13px;margin-bottom:8px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
 .card.mine{border-color:var(--accent)}
+.card.sl{box-shadow:inset 4px 0 0 var(--accent)}
+.card.skip{opacity:.65}
 .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
 .title{font-weight:650;font-size:16px}
 .meta{color:var(--muted);font-size:13px}
+.phdline{margin:6px 0 2px;font-size:14.5px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
-.chip{background:var(--chip);border-radius:999px;padding:2px 9px;font-size:12px}
-.chip.good{background:rgba(31,138,76,.15);color:var(--good)}
-.chip.warn{background:rgba(178,106,0,.15);color:var(--warn)}
-.chip.bad{background:rgba(192,57,43,.15);color:var(--bad)}
-.chip.acc{background:var(--accent);color:#fff}
+.chip{background:var(--chip);color:var(--ink);border-radius:999px;padding:2px 9px;font-size:12px}
+.chip.good{background:color-mix(in srgb,var(--good) 12%,var(--card));color:var(--good)}
+.chip.warn{background:color-mix(in srgb,var(--warn) 12%,var(--card));color:var(--warn)}
+.chip.bad{background:color-mix(in srgb,var(--bad) 12%,var(--card));color:var(--bad)}
+.chip.acc{background:var(--accent);color:var(--on-accent)}
+.chip.fit{background:var(--mark);color:var(--ink)}
 .kv{display:grid;grid-template-columns:150px minmax(0,1fr);gap:4px 12px;font-size:13.5px;margin-top:6px}
 .kv>div:nth-child(odd){color:var(--muted)}
 details{margin-top:8px}
@@ -61,183 +75,294 @@ details.more summary .ml{color:var(--accent);font-size:12px;margin-left:4px}
 details.more[open] summary .short{display:none}
 details.more[open] summary .ml::after{content:" (less)"}
 ul.profs{margin:6px 0 0;padding-left:18px;font-size:13.5px}
-ul.profs li{margin:2px 0}
+ul.profs li{margin:4px 0}
+.tag{display:inline-block;font-size:11.5px;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 2px 1px 0}
+.tag.hit{background:var(--mark);font-weight:650}
 .small{font-size:12px;color:var(--muted)}
 a{color:var(--accent)}
+.my{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.my select{padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font-size:13px}
+.my textarea{width:100%;min-height:54px;padding:6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font:13px/1.4 inherit}
+.my details{flex:1 1 220px;margin:0}
 .method{font-size:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 16px}
-.method table,.tbl{border-collapse:collapse;font-size:13px;width:100%}
+.method table,.tbl{border-collapse:separate;border-spacing:0;font-size:13px;width:100%}
 .method th,.method td,.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
 .method th,.method td{border:1px solid var(--line)}
 .method code{background:var(--chip);padding:0 4px;border-radius:4px;font-size:12.5px}
-.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px}
-.tbl{min-width:760px}
-.tbl th{background:var(--card);cursor:pointer;white-space:nowrap;user-select:none}
-.tbl th.s::after{content:" ▲";color:var(--accent)}.tbl th.s.d::after{content:" ▼"}
+.tblwrap{overflow:auto;-webkit-overflow-scrolling:touch;max-width:100%;max-height:78vh;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.method .tblwrap{max-height:none}
+.tbl{min-width:860px}
+.tbl thead th{position:sticky;top:0;z-index:2;background:var(--card);white-space:nowrap;padding:0;box-shadow:0 1px 0 var(--line)}
+.tbl thead th button{all:unset;display:block;padding:7px 8px;cursor:pointer;font-weight:650}
+.tbl thead th button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tbl th[aria-sort=ascending] button::after{content:" ▲";color:var(--accent)}
+.tbl th[aria-sort=descending] button::after{content:" ▼";color:var(--accent)}
 .tbl td{overflow-wrap:normal}
 .tbl td.nm{min-width:170px;max-width:280px;overflow-wrap:anywhere}
+.tbl td.nm button.exp{all:unset;cursor:pointer;color:var(--ink);font-weight:600}
+.tbl td.nm button.exp::before{content:"▸ ";color:var(--muted)}
+.tbl td.nm button.exp[aria-expanded=true]::before{content:"▾ "}
+.tbl td.nm button.exp:focus-visible{outline:2px solid var(--accent)}
 .tbl tr.it{cursor:pointer}
 .tbl tr.it:hover,.tbl tr.it.open{background:var(--hover)}
+.tbl tr.it.sl td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
 .tbl tr.det>td{padding:0 8px 8px;background:var(--hover)}
 .tbl tr.det .card{margin:0;position:sticky;left:8px;max-width:calc(100vw - 50px);width:min(900px,calc(100vw - 50px))}
 .tbl tr.past td{color:var(--muted)}
 .tl{display:grid;grid-template-columns:96px 74px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:9px 12px;border-bottom:1px solid var(--line);font-size:14px}
 .tl:last-child{border-bottom:0}
-.tl.past{background:var(--past);color:var(--muted);opacity:.7}
-.tl.past a{color:var(--muted)}
+.tl.past{background:var(--past);color:var(--muted)}
 .tl .d{font-variant-numeric:tabular-nums}
 .left{font-weight:650;font-variant-numeric:tabular-nums}
 .left.soon{color:var(--bad)}
 .left.near{color:var(--warn)}
 .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 0}
 .situ{border:2px solid var(--accent)}
-@media (max-width:600px){.kv{grid-template-columns:minmax(0,1fr)}.kv>div:nth-child(odd){margin-top:6px}.tl{grid-template-columns:84px minmax(0,1fr)}.tl .what{grid-column:1/-1}}
+.err{background:color-mix(in srgb,var(--bad) 12%,var(--card));border:1px solid var(--bad);color:var(--ink);border-radius:12px;padding:14px 16px;margin:12px 0}
+.kd{margin:4px 0 0;padding-left:18px}
+.kd li{margin:2px 0}
+.note-saved{font-size:11px;color:var(--muted)}
+@media (max-width:600px){
+  header{padding-top:10px}
+  h1{font-size:18px}
+  .sub .long{display:none}
+  .kv{grid-template-columns:minmax(0,1fr)}.kv>div:nth-child(odd){margin-top:6px}
+  .tl{grid-template-columns:84px minmax(0,1fr)}.tl .what{grid-column:1/-1}
+  .controls{gap:6px;margin:4px 0 6px}
+  .fbox>summary{display:inline-block;list-style:none;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px}
+  .fbox>summary::-webkit-details-marker{display:none}
+  .fbox>summary::after{content:" ▾";color:var(--muted)}
+  .fbox{flex:0 0 auto}
+  .fbox[open]{flex:1 1 100%}
+  .fbox .fin{margin-top:6px}
+  .controls input[type=search]{flex:1 1 150px}
+  .card{padding:12px 13px}
+}
 </style>
 </head>
 <body>
 <header>
   <h1>Crypto Grad Paths</h1>
-  <div class="sub">US master's and PhD-direct routes into cryptography research, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after an independent review; every field links its source. Blank = not confirmed. Filters are multi-select (none ticked = all) and saved in the link. Internships default to the Theory + Applied-research tracks; tick Engineering or Non-crypto to see the rest.</div>
+  <div class="sub">PhD-first plan for theory crypto, Fall 2027. <span class="long">US PhD and master's routes, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after two independent reviews; every field links its source. Blank = not confirmed. Schools are sorted by fit to your topics (lower bounds, memory checking, ORAM, PIR, garbling, oblivious algorithms, lattices); the best-matched professors are listed under Other routes. Your shortlist, status and notes stay in this browser only.</span></div>
 </header>
-<nav>
-  <button id="t-ms" data-tab="ms" class="on">Master's programs</button>
-  <button id="t-in" data-tab="in">Internships</button>
-  <button id="t-tl" data-tab="tl">Apply-by timeline</button>
-  <button id="t-or" data-tab="or">Other routes</button>
-  <button id="t-me" data-tab="me">How this was built</button>
+<nav role="tablist" aria-label="Sections">
+  <button role="tab" id="t-ms" data-tab="ms" aria-controls="ms" aria-selected="true"><span class="lg">Schools (PhD + MS)</span><span class="sm">Schools</span></button>
+  <button role="tab" id="t-in" data-tab="in" aria-controls="in" aria-selected="false">Internships</button>
+  <button role="tab" id="t-tl" data-tab="tl" aria-controls="tl" aria-selected="false"><span class="lg">Apply-by timeline</span><span class="sm">Timeline</span></button>
+  <button role="tab" id="t-or" data-tab="or" aria-controls="or" aria-selected="false">Other routes</button>
+  <button role="tab" id="t-me" data-tab="me" aria-controls="me" aria-selected="false"><span class="lg">How this was built</span><span class="sm">Method</span></button>
 </nav>
 <main>
-  <section id="ms">
+  <div id="err" role="alert"></div>
+  <section id="ms" role="tabpanel" aria-labelledby="t-ms">
     <div class="controls" id="ms-ctl"></div>
-    <div class="count" id="ms-count"></div>
+    <div class="count" id="ms-count" aria-live="polite"></div>
     <div id="ms-list"></div>
   </section>
-  <section id="in" hidden>
+  <section id="in" role="tabpanel" aria-labelledby="t-in" hidden>
     <div class="controls" id="in-ctl"></div>
-    <div class="count" id="in-count"></div>
+    <div class="count" id="in-count" aria-live="polite"></div>
     <div id="in-list"></div>
   </section>
-  <section id="tl" hidden>
+  <section id="tl" role="tabpanel" aria-labelledby="t-tl" hidden>
     <div class="controls" id="tl-ctl"></div>
-    <div class="count" id="tl-count"></div>
+    <div class="count" id="tl-count" aria-live="polite"></div>
     <div class="box" id="tl-list"></div>
-    <p class="small">Days left are counted from today's date on your device. "Priority" = early, round-1, scholarship or full-consideration date; "Final" = last date stated. Dates whose year was not printed on the official page were assigned to the Fall 2027 cycle; each row's note says so.</p>
+    <p class="small">Days left are counted from today's date on your device. "Priority" = early, round-1, scholarship or full-consideration date (usually the one to hit); "Final" = last date stated. "Ask for letters" rows are the deadline minus 4 weeks, a rule of thumb, not an official date. Dates whose year was not printed on the official page were assigned to the Fall 2027 cycle; each row's note says so.</p>
   </section>
-  <section id="or" hidden><div id="or-body"></div></section>
-  <section id="me" hidden>
-    <h3>Master's programs</h3><div class="method" id="me-ms"></div>
+  <section id="or" role="tabpanel" aria-labelledby="t-or" hidden><div id="or-body"></div></section>
+  <section id="me" role="tabpanel" aria-labelledby="t-me" hidden>
+    <h3>Schools</h3><div class="method" id="me-ms"></div>
     <h3>Internships</h3><div class="method" id="me-in"></div>
   </section>
 </main>
 <script>
 const $=s=>document.querySelector(s);
-const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link=(u,t)=>u&&/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||'source')}</a>`:esc(t||'');
-const money=n=>n==null?'':'$'+Math.round(n).toLocaleString();
+const money=n=>n==null?'':'$'+Math.round(n).toLocaleString('en-US');
 function more(t,n=150){t=t==null?'':(typeof t==='string'?t:Object.entries(t).map(([k,v])=>k.replace(/_/g,' ')+': '+v).join(' · '));if(t.length<=n+20)return esc(t);
   return `<details class="more"><summary><span class="short">${esc(t.slice(0,n).replace(/\s+\S*$/,''))}…</span><span class="ml">more</span></summary>${esc(t)}</details>`}
 let S=[],I=[],R={};
 const TABS=['ms','in','tl','or','me'];
+// ---------- his interests (research fit) ----------
+const MYTAGS=['lower bounds','memory checking','ORAM','PIR','garbling','oblivious algorithms','lattices/PQC'];
+const fitProfs=s=>(s.professors||[]).filter(p=>p.crypto_core!=='not-crypto'&&(p.research_tags||[]).some(t=>MYTAGS.includes(t)));
+const fitN=s=>s.fit_score??fitProfs(s).length;
 // ---------- dates ----------
 const T0=(()=>{const d=new Date();return Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())})();
 const dleft=iso=>{const [y,m,d]=iso.split('-').map(Number);return Math.round((Date.UTC(y,m-1,d)-T0)/864e5)};
 const fmt=iso=>{if(!iso)return '';const [y,m,d]=iso.split('-').map(Number);return new Date(Date.UTC(y,m-1,d)).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'})};
+const fmtS=iso=>{const [y,m,d]=iso.split('-').map(Number);return new Date(Date.UTC(y,m-1,d)).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'})};
+const minus=(iso,days)=>{const [y,m,d]=iso.split('-').map(Number);return new Date(Date.UTC(y,m-1,d)-days*864e5).toISOString().slice(0,10)};
 const leftTxt=n=>n<0?`${-n}d ago`:n===0?'today':`${n}d left`;
 const leftCls=n=>n<0?'':n<=14?'soon':n<=35?'near':'';
+// ---------- my shortlist / status / notes (localStorage, optional) ----------
+const MYK='cgp.my.v1';let MY={},MYOK=true;
+try{MY=JSON.parse(localStorage.getItem(MYK)||'{}')||{}}catch(e){MY={};MYOK=false}
+function saveMY(){try{localStorage.setItem(MYK,JSON.stringify(MY));MYOK=true}catch(e){MYOK=false}}
+const STATUSES=[['','My status…'],['interested','Interested'],['applying','Applying'],['applied','Applied'],['skip','Skip']];
+const sid=s=>'s:'+(s.short||s.school);
+const iid=x=>'i:'+x.org+'|'+x.program_name;
+const myst=id=>(MY[id]&&MY[id].st)||'';
+const onList=id=>['interested','applying','applied'].includes(myst(id));
+function myHTML(id,label,withNote=true){const v=myst(id),n=(MY[id]&&MY[id].note)||'';
+  return `<div class="my"><select class="mysel" data-id="${esc(id)}" aria-label="My status for ${esc(label)}">${STATUSES.map(([k,l])=>`<option value="${k}"${k===v?' selected':''}>${esc(l)}</option>`).join('')}</select>${withNote?`<details${n?' open':''}><summary>Notes${n?'':' (none)'}</summary><textarea class="mynote" data-id="${esc(id)}" aria-label="My notes for ${esc(label)}" placeholder="Your notes (saved in this browser)">${esc(n)}</textarea><span class="note-saved"></span></details>`:''}${MYOK?'':'<span class="small">Browser storage is blocked, so this will not be saved.</span>'}</div>`}
+document.addEventListener('change',e=>{const t=e.target;if(!t.matches('select.mysel'))return;const id=t.dataset.id;MY[id]=Object.assign(MY[id]||{},{st:t.value});if(!t.value&&!MY[id].note)delete MY[id];saveMY();
+  if(['ms.my','in.my','tl.my'].some(k=>st[k]==='1')||st['tl.kind'].length===0)update();else{document.querySelectorAll(`select.mysel[data-id="${CSS.escape(id)}"]`).forEach(o=>o.value=t.value);update()}});
+let noteT;document.addEventListener('input',e=>{const t=e.target;if(!t.matches('textarea.mynote'))return;const id=t.dataset.id;MY[id]=Object.assign(MY[id]||{},{note:t.value});if(!t.value&&!MY[id].st)delete MY[id];
+  clearTimeout(noteT);noteT=setTimeout(()=>{saveMY();const s=t.parentNode.querySelector('.note-saved');if(s)s.textContent=MYOK?'saved':'not saved (storage blocked)'},400)});
+document.addEventListener('click',e=>{if(e.target.closest('.my'))e.stopPropagation()},true);
+// ---------- tokenized search ----------
+const stripU=t=>String(t??'').replace(/https?:\/\/\S+/g,' ').replace(/\b[\w.-]+\.(edu|org|com|gov|net|io|de|ch|at|il)\b\S*/gi,' ');
+const words=t=>stripU(t).toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+const qTokens=q=>words(q);
+// short tokens (<=3 chars: PIR, MPC, ZK, edu) must match a whole word; longer ones match a word prefix (garbl -> garbling)
+function matchQ(hay,toks){if(!toks.length)return true;return toks.every(t=>t.length<=3?hay.includes(t):hay.some(w=>w.startsWith(t)))}
 // ---------- state (persisted in URL hash) ----------
 const DEF={tab:'ms',
-  'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'theory','ms.view':'cards','ms.tcol':'','ms.tdir':'1',
-  'in.q':'','in.track':['theory','applied-research'],'in.letters':[],'in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'picks','in.view':'cards','in.tcol':'','in.tdir':'1',
-  'tl.kind':[],'tl.track':['theory','applied-research'],'tl.past':'0','tl.ok':'1'};
+  'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'fit','ms.dir':'','ms.view':'cards','ms.my':'0',
+  'in.q':'','in.track':['theory','applied-research'],'in.letters':[],'in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'pick','in.dir':'','in.view':'cards','in.my':'0',
+  'tl.kind':['PhD','Internship','School','Scholarship','Funding','Letters','Deferral'],'tl.track':['theory','applied-research'],'tl.past':'0','tl.ok':'1','tl.my':'0'};
 const st=JSON.parse(JSON.stringify(DEF));
-function writeHash(){const p=new URLSearchParams();for(const k in DEF){const v=st[k],d=DEF[k];const sv=Array.isArray(v)?v.join('|'):v,sd=Array.isArray(d)?d.join('|'):d;if(sv!==sd)p.set(k,sv)}const h=p.toString();history.replaceState(null,'',h?'#'+h:location.pathname+location.search)}
-function readHash(){const p=new URLSearchParams(location.hash.slice(1));for(const k in DEF){if(p.has(k)){const v=p.get(k);st[k]=Array.isArray(DEF[k])?(v?v.split('|'):[]):v}else st[k]=Array.isArray(DEF[k])?DEF[k].slice():DEF[k]}}
-function tab(id){if(!TABS.includes(id))id='ms';st.tab=id;for(const t of TABS){$('#'+t).hidden=t!==id;$('#t-'+t).classList.toggle('on',t===id)}writeHash()}
-document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
+function enc(){const p=new URLSearchParams();for(const k in DEF){const v=st[k],d=DEF[k];const sv=Array.isArray(v)?v.join('|'):v,sd=Array.isArray(d)?d.join('|'):d;if(sv!==sd)p.set(k,sv)}const h=p.toString();return h?'#'+h:location.pathname+location.search}
+function writeHash(push){const u=enc();if(u===(location.hash||location.pathname+location.search))return;history[push?'pushState':'replaceState'](null,'',u)}
+function readHash(){const p=new URLSearchParams(location.hash.slice(1));for(const k in DEF){if(p.has(k)){const v=p.get(k);st[k]=Array.isArray(DEF[k])?(v?v.split('|'):[]):v}else st[k]=Array.isArray(DEF[k])?DEF[k].slice():DEF[k]}
+  if(p.has('ms.tcol')&&!p.has('ms.sort'))st['ms.sort']=p.get('ms.tcol');if(p.has('in.tcol')&&!p.has('in.sort'))st['in.sort']=p.get('in.tcol')}
+function showTab(id){if(!TABS.includes(id))id='ms';st.tab=id;for(const t of TABS){$('#'+t).hidden=t!==id;$('#t-'+t).setAttribute('aria-selected',t===id?'true':'false');$('#t-'+t).tabIndex=t===id?0:-1}}
+function tab(id){showTab(id);writeHash(true)}
+document.querySelectorAll('nav button').forEach(b=>{b.onclick=()=>tab(b.dataset.tab);b.onkeydown=e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;const i=TABS.indexOf(b.dataset.tab),j=(i+(e.key==='ArrowRight'?1:TABS.length-1))%TABS.length;tab(TABS[j]);$('#t-'+TABS[j]).focus()}});
 // ---------- controls ----------
-// spec: [type,key,label,options]; options = [[value,label],...]
-function buildCtl(el,spec){el.innerHTML=spec.map(([ty,k,lab,op])=>{
-  if(ty==='q')return `<input type="search" data-k="${k}" placeholder="${esc(lab)}">`;
-  if(ty==='sel')return `<select data-k="${k}">${op.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join('')}</select>`;
+// spec: [type,key,label,options]
+function ctlHTML([ty,k,lab,op]){
+  if(ty==='q')return `<input type="search" data-k="${k}" placeholder="${esc(lab)}" aria-label="${esc(lab)}">`;
+  if(ty==='sel')return `<select data-k="${k}" aria-label="Sort by">${op.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join('')}</select>`;
   if(ty==='ck')return `<label class="ck"><input type="checkbox" data-k="${k}"> ${esc(lab)}</label>`;
-  if(ty==='view')return `<div class="vt" data-k="${k}"><button data-v="cards">Cards</button><button data-v="table">Table</button></div>`;
-  return `<details class="msel" data-k="${k}" data-lab="${esc(lab)}"><summary></summary><div class="opts">${op.map(([v,l])=>`<label><input type="checkbox" value="${esc(v)}"> ${esc(l)}</label>`).join('')}<button type="button" data-clear>all</button></div></details>`}).join('');
+  if(ty==='view')return `<div class="vt" data-k="${k}" role="group" aria-label="View"><button type="button" data-v="cards">Cards</button><button type="button" data-v="table">Table</button></div>`;
+  return `<details class="msel" data-k="${k}" data-lab="${esc(lab)}"><summary></summary><div class="opts" role="group" aria-label="${esc(lab)}">${op.map(([v,l])=>`<label><input type="checkbox" value="${esc(v)}"> ${esc(l)}</label>`).join('')}<button type="button" data-clear>all</button></div></details>`}
+function buildCtl(el,top,rest){el.innerHTML=top.map(ctlHTML).join('')+`<details class="fbox" open><summary>Filters &amp; sort</summary><div class="fin">${rest.map(ctlHTML).join('')}</div></details>`;
   el.querySelectorAll('[data-k]').forEach(c=>{const k=c.dataset.k;
-    if(c.matches('input[type=search],select'))c.addEventListener('input',()=>{st[k]=c.value;update()});
+    if(c.matches('input[type=search]'))c.addEventListener('input',()=>{st[k]=c.value;update()});
+    else if(c.matches('select'))c.addEventListener('input',()=>{st[k]=c.value;st[k.split('.')[0]+'.dir']='';update()});
     else if(c.matches('input[type=checkbox]'))c.addEventListener('input',()=>{st[k]=c.checked?'1':'0';update()});
     else if(c.classList.contains('vt'))c.addEventListener('click',e=>{const b=e.target.closest('button');if(b){st[k]=b.dataset.v;update()}});
     else{c.addEventListener('input',()=>{st[k]=[...c.querySelectorAll('input:checked')].map(i=>i.value);update()});
-      c.querySelector('[data-clear]').addEventListener('click',()=>{st[k]=[];update()})}})}
+      c.querySelector('[data-clear]').addEventListener('click',()=>{st[k]=[];update()});
+      c.addEventListener('toggle',()=>{if(c.open){document.querySelectorAll('details.msel[open]').forEach(o=>{if(o!==c)o.open=false});const o=c.querySelector('.opts');o.style.left='0px';const r=o.getBoundingClientRect(),vw=document.documentElement.clientWidth;if(r.right>vw-12)o.style.left=Math.min(0,vw-12-r.right)+'px'}})}})}
+function closeMenus(except){document.querySelectorAll('details.msel[open]').forEach(o=>{if(o!==except)o.open=false})}
+document.addEventListener('click',e=>{const m=e.target.closest('details.msel');closeMenus(m)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){const o=document.querySelector('details.msel[open]');if(o){o.open=false;o.querySelector('summary').focus()}}});
+const mq=matchMedia('(max-width:600px)');
+function fboxSync(){document.querySelectorAll('details.fbox').forEach(f=>{if(!mq.matches)f.open=true})}
+mq.addEventListener?mq.addEventListener('change',fboxSync):mq.addListener(fboxSync);
 function syncCtl(){document.querySelectorAll('[data-k]').forEach(c=>{const k=c.dataset.k,v=st[k];
-  if(c.matches('input[type=search],select'))c.value=v;
+  if(c.matches('input[type=search],select')){if(c.value!==v)c.value=v}
   else if(c.matches('input[type=checkbox]'))c.checked=v==='1';
-  else if(c.classList.contains('vt'))c.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));
+  else if(c.classList.contains('vt'))c.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===v?'true':'false'));
   else{c.querySelectorAll('input').forEach(i=>i.checked=v.includes(i.value));const labs=[...c.querySelectorAll('input:checked')].map(i=>i.parentNode.textContent.trim());
-    c.querySelector('summary').textContent=c.dataset.lab+': '+(labs.length?labs.join(', '):'all');c.classList.toggle('act',labs.length>0)}})}
+    c.querySelector('summary').textContent=c.dataset.lab+': '+(labs.length?labs.join(', '):'all');c.classList.toggle('act',labs.length>0)}});
+  document.querySelectorAll('details.fbox').forEach(f=>{const n=f.querySelectorAll('.msel.act').length+[...f.querySelectorAll('input[type=checkbox][data-k]')].filter(i=>i.checked).length;f.querySelector('summary').textContent='Filters & sort'+(n?` (${n})`:'')})}
 const any=(arr,v)=>!arr.length||(Array.isArray(v)?v.some(x=>arr.includes(x)):arr.includes(v));
-// ---------- generic sortable table with expandable rows ----------
-function table(pfx,L,cols,detail,rowCls){const tc=st[pfx+'.tcol'],dir=+st[pfx+'.tdir']||1;
-  if(tc){const c=cols.find(c=>c.k===tc);if(c)L=L.slice().sort((a,b)=>{const x=c.s(a),y=c.s(b);return (x<y?-1:x>y?1:0)*dir})}
-  const html=`<div class="tblwrap"><table class="tbl" data-p="${pfx}"><thead><tr>${cols.map(c=>`<th data-c="${c.k}" class="${c.k===tc?'s'+(dir<0?' d':''):''}">${esc(c.h)}</th>`).join('')}</tr></thead><tbody>${L.map((x,i)=>`<tr class="it ${rowCls?rowCls(x):''}" data-i="${i}">${cols.map(c=>`<td${c.k==='name'?' class="nm"':''}>${c.v(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="small">Click a column header to sort; click a row for full details.</p>`;
+// ---------- one sort model for cards + table ----------
+// col: {k,h,v(x)->html, val(x)->number|string|null, nat:'asc'|'desc', sortLabel}
+function sortList(L,cols,key,dir){const c=cols.find(c=>c.k===key)||cols[0];const asc=(c.nat==='asc')!==(dir==='rev');
+  return {asc,col:c,L:L.slice().sort((a,b)=>{const x=c.val(a),y=c.val(b);const xn=x==null||x==='',yn=y==null||y==='';if(xn&&yn)return (a._nm||'').localeCompare(b._nm||'');if(xn)return 1;if(yn)return -1;
+    const r=typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y));return (asc?r:-r)||(a._nm||'').localeCompare(b._nm||'')})}}
+function table(pfx,L,cols,asc,detail,rowCls,idOf){const key=st[pfx+'.sort'];
+  const html=`<div class="tblwrap" tabindex="-1"><table class="tbl" data-p="${pfx}"><thead><tr>${cols.map(c=>`<th scope="col" ${c.k===key?`aria-sort="${asc?'ascending':'descending'}"`:''}>${c.nosort?`<span style="display:block;padding:7px 8px;font-weight:650">${esc(c.h)}</span>`:`<button type="button" data-c="${c.k}">${esc(c.h)}</button>`}</th>`).join('')}</tr></thead><tbody>${L.map((x,i)=>`<tr class="it ${rowCls?rowCls(x):''}${onList(idOf(x))?' sl':''}" data-i="${i}">${cols.map(c=>c.k==='name'?`<td class="nm"><button type="button" class="exp" aria-expanded="false">${c.v(x)}</button></td>`:`<td>${c.v(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="small">Sort with a column header (click again to reverse); open a row with its name (Enter or click) for full details.</p>`;
   return {html,bind(el){const t=el.querySelector('table');
-    t.querySelector('thead').addEventListener('click',e=>{const th=e.target.closest('th');if(!th)return;const k=th.dataset.c;if(st[pfx+'.tcol']===k)st[pfx+'.tdir']=String(-dir);else{st[pfx+'.tcol']=k;st[pfx+'.tdir']='1'}update()});
-    t.querySelector('tbody').addEventListener('click',e=>{if(e.target.closest('a'))return;const tr=e.target.closest('tr.it');if(!tr)return;
-      const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('det')){nx.remove();tr.classList.remove('open');return}
-      tr.classList.add('open');tr.insertAdjacentHTML('afterend',`<tr class="det"><td colspan="${cols.length}">${detail(L[+tr.dataset.i])}</td></tr>`)})}}}
+    t.querySelector('thead').addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const k=b.dataset.c;if(st[pfx+'.sort']===k)st[pfx+'.dir']=st[pfx+'.dir']==='rev'?'':'rev';else{st[pfx+'.sort']=k;st[pfx+'.dir']=''}update();const nb=document.querySelector(`table[data-p="${pfx}"] button[data-c="${k}"]`);if(nb)nb.focus()});
+    t.querySelector('tbody').addEventListener('click',e=>{if(e.target.closest('a,select,textarea,.my,tr.det'))return;const tr=e.target.closest('tr.it');if(!tr)return;
+      const btn=tr.querySelector('button.exp'),nx=tr.nextElementSibling;if(nx&&nx.classList.contains('det')){nx.remove();tr.classList.remove('open');btn.setAttribute('aria-expanded','false');return}
+      tr.classList.add('open');btn.setAttribute('aria-expanded','true');tr.insertAdjacentHTML('afterend',`<tr class="det"><td colspan="${cols.length}">${detail(L[+tr.dataset.i])}</td></tr>`)})}}}
+const mySel=(id,label)=>`<select class="mysel" data-id="${esc(id)}" aria-label="My status for ${esc(label)}">${STATUSES.map(([k,l])=>`<option value="${k}"${k===myst(id)?' selected':''}>${esc(l)}</option>`).join('')}</select>`;
 // ---------- schools ----------
-const theoryN=s=>(s.professors||[]).filter(p=>(p.papers_core_iacr_joc||0)>=2).length;
+const theoryN=s=>(s.professors||[]).filter(p=>(p.papers_core_iacr_joc||0)>=2&&p.crypto_core!=='adjacent'&&p.crypto_core!=='not-crypto').length;
 const coreCount=s=>(s.professors||[]).reduce((a,p)=>a+(p.papers_core_iacr_joc||0),0);
 const isCA=s=>s.program&&s.program.total_tuition_resident_usd!=null;
-const myCost=s=>{const p=s.program||{};return s.net_cost_note?0:isCA(s)?p.total_tuition_resident_usd:p.total_tuition_usd};
+const closedMS=s=>!!(s.program&&s.program.closed_fall2027);
+const myTuition=s=>{const p=s.program||{};if(closedMS(s))return null;if(s.funded_ms)return 0;return isCA(s)?p.total_tuition_resident_usd:p.total_tuition_usd};
+const realCost=s=>{const t=myTuition(s),c=s.cost||{},y=(s.program||{}).years;if(t==null||y==null||c.living_usd==null)return null;return t+y*((c.living_usd||0)+(c.fees_usd||0)+(c.health_usd||0))};
 function costHTML(s){const p=s.program||{};
-  if(isCA(s))return `<b>${money(p.total_tuition_resident_usd)}</b> as a CA resident ${p.resident_url?'· '+link(p.resident_url,'fee page'):''}<div class="small">${more(p.resident_basis||'',110)}</div><div class="small">Out-of-state: ${money(p.total_tuition_usd)}</div>`;
-  return `${money(p.total_tuition_usd)} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${more(p.tuition_basis||'',110)}</div>`}
+  if(closedMS(s))return `<b>Closed for Fall 2027</b> <span class="small">(M.S.E. not accepting applications; PhD only)</span>`;
+  let h='';
+  if(s.funded_ms)h+=`<b>≈$0 tuition (funded track)</b> <span class="small">sticker ${money(p.total_tuition_usd)}</span>`;
+  else if(isCA(s))h+=`<b>${money(p.total_tuition_resident_usd)}</b> as a CA resident ${p.resident_url?'· '+link(p.resident_url,'fee page'):''}<div class="small">${more(p.resident_basis||'',110)}</div><div class="small">Out-of-state: ${money(p.total_tuition_usd)}</div>`;
+  else if(p.total_tuition_usd!=null)h+=`${money(p.total_tuition_usd)} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${more(p.tuition_basis||'',110)}</div>`;
+  else h+='<span class="small">n/a</span>';
+  return h}
+function realHTML(s){const c=s.cost,p=s.program||{};if(!c)return '';if(c.living_usd==null)return `<span class="small">${esc(c.note||'No official cost-of-attendance figure found.')}</span>`;
+  const r=realCost(s),per=(c.living_usd||0)+(c.fees_usd||0)+(c.health_usd||0);
+  return `${r!=null?`<b>≈${money(r)}</b> for ~${p.years} yr = tuition + ${p.years} × ${money(per)}/yr`:`${money(per)}/yr living + fees`} <span class="small">(living ${money(c.living_usd)}${c.fees_usd?` + fees ${money(c.fees_usd)}`:''}${c.health_usd?` + insurance ${money(c.health_usd)}`:''}, ${esc(c.coa_year||'')} official ${c.months||9}-month budget)</span> ${link(c.url,'cost of attendance')}<div class="small">${more(c.basis||'',120)}${p.years_note?' · '+esc(p.years_note):''}</div>`}
 function dl(p){const a=[];if(p.priority_iso)a.push(`Priority ${fmt(p.priority_iso)}`);if(p.deadline_iso)a.push(`Final ${fmt(p.deadline_iso)}`);return a.join(' · ')}
-const routeOf=s=>{const r=[];if(s.net_cost_note)r.push('funded');if(s.phd_direct)r.push('phd');if(isCA(s))r.push('ca');if(s.program&&s.program.name)r.push('ms');return r};
-function cardMS(s){const p=s.program||{},ph=s.phd_direct;
-  const profs=(s.professors||[]).slice().sort((a,b)=>(b.papers_core_iacr_joc||0)-(a.papers_core_iacr_joc||0)||(b.papers||0)-(a.papers||0)).map(x=>`<li>${link(x.homepage||x.dblp,x.name)} <span class="small">· ${x.papers_core_iacr_joc||0} theory-venue + ${x.papers_crypto_themed_ccs_uss_sp||0} security-venue papers · ${esc((x.topics||[]).join(', '))}${x.title?' · '+esc(x.title):''}${x.dblp?' · '+link(x.dblp,'dblp'):''}${x.affiliation_source?' · '+link(x.affiliation_source,'affiliation source'):''}</span></li>`).join('');
+const phdOf=s=>s.phd||null;
+const phdIso=s=>{const p=phdOf(s);return p&&p.deadline_iso||null};
+const routeOf=s=>{const r=[];if(s.funded_ms)r.push('funded');if(s.phd_direct)r.push('phd');if(isCA(s))r.push('ca');if(s.program&&s.program.name&&!closedMS(s))r.push('ms');if(s.baseline)r.push('base');return r};
+const EVF=[['ms_feeds_phd','MS → PhD'],['ms_research_publish','MS research'],['ra_for_ms','RA/TA for MS'],['program_size','Size / admit rate']];
+function evHTML(s){const e=s.ms_phd||{};const rows=EVF.filter(([k])=>e[k]&&e[k].value!=null);if(!rows.length)return '<span class="small">No official evidence found (unknown, not "no").</span>';
+  return rows.map(([k,l])=>`<div><b>${esc(l)}:</b> ${esc(e[k].value)} ${e[k].quote?`<span class="small">“${more(e[k].quote,110)}”</span>`:''} ${link(e[k].url,'source')}</div>`).join('')}
+function profLI(x){const tags=(x.research_tags||[]).map(t=>`<span class="tag${MYTAGS.includes(t)?' hit':''}" title="${esc(((x.tag_evidence||{})[t]||[]).map(e=>e.y+': '+e.t).join('\n'))}">${esc(t)}</span>`).join('');
+  return `<li>${link(x.homepage||x.dblp,x.name)} ${x.role_note?`<span class="chip warn">${esc(x.role_note)}</span>`:''}${x.dblp_suspect?` <span class="chip" title="${esc(typeof x.dblp_suspect==='string'?x.dblp_suspect:'')}">dblp record may mix in another author</span>`:''} <div>${tags||'<span class="small">no tags</span>'}</div><span class="small">${x.papers_core_iacr_joc!=null?`${x.papers_core_iacr_joc||0} theory-venue + ${x.papers_crypto_themed_ccs_uss_sp||0} security-venue papers 2021-25`:''}${x.title?' · '+esc(x.title):''}${x.dblp?' · '+link(x.dblp,'dblp'):''}${x.affiliation_source?' · '+link(x.affiliation_source,'affiliation source'):''}</span></li>`}
+function phdLine(s){const p=phdOf(s);
+  if(s.baseline)return `<div class="phdline"><b>Current program (baseline)</b></div>`;
+  if(!p)return `<div class="phdline small">PhD deadline: not found on an official page${s.phd_null_note?' · '+esc(s.phd_null_note):''}</div>`;
+  const n=p.deadline_iso?dleft(p.deadline_iso):null;
+  return `<div class="phdline"><b>PhD deadline: ${p.deadline_iso?fmt(p.deadline_iso):esc(p.deadline||'not verified')}</b>${n!=null?` <span class="left ${leftCls(n)}">${leftTxt(n)}</span>`:''}${p.priority_iso?` · early/priority ${fmt(p.priority_iso)}`:''} · ${link(p.url,'PhD admissions')}${p.note?`<div class="small">${more(p.note,140)}</div>`:''}</div>`}
+function cardMS(s){const p=s.program||{},id=sid(s),fp=fitProfs(s),m=myst(id);
+  const profs=(s.professors||[]).slice().sort((a,b)=>fitTagsN(b)-fitTagsN(a)||(b.papers_core_iacr_joc||0)-(a.papers_core_iacr_joc||0)).map(profLI).join('');
   const tn=theoryN(s);
-  return `<div class="card${s.his_note?' mine':''}">
+  return `<div class="card${s.his_note||s.baseline?' mine':''}${onList(id)?' sl':''}${m==='skip'?' skip':''}">
     <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
-    <div class="chips">${s.his_note?'<span class="chip acc">Already admitted</span>':''}<span class="chip ${tn?'good':''}">${tn} theory-venue professor${tn==1?'':'s'}</span><span class="chip">${s.n_professors} crypto professor${s.n_professors==1?'':'s'} total</span><span class="chip">${coreCount(s)} theory-venue papers 2021-25</span>${p.thesis==='yes'?'<span class="chip good">thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no thesis option</span>':''}${s.net_cost_note?'<span class="chip good">funded MS</span>':''}${ph?'<span class="chip warn">PhD-direct is the real route</span>':''}</div>
+    ${phdLine(s)}
+    <div class="chips">${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${fp.length?`<span class="chip fit">Fit to my work: ${fp.length} · ${esc(fp.map(x=>x.name).join(', '))}</span>`:s.baseline?'':'<span class="chip">Fit to my work: 0</span>'}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?'<span class="chip bad">MS closed for Fall 2027</span>':''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>
     ${s.his_note?`<div class="small" style="color:var(--accent)">${esc(s.his_note)} ${link(s.his_note_url,'policy')}</div>`:''}
     <div class="kv">
       <div>Program</div><div>${p.name?link(p.url,p.name):'<i>No master\'s to apply to for Fall 2027</i>'}</div>
       ${p.length?`<div>Length</div><div>${more(p.length,100)}</div>`:''}
-      <div>Tuition</div><div>${p.total_tuition_usd==null&&p.total_tuition_resident_usd==null?'<span class="small">n/a</span>':costHTML(s)}</div>
+      <div>Tuition for me</div><div>${costHTML(s)}</div>
       ${s.net_cost_note?`<div>Net cost</div><div>${more(s.net_cost_note,140)} ${s.net_cost_url?'· '+link(s.net_cost_url,'source'):''}</div>`:''}
-      <div>Fall 2027 MS deadline</div><div>${esc(dl(p))||'<span class="small">none</span>'} ${p.deadline_url?'· '+link(p.deadline_url,'source'):''}<div class="small">${more(p.deadline_note||'',120)}</div></div>
-      ${ph?`<div>PhD-direct</div><div><b>${ph.deadline_iso?fmt(ph.deadline_iso)+' ('+leftTxt(dleft(ph.deadline_iso))+')':esc(ph.deadline||'')}</b> · ${link(ph.url,'PhD admissions')}<div class="small">${more(ph.note||'',140)}</div></div>`:''}
+      <div>Realistic cost</div><div>${realHTML(s)||'<span class="small">not computed</span>'}</div>
+      <div>MS deadline (Fall 2027)</div><div>${esc(dl(p))||'<span class="small">none</span>'} ${p.deadline_url?'· '+link(p.deadline_url,'source'):''}<div class="small">${more(p.deadline_note||'',120)}</div></div>
+      <div>MS → PhD evidence</div><div>${evHTML(s)}</div>
       ${p.gre?`<div>GRE</div><div>${more(p.gre,100)}</div>`:''}
-      ${p.app_fee_usd!=null?`<div>App fee</div><div>${money(p.app_fee_usd)}</div>`:''}
+      ${p.app_fee_usd!=null?`<div>MS app fee</div><div>${money(p.app_fee_usd)} ${p.app_fee_url?link(p.app_fee_url,'source'):''}</div>`:''}
       ${p.funding_note?`<div>Funding</div><div>${more(p.funding_note,140)}</div>`:''}
     </div>
     ${s.research_fit_note?`<div class="small" style="margin-top:8px">${more(s.research_fit_note,180)}</div>`:''}
     ${s.notes?`<div class="small" style="margin-top:4px">${more(s.notes,180)}</div>`:''}
     ${(s.alt_programs||[]).length?`<details><summary>Other programs here (${s.alt_programs.length})</summary><ul class="profs">${s.alt_programs.map(a=>`<li>${link(a.url,a.name)} <span class="small">${esc(a.note||'')}</span></li>`).join('')}</ul></details>`:''}
-    <details><summary>Professors (${(s.professors||[]).length}): potential summer RA hosts</summary><ul class="profs">${profs}</ul></details>
+    ${(s.professors||[]).length?`<details${fp.length?' open':''}><summary>Professors (${s.professors.length}) · tags from their 2021-26 dblp titles; highlighted = your topics</summary><ul class="profs">${profs}</ul></details>`:''}
+    ${myHTML(id,s.short||s.school)}
   </div>`}
-const nextMS=s=>{const p=s.program||{};const c=[p.priority_iso,p.deadline_iso,s.phd_direct&&s.phd_direct.deadline_iso].filter(d=>d&&dleft(d)>=0).sort();return c[0]||'9999'};
+const fitTagsN=p=>p.crypto_core==='not-crypto'?0:(p.research_tags||[]).filter(t=>MYTAGS.includes(t)).length;
+const nextMS=s=>{const p=s.program||{};const c=[p.priority_iso,p.deadline_iso,phdIso(s)].filter(d=>d&&dleft(d)>=0).sort();return c[0]||null};
 const MSCOLS=[
-  {k:'name',h:'School',v:s=>esc(s.short||s.school)+(s.his_note?' <span class="chip acc">admitted</span>':''),s:s=>s.short||s.school},
-  {k:'region',h:'Region',v:s=>esc(s.region),s:s=>s.region},
-  {k:'theory',h:'Theory profs',v:s=>theoryN(s),s:s=>-theoryN(s)},
-  {k:'profs',h:'All profs',v:s=>s.n_professors,s:s=>-s.n_professors},
-  {k:'core',h:'Theory papers',v:s=>coreCount(s),s:s=>-coreCount(s)},
-  {k:'ms',h:'MS deadline',v:s=>esc(dl(s.program||{}))||'<span class="small">none</span>',s:s=>{const p=s.program||{};return p.priority_iso||p.deadline_iso||'9999'}},
-  {k:'phd',h:'PhD deadline',v:s=>s.phd_direct&&s.phd_direct.deadline_iso?fmt(s.phd_direct.deadline_iso):'',s:s=>(s.phd_direct&&s.phd_direct.deadline_iso)||'9999'},
-  {k:'cost',h:'Tuition for me',v:s=>s.net_cost_note?'≈$0 (funded)':money(myCost(s))+(isCA(s)?' <span class="small">CA res.</span>':''),s:s=>myCost(s)??1e12},
-  {k:'thesis',h:'Thesis',v:s=>esc((s.program||{}).thesis||''),s:s=>(s.program||{}).thesis||'z'}];
+  {k:'fit',h:'Fit',sortLabel:'Fit to my work (most first)',nat:'desc',v:s=>s.baseline?'':String(fitN(s)),val:s=>s.baseline?null:fitN(s)*100+fitProfs(s).reduce((a,p)=>a+fitTagsN(p),0)},
+  {k:'name',h:'School',sortLabel:'School A-Z',nat:'asc',v:s=>esc(s.short||s.school)+(s.his_note?' <span class="chip acc">admitted</span>':'')+(s.baseline?' <span class="chip acc">current</span>':''),val:s=>s.short||s.school},
+  {k:'phd',h:'PhD deadline',sortLabel:'PhD deadline (soonest first)',nat:'asc',v:s=>{const d=phdIso(s);return d?`${fmt(d)} <span class="left ${leftCls(dleft(d))}">${leftTxt(dleft(d))}</span>`:'<span class="small">n/a</span>'},val:s=>phdIso(s)},
+  {k:'deadline',h:'Next deadline',sortLabel:'Next upcoming deadline (PhD or MS)',nat:'asc',v:s=>{const d=nextMS(s);return d?fmt(d):''},val:s=>nextMS(s)},
+  {k:'theory',h:'Theory profs',sortLabel:'Most theory-venue cryptographers',nat:'desc',v:s=>s.baseline?'':theoryN(s),val:s=>s.baseline?null:theoryN(s)},
+  {k:'profs',h:'All profs',sortLabel:'Most crypto professors (all)',nat:'desc',v:s=>s.baseline?'':(s.professors||[]).length,val:s=>s.baseline?null:(s.professors||[]).length},
+  {k:'core',h:'Theory papers',sortLabel:'Most theory-venue papers',nat:'desc',v:s=>s.baseline?'':coreCount(s),val:s=>s.baseline?null:coreCount(s)},
+  {k:'ms',h:'MS deadline',sortLabel:'MS deadline (soonest first)',nat:'asc',v:s=>esc(dl(s.program||{}))||'<span class="small">none</span>',val:s=>{const p=s.program||{};return p.priority_iso||p.deadline_iso||null}},
+  {k:'cost',h:'Tuition for me',sortLabel:'Lowest tuition for me',nat:'asc',v:s=>closedMS(s)?'<span class="small">closed</span>':s.funded_ms?'≈$0 (funded track)':money(myTuition(s))+(isCA(s)?' <span class="small">CA res.</span>':''),val:s=>myTuition(s)},
+  {k:'real',h:'Realistic total',sortLabel:'Lowest realistic total (tuition + fees + living)',nat:'asc',v:s=>{const r=realCost(s);return r==null?'':money(r)},val:s=>realCost(s)},
+  {k:'thesis',h:'MS thesis',sortLabel:'MS thesis option',nat:'asc',v:s=>esc((s.program||{}).thesis||''),val:s=>({yes:0,'research track':0,no:2})[(s.program||{}).thesis]??1},
+  {k:'region',h:'Region',sortLabel:'Region A-Z',nat:'asc',v:s=>esc(s.region),val:s=>s.region},
+  {k:'my',h:'My status',sortLabel:'My status',nat:'asc',nosort:false,v:s=>mySel(sid(s),s.short||s.school),val:s=>({applied:0,applying:1,interested:2,'':3,skip:4})[myst(sid(s))]}];
+function hayMS(s){if(s._hay)return s._hay;const p=s.program||{};s._hay=words([s.school,s.short,s.city,s.state,s.region,p.name,p.thesis,(s.alt_programs||[]).map(a=>a.name).join(' '),(s.professors||[]).map(x=>[x.name,(x.topics||[]).join(' '),(x.research_tags||[]).join(' ')].join(' ')).join(' '),s.research_fit_note,s.notes,s.his_note,s.baseline?'baseline current csula':''].join(' '));return s._hay}
 function renderMS(){
-  const q=st['ms.q'].toLowerCase();
-  let L=S.filter(s=>any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(!q||JSON.stringify(s).toLowerCase().includes(q)));
-  const key={theory:s=>[-theoryN(s),-(s.n_professors||0)],profs:s=>[-(s.n_professors||0),-theoryN(s)],core:s=>[-coreCount(s),0],deadline:s=>[nextMS(s),0],cost:s=>[myCost(s)??1e12,0]}[st['ms.sort']]||(s=>[0,0]);
-  L.sort((a,b)=>{const x=key(a),y=key(b);for(let i=0;i<2;i++){if(x[i]<y[i])return -1;if(x[i]>y[i])return 1}return 0});
-  $('#ms-count').textContent=`${L.length} of ${S.length} schools · ${L.reduce((a,s)=>a+(s.n_professors||0),0)} professors (${L.reduce((a,s)=>a+theoryN(s),0)} theory-venue)`;
-  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,cardMS);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
-  $('#ms-list').innerHTML=L.map(cardMS).join('')}
+  const toks=qTokens(st['ms.q']);
+  let L=S.filter(s=>any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(st['ms.my']!=='1'||onList(sid(s)))&&matchQ(hayMS(s),toks));
+  const r=sortList(L,MSCOLS,st['ms.sort'],st['ms.dir']);L=r.L;
+  const real=L.filter(s=>!s.baseline);
+  $('#ms-count').textContent=`${real.length} of ${S.filter(s=>!s.baseline).length} schools${L.length>real.length?' + your current program':''} · ${real.reduce((a,s)=>a+fitN(s),0)} professors on your topics · sorted by ${r.col.sortLabel}${st['ms.dir']==='rev'?' (reversed)':''}${toks.length?` · search: ${toks.join(' + ')}`:''}`;
+  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,r.asc,cardMS,null,sid);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
+  $('#ms-list').innerHTML=L.map(cardMS).join('')||'<div class="card small">Nothing matches. Clear the search or filters.</div>'}
 // ---------- internships ----------
 const reachRank={'Reachable':0,'Moderate':1,'Hard':2,'Very hard':3};
 const prestRank={'Top':0,'Strong':1,'Good':2};
+const LV={high:0,medium:1,low:2};
 const TRACKS=[['theory','Theory'],['applied-research','Applied research'],['engineering','Engineering'],['non-crypto','Non-crypto']];
 const trackLab=t=>(TRACKS.find(a=>a[0]===t)||[t,t||'?'])[1];
 const trackRank=t=>{const i=TRACKS.findIndex(a=>a[0]===t);return i<0?9:i};
@@ -245,14 +370,21 @@ const trackChip=t=>`<span class="chip ${t==='theory'?'good':t==='applied-researc
 const letKey=x=>{const v=x.letters_required||'unclear';return v.startsWith('yes')?'yes':v};
 const letChip=x=>{const k=letKey(x);return `<span class="chip ${k==='yes'?'warn':k==='no'||k==='optional'?'good':''}">Letters: ${esc(x.letters_required||'unclear')}</span>`};
 function diffChip(d){const c={'Reachable':'good','Moderate':'good','Hard':'warn','Very hard':'bad'}[d]||'';return `<span class="chip ${c}">${esc(d||'?')} for you</span>`}
-const statusOf=x=>(x.status!=='closed'&&(x.deadline_iso?dleft(x.deadline_iso)<0:(!!x.priority_iso&&dleft(x.priority_iso)<0)))?'closed':(x.status||'not yet posted');
+const gateChips=x=>(x.gates||[]).map(g=>`<span class="chip ${g.risk_for_him==='blocks'?'bad':g.risk_for_him==='risk'?'warn':''}" title="${esc(g.quote||'')}">${g.risk_for_him==='blocks'?'⛔ ':g.risk_for_him==='risk'?'⚠ ':''}${esc(g.label)}</span>`).join('');
+const blocked=x=>(x.gates||[]).some(g=>g.risk_for_him==='blocks');
+// closed only when the FINAL deadline has passed; a passed priority date alone does not close a row
+const statusOf=x=>(x.status!=='closed'&&x.deadline_iso&&dleft(x.deadline_iso)<0)?'closed':(x.status||'not yet posted');
 const nextDate=x=>{for(const k of ['priority_iso','deadline_iso']){if(x[k]&&dleft(x[k])>=0)return x[k]}return null};
 function deadlineHTML(x){const a=[];if(x.priority_iso)a.push(`Priority ${fmt(x.priority_iso)} (${leftTxt(dleft(x.priority_iso))})`);if(x.deadline_iso)a.push(`${x.deadline_kind==='posting end'?'Posting ends':'Final'} ${fmt(x.deadline_iso)} (${leftTxt(dleft(x.deadline_iso))})`);if(x.opens_iso)a.push(`Opens ${fmt(x.opens_iso)}`);
   return `${a.length?'<b>'+a.join(' · ')+'</b><br>':''}${more(x.deadline_summer_2027||(a.length?'':'not posted yet'),140)}${x.deadline_iso_note?`<div class="small">${esc(x.deadline_iso_note)}</div>`:''}<div class="small">${more(x.deadline_last_year_or_typical_window||'',120)}</div>`}
-function cardIN(x){const s=statusOf(x);return `<div class="card">
+const ETYPE={'internship':'Internship','research-program':'Research program','fellowship':'Fellowship','school/workshop':'School / workshop','scholarship':'Scholarship-for-service'};
+function cardIN(x){const s=statusOf(x),id=iid(x),m=myst(id);return `<div class="card${onList(id)?' sl':''}${m==='skip'?' skip':''}">
   <div class="row"><div class="title">${link(x.url,(x.org||'')+' · '+(x.program_name||''))}</div><div class="meta">${esc(x.location||'')}</div></div>
-  <div class="chips">${x.top_pick?`<span class="chip good">Top pick #${x.top_pick}</span>`:''}${trackChip(x.track)}${letChip(x)}<span class="chip ${s==='closed'?'bad':s==='open'?'good':''}">${esc(s)}</span><span class="chip">${esc(x.category||'')}</span><span class="chip">${esc(x.prestige_tier||'?')} prestige</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span>${(x.location_bucket||[]).map(b=>`<span class="chip">${esc(b)}</span>`).join('')}</div>
+  <div class="chips">${x.top_pick?`<span class="chip good">Pick #${x.top_pick}</span>`:''}${x.letter_value?`<span class="chip ${x.letter_value==='high'?'good':x.letter_value==='low'?'warn':''}">Letter value: ${esc(x.letter_value)}</span>`:''}${trackChip(x.track)}${x.event_type&&x.event_type!=='internship'?`<span class="chip">${esc(ETYPE[x.event_type]||x.event_type)}</span>`:''}<span class="chip ${s==='closed'?'bad':s==='open'?'good':''}">${esc(s)}</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span>${letChip(x)}${gateChips(x)}</div>
   <div class="kv">
+    ${x.rank_reason?`<div>Why this rank</div><div>${more(x.rank_reason,160)}</div>`:''}
+    ${x.letter_value?`<div>Letter value</div><div><b>${esc(x.letter_value)}</b> · ${more(x.letter_value_reason,140)} ${link(x.letter_value_url,'source')}</div>`:''}
+    ${(x.gates||[]).length?`<div>Hard gates</div><div>${x.gates.map(g=>`<div><b>${esc(g.label)}</b> <span class="small">(${esc(g.risk_for_him||'')})</span> <span class="small">“${more(g.quote||'',110)}”</span> ${link(g.url,'source')}</div>`).join('')}</div>`:''}
     <div>Track</div><div><b>${esc(trackLab(x.track))}</b> · ${more(x.track_reason,140)} ${link(x.track_source,'source')}</div>
     <div>Area</div><div>${more(x.focus_area,120)}</div>
     <div>Deadline</div><div>${deadlineHTML(x)}</div>
@@ -260,52 +392,74 @@ function cardIN(x){const s=statusOf(x);return `<div class="card">
     <div>Letters?</div><div><b>${esc(x.letters_required||'unclear')}</b> · ${more(x.letters_required_reason,140)} ${link(x.letters_required_source,'source')}</div>
     <div>Eligibility</div><div>${more(x.eligibility,120)}</div>
     <div>Pay</div><div>${more(x.pay,120)}</div>
-    <div>Why this prestige</div><div>${more(x.prestige_justification,100)}</div>
+    <div>Prestige (my judgment)</div><div>${esc(x.prestige_tier||'?')} · ${more(x.prestige_justification,100)}</div>
     <div>My honest read</div><div>${more(x.difficulty_reason,120)}</div>
+    <div>Category</div><div>${esc(x.category||'')} · ${esc((x.location_bucket||[]).join(', '))}</div>
+    ${x.category_note?`<div>Note</div><div><b>${esc(x.category_note)}</b></div>`:''}
   </div>
   ${x.notes?`<div class="small" style="margin-top:6px">${more(x.notes,160)}</div>`:''}
+  ${myHTML(id,x.org+' '+x.program_name)}
 </div>`}
-const dsort=x=>{const n=nextDate(x);return n?dleft(n):(statusOf(x)==='closed'?2e5:1e5)};
 const INCOLS=[
-  {k:'name',h:'Org · program',v:x=>esc(x.org+' · '+x.program_name),s:x=>x.org},
-  {k:'pick',h:'Pick',v:x=>x.top_pick?'#'+x.top_pick:'',s:x=>x.top_pick??99},
-  {k:'track',h:'Track',v:x=>esc(trackLab(x.track)),s:x=>trackRank(x.track)},
-  {k:'dl',h:'Next deadline',v:x=>{const n=nextDate(x);return n?`${fmt(n)} <span class="left ${leftCls(dleft(n))}">${leftTxt(dleft(n))}</span>`:`<span class="small">${esc(statusOf(x))}</span>`},s:dsort},
-  {k:'elig',h:'MS eligible',v:x=>esc(x.ms_students_eligible||'unclear'),s:x=>({yes:0,unclear:1,no:2})[x.ms_students_eligible]??1},
-  {k:'let',h:'Letters',v:x=>esc(x.letters_required||'unclear'),s:x=>({no:0,optional:1,yes:2,unclear:3})[letKey(x)]+':'+(x.letters_required||'')},
-  {k:'diff',h:'Difficulty',v:x=>esc(x.difficulty_for_sahmoud||''),s:x=>reachRank[x.difficulty_for_sahmoud]??9},
-  {k:'prest',h:'Prestige',v:x=>esc(x.prestige_tier||''),s:x=>prestRank[x.prestige_tier]??9},
-  {k:'cat',h:'Category',v:x=>esc(x.category),s:x=>x.category},
-  {k:'loc',h:'Location',v:x=>esc((x.location_bucket||[]).join(', ')),s:x=>(x.location_bucket||[]).join()}];
+  {k:'pick',h:'Pick',sortLabel:'My picks (letter value for a theory-crypto PhD app)',nat:'asc',v:x=>x.top_pick?'#'+x.top_pick:'',val:x=>x.top_pick??null},
+  {k:'name',h:'Org · program',sortLabel:'Org A-Z',nat:'asc',v:x=>esc(x.org+' · '+x.program_name),val:x=>x.org+' '+x.program_name},
+  {k:'lv',h:'Letter value',sortLabel:'Letter value (high first)',nat:'asc',v:x=>esc(x.letter_value||''),val:x=>LV[x.letter_value]??null},
+  {k:'dl',h:'Next deadline',sortLabel:'Deadline (soonest first)',nat:'asc',v:x=>{const n=nextDate(x);return n?`${fmt(n)} <span class="left ${leftCls(dleft(n))}">${leftTxt(dleft(n))}</span>`:`<span class="small">${esc(statusOf(x))}</span>`},val:x=>{const n=nextDate(x);return n?dleft(n):null}},
+  {k:'gates',h:'Hard gates',sortLabel:'Fewest blocking gates',nat:'asc',v:x=>gateChips(x),val:x=>(x.gates||[]).reduce((a,g)=>a+(g.risk_for_him==='blocks'?10:g.risk_for_him==='risk'?1:0),0)},
+  {k:'track',h:'Track',sortLabel:'Track (theory first)',nat:'asc',v:x=>esc(trackLab(x.track)),val:x=>trackRank(x.track)},
+  {k:'elig',h:'MS eligible',sortLabel:'MS eligible',nat:'asc',v:x=>esc(x.ms_students_eligible||'unclear'),val:x=>({yes:0,unclear:1,no:2})[x.ms_students_eligible]??1},
+  {k:'let',h:'Letters',sortLabel:'Letters required (none first)',nat:'asc',v:x=>esc(x.letters_required||'unclear'),val:x=>({no:0,optional:1,yes:2,unclear:3})[letKey(x)]??3},
+  {k:'diff',h:'Difficulty',sortLabel:'Most reachable first',nat:'asc',v:x=>esc(x.difficulty_for_sahmoud||''),val:x=>reachRank[x.difficulty_for_sahmoud]??null},
+  {k:'prest',h:'Prestige',sortLabel:'Prestige (my judgment)',nat:'asc',v:x=>esc(x.prestige_tier||''),val:x=>prestRank[x.prestige_tier]??null},
+  {k:'my',h:'My status',sortLabel:'My status',nat:'asc',v:x=>mySel(iid(x),x.org),val:x=>({applied:0,applying:1,interested:2,'':3,skip:4})[myst(iid(x))]}];
+function hayIN(x){if(x._hay)return x._hay;x._hay=words([x.org,x.program_name,x.location,x.focus_area,x.category,trackLab(x.track),x.eligibility,x.notes,(x.location_bucket||[]).join(' '),(x.gates||[]).map(g=>g.label).join(' '),ETYPE[x.event_type]||''].join(' '));return x._hay}
 function renderIN(){
-  const q=st['in.q'].toLowerCase();
-  let L=I.filter(x=>any(st['in.track'],x.track)&&any(st['in.letters'],letKey(x))&&any(st['in.elig'],x.ms_students_eligible||'unclear')&&any(st['in.status'],statusOf(x))&&any(st['in.cat'],x.category)&&any(st['in.loc'],x.location_bucket||[])&&any(st['in.diff'],x.difficulty_for_sahmoud)&&any(st['in.prest'],x.prestige_tier)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
-  const so=st['in.sort'];
-  const k=so==='picks'?x=>[x.top_pick??99,reachRank[x.difficulty_for_sahmoud]??9]:so==='reach'?x=>[reachRank[x.difficulty_for_sahmoud]??9,prestRank[x.prestige_tier]??9]:so==='deadline'?x=>[dsort(x),reachRank[x.difficulty_for_sahmoud]??9]:x=>[prestRank[x.prestige_tier]??9,reachRank[x.difficulty_for_sahmoud]??9];
-  L.sort((a,b)=>{const x=k(a),y=k(b);return x[0]-y[0]||x[1]-y[1]});
-  $('#in-count').textContent=`${L.length} of ${I.length} programs shown`;
-  if(st['in.view']==='table'){const t=table('in',L,INCOLS,cardIN,x=>statusOf(x)==='closed'?'past':'');$('#in-list').innerHTML=t.html;t.bind($('#in-list'));return}
-  $('#in-list').innerHTML=L.map(cardIN).join('')}
+  const toks=qTokens(st['in.q']);
+  let L=I.filter(x=>any(st['in.track'],x.track)&&any(st['in.letters'],letKey(x))&&any(st['in.elig'],x.ms_students_eligible||'unclear')&&any(st['in.status'],statusOf(x))&&any(st['in.cat'],x.category)&&any(st['in.loc'],x.location_bucket||[])&&any(st['in.diff'],x.difficulty_for_sahmoud)&&any(st['in.prest'],x.prestige_tier)&&(st['in.my']!=='1'||onList(iid(x)))&&matchQ(hayIN(x),toks));
+  const r=sortList(L,INCOLS,st['in.sort'],st['in.dir']);L=r.L;
+  $('#in-count').textContent=`${L.length} of ${I.length} programs shown · sorted by ${r.col.sortLabel}${st['in.dir']==='rev'?' (reversed)':''}`;
+  if(st['in.view']==='table'){const t=table('in',L,INCOLS,r.asc,cardIN,x=>statusOf(x)==='closed'?'past':'',iid);$('#in-list').innerHTML=t.html;t.bind($('#in-list'));return}
+  $('#in-list').innerHTML=L.map(cardIN).join('')||'<div class="card small">Nothing matches. Clear the search or filters.</div>'}
 // ---------- timeline ----------
-function events(){const E=[];
-  for(const s of S){const p=s.program||{},nm=s.short||s.school;
-    if(p.priority_iso)E.push({d:p.priority_iso,kind:'MS',pf:'Priority',t:nm+' · MS',u:p.deadline_url,n:p.deadline_note,ok:true});
-    if(p.deadline_iso)E.push({d:p.deadline_iso,kind:'MS',pf:'Final',t:nm+' · MS',u:p.deadline_url,n:p.deadline_note,ok:true});
-    const ph=s.phd_direct;if(ph&&ph.deadline_iso)E.push({d:ph.deadline_iso,kind:'PhD',pf:'Final',t:nm+' · PhD (apply direct)',u:ph.url,n:ph.note,ok:true})}
-  for(const x of I){if(!any(st['tl.track'],x.track))continue;const nm=x.org+' · '+x.program_name,ok=x.ms_students_eligible!=='no';
-    if(x.priority_iso)E.push({d:x.priority_iso,kind:'Internship',pf:'Priority',t:nm,u:x.url,n:x.deadline_summer_2027,ok});
-    if(x.deadline_iso)E.push({d:x.deadline_iso,kind:'Internship',pf:x.deadline_kind==='posting end'?'Posting ends':'Final',t:nm,u:x.url,n:x.deadline_summer_2027,ok});
-    if(x.opens_iso)E.push({d:x.opens_iso,kind:'Internship',pf:'Opens',t:nm,u:x.url,n:x.deadline_summer_2027,ok})}
-  for(const f of (R.funding||[]))for(const dd of (f.dates||[]))E.push({d:dd.iso,kind:'Funding',pf:dd.label||'Final',t:f.name,u:f.url,n:f.note,ok:f.eligible!==false});
-  return E.sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:0)}
-function renderTL(){const past=st['tl.past']==='1',ok=st['tl.ok']==='1';
-  const E=events().filter(e=>any(st['tl.kind'],e.kind)&&(past||dleft(e.d)>=0)&&(!ok||e.ok));
-  $('#tl-count').textContent=`${E.length} dates · next 30 days: ${E.filter(e=>{const n=dleft(e.d);return n>=0&&n<=30}).length}`;
-  $('#tl-list').innerHTML=E.map(e=>{const n=dleft(e.d);return `<div class="tl${n<0?' past':''}"><div class="d">${fmt(e.d)}</div><div class="left ${leftCls(n)}">${leftTxt(n)}</div><div class="what"><span class="chip ${e.pf==='Final'?'warn':e.pf==='Priority'?'good':''}">${esc(e.pf)}</span> <span class="chip">${esc(e.kind)}</span> ${link(e.u,e.t)}${e.n?`<div class="small">${more(e.n,110)}</div>`:''}</div></div>`}).join('')||'<div class="tl"><div></div><div></div><div class="small">Nothing matches.</div></div>'}
+const KINDS=[['PhD','PhD applications'],['MS','MS programs'],['Internship','Internships / research'],['School','Schools / workshops'],['Scholarship','Scholarships'],['Funding','Funding'],['Letters','Ask for letters (−4 wk)'],['Deferral','USC deferral']];
+const kindOfIN=x=>x.event_type==='school/workshop'?'School':x.event_type==='scholarship'?'Scholarship':'Internship';
+function events(){const E=[],LG={};
+  for(const s of S){const p=s.program||{},nm=s.short||s.school,id=sid(s),usc=!!s.his_note;
+    if(!s.baseline&&!closedMS(s)){
+      if(p.priority_iso)E.push({d:p.priority_iso,kind:'MS',pf:'Priority',t:nm+' · MS'+(usc?' (new applicants; you would defer instead)':''),u:p.deadline_url,n:p.deadline_note,ok:!usc,id});
+      if(p.deadline_iso)E.push({d:p.deadline_iso,kind:'MS',pf:'Final',t:nm+' · MS'+(usc?' (new applicants; you would defer instead)':''),u:p.deadline_url,n:p.deadline_note,ok:!usc,id})}
+    const ph=phdOf(s);if(ph&&ph.deadline_iso){
+      if(ph.priority_iso)E.push({d:ph.priority_iso,kind:'PhD',pf:'Priority',t:nm+' · PhD',u:ph.url,n:ph.note,ok:true,id});
+      E.push({d:ph.deadline_iso,kind:'PhD',pf:'Final',t:nm+' · PhD',u:ph.url,n:ph.note,ok:true,id});
+      const due=ph.priority_iso||ph.deadline_iso;
+      if(onList(id))E.push({d:minus(due,28),kind:'Letters',pf:'Ask',t:'Ask letter writers for '+nm+' PhD ('+fmt(due)+')',u:ph.url,n:'Rule of thumb: give writers 4 weeks.',ok:true,id});
+      else (LG[due]=LG[due]||[]).push(nm)}
+    for(const ev of (s.extra_events||[]))E.push({d:ev.iso,kind:ev.kind,pf:ev.label,t:ev.title,u:ev.url,n:ev.note,ok:true,id})}
+  for(const x of I){if(!any(st['tl.track'],x.track))continue;const nm=x.org+' · '+x.program_name,ok=x.ms_students_eligible!=='no'&&!blocked(x),id=iid(x),kind=kindOfIN(x);
+    if(x.priority_iso)E.push({d:x.priority_iso,kind,pf:'Priority',t:nm,u:x.url,n:x.deadline_summer_2027,ok,id});
+    if(x.deadline_iso)E.push({d:x.deadline_iso,kind,pf:x.deadline_kind==='posting end'?'Posting ends':'Final',t:nm,u:x.url,n:x.deadline_summer_2027,ok,id});
+    if(x.opens_iso)E.push({d:x.opens_iso,kind,pf:'Opens',t:nm,u:x.url,n:x.deadline_summer_2027,ok,id});
+    const first=x.priority_iso||x.deadline_iso;if(first&&letKey(x)==='yes')E.push({d:minus(first,28),kind:'Letters',pf:'Ask',t:'Ask letter writers for '+nm+' ('+fmt(first)+')',u:x.url,n:'Rule of thumb: give writers 4 weeks.',ok,id})}
+  for(const f of (R.funding||[]))for(const dd of (f.dates||[]))E.push({d:dd.iso,kind:'Funding',pf:dd.label||'Final',t:f.name,u:f.url,n:f.note,ok:f.eligible!==false,id:'f:'+f.name});
+  for(const due in LG){const L=LG[due];E.push({d:minus(due,28),kind:'Letters',pf:'Ask',t:`Ask letter writers for the ${fmt(due)} PhD deadline${L.length>1?'s':''} (${L.length} school${L.length>1?'s':''})`,u:'',n:L.join(', ')+'. Rule of thumb: give writers 4 weeks. Shortlisted schools get their own row.',ok:true,id:'letters:'+due})}
+  return E.sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:a.kind==='Letters'?-1:0)}
+const pfCls=pf=>pf==='Priority'||pf==='Ask'?'warn':pf==='Deadline'?'bad':'';
+function renderTL(){const past=st['tl.past']==='1',ok=st['tl.ok']==='1',my=st['tl.my']==='1';
+  const E=events().filter(e=>any(st['tl.kind'],e.kind)&&(past||dleft(e.d)>=0)&&(!ok||e.ok)&&(!my||onList(e.id)));
+  $('#tl-count').textContent=`${E.length} dates · next 30 days: ${E.filter(e=>{const n=dleft(e.d);return n>=0&&n<=30}).length}${my?' · shortlist only':''}`;
+  $('#tl-list').innerHTML=E.map(e=>{const n=dleft(e.d);return `<div class="tl${n<0?' past':''}"><div class="d">${fmt(e.d)}</div><div class="left ${leftCls(n)}">${leftTxt(n)}</div><div class="what"><span class="chip ${pfCls(e.pf)}">${esc(e.pf)}</span> <span class="chip">${esc((KINDS.find(k=>k[0]===e.kind)||[0,e.kind])[1])}</span> ${onList(e.id)?'<span class="chip acc">shortlist</span> ':''}${link(e.u,e.t)}${e.n?`<div class="small">${more(e.n,110)}</div>`:''}</div></div>`}).join('')||`<div class="tl"><div></div><div></div><div class="small">Nothing matches.${my?' Your shortlist is empty: set a status (Interested / Applying / Applied) on a school or internship.':''}</div></div>`}
 // ---------- other routes ----------
 function srcs(a){return (a||[]).map((u,i)=>link(u,'source'+(a.length>1?' '+(i+1):''))).join(' · ')}
+function keyDates(){const E=events().filter(e=>{const n=dleft(e.d);return n>=0&&n<=42&&e.ok&&e.kind!=='Letters'&&!(e.kind==='MS'&&e.pf==='Final'&&false)});
+  const by={};for(const e of E){(by[e.d]=by[e.d]||[]).push(e)}
+  return `<ul class="kd">${Object.keys(by).sort().map(d=>`<li><b>${fmtS(d)}</b> <span class="small">(${leftTxt(dleft(d))})</span>: ${by[d].map(e=>esc(e.t.replace(' · ',' ')+(e.pf&&e.pf!=='Final'?' ('+e.pf.toLowerCase()+')':''))).join('; ')}</li>`).join('')}</ul><div class="small">Generated from the same data as the Apply-by timeline (default internship tracks, only rows you can apply to, letter-request rows omitted).</div>`}
+function topProfsHTML(){const P=[];for(const s of S)for(const p of (s.professors||[])){const n=fitTagsN(p);if(n)P.push({s,p,n})}
+  P.sort((a,b)=>b.n-a.n||(b.p.papers_core_iacr_joc||0)-(a.p.papers_core_iacr_joc||0));
+  const top=P.filter(x=>x.n>=2);
+  return `<h3 id="topprofs">Professors closest to your work</h3><p class="small">Ranked by how many of your topics (${esc(MYTAGS.join(', '))}) appear in their own 2021-2026 dblp paper titles. Hover a tag for the evidence titles. These are the natural PhD advisors and summer-RA hosts.</p><div class="card"><ul class="profs">${top.map(x=>`<li><b>${link(x.p.homepage||x.p.dblp,x.p.name)}</b> · ${esc(x.s.short||x.s.school)} <span class="small">(${esc(x.s.city)}${phdIso(x.s)?' · PhD deadline '+fmt(phdIso(x.s)):''})</span><div>${(x.p.research_tags||[]).map(t=>`<span class="tag${MYTAGS.includes(t)?' hit':''}" title="${esc(((x.p.tag_evidence||{})[t]||[]).map(e=>e.y+': '+e.t).join('\n'))}">${esc(t)}</span>`).join('')}</div></li>`).join('')}</ul><div class="small">${P.length-top.length} more professors match one of your topics; see each school's card.</div></div>`}
 function renderOR(){const r=R;let h='';
-  if(r.situation){h+=`<div class="card situ"><div class="title">Your situation</div><div class="kv">${r.situation.map(x=>`<div>${esc(x.label)}</div><div>${esc(x.text)} ${srcs(x.sources)}</div>`).join('')}</div></div>`}
+  if(r.situation){h+=`<div class="card situ"><div class="title">Your situation</div><div class="kv">${r.situation.map(x=>`<div>${esc(x.label)}</div><div>${esc(x.text)} ${srcs(x.sources)}</div>`).join('')}<div>Key dates, next 6 weeks</div><div>${keyDates()}</div></div></div>`}
+  h+=topProfsHTML();
   if(r.summer_ra){h+=`<h3>Summer research arranged directly with a professor</h3>${r.summer_ra_intro?`<p class="small">${esc(r.summer_ra_intro)}</p>`:''}`+r.summer_ra.map(x=>`<div class="card"><div class="row"><div class="title">${link(x.url,x.name)}</div><div class="meta">${esc(x.where||'')}</div></div><div class="small">${esc(x.note||'')} ${srcs(x.sources)}</div></div>`).join('');
     if(r.how_to_approach)h+=`<div class="card"><div class="title">How to approach a professor</div><ol>${r.how_to_approach.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`}
   if(r.math_routes){h+=`<h3>Math-department routes</h3>${r.math_intro?`<p class="small">${esc(r.math_intro)}</p>`:''}`+r.math_routes.map(x=>`<div class="card"><div class="row"><div class="title">${link(x.url,x.name)}</div><div class="meta">${esc(x.school)}</div></div><div class="chips">${(x.topics||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join('')}${x.ms_url?`<span class="chip good">${link(x.ms_url,'math MS here')}</span>`:''}</div><div class="small">${esc(x.note||'')} ${srcs(x.sources)}</div></div>`).join('')}
@@ -333,19 +487,21 @@ function md(src){const L=src.replace(/\r/g,'').split('\n');let o='',i=0;
   return o}
 // ---------- boot ----------
 const uniq=a=>[...new Set(a.filter(Boolean))].sort().map(v=>[v,v]);
-function update(){syncCtl();renderMS();renderIN();renderTL();writeHash()}
-Promise.all(['schools.json','internships.json','routes.json','methodology.md','internships_method.md'].map(f=>fetch(f).then(r=>f.endsWith('json')?r.json():r.text()))).then(([s,i,r,m1,m2])=>{
-  S=s;I=i;R=r;
-  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic, notes…'],['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','Thesis',[['yes','yes'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['funded','Funded MS (≈$0)'],['ca','CA public (resident tuition)'],['phd','PhD-direct is the route'],['ms','Has an MS to apply to']]],
-    ['sel','ms.sort','',[['theory','Sort: most theory-venue professors'],['profs','Sort: most crypto professors (all)'],['core','Sort: most theory papers'],['deadline','Sort: next upcoming deadline'],['cost','Sort: lowest tuition for me']]],['view','ms.view']]);
-  buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, eligibility…'],['m','in.track','Track',TRACKS],['m','in.letters','Letters required',[['yes','yes'],['optional','optional'],['no','no'],['unclear','unclear / not stated']]],['m','in.elig','Can I apply? MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
+function update(){syncCtl();renderMS();renderIN();renderTL();renderOR();writeHash(false)}
+const FILES=['schools.json','internships.json','routes.json','methodology.md','internships_method.md'];
+Promise.all(FILES.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`${f}: HTTP ${r.status}`);return f.endsWith('json')?r.json().catch(e=>{throw new Error(`${f}: invalid JSON (${e.message})`)}):r.text()}))).then(([s,i,r,m1,m2])=>{
+  S=s;I=i;R=r;for(const x of S)x._nm=x.short||x.school;for(const x of I)x._nm=x.org+' '+x.program_name;
+  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic (e.g. ORAM, memory checking)'],['ck','ms.my','My shortlist']],[['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','MS thesis',[['yes','yes'],['research track','research track'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['phd','PhD-direct is the route'],['ms','Has an MS to apply to'],['funded','Funded MS track'],['ca','CA public (resident tuition)'],['base','My current program']]],
+    ['sel','ms.sort','',MSCOLS.map(c=>[c.k,'Sort: '+c.sortLabel])],['view','ms.view']]);
+  buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, gate…'],['ck','in.my','My shortlist']],[['m','in.track','Track',TRACKS],['m','in.letters','Letters required',[['yes','yes'],['optional','optional'],['no','no'],['unclear','unclear / not stated']]],['m','in.elig','MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
     ['m','in.cat','Category',uniq(I.map(x=>x.category))],['m','in.loc','Location',['NYC','Chicago','Bay Area','SoCal','Remote','International','Other'].map(v=>[v,v])],['m','in.diff','Difficulty',['Reachable','Moderate','Hard','Very hard'].map(v=>[v,v])],['m','in.prest','Prestige',['Top','Strong','Good'].map(v=>[v,v])],
-    ['sel','in.sort','',[['picks','Sort: my top picks first'],['deadline','Sort: deadline (soonest first)'],['reach','Sort: most reachable first'],['prestige','Sort: most prestigious first']]],['view','in.view']]);
-  buildCtl($('#tl-ctl'),[['m','tl.kind','Type',[['MS','MS programs'],['PhD','PhD-direct'],['Internship','Internships / summer'],['Funding','Funding']]],['m','tl.track','Internship track',TRACKS],['ck','tl.past','show past'],['ck','tl.ok','only ones I can apply to']]);
+    ['sel','in.sort','',INCOLS.map(c=>[c.k,'Sort: '+c.sortLabel])],['view','in.view']]);
+  buildCtl($('#tl-ctl'),[['ck','tl.my','My shortlist'],['ck','tl.ok','only ones I can apply to']],[['m','tl.kind','Type',KINDS],['m','tl.track','Internship track',TRACKS],['ck','tl.past','show past']]);
   $('#me-ms').innerHTML=md(m1);$('#me-in').innerHTML=md(m2);
-  readHash();renderOR();update();tab(st.tab);
-  window.addEventListener('hashchange',()=>{readHash();update();tab(st.tab)});
-});
+  readHash();fboxSync();if(mq.matches)document.querySelectorAll('details.fbox').forEach(f=>f.open=false);update();showTab(st.tab);
+  window.addEventListener('popstate',()=>{readHash();update();showTab(st.tab)});
+  window.addEventListener('hashchange',()=>{readHash();update();showTab(st.tab)});
+}).catch(e=>{console.error(e);$('#err').innerHTML=`<div class="err"><b>Could not load the data.</b> ${esc(e.message||e)}. Reload the page; if it keeps failing, one of the data files is missing or has a syntax error.</div>`;document.querySelectorAll('section').forEach(x=>x.hidden=true)});
 </script>
 </body>
 </html>

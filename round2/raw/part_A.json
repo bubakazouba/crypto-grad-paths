@@ -1,0 +1,297 @@
+{
+ "0": {
+  "org": "NTT Research",
+  "program_name": "CIS Lab Research Intern (summer)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Interested individuals should have demonstrated strong mathematical ability and be enrolled in a PhD program with a focus on cryptography, computer security, or theoretical computer science.",
+    "url": "https://careers.ntt-research.com/cis",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "CRYPTO/EUROCRYPT pubs (in practice)",
+    "quote": "typically only take on summer interns who are full-time PhD students and who have already published at the top cryptography conferences like CRYPTO/EUROCRYPT",
+    "url": "email from NTT CIS to candidate, Nov 2026 (no public URL; quote taken from row, not re-verified)",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Posting: interns \"will be matched with one of our research scientists as a mentor\". Lab page lists Dr. Brent Waters (Director), Dr. Elette Boyle, Dr. Pratish Datta, Dr. Vipul Goyal, Dr. Abhishek Jain - theory cryptographers publishing at CRYPTO/EUROCRYPT/STOC/FOCS (venue claim is my judgment; names verified).",
+  "letter_value_url": "https://cis.ntt-research.com/",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "1": {
+  "org": "Microsoft Research",
+  "program_name": "Research Intern - Cryptography (MSR Cryptography and Privacy Research group, Redmond)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Currently enrolled in a PhD program in Computer Science or related STEM field.",
+    "url": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Min. 2 reference letters",
+    "quote": "you'll need to submit a minimum of two reference letters for this position",
+    "url": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Group page says it hosts \"interns every year through Microsoft's internship program\"; People page: Josh Benaloh, Melissa Chase, Craig Costello, Betul Durak, Esha Ghosh, Kim Laine, Patrick Longa, Greg Zaverucha et al. (Chase/Ghosh/Zaverucha publish at CRYPTO/EUROCRYPT - my judgment). Gate quotes are from last-cycle aggregator copy (jobs.anitab.org, secondary); no Summer 2027 crypto posting found.",
+  "letter_value_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/people/",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "2": {
+  "org": "Microsoft Research",
+  "program_name": "Research Intern - Security Research Group, Microsoft Research Redmond (job 200059346)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Currently enrolled in a Doctorate Degree program in Computer Science, STEM, or a related field.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Min. 2 reference letters",
+    "quote": "you'll need to submit a minimum of two reference letters for this position as well as a cover letter and any relevant work or research samples.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Posting: group \"investigates systems that leverage general software/systems security, confidential computing, formal verification, zero-knowledge proofs, data-driven security, and agentic security\" - security/systems researchers with some ZK work, not a theory-crypto group.",
+  "letter_value_url": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "4": {
+  "org": "Microsoft Research",
+  "program_name": "Cambridge Internship Program Azure Research, Security and Privacy",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD, or MS w/ research exp.",
+    "quote": "Students enrolled in a PhD program or outstanding undergraduate/master's students with research experience.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Top-venue papers strongly desired",
+    "quote": "One or two papers at top security conferences (e.g., USENIX, CCS, S&P, NDSS) ... is strongly desired.",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Posting focus: \"confidential computing systems, secure distributed computing, secure agentic AI, software security, microarchitectural security, and formal verification\" - systems security; crypto appears only as protocol verification.",
+  "letter_value_url": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "6": {
+  "org": "Google",
+  "program_name": "Research Intern, PhD, Summer 2027",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Currently enrolled in a PhD degree in Computer Science, Linguistics, Statistics, Biostatistics, Applied Mathematics, Operations Research, Economics, Natural Sciences, or related technical field.",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "General research-intern pool (ML-heavy area list); host team unspecified. Google does employ cryptographers (e.g., Mariana Raykova: \"I work in the areas of cryptography and security\"; ASIACRYPT/CCS/S&P papers), so the letter is high only if matched to such a host.",
+  "letter_value_url": "https://research.google/people/mariana-raykova/",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "7": {
+  "org": "IBM Research",
+  "program_name": "AI-Native Security Research Intern 2027 (T.J. Watson, Yorktown Heights)",
+  "gates": [
+   {
+    "kind": "degree_field",
+    "label": "Bachelor's required",
+    "quote": "Required education Bachelor's Degree Preferred education Master's Degree",
+    "url": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Posting requires \"Knowledge of systems security and software security\" and prefers \"Experience with AI agents and agentic software development\" - AI-agent/systems security, not cryptography.",
+  "letter_value_url": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "8": {
+  "org": "IBM Research",
+  "program_name": "IBM Research Zurich - cryptography group (Security Research) student positions",
+  "gates": [],
+  "letter_value": "high",
+  "letter_value_reason": "No intern posting exists (gates empty). Zurich careers page (2026-11-06) lists only Security Research \"PhD Position Time and Memory Efficient Proof Systems\" (Ref. 2026_022): \"The Foundational Cryptography group at IBM Research Zurich has an opening for a PhD position\"; contact Dr. Jonathan Bootle. Group (Lyubashevsky/Seiler/Bootle; lattice crypto, CRYPTO/EUROCRYPT authors - my judgment) would be a high-value letter if a position existed.",
+  "letter_value_url": "https://www.zurich.ibm.com/careers/2026_022.html",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "12": {
+  "org": "Meta",
+  "program_name": "Research Scientist Intern, Security and Privacy (PhD)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD (current/recent) only",
+    "quote": "Currently pursuing or recently completed PhD in Computer Science, Electrical Engineering, Cybersecurity, or related field",
+    "url": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Aggregator copy (career.com, secondary; expired 4/4/2026) shows the host is Reality Labs Research, which \"brings together a world-class team of researchers, developers, and engineers to create the future of AR and VR\" - systems/architecture security, not crypto.",
+  "letter_value_url": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "eligibility",
+    "old": "Enrolled in or recently finished a PhD in computer science, electrical engineering, cybersecurity, or a related field, focused on systems/OS security or computer architecture (aggregator copy, paraphrased).",
+    "new": "\"Currently pursuing or recently completed PhD in Computer Science, Electrical Engineering, Cybersecurity, or related field\"; team is Reality Labs Research (AR/VR); posting expired 4/4/2026.",
+    "url": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+    "quote": "Currently pursuing or recently completed PhD in Computer Science, Electrical Engineering, Cybersecurity, or related field"
+   }
+  ]
+ },
+ "13": {
+  "org": "Meta",
+  "program_name": "PhD Internship in Cryptography/Privacy (Meta cryptography team)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD interns only",
+    "quote": "Meta is looking for several PhD interns with expertise in Cryptography",
+    "url": "https://iacr.org/news/item/22180",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Coding assessed (SWE PhD intern)",
+    "quote": "Basic coding skills are a requirement which will be assessed during the application process since the internships are categorized as a general software engineering internship (PhD) at Meta.",
+    "url": "https://iacr.org/news/item/22180",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "IACR call (18 December 2023) names contact Daniel Masny (Meta crypto team; CRYPTO/EUROCRYPT/TCC author - my judgment) and topics \"Honest-Majority MPC and Non-Malleable Encryption\".",
+  "letter_value_url": "https://iacr.org/news/item/22180",
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "notes",
+    "old": "(no contact named)",
+    "new": "IACR item names contact Daniel Masny; internships are categorized as a general software engineering internship (PhD).",
+    "url": "https://iacr.org/news/item/22180",
+    "quote": "For other questions: Daniel Masny"
+   }
+  ]
+ },
+ "15": {
+  "org": "Amazon / AWS",
+  "program_name": "2027 Applied Science Internship - Automated Reasoning - United States (PhD)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD students only",
+    "quote": "Are enrolled in a PhD",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "other",
+    "label": "Formal-methods background",
+    "quote": "Experience in one or more of the following: mathematical logic, formal verification, satisfiability solving (SAT/SMT), mechanical theorem proving, model checking, or program analysis",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Research depth (pubs/thesis)",
+    "quote": "Demonstrated science depth in a specific research area, evidenced through publications, thesis work, or equivalent contributions",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "12 wk, 40 h/wk, relocate",
+    "quote": "Can relocate to where the internship is based - Work 40 hours/week minimum and commit to 12 week internship minimum",
+    "url": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "AWS Automated Reasoning is formal methods (Lean/SMT/Isabelle); crypto touchpoint is verifying PQC implementations (Amazon Science article \"Verifying and optimizing post-quantum cryptography at Amazon\"), not theory-crypto research.",
+  "letter_value_url": "https://www.amazon.science/research-areas/automated-reasoning",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "17": {
+  "org": "Cloudflare",
+  "program_name": "Cloudflare Research - Research Engineer Intern (Summer)",
+  "gates": [
+   {
+    "kind": "other",
+    "label": "Peer-reviewed/OSS/standards record",
+    "quote": "Proven track record of peer-reviewed research, open-source software contributions, or standards development, that is commensurate with level of training",
+    "url": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Students at all levels",
+    "quote": "students at all levels are welcome to apply",
+    "url": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Cloudflare Research (\"Our team includes experts in many disciplines, including applied cryptography, privacy\"); research engineers incl. Bas Westerbaan, Christopher Patton, Thibault Meunier, Luke Valenta - applied crypto / IETF standards, not theory venues.",
+  "letter_value_url": "https://research.cloudflare.com/people/",
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "url/status",
+    "old": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514 (Summer 2026 posting)",
+    "new": "None: no 2027 Research intern posting on Cloudflare Greenhouse as of 2026-11-06 (public board API, 464 jobs; only intern roles are Software Engineer Intern (2027), Product Manager Intern (2027) x3, People Team Intern). Built In mirror says job removed May 7, 2026; Greenhouse job 8089407 returns 404.",
+    "url": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
+    "quote": "Software Engineer Intern (2027) | Product Manager Intern (2027) - Austin, TX | People Team Intern, HR Transformation (Winter 2027)"
+   }
+  ]
+ },
+ "18": {
+  "org": "Visa Research",
+  "program_name": "Staff Research Scientist, Intern - PhD (Visa Research; security/cryptography and quantum tracks)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "PhD, grad. Dec 2026+",
+    "quote": "Students pursuing a Ph.D. with a graduation date in December 2026 or later",
+    "url": "https://jobs.smartrecruiters.com/Visa/744000081110136",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "high",
+  "letter_value_reason": "Visa Research crypto staff publish at theory venues, e.g. Srinivasan Raghuraman \"has published papers in several international conferences and journals, including CRYPTO, EUROCRYPT, Theory of Cryptography Conference (TCC)\"; also Suvradip Chakraborty, Navid Alamati, Peter Rindal. Caveat: this posting is the quantum/AI track; high only if hosted by the crypto group. Staff-page quote from search snippet, not re-fetched.",
+  "letter_value_url": "https://usa.visa.com/about-visa/visa-research/srinivasan-raghuraman.html",
+  "event_type": "internship",
+  "corrections": []
+ }
+}

@@ -1,0 +1,1413 @@
+{
+ "Stanford University|Dan Boneh": {
+  "research_tags": [
+   "ZK",
+   "signatures/PKE",
+   "blockchain/consensus",
+   "applied/systems",
+   "privacy/DP",
+   "lower bounds"
+  ],
+  "evidence": {
+   "ZK": [
+    {
+     "y": 2023,
+     "t": "HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates."
+    },
+    {
+     "y": 2025,
+     "t": "LatticeFold+: Faster, Simpler, Shorter Lattice-Based Folding for Succinct Proof Systems."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2022,
+     "t": "Threshold Signatures with Private Accountability."
+    },
+    {
+     "y": 2026,
+     "t": "Efficient Batch Threshold Encryption Using Partial Fraction Techniques."
+    }
+   ],
+   "blockchain/consensus": [
+    {
+     "y": 2022,
+     "t": "zkBridge: Trustless Cross-chain Bridges Made Practical."
+    },
+    {
+     "y": 2023,
+     "t": "R-Pool and Settlement Markets for Recoverable ERC-20R Tokens."
+    }
+   ],
+   "applied/systems": [
+    {
+     "y": 2025,
+     "t": "VerITAS: Verifying Image Transformations at Scale."
+    },
+    {
+     "y": 2024,
+     "t": "Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2021,
+     "t": "Lightweight Techniques for Private Heavy Hitters."
+    },
+    {
+     "y": 2026,
+     "t": "Nudge: A Private Recommendations Engine."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2023,
+     "t": "A Lower Bound on the Length of Signatures Based on Group Actions and Generic Isogenies."
+    },
+    {
+     "y": 2026,
+     "t": "Catching Many Traitors in Threshold Traitor Tracing: Lower Bounds and Constructions."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Stanford University|Mark Zhandry": {
+  "research_tags": [
+   "quantum crypto",
+   "foundations",
+   "obfuscation",
+   "signatures/PKE",
+   "non-crypto theory",
+   "lower bounds"
+  ],
+  "evidence": {
+   "quantum crypto": [
+    {
+     "y": 2025,
+     "t": "On Quantum Money and Evasive Obfuscation."
+    },
+    {
+     "y": 2022,
+     "t": "On the Feasibility of Unclonable Encryption, and More."
+    }
+   ],
+   "foundations": [
+    {
+     "y": 2022,
+     "t": "Augmented Random Oracles."
+    },
+    {
+     "y": 2023,
+     "t": "The Relationship Between Idealized Models Under Computationally Bounded Adversaries."
+    }
+   ],
+   "obfuscation": [
+    {
+     "y": 2023,
+     "t": "Computational Wiretap Coding from Indistinguishability Obfuscation."
+    },
+    {
+     "y": 2021,
+     "t": "Decomposable Obfuscation: A Framework for Building Applications of Obfuscation from Polynomial Hardness."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2025,
+     "t": "Optimal Traitor Tracing from Pairings."
+    },
+    {
+     "y": 2021,
+     "t": "White Box Traitor Tracing."
+    }
+   ],
+   "non-crypto theory": [
+    {
+     "y": 2026,
+     "t": "Separating QMA from QCMA with a Classical Oracle."
+    },
+    {
+     "y": 2024,
+     "t": "The Space-Time Cost of Purifying Quantum Computations."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2023,
+     "t": "A Lower Bound on the Length of Signatures Based on Group Actions and Generic Isogenies."
+    },
+    {
+     "y": 2024,
+     "t": "Limits on the Power of Prime-Order Groups: Separating Q-Type from Static Assumptions."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Stanford University|Emma Dauterman": {
+  "research_tags": [
+   "applied/systems",
+   "privacy/DP",
+   "ORAM",
+   "PIR"
+  ],
+  "evidence": {
+   "applied/systems": [
+    {
+     "y": 2024,
+     "t": "Secret Key Recovery in a Global-Scale End-to-End Encryption System."
+    },
+    {
+     "y": 2025,
+     "t": "LegoLog: A configurable transparency log."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2026,
+     "t": "Heli: Heavy-Light Private Aggregation."
+    },
+    {
+     "y": 2022,
+     "t": "Waldo: A Private Time-Series Database from Function Secret Sharing."
+    }
+   ],
+   "ORAM": [
+    {
+     "y": 2021,
+     "t": "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage."
+    }
+   ],
+   "PIR": [
+    {
+     "y": 2023,
+     "t": "Private Web Search with Tiptoe."
+    },
+    {
+     "y": 2023,
+     "t": "Lightweb: Private web browsing without all the baggage."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "The City College of New York|Rosario Gennaro": {
+  "research_tags": [
+   "ZK",
+   "signatures/PKE",
+   "MPC",
+   "lower bounds"
+  ],
+  "evidence": {
+   "ZK": [
+    {
+     "y": 2023,
+     "t": "Testudo: Linear Time Prover SNARKs with Constant Size Proofs and Square Root Size Universal Setup."
+    },
+    {
+     "y": 2025,
+     "t": "Natively Compatible Super-Efficient Lookup Arguments and How to Apply Them."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2021,
+     "t": "UC Non-Interactive, Proactive, Threshold ECDSA with Identifiable Aborts."
+    },
+    {
+     "y": 2024,
+     "t": "Witness-Authenticated Key Exchange, Revisited: Extensions to Groups, Improved Models, Simpler Constructions."
+    }
+   ],
+   "MPC": [
+    {
+     "y": 2026,
+     "t": "ThriftyMPC: Reducing the Cost of Large-Scale MPC in the Cloud."
+    },
+    {
+     "y": 2021,
+     "t": "UC Non-Interactive, Proactive, Threshold ECDSA with Identifiable Aborts."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2022,
+     "t": "On the Impossibility of Algebraic Vector Commitments in Pairing-Free Groups."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "The George Washington University|Arkady Yerukhimovich": {
+  "research_tags": [
+   "MPC",
+   "privacy/DP",
+   "applied/systems",
+   "FHE",
+   "signatures/PKE"
+  ],
+  "evidence": {
+   "MPC": [
+    {
+     "y": 2021,
+     "t": "The More the Merrier: Reducing the Cost of Large Scale MPC."
+    },
+    {
+     "y": 2022,
+     "t": "Secure Sampling with Sublinear Communication."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2024,
+     "t": "On the Privacy of Sublinear-Communication Jaccard Index Estimation via Min-hash."
+    },
+    {
+     "y": 2025,
+     "t": "Non-Interactive Verifiable Aggregation."
+    }
+   ],
+   "applied/systems": [
+    {
+     "y": 2022,
+     "t": "When Frodo Flips: End-to-End Key Recovery on FrodoKEM via Rowhammer."
+    },
+    {
+     "y": 2025,
+     "t": "PQ-Hammer: End-to-End Key Recovery Attacks on Post-Quantum Cryptography Using Rowhammer."
+    }
+   ],
+   "FHE": [
+    {
+     "y": 2025,
+     "t": "Multi-key Fully-Homomorphic Aggregate MAC for Arithmetic Circuits."
+    },
+    {
+     "y": 2021,
+     "t": "Compressed Oblivious Encoding for Homomorphically Encrypted Search."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2025,
+     "t": "Fully Adaptive FROST in the Algebraic Group Model From Falsifiable Assumptions."
+    },
+    {
+     "y": 2025,
+     "t": "Multi-Client Functional Encryption for Small Domains."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Tufts University|Megumi Ando": {
+  "research_tags": [
+   "privacy/DP",
+   "signatures/PKE"
+  ],
+  "evidence": {
+   "privacy/DP": [
+    {
+     "y": 2025,
+     "t": "Bruisable Onions: Anonymous Communication in the Asynchronous Model."
+    },
+    {
+     "y": 2022,
+     "t": "Poly Onions: Achieving Anonymity in the Presence of Churn."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2021,
+     "t": "Cryptographic Shallots: A Formal Treatment of Repliable Onion Encryption."
+    },
+    {
+     "y": 2025,
+     "t": "Full Anonymity in the Asynchronous Setting from Peony Onion Encryption."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of California, Irvine|Stanislaw Jarecki": {
+  "research_tags": [
+   "signatures/PKE",
+   "MPC",
+   "lattices/PQC",
+   "symmetric/hash"
+  ],
+  "evidence": {
+   "signatures/PKE": [
+    {
+     "y": 2024,
+     "t": "Bare PAKE: Universally Composable Key Exchange from Just Passwords."
+    },
+    {
+     "y": 2025,
+     "t": "Password-Protected Threshold Signatures."
+    }
+   ],
+   "MPC": [
+    {
+     "y": 2026,
+     "t": "Adaptively Secure Threshold Blind BLS Signatures and Threshold Oblivious PRF."
+    },
+    {
+     "y": 2026,
+     "t": "Adaptive Distributed Key Generation for Discrete-Log Cryptosystems."
+    }
+   ],
+   "lattices/PQC": [
+    {
+     "y": 2025,
+     "t": "C'est Très CHIC: A Compact Password-Authenticated Key Exchange from Lattice-Based KEM."
+    },
+    {
+     "y": 2026,
+     "t": "Tempo: An ML-KEM to PAKE Compiler Resilient to Timing Attacks."
+    }
+   ],
+   "symmetric/hash": [
+    {
+     "y": 2023,
+     "t": "Randomized Half-Ideal Cipher on Groups with Applications to UC (a)PAKE."
+    },
+    {
+     "y": 2021,
+     "t": "On the (In)Security of the Diffie-Hellman Oblivious PRF with Multiplicative Blinding."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of California, Riverside|Amey Bhangale": {
+  "research_tags": [
+   "non-crypto theory",
+   "blockchain/consensus",
+   "lower bounds"
+  ],
+  "evidence": {
+   "non-crypto theory": [
+    {
+     "y": 2022,
+     "t": "On approximability of satisfiable k-CSPs: I."
+    },
+    {
+     "y": 2026,
+     "t": "Plane vs. Plane Low Degree Test."
+    }
+   ],
+   "blockchain/consensus": [
+    {
+     "y": 2025,
+     "t": "Leader Election with Poly-Logarithmic Communication Per Party."
+    },
+    {
+     "y": 2022,
+     "t": "Efficient Adaptively-Secure Byzantine Agreement for Long Messages."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2022,
+     "t": "A Toolbox for Barriers on Interactive Oracle Proofs."
+    }
+   ]
+  },
+  "crypto_core": "adjacent",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of California, Santa Barbara|Prabhanjan Vijendra Ananth": {
+  "research_tags": [
+   "quantum crypto",
+   "signatures/PKE",
+   "ZK",
+   "lattices/PQC",
+   "MPC",
+   "PIR"
+  ],
+  "evidence": {
+   "quantum crypto": [
+    {
+     "y": 2023,
+     "t": "Cloning Games: A General Framework for Unclonable Primitives."
+    },
+    {
+     "y": 2025,
+     "t": "Pseudorandom Unitaries in the Haar Random Oracle Model."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2022,
+     "t": "Collusion-Resistant Functional Encryption for RAMs."
+    },
+    {
+     "y": 2022,
+     "t": "Pre-Constrained Encryption."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2021,
+     "t": "On the Concurrent Composition of Quantum Zero-Knowledge."
+    },
+    {
+     "y": 2024,
+     "t": "NIZKs with Maliciously Chosen CRS: Subversion Advice-ZK and Accountable Soundness."
+    }
+   ],
+   "lattices/PQC": [
+    {
+     "y": 2023,
+     "t": "Revocable Cryptography from Learning with Errors."
+    },
+    {
+     "y": 2025,
+     "t": "Quantum Key-Revocable Dual-Regev Encryption, Revisited."
+    }
+   ],
+   "MPC": [
+    {
+     "y": 2021,
+     "t": "Unbounded Multi-party Computation from Learning with Errors."
+    },
+    {
+     "y": 2026,
+     "t": "Non Interactive MPC, (Quantumly) Revisited."
+    }
+   ],
+   "PIR": [
+    {
+     "y": 2026,
+     "t": "A Note on Single-Server QPIR from One-Way Functions."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Delaware|Mingyuan Wang": {
+  "research_tags": [
+   "MPC",
+   "signatures/PKE",
+   "foundations",
+   "ZK",
+   "blockchain/consensus",
+   "lower bounds"
+  ],
+  "evidence": {
+   "MPC": [
+    {
+     "y": 2024,
+     "t": "Scalable Multiparty Computation from Non-linear Secret Sharing."
+    },
+    {
+     "y": 2023,
+     "t": "Reusable Secure Computation in the Plain Model."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2024,
+     "t": "Threshold Encryption with Silent Setup."
+    },
+    {
+     "y": 2024,
+     "t": "hinTS: Threshold Signatures with Silent Setup."
+    }
+   ],
+   "foundations": [
+    {
+     "y": 2026,
+     "t": "Black-Box Crypto Is Useless for Pseudorandom Codes."
+    },
+    {
+     "y": 2021,
+     "t": "Computational Hardness of Optimal Fair Computation: Beyond Minicrypt."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2024,
+     "t": "How to Prove Statements Obliviously?"
+    },
+    {
+     "y": 2023,
+     "t": "Experimenting with Zero-Knowledge Proofs of Training."
+    }
+   ],
+   "blockchain/consensus": [
+    {
+     "y": 2025,
+     "t": "Practical Mempool Privacy via One-time Setup Batched Threshold Encryption."
+    },
+    {
+     "y": 2025,
+     "t": "BEAST-MEV: Batched Threshold Encryption with Silent Setup for MEV prevention."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2021,
+     "t": "Lower Bounds for Leakage-Resilient Secret-Sharing Schemes against Probing Attacks."
+    },
+    {
+     "y": 2026,
+     "t": "Generic-Group Barriers for Function-Hiding and Multi-input Functional Encryption."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Illinois Chicago|Alexander R. Block": {
+  "research_tags": [
+   "ZK",
+   "non-crypto theory",
+   "lower bounds",
+   "foundations"
+  ],
+  "evidence": {
+   "ZK": [
+    {
+     "y": 2023,
+     "t": "Fiat-Shamir Security of FRI and Related SNARKs."
+    },
+    {
+     "y": 2024,
+     "t": "Field-Agnostic SNARKs from Expand-Accumulate Codes."
+    }
+   ],
+   "non-crypto theory": [
+    {
+     "y": 2023,
+     "t": "On Relaxed Locally Decodable Codes for Hamming and Insertion-Deletion Errors."
+    },
+    {
+     "y": 2021,
+     "t": "P4-free Partition and Cover Numbers & Applications."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2026,
+     "t": "SNARK Lower Bounds via Communication Complexity."
+    },
+    {
+     "y": 2026,
+     "t": "Exponential Lower Bounds for 2-query Relaxed Locally Decodable Codes."
+    }
+   ],
+   "foundations": [
+    {
+     "y": 2022,
+     "t": "Memory-Hard Puzzles in the Standard Model with Applications to Memory-Hard Functions and Resource-Bounded Locally Decodable Codes."
+    },
+    {
+     "y": 2023,
+     "t": "Computationally Relaxed Locally Decodable Codes, Revisited."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Illinois Chicago|Daniel J. Bernstein": {
+  "research_tags": [
+   "lattices/PQC",
+   "applied/systems",
+   "signatures/PKE"
+  ],
+  "evidence": {
+   "lattices/PQC": [
+    {
+     "y": 2026,
+     "t": "Higher-Genus McEliece."
+    },
+    {
+     "y": 2023,
+     "t": "Asymptotics of hybrid primal lattice attacks."
+    }
+   ],
+   "applied/systems": [
+    {
+     "y": 2025,
+     "t": "KyberSlash: Exploiting secret-dependent division timings in Kyber implementations."
+    },
+    {
+     "y": 2022,
+     "t": "OpenSSLNTRU: Faster post-quantum TLS key exchange."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2025,
+     "t": "Safe curves for elliptic-curve cryptography."
+    },
+    {
+     "y": 2021,
+     "t": "Concrete quantum cryptanalysis of binary elliptic curves."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Illinois Chicago|Anrin Chakraborti": {
+  "research_tags": [
+   "applied/systems",
+   "privacy/DP",
+   "MPC"
+  ],
+  "evidence": {
+   "applied/systems": [
+    {
+     "y": 2024,
+     "t": "INVISILINE: Invisible Plausibly-Deniable Storage."
+    },
+    {
+     "y": 2021,
+     "t": "PEARL: Plausibly Deniable Flash Translation Layer using WOM coding."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2023,
+     "t": "Wink: Deniable Secure Messaging."
+    },
+    {
+     "y": 2026,
+     "t": "Half-Moon Cookie: Private, Similarity-Based Blocklisting with TOCTOU-Attack Resilience."
+    }
+   ],
+   "MPC": [
+    {
+     "y": 2023,
+     "t": "Distance-Aware Private Set Intersection."
+    },
+    {
+     "y": 2023,
+     "t": "Privately Evaluating Region Overlaps with Applications to Collaborative Sensor Output Validation."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Massachusetts Amherst|Adam O'Neill": {
+  "research_tags": [
+   "signatures/PKE",
+   "foundations",
+   "symmetric/hash",
+   "privacy/DP",
+   "oblivious algorithms"
+  ],
+  "evidence": {
+   "signatures/PKE": [
+    {
+     "y": 2025,
+     "t": "Schnorr Signatures are Tightly Secure in the ROM Under a Non-interactive Assumption."
+    },
+    {
+     "y": 2022,
+     "t": "Instantiability of Classical Random-Oracle-Model Encryption Transforms."
+    }
+   ],
+   "foundations": [
+    {
+     "y": 2022,
+     "t": "Beyond Uber: Instantiating Generic Groups via PGGs."
+    },
+    {
+     "y": 2024,
+     "t": "Breaking RSA Generically Is Equivalent to Factoring, with Preprocessing."
+    }
+   ],
+   "symmetric/hash": [
+    {
+     "y": 2022,
+     "t": "Approximate Distance-Comparison-Preserving Symmetric Encryption."
+    },
+    {
+     "y": 2026,
+     "t": "Revisiting the Security of Sparkle."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2021,
+     "t": "εpsolute: Efficiently Querying Databases While Providing Differential Privacy."
+    },
+    {
+     "y": 2025,
+     "t": "Non-Interactive Verifiable Aggregation."
+    }
+   ],
+   "oblivious algorithms": [
+    {
+     "y": 2026,
+     "t": "Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Utah|Pratik Soni": {
+  "research_tags": [
+   "MPC",
+   "signatures/PKE",
+   "ZK",
+   "blockchain/consensus"
+  ],
+  "evidence": {
+   "MPC": [
+    {
+     "y": 2025,
+     "t": "Efficient Distributed Randomness Generation from Minimal Assumptions Where PArties Speak Sequentially Once."
+    },
+    {
+     "y": 2024,
+     "t": "Game-Theoretically Fair Distributed Sampling."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2024,
+     "t": "Foundations of Adaptor Signatures."
+    },
+    {
+     "y": 2026,
+     "t": "New Constructions of Functional Adaptor Signatures: Broader Functions and Improved Efficiency."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2024,
+     "t": "NIZKs with Maliciously Chosen CRS: Subversion Advice-ZK and Accountable Soundness."
+    },
+    {
+     "y": 2023,
+     "t": "Distributed-Prover Interactive Proofs."
+    }
+   ],
+   "blockchain/consensus": [
+    {
+     "y": 2024,
+     "t": "Functional Adaptor Signatures: Beyond All-or-Nothing Blockchain-based Payments."
+    },
+    {
+     "y": 2022,
+     "t": "Time-Traveling Simulators Using Blockchains and Their Applications."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Wisconsin-Madison|Rishab Goyal": {
+  "research_tags": [
+   "signatures/PKE",
+   "lattices/PQC",
+   "ZK",
+   "FHE",
+   "foundations"
+  ],
+  "evidence": {
+   "signatures/PKE": [
+    {
+     "y": 2022,
+     "t": "Dynamic Collusion Bounded Functional Encryption from Identity-Based Encryption."
+    },
+    {
+     "y": 2025,
+     "t": "Non-Interactive Blind Signatures: Post-Quantum and Stronger Security."
+    }
+   ],
+   "lattices/PQC": [
+    {
+     "y": 2026,
+     "t": "Equivocal Broadcast Encryption: Adaptively-Secure Optimal Distributed Broadcast Encryption from Lattices."
+    },
+    {
+     "y": 2026,
+     "t": "Batched & Non-interactive Blind Signatures from Lattices."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2022,
+     "t": "Rate-1 Non-Interactive Arguments for Batch-NP and Applications."
+    },
+    {
+     "y": 2025,
+     "t": "Boosting SNARKs and Rate-1 Barrier in Arguments of Knowledge."
+    }
+   ],
+   "FHE": [
+    {
+     "y": 2026,
+     "t": "Fully-Succinct Multi-key FHE and Rate-1 Simulatable Threshold Decryption from LWE."
+    },
+    {
+     "y": 2024,
+     "t": "Leveled Fully-Homomorphic Signatures from Batch Arguments."
+    }
+   ],
+   "foundations": [
+    {
+     "y": 2026,
+     "t": "Collusion-Resistant Constrained PRFs for Compute- &-Compare Predicates from LWE."
+    },
+    {
+     "y": 2025,
+     "t": "Leakage-Resilient Incompressible Cryptography: Constructions and Barriers."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Wisconsin-Milwaukee|Guangwu Xu": {
+  "research_tags": [
+   "lattices/PQC",
+   "signatures/PKE",
+   "FHE",
+   "privacy/DP",
+   "PIR"
+  ],
+  "evidence": {
+   "lattices/PQC": [
+    {
+     "y": 2026,
+     "t": "On the Provable Dual Attack for LWE by Modulus Switching."
+    },
+    {
+     "y": 2025,
+     "t": "Lore: An LWE-based Key Encapsulation Mechanism with Variable Modulus and CRT Compression."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2021,
+     "t": "Pre-computation Scheme of Window τNAF for Koblitz Curves Revisited."
+    },
+    {
+     "y": 2025,
+     "t": "Rhyme: A Fiat-Shamir Lattice-based Signature with 3C Sampling."
+    }
+   ],
+   "FHE": [
+    {
+     "y": 2024,
+     "t": "An improved exact CRR basis conversion algorithm for FHE without floating-point arithmetic."
+    },
+    {
+     "y": 2023,
+     "t": "Improvements of Homomorphic Secure Evaluation of Inverse Square Root."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2024,
+     "t": "AegisFL: Efficient and Flexible Privacy-Preserving Byzantine-Robust Cross-silo Federated Learning."
+    },
+    {
+     "y": 2024,
+     "t": "EVFLR: Efficient Vertical Federated Logistic Regression Based on Batch Operations."
+    }
+   ],
+   "PIR": [
+    {
+     "y": 2026,
+     "t": "Incremental Single-Server Private Information Retrieval."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Virginia Commonwealth University|Hong-Sheng Zhou": {
+  "research_tags": [
+   "foundations",
+   "MPC",
+   "blockchain/consensus",
+   "signatures/PKE",
+   "garbling",
+   "ZK"
+  ],
+  "evidence": {
+   "foundations": [
+    {
+     "y": 2025,
+     "t": "On the Complexity of Cryptographic Groups and Generic Group Models."
+    },
+    {
+     "y": 2022,
+     "t": "An Analysis of the Algebraic Group Model."
+    }
+   ],
+   "MPC": [
+    {
+     "y": 2022,
+     "t": "Shuffle-based Private Set Union: Faster and More Secure."
+    },
+    {
+     "y": 2023,
+     "t": "Endemic Oblivious Transfer via Random Oracles, Revisited."
+    }
+   ],
+   "blockchain/consensus": [
+    {
+     "y": 2025,
+     "t": "EquiBFT: A Framework for Achieving Fairness in BFT Consensus."
+    },
+    {
+     "y": 2025,
+     "t": "Best-Possible Unpredictable Proof-of-Stake: An Impossibility and a Practical Design."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2025,
+     "t": "Threshold ECDSA in Two Rounds."
+    },
+    {
+     "y": 2021,
+     "t": "Indifferentiable Signatures: High Performance and Fallback Security."
+    }
+   ],
+   "garbling": [
+    {
+     "y": 2026,
+     "t": "Efficient Garbled Pseudorandom Functions and Lookup Tables from Minimal Assumption."
+    },
+    {
+     "y": 2024,
+     "t": "Column-wise Garbling, and How to Go Beyond the Linear Model."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2021,
+     "t": "Succinct Scriptable NIZK via Trusted Hardware."
+    },
+    {
+     "y": 2022,
+     "t": "Scriptable and composable SNARKs in the trusted hardware model."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Virginia Tech|Thang Hoang": {
+  "research_tags": [
+   "applied/systems",
+   "privacy/DP",
+   "ZK",
+   "PIR",
+   "oblivious algorithms"
+  ],
+  "evidence": {
+   "applied/systems": [
+    {
+     "y": 2025,
+     "t": "Hermes: Efficient and Secure Multi-Writer Encrypted Database."
+    },
+    {
+     "y": 2024,
+     "t": "MUSES: Efficient Multi-User Searchable Encrypted Database."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2024,
+     "t": "Efficient Secure Aggregation for Privacy-Preserving Federated Machine Learning."
+    },
+    {
+     "y": 2025,
+     "t": "Local Differential Privacy for Federated Learning with Fixed Memory Usage and Per-Client Privacy."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2025,
+     "t": "Zero-Knowledge AI Inference with High Precision."
+    },
+    {
+     "y": 2023,
+     "t": "ezDPS: An Efficient and Zero-Knowledge Machine Learning Inference Pipeline."
+    }
+   ],
+   "PIR": [
+    {
+     "y": 2025,
+     "t": "Client-Efficient Online-Offline Private Information Retrieval."
+    }
+   ],
+   "oblivious algorithms": [
+    {
+     "y": 2021,
+     "t": "Efficient Oblivious Data Structures for Database Services on the Cloud."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": true,
+  "suspect_reason": "Mixes unrelated work (Intel silicon photonics review, IMU human-posture/gait sensor papers), likely a different Thang Hoang"
+ },
+ "Washington State University|Feng-Hao Liu": {
+  "research_tags": [
+   "lattices/PQC",
+   "FHE",
+   "signatures/PKE",
+   "foundations",
+   "PIR"
+  ],
+  "evidence": {
+   "lattices/PQC": [
+    {
+     "y": 2024,
+     "t": "Ring/Module Learning with Errors Under Linear Leakage - Hardness and Applications."
+    },
+    {
+     "y": 2025,
+     "t": "Discrete Gaussians Modulo Sub-Lattices: New Leftover Hash Lemmas for Discrete Gaussians."
+    }
+   ],
+   "FHE": [
+    {
+     "y": 2023,
+     "t": "Batch Bootstrapping I: - A New Framework for SIMD Bootstrapping in Polynomial Modulus."
+    },
+    {
+     "y": 2025,
+     "t": "GPU Acceleration for FHEW/TFHE Bootstrapping."
+    }
+   ],
+   "signatures/PKE": [
+    {
+     "y": 2022,
+     "t": "Leakage-Resilient IBE/ ABE with Optimal Leakage Rates from Lattices."
+    },
+    {
+     "y": 2021,
+     "t": "Ring-Based Identity Based Encryption - Asymptotically Shorter MPK and Tighter Security."
+    }
+   ],
+   "foundations": [
+    {
+     "y": 2022,
+     "t": "Nonmalleable Digital Lockers and Robust Fuzzy Extractors in the Plain Model."
+    },
+    {
+     "y": 2024,
+     "t": "(Continuous) Non-malleable Codes for Partial Functions with Manipulation Detection and Light Updates."
+    }
+   ],
+   "PIR": [
+    {
+     "y": 2024,
+     "t": "Faster FHE-Based Single-Server Private Information Retrieval."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Rice University|Nai-Hui Chia": {
+  "research_tags": [
+   "non-crypto theory",
+   "quantum crypto",
+   "ZK",
+   "lower bounds"
+  ],
+  "evidence": {
+   "non-crypto theory": [
+    {
+     "y": 2023,
+     "t": "On the Impossibility of General Parallel Fast-Forwarding of Hamiltonian Simulation."
+    },
+    {
+     "y": 2025,
+     "t": "Adversarially Robust Quantum State Learning and Testing."
+    }
+   ],
+   "quantum crypto": [
+    {
+     "y": 2026,
+     "t": "The Black-Box Simulation Barrier Persists in a Fully Quantum World."
+    },
+    {
+     "y": 2022,
+     "t": "Post-quantum Simulatable Extraction with Minimal Assumptions: Black-Box and Constant-Round."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2021,
+     "t": "A Black-Box Approach to Post-Quantum Zero-Knowledge in Constant Rounds."
+    },
+    {
+     "y": 2022,
+     "t": "On the Impossibility of Post-Quantum Black-Box Zero-Knowledge in Constant Round."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2022,
+     "t": "On the Impossibility of Post-Quantum Black-Box Zero-Knowledge in Constant Round."
+    },
+    {
+     "y": 2026,
+     "t": "The Black-Box Simulation Barrier Persists in a Fully Quantum World."
+    }
+   ]
+  },
+  "crypto_core": "adjacent",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Chicago|David Cash": {
+  "research_tags": [
+   "symmetric/hash",
+   "applied/systems"
+  ],
+  "evidence": {
+   "symmetric/hash": [
+    {
+     "y": 2025,
+     "t": "Structured Encryption for Indirect Addressing."
+    },
+    {
+     "y": 2021,
+     "t": "Improved Structured Encryption for SQL Databases via Hybrid Indexing."
+    }
+   ],
+   "applied/systems": [
+    {
+     "y": 2021,
+     "t": "Searching Encrypted Data with Size-Locked Indexes."
+    },
+    {
+     "y": 2026,
+     "t": "Plaintext Recovery Against Post-Filtering Access Control."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "University of Chicago|Aloni Cohen": {
+  "research_tags": [
+   "privacy/DP",
+   "non-crypto theory"
+  ],
+  "evidence": {
+   "privacy/DP": [
+    {
+     "y": 2022,
+     "t": "Attacks on Deidentification's Defenses."
+    },
+    {
+     "y": 2021,
+     "t": "Census TopDown: The Impacts of Differential Privacy on Redistricting."
+    }
+   ],
+   "non-crypto theory": [
+    {
+     "y": 2024,
+     "t": "Private PAC Learning May be Harder than Online Learning."
+    },
+    {
+     "y": 2026,
+     "t": "A Machine Learning Theory Perspective on Strategic Litigation."
+    }
+   ]
+  },
+  "crypto_core": "adjacent",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Cornell Tech (NYC)|Rafael Pass": {
+  "research_tags": [
+   "foundations",
+   "non-crypto theory",
+   "ZK",
+   "obfuscation",
+   "ORAM",
+   "lower bounds"
+  ],
+  "evidence": {
+   "foundations": [
+    {
+     "y": 2025,
+     "t": "Hardness Along the Boundary: Towards One-Way Functions from the Worst-Case Hardness of Time-Bounded Kolmogorov Complexity."
+    },
+    {
+     "y": 2023,
+     "t": "Counting Unpredictable Bits: A Simple PRG from One-Way Functions."
+    }
+   ],
+   "non-crypto theory": [
+    {
+     "y": 2024,
+     "t": "Search-To-Decision Reductions for Kolmogorov Complexity."
+    },
+    {
+     "y": 2022,
+     "t": "Characterizing Derandomization Through Hardness of Levin-Kolmogorov Complexity."
+    }
+   ],
+   "ZK": [
+    {
+     "y": 2025,
+     "t": "On Witness Encryption and Laconic Zero-Knowledge Arguments."
+    },
+    {
+     "y": 2024,
+     "t": "Public-Coin, Complexity-Preserving, Succinct Arguments of Knowledge for NP from Collision-Resistance."
+    }
+   ],
+   "obfuscation": [
+    {
+     "y": 2021,
+     "t": "Indistinguishability obfuscation from circular security."
+    },
+    {
+     "y": 2022,
+     "t": "One-Way Functions and (Im)perfect Obfuscation."
+    }
+   ],
+   "ORAM": [
+    {
+     "y": 2022,
+     "t": "Locality-Preserving Oblivious RAM."
+    }
+   ],
+   "lower bounds": [
+    {
+     "y": 2026,
+     "t": "Lower Bounds on the Overhead of Indistinguishability Obfuscation."
+    }
+   ]
+  },
+  "crypto_core": "core",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Cornell Tech (NYC)|Ari Juels": {
+  "research_tags": [
+   "blockchain/consensus",
+   "applied/systems",
+   "privacy/DP"
+  ],
+  "evidence": {
+   "blockchain/consensus": [
+    {
+     "y": 2023,
+     "t": "Themis: Fast, Strong Order-Fairness in Byzantine Consensus."
+    },
+    {
+     "y": 2025,
+     "t": "Liquefaction: Privately Liquefying Blockchain Assets."
+    }
+   ],
+   "applied/systems": [
+    {
+     "y": 2023,
+     "t": "Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts."
+    },
+    {
+     "y": 2025,
+     "t": "GoAT: File Geolocation via Anchor Timestamping."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2026,
+     "t": "B-Privacy: Defining and Enforcing Privacy in Weighted Voting."
+    },
+    {
+     "y": 2026,
+     "t": "πCreds: Privately Inferred Credentials."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ },
+ "Cornell Tech (NYC)|Thomas Ristenpart": {
+  "research_tags": [
+   "applied/systems",
+   "symmetric/hash",
+   "privacy/DP"
+  ],
+  "evidence": {
+   "applied/systems": [
+    {
+     "y": 2024,
+     "t": "Injection Attacks Against End-to-End Encrypted Applications."
+    },
+    {
+     "y": 2022,
+     "t": "Might I Get Pwned: A Second Generation Compromised Credential Checking Service."
+    }
+   ],
+   "symmetric/hash": [
+    {
+     "y": 2025,
+     "t": "The OCH Authenticated Encryption Scheme."
+    },
+    {
+     "y": 2023,
+     "t": "Context Discovery and Commitment Attacks - How to Break CCM, EAX, SIV, and More."
+    }
+   ],
+   "privacy/DP": [
+    {
+     "y": 2022,
+     "t": "Increasing Adversarial Uncertainty to Scale Private Similarity Testing."
+    },
+    {
+     "y": 2022,
+     "t": "Orca: Blocklisting in Sender-Anonymous Messaging."
+    }
+   ]
+  },
+  "crypto_core": "security",
+  "dblp_suspect": false,
+  "suspect_reason": ""
+ }
+}

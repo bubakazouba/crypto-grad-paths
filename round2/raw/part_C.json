@@ -1,0 +1,573 @@
+{
+ "38": {
+  "org": "IDA Center for Communications Research, La Jolla (CCR-L)",
+  "program_name": "SCAMP 2027 (summer research associate @ CCRL)",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "US citizenship is required for all applicants.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Mostly PhDs; grad students considered",
+    "quote": "Most SCAMP participants have a PhD in mathematics, statistics, computer science, or a related field. Graduate students and exceptional undergraduates in such fields will also be considered.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Clearance (IDA-sponsored)",
+    "quote": "Employment is contingent on obtaining an appropriate security clearance (which we will sponsor).",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "2027 start unlikely (clearance)",
+    "quote": "The earliest possible SCAMP for applicants in this cycle is SCAMP 2027, but later start dates are more likely.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Not for professional cryptographers",
+    "quote": "we typically do not accept SCAMP applicants whose main occupation is cryptography.",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Participants 'work full time for 10 weeks on a few projects side-by-side with our research staff', mostly PhD mathematicians doing classified cryptologic math. They are respected mathematicians, but because the work is classified a letter cannot say much about it. Medium value.",
+  "letter_value_url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+  "event_type": "research-program",
+  "corrections": [
+   {
+    "field": "letters_of_recommendation",
+    "old": "Three references required (names); letters of recommendation not required",
+    "new": "Three references who can speak to research contributions, OR letters (letters optional)",
+    "url": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+    "quote": "References: Provide three references who can speak knowledgeably about your research contributions or letters of recommendation. Note that you are not required to submit letters of recommendation."
+   }
+  ]
+ },
+ "39": {
+  "org": "IDA Center for Communications Research, Princeton (CCR-P)",
+  "program_name": "Summer Associate - SCAMP 2027-28 (CCRP)",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "U.S. citizenship is required.",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Mostly PhD holders/students; no fixed background",
+    "quote": "Most SCAMP participants hold or are pursuing a Ph.D. in one of the fields mentioned above, but we do not require any particular academic background. Exceptional undergraduates will also be considered.",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Background check + polygraph",
+    "quote": "Employment is contingent upon successful completion of a security background investigation and polygraph (which we sponsor).",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Visitors work with CCRP research staff and NSA visitors on cryptology ('The conference concentrates on a problem area in cryptology. Some 20-25 academic mathematicians are invited'). They are strong mathematicians, but the work is classified and does not appear at theory-crypto venues. Medium value.",
+  "letter_value_url": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+  "event_type": "research-program",
+  "corrections": [
+   {
+    "field": "url",
+    "old": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+    "new": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "quote": "Position ID: IDA-CCRPSCAMP [#27107] Position Title: Adjunct Research Staff Member or Summer Associate ... Position Location: Princeton, New Jersey"
+   },
+   {
+    "field": "deadline_summer_2027",
+    "old": "(no official deadline found)",
+    "new": "No deadline; rolling ('applicants long-listed'); apply ASAP due to clearance",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "quote": "Appl Deadline: none ( applicants long-listed posted 2026/09/23 ...) ... Due to the lengthy clearance process, please apply as soon as possible"
+   },
+   {
+    "field": "letters_of_recommendation",
+    "old": "not stated",
+    "new": "Names of two references; letters not required",
+    "url": "https://www.mathjobs.org/jobs/IDA/CCRPSCAMP",
+    "quote": "the names of two references (you do not have to send recommendation letters)"
+   }
+  ]
+ },
+ "40": {
+  "org": "National Security Agency (NSA)",
+  "program_name": "Graduate Mathematics Program (GMP) - Summer 2027",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Must be a U.S. Citizen",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled in degree program",
+    "quote": "Must be enrolled in a degree-seeking program (undergraduate, graduate, doctorate) at time of application",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0 preferred",
+    "quote": "Preferred cumulative GPA of 3.0 or higher",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI + full-scope polygraph",
+    "quote": "Must be eligible to be granted a TS/SCI security clearance after successfully completing a background investigation, a Full-scope Polygraph and a Psychological Evaluation",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Summer 2027 cycle closed 9/5/26",
+    "quote": "Open date: 08/15/2026 Closed date: 09/05/2026",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Math grad program (older flyer)",
+    "quote": "[from row; older reproduced NSA flyer, not re-verified on a live NSA page] currently enrolled in a mathematics graduate program",
+    "url": "https://www.math.ucdavis.edu/~saito/nsa-grad.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "NSA mission work is classified. Mentors are NSA mathematicians who rarely publish at CRYPTO/EUROCRYPT/TCC/STOC/FOCS and cannot describe the work in detail. The Handshake ad says mathematicians 'draw from ... number theory, abstract algebra, graph theory, combinatorics' on problems in 'mathematics, cryptology'. A government math-researcher letter rates medium for a theory-crypto PhD.",
+  "letter_value_url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "41": {
+  "org": "National Security Agency (NSA)",
+  "program_name": "Cryptanalysis and Signals Analysis Summer Program (CASASP) - Summer 2027",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Must be a U.S. Citizen",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled in degree program",
+    "quote": "Must be enrolled in a degree-seeking program (undergraduate, graduate, doctorate) at time of application",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0 preferred",
+    "quote": "Preferred cumulative GPA of 3.0 or higher",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI + full-scope polygraph",
+    "quote": "Must be eligible to be granted a TS/SCI security clearance after successfully completing a background investigation, a Full-scope Polygraph and a Psychological Evaluation",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Summer 2027 cycle closed 9/5/26",
+    "quote": "Open date: 08/15/2026 Closed date: 09/05/2026",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Historically undergrad-only (2019)",
+    "quote": "[from row; 2019 Handshake listing, not re-verified] Must be an undergraduate student, preferably majoring in mathematics or computer science",
+    "url": "https://middlebury.joinhandshake.com/jobs/3056308/share_preview",
+    "risk_for_him": "risk"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "NSA mission work is classified. Mentors are NSA mathematicians who rarely publish at CRYPTO/EUROCRYPT/TCC/STOC/FOCS and cannot describe the work in detail. The Handshake ad says mathematicians 'draw from ... number theory, abstract algebra, graph theory, combinatorics' on problems in 'mathematics, cryptology'. A government math-researcher letter rates medium for a theory-crypto PhD.",
+  "letter_value_url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "42": {
+  "org": "National Security Agency (NSA)",
+  "program_name": "Science of Security (SoS) Summer Program - Summer 2027",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Must be a U.S. Citizen",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled in degree program",
+    "quote": "Must be enrolled in a degree-seeking program (undergraduate, graduate, doctorate) at time of application",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0 preferred",
+    "quote": "Preferred cumulative GPA of 3.0 or higher",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI + full-scope polygraph",
+    "quote": "Must be eligible to be granted a TS/SCI security clearance after successfully completing a background investigation, a Full-scope Polygraph and a Psychological Evaluation",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Summer 2027 cycle closed 9/5/26",
+    "quote": "Open date: 08/15/2026 Closed date: 09/05/2026",
+    "url": "https://www.usajobs.gov/job/880807100",
+    "risk_for_him": "blocks"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "The 2027 announcement lists it by name only ('NSA Summer 2027 Internship Program - Science of Security - Entry - Maryland'). There is no public description of mentors or crypto content, and the work is classified. Low value.",
+  "letter_value_url": "https://www.usajobs.gov/job/880807100",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "43": {
+  "org": "National Security Agency (NSA)",
+  "program_name": "Director's Summer Program (DSP)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Undergrads only",
+    "quote": "[from row; 2019 Handshake listing, not re-verified] Must be an undergraduate student, preferably majoring in mathematics or computer science",
+    "url": "https://middlebury.joinhandshake.com/jobs/3056308/share_preview",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "Be a U.S. citizen;",
+    "url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "TS/SCI/TK + polygraph",
+    "quote": "Be eligible to be granted a TS/SCI/TK security clearance after successfully completing a background investigation that includes passing a Full-Scope Polygraph and a Psychological Evaluation",
+    "url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "NSA mission work is classified. Mentors are NSA mathematicians who rarely publish at CRYPTO/EUROCRYPT/TCC/STOC/FOCS and cannot describe the work in detail. The Handshake ad says mathematicians 'draw from ... number theory, abstract algebra, graph theory, combinatorics' on problems in 'mathematics, cryptology'. A government math-researcher letter rates medium for a theory-crypto PhD.",
+  "letter_value_url": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "44": {
+  "org": "Los Alamos National Laboratory (LANL)",
+  "program_name": "Cybersecurity Science Research Program (CSRP) 2027 (Cyber Fire research school)",
+  "gates": [
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.2 (grad)",
+    "quote": "Must have and maintain a cumulative GPA, on a 4-point scale: 3.0 (undergrad), 3.2 (graduate)",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "citizenship",
+    "label": "Q-clearance eligible (US citizen)",
+    "quote": "we require basic eligibility for a DOE Q clearance to qualify: To obtain a clearance, an individual must be at least 18 years of age; U.S. citizenship is required except in very limited circumstances.",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Undergrad/grad; CS/Eng/Stats/Math",
+    "quote": "Any level of undergraduate and graduate students in Computer Science, Engineering, Statistics, Mathematics, or a related field.",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "There is an 'Advanced Cryptography' topic, and students are 'paired with a mentor, who are leading scientists in their fields'. Past projects include 'Zero-Knowledge Proofs For (Some) Probabilistic Computations Using Quasi-Randomness [Paper]'. These are crypto researchers, but at a national lab that emphasizes proof-of-concept tooling, not CRYPTO/TCC theorists. Medium value.",
+  "letter_value_url": "https://cyberfire.energy.gov/school/2027/research/",
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "eligibility",
+    "old": "\"Any level of undergraduate and graduate students in Computer Science, Engineering, Statistics\" (and related)",
+    "new": "Mathematics is explicitly listed",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "quote": "Any level of undergraduate and graduate students in Computer Science, Engineering, Statistics, Mathematics, or a related field."
+   },
+   {
+    "field": "deadline_summer_2027",
+    "old": "(rolling)",
+    "new": "Applications Sep 13, 2026 - Jan 31, 2027, rolling review",
+    "url": "https://cyberfire.energy.gov/school/2027/research/",
+    "quote": "Applications will be accepted September 13, 2026 – January 31, 2027 or until all positions have been filled, whichever comes first."
+   }
+  ]
+ },
+ "46": {
+  "org": "Los Alamos National Laboratory (LANL)",
+  "program_name": "Graduate Research Assistant (GRA) program",
+  "gates": [
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.2 cumulative",
+    "quote": "Must currently have and maintain a cumulative GPA of at least 3.2 on a 4.0 scale (or equivalent).",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "enrollment",
+    "label": "Enrolled grad, ≥6 credit hrs",
+    "quote": "Currently enrolled in an accredited graduate program. ● Must be enrolled in at least 6 semester credit hours (or full-time equivalent) in an accredited degree program (or international equivalent).",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Drug test",
+    "quote": "Pass a new employment drug test",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "GRA is LANL's general grad-student hiring channel ('appointments in both technical and professional fields'). The mentor depends on the hiring group, and nothing ties it to cryptography. Low value unless he is placed in a crypto group that publishes.",
+  "letter_value_url": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php",
+  "event_type": "internship",
+  "corrections": [
+   {
+    "field": "notes",
+    "old": "3.2 GPA only from CareerBuilder/third-party guides, not verified",
+    "new": "3.2 cumulative GPA is stated in LANL's official GRA applicant guide PDF",
+    "url": "https://cdn.lanl.gov/files/gra-internship-applicant-guide_20ed7.pdf",
+    "quote": "Must currently have and maintain a cumulative GPA of at least 3.2 on a 4.0 scale (or equivalent)."
+   }
+  ]
+ },
+ "51": {
+  "org": "Idaho National Laboratory (INL)",
+  "program_name": "Computer/Cyber Security Researcher Internship (summer)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Full-time student",
+    "quote": "University freshman-senior, Masters degree, or PhD seeking student enrolled full time at an accredited college/university",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "degree_field",
+    "label": "Fields incl. CS/Math",
+    "quote": "studying Computer Science, Computer Engineering, Cybersecurity, Cyber Operations, Mathematics, Electrical Engineering, or a closely related degree",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0",
+    "quote": "A minimum overall 3.0 GPA",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "citizenship",
+    "label": "DOE L/Q clearance (US citizen)",
+    "quote": "This position may require the ability to obtain and maintain and Department of Energy \"L\" or \"Q\" clearance, which requires US Citizenship.",
+    "url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "This is an ICS/infrastructure cyber lab internship, not a crypto research group. Quotes come from the DiversityJobs mirror of the 2026 BEA posting: career.com is behind a captcha and no official INL page was found. Low value.",
+  "letter_value_url": "https://devroot.diversityjobs.com/career/838100/Cyber-Security-Researcher-Internship-Summer-2026-Idaho-Idaho-Falls",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "53": {
+  "org": "MIT Lincoln Laboratory",
+  "program_name": "Summer Research Program (SRP) - Group 05-53 Secure Resilient Systems and Technology (applied cryptography)",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Past sophomore / MS / PhD",
+    "quote": "students must have at least completed their sophomore year of college or be enrolled in a master's or doctoral program.",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "citizenship",
+    "label": "US citizen",
+    "quote": "In addition, students must have maintained an excellent academic record and be a U.S. citizen.",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "\"Excellent academic record\" (no number)",
+    "quote": "students must have maintained an excellent academic record",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Secret clearance (2026 group posting)",
+    "quote": "[from row; 2026 Group 05-53 posting, not re-verified] must obtain a Secret DoD clearance",
+    "url": "https://www.ll.mit.edu/careers/summer-research.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Group 05-53 does applied crypto ('High-Assurance Cryptography: Lincoln Laboratory is developing technologies to meet the highest standards for information security at the tactical edge'). These are crypto researchers at a systems-oriented FFRDC, not theory-venue authors. Medium value.",
+  "letter_value_url": "https://www.ll.mit.edu/r-d/cyber-security-and-information-sciences/secure-resilient-systems-and-technology",
+  "event_type": "internship",
+  "corrections": []
+ },
+ "60": {
+  "org": "U.S. Department of Defense (Department of War)",
+  "program_name": "SMART Scholarship-for-Service (includes summer internships at DoD labs)",
+  "gates": [
+   {
+    "kind": "citizenship",
+    "label": "US/AUS/CAN/NZ/UK citizen",
+    "quote": "Be a citizen of the United States, Australia, Canada, New Zealand, or United Kingdom",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "gpa",
+    "label": "GPA ≥3.0",
+    "quote": "Have and maintain a cumulative GPA of 3.0 on a 4.0 scale",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "age",
+    "label": "18+ by Jan 1 2028",
+    "quote": "Be 18 years of age or older by January 1, 2028",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "enrollment",
+    "label": "In school Fall 2027; funding from Aug 2027",
+    "quote": "Be currently pursuing, or intend to pursue, education in Fall 2027* ... Be requesting between 1-5 years of degree funding (funding begins August 2027)",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "service",
+    "label": "1 yr DoW service per yr funded",
+    "quote": "Awardees commit to one year of DoW civilian employment at their Sponsoring Facility for every year of SMART-sponsored degree funding.",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "risk"
+   },
+   {
+    "kind": "other",
+    "label": "Summer internships if award >1.5 yr",
+    "quote": "Complete summer internships for awards greater than 1.5 years",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "Security clearance",
+    "quote": "Able to obtain and maintain a security clearance**",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "risk_for_him": "ok"
+   },
+   {
+    "kind": "other",
+    "label": "≥2 references (up to 3)",
+    "quote": "At least two completed references are required. Applicants may enter up to three references.",
+    "url": "https://www.smartscholarship.org/smart/en?id=kb_article&sys_id=84f05b02db5ac3006bb8f4b40f9619cc",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "low",
+  "letter_value_reason": "Internships and service take place at one of 'over 150 Department of War facilities' focused on 'artificial intelligence, biotechnology, autonomy, space, 5G'. Mentors are DoD lab staff, not academic crypto theorists. It is a scholarship-for-service, not a research internship. Low value.",
+  "letter_value_url": "https://www.smartscholarship.org/smart",
+  "event_type": "scholarship",
+  "corrections": [
+   {
+    "field": "eligibility",
+    "old": "Citizenship requirement per aggregator sources (permanent residents not eligible)",
+    "new": "Official: citizen of US/Australia/Canada/NZ/UK; permanent residents not eligible",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "quote": "Be a citizen of the United States, Australia, Canada, New Zealand, or United Kingdom"
+   },
+   {
+    "field": "letters_of_recommendation",
+    "old": "References required; count not verified (task brief said 3 letters)",
+    "new": "At least 2 references required, up to 3",
+    "url": "https://www.smartscholarship.org/smart/en?id=kb_article&sys_id=84f05b02db5ac3006bb8f4b40f9619cc",
+    "quote": "At least two completed references are required. Applicants may enter up to three references."
+   },
+   {
+    "field": "notes",
+    "old": "service commitment equal to scholarship length (details not fetched)",
+    "new": "One year of DoW civilian employment per year of degree funding (one-for-one)",
+    "url": "https://www.smartscholarship.org/smart/en?id=smart_eligibility",
+    "quote": "Accept a one-for-one post graduation service commitment as a civilian employee of the Department of War"
+   }
+  ]
+ },
+ "75": {
+  "org": "Carnegie Mellon University (S3D / CyLab)",
+  "program_name": "Security and Privacy Undergraduate Research (SPUR) Scholars",
+  "gates": [
+   {
+    "kind": "enrollment",
+    "label": "Full-time undergrads only",
+    "quote": "Applications for SPUR are open to U.S. citizens, nationals, and permanent residents who are currently enrolled as full-time undergraduates.",
+    "url": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+    "risk_for_him": "blocks"
+   },
+   {
+    "kind": "citizenship",
+    "label": "US citizen/national/PR",
+    "quote": "open to U.S. citizens, nationals, and permanent residents",
+    "url": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+    "risk_for_him": "ok"
+   }
+  ],
+  "letter_value": "medium",
+  "letter_value_reason": "Each student gets a faculty mentor; project areas are 'hardware security, usable privacy and security, software testing, program analysis, cryptography, and verification'. The program is run by S3D (software engineering), so a theory-crypto mentor is not assured. Moot, since he is ineligible.",
+  "letter_value_url": "https://cylab.cmu.edu/news/2026/01/23-spur.html",
+  "event_type": "research-program",
+  "corrections": []
+ }
+}

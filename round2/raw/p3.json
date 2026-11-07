@@ -1,0 +1,80 @@
+{
+ "18": {
+  "school": "Arizona State (Tempe)",
+  "coa_year": "unlabeled (page year filter includes 2026-2027)",
+  "months": null,
+  "living_usd": 31476,
+  "fees_usd": 1307,
+  "health_usd": null,
+  "url": "https://tuition.asu.edu/cost-calculator/standard-costs",
+  "quote": "Arizona resident graduate student: Base Tuition $13,327; Tuition Surcharge $350; Advanced Technology fee $200; Student Initiated Fees $807; Graduate Student Support Fees $300; Books, course materials, supplies, and equipment $1,908; Housing and food $21,087; Transportation $3,696; Personal $4,785; Health insurance N/A; Estimated Total $47,265 (via WebFetch summary)",
+  "basis": "21087 housing+food + 3696 transport + 4785 personal + 1908 books = 31476; fees 200+807+300 = 1307 (loan fees $804 excluded)",
+  "fees_included_in_tuition": false,
+  "note": "Page does not label year or months or housing assumption; table labeled Arizona resident graduate; tuition based on 9 credits. Living costs likely same for nonresidents but not shown. Fees listed separately from tuition."
+ },
+ "19": {
+  "school": "Brown (Graduate School, master's standard tuition)",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 31977,
+  "fees_usd": 1496,
+  "health_usd": 5283,
+  "url": "https://gradfunding.brown.edu/cost-attendance-program",
+  "quote": "Master's Programs with Standard Tuition: Housing and food $26,667; Books, course materials, supplies, and equipment $1,080; Misc. personal expenses $3,222; Transportation $1,008 (annual 2026-27). Fees/insurance from https://sfs.brown.edu/tuition-and-fees/graduate: Graduate Student Activities Fee $90, Student Recreation Fee $110, Health Services Fee $1,296; Annual health insurance $5,283",
+  "basis": "26667+1080+3222+1008 = 31977; fees 90+110+1296 = 1496 (plus one-time $100 academic record fee for new students)",
+  "fees_included_in_tuition": false,
+  "note": "Budget period months not stated (fall+spring). Health Services Fee is separate from the insurance premium. Tuition per course $9,320 standard (CS $10,977)."
+ },
+ "20": {
+  "school": "Georgetown (College of Arts & Sciences / GSAS-type budget)",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 30110,
+  "fees_usd": null,
+  "health_usd": null,
+  "url": "https://finaid.georgetown.edu/graduate/aid-by-program/2026-27-graduate-program-cost-of-attendance/",
+  "quote": "College of Arts and Sciences & Walsh School of Foreign Service: Average Housing & Food $22,320; Average Personal $4,890; Average Books & Supplies $1,300; Average Transportation $1,600; Federal Direct Loan Fees $60; Indirect Subtotal $30,170; Tuition & Mandatory Fees (direct) $71,031 at 24 credits (via WebFetch summary)",
+  "basis": "22320+4890+1300+1600 = 30110 (indirect subtotal 30170 minus $60 loan fee)",
+  "fees_included_in_tuition": true,
+  "note": "Mandatory fees (graduate activity fee, health insurance charge if 8+ credits) are bundled into the 'Tuition & Mandatory Fees' line, not separable; health insurance not separately listed. Months not stated; $2,758 per credit. Page is organized by program group; the A&S/SFS section used."
+ },
+ "21": {
+  "school": "MIT (graduate)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 36729,
+  "fees_usd": 420,
+  "health_usd": 5148,
+  "url": "https://sfs.mit.edu/graduate-students/cost-of-attendance/",
+  "quote": "9-month: Tuition $66,720; Fees $420; Health insurance $5,148; Housing $17,100; Food $7,830; Books, course materials, supplies & equipment $1,161; Personal $7,794; Transportation $2,844; Total $109,017 (12-month total $144,315) (via WebFetch of sfs.mit.edu/graduate-financial-aid, which cites that page)",
+  "basis": "17100+7830+1161+7794+2844 = 36729 (9 months)",
+  "fees_included_in_tuition": false,
+  "note": "Health insurance included only if enrolled in MIT SHIP. 12-month living would be 48,972. Sloan and some programs have own tuition. First-year $2,400 computer allowance noted elsewhere."
+ },
+ "22": {
+  "school": "Oregon State (Corvallis)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 22554,
+  "fees_usd": 0,
+  "health_usd": null,
+  "url": "https://financialaid.oregonstate.edu/cost-attendance",
+  "quote": "Corvallis Campus, Estimated Resident Graduate Costs (11 credits/term), 2026-27 3 terms: Tuition and Fees $17,391; Living Expenses (Food and Housing) $18,066; Books, Course Materials, Supplies, and Equipment $600; Personal and Miscellaneous $2,958; Transportation $930; Estimated TOTAL $39,945 (via WebFetch summary)",
+  "basis": "18066+600+2958+930 = 22554 for 3 terms (fall/winter/spring)",
+  "fees_included_in_tuition": true,
+  "note": "Fees are bundled in 'Tuition and Fees' $17,391 so fees_usd=0 means none beyond that line. Months = 3 quarters (approx 9 months), not stated explicitly. Health insurance not listed. Nonresident same living lines; total $59,394."
+ },
+ "23": {
+  "school": "Princeton (Graduate School)",
+  "coa_year": "2026-27",
+  "months": 12,
+  "living_usd": 39770,
+  "fees_usd": null,
+  "health_usd": 4220,
+  "url": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+  "quote": "Via WebSearch summary of the page (page returned 403 to fetch, Cloudflare blocked): cost of attendance $109,200 for 12 months = tuition $65,210 + student health plan fee $4,220 + estimated cost of living $39,770; housing $17,040, food $10,925, personal $9,365, books and supplies $2,440",
+  "basis": "17040+10925+9365+2440 = 39770 (12 months; no separate transportation line, covered in personal)",
+  "fees_included_in_tuition": null,
+  "note": "NOT directly verified: official page blocked fetch (403/Cloudflare); figures come from search-engine summary of the official page, re-check manually. Master's students pay tuition by enrollment status; no separate mandatory fees line found. Health plan fee $4,220 also cited on gradschool.princeton.edu/node/4371 per search."
+ }
+}

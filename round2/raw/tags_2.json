@@ -1,0 +1,188 @@
+{
+"Brown University|Peihan Miao": {"research_tags": ["MPC", "PIR", "signatures/PKE"], "evidence": {
+  "MPC": [{"y": 2026, "t": "Updatable Private Set Intersection from Symmetric-Key Techniques."}, {"y": 2023, "t": "On the Round Complexity of Fully Secure Solitary MPC with Honest Majority."}],
+  "PIR": [{"y": 2026, "t": "Multi-server Doubly Efficient PIR in the Classical Model and Beyond."}, {"y": 2025, "t": "Finding Balance in Unbalanced PSI: A New Construction from Single-Server PIR."}],
+  "signatures/PKE": [{"y": 2023, "t": "Unidirectional Updatable Encryption and Proxy Re-encryption from DDH."}, {"y": 2024, "t": "Laconic Branching Programs from the Diffie-Hellman Assumption."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Georgetown University|Muthuramakrishnan Venkitasubramaniam": {"research_tags": ["ZK", "MPC", "garbling", "lower bounds", "foundations"], "evidence": {
+  "ZK": [{"y": 2024, "t": "Tight ZK CPU: Batched ZK Branching with Cost Proportional to Evaluated Instruction."}, {"y": 2023, "t": "Beyond MPC-in-the-Head: Black-Box Constructions of Short Zero-Knowledge Proofs."}],
+  "MPC": [{"y": 2024, "t": "Can Alice and Bob Guarantee Output to Carol?"}, {"y": 2022, "t": "Adaptively Secure Computation for RAM Programs."}],
+  "garbling": [{"y": 2023, "t": "Actively Secure Garbled Circuits with Constant Communication Overhead in the Plain Model."}, {"y": 2022, "t": "Equivocating Yao: Constant-Round Adaptively Secure Multiparty Computation in the Plain Model."}],
+  "lower bounds": [{"y": 2026, "t": "Lower Bounds on Black-Box Constructions of Pseudorandom Functions."}],
+  "foundations": [{"y": 2026, "t": "Lower Bounds on Black-Box Constructions of Pseudorandom Functions."}, {"y": 2021, "t": "Guest Column: Average-case Complexity Through the Lens of Interactive Puzzles."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Georgetown University|Justin Thaler": {"research_tags": ["ZK", "non-crypto theory", "memory checking", "lower bounds", "privacy/DP"], "evidence": {
+  "ZK": [{"y": 2024, "t": "Jolt: SNARKs for Virtual Machines via Lookups."}, {"y": 2023, "t": "Brakedown: Linear-Time and Field-Agnostic SNARKs for R1CS."}],
+  "non-crypto theory": [{"y": 2021, "t": "Relative Error Streaming Quantiles."}, {"y": 2021, "t": "The Large-Error Approximate Degree of AC0."}],
+  "memory checking": [{"y": 2026, "t": "Twist and Shout: Faster Memory Checking Arguments via One-Hot Addressing and Increments."}],
+  "lower bounds": [{"y": 2026, "t": "SNARK Lower Bounds via Communication Complexity."}],
+  "privacy/DP": [{"y": 2022, "t": "Order-Invariant Cardinality Estimators Are Differentially Private."}, {"y": 2022, "t": "(Nearly) All Cardinality Estimators Are Differentially Private."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Massachusetts Institute of Technology|Vinod Vaikuntanathan": {"research_tags": ["lattices/PQC", "quantum crypto", "ZK", "FHE", "obfuscation", "PIR"], "evidence": {
+  "lattices/PQC": [{"y": 2025, "t": "Simple and General Counterexamples for Private-Coin Evasive LWE."}, {"y": 2022, "t": "Continuous LWE is as Hard as LWE & Applications to Learning Gaussian Mixtures."}],
+  "quantum crypto": [{"y": 2026, "t": "Uncloneable Cryptography in Linear Quantum Memory."}, {"y": 2024, "t": "How to Construct Quantum FHE, Generically."}],
+  "ZK": [{"y": 2024, "t": "SNARGs under LWE via Propositional Proofs."}, {"y": 2024, "t": "Adaptively Sound Zero-Knowledge SNARKs for UP."}],
+  "FHE": [{"y": 2025, "t": "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN."}, {"y": 2023, "t": "FAB: An FPGA-based Accelerator for Bootstrappable Fully Homomorphic Encryption."}],
+  "obfuscation": [{"y": 2025, "t": "Pseudorandom Obfuscation and Applications."}, {"y": 2025, "t": "Indistinguishability Obfuscation from Bilinear Maps and LPN Variants."}],
+  "PIR": [{"y": 2023, "t": "One Server for the Price of Two: Simple and Fast Single-Server Private Information Retrieval."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Massachusetts Institute of Technology|Yael Tauman Kalai": {"research_tags": ["ZK", "non-crypto theory", "quantum crypto", "PIR", "lower bounds"], "evidence": {
+  "ZK": [{"y": 2026, "t": "SNARGs for NP and Non-signaling PCPs, Revisited."}, {"y": 2025, "t": "Universal SNARGs for NP from Proofs of Correctness."}],
+  "non-crypto theory": [{"y": 2022, "t": "Circuits resilient to short-circuit errors."}, {"y": 2023, "t": "Interactive Coding with Small Memory."}],
+  "quantum crypto": [{"y": 2025, "t": "Classical Commitments to Quantum States."}, {"y": 2022, "t": "Succinct Classical Verification of Quantum Computation."}],
+  "PIR": [{"y": 2022, "t": "Verifiable Private Information Retrieval."}],
+  "lower bounds": [{"y": 2021, "t": "A Lower Bound for Adaptively-Secure Collective Coin Flipping Protocols."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Oregon State University|Jiayu Xu": {"research_tags": ["signatures/PKE", "MPC", "foundations", "oblivious algorithms"], "evidence": {
+  "signatures/PKE": [{"y": 2025, "t": "Password-Protected Threshold Signatures."}, {"y": 2022, "t": "The Abe-Okamoto Partially Blind Signature Scheme Revisited."}],
+  "MPC": [{"y": 2026, "t": "Conditionally Input-Revealing 2PC and Fuzzy Password-Authenticated Key Exchange."}, {"y": 2022, "t": "How to Obfuscate MPC Inputs."}],
+  "foundations": [{"y": 2024, "t": "A Complete Characterization of One-More Assumptions In the Algebraic Group Model."}, {"y": 2021, "t": "Algebraic Adversaries in the Universal Composability Framework."}],
+  "oblivious algorithms": [{"y": 2022, "t": "Spreading the Privacy Blanket: - Differentially Oblivious Shuffling for Differential Privacy."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Oregon State University|Mike Rosulek": {"research_tags": ["MPC", "garbling", "signatures/PKE", "lower bounds"], "evidence": {
+  "MPC": [{"y": 2022, "t": "Structure-Aware Private Set Intersection, with Applications to Fuzzy Matching."}, {"y": 2021, "t": "Oblivious Key-Value Stores and Amplification for Private Set Intersection."}],
+  "garbling": [{"y": 2021, "t": "Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits."}, {"y": 2026, "t": "gcVM: Publicly Auditable MPC via Garbled Circuits with Applications to Private EVM-Compatible Computation."}],
+  "signatures/PKE": [{"y": 2025, "t": "How to Tolerate Typos in Strong Asymmetric PAKE."}, {"y": 2026, "t": "Conditionally Input-Revealing 2PC and Fuzzy Password-Authenticated Key Exchange."}],
+  "lower bounds": [{"y": 2025, "t": "Lower Bounds for Garbled Circuits from Shannon-Type Information Inequalities."}, {"y": 2025, "t": "Minicrypt PRFs Do Not Admit Black-Box Oblivious Evaluations."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Princeton University|Alex Lombardi": {"research_tags": ["ZK", "quantum crypto", "foundations", "lattices/PQC", "lower bounds"], "evidence": {
+  "ZK": [{"y": 2026, "t": "SNARGs for NP and Non-signaling PCPs, Revisited."}, {"y": 2021, "t": "Fiat-Shamir via list-recoverable codes (or: parallel repetition of GMW is not zero-knowledge)."}],
+  "quantum crypto": [{"y": 2022, "t": "Post-Quantum Zero Knowledge, Revisited or: How to Do Quantum Rewinding Undetectably."}, {"y": 2026, "t": "Quantum Lazy Sampling and Path Recording for Any Group."}],
+  "foundations": [{"y": 2025, "t": "Cryptography Meets Worst-case Complexity: Optimal Security and More From iO and Worst-case Assumptions."}, {"y": 2022, "t": "PPAD is as Hard as LWE and Iterated Squaring."}],
+  "lattices/PQC": [{"y": 2022, "t": "Post-quantum Insecurity from LWE."}, {"y": 2024, "t": "SNARGs under LWE via Propositional Proofs."}],
+  "lower bounds": [{"y": 2024, "t": "A One-Query Lower Bound for Unitary Synthesis and Breaking Quantum Cryptography."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Princeton University|Jonathan R. Mayer": {"research_tags": ["applied/systems", "MPC"], "evidence": {
+  "applied/systems": [{"y": 2023, "t": "SoK: Content Moderation for End-to-End Encryption."}, {"y": 2025, "t": "WireWatch: Measuring the Security of Proprietary Network Encryption in the Global Android Ecosystem."}],
+  "MPC": [{"y": 2022, "t": "Estimating Incidental Collection in Foreign Intelligence Surveillance: Large-Scale Multiparty Private Set Intersection with Union and Sum."}, {"y": 2021, "t": "Identifying Harmful Media in End-to-End Encrypted Communication: Efficient Private Membership Computation."}]},
+  "crypto_core": "adjacent", "dblp_suspect": false, "suspect_reason": ""},
+"Stony Brook University|Omkant Pandey": {"research_tags": ["quantum crypto", "ZK", "MPC", "foundations"], "evidence": {
+  "quantum crypto": [{"y": 2026, "t": "Round-Efficient Composable Two-Party Quantum Computation."}, {"y": 2023, "t": "A New Approach to Post-Quantum Non-Malleability."}],
+  "ZK": [{"y": 2022, "t": "A New Approach to Efficient Non-Malleable Zero-Knowledge."}, {"y": 2021, "t": "Towards a Unified Approach to Black-Box Constructions of Zero-Knowledge Proofs."}],
+  "MPC": [{"y": 2025, "t": "The Round Complexity of Black-Box Post-quantum Secure Computation."}, {"y": 2026, "t": "Round-Efficient Composable Two-Party Quantum Computation."}],
+  "foundations": [{"y": 2026, "t": "Almost-Total Puzzles and Their Applications."}, {"y": 2023, "t": "A New Approach to Post-Quantum Non-Malleability."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Stony Brook University|Xin Wang": {"research_tags": ["foundations"], "evidence": {
+  "foundations": [{"y": 2026, "t": "Hashing in Generic Groups: Completing the AGM-to-GGM Transfer."}, {"y": 2025, "t": "On the Complexity of Cryptographic Groups and Generic Group Models."}]},
+  "crypto_core": "core", "dblp_suspect": true, "suspect_reason": "dblp pid 10/5630-1 merges ~100 networking/CV/ML papers (INFOCOM, CVPR, IoT) with only 3 generic-group-model crypto papers (ASIACRYPT/PKC); crypto_core reflects the crypto subset only."},
+"Texas A&M University|Juan A. Garay": {"research_tags": ["blockchain/consensus", "MPC", "quantum crypto"], "evidence": {
+  "blockchain/consensus": [{"y": 2026, "t": "Permissionless Consensus from a Common Random String."}, {"y": 2024, "t": "Proof-of-Work-Based Consensus in Expected-Constant Time."}],
+  "MPC": [{"y": 2026, "t": "Is It Even Possible? On the Parallel Composition of Asynchronous MPC Protocols."}, {"y": 2025, "t": "Adaptive Security, Erasures, and Network Assumptions in Communication-Local MPC."}],
+  "quantum crypto": [{"y": 2026, "t": "NISQ Security and Complexity via Simple Classical Reasoning."}, {"y": 2025, "t": "Improved Quantum Lifting by Coherent Measure-and-Reprogram."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Texas A&M University|Samson Zhou": {"research_tags": ["non-crypto theory", "privacy/DP", "lower bounds"], "evidence": {
+  "non-crypto theory": [{"y": 2025, "t": "Perfect Lp Sampling with Polylogarithmic Update Time."}, {"y": 2023, "t": "Streaming Euclidean k-median and k-means with o(log n) Space."}],
+  "privacy/DP": [{"y": 2024, "t": "Private Vector Mean Estimation in the Shuffle Model: Optimal Rates Require Many Messages."}, {"y": 2023, "t": "On Differential Privacy and Adaptive Data Analysis with Bounded Space."}],
+  "lower bounds": [{"y": 2024, "t": "Bandwidth-Hard Functions: Reductions and Lower Bounds."}, {"y": 2026, "t": "High Probability Streaming Lower Bounds for F₂ Estimation."}]},
+  "crypto_core": "adjacent", "dblp_suspect": false, "suspect_reason": ""},
+"The University of North Carolina at Chapel Hill|Julia Len": {"research_tags": ["symmetric/hash", "applied/systems"], "evidence": {
+  "symmetric/hash": [{"y": 2026, "t": "Random-Access AEAD for Fast Lightweight Online Encryption."}, {"y": 2023, "t": "Context Discovery and Commitment Attacks - How to Break CCM, EAX, SIV, and More."}],
+  "applied/systems": [{"y": 2024, "t": "OPTIKS: An Optimized Key Transparency System."}, {"y": 2022, "t": "Orca: Blocklisting in Sender-Anonymous Messaging."}]},
+  "crypto_core": "security", "dblp_suspect": false, "suspect_reason": ""},
+"The University of North Carolina at Chapel Hill|Saba Eskandarian": {"research_tags": ["applied/systems", "MPC"], "evidence": {
+  "applied/systems": [{"y": 2025, "t": "Onion Franking: Abuse Reports for Mix-Based Private Messaging."}, {"y": 2024, "t": "Abuse Reporting for Metadata-Hiding Communication Based on Secret Sharing."}],
+  "MPC": [{"y": 2022, "t": "Clarion: Anonymous Communication from Multiparty Shuffling Protocols."}, {"y": 2025, "t": "Silent Splitter: Privacy for Payment Splitting via New Protocols for Distributed Point Functions."}]},
+  "crypto_core": "security", "dblp_suspect": false, "suspect_reason": ""},
+"The University of Texas at Austin|Brent R. Waters": {"research_tags": ["signatures/PKE", "ZK", "obfuscation", "lattices/PQC", "foundations"], "evidence": {
+  "signatures/PKE": [{"y": 2023, "t": "Registered Attribute-Based Encryption."}, {"y": 2026, "t": "Pairing-Based Aggregate Signatures Without Random Oracles."}],
+  "ZK": [{"y": 2026, "t": "From NIZK Arguments to ZAPs, Generically."}, {"y": 2022, "t": "Batch Arguments for sfNP and More from Standard Bilinear Group Assumptions."}],
+  "obfuscation": [{"y": 2024, "t": "Adaptively-Sound Succinct Arguments for NP from Indistinguishability Obfuscation."}, {"y": 2026, "t": "Separating Selective Opening Security from Standard Security, Assuming Indistinguishability Obfuscation."}],
+  "lattices/PQC": [{"y": 2025, "t": "New Techniques for Preimage Sampling: Improved NIZKs and More from LWE."}, {"y": 2022, "t": "Multi-authority ABE from Lattices Without Random Oracles."}],
+  "foundations": [{"y": 2021, "t": "Targeted Lossy Functions and Applications."}, {"y": 2025, "t": "Batch Arguments to NIZKs from One-Way Functions."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"The University of Texas at Austin|David J. Wu": {"research_tags": ["signatures/PKE", "ZK", "lattices/PQC", "PIR", "foundations"], "evidence": {
+  "signatures/PKE": [{"y": 2025, "t": "Registered ABE and Adaptively-Secure Broadcast Encryption from Succinct LWE."}, {"y": 2026, "t": "Threshold Batched Identity-Based Encryption from Pairings in the Plain Model."}],
+  "ZK": [{"y": 2023, "t": "Non-interactive Zero-Knowledge from Non-interactive Batch Arguments."}, {"y": 2024, "t": "Dot-Product Proofs and Their Applications."}],
+  "lattices/PQC": [{"y": 2025, "t": "Distributed Broadcast Encryption from Lattices."}, {"y": 2023, "t": "Succinct Vector, Polynomial, and Functional Commitments from Lattices."}],
+  "PIR": [{"y": 2024, "t": "YPIR: High-Throughput Single-Server PIR with Silent Preprocessing."}, {"y": 2024, "t": "Respire: High-Rate PIR for Databases with Small Records."}],
+  "foundations": [{"y": 2024, "t": "The One-Wayness of Jacobi Signatures."}, {"y": 2026, "t": "The Pseudorandomness of Legendre Symbols Under the Quadratic-Residuosity Assumption."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"University of California, Los Angeles|Rafail Ostrovsky": {"research_tags": ["MPC", "garbling", "ORAM", "ZK", "oblivious algorithms", "lower bounds"], "evidence": {
+  "MPC": [{"y": 2025, "t": "Round-Optimal Black-Box Multiparty Computation from Polynomial-Time Assumptions."}, {"y": 2021, "t": "ATLAS: Efficient and Scalable MPC in the Honest Majority Setting."}],
+  "garbling": [{"y": 2022, "t": "EpiGRAM: Practical Garbled RAM."}, {"y": 2025, "t": "Multiparty Garbling from OT with Linear Scaling and RAM Support."}],
+  "ORAM": [{"y": 2025, "t": "MetaDORAM: Info-Theoretic Distributed ORAM with Less Communication."}, {"y": 2021, "t": "Alibi: A Flaw in Cuckoo-Hashing Based Hierarchical ORAM Schemes and a Solution."}],
+  "ZK": [{"y": 2025, "t": "Zero-Knowledge RAM: Doubly Efficient and Black-Box."}, {"y": 2021, "t": "Line-Point Zero Knowledge and Its Applications."}],
+  "oblivious algorithms": [{"y": 2025, "t": "Linear-Time Secure Merge in O(loglog n) Rounds."}, {"y": 2026, "t": "Linear Secret-Shared Shuffle with Malicious Security."}],
+  "lower bounds": [{"y": 2021, "t": "Lower and Upper Bounds on the Randomness Complexity of Private Computations of AND."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"University of California, Los Angeles|Amit Sahai": {"research_tags": ["obfuscation", "signatures/PKE", "MPC", "lattices/PQC", "foundations", "quantum crypto"], "evidence": {
+  "obfuscation": [{"y": 2021, "t": "Indistinguishability obfuscation from well-founded assumptions."}, {"y": 2022, "t": "Indistinguishability Obfuscation from LPN over $\\mathbb {F}_p$, DLIN, and PRGs in NC0."}],
+  "signatures/PKE": [{"y": 2025, "t": "Using the Planted Clique Conjecture for Cryptography: Public-Key Encryption from Planted Clique and Noisy k-LIN over Expanders."}, {"y": 2023, "t": "Streaming Functional Encryption."}],
+  "MPC": [{"y": 2023, "t": "Round-Optimal Black-Box MPC in the Plain Model."}, {"y": 2021, "t": "On the Round Complexity of Black-Box Secure MPC."}],
+  "lattices/PQC": [{"y": 2025, "t": "Post-quantum PKE from Unstructured Noisy Linear Algebraic Assumptions: Beyond LWE and Alekhnovich's LPN."}, {"y": 2026, "t": "SVPp Is Deterministically NP-Hard for All p > 2, Even to Approximate within a Factor of 2log1-εn."}],
+  "foundations": [{"y": 2023, "t": "Building Hard Problems by Combining Easy Ones."}, {"y": 2023, "t": "Hard Languages in NP ∩ coNP and NIZK Proofs from Unstructured Hardness."}],
+  "quantum crypto": [{"y": 2026, "t": "Unconditional Unclonable Encryption."}, {"y": 2026, "t": "Quantum Advantage via Solving Multivariate Polynomials."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"University of Michigan|Paul Grubbs": {"research_tags": ["applied/systems", "symmetric/hash", "ZK", "signatures/PKE", "ORAM"], "evidence": {
+  "applied/systems": [{"y": 2024, "t": "Zombie: Middleboxes that Don't Snoop."}, {"y": 2026, "t": "STIR/SHAKEN: A Cocktail of Cryptographic Clumsiness."}],
+  "symmetric/hash": [{"y": 2023, "t": "Context Discovery and Commitment Attacks - How to Break CCM, EAX, SIV, and More."}, {"y": 2021, "t": "Partitioning Oracle Attacks."}],
+  "ZK": [{"y": 2023, "t": "Spartan and Bulletproofs are Simulation-Extractable (for Free!)."}, {"y": 2023, "t": "Weak Fiat-Shamir Attacks on Modern Proof Systems."}],
+  "signatures/PKE": [{"y": 2022, "t": "Anonymous, Robust Post-quantum Public Key Encryption."}, {"y": 2026, "t": "StarFortress: Hybrid KEMs with Diffie-Hellman Inlining."}],
+  "ORAM": [{"y": 2022, "t": "Snapshot-Oblivious RAMs: Sub-logarithmic Efficiency for Short Transcripts."}]},
+  "crypto_core": "security", "dblp_suspect": false, "suspect_reason": ""},
+"University of Michigan|Chris Peikert": {"research_tags": ["lattices/PQC", "FHE"], "evidence": {
+  "lattices/PQC": [{"y": 2025, "t": "FrodoKEM: A CCA-Secure Learning With Errors Key Encapsulation Mechanism."}, {"y": 2024, "t": "Algebraically Structured LWE, Revisited."}],
+  "FHE": [{"y": 2026, "t": "High-Precision Exact FHE Made Simple, General, and Fast."}, {"y": 2026, "t": "Vive Galois! Part 1: Optimal SIMD Packing and Packed Bootstrapping for FHE."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"University of Pennsylvania|Pratyush Mishra": {"research_tags": ["ZK", "PIR"], "evidence": {
+  "ZK": [{"y": 2026, "t": "FICS and FACS: Fast IOPPs and Accumulation via Code-Switching."}, {"y": 2025, "t": "Arc: Accumulation for Reed-Solomon Codes."}],
+  "PIR": [{"y": 2025, "t": "Malicious Security for PIR (Almost) for Free."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"University of Pennsylvania|Sebastian Angel": {"research_tags": ["applied/systems", "ZK", "MPC", "PIR"], "evidence": {
+  "applied/systems": [{"y": 2023, "t": "Nimble: Rollback Protection for Confidential Cloud Services."}, {"y": 2022, "t": "Ibex: Privacy-preserving Ad Conversion Tracking and Bidding."}],
+  "ZK": [{"y": 2026, "t": "Coral: Fast Succinct Non-Interactive Zero-Knowledge CFG Proofs."}, {"y": 2024, "t": "Reef: Fast Succinct Non-Interactive Zero-Knowledge Regex Proofs."}],
+  "MPC": [{"y": 2023, "t": "Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning."}, {"y": 2025, "t": "Oryx: Private detection of cycles in federated graphs."}],
+  "PIR": [{"y": 2022, "t": "Incremental Offline/Online PIR."}]},
+  "crypto_core": "adjacent", "dblp_suspect": false, "suspect_reason": ""},
+"University of Southern California|Jiapeng Zhang": {"research_tags": ["non-crypto theory", "lower bounds", "foundations", "ZK"], "evidence": {
+  "non-crypto theory": [{"y": 2024, "t": "A New Information Complexity Measure for Multi-pass Streaming with Applications."}, {"y": 2022, "t": "Lifting with Sunflowers."}],
+  "lower bounds": [{"y": 2023, "t": "Communication Lower Bounds of Key-Agreement Protocols via Density Increment Arguments."}, {"y": 2026, "t": "Black-Box Separation Between Multi-Collision Resistance and Collision Resistance."}],
+  "foundations": [{"y": 2021, "t": "Simple Constructions from (Almost) Regular One-Way Functions."}, {"y": 2023, "t": "Non-adaptive Universal One-Way Hash Functions from Arbitrary One-Way Functions."}],
+  "ZK": [{"y": 2026, "t": "Hachi: Efficient Lattice-Based Multilinear Polynomial Commitments over Extension Fields."}, {"y": 2026, "t": "Practical SNARGs for Matrix Multiplications over Encrypted Data."}]},
+  "crypto_core": "adjacent", "dblp_suspect": true, "suspect_reason": "pid 38/9461 mixes TCS/crypto (lifting, communication lower bounds, OWFs) with many unrelated medical-imaging, visual-tracking, antenna and manufacturing-scheduling papers that look like other Jiapeng Zhangs."},
+"University of Southern California|Mengyuan Li": {"research_tags": ["applied/systems", "ORAM"], "evidence": {
+  "applied/systems": [{"y": 2022, "t": "A Systematic Look at Ciphertext Side Channels on AMD SEV-SNP."}, {"y": 2021, "t": "CIPHERLEAKS: Breaking Constant-time Cryptography on AMD SEV via the Ciphertext Side Channel."}],
+  "ORAM": [{"y": 2026, "t": "MC-ORAM: A Mask-Assisted and Counter-Based Non-Deterministic ORAM Inside VM-Based TEEs."}, {"y": 2026, "t": "OTRO: Oblivious Tokenization Path with Square-Root ORAM."}]},
+  "crypto_core": "adjacent", "dblp_suspect": true, "suspect_reason": "TEE/side-channel security papers mixed with a cluster of graph OOD-detection/LLM ML papers (GLIP-OOD, LEGO-Learn, Few-Shot Graph OOD) that likely belong to a different Mengyuan Li."},
+"Drexel University|Naomi Sirkin": {"research_tags": ["ZK"], "evidence": {
+  "ZK": [{"y": 2022, "t": "Parallelizable Delegation from LWE."}, {"y": 2022, "t": "SPARKs: Succinct Parallelizable Arguments of Knowledge."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Duke University|Kartik Nayak": {"research_tags": ["blockchain/consensus", "privacy/DP", "ORAM"], "evidence": {
+  "blockchain/consensus": [{"y": 2025, "t": "Sailfish: Towards Improving the Latency of DAG-Based BFT."}, {"y": 2024, "t": "Lumiere: Making Optimal BFT for Partial Synchrony Practical."}],
+  "privacy/DP": [{"y": 2021, "t": "DP-Sync: Hiding Update Patterns in Secure Outsourced Databases with Differential Privacy."}, {"y": 2023, "t": "Private Proof-of-Stake Blockchains using Differentially-Private Stake Distortion."}],
+  "ORAM": [{"y": 2023, "t": "OptORAMa: Optimal Oblivious RAM."}, {"y": 2022, "t": "Locality-Preserving Oblivious RAM."}]},
+  "crypto_core": "security", "dblp_suspect": false, "suspect_reason": ""},
+"Florida State University|Viet Tung Hoang": {"research_tags": ["symmetric/hash", "applied/systems"], "evidence": {
+  "symmetric/hash": [{"y": 2024, "t": "Succinctly-Committing Authenticated Encryption."}, {"y": 2022, "t": "Efficient Schemes for Committing Authenticated Encryption."}],
+  "applied/systems": [{"y": 2025, "t": "Rethinking Tamper-Evident Logging: A High-Performance, Co-Designed Auditing System."}, {"y": 2022, "t": "Faster Yet Safer: Logging System Via Fixed-Key Blockcipher."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Harvard University|Salil P. Vadhan": {"research_tags": ["non-crypto theory", "privacy/DP", "foundations"], "evidence": {
+  "non-crypto theory": [{"y": 2023, "t": "Singular Value Approximation and Sparsifying Random Walks on Directed Graphs."}, {"y": 2021, "t": "Pseudorandom Generators for Read-Once Monotone Branching Programs."}],
+  "privacy/DP": [{"y": 2023, "t": "Concurrent Composition Theorems for Differential Privacy."}, {"y": 2024, "t": "A Framework for Differential Privacy Against Timing Attacks."}],
+  "foundations": [{"y": 2026, "t": "Generalized and Unified Equivalences Between Hardness and Pseudoentropy."}, {"y": 2021, "t": "Inaccessible Entropy II: IE Functions and Universal One-Way Hashing."}]},
+  "crypto_core": "adjacent", "dblp_suspect": false, "suspect_reason": ""},
+"North Carolina State University|Alessandra Scafuro": {"research_tags": ["MPC", "blockchain/consensus", "applied/systems", "ZK"], "evidence": {
+  "MPC": [{"y": 2024, "t": "A New Paradigm for Server-Aided MPC."}, {"y": 2024, "t": "Round-Optimal Compiler for Semi-Honest to Malicious Oblivious Transfer via CIH."}],
+  "blockchain/consensus": [{"y": 2023, "t": "PriFHEte: Achieving Full-Privacy in Account-based Cryptocurrencies is Possible."}, {"y": 2021, "t": "On the Anonymity Guarantees of Anonymous Proof-of-Stake Protocols."}],
+  "applied/systems": [{"y": 2024, "t": "Jäger: Automated Telephone Call Traceback."}, {"y": 2021, "t": "Anonymous device authorization for cellular networks."}],
+  "ZK": [{"y": 2021, "t": "Publicly Verifiable Zero Knowledge from (Collapsing) Blockchains."}, {"y": 2022, "t": "Black-Box Anonymous Commit-and-Prove."}]},
+  "crypto_core": "security", "dblp_suspect": false, "suspect_reason": ""},
+"Northwestern University|Xiao Wang": {"research_tags": ["ZK", "MPC", "garbling", "ORAM", "privacy/DP"], "evidence": {
+  "ZK": [{"y": 2021, "t": "QuickSilver: Efficient and Affordable Zero-Knowledge Proofs for Circuits and Polynomials over Any Field."}, {"y": 2022, "t": "AntMan: Interactive Zero-Knowledge Proofs with Sublinear Communication."}],
+  "MPC": [{"y": 2024, "t": "Scalable Mixed-Mode MPC."}, {"y": 2025, "t": "Smaug: Modular Augmentation of LLVM for MPC."}],
+  "garbling": [{"y": 2025, "t": "BitGC: Garbled Circuits with 1 Bit per Gate."}, {"y": 2023, "t": "Actively Secure Half-Gates with Minimum Overhead Under Duplex Networks."}],
+  "ORAM": [{"y": 2023, "t": "Fast ORAM with Server-Aided Preprocessing and Pragmatic Privacy-Efficiency Trade-Off."}, {"y": 2025, "t": "Efficient Mixed-Mode Oblivious RAMs."}],
+  "privacy/DP": [{"y": 2025, "t": "Secure Noise Sampling for Differentially Private Collaborative Learning."}, {"y": 2024, "t": "Confidential-DPproof: Confidential Proof of Differentially Private Training."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Portland State University|Fang Song": {"research_tags": ["quantum crypto", "symmetric/hash", "lattices/PQC"], "evidence": {
+  "quantum crypto": [{"y": 2025, "t": "Quantum Pseudorandom Scramblers."}, {"y": 2021, "t": "Oblivious Transfer Is in MiniQCrypt."}],
+  "symmetric/hash": [{"y": 2025, "t": "Generalized Hybrid Search with Applications to Blockchains and Hash Function Security."}, {"y": 2021, "t": "Quantum Key-Length Extension."}],
+  "lattices/PQC": [{"y": 2023, "t": "Quantum algorithms for attacking hardness assumptions in classical and post-quantum cryptography."}, {"y": 2025, "t": "An efficient quantum algorithm for computing S-units and its applications."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""},
+"Rutgers|Aarushi Goel": {"research_tags": ["ZK", "MPC", "blockchain/consensus", "garbling"], "evidence": {
+  "ZK": [{"y": 2025, "t": "Malicious Security in Collaborative zk-SNARKs: More than Meets the Eye."}, {"y": 2024, "t": "Dora: A Simple Approach to Zero-Knowledge for RAM Programs."}],
+  "MPC": [{"y": 2021, "t": "Fluid MPC: Secure Multiparty Computation with Dynamic Participants."}, {"y": 2022, "t": "Secure Multiparty Computation with Free Branching."}],
+  "blockchain/consensus": [{"y": 2026, "t": "Jigsaw: Doubly Private Smart Contracts."}, {"y": 2021, "t": "Breaking the O(√ n)-Bit Barrier: Byzantine Agreement with Polylog Bits Per Party."}],
+  "garbling": [{"y": 2023, "t": "Scalable Multiparty Garbling."}]},
+  "crypto_core": "core", "dblp_suspect": false, "suspect_reason": ""}
+}

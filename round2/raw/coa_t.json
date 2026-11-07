@@ -1,0 +1,129 @@
+{
+ "50": {
+  "school": "Univ. of Utah",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 40200,
+  "fees_usd": null,
+  "health_usd": null,
+  "url": "https://financialaid.utah.edu/tuition-and-fees/cost-of-attendance-graduate-general.php",
+  "quote": "2026-2027 Graduate General Budget (Engineering group), Living Off-Campus: Tuition & Fees Res $16,178 / NR $35,346; Living Expenses (Housing) $20,500; Living Expenses (Food) $3,500; Books, Course Materials, Supplies and Equipment $1,600; Personal/Miscellaneous Expenses $12,000; Transportation/Travel $2,600; Total Res $56,378 / NR $75,546",
+  "basis": "20500+3500+1600+12000+2600 = 40200 (check: 16178+40200 = 56378)",
+  "note": "Two semesters (fall+spring), treated as 9 months. Mandatory fees bundled into 'Tuition & Fees' line, so fees_usd null. Health insurance not listed. Living figures identical for General and Engineering graduate budgets; Personal/Misc $12,000 is unusually high."
+ },
+ "52": {
+  "school": "UW-Milwaukee",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 25536,
+  "fees_usd": null,
+  "health_usd": 2258,
+  "url": "https://uwm.edu/finances/finances/cost-of-attendance/",
+  "quote": "2026-2027, Living On or Off Campus: Books, Course Materials, Supplies, and Equipment $800; Housing Graduate: $14,644; Food $5,300; Transportation $1,792; Miscellaneous Personal Expenses $3,000; Tuition & Fees: *See Tuition Estimates below (2026-2027 Tuition Estimate, Graduate: WI Resident $13,082, Non-Resident $26,782). Health (CIE page https://uwm.edu/cie/international-admissions/cost-scholarships/): 'International Student Health Insurance (12 months) $2,258'; 'Segregated Fees & International Student Fees (2 semesters) $2,158'",
+  "basis": "800+14644+5300+1792+3000 = 25536",
+  "note": "SFS COA lists a single 'Tuition & Fees' line (graduate estimate) so fees bundled -> fees_usd null; the CIE international page separately shows Segregated + International Student Fees $2,158 for 2 semesters (includes intl-only fee). health_usd $2,258 is the international student plan (12 months) from the CIE page; domestic SHIP not listed on COA page. Academic year treated as 9 months (CIE says September through May)."
+ },
+ "53": {
+  "school": "Virginia Commonwealth",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 30070,
+  "fees_usd": null,
+  "health_usd": null,
+  "fees_included_in_tuition": true,
+  "url": "https://sfs.vcu.edu/financial-aid/how-aid-works/understanding-cost-of-attendance/",
+  "quote": "Masters Estimated 2026-2027 Cost of Attendance (annual), Graduate Nonresident Living Off-Campus: Tuition and mandatory fees* $33,746; Food and housing (off-campus allowance) $19,724; Books and supplies $1,290; Personal and miscellaneous $4,322; Transportation $4,734; Loan fees $182; Total Estimated COA $63,998. (Graduate Resident Living Off-Campus: Tuition and mandatory fees $18,528; Transportation $3,158; Total $47,204.)",
+  "basis": "Nonresident off-campus: 19724+1290+4322+4734 = 30070 (excl. loan fees $182; check 33746+30070+182 = 63998). Resident off-campus would be 19724+1290+4322+3158 = 28494.",
+  "note": "Nonresident column used (transportation differs by residency: res $3,158 vs nonres $4,734). The COA row is 'Tuition and mandatory fees' combined, so mandatory fees are included in the tuition figure -> fees_included_in_tuition true, fees_usd null. Health insurance not listed for master's (only noted as required for full-time Ph.D., 'not included above')."
+ },
+ "54": {
+  "school": "Virginia Tech",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 25434,
+  "fees_usd": 3754,
+  "health_usd": null,
+  "url": "https://finaid.vt.edu/content/dam/finaid_vt_edu/Cost_of_Attendance/2627/GRNR_0.pdf",
+  "quote": "Estimated 26-27 Cost of Attendance, Graduate, Out-of-State, Blacksburg Campus (Fall & Spring): Tuition $33,582; Fees $3,754; Total Direct Cost $37,336; Housing $13,330; Food $3,840; Course Materials $1,120; Transportation $3,014; Personal $4,130; Total COA $62,770. (In-State PDF GRIN_0.pdf: Tuition $16,710; Fees $3,622; Transportation $2,478; Total COA $45,230.)",
+  "basis": "13330+3840+1120+3014+4130 = 25434 (check 37336+25434 = 62770)",
+  "note": "Linked from official page https://finaid.vt.edu/graduate-students/cost-of-attendance-coa.html ('Cost of Attendance Estimate 2026-2027'). Out-of-state column used; fees $3,754 out-of-state ($3,622 in-state). Excludes first-time-grad computer budget ($2,150 or $3,140) and $200 loan fee. Health insurance not listed. Same COA used on/off campus."
+ },
+ "51": {
+  "school": "UW-Madison",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 24358,
+  "fees_usd": null,
+  "health_usd": null,
+  "url": "https://financialaid.wisc.edu/cost-of-attendance/",
+  "quote": "Graduate 2026-27 Estimated Academic Year Cost of Attendance, Non Resident: Tuition & Fees $25,766; Required Course Material & Educational Supplies $700; Housing & Meals $16,956; Personal $5,174; Transportation $1,528; Loan Fees $276; TOTAL COA $50,400. (Wisconsin Resident: Tuition & Fees $12,438; Transportation $938; TOTAL COA $36,482.)",
+  "basis": "700+16956+5174+1528 = 24358 (check 25766+24358+276 = 50400)",
+  "note": "Non-resident column used (only transportation differs: resident $938 -> 23768). Segregated fees bundled in 'Tuition & Fees' line -> fees_usd null. No graduate health insurance line on page. Excludes $1,100 computer add-on for incoming grads and loan fees."
+ },
+ "55": {
+  "school": "Washington State (Pullman)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 21830,
+  "fees_usd": 1980,
+  "health_usd": null,
+  "url": "https://financialaid.wsu.edu/tuition-and-expenses/",
+  "quote": "Cost table, Year/Session 2026-27, Campus Pullman, Career Path Graduate (per semester, Resident / Non-Resident): Tuition $6,965 / $15,300; S&A Fees $318 / $318; Mandatory Fees $672 / $672; Housing $5,423; Food $3,200; Books & Supplies $450; Transportation $858; Loan Fees *Varies*; Miscellaneous Expenses $984; COA Semester Total $18,987 / $27,322; COA Year Total $37,974 / $54,644",
+  "basis": "Per semester 5423+3200+450+858+984 = 10915; x2 semesters = 21830. Fees (318+672) x2 = 1980.",
+  "note": "Table is JS-rendered (career path dropdown set to 'Graduate'; read via headless Edge). Per-semester figures doubled for the 2-semester year. Listed items sum to $117/semester less than the COA Semester Total, presumably the 'Varies' loan fee. Health insurance not listed."
+ },
+ "49": {
+  "school": "UMass Amherst",
+  "coa_year": "2026-27",
+  "months": 12,
+  "living_usd": 31261,
+  "fees_usd": null,
+  "health_usd": 4443,
+  "url": "https://www.umass.edu/financialaid/graduate-costs",
+  "quote": "Graduate Students Full Time 2026-2027 Costs, 12-Month and Full-time enrollment (9 credits), Out of State Off Campus: Tuition & Fees 37,995; Average Housing 17,632; Food 11,029; Books 1,200; Travel 400; Miscellaneous 1,000; Average Federal Loan Fees 160; Estimated Indirect Costs 31,421; Estimated Cost of Attendance 69,416. Supplemental Health Insurance (International column) 4,443. 9-Month and Half-time enrollment (6 credits): Average Housing 13,220; Food 8,272; Books 600; Travel 400; Miscellaneous 1,000.",
+  "basis": "17632+11029+1200+400+1000 = 31261 (= Indirect 31,421 - loan fees 160)",
+  "note": "Only the full-time budget is 12-month; the 9-month budget is half-time (6 credits): 13220+8272+600+400+1000 = 23492. 'Tuition & Fees' is one combined line -> fees_usd null. health_usd = Student Health Benefit Plan estimate shown in the International column; page says SHBP is required by MA law but 'not included' for domestic students (waivable). Page says 2026-27 figures are estimates pending Board of Trustees approval."
+ },
+ "58": {
+  "school": "Cornell Tech (NYC)",
+  "coa_year": "2026-27",
+  "months": null,
+  "living_usd": 40746,
+  "fees_usd": 476,
+  "health_usd": 4092,
+  "url": "https://tech.cornell.edu/admissions/tuition-fees/",
+  "quote": "2026-2027 Tuition and Fees (per year), Master of Engineering: Tuition: $73,946; Health Insurance: $3,751 - $4,092; NYC Health Fee: $366; Student Activity Fee: $110. 'Cornell Tech's total estimated cost of living (including dining and additional expenses) is $40,746 per year.'",
+  "basis": "living_usd = single published figure $40,746 (not itemized). fees 366+110 = 476.",
+  "note": "Living cost is a lump sum 'per year' with no housing/food/transport/books breakdown and no stated month count (months null); the living sentence is not explicitly year-labeled but sits on the page under the 2026-2027 heading. Books not separately listed. Health insurance given as a range $3,751-$4,092 (MBA row states $4,092 is 12 months); upper bound used. SHP auto-enrolled, waivable for US citizens with qualifying coverage."
+ },
+ "48": {
+  "school": "Univ. of Illinois Chicago",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 28426,
+  "fees_usd": 4818,
+  "health_usd": null,
+  "url": "https://financialaid.uic.edu/cost/cost-attendance-coa/",
+  "quote": "2026-2027 Cost of Attendance, Incoming Full-time Graduate Students: Tuition - In State $13,496; Mandatory Fees $4,818; Tuition Differential (if applicable). Estimated Variable Expenses (Indirect Costs) Based on a 9-month budget (Fall.Spring): Books and Supplies $1,400; Housing and Food Expenses On-Campus $17,800 / Off-Campus $18,900; Transportation $1,526 (in-state) / $3,626 (out-of-state); Stafford Loan Fees (if borrowed) $200; Personal Expenses $4,500",
+  "basis": "Off-campus, out-of-state transportation: 1400+18900+3626+4500 = 28426 (in-state transportation would give 26326)",
+  "note": "Out-of-state transportation used ($3,626 vs $1,526 in-state). Only in-state tuition shown on this page; CS tuition differential not included. No separate health insurance line on COA page (UIC CampusCare/health fees may be inside the $4,818 mandatory fees; not verified)."
+ },
+ "57": {
+  "school": "Univ. of Chicago (graduate / MPCS)",
+  "coa_year": "2026-27",
+  "months": 9,
+  "living_usd": 30585,
+  "fees_usd": 1560,
+  "health_usd": 5517,
+  "url": "https://financialaid.uchicago.edu/graduate/costs/cost-of-attendance/",
+  "quote": "2026-2027 LIVING EXPENSES & FEES, 3 Quarters: Full Time Books & Course Materials 2,085; Housing and Food 21,750; Graduate Student Service Fee 1,560; Misc. Personal Expenses 3,750; Transportation 3,000; Est. Loan Fees 216; Est. Health Insurance (If required) 5,517*; TOTAL LIVING EXPENSES & FEES $37,878. 'U-SHIP student health insurance: Estimated Per Quarter Premium $1,839. Estimated Annual Premium $5,517.'",
+  "basis": "3 quarters: 2085+21750+3750+3000 = 30585 (check 30585+1560+216+5517 = 37878)",
+  "note": "University Graduate Financial Aid Office budget (applies to graduate divisions incl. Physical Sciences, home of MPCS); no MPCS-specific living budget found (masters.cs.uchicago.edu did not resolve). 3-quarter (9-month) column used; 4-quarter living = 2780+29000+5000+4000 = 40780. Tuition excluded (separate Bursar page). Excludes one-time $84 lifetime transcript fee."
+ },
+ "56": {
+  "school": "Rice",
+  "living_usd": null,
+  "note": "No general Rice graduate cost-of-attendance budget found; the only figures found were for a business program, so none are shown.",
+  "url": "https://business.rice.edu/sites/default/files/2026-06/MAcc-26-27-Estimated-Cost-of-Attendance.pdf"
+ }
+}
