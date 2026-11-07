@@ -6,88 +6,123 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Crypto Grad Paths</title>
 <style>
-:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e3e3e0;--accent:#2f5bea;--good:#1f8a4c;--warn:#b26a00;--bad:#c0392b;--chip:#eef1fb}
-@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#9a9aa2;--line:#2e2e33;--accent:#7b9bff;--chip:#262b3d}}
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e3e3e0;--accent:#2f5bea;--good:#1f8a4c;--warn:#b26a00;--bad:#c0392b;--chip:#eef1fb;--past:#f0f0ee;--hover:#f3f5fd}
+@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#9a9aa2;--line:#2e2e33;--accent:#7b9bff;--chip:#262b3d;--good:#4cc27e;--warn:#e0a240;--bad:#ef6b5c;--past:#19191b;--hover:#23262f}}
 *{box-sizing:border-box}
+html,body{overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
 header{padding:20px 16px 8px;max-width:1200px;margin:0 auto}
 h1{font-size:22px;margin:0 0 4px}
+h3{margin:18px 0 8px}
 .sub{color:var(--muted);font-size:13px}
-nav{display:flex;gap:6px;max-width:1200px;margin:10px auto 0;padding:0 16px}
+nav{display:flex;flex-wrap:wrap;gap:6px;max-width:1200px;margin:10px auto 0;padding:0 16px}
 nav button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer;font-size:14px}
 nav button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 main{max-width:1200px;margin:0 auto;padding:12px 16px 40px}
-.controls{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
-.controls input,.controls select{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px}
-.controls input{flex:1;min-width:180px}
-.controls>*{max-width:100%;min-width:0}
-.card,.kv div{overflow-wrap:anywhere;min-width:0}
-nav{flex-wrap:wrap}
+main *{overflow-wrap:anywhere;min-width:0}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px;align-items:flex-start}
+.controls input[type=search],.controls select{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px;max-width:100%}
+.controls input[type=search]{flex:1 1 200px}
+.controls label.ck{font-size:13px;color:var(--muted);display:flex;gap:4px;align-items:center;padding:7px 0}
+.msel{margin:0;max-width:100%}
+.msel>summary{list-style:none;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.msel>summary::-webkit-details-marker{display:none}
+.msel>summary::after{content:" ▾";color:var(--muted)}
+.msel.act>summary{border-color:var(--accent);color:var(--accent)}
+.msel .opts{display:flex;flex-wrap:wrap;gap:6px;padding:8px 0 2px;max-width:min(560px,calc(100vw - 32px))}
+.msel .opts label{display:flex;gap:4px;align-items:center;font-size:13px;background:var(--chip);border-radius:999px;padding:3px 10px;cursor:pointer}
+.msel .opts label:has(input:checked){background:var(--accent);color:#fff}
+.msel .opts input{margin:0}
+.msel .opts button,.vt button{border:1px solid var(--line);background:var(--card);color:var(--accent);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
+.vt{display:flex;gap:0}
+.vt button{border-radius:0;padding:7px 12px;font-size:13px;color:var(--ink)}
+.vt button:first-child{border-radius:8px 0 0 8px}.vt button:last-child{border-radius:0 8px 8px 0;border-left:0}
+.vt button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
 .count{color:var(--muted);font-size:13px;margin-bottom:8px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.card.mine{border-color:var(--accent)}
 .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
 .title{font-weight:650;font-size:16px}
-.title a{color:inherit;text-decoration:none}
-.title a:hover{text-decoration:underline}
 .meta{color:var(--muted);font-size:13px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
 .chip{background:var(--chip);border-radius:999px;padding:2px 9px;font-size:12px}
 .chip.good{background:rgba(31,138,76,.15);color:var(--good)}
 .chip.warn{background:rgba(178,106,0,.15);color:var(--warn)}
 .chip.bad{background:rgba(192,57,43,.15);color:var(--bad)}
-.kv{display:grid;grid-template-columns:140px 1fr;gap:4px 12px;font-size:13.5px;margin-top:6px}
-.kv div:nth-child(odd){color:var(--muted)}
+.chip.acc{background:var(--accent);color:#fff}
+.kv{display:grid;grid-template-columns:150px minmax(0,1fr);gap:4px 12px;font-size:13.5px;margin-top:6px}
+.kv>div:nth-child(odd){color:var(--muted)}
 details{margin-top:8px}
 summary{cursor:pointer;color:var(--accent);font-size:13px}
+details.more{margin:0;display:inline}
+details.more summary{color:inherit;font-size:inherit;list-style:none;display:inline}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary .ml{color:var(--accent);font-size:12px;margin-left:4px}
+details.more[open] summary .short{display:none}
+details.more[open] summary .ml::after{content:" (less)"}
 ul.profs{margin:6px 0 0;padding-left:18px;font-size:13.5px}
 ul.profs li{margin:2px 0}
 .small{font-size:12px;color:var(--muted)}
 a{color:var(--accent)}
-.method{white-space:pre-wrap;font-size:13px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
-@media (max-width:600px){.kv{grid-template-columns:1fr}.kv div:nth-child(odd){margin-top:6px}}
+.method{font-size:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 16px}
+.method table,.tbl{border-collapse:collapse;font-size:13px;width:100%}
+.method th,.method td,.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.method th,.method td{border:1px solid var(--line)}
+.method code{background:var(--chip);padding:0 4px;border-radius:4px;font-size:12.5px}
+.tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.tbl{min-width:760px}
+.tbl th{background:var(--card);cursor:pointer;white-space:nowrap;user-select:none}
+.tbl th.s::after{content:" ▲";color:var(--accent)}.tbl th.s.d::after{content:" ▼"}
+.tbl td{overflow-wrap:normal}
+.tbl td.nm{min-width:170px;max-width:280px;overflow-wrap:anywhere}
+.tbl tr.it{cursor:pointer}
+.tbl tr.it:hover,.tbl tr.it.open{background:var(--hover)}
+.tbl tr.det>td{padding:0 8px 8px;background:var(--hover)}
+.tbl tr.det .card{margin:0;position:sticky;left:8px;max-width:calc(100vw - 50px);width:min(900px,calc(100vw - 50px))}
+.tbl tr.past td{color:var(--muted)}
+.tl{display:grid;grid-template-columns:96px 74px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:9px 12px;border-bottom:1px solid var(--line);font-size:14px}
+.tl:last-child{border-bottom:0}
+.tl.past{background:var(--past);color:var(--muted);opacity:.7}
+.tl.past a{color:var(--muted)}
+.tl .d{font-variant-numeric:tabular-nums}
+.left{font-weight:650;font-variant-numeric:tabular-nums}
+.left.soon{color:var(--bad)}
+.left.near{color:var(--warn)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 0}
+.situ{border:2px solid var(--accent)}
+@media (max-width:600px){.kv{grid-template-columns:minmax(0,1fr)}.kv>div:nth-child(odd){margin-top:6px}.tl{grid-template-columns:84px minmax(0,1fr)}.tl .what{grid-column:1/-1}}
 </style>
 </head>
 <body>
 <header>
   <h1>Crypto Grad Paths</h1>
-  <div class="sub">US master's programs that lead into cryptography research, and Summer 2027 crypto research internships. Data gathered 2026-11-06 from official pages; every field links its source. Blank = not confirmed.</div>
+  <div class="sub">US master's and PhD-direct routes into cryptography research, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after an independent review; every field links its source. Blank = not confirmed. Filters are multi-select (none ticked = all) and saved in the link.</div>
 </header>
 <nav>
-  <button id="t-ms" class="on">Master's programs</button>
-  <button id="t-in">Internships</button>
-  <button id="t-me">How this was built</button>
+  <button id="t-ms" data-tab="ms" class="on">Master's programs</button>
+  <button id="t-in" data-tab="in">Internships</button>
+  <button id="t-tl" data-tab="tl">Apply-by timeline</button>
+  <button id="t-or" data-tab="or">Other routes</button>
+  <button id="t-me" data-tab="me">How this was built</button>
 </nav>
 <main>
   <section id="ms">
-    <div class="controls">
-      <input id="ms-q" placeholder="Search school, professor, topic…">
-      <select id="ms-region"><option value="">All regions</option></select>
-      <select id="ms-thesis"><option value="">Thesis: any</option><option value="yes">Thesis option: yes</option></select>
-      <select id="ms-sort">
-        <option value="profs">Sort: most crypto professors</option>
-        <option value="core">Sort: most theory (CRYPTO/EUROCRYPT/TCC…) papers</option>
-        <option value="deadline">Sort: earliest deadline</option>
-        <option value="cost">Sort: lowest tuition</option>
-      </select>
-    </div>
+    <div class="controls" id="ms-ctl"></div>
     <div class="count" id="ms-count"></div>
     <div id="ms-list"></div>
   </section>
   <section id="in" hidden>
-    <div class="controls">
-      <input id="in-q" placeholder="Search org, program, area…">
-      <select id="in-cat"><option value="">All categories</option></select>
-      <select id="in-ms"><option value="">MS eligible: any</option><option value="yes">MS students eligible</option></select>
-      <select id="in-diff"><option value="">Difficulty: any</option></select>
-      <select id="in-sort">
-        <option value="picks">Sort: my top picks first</option>
-        <option value="reach">Sort: most reachable first</option>
-        <option value="prestige">Sort: most prestigious first</option>
-      </select>
-    </div>
+    <div class="controls" id="in-ctl"></div>
     <div class="count" id="in-count"></div>
     <div id="in-list"></div>
   </section>
+  <section id="tl" hidden>
+    <div class="controls" id="tl-ctl"></div>
+    <div class="count" id="tl-count"></div>
+    <div class="box" id="tl-list"></div>
+    <p class="small">Days left are counted from today's date on your device. "Priority" = early, round-1, scholarship or full-consideration date; "Final" = last date stated. Dates whose year was not printed on the official page were assigned to the Fall 2027 cycle; each row's note says so.</p>
+  </section>
+  <section id="or" hidden><div id="or-body"></div></section>
   <section id="me" hidden>
     <h3>Master's programs</h3><div class="method" id="me-ms"></div>
     <h3>Internships</h3><div class="method" id="me-in"></div>
@@ -98,68 +133,209 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const link=(u,t)=>u&&/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||'source')}</a>`:esc(t||'');
 const money=n=>n==null?'':'$'+Math.round(n).toLocaleString();
-let S=[],I=[];
-function tab(id){for(const t of ['ms','in','me']){$('#'+t).hidden=t!==id;$('#t-'+t).classList.toggle('on',t===id)}try{localStorage.setItem('tab',id)}catch(e){}}
-$('#t-ms').onclick=()=>tab('ms');$('#t-in').onclick=()=>tab('in');$('#t-me').onclick=()=>tab('me');
-function coreCount(s){return (s.professors||[]).reduce((a,p)=>a+(p.papers_core_iacr_joc||0),0)}
+function more(t,n=150){t=t==null?'':(typeof t==='string'?t:Object.entries(t).map(([k,v])=>k.replace(/_/g,' ')+': '+v).join(' · '));if(t.length<=n+20)return esc(t);
+  return `<details class="more"><summary><span class="short">${esc(t.slice(0,n).replace(/\s+\S*$/,''))}…</span><span class="ml">more</span></summary>${esc(t)}</details>`}
+let S=[],I=[],R={};
+const TABS=['ms','in','tl','or','me'];
+// ---------- dates ----------
+const T0=(()=>{const d=new Date();return Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())})();
+const dleft=iso=>{const [y,m,d]=iso.split('-').map(Number);return Math.round((Date.UTC(y,m-1,d)-T0)/864e5)};
+const fmt=iso=>{if(!iso)return '';const [y,m,d]=iso.split('-').map(Number);return new Date(Date.UTC(y,m-1,d)).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'})};
+const leftTxt=n=>n<0?`${-n}d ago`:n===0?'today':`${n}d left`;
+const leftCls=n=>n<0?'':n<=14?'soon':n<=35?'near':'';
+// ---------- state (persisted in URL hash) ----------
+const DEF={tab:'ms',
+  'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'theory','ms.view':'cards','ms.tcol':'','ms.tdir':'1',
+  'in.q':'','in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'picks','in.view':'cards','in.tcol':'','in.tdir':'1',
+  'tl.kind':[],'tl.past':'0','tl.ok':'1'};
+const st=JSON.parse(JSON.stringify(DEF));
+function writeHash(){const p=new URLSearchParams();for(const k in DEF){const v=st[k],d=DEF[k];const sv=Array.isArray(v)?v.join('|'):v,sd=Array.isArray(d)?d.join('|'):d;if(sv!==sd)p.set(k,sv)}const h=p.toString();history.replaceState(null,'',h?'#'+h:location.pathname+location.search)}
+function readHash(){const p=new URLSearchParams(location.hash.slice(1));for(const k in DEF){if(p.has(k)){const v=p.get(k);st[k]=Array.isArray(DEF[k])?(v?v.split('|'):[]):v}else st[k]=Array.isArray(DEF[k])?DEF[k].slice():DEF[k]}}
+function tab(id){if(!TABS.includes(id))id='ms';st.tab=id;for(const t of TABS){$('#'+t).hidden=t!==id;$('#t-'+t).classList.toggle('on',t===id)}writeHash()}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>tab(b.dataset.tab));
+// ---------- controls ----------
+// spec: [type,key,label,options]; options = [[value,label],...]
+function buildCtl(el,spec){el.innerHTML=spec.map(([ty,k,lab,op])=>{
+  if(ty==='q')return `<input type="search" data-k="${k}" placeholder="${esc(lab)}">`;
+  if(ty==='sel')return `<select data-k="${k}">${op.map(([v,l])=>`<option value="${esc(v)}">${esc(l)}</option>`).join('')}</select>`;
+  if(ty==='ck')return `<label class="ck"><input type="checkbox" data-k="${k}"> ${esc(lab)}</label>`;
+  if(ty==='view')return `<div class="vt" data-k="${k}"><button data-v="cards">Cards</button><button data-v="table">Table</button></div>`;
+  return `<details class="msel" data-k="${k}" data-lab="${esc(lab)}"><summary></summary><div class="opts">${op.map(([v,l])=>`<label><input type="checkbox" value="${esc(v)}"> ${esc(l)}</label>`).join('')}<button type="button" data-clear>all</button></div></details>`}).join('');
+  el.querySelectorAll('[data-k]').forEach(c=>{const k=c.dataset.k;
+    if(c.matches('input[type=search],select'))c.addEventListener('input',()=>{st[k]=c.value;update()});
+    else if(c.matches('input[type=checkbox]'))c.addEventListener('input',()=>{st[k]=c.checked?'1':'0';update()});
+    else if(c.classList.contains('vt'))c.addEventListener('click',e=>{const b=e.target.closest('button');if(b){st[k]=b.dataset.v;update()}});
+    else{c.addEventListener('input',()=>{st[k]=[...c.querySelectorAll('input:checked')].map(i=>i.value);update()});
+      c.querySelector('[data-clear]').addEventListener('click',()=>{st[k]=[];update()})}})}
+function syncCtl(){document.querySelectorAll('[data-k]').forEach(c=>{const k=c.dataset.k,v=st[k];
+  if(c.matches('input[type=search],select'))c.value=v;
+  else if(c.matches('input[type=checkbox]'))c.checked=v==='1';
+  else if(c.classList.contains('vt'))c.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));
+  else{c.querySelectorAll('input').forEach(i=>i.checked=v.includes(i.value));const labs=[...c.querySelectorAll('input:checked')].map(i=>i.parentNode.textContent.trim());
+    c.querySelector('summary').textContent=c.dataset.lab+': '+(labs.length?labs.join(', '):'all');c.classList.toggle('act',labs.length>0)}})}
+const any=(arr,v)=>!arr.length||(Array.isArray(v)?v.some(x=>arr.includes(x)):arr.includes(v));
+// ---------- generic sortable table with expandable rows ----------
+function table(pfx,L,cols,detail,rowCls){const tc=st[pfx+'.tcol'],dir=+st[pfx+'.tdir']||1;
+  if(tc){const c=cols.find(c=>c.k===tc);if(c)L=L.slice().sort((a,b)=>{const x=c.s(a),y=c.s(b);return (x<y?-1:x>y?1:0)*dir})}
+  const html=`<div class="tblwrap"><table class="tbl" data-p="${pfx}"><thead><tr>${cols.map(c=>`<th data-c="${c.k}" class="${c.k===tc?'s'+(dir<0?' d':''):''}">${esc(c.h)}</th>`).join('')}</tr></thead><tbody>${L.map((x,i)=>`<tr class="it ${rowCls?rowCls(x):''}" data-i="${i}">${cols.map(c=>`<td${c.k==='name'?' class="nm"':''}>${c.v(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="small">Click a column header to sort; click a row for full details.</p>`;
+  return {html,bind(el){const t=el.querySelector('table');
+    t.querySelector('thead').addEventListener('click',e=>{const th=e.target.closest('th');if(!th)return;const k=th.dataset.c;if(st[pfx+'.tcol']===k)st[pfx+'.tdir']=String(-dir);else{st[pfx+'.tcol']=k;st[pfx+'.tdir']='1'}update()});
+    t.querySelector('tbody').addEventListener('click',e=>{if(e.target.closest('a'))return;const tr=e.target.closest('tr.it');if(!tr)return;
+      const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('det')){nx.remove();tr.classList.remove('open');return}
+      tr.classList.add('open');tr.insertAdjacentHTML('afterend',`<tr class="det"><td colspan="${cols.length}">${detail(L[+tr.dataset.i])}</td></tr>`)})}}}
+// ---------- schools ----------
+const theoryN=s=>(s.professors||[]).filter(p=>(p.papers_core_iacr_joc||0)>=2).length;
+const coreCount=s=>(s.professors||[]).reduce((a,p)=>a+(p.papers_core_iacr_joc||0),0);
+const isCA=s=>s.program&&s.program.total_tuition_resident_usd!=null;
+const myCost=s=>{const p=s.program||{};return s.net_cost_note?0:isCA(s)?p.total_tuition_resident_usd:p.total_tuition_usd};
+function costHTML(s){const p=s.program||{};
+  if(isCA(s))return `<b>${money(p.total_tuition_resident_usd)}</b> as a CA resident ${p.resident_url?'· '+link(p.resident_url,'fee page'):''}<div class="small">${more(p.resident_basis||'',110)}</div><div class="small">Out-of-state: ${money(p.total_tuition_usd)}</div>`;
+  return `${money(p.total_tuition_usd)} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${more(p.tuition_basis||'',110)}</div>`}
+function dl(p){const a=[];if(p.priority_iso)a.push(`Priority ${fmt(p.priority_iso)}`);if(p.deadline_iso)a.push(`Final ${fmt(p.deadline_iso)}`);return a.join(' · ')}
+const routeOf=s=>{const r=[];if(s.net_cost_note)r.push('funded');if(s.phd_direct)r.push('phd');if(isCA(s))r.push('ca');if(s.program&&s.program.name)r.push('ms');return r};
+function cardMS(s){const p=s.program||{},ph=s.phd_direct;
+  const profs=(s.professors||[]).slice().sort((a,b)=>(b.papers_core_iacr_joc||0)-(a.papers_core_iacr_joc||0)||(b.papers||0)-(a.papers||0)).map(x=>`<li>${link(x.homepage||x.dblp,x.name)} <span class="small">· ${x.papers_core_iacr_joc||0} theory-venue + ${x.papers_crypto_themed_ccs_uss_sp||0} security-venue papers · ${esc((x.topics||[]).join(', '))}${x.title?' · '+esc(x.title):''}${x.dblp?' · '+link(x.dblp,'dblp'):''}${x.affiliation_source?' · '+link(x.affiliation_source,'affiliation source'):''}</span></li>`).join('');
+  const tn=theoryN(s);
+  return `<div class="card${s.his_note?' mine':''}">
+    <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
+    <div class="chips">${s.his_note?'<span class="chip acc">Already admitted</span>':''}<span class="chip ${tn?'good':''}">${tn} theory-venue professor${tn==1?'':'s'}</span><span class="chip">${s.n_professors} crypto professor${s.n_professors==1?'':'s'} total</span><span class="chip">${coreCount(s)} theory-venue papers 2021-25</span>${p.thesis==='yes'?'<span class="chip good">thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no thesis option</span>':''}${s.net_cost_note?'<span class="chip good">funded MS</span>':''}${ph?'<span class="chip warn">PhD-direct is the real route</span>':''}</div>
+    ${s.his_note?`<div class="small" style="color:var(--accent)">${esc(s.his_note)} ${link(s.his_note_url,'policy')}</div>`:''}
+    <div class="kv">
+      <div>Program</div><div>${p.name?link(p.url,p.name):'<i>No master\'s to apply to for Fall 2027</i>'}</div>
+      ${p.length?`<div>Length</div><div>${more(p.length,100)}</div>`:''}
+      <div>Tuition</div><div>${p.total_tuition_usd==null&&p.total_tuition_resident_usd==null?'<span class="small">n/a</span>':costHTML(s)}</div>
+      ${s.net_cost_note?`<div>Net cost</div><div>${more(s.net_cost_note,140)} ${s.net_cost_url?'· '+link(s.net_cost_url,'source'):''}</div>`:''}
+      <div>Fall 2027 MS deadline</div><div>${esc(dl(p))||'<span class="small">none</span>'} ${p.deadline_url?'· '+link(p.deadline_url,'source'):''}<div class="small">${more(p.deadline_note||'',120)}</div></div>
+      ${ph?`<div>PhD-direct</div><div><b>${ph.deadline_iso?fmt(ph.deadline_iso)+' ('+leftTxt(dleft(ph.deadline_iso))+')':esc(ph.deadline||'')}</b> · ${link(ph.url,'PhD admissions')}<div class="small">${more(ph.note||'',140)}</div></div>`:''}
+      ${p.gre?`<div>GRE</div><div>${more(p.gre,100)}</div>`:''}
+      ${p.app_fee_usd!=null?`<div>App fee</div><div>${money(p.app_fee_usd)}</div>`:''}
+      ${p.funding_note?`<div>Funding</div><div>${more(p.funding_note,140)}</div>`:''}
+    </div>
+    ${s.research_fit_note?`<div class="small" style="margin-top:8px">${more(s.research_fit_note,180)}</div>`:''}
+    ${s.notes?`<div class="small" style="margin-top:4px">${more(s.notes,180)}</div>`:''}
+    ${(s.alt_programs||[]).length?`<details><summary>Other programs here (${s.alt_programs.length})</summary><ul class="profs">${s.alt_programs.map(a=>`<li>${link(a.url,a.name)} <span class="small">${esc(a.note||'')}</span></li>`).join('')}</ul></details>`:''}
+    <details><summary>Professors (${(s.professors||[]).length}): potential summer RA hosts</summary><ul class="profs">${profs}</ul></details>
+  </div>`}
+const nextMS=s=>{const p=s.program||{};const c=[p.priority_iso,p.deadline_iso,s.phd_direct&&s.phd_direct.deadline_iso].filter(d=>d&&dleft(d)>=0).sort();return c[0]||'9999'};
+const MSCOLS=[
+  {k:'name',h:'School',v:s=>esc(s.short||s.school)+(s.his_note?' <span class="chip acc">admitted</span>':''),s:s=>s.short||s.school},
+  {k:'region',h:'Region',v:s=>esc(s.region),s:s=>s.region},
+  {k:'theory',h:'Theory profs',v:s=>theoryN(s),s:s=>-theoryN(s)},
+  {k:'profs',h:'All profs',v:s=>s.n_professors,s:s=>-s.n_professors},
+  {k:'core',h:'Theory papers',v:s=>coreCount(s),s:s=>-coreCount(s)},
+  {k:'ms',h:'MS deadline',v:s=>esc(dl(s.program||{}))||'<span class="small">none</span>',s:s=>{const p=s.program||{};return p.priority_iso||p.deadline_iso||'9999'}},
+  {k:'phd',h:'PhD deadline',v:s=>s.phd_direct&&s.phd_direct.deadline_iso?fmt(s.phd_direct.deadline_iso):'',s:s=>(s.phd_direct&&s.phd_direct.deadline_iso)||'9999'},
+  {k:'cost',h:'Tuition for me',v:s=>s.net_cost_note?'≈$0 (funded)':money(myCost(s))+(isCA(s)?' <span class="small">CA res.</span>':''),s:s=>myCost(s)??1e12},
+  {k:'thesis',h:'Thesis',v:s=>esc((s.program||{}).thesis||''),s:s=>(s.program||{}).thesis||'z'}];
 function renderMS(){
-  const q=$('#ms-q').value.toLowerCase(),r=$('#ms-region').value,th=$('#ms-thesis').value,so=$('#ms-sort').value;
-  let L=S.filter(s=>(!r||s.region===r)&&(!th||(s.program&&s.program.thesis===th))&&(!q||JSON.stringify([s.school,s.city,s.professors,s.program&&s.program.name]).toLowerCase().includes(q)));
-  const key={profs:s=>-(s.n_professors||0),core:s=>-coreCount(s),deadline:s=>(s.program&&s.program.deadline_fall2027)||'9999',cost:s=>(s.program&&s.program.total_tuition_usd)??1e12}[so];
-  L.sort((a,b)=>{const x=key(a),y=key(b);return x<y?-1:x>y?1:0});
-  $('#ms-count').textContent=`${L.length} of ${S.length} schools`;
-  $('#ms-list').innerHTML=L.map(s=>{const p=s.program||{};
-    const profs=(s.professors||[]).slice().sort((a,b)=>(b.papers||0)-(a.papers||0)).map(x=>`<li>${link(x.homepage||x.dblp,x.name)} <span class="small">· ${x.papers||0} papers (${x.papers_core_iacr_joc||0} theory venues) · ${esc((x.topics||[]).join(', '))} · ${link(x.dblp,'dblp')}</span></li>`).join('');
-    return `<div class="card">
-      <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
-      <div class="chips"><span class="chip">${s.n_professors} crypto professor${s.n_professors==1?'':'s'}</span><span class="chip">${coreCount(s)} theory-venue papers 2021-25</span>${p.thesis==='yes'?'<span class="chip good">thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no thesis option</span>':''}</div>
-      <div class="kv">
-        <div>Program</div><div>${link(p.url,p.name||'(not found)')}</div>
-        <div>Length</div><div>${esc(p.length||'')}</div>
-        <div>Total tuition</div><div>${money(p.total_tuition_usd)} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${esc(p.tuition_basis||'')}</div></div>
-        <div>Fall 2027 deadline</div><div>${esc(p.deadline_fall2027||'')} ${p.deadline_url?'· '+link(p.deadline_url,'source'):''}<div class="small">${esc(p.deadline_note||'')}</div></div>
-        <div>GRE</div><div>${esc(p.gre||'')}</div>
-        <div>App fee</div><div>${money(p.app_fee_usd)}</div>
-        <div>Funding</div><div>${esc(p.funding_note||'')}</div>
-      </div>
-      ${s.research_fit_note?`<div class="small" style="margin-top:8px">${esc(s.research_fit_note)}</div>`:''}
-      ${s.notes?`<div class="small" style="margin-top:4px">${esc(typeof s.notes==='string'?s.notes:JSON.stringify(s.notes))}</div>`:''}
-      <details><summary>Professors (${(s.professors||[]).length})</summary><ul class="profs">${profs}</ul></details>
-    </div>`}).join('');
-}
+  const q=st['ms.q'].toLowerCase();
+  let L=S.filter(s=>any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(!q||JSON.stringify(s).toLowerCase().includes(q)));
+  const key={theory:s=>[-theoryN(s),-(s.n_professors||0)],profs:s=>[-(s.n_professors||0),-theoryN(s)],core:s=>[-coreCount(s),0],deadline:s=>[nextMS(s),0],cost:s=>[myCost(s)??1e12,0]}[st['ms.sort']]||(s=>[0,0]);
+  L.sort((a,b)=>{const x=key(a),y=key(b);for(let i=0;i<2;i++){if(x[i]<y[i])return -1;if(x[i]>y[i])return 1}return 0});
+  $('#ms-count').textContent=`${L.length} of ${S.length} schools · ${L.reduce((a,s)=>a+(s.n_professors||0),0)} professors (${L.reduce((a,s)=>a+theoryN(s),0)} theory-venue)`;
+  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,cardMS);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
+  $('#ms-list').innerHTML=L.map(cardMS).join('')}
+// ---------- internships ----------
 const reachRank={'Reachable':0,'Moderate':1,'Hard':2,'Very hard':3};
 const prestRank={'Top':0,'Strong':1,'Good':2};
 function diffChip(d){const c={'Reachable':'good','Moderate':'good','Hard':'warn','Very hard':'bad'}[d]||'';return `<span class="chip ${c}">${esc(d||'?')} for you</span>`}
+const statusOf=x=>(x.status!=='closed'&&(x.deadline_iso?dleft(x.deadline_iso)<0:(!!x.priority_iso&&dleft(x.priority_iso)<0)))?'closed':(x.status||'not yet posted');
+const nextDate=x=>{for(const k of ['priority_iso','deadline_iso']){if(x[k]&&dleft(x[k])>=0)return x[k]}return null};
+function deadlineHTML(x){const a=[];if(x.priority_iso)a.push(`Priority ${fmt(x.priority_iso)} (${leftTxt(dleft(x.priority_iso))})`);if(x.deadline_iso)a.push(`${x.deadline_kind==='posting end'?'Posting ends':'Final'} ${fmt(x.deadline_iso)} (${leftTxt(dleft(x.deadline_iso))})`);if(x.opens_iso)a.push(`Opens ${fmt(x.opens_iso)}`);
+  return `${a.length?'<b>'+a.join(' · ')+'</b><br>':''}${more(x.deadline_summer_2027||(a.length?'':'not posted yet'),140)}${x.deadline_iso_note?`<div class="small">${esc(x.deadline_iso_note)}</div>`:''}<div class="small">${more(x.deadline_last_year_or_typical_window||'',120)}</div>`}
+function cardIN(x){const s=statusOf(x);return `<div class="card">
+  <div class="row"><div class="title">${link(x.url,(x.org||'')+' · '+(x.program_name||''))}</div><div class="meta">${esc(x.location||'')}</div></div>
+  <div class="chips">${x.top_pick?`<span class="chip good">Top pick #${x.top_pick}</span>`:''}<span class="chip ${s==='closed'?'bad':s==='open'?'good':''}">${esc(s)}</span><span class="chip">${esc(x.category||'')}</span><span class="chip">${esc(x.prestige_tier||'?')} prestige</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span>${(x.location_bucket||[]).map(b=>`<span class="chip">${esc(b)}</span>`).join('')}</div>
+  <div class="kv">
+    <div>Area</div><div>${more(x.focus_area,120)}</div>
+    <div>Deadline</div><div>${deadlineHTML(x)}</div>
+    <div>Paper required?</div><div>${more(x.publications_expected,120)}</div>
+    <div>Letters?</div><div>${more(x.letters_of_recommendation,120)}</div>
+    <div>Eligibility</div><div>${more(x.eligibility,120)}</div>
+    <div>Pay</div><div>${more(x.pay,120)}</div>
+    <div>Why this prestige</div><div>${more(x.prestige_justification,100)}</div>
+    <div>My honest read</div><div>${more(x.difficulty_reason,120)}</div>
+  </div>
+  ${x.notes?`<div class="small" style="margin-top:6px">${more(x.notes,160)}</div>`:''}
+</div>`}
+const dsort=x=>{const n=nextDate(x);return n?dleft(n):(statusOf(x)==='closed'?2e5:1e5)};
+const INCOLS=[
+  {k:'name',h:'Org · program',v:x=>esc(x.org+' · '+x.program_name),s:x=>x.org},
+  {k:'pick',h:'Pick',v:x=>x.top_pick?'#'+x.top_pick:'',s:x=>x.top_pick??99},
+  {k:'dl',h:'Next deadline',v:x=>{const n=nextDate(x);return n?`${fmt(n)} <span class="left ${leftCls(dleft(n))}">${leftTxt(dleft(n))}</span>`:`<span class="small">${esc(statusOf(x))}</span>`},s:dsort},
+  {k:'elig',h:'MS eligible',v:x=>esc(x.ms_students_eligible||'unclear'),s:x=>({yes:0,unclear:1,no:2})[x.ms_students_eligible]??1},
+  {k:'diff',h:'Difficulty',v:x=>esc(x.difficulty_for_sahmoud||''),s:x=>reachRank[x.difficulty_for_sahmoud]??9},
+  {k:'prest',h:'Prestige',v:x=>esc(x.prestige_tier||''),s:x=>prestRank[x.prestige_tier]??9},
+  {k:'cat',h:'Category',v:x=>esc(x.category),s:x=>x.category},
+  {k:'loc',h:'Location',v:x=>esc((x.location_bucket||[]).join(', ')),s:x=>(x.location_bucket||[]).join()}];
 function renderIN(){
-  const q=$('#in-q').value.toLowerCase(),c=$('#in-cat').value,ms=$('#in-ms').value,d=$('#in-diff').value,so=$('#in-sort').value;
-  let L=I.filter(x=>(!c||x.category===c)&&(!ms||x.ms_students_eligible===ms)&&(!d||x.difficulty_for_sahmoud===d)&&(!q||JSON.stringify([x.org,x.program_name,x.focus_area,x.location]).toLowerCase().includes(q)));
-  const k=so==='picks'?x=>[x.top_pick??99,reachRank[x.difficulty_for_sahmoud]??9]:so==='reach'?x=>[reachRank[x.difficulty_for_sahmoud]??9,prestRank[x.prestige_tier]??9]:x=>[prestRank[x.prestige_tier]??9,reachRank[x.difficulty_for_sahmoud]??9];
+  const q=st['in.q'].toLowerCase();
+  let L=I.filter(x=>any(st['in.elig'],x.ms_students_eligible||'unclear')&&any(st['in.status'],statusOf(x))&&any(st['in.cat'],x.category)&&any(st['in.loc'],x.location_bucket||[])&&any(st['in.diff'],x.difficulty_for_sahmoud)&&any(st['in.prest'],x.prestige_tier)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+  const so=st['in.sort'];
+  const k=so==='picks'?x=>[x.top_pick??99,reachRank[x.difficulty_for_sahmoud]??9]:so==='reach'?x=>[reachRank[x.difficulty_for_sahmoud]??9,prestRank[x.prestige_tier]??9]:so==='deadline'?x=>[dsort(x),reachRank[x.difficulty_for_sahmoud]??9]:x=>[prestRank[x.prestige_tier]??9,reachRank[x.difficulty_for_sahmoud]??9];
   L.sort((a,b)=>{const x=k(a),y=k(b);return x[0]-y[0]||x[1]-y[1]});
-  $('#in-count').textContent=`${L.length} of ${I.length} programs`;
-  $('#in-list').innerHTML=L.map(x=>`<div class="card">
-    <div class="row"><div class="title">${link(x.url,(x.org||'')+' · '+(x.program_name||''))}</div><div class="meta">${esc(x.location||'')}</div></div>
-    <div class="chips">${x.top_pick?`<span class="chip good">Top pick #${x.top_pick}</span>`:''}<span class="chip">${esc(x.category||'')}</span><span class="chip">${esc(x.prestige_tier||'?')} prestige</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span></div>
-    <div class="kv">
-      <div>Area</div><div>${esc(x.focus_area||'')}</div>
-      <div>Deadline</div><div>${esc(x.deadline_summer_2027||'not posted yet')}<div class="small">${esc(x.deadline_last_year_or_typical_window||'')}</div></div>
-      <div>Paper required?</div><div>${esc(x.publications_expected||'')}</div>
-      <div>Letters?</div><div>${esc(x.letters_of_recommendation||'')}</div>
-      <div>Eligibility</div><div>${esc(x.eligibility||'')}</div>
-      <div>Pay</div><div>${esc(x.pay||'')}</div>
-      <div>Why this prestige</div><div>${esc(x.prestige_justification||'')}</div>
-      <div>My honest read</div><div>${esc(x.difficulty_reason||'')}</div>
-    </div>
-    ${x.notes?`<div class="small" style="margin-top:6px">${esc(typeof x.notes==='string'?x.notes:JSON.stringify(x.notes))}</div>`:''}
-  </div>`).join('');
-}
-function opts(sel,vals){const s=$(sel);[...new Set(vals.filter(Boolean))].sort().forEach(v=>s.insertAdjacentHTML('beforeend',`<option>${esc(v)}</option>`))}
-Promise.all(['schools.json','internships.json','methodology.md','internships_method.md'].map(f=>fetch(f).then(r=>f.endsWith('json')?r.json():r.text()))).then(([s,i,m1,m2])=>{
-  S=s;I=i;opts('#ms-region',S.map(x=>x.region));opts('#in-cat',I.map(x=>x.category));opts('#in-diff',I.map(x=>x.difficulty_for_sahmoud));
-  $('#me-ms').textContent=m1;$('#me-in').textContent=m2;
-  ['#ms-q','#ms-region','#ms-thesis','#ms-sort'].forEach(id=>$(id).addEventListener('input',renderMS));
-  ['#in-q','#in-cat','#in-ms','#in-diff','#in-sort'].forEach(id=>$(id).addEventListener('input',renderIN));
-  renderMS();renderIN();
-  try{const t=localStorage.getItem('tab');if(t)tab(t)}catch(e){}
+  $('#in-count').textContent=`${L.length} of ${I.length} programs shown`;
+  if(st['in.view']==='table'){const t=table('in',L,INCOLS,cardIN,x=>statusOf(x)==='closed'?'past':'');$('#in-list').innerHTML=t.html;t.bind($('#in-list'));return}
+  $('#in-list').innerHTML=L.map(cardIN).join('')}
+// ---------- timeline ----------
+function events(){const E=[];
+  for(const s of S){const p=s.program||{},nm=s.short||s.school;
+    if(p.priority_iso)E.push({d:p.priority_iso,kind:'MS',pf:'Priority',t:nm+' · MS',u:p.deadline_url,n:p.deadline_note,ok:true});
+    if(p.deadline_iso)E.push({d:p.deadline_iso,kind:'MS',pf:'Final',t:nm+' · MS',u:p.deadline_url,n:p.deadline_note,ok:true});
+    const ph=s.phd_direct;if(ph&&ph.deadline_iso)E.push({d:ph.deadline_iso,kind:'PhD',pf:'Final',t:nm+' · PhD (apply direct)',u:ph.url,n:ph.note,ok:true})}
+  for(const x of I){const nm=x.org+' · '+x.program_name,ok=x.ms_students_eligible!=='no';
+    if(x.priority_iso)E.push({d:x.priority_iso,kind:'Internship',pf:'Priority',t:nm,u:x.url,n:x.deadline_summer_2027,ok});
+    if(x.deadline_iso)E.push({d:x.deadline_iso,kind:'Internship',pf:x.deadline_kind==='posting end'?'Posting ends':'Final',t:nm,u:x.url,n:x.deadline_summer_2027,ok});
+    if(x.opens_iso)E.push({d:x.opens_iso,kind:'Internship',pf:'Opens',t:nm,u:x.url,n:x.deadline_summer_2027,ok})}
+  for(const f of (R.funding||[]))for(const dd of (f.dates||[]))E.push({d:dd.iso,kind:'Funding',pf:dd.label||'Final',t:f.name,u:f.url,n:f.note,ok:f.eligible!==false});
+  return E.sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:0)}
+function renderTL(){const past=st['tl.past']==='1',ok=st['tl.ok']==='1';
+  const E=events().filter(e=>any(st['tl.kind'],e.kind)&&(past||dleft(e.d)>=0)&&(!ok||e.ok));
+  $('#tl-count').textContent=`${E.length} dates · next 30 days: ${E.filter(e=>{const n=dleft(e.d);return n>=0&&n<=30}).length}`;
+  $('#tl-list').innerHTML=E.map(e=>{const n=dleft(e.d);return `<div class="tl${n<0?' past':''}"><div class="d">${fmt(e.d)}</div><div class="left ${leftCls(n)}">${leftTxt(n)}</div><div class="what"><span class="chip ${e.pf==='Final'?'warn':e.pf==='Priority'?'good':''}">${esc(e.pf)}</span> <span class="chip">${esc(e.kind)}</span> ${link(e.u,e.t)}${e.n?`<div class="small">${more(e.n,110)}</div>`:''}</div></div>`}).join('')||'<div class="tl"><div></div><div></div><div class="small">Nothing matches.</div></div>'}
+// ---------- other routes ----------
+function srcs(a){return (a||[]).map((u,i)=>link(u,'source'+(a.length>1?' '+(i+1):''))).join(' · ')}
+function renderOR(){const r=R;let h='';
+  if(r.situation){h+=`<div class="card situ"><div class="title">Your situation</div><div class="kv">${r.situation.map(x=>`<div>${esc(x.label)}</div><div>${esc(x.text)} ${srcs(x.sources)}</div>`).join('')}</div></div>`}
+  if(r.summer_ra){h+=`<h3>Summer research arranged directly with a professor</h3>${r.summer_ra_intro?`<p class="small">${esc(r.summer_ra_intro)}</p>`:''}`+r.summer_ra.map(x=>`<div class="card"><div class="row"><div class="title">${link(x.url,x.name)}</div><div class="meta">${esc(x.where||'')}</div></div><div class="small">${esc(x.note||'')} ${srcs(x.sources)}</div></div>`).join('');
+    if(r.how_to_approach)h+=`<div class="card"><div class="title">How to approach a professor</div><ol>${r.how_to_approach.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`}
+  if(r.math_routes){h+=`<h3>Math-department routes</h3>${r.math_intro?`<p class="small">${esc(r.math_intro)}</p>`:''}`+r.math_routes.map(x=>`<div class="card"><div class="row"><div class="title">${link(x.url,x.name)}</div><div class="meta">${esc(x.school)}</div></div><div class="chips">${(x.topics||[]).map(t=>`<span class="chip">${esc(t)}</span>`).join('')}${x.ms_url?`<span class="chip good">${link(x.ms_url,'math MS here')}</span>`:''}</div><div class="small">${esc(x.note||'')} ${srcs(x.sources)}</div></div>`).join('')}
+  if(r.funding){h+=`<h3>Funding</h3>`+r.funding.map(x=>`<div class="card"><div class="row"><div class="title">${link(x.url,x.name)}</div><div class="meta">${(x.dates||[]).map(d=>esc(d.label+' '+fmt(d.iso))+' ('+leftTxt(dleft(d.iso))+')').join(' · ')}</div></div><div class="small">${esc(x.note||'')} ${srcs(x.sources)}</div></div>`).join('')}
+  $('#or-body').innerHTML=h}
+// ---------- tiny markdown -> HTML ----------
+function inl(s){return esc(s).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/(^|[^*\w])\*([^*\s][^*]*)\*/g,'$1<i>$2</i>').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/(^|[\s(])(https?:\/\/[^\s)<,;]+)/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>')}
+function md(src){const L=src.replace(/\r/g,'').split('\n');let o='',i=0;
+  while(i<L.length){const l=L[i];
+    if(!l.trim()){i++;continue}
+    let m=l.match(/^(#{1,6})\s+(.*)/);if(m){const n=Math.min(m[1].length+1,6);o+=`<h${n}>${inl(m[2])}</h${n}>`;i++;continue}
+    if(/^\s*\|/.test(l)&&L[i+1]&&/^\s*\|?\s*:?-{2,}/.test(L[i+1])){const cells=r=>r.trim().replace(/^\||\|$/g,'').split('|').map(c=>c.trim());
+      o+='<div class="tblwrap"><table><thead><tr>'+cells(l).map(c=>`<th>${inl(c)}</th>`).join('')+'</tr></thead><tbody>';i+=2;
+      while(i<L.length&&/^\s*\|/.test(L[i])){o+='<tr>'+cells(L[i]).map(c=>`<td>${inl(c)}</td>`).join('')+'</tr>';i++}o+='</tbody></table></div>';continue}
+    if(/^\s*([-*]|\d+\.)\s+/.test(l)){const stack=[];
+      while(i<L.length&&(/^\s*([-*]|\d+\.)\s+/.test(L[i])||(L[i].trim()&&/^\s{2,}/.test(L[i])))){const mm=L[i].match(/^(\s*)([-*]|\d+\.)\s+(.*)/);
+        if(!mm){o+=' '+inl(L[i].trim());i++;continue}
+        const ind=mm[1].length,tag=/\d/.test(mm[2])?'ol':'ul';
+        while(stack.length&&ind<stack[stack.length-1].ind){o+=`</li></${stack.pop().tag}>`}
+        if(!stack.length||ind>stack[stack.length-1].ind){stack.push({ind,tag});o+=`<${tag}><li>`}else o+='</li><li>';
+        o+=inl(mm[3]);i++}
+      while(stack.length)o+=`</li></${stack.pop().tag}>`;continue}
+    let p=[];while(i<L.length&&L[i].trim()&&!/^(#{1,6}\s|\s*\||\s*([-*]|\d+\.)\s)/.test(L[i])){p.push(L[i].trim());i++}
+    if(p.length)o+=`<p>${inl(p.join(' '))}</p>`;else{o+=`<p>${inl(l)}</p>`;i++}}
+  return o}
+// ---------- boot ----------
+const uniq=a=>[...new Set(a.filter(Boolean))].sort().map(v=>[v,v]);
+function update(){syncCtl();renderMS();renderIN();renderTL();writeHash()}
+Promise.all(['schools.json','internships.json','routes.json','methodology.md','internships_method.md'].map(f=>fetch(f).then(r=>f.endsWith('json')?r.json():r.text()))).then(([s,i,r,m1,m2])=>{
+  S=s;I=i;R=r;
+  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic, notes…'],['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','Thesis',[['yes','yes'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['funded','Funded MS (≈$0)'],['ca','CA public (resident tuition)'],['phd','PhD-direct is the route'],['ms','Has an MS to apply to']]],
+    ['sel','ms.sort','',[['theory','Sort: most theory-venue professors'],['profs','Sort: most crypto professors (all)'],['core','Sort: most theory papers'],['deadline','Sort: next upcoming deadline'],['cost','Sort: lowest tuition for me']]],['view','ms.view']]);
+  buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, eligibility…'],['m','in.elig','Can I apply? MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
+    ['m','in.cat','Category',uniq(I.map(x=>x.category))],['m','in.loc','Location',['NYC','Chicago','Bay Area','SoCal','Remote','International','Other'].map(v=>[v,v])],['m','in.diff','Difficulty',['Reachable','Moderate','Hard','Very hard'].map(v=>[v,v])],['m','in.prest','Prestige',['Top','Strong','Good'].map(v=>[v,v])],
+    ['sel','in.sort','',[['picks','Sort: my top picks first'],['deadline','Sort: deadline (soonest first)'],['reach','Sort: most reachable first'],['prestige','Sort: most prestigious first']]],['view','in.view']]);
+  buildCtl($('#tl-ctl'),[['m','tl.kind','Type',[['MS','MS programs'],['PhD','PhD-direct'],['Internship','Internships / summer'],['Funding','Funding']]],['ck','tl.past','show past'],['ck','tl.ok','only ones I can apply to']]);
+  $('#me-ms').innerHTML=md(m1);$('#me-in').innerHTML=md(m2);
+  readHash();renderOR();update();tab(st.tab);
+  window.addEventListener('hashchange',()=>{readHash();update();tab(st.tab)});
 });
 </script>
 </body>

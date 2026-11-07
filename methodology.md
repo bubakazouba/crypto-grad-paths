@@ -1,6 +1,6 @@
 # US master's programs leading into cryptography research: methodology
 
-Retrieval date: 2026-11-06. Dataset: `schools.json` in this folder. It has 57 schools and 127 professors.
+Retrieval date: 2026-11-06. Dataset: `schools.json` in this folder. It has 59 schools and 136 professors (57 schools and 127 professors from the original pass, plus the corrections from the 2026-11-06 independent review; see section 6).
 
 ## 1. Professor and school selection
 
@@ -41,7 +41,8 @@ Seven parallel research passes collected program data from official university p
 
 **Tuition**
 - Tuition only, using the published 2026-27 rate. Fall 2027 entrants will likely pay somewhat higher 2027-28 rates.
-- Public schools use the out-of-state rate.
+- `total_tuition_usd` is the out-of-state rate for public schools. For the six UCs, `total_tuition_resident_usd` adds the California-resident total ($30,132 = tuition + Student Services Fee over 2 years at 2026-27 UCOP rates), which the site shows first because Sahmoud is a CA resident.
+- `net_cost_note` marks programs that fund MS students (Cornell, Yale 2-year, Princeton).
 - `tuition_basis` gives the arithmetic (per-credit x credits, or per-term x terms) and the term-count assumption.
 - Totals are estimates and depend on how long he takes.
 
@@ -72,7 +73,7 @@ Seven parallel research passes collected program data from official university p
   - Columbia's MS thesis track is by faculty invitation.
   - CMU and Cornell say their MS is not a path into their PhD.
   - UNC tells PhD-bound applicants to apply to the PhD directly.
-- **California residency.** UC totals include Nonresident Supplemental Tuition as specified. Sahmoud is a California resident, so the real UC tuition is likely much lower.
+- **California residency.** Fixed 2026-11-06: UC rows now carry resident totals, and all six UC non-resident totals use the same basis (tuition + SSF + NRST, 2 years = $60,336).
 - **Funded MS programs.** Cornell (TA plus stipend) and Yale (tuition fellowship for TA work) fund their MS students, so the listed tuition overstates the real cost.
 
 ## 5. Spot-checks
@@ -98,3 +99,15 @@ Seven parallel research passes collected program data from official university p
 | 5 | Maryland | $1,916 per credit, non-resident | "$1,916.00 per credit hour" (billpay.umd.edu) | Match |
 
 Oregon State's $12,015 per term appears in the official table, but the column header could not be cleanly attributed from text extraction, so it was not counted as a check.
+
+## 6. Corrections after the independent review (2026-11-06)
+
+- **Faculty added by hand** (counts from the same dblp SPARQL query, venues and years as above):
+  - Stanford: Mark Zhandry (36 theory-venue papers) and Emma Dauterman (applied; below threshold).
+  - UIC: Daniel J. Bernstein (3 + 1) and Anrin Chakraborti (below threshold).
+  - New row, University of Chicago: David Cash and Aloni Cohen. Both are below the paper threshold, which is why the CSrankings pass missed them.
+  - New row, Cornell Tech (NYC): Rafael Pass, Ari Juels and Thomas Ristenpart. Ristenpart is on leave at Toronto from January 2026.
+- **Links fixed:** the UW homepage links for Tessaro and Lin now point to UW.
+- **Structured dates:** `program.deadline_iso` (final) and `program.priority_iso` (early, priority or round 1) were added alongside the original `deadline_fall2027` (earliest stated).
+- **PhD-direct:** a `phd_direct` object {deadline, deadline_iso, url, note} was added where applying straight to the PhD is the real route. That covers MIT, Princeton, Harvard, Berkeley, CMU, Cornell, Cornell Tech, Stanford, Wisconsin, UW, UT Austin, Columbia and NYU. The UNC and UChicago PhD dates were not verified.
+- **Your admit:** `his_note` on USC records the unused admit and the deferral policy.

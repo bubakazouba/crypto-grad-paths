@@ -105,7 +105,9 @@
    "deadline_url": "https://csd.cmu.edu/academics/masters/admissions",
    "gre": "strongly recommended (not strictly required): 'The GRE is strongly recommended... If you cannot provide GRE scores, please briefly explain in your statement of purpose.'",
    "app_fee_usd": 100,
-   "funding_note": "'Scholarships and financial assistance to the Master of Science Program are not offered by the program at this time.'"
+   "funding_note": "'Scholarships and financial assistance to the Master of Science Program are not offered by the program at this time.'",
+   "priority_iso": "2026-11-18",
+   "deadline_iso": "2026-12-09"
   },
   "alt_programs": [
    {
@@ -141,7 +143,15 @@
    "https://www.cmu.edu/ini/academics/msis/index.html",
    "https://csd.cmu.edu/people/faculty/vipul-goyal",
    "https://www.cs.cmu.edu/~goyal/"
-  ]
+  ],
+  "short": "Carnegie Mellon University",
+  "phd_direct": {
+   "deadline": "2026-12-09",
+   "deadline_iso": "2026-12-09",
+   "priority_iso": "2026-11-18",
+   "url": "https://csd.cmu.edu/academics/doctoral/admissions",
+   "note": "CSD PhD: final Dec 9, 2026 (3 p.m. EST), early Nov 18, 2026. \"A master's degree is not required to apply.\" GRE optional. The MS page says MS students \"will not usually continue into the Ph.D. program.\""
+  }
  },
  {
   "school": "New York University",
@@ -249,7 +259,9 @@
    "deadline_url": "https://gsas.nyu.edu/admissions/arc/programs/computer-science.html",
    "gre": "optional: 'Applicants are not expected or required to submit GRE scores' (GRE Optional list includes M.S. in Computer Science)",
    "app_fee_usd": null,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": "2027-02-12"
   },
   "alt_programs": [
    {
@@ -285,7 +297,15 @@
    "https://cs.nyu.edu/home/master/forms/MSCS_DEGREE_REQUIREMENTS_FORM_2024__36_credits_with_concentration_.pdf",
    "https://engineering.nyu.edu/academics/programs/computer-science-ms",
    "https://engineering.nyu.edu/academics/programs/cybersecurity-ms"
-  ]
+  ],
+  "short": "New York University",
+  "phd_direct": {
+   "deadline": "2026-12-12",
+   "deadline_iso": "2026-12-12",
+   "priority_iso": null,
+   "url": "https://cs.nyu.edu/home/phd/admission.html",
+   "note": "\"The deadline for applications is December 12.\" (year not printed). GRE not expected."
+  }
  },
  {
   "school": "Boston University",
@@ -377,7 +397,9 @@
    "deadline_url": "https://www.bu.edu/cs/masters/ms-admissions/on-campus-admissions/",
    "gre": "optional: 'Submission of GRE General test scores is optional.'",
    "app_fee_usd": 95,
-   "funding_note": "'All admitted MS students will be considered for our merit-based scholarships'; 'Merit-based scholarships are generally between $5,000 and $30,000 per semester of full-time study.' No TA/RA statement for MS found."
+   "funding_note": "'All admitted MS students will be considered for our merit-based scholarships'; 'Merit-based scholarships are generally between $5,000 and $30,000 per semester of full-time study.' No TA/RA statement for MS found.",
+   "priority_iso": null,
+   "deadline_iso": "2027-03-15"
   },
   "alt_programs": [
    {
@@ -406,7 +428,8 @@
    "https://www.bu.edu/cs/masters/ms-admissions/",
    "https://www.bu.edu/cs/masters/ms-admissions/on-campus-admissions/",
    "https://www.bu.edu/cas/admissions/ma-ms/tuition-mandatory-fees/"
-  ]
+  ],
+  "short": "Boston University"
  },
  {
   "school": "Georgia Institute of Technology",
@@ -500,7 +523,9 @@
    "deadline_url": "https://www.cc.gatech.edu/ms-computer-science-admissions-faq",
    "gre": "not required: 'A GRE score is not required for admission to the MSCS program. If provided, GRE scores will be considered.'",
    "app_fee_usd": 95,
-   "funding_note": "'The College does not offer financial aid to students entering this program... Master's students are not guaranteed funding but frequently receive compensation after establishing a good working relationship with a faculty member.' GRA/GTA positions bring a tuition waiver and a stipend."
+   "funding_note": "'The College does not offer financial aid to students entering this program... Master's students are not guaranteed funding but frequently receive compensation after establishing a good working relationship with a faculty member.' GRA/GTA positions bring a tuition waiver and a stipend.",
+   "priority_iso": null,
+   "deadline_iso": "2027-02-01"
   },
   "alt_programs": [
    {
@@ -529,7 +554,8 @@
    "https://grad.gatech.edu/admissions/domestic/ready-to-apply",
    "https://www.cc.gatech.edu/degree-programs/master-science-cybersecurity",
    "https://catalog.gatech.edu/programs/cybersecurity-ms/"
-  ]
+  ],
+  "short": "Georgia Institute of Technology"
  },
  {
   "school": "University of Illinois Urbana-Champaign",
@@ -620,7 +646,9 @@
    "deadline_url": "https://siebelschool.illinois.edu/admissions/graduate/application-deadlines",
    "gre": "not required: 'Not required for any degree program. Students may submit scores at their preference.'",
    "app_fee_usd": 90,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": "2026-12-01"
   },
   "alt_programs": [
    {
@@ -648,7 +676,8 @@
    "https://siebelschool.illinois.edu/admissions/graduate/application-checklist",
    "https://www.registrar.illinois.edu/tuition-fees/tuition-fee-rates/tf-rates-academic-year/",
    "https://registrar.illinois.edu/g-tuition-rates-2627/"
-  ]
+  ],
+  "short": "University of Illinois Urbana-Champaign"
  },
  {
   "school": "George Mason University",
@@ -725,7 +754,9 @@
    "deadline_url": "https://itsapps.gmu.edu/graduate-deadlines-and-requirements/Programs/Details/0u2Kb000000oMgfIAE",
    "gre": "not required: the program's application requirements list only transcripts, goals statement, recommendation letters and resume. The CEC FAQ says 'most of our graduate programs in CEC do not require a GRE for admission review'. The Mason Online MS CS page says 'Neither the GRE nor the GMAT is required for admission.'",
    "app_fee_usd": 75,
-   "funding_note": "The CS department offers 'a limited number of paid (hourly wage) grader positions and merit scholarships' for incoming MS-CS students 'based on availability of funds'. 'We do not grant Graduate Teaching Assistant (GTA) positions in students' first semesters.'"
+   "funding_note": "The CS department offers 'a limited number of paid (hourly wage) grader positions and merit scholarships' for incoming MS-CS students 'based on availability of funds'. 'We do not grant Graduate Teaching Assistant (GTA) positions in students' first semesters.'",
+   "priority_iso": null,
+   "deadline_iso": "2027-03-15"
   },
   "alt_programs": [
    {
@@ -751,7 +782,8 @@
    "https://www.gmu.edu/graduate/apply",
    "https://cec.gmu.edu/admissions/graduate-admissions/frequently-asked-questions",
    "https://cec.gmu.edu/admissions/financial-aid/graduate-funding-opportunities-computer-science"
-  ]
+  ],
+  "short": "George Mason University"
  },
  {
   "school": "Purdue University (West Lafayette)",
@@ -830,7 +862,9 @@
    "deadline_url": "https://www.cs.purdue.edu/graduate/admission/steps.html",
    "gre": "not required: 'GRE scores are not required.'",
    "app_fee_usd": 60,
-   "funding_note": "Funding page: 'Students with potential for obtaining a doctoral degree are given priority. It is possible to be admitted without support.' 'In the Fall of 2023, all of the incoming PhD students and selected MS students are supported by fellowships and assistantships.' CS faculty may award research assistantships."
+   "funding_note": "Funding page: 'Students with potential for obtaining a doctoral degree are given priority. It is possible to be admitted without support.' 'In the Fall of 2023, all of the incoming PhD students and selected MS students are supported by fellowships and assistantships.' CS faculty may award research assistantships.",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-01"
   },
   "alt_programs": [
    {
@@ -857,7 +891,8 @@
    "https://www.purdue.edu/academics/ogsps/admissions/how-to-apply/",
    "https://www.purdue.edu/treasurer/finance/bursar-office/tuition/fee-rates-2026-2027/graduate-tuition-and-fees-2026-2027/",
    "https://www.cerias.purdue.edu/site/education/graduate_program/"
-  ]
+  ],
+  "short": "Purdue University"
  },
  {
   "school": "University of California San Diego",
@@ -928,15 +963,24 @@
    "url": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
    "length": "'For full-time students, all the requirements can be completed within one to two years' (min. three quarters residency)",
    "thesis": "yes",
-   "total_tuition_usd": 57648,
-   "tuition_basis": "2026-27 graduate rates: Tuition $4,574 + Nonresident Supplemental Tuition $5,034 = $9,608 per quarter x 6 quarters (2 years). 1-year completion would be $28,824. Tuition only; excludes Student Services Fee, campus fees and health insurance.",
+   "total_tuition_usd": 60336,
+   "tuition_basis": "2026-27 nonresident: Tuition $4,574 + SSF $448 + Nonresident Supplemental Tuition $5,034 per quarter x 6 = $60,336. Same 2-year, tuition+SSF basis at every UC (was $57,648 on a mixed basis before the 2026-11-06 review). Campus fees excluded.",
    "tuition_url": "https://students.ucsd.edu/finances/fees/registration/2026-27/graduate.html",
    "deadline_fall2027": "2026-12-16",
    "deadline_note": "'Fall 2027 admission from September 2, 2026 until December 16, 2026 at 11:59 p.m. PST.' Department fee-waiver form closes December 2, 2026.",
    "deadline_url": "https://cse.ucsd.edu/graduate/admissions",
    "gre": "not required: 'The GRE is not required for PhD and MS applications for Fall 2027.'",
    "app_fee_usd": 135,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": "2026-12-16",
+   "total_tuition_resident_usd": 30132,
+   "resident_basis": "2026-27 UCOP systemwide graduate rates, California resident: Tuition $4,574 + Student Services Fee $448 per quarter x 6 quarters = $30,132 (tuition alone $27,444). Campus fees and health insurance excluded. The MS CS is not on the UCOP 2026-27 PDST list (inferred from absence). 2027-28 rates not yet published.",
+   "resident_url": "https://students.ucsd.edu/finances/fees/registration/2026-27/graduate.html",
+   "resident_sources": [
+    "https://students.ucsd.edu/finances/fees/registration/2026-27/graduate.html",
+    "https://ucop.edu/operating-budget/_files/fees/202627/2026-27.pdf"
+   ]
   },
   "alt_programs": [
    {
@@ -961,7 +1005,8 @@
    "https://students.ucsd.edu/finances/fees/registration/2026-27/graduate.html",
    "https://students.ucsd.edu/finances/fees/registration/2026-27/self-supporting.html",
    "https://grad.ucsd.edu/admissions/admission-faq/faq-application-fee.html"
-  ]
+  ],
+  "short": "University of California San Diego"
  },
  {
   "school": "University of California, Berkeley",
@@ -1031,15 +1076,24 @@
    "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
    "length": "2-year M.S. ('The 2-year M.S. degree in EECS')",
    "thesis": "yes",
-   "total_tuition_usd": 57648,
-   "tuition_basis": "2026-27 Graduate: Academic, nonresident: Tuition $6,861 + Nonresident Supplemental Tuition $7,551 = $14,412 per semester x 4 semesters. Tuition only; excludes campus/student services/health fees.",
+   "total_tuition_usd": 60336,
+   "tuition_basis": "2026-27 nonresident: Tuition $6,861 + SSF $672 + Nonresident Supplemental Tuition $7,551 per semester x 4 = $60,336. Same 2-year, tuition+SSF basis at every UC (was $57,648 on a mixed basis before the 2026-11-06 review). Campus fees excluded.",
    "tuition_url": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
    "deadline_fall2027": "2026-12-01",
    "deadline_note": "'The deadline to apply is December 1, 2026, at 8:59 pm PST.' (same deadline for M.S., M.S./Ph.D., Ph.D.)",
    "deadline_url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
    "gre": "not accepted: 'Berkeley EECS no longer requires, nor accepts, GRE scores.'",
    "app_fee_usd": 135,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": "2026-12-01",
+   "total_tuition_resident_usd": 30132,
+   "resident_basis": "2026-27 UCOP systemwide graduate rates, California resident: Tuition $6,861 + Student Services Fee $672 per semester x 4 semesters = $30,132 (tuition alone $27,444). Campus fees and health insurance excluded. The MS CS is not on the UCOP 2026-27 PDST list (inferred from absence). 2027-28 rates not yet published.",
+   "resident_url": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+   "resident_sources": [
+    "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+    "https://ucop.edu/operating-budget/_files/fees/202627/2026-27.pdf"
+   ]
   },
   "alt_programs": [
    {
@@ -1070,7 +1124,15 @@
    "https://eecs.berkeley.edu/academics/graduate/industry-programs/meng/",
    "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
    "https://grad.berkeley.edu/admissions/application-process/faq/"
-  ]
+  ],
+  "short": "University of California, Berkeley",
+  "phd_direct": {
+   "deadline": "2026-12-01",
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
+   "note": "Same Dec 1, 2026 (8:59 pm PST) deadline as the M.S. Berkeley says \"Applicants should consider applying to the MS/PhD program, since there are very few students in the M.S. only program.\" GRE not accepted."
+  }
  },
  {
   "school": "University of Connecticut (Storrs)",
@@ -1141,7 +1203,9 @@
    "deadline_url": "https://computing.engineering.uconn.edu/graduate-studies/masters-programs/master-of-science-ms/",
    "gre": "required: 'GRE scores are required for all M.S. applicants except for students in the 5-year B.S./M.S. program'",
    "app_fee_usd": 75,
-   "funding_note": "'M.S. students may be eligible for fellowships and assistantships.' The MS page also says students holding teaching or research assistantships often finish in four semesters or fewer. No guarantee is stated."
+   "funding_note": "'M.S. students may be eligible for fellowships and assistantships.' The MS page also says students holding teaching or research assistantships often finish in four semesters or fewer. No guarantee is stated.",
+   "priority_iso": null,
+   "deadline_iso": "2027-01-01"
   },
   "alt_programs": [
    {
@@ -1170,7 +1234,8 @@
    "https://bursar.uconn.edu/tuition-fees/graduate/",
    "https://bursar.media.uconn.edu/wp-content/uploads/sites/3730/2026/07/2026-2027-Graduate-Program-Rates.xlsx",
    "https://grad.uconn.edu/admissions/apply-to-uconn/"
-  ]
+  ],
+  "short": "University of Connecticut"
  },
  {
   "school": "University of Maryland, College Park",
@@ -1249,7 +1314,9 @@
    "deadline_url": "https://www.cs.umd.edu/grad/apply",
    "gre": "not required: 'GRE scores are not required.'",
    "app_fee_usd": 90,
-   "funding_note": "Not guaranteed. The MS page says 'the MS program does not guarantee funding as part of the admission offer'. MS students may apply for hourly CMSC TA jobs ('with no graduate assistantship benefits, tuition remission or health insurance'). 'All M.S. students, including first-year students, are eligible for graduate assistantship appointments' as faculty-appointed RAs, depending on funding."
+   "funding_note": "Not guaranteed. The MS page says 'the MS program does not guarantee funding as part of the admission offer'. MS students may apply for hourly CMSC TA jobs ('with no graduate assistantship benefits, tuition remission or health insurance'). 'All M.S. students, including first-year students, are eligible for graduate assistantship appointments' as faculty-appointed RAs, depending on funding.",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-04"
   },
   "alt_programs": [
    {
@@ -1274,7 +1341,8 @@
    "https://www.cs.umd.edu/grad/admissions-faq",
    "https://billpay.umd.edu/GraduateTuition",
    "https://billpay.umd.edu/costs"
-  ]
+  ],
+  "short": "University of Maryland"
  },
  {
   "school": "University of Washington (Seattle)",
@@ -1295,8 +1363,9 @@
      "threshold crypto",
      "symmetric/hash"
     ],
-    "homepage": "http://www.cs.ucsb.edu/~tessaro",
-    "source": "csrankings+dblp"
+    "homepage": "https://homes.cs.washington.edu/~tessaro/",
+    "source": "csrankings+dblp",
+    "affiliation_source": "https://www.cs.washington.edu/people/faculty/stefano-tessaro/"
    },
    {
     "name": "Huijia Lin",
@@ -1309,8 +1378,9 @@
      "lattices/PQ",
      "obfuscation/iO"
     ],
-    "homepage": "http://www.cs.ucsb.edu/~rachel.lin",
-    "source": "csrankings+dblp"
+    "homepage": "https://homes.cs.washington.edu/~rachel/",
+    "source": "csrankings+dblp",
+    "affiliation_source": "https://www.cs.washington.edu/people/faculty/huijia-rachel-lin/"
    },
    {
     "name": "Nirvan Tyagi",
@@ -1354,7 +1424,9 @@
    "deadline_url": "https://www.ece.uw.edu/academics/grad/admissions/",
    "gre": "not accepted: 'GRE scores are no longer required or accepted for admission to our MS or Ph.D. programs.'",
    "app_fee_usd": 90,
-   "funding_note": "'The majority of our master's students are self-funded. However, MSECE students may apply for the few Teaching Assistant and Research Assistant positions available on a quarterly basis in ECE or other departments.'"
+   "funding_note": "'The majority of our master's students are self-funded. However, MSECE students may apply for the few Teaching Assistant and Research Assistant positions available on a quarterly basis in ECE or other departments.'",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-15"
   },
   "alt_programs": [
    {
@@ -1387,7 +1459,15 @@
    "https://www.ece.uw.edu/academics/grad/tuition-fees/",
    "https://finance.uw.edu/tuition-fees/files/docs/annual-tuition-and-fees/2026-2027tricampusannualtuitionandfees.pdf",
    "https://finance.uw.edu/tuition-fees/files/docs/annual-tuition-and-fees/2026-2027programsineachgraduatetierbycampus.pdf"
-  ]
+  ],
+  "short": "University of Washington",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.washington.edu/academics/phd/admissions",
+   "note": "Allen School has no full-time MS; the PhD \"awards an MS degree as you earn the doctorate.\" Deadline Dec 15 (next business day if a weekend; year not printed). GRE not accepted."
+  }
  },
  {
   "school": "Yale University (Graduate School of Arts and Sciences, Department of Computer Science)",
@@ -1465,7 +1545,9 @@
    "deadline_url": "https://gsas.yale.edu/programs-of-study/computer-science",
    "gre": "required (GSAS program page: 'MS - GRE is required.'; 'PhD - GRE is not accepted.')",
    "app_fee_usd": 105,
-   "funding_note": "One-year MS: 'There is no commitment to provide financial assistance' and only occasional TF positions. Two-year MS: students serve as 20 hr/week Teaching Fellows for all four terms, and the FAQ says 'There is a tuition fellowship and small stipend for students in the more selective two-year program.'"
+   "funding_note": "One-year MS: 'There is no commitment to provide financial assistance' and only occasional TF positions. Two-year MS: students serve as 20 hr/week Teaching Fellows for all four terms, and the FAQ says 'There is a tuition fellowship and small stipend for students in the more selective two-year program.'",
+   "priority_iso": null,
+   "deadline_iso": "2027-01-02"
   },
   "alt_programs": [
    {
@@ -1488,7 +1570,10 @@
    "https://gsas.yale.edu/programs-of-study/computer-science",
    "https://gsas.yale.edu/resources/graduate-financial-aid/tuition-and-fees",
    "https://gsas.yale.edu/admissions/phdmasters-application-process/application-fees-fee-waivers"
-  ]
+  ],
+  "short": "Yale University",
+  "net_cost_note": "Two-year thesis track only: the department FAQ says \"There is a tuition fellowship and small stipend for students in the more selective two-year program.\" The one-year MS is unfunded.",
+  "net_cost_url": "https://gsas.yale.edu/resources/graduate-financial-aid/tuition-and-fees"
  },
  {
   "school": "Columbia University in the City of New York (Fu Foundation School of Engineering and Applied Science)",
@@ -1553,7 +1638,9 @@
    "deadline_url": "https://www.cs.columbia.edu/education/admissions8/",
    "gre": "not required ('The Graduate Record Examination (GRE) is not required for the 2027 admission cycle. This includes Spring 2027 and Fall 2027.')",
    "app_fee_usd": 85,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": "2027-01-15",
+   "deadline_iso": "2027-02-15"
   },
   "alt_programs": [
    {
@@ -1592,7 +1679,15 @@
    "https://gradengineering.columbia.edu/graduate-admissions/application-requirements",
    "https://sfs.columbia.edu/content/graduate-engineering-cost-attendance",
    "https://www.cs.columbia.edu/people/faculty/"
-  ]
+  ],
+  "short": "Columbia University",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.columbia.edu/education/admissions8/",
+   "note": "\"apply by December 15 of the previous year.\""
+  }
  },
  {
   "school": "Cornell University (Ithaca), Field of Computer Science",
@@ -1656,7 +1751,9 @@
    "deadline_url": "https://www.cs.cornell.edu/ms/admissions",
    "gre": "not considered: GRE scores are not required, and 'any submitted scores are masked' and not reviewed",
    "app_fee_usd": 105,
-   "funding_note": "Fully funded via TAship: 'Admitted students serve as full-time TAs in each of the four semesters (~15 hrs/week) ... In return, students receive full tuition, a living stipend, and health insurance.' Summer support is not guaranteed."
+   "funding_note": "Fully funded via TAship: 'Admitted students serve as full-time TAs in each of the four semesters (~15 hrs/week) ... In return, students receive full tuition, a living stipend, and health insurance.' Summer support is not guaranteed.",
+   "priority_iso": null,
+   "deadline_iso": "2027-01-18"
   },
   "alt_programs": [
    {
@@ -1688,7 +1785,17 @@
    "https://catalog.cornell.edu/general-information/tuition/",
    "https://gradschool.cornell.edu/financial-support/tuition-rates/",
    "https://gradschool.cornell.edu/admissions/application-steps/pay-fees/international/"
-  ]
+  ],
+  "short": "Cornell University",
+  "net_cost_note": "About $0 tuition plus a living stipend: admitted M.S. students serve as full-time TAs all four semesters and receive \"full tuition, a living stipend, and health insurance\". Admission is very selective and favors applicants with TA experience.",
+  "net_cost_url": "https://bowers.cornell.edu/master-science-computer-science",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.cornell.edu/index.php/phd-computer-science/apply",
+   "note": "\"The deadline for the Fall semester is December 15th\" (year not printed). The MS is tiny and favors Cornell undergrads; apply to the PhD directly if that is the goal."
+  }
  },
  {
   "school": "Johns Hopkins University (Whiting School of Engineering, Department of Computer Science)",
@@ -1754,7 +1861,9 @@
    "deadline_url": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/admissions/",
    "gre": "not required / optional ('does NOT require a GRE score... It is an optional material to submit')",
    "app_fee_usd": 0,
-   "funding_note": "CS MSE FAQ: 'The department regrets that we are unable to give financial aid to MSE students... MSE students are never given a stipend of any form, but may be hired on an hourly basis.' WSE-level page says the school and programs 'typically offer partial Master's tuition fellowships and tuition assistantships, based on merit, skill, and need.'"
+   "funding_note": "CS MSE FAQ: 'The department regrets that we are unable to give financial aid to MSE students... MSE students are never given a stipend of any form, but may be hired on an hourly basis.' WSE-level page says the school and programs 'typically offer partial Master's tuition fellowships and tuition assistantships, based on merit, skill, and need.'",
+   "priority_iso": null,
+   "deadline_iso": "2027-02-15"
   },
   "alt_programs": [
    {
@@ -1784,7 +1893,8 @@
    "https://www.cs.jhu.edu/academic-programs/graduate-studies/ms-in-security-informatics/",
    "https://www.cs.jhu.edu/faculty/",
    "https://www.cs.jhu.edu/faculty/susan-hohenberger-waters/"
-  ]
+  ],
+  "short": "Johns Hopkins University"
  },
  {
   "school": "Northeastern University (Khoury College of Computer Sciences), Boston campus",
@@ -1850,7 +1960,9 @@
    "deadline_url": "https://www.khoury.northeastern.edu/programs/computer-science-ms/",
    "gre": "optional / waived: Khoury is 'GRE test-optional'; FAQ: 'We are currently waiving the GRE requirement indefinitely.'",
    "app_fee_usd": null,
-   "funding_note": "Khoury financial support page: 'Students are eligible for part-time student employment positions after their first semester in roles such as teaching assistants, ambassadors, instructional assistants, or research assistants.' Scholarships are available. A 25% tuition discount applies to Northeastern alumni (FAQ)."
+   "funding_note": "Khoury financial support page: 'Students are eligible for part-time student employment positions after their first semester in roles such as teaching assistants, ambassadors, instructional assistants, or research assistants.' Scholarships are available. A 25% tuition discount applies to Northeastern alumni (FAQ).",
+   "priority_iso": null,
+   "deadline_iso": "2027-08-01"
   },
   "alt_programs": [
    {
@@ -1876,7 +1988,8 @@
    "https://studentfinance.northeastern.edu/billing-payments/tuition-and-fees/",
    "https://graduate.northeastern.edu/programs/mscs-computer-science/master-of-science-in-computer-science-boston/",
    "https://graduate.northeastern.edu/admissions-aid/how-to-apply/"
-  ]
+  ],
+  "short": "Northeastern University"
  },
  {
   "school": "University of Virginia (School of Engineering and Applied Science)",
@@ -1942,7 +2055,9 @@
    "deadline_url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
    "gre": "not required: 'We've waived GRE requirements for graduate admission'",
    "app_fee_usd": 0,
-   "funding_note": "'Occasionally, the school of Engineering offers Master Fellowships.' Applicants are otherwise pointed to outside fellowships and federal aid. No MS TA/RA statement was found."
+   "funding_note": "'Occasionally, the school of Engineering offers Master Fellowships.' Applicants are otherwise pointed to outside fellowships and federal aid. No MS TA/RA statement was found.",
+   "priority_iso": null,
+   "deadline_iso": "2027-02-01"
   },
   "alt_programs": [
    {
@@ -1965,7 +2080,8 @@
    "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
    "https://records.ureg.virginia.edu/preview_program.php?catoid=68&poid=10568",
    "https://uvafinance.virginia.edu/resources/2026-27-tuition-and-fee-rates"
-  ]
+  ],
+  "short": "University of Virginia"
  },
  {
   "school": "Arizona State University (Ira A. Fulton Schools of Engineering, School of Computing and Augmented Intelligence)",
@@ -2016,7 +2132,9 @@
    "deadline_url": "https://degrees.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
    "gre": "not required (2026-27 MS CS handbook: 'GRE scores are not required.')",
    "app_fee_usd": 75,
-   "funding_note": "Handbook: 'There are limited funds for MS and PhD students. Students are encouraged to pursue assistantships outside of CS.' Students with TA/RA .50 FTE appointments receive an award covering tuition for the semester (per handbook)."
+   "funding_note": "Handbook: 'There are limited funds for MS and PhD students. Students are encouraged to pursue assistantships outside of CS.' Students with TA/RA .50 FTE appointments receive an award covering tuition for the semester (per handbook).",
+   "priority_iso": "2026-12-01",
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -2043,7 +2161,8 @@
    "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2026/06/MS-CS-Handbook-2026-27.pdf",
    "https://catalog.asu.edu/tuitionandfees/fall26graduate",
    "https://admission.asu.edu/apply/graduate/admission"
-  ]
+  ],
+  "short": "Arizona State University"
  },
  {
   "school": "Brown University, Department of Computer Science",
@@ -2095,7 +2214,9 @@
    "deadline_url": "https://graduateprograms.brown.edu/graduate-program/computer-science-scm",
    "gre": "GRE General 'Not required, but score submission is encouraged'; GRE Subject not required",
    "app_fee_usd": null,
-   "funding_note": "Program page: 'A limited number of scholarships are available to those who answer the optional question in the CS application. Graduate and Teaching Assistantships are not available.' CS page: tuition scholarships contingent on funds; all admitted students automatically considered for merit scholarships."
+   "funding_note": "Program page: 'A limited number of scholarships are available to those who answer the optional question in the CS application. Graduate and Teaching Assistantships are not available.' CS page: tuition scholarships contingent on funds; all admitted students automatically considered for merit scholarships.",
+   "priority_iso": null,
+   "deadline_iso": "2027-01-15"
   },
   "alt_programs": [
    {
@@ -2120,7 +2241,8 @@
    "https://graduateprograms.brown.edu/graduate-program/computer-science-scm",
    "https://sfs.brown.edu/tuition-and-fees/graduate",
    "https://professional.brown.edu/admissions/faq"
-  ]
+  ],
+  "short": "Brown University"
  },
  {
   "school": "Georgetown University",
@@ -2171,7 +2293,9 @@
    "deadline_url": "https://cs.georgetown.edu/academics/graduate/ms/how-to-apply/",
    "gre": "not required (FAQ: 'No, we do not require a GRE score in order to apply'; optional to submit)",
    "app_fee_usd": 90,
-   "funding_note": "No guaranteed MS funding. FAQ: dept hires hourly TAs (5 hr/week limit) and 'these positions are not sufficient to cover the full cost of tuition and living expenses for an M.S. student'; RA work requires a faculty relationship and grant funding and 'should not be counted on.'"
+   "funding_note": "No guaranteed MS funding. FAQ: dept hires hourly TAs (5 hr/week limit) and 'these positions are not sufficient to cover the full cost of tuition and living expenses for an M.S. student'; RA work requires a faculty relationship and grant funding and 'should not be counted on.'",
+   "priority_iso": "2027-01-15",
+   "deadline_iso": "2027-04-01"
   },
   "alt_programs": [
    {
@@ -2194,7 +2318,8 @@
    "https://cs.georgetown.edu/academics/graduate/ms/curriculum/",
    "https://cs.georgetown.edu/academics/graduate/faq-prospective/",
    "https://finaid.georgetown.edu/graduate/aid-by-program/2026-27-graduate-program-cost-of-attendance/"
-  ]
+  ],
+  "short": "Georgetown University"
  },
  {
   "school": "Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science",
@@ -2246,7 +2371,9 @@
    "deadline_url": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/",
    "gre": "Not required (EECS doctoral application, per OGE program page)",
    "app_fee_usd": null,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -2267,7 +2394,15 @@
    "https://dblp.org/pid/k/YaelTaumanKalai",
    "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/",
    "https://oge.mit.edu/programs/electrical-engineering-and-computer-science/"
-  ]
+  ],
+  "short": "Massachusetts Institute of Technology",
+  "phd_direct": {
+   "deadline": "2026-12-01",
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://www.eecs.mit.edu/academics/graduate-programs/admission-process/graduate-admissions-faqs/",
+   "note": "EECS admits to the PhD only: \"When we admit an applicant, it is into the PhD program.\" Deadline \"December 1\" (year not printed; 11:59 PM ET per OGE). Fee $90; GRE not used."
+  }
  },
  {
   "school": "Oregon State University (School of Electrical Engineering and Computer Science)",
@@ -2319,7 +2454,9 @@
    "deadline_url": "https://engineering.oregonstate.edu/academics/programs/computer-science/graduate",
    "gre": "not listed (GRE does not appear among the M.S./Ph.D. application steps on the CS graduate admissions page; no explicit statement found)",
    "app_fee_usd": null,
-   "funding_note": "'The School of Electrical Engineering and Computer Science offers a limited number of graduate teaching assistantships (GTA) and graduate research assistantships (GRA)... Funding is prioritized for Ph.D. applicants.' GTAs/GRAs get a stipend and 100% tuition remission. 'You may be admitted as a graduate student without an offer of funding. This is typically more common with M.S. students.'"
+   "funding_note": "'The School of Electrical Engineering and Computer Science offers a limited number of graduate teaching assistantships (GTA) and graduate research assistantships (GRA)... Funding is prioritized for Ph.D. applicants.' GTAs/GRAs get a stipend and 100% tuition remission. 'You may be admitted as a graduate student without an offer of funding. This is typically more common with M.S. students.'",
+   "priority_iso": "2027-01-05",
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -2347,7 +2484,8 @@
    "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/2026-07/eecs-graduate-handbook-2026-2027-calvin-wesley-hughes.pdf",
    "https://budget.oregonstate.edu/tuition-fees/tuition-and-mandatory-fees-tables",
    "https://budget.oregonstate.edu/sites/budget.oregonstate.edu/files/2026-04/FY2027%20Tuition%20Tables_GRAD%20Corvallis%20v4.pdf"
-  ]
+  ],
+  "short": "Oregon State University"
  },
  {
   "school": "Princeton University",
@@ -2399,7 +2537,9 @@
    "deadline_url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science",
    "gre": "not accepted (Grad School CS page: 'General Test - Not Accepted')",
    "app_fee_usd": 90,
-   "funding_note": "Fully funded: 'both of which are fully funded'; 'Funding is normally in the form of teaching assistantships covering the four semesters of the program. Summer funding for MSE candidates in the form of a research assistantship may be offered at the adviser's discretion.' Moot for Fall 2027 since no MSE applications are accepted."
+   "funding_note": "Fully funded: 'both of which are fully funded'; 'Funding is normally in the form of teaching assistantships covering the four semesters of the program. Summer funding for MSE candidates in the form of a research assistantship may be offered at the adviser's discretion.' Moot for Fall 2027 since no MSE applications are accepted.",
+   "priority_iso": null,
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -2431,7 +2571,17 @@
    "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/computer-science",
    "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/electrical-and-computer-engineering",
    "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs"
-  ]
+  ],
+  "short": "Princeton University",
+  "net_cost_note": "The M.S.E. is fully funded (TA-based), but Princeton is NOT accepting M.S.E. applications for Fall 2027, so for Fall 2027 only the PhD is open.",
+  "net_cost_url": "https://www.cs.princeton.edu/grad/masters-degree-requirements",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.princeton.edu/grad/faq",
+   "note": "\"The deadline to apply for Fall 2027 admission is December 15, 2026.\" The M.S.E. is closed for Fall 2027. GRE not accepted."
+  }
  },
  {
   "school": "Stony Brook University (State University of New York at Stony Brook), Department of Computer Science",
@@ -2481,7 +2631,9 @@
    "deadline_url": "https://graduateadmissions.stonybrook.edu/portal/deadline_dates",
    "gre": "not required for domestic MS applicants ('GRE Policy (Spring 2027 & Fall 2027): GRE is not required for domestic M.S./Ph.D. applicants'); required for international MS applicants without a US/Canada degree",
    "app_fee_usd": 100,
-   "funding_note": "CS admissions page: 'MS students are not typically considered for financial support or tuition waiver at the time of admission. However, in a small number of cases qualified MS students are able to receive partial support via departmental or campus opportunities.'"
+   "funding_note": "CS admissions page: 'MS students are not typically considered for financial support or tuition waiver at the time of admission. However, in a small number of cases qualified MS students are able to receive partial support via departmental or campus opportunities.'",
+   "priority_iso": null,
+   "deadline_iso": "2027-03-15"
   },
   "alt_programs": [],
   "research_fit_note": "Thesis Project option: 'Research project under the guidance of a faculty advisor (typically two or three semesters of CSE 599), completed with the submission and defense of a dissertation' (6 lecture courses + 6-9 credits CSE 599, committee of 3 CS faculty). Catalog: MS students may transfer to the PhD by contacting the Graduate Program Director; 'There is no automatic transfer mechanism'; preferably pass 2 PhD qualifier courses and find a PhD advisor first; MS courses then count toward PhD requirements.",
@@ -2499,7 +2651,8 @@
    "https://catalog.stonybrook.edu/preview_program.php?catoid=10&poid=1150",
    "https://www.stonybrook.edu/sfs/tuition-fees/Graduate%20Tuition%20and%20Fee%20Per%20Credit%20Rate%20Chart.pcf.html",
    "https://www.stonybrook.edu/grad/admissions/apply-graduate-programs.html"
-  ]
+  ],
+  "short": "Stony Brook University"
  },
  {
   "school": "Texas A&M University, College Station (College of Engineering, Department of Computer Science and Engineering)",
@@ -2549,7 +2702,9 @@
    "deadline_url": "https://engineering.tamu.edu/cse/admissions-and-aid/graduate-admissions/index.html",
    "gre": "optional ('The GRE is optional for all applicants... encouraged to submit them')",
    "app_fee_usd": 123,
-   "funding_note": "CSE FAQ: assistantships/fellowships - 'All applicants will be considered for all such opportunities. Ph.D. students receive the highest priority. Next priority is given to Master of Science (thesis) students. Non-thesis masters students may be offered a scholarship.' RAs offered by individual faculty; an assistantship qualifies a student for in-state tuition rates."
+   "funding_note": "CSE FAQ: assistantships/fellowships - 'All applicants will be considered for all such opportunities. Ph.D. students receive the highest priority. Next priority is given to Master of Science (thesis) students. Non-thesis masters students may be offered a scholarship.' RAs offered by individual faculty; an assistantship qualifies a student for in-state tuition rates.",
+   "priority_iso": null,
+   "deadline_iso": "2027-01-15"
   },
   "alt_programs": [
    {
@@ -2576,7 +2731,8 @@
    "https://engineering.tamu.edu/cse/academics/degrees/graduate/faq.html",
    "https://engineering.tamu.edu/admissions-and-aid/graduate-admissions/index.html",
    "https://sbs.tamu.edu/documents/2026-2027-NonResident-GR-DoD.pdf"
-  ]
+  ],
+  "short": "Texas A&M University"
  },
  {
   "school": "The University of North Carolina at Chapel Hill",
@@ -2627,7 +2783,9 @@
    "deadline_url": "https://cs.unc.edu/graduate/graduate-admissions/admissions-deadline/",
    "gre": "not required, but recommended ('Taking the GRE is not required but is recommended. There is no penalty for students who do not submit GRE scores.')",
    "app_fee_usd": 95,
-   "funding_note": "'All applications (MS & PhD programs) are considered for funding during the review/evaluation process.' RA/TA holders get the in-state portion of tuition covered (full in- and out-of-state only with a funding guarantee); 'Graduate Student Tuition awards typically cover M.S. students for four semesters of study (not including out-of-state tuition).'"
+   "funding_note": "'All applications (MS & PhD programs) are considered for funding during the review/evaluation process.' RA/TA holders get the in-state portion of tuition covered (full in- and out-of-state only with a funding guarantee); 'Graduate Student Tuition awards typically cover M.S. students for four semesters of study (not including out-of-state tuition).'",
+   "priority_iso": "2026-12-15",
+   "deadline_iso": "2027-03-09"
   },
   "alt_programs": [
    {
@@ -2654,7 +2812,15 @@
    "https://gradschool.unc.edu/admissions/instructions.html",
    "https://cashier.unc.edu/tuition-fees/graduate-programs/",
    "https://cashier.unc.edu/wp-content/uploads/sites/259/2026/04/graduate-and-professional-tuition-and-fees-fall-2026-spring-2027.pdf"
-  ]
+  ],
+  "short": "The University of North Carolina at Chapel Hill",
+  "phd_direct": {
+   "deadline": "not verified",
+   "deadline_iso": null,
+   "priority_iso": null,
+   "url": "https://cs.unc.edu/graduate/graduate-admissions/admissions-faq",
+   "note": "UNC steers PhD-bound applicants to the PhD directly; PhD deadline NOT verified this pass (cs.unc.edu blocked fetches)."
+  }
  },
  {
   "school": "The University of Texas at Austin (College of Natural Sciences, Department of Computer Science)",
@@ -2706,7 +2872,9 @@
    "deadline_url": "https://www.cs.utexas.edu/graduate/apply",
    "gre": "optional ('If you believe that it would strengthen your application, you may take the GRE and submit your official scores'; listed under Optional Materials)",
    "app_fee_usd": 65,
-   "funding_note": "CS Cost & Aid: 'While our master's program does not include automatic funding, there are opportunities to support your studies. Teaching and research positions may be available.'"
+   "funding_note": "CS Cost & Aid: 'While our master's program does not include automatic funding, there are opportunities to support your studies. Teaching and research positions may be available.'",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-15"
   },
   "alt_programs": [
    {
@@ -2729,7 +2897,15 @@
    "https://onestop.utexas.edu/managing-costs/cost-tuition-rates/tuition-rates/",
    "https://utexas.box.com/s/959pin7msy9x92ou9fpjlwk17pzoag0i",
    "https://graduate.utexas.edu/admissions/apply"
-  ]
+  ],
+  "short": "The University of Texas at Austin",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.utexas.edu/graduate-program/prospective-students/apply",
+   "note": "Dec 15 (year not printed), letters Dec 20; same as the MS."
+  }
  },
  {
   "school": "University of California, Los Angeles (Samueli School of Engineering, Computer Science Department)",
@@ -2773,15 +2949,24 @@
    "url": "https://www.cs.ucla.edu/graduate-admissions/",
    "length": "2 years ('a 2-year program' per CS admissions FAQ)",
    "thesis": "yes",
-   "total_tuition_usd": 57648,
-   "tuition_basis": "2026-27 Registrar annual rates, 'Academic Master' degree group: Tuition $13,722 + Nonresident Supplemental Tuition $15,102 = $28,824/yr x 2 years = $57,648. Excludes Student Services Fee ($1,344), UCSHIP ($7,516.98) and other campus fees (nonresident total mandatory fees for new students $38,330.19/yr).",
+   "total_tuition_usd": 60336,
+   "tuition_basis": "2026-27 nonresident: Tuition $4,574 + SSF $448 + Nonresident Supplemental Tuition $5,034 per quarter x 6 = $60,336. Same 2-year, tuition+SSF basis at every UC (was $57,648 on a mixed basis before the 2026-11-06 review). Campus fees excluded.",
    "tuition_url": "https://sa.ucla.edu/RO/Fees/Public/public-fees",
    "deadline_fall2027": "2026-12-15",
    "deadline_note": "CS admissions page: 'submit the UCLA application for graduate admission by December 15th. Applications are accepted for Fall admission only.' No year shown; assumed Dec 15, 2026 for Fall 2027.",
    "deadline_url": "https://www.cs.ucla.edu/graduate-admissions/",
    "gre": "unconfirmed for Fall 2027: CS pages only say 'The GRE will not be required for the 2025-2026 Admissions cycle'; scores may be voluntarily submitted. No statement found for the 2027 cycle.",
    "app_fee_usd": 135,
-   "funding_note": "CS FAQ: 'M.S. applicants and M.S. students are not eligible for departmental financial support. TAing is not part of the Computer Science Masters Program and M.S. student (both incoming and continuing) are not guaranteed TAships/GSRs.'"
+   "funding_note": "CS FAQ: 'M.S. applicants and M.S. students are not eligible for departmental financial support. TAing is not part of the Computer Science Masters Program and M.S. student (both incoming and continuing) are not guaranteed TAships/GSRs.'",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-15",
+   "total_tuition_resident_usd": 30132,
+   "resident_basis": "2026-27 UCOP systemwide graduate rates, California resident: Tuition $4,574 + Student Services Fee $448 per quarter x 6 quarters = $30,132 (tuition alone $27,444). Campus fees and health insurance excluded. The MS CS is not on the UCOP 2026-27 PDST list (inferred from absence). 2027-28 rates not yet published.",
+   "resident_url": "https://sa.ucla.edu/RO/Fees/Public/public-fees",
+   "resident_sources": [
+    "https://sa.ucla.edu/RO/Fees/Public/public-fees",
+    "https://ucop.edu/operating-budget/_files/fees/202627/2026-27.pdf"
+   ]
   },
   "alt_programs": [
    {
@@ -2804,7 +2989,8 @@
    "https://sa.ucla.edu/RO/Fees/Public/public-fees",
    "https://registrar.ucla.edu/fees-residence/self-supporting-degrees",
    "https://grad.ucla.edu/admissions/faqs/"
-  ]
+  ],
+  "short": "University of California, Los Angeles"
  },
  {
   "school": "University of Michigan, Ann Arbor (College of Engineering, Computer Science and Engineering Division, EECS)",
@@ -2856,7 +3042,9 @@
    "deadline_url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
    "gre": "not considered ('GRE scores are neither required nor considered in the admissions process')",
    "app_fee_usd": 75,
-   "funding_note": "Masters page: 'The CSE division has limited financial aid to award to Master's students at the time of application. However, Master's students occasionally receive a research or teaching assistantship after they begin their studies.' FAQ: 'Admission at the MS level is not accompanied by financial aid.'"
+   "funding_note": "Masters page: 'The CSE division has limited financial aid to award to Master's students at the time of application. However, Master's students occasionally receive a research or teaching assistantship after they begin their studies.' FAQ: 'Admission at the MS level is not accompanied by financial aid.'",
+   "priority_iso": null,
+   "deadline_iso": "2027-01-15"
   },
   "alt_programs": [],
   "research_fit_note": "Thesis is optional within the 30-credit MS/MSE, allowing a research thesis with CSE theory/crypto faculty; MS students occasionally get RA/TA positions after starting. No official MS-to-PhD transfer path was found; MS and PhD require separate applications.",
@@ -2873,7 +3061,8 @@
    "https://ro.umich.edu/tuition-residency/tuition-fees",
    "https://docs.google.com/document/d/1mvAtLQQ1f6EaCreRbTajssF9J86htLwqwo-FcY9itAo/edit?tab=t.0",
    "https://rackham.umich.edu/admissions/applying/application-fee-and-payment/"
-  ]
+  ],
+  "short": "University of Michigan"
  },
  {
   "school": "University of Pennsylvania",
@@ -2923,7 +3112,9 @@
    "deadline_url": "https://gradadm.engineering.upenn.edu/how-to-apply/",
    "gre": "optional ('The GRE is optional during the current application cycle')",
    "app_fee_usd": 95,
-   "funding_note": "'Penn Engineering generally does not provide financial assistance for master's-level students, but you may be able to find a teaching assistantship or part-time lab position through your academic department.' Some named scholarships exist (mostly restricted). A faculty-invitation-only 'Master's-PhD Integrated Pathway Program' exists."
+   "funding_note": "'Penn Engineering generally does not provide financial assistance for master's-level students, but you may be able to find a teaching assistantship or part-time lab position through your academic department.' Some named scholarships exist (mostly restricted). A faculty-invitation-only 'Master's-PhD Integrated Pathway Program' exists.",
+   "priority_iso": null,
+   "deadline_iso": "2027-02-01"
   },
   "alt_programs": [
    {
@@ -2938,7 +3129,7 @@
    }
   ],
   "research_fit_note": "CIS/MSE has a 'Theoretical Foundations' concentration, allows up to 2 independent-study credits, and a master's thesis (CIS 9990, 2 C.U.) with a CIS Graduate Group advisor, reader, and oral presentation; the dept lists alumni who went on to PhDs (Penn, Brown, UIUC). Switching to the PhD requires a new application; a faculty-invited Master's-PhD pathway also exists.",
-  "notes": "Tal Rabin could not be confirmed as current CIS faculty (see extra_checks). Penn CIS masters page places 'Security and cryptography' under its Computer Systems research area.",
+  "notes": "Tal Rabin could not be confirmed as current CIS faculty (see extra_checks). Penn CIS masters page places 'Security and cryptography' under its Computer Systems research area. Tal Rabin re-checked 2026-11-06: not in the Penn CIS faculty directory (https://www.cis.upenn.edu/people/faculty/); older third-party bios still call her Penn's Rachleff Professor. Not added; current affiliation unverified.",
   "extra_checks": {
    "tal_rabin_upenn_cis_faculty": "unconfirmed",
    "tal_rabin_detail": "As of 2026-11-06 Tal Rabin does NOT appear on the official Penn CIS faculty page (primary, secondary, and emeriti/adjunct sections: https://www.cis.upenn.edu/faculty/) nor on the SEAS directory CIS listing (https://directory.seas.upenn.edu/computer-and-information-science/); directory.seas.upenn.edu/tal-rabin/ and directory.engineering.upenn.edu/tal-rabin/ return 404; www.cis.upenn.edu/~talr/ returns 403. The only official Penn page found naming her is an older Penn Almanac article (around 2022) announcing her as Rachleff Family Professor in CIS ('She joined Penn in 2020'): https://almanac.upenn.edu/articles/seas-four-new-scholarly-chairs. No official page found stating she left. Treat current status as unconfirmed; ask the department."
@@ -2960,7 +3151,8 @@
    "https://www.cis.upenn.edu/people/faculty/",
    "https://directory.seas.upenn.edu/computer-and-information-science/",
    "https://almanac.upenn.edu/articles/seas-four-new-scholarly-chairs"
-  ]
+  ],
+  "short": "University of Pennsylvania"
  },
  {
   "school": "University of Southern California (Viterbi School of Engineering, Thomas Lord Department of Computer Science)",
@@ -3010,7 +3202,9 @@
    "deadline_url": "https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science/",
    "gre": "not required ('GRE: not required for 2027 Master's applicants. GRE scores sent won't be reviewed.')",
    "app_fee_usd": 120,
-   "funding_note": "Master's FAQ: 'Research/teaching assistantships are reserved for our PhD students and are not available to Master's students.' Merit scholarships considered for on-campus applicants who apply by Dec 15."
+   "funding_note": "Master's FAQ: 'Research/teaching assistantships are reserved for our PhD students and are not available to Master's students.' Merit scholarships considered for on-campus applicants who apply by Dec 15.",
+   "priority_iso": "2026-12-15",
+   "deadline_iso": "2027-01-15"
   },
   "alt_programs": [
    {
@@ -3040,7 +3234,10 @@
    "https://viterbigradadmission.usc.edu/programs/masters/apply/ready-to-apply/",
    "https://viterbigradadmission.usc.edu/programs/masters/faq/",
    "https://viterbigradadmission.usc.edu/programs/masters/tuition-funding/tuition-funding-masters/"
-  ]
+  ],
+  "short": "University of Southern California",
+  "his_note": "You were admitted to this MS CS for Fall 2026 and did not enroll. USC Viterbi allows a deferral request within one year of the original application semester; it is not guaranteed (re-reviewed with that term's pool), needs no new application or fee, and the $1,000 deposit carries over if readmitted. Viterbi confirmed this by email on 2026-11-03.",
+  "his_note_url": "https://viterbigradadmission.usc.edu/faq/"
  },
  {
   "school": "Drexel University",
@@ -3078,7 +3275,9 @@
    "deadline_url": "https://drexel.edu/grad/programs/cci/computer-science/",
    "gre": "not required (recommended for international applicants and domestic applicants with GPA below 3.0)",
    "app_fee_usd": 65,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": "2027-08-27"
   },
   "alt_programs": [
    {
@@ -3098,7 +3297,8 @@
    "https://drexel.edu/grad/programs/cci/computer-science/",
    "https://drexel.edu/drexelcentral/cost/tuition/graduate",
    "https://www.online.drexel.edu/online-degrees/engineering-degrees/ms-cs/index.aspx"
-  ]
+  ],
+  "short": "Drexel University"
  },
  {
   "school": "Duke University",
@@ -3136,7 +3336,9 @@
    "deadline_url": "https://gradschool.duke.edu/admissions/application-deadlines/",
    "gre": "Required: 'M.S.: GRE General Required; GRE Subject Optional' (CS FAQ: required for the Master's, optional for the PhD).",
    "app_fee_usd": 105,
-   "funding_note": "None: CS FAQ 'Is there funding support or scholarships for a Master's applicant? No, we do not offer support for Master's.'"
+   "funding_note": "None: CS FAQ 'Is there funding support or scholarships for a Master's applicant? No, we do not offer support for Master's.'",
+   "priority_iso": null,
+   "deadline_iso": "2027-02-01"
   },
   "alt_programs": [
    {
@@ -3158,7 +3360,8 @@
    "https://gradschool.duke.edu/admissions/application-deadlines/",
    "https://gradschool.duke.edu/admissions/admissions-faqs/",
    "https://gradschool.duke.edu/financial-support/cost-attend/"
-  ]
+  ],
+  "short": "Duke University"
  },
  {
   "school": "Florida State University",
@@ -3196,7 +3399,9 @@
    "deadline_url": "https://www.cs.fsu.edu/admissions/graduate-admissions/fsu-computer-science-department-graduate-study-application-information/",
    "gre": "not required: 'The GRE requirement has been waived for Master's applicants indefinitely' (FAQ says 'through the end of 2026'); no preference for submitting",
    "app_fee_usd": 30,
-   "funding_note": "'All Computer Science graduate applicants will be considered for an assistantship through the department'; many TAs are MS students."
+   "funding_note": "'All Computer Science graduate applicants will be considered for an assistantship through the department'; many TAs are MS students.",
+   "priority_iso": "2027-01-01",
+   "deadline_iso": "2027-04-01"
   },
   "alt_programs": [
    {
@@ -3218,7 +3423,8 @@
    "https://www.cs.fsu.edu/graduate-faq/",
    "https://tuition.fsu.edu/tuition-and-fees-0",
    "https://tuition.fsu.edu/sites/default/files/Proposed%20Fee%20Changes%20(JJF%20Edits)/2026-2027_Tuition_Main_proposedchanges_0.pdf"
-  ]
+  ],
+  "short": "Florida State University"
  },
  {
   "school": "Harvard University (Paulson School of Engineering and Applied Sciences / Harvard Griffin GSAS)",
@@ -3254,7 +3460,9 @@
    "deadline_url": "https://gsas.harvard.edu/program/computational-science-and-engineering",
    "gre": "n/a (SEAS: GRE General and Subject optional for the upcoming cycle)",
    "app_fee_usd": 105,
-   "funding_note": null
+   "funding_note": null,
+   "priority_iso": null,
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -3292,7 +3500,15 @@
    "https://seas.harvard.edu/masters-computational-science-and-engineering",
    "https://gsas.harvard.edu/apply/cost-attendance-2026-2027",
    "https://gsas.harvard.edu/apply/applying-degree-programs"
-  ]
+  ],
+  "short": "Harvard University",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://gsas.harvard.edu/program/computer-science",
+   "note": "CS via Harvard Griffin GSAS: Dec 15, 2026, 5:00 pm. No standalone CS master's. GRE optional."
+  }
  },
  {
   "school": "North Carolina State University",
@@ -3329,7 +3545,9 @@
    "deadline_url": "https://csc.ncsu.edu/academics/graduate/application-deadlines/",
    "gre": "required for international masters applicants (\"The GRE is required of all international masters applicants\"); dept pages do not state a GRE requirement for domestic applicants",
    "app_fee_usd": 85,
-   "funding_note": "\"There is limited support from the department for Masters students\"; all PhD students fully supported."
+   "funding_note": "\"There is limited support from the department for Masters students\"; all PhD students fully supported.",
+   "priority_iso": "2026-12-15",
+   "deadline_iso": "2027-05-01"
   },
   "alt_programs": [
    {
@@ -3362,7 +3580,8 @@
    "https://csc.ncsu.edu/academics/graduate/financial-aid-and-cost/",
    "https://studentservices.ncsu.edu/finances/tuition-and-fees/tuition-and-fee-rates/graduate-students/",
    "https://grad.ncsu.edu/programs/where-do-i-start/"
-  ]
+  ],
+  "short": "North Carolina State University"
  },
  {
   "school": "Northwestern University",
@@ -3400,7 +3619,9 @@
    "deadline_url": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/",
    "gre": "Not required: 'GREs are neither required nor reviewed for the 2026-2027 masters program application' (wording refers to 2026-2027; no separate Fall 2027 statement found).",
    "app_fee_usd": 95,
-   "funding_note": "None for MS: 'Financial aid is not available in any form, including fellowships, research assistantships, and teaching assistantships' for MS applicants (loans only). Master's application fee waivers are not available."
+   "funding_note": "None for MS: 'Financial aid is not available in any form, including fellowships, research assistantships, and teaching assistantships' for MS applicants (loans only). Master's application fee waivers are not available.",
+   "priority_iso": "2026-11-30",
+   "deadline_iso": "2027-06-15"
   },
   "alt_programs": [],
   "research_fit_note": "MS can include a formal research master's thesis and research credits; the department says the MS prepares students 'for PhD studies.' Current NU CS MS students can request transfer to the PhD, 'only seriously considered if there is a CS faculty member who advocates the transfer and commits to financially supporting the student.' Security and Privacy and Theory are listed research areas.",
@@ -3416,7 +3637,8 @@
    "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/financial-aid.html",
    "https://www.northwestern.edu/sfs/tuition/graduate/tgs.html",
    "https://www.tgs.northwestern.edu/admission/application-procedures/application-requirements/fee.html"
-  ]
+  ],
+  "short": "Northwestern University"
  },
  {
   "school": "Portland State University",
@@ -3454,7 +3676,9 @@
    "deadline_url": "https://www.pdx.edu/engineering/computer-science-ms-phd-admissions",
    "gre": "optional (\"GRE scores are optional\")",
    "app_fee_usd": 65,
-   "funding_note": "Newly admitted master's students who did not receive a year-long offer \"can apply for the remaining TA roles each term\" (TA = monthly stipend + tuition remission); RAs via faculty advisors. Year-long TA offers are described for first-year doctoral students (\"very few are available\")."
+   "funding_note": "Newly admitted master's students who did not receive a year-long offer \"can apply for the remaining TA roles each term\" (TA = monthly stipend + tuition remission); RAs via faculty advisors. Year-long TA offers are described for first-year doctoral students (\"very few are available\").",
+   "priority_iso": "2027-03-01",
+   "deadline_iso": "2027-09-01"
   },
   "alt_programs": [
    {
@@ -3475,7 +3699,8 @@
    "https://www.pdx.edu/engineering/computer-science-ms-phd-admissions",
    "https://www.pdx.edu/student-finance/tuition/graduate",
    "https://www.pdx.edu/admissions/apply-to-grad-school"
-  ]
+  ],
+  "short": "Portland State University"
  },
  {
   "school": "Rutgers, The State University of New Jersey - New Brunswick",
@@ -3513,7 +3738,9 @@
    "deadline_url": "https://computerscience.rutgers.edu/academics/graduate/prospective-students",
    "gre": "optional: 'Submitting the GRE [verbal, quantitative, analytical writing] scores is optional'; FAQ recommends 150V/160Q, no minimum",
    "app_fee_usd": 70,
-   "funding_note": "'University or Department funding can not be offered to M.S. students at Rutgers.' Some research groups may fund admitted students case by case through grants."
+   "funding_note": "'University or Department funding can not be offered to M.S. students at Rutgers.' Some research groups may fund admitted students case by case through grants.",
+   "priority_iso": null,
+   "deadline_iso": "2027-03-01"
   },
   "alt_programs": [],
   "research_fit_note": "36-credit MS with a 6-credit thesis option (198:704-706) under a faculty supervisor and thesis committee, a research entry point to Rutgers' theory/crypto faculty; no official MS-to-PhD transfer path was stated.",
@@ -3527,7 +3754,8 @@
    "https://computerscience.rutgers.edu/academics/graduate/prospective-students",
    "https://finance.rutgers.edu/sites/default/files/2025-07/2025-2026%20All%20schools%20tuition%20%26%20fee%20rates%20with%20notes_NB-grad.pdf",
    "https://finance.rutgers.edu/student-abc/tuition-fees/new-brunswick"
-  ]
+  ],
+  "short": "Rutgers"
  },
  {
   "school": "Stanford University",
@@ -3535,7 +3763,7 @@
   "city": "Stanford",
   "state": "CA",
   "region": "Bay Area",
-  "n_professors": 1,
+  "n_professors": 3,
   "professors": [
    {
     "name": "Dan Boneh",
@@ -3550,6 +3778,38 @@
     ],
     "homepage": "http://crypto.stanford.edu/~dabo",
     "source": "csrankings+dblp"
+   },
+   {
+    "name": "Mark Zhandry",
+    "dblp": "https://dblp.org/pid/39/10308",
+    "papers": 36,
+    "papers_core_iacr_joc": 36,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "quantum crypto",
+     "foundations",
+     "obfuscation/iO"
+    ],
+    "homepage": "https://mzhandry.github.io/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Associate Professor of Computer Science (since Sep 1, 2025)",
+    "affiliation_source": "https://profiles.stanford.edu/mark-zhandry"
+   },
+   {
+    "name": "Emma Dauterman",
+    "dblp": "https://dblp.org/pid/228/8084",
+    "papers": 1,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 1,
+    "topics": [
+     "MPC",
+     "applied/systems crypto"
+    ],
+    "homepage": "https://cs.stanford.edu/~edauterman/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Assistant Professor of Computer Science (systems, security, applied cryptography)",
+    "affiliation_source": "https://www.cs.stanford.edu/people/faculty",
+    "note": "Below the method's paper threshold (new faculty); listed because the review flagged her."
    }
   ],
   "program": {
@@ -3565,7 +3825,9 @@
    "deadline_url": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
    "gre": "not accepted: 'GRE scores are not required and not considered from MS applicants.'",
    "app_fee_usd": 125,
-   "funding_note": "'The Computer Science Department does not offer financial support for MS students.' A limited number of CA/TA/RA appointments exist (25%/50%); PhD students get first priority; RAs arranged directly with faculty; new MS students cannot apply for CA/TA in their first quarter."
+   "funding_note": "'The Computer Science Department does not offer financial support for MS students.' A limited number of CA/TA/RA appointments exist (25%/50%); PhD students get first priority; RAs arranged directly with faculty; new MS students cannot apply for CA/TA in their first quarter.",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-08"
   },
   "alt_programs": [
    {
@@ -3589,7 +3851,15 @@
    "https://www.cs.stanford.edu/admissions/masters-admissions-frequently-asked-questions",
    "https://www.cs.stanford.edu/masters-frequently-asked-questions",
    "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates"
-  ]
+  ],
+  "short": "Stanford University",
+  "phd_direct": {
+   "deadline": "2026-12-08",
+   "deadline_iso": "2026-12-08",
+   "priority_iso": null,
+   "url": "https://www.cs.stanford.edu/admissions-graduate-application-deadlines",
+   "note": "PhD deadline Dec 8, 2026. \"The MS program and PhD program are two separate programs. The MS degree also does not automatically lead to a PhD degree.\" GRE not considered for PhD."
+  }
  },
  {
   "school": "The City College of New York (CUNY), Grove School of Engineering",
@@ -3625,7 +3895,9 @@
    "deadline_url": "https://www.ccny.cuny.edu/admissions/graduate-programs-and-deadlines",
    "gre": "not required (program page 'GRE Required: No'; dept page says GRE recommended)",
    "app_fee_usd": 75,
-   "funding_note": "None: dept admissions page says \"We cannot offer our masters students any financial support.\""
+   "funding_note": "None: dept admissions page says \"We cannot offer our masters students any financial support.\"",
+   "priority_iso": null,
+   "deadline_iso": "2027-05-01"
   },
   "alt_programs": [
    {
@@ -3648,7 +3920,8 @@
    "https://www.ccny.cuny.edu/admissions/graduate-studies-application",
    "https://ccny-graduate.catalog.cuny.edu/student-life-and-support/tuition-and-fees",
    "https://www.cuny.edu/financial-aid/tuition-and-college-costs/tuition-fees/"
-  ]
+  ],
+  "short": "The City College of New York"
  },
  {
   "school": "The George Washington University",
@@ -3686,7 +3959,9 @@
    "deadline_url": "https://graduate.engineering.gwu.edu/masters-program-admissions-requirements",
    "gre": "Optional for all MS applicants.",
    "app_fee_usd": 80,
-   "funding_note": "CS MS FAQ: 'The department has limited funds available to support MS students as graders or TAs'; RA funding 'is the prerogative of individual professors.'"
+   "funding_note": "CS MS FAQ: 'The department has limited funds available to support MS students as graders or TAs'; RA funding 'is the prerogative of individual professors.'",
+   "priority_iso": "2027-01-15",
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -3707,7 +3982,8 @@
    "https://www.cs.seas.gwu.edu/ms-frequently-asked-questions",
    "https://graduate.engineering.gwu.edu/masters-program-admissions-requirements",
    "https://studentaccounts.gwu.edu/school-engineering-applied-science-FY27"
-  ]
+  ],
+  "short": "The George Washington University"
  },
  {
   "school": "Tufts University (School of Engineering)",
@@ -3744,7 +4020,9 @@
    "deadline_url": "https://asegrad.tufts.edu/program/computer-science-masters",
    "gre": "not required for applicants with a U.S./Canadian degree; required for all others",
    "app_fee_usd": 0,
-   "funding_note": "Partial, merit-based tuition scholarships; all applicants automatically considered (apply early for priority consideration). No MS TA/RA statement found."
+   "funding_note": "Partial, merit-based tuition scholarships; all applicants automatically considered (apply early for priority consideration). No MS TA/RA statement found.",
+   "priority_iso": "2027-01-15",
+   "deadline_iso": "2027-04-15"
   },
   "alt_programs": [
    {
@@ -3770,7 +4048,8 @@
    "https://asegrad.tufts.edu/program/cybersecurity-masters",
    "https://asegrad.tufts.edu/tuition-aid/school-engineering-soe",
    "https://asegrad.tufts.edu/applying/application-deadlines"
-  ]
+  ],
+  "short": "Tufts University"
  },
  {
   "school": "University of California, Irvine",
@@ -3801,14 +4080,23 @@
    "length": "approximately 2 yrs (minimum 47 units / 14 courses)",
    "thesis": "yes",
    "total_tuition_usd": 60336,
-   "tuition_basis": "2026-27 per quarter: Tuition $4,574 + Student Services Fee $448 + Nonresident Supplemental Tuition $5,034 = $10,056 x 6 quarters (2 yrs). Excludes campus fees and health insurance.",
+   "tuition_basis": "2026-27 nonresident: Tuition $4,574 + SSF $448 + Nonresident Supplemental Tuition $5,034 per quarter x 6 = $60,336. Same 2-year, tuition+SSF basis at every UC (was $60,336 on a mixed basis before the 2026-11-06 review). Campus fees excluded.",
    "tuition_url": "https://www.reg.uci.edu/fees/2026-2027/graduate.html",
    "deadline_fall2027": "2026-12-15",
    "deadline_note": "ICS graduate admissions FAQ: applications open early October and close December 15 for MS and PhD programs (no year shown).",
    "deadline_url": "https://ics.uci.edu/admissions-information-and-computer-science/graduate-admissions/graduate-research-admissions-faq/",
    "gre": "not required (MCS vs MSCS comparison page lists GRE 'Not required' for the MSCS)",
    "app_fee_usd": 135,
-   "funding_note": "MCS-vs-MSCS page: funding 'Available to domestic students based on academic merit, financial need, and contribution to diversity'; ICS FAQ says MS students can apply for TA and graduate student researcher positions."
+   "funding_note": "MCS-vs-MSCS page: funding 'Available to domestic students based on academic merit, financial need, and contribution to diversity'; ICS FAQ says MS students can apply for TA and graduate student researcher positions.",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-15",
+   "total_tuition_resident_usd": 30132,
+   "resident_basis": "2026-27 UCOP systemwide graduate rates, California resident: Tuition $4,574 + Student Services Fee $448 per quarter x 6 quarters = $30,132 (tuition alone $27,444). Campus fees and health insurance excluded. The MS CS is not on the UCOP 2026-27 PDST list (inferred from absence). 2027-28 rates not yet published.",
+   "resident_url": "https://www.reg.uci.edu/fees/2026-2027/graduate.html",
+   "resident_sources": [
+    "https://www.reg.uci.edu/fees/2026-2027/graduate.html",
+    "https://ucop.edu/operating-budget/_files/fees/202627/2026-27.pdf"
+   ]
   },
   "alt_programs": [
    {
@@ -3834,7 +4122,8 @@
    "https://ics.uci.edu/admissions-information-and-computer-science/graduate-admissions/graduate-research-admissions-faq/",
    "https://www.reg.uci.edu/fees/2026-2027/graduate.html",
    "https://grad.uci.edu/admissions/application-fee-fee-waivers/"
-  ]
+  ],
+  "short": "University of California, Irvine"
  },
  {
   "school": "University of California, Riverside",
@@ -3864,15 +4153,24 @@
    "url": "https://www1.cs.ucr.edu/graduate-student-handbook/ms-program-overview",
    "length": null,
    "thesis": "yes",
-   "total_tuition_usd": 40224,
-   "tuition_basis": "2026-27 per quarter: UC Tuition $4,574 + UC Student Service Fee $448 + Nonresident Supplemental Tuition $5,034 = $10,056/quarter x 4 quarters (48 units at the 12-unit/quarter minimum full-time load). 6 quarters (2 years) = $60,336. Campus fees and health insurance excluded.",
+   "total_tuition_usd": 60336,
+   "tuition_basis": "2026-27 nonresident: Tuition $4,574 + SSF $448 + Nonresident Supplemental Tuition $5,034 per quarter x 6 = $60,336. Same 2-year, tuition+SSF basis at every UC (was $40,224 on a mixed basis before the 2026-11-06 review). Campus fees excluded.",
    "tuition_url": "https://registrar.ucr.edu/Quarterly-Graduate-Tuition-and-Fees",
    "deadline_fall2027": "2027-05-01",
    "deadline_note": "CS FAQ lists 'May 1 - General admission deadline for domestic applicants' and 'March 1 - General admission deadline for international applicants' with no year; January 5 is the fellowship-consideration deadline for Ph.D. applicants only. Fall-quarter entry only.",
    "deadline_url": "https://www1.cs.ucr.edu/graduate-admissions-frequently-asked-questions",
    "gre": "Required: 'GRE General Test is required of MS applicants' (optional but encouraged for PhD).",
    "app_fee_usd": 135,
-   "funding_note": "None: 'MS applicants are not eligible to receive financial support (fellowship, TA, GSR).'"
+   "funding_note": "None: 'MS applicants are not eligible to receive financial support (fellowship, TA, GSR).'",
+   "priority_iso": null,
+   "deadline_iso": "2027-05-01",
+   "total_tuition_resident_usd": 30132,
+   "resident_basis": "2026-27 UCOP systemwide graduate rates, California resident: Tuition $4,574 + Student Services Fee $448 per quarter x 6 quarters = $30,132 (tuition alone $27,444). Campus fees and health insurance excluded. The MS CS is not on the UCOP 2026-27 PDST list (inferred from absence). 2027-28 rates not yet published.",
+   "resident_url": "https://registrar.ucr.edu/Quarterly-Graduate-Tuition-and-Fees",
+   "resident_sources": [
+    "https://registrar.ucr.edu/Quarterly-Graduate-Tuition-and-Fees",
+    "https://ucop.edu/operating-budget/_files/fees/202627/2026-27.pdf"
+   ]
   },
   "alt_programs": [],
   "research_fit_note": "Thesis option (Plan I) requires original research approved by a three-faculty committee and counts up to 12 units of CS 297/299 research; 'Typically, thesis research requires three quarters to complete.' MS students may request a change of degree objective to PhD with strong faculty recommendations and a willing research advisor, reviewed like a regular PhD application.",
@@ -3885,7 +4183,8 @@
    "https://www1.cs.ucr.edu/graduate-student-handbook/ms-program-overview",
    "https://www1.cs.ucr.edu/graduate-admissions-frequently-asked-questions",
    "https://registrar.ucr.edu/Quarterly-Graduate-Tuition-and-Fees"
-  ]
+  ],
+  "short": "University of California, Riverside"
  },
  {
   "school": "University of California, Santa Barbara",
@@ -3916,14 +4215,23 @@
    "length": "typically ~2 yrs (42 units; minimum 3 quarters)",
    "thesis": "yes",
    "total_tuition_usd": 60336,
-   "tuition_basis": "2026-27 per quarter: Tuition $4,574 + Student Service Fee $448 + Nonresident Supplemental Tuition $5,034 = $10,056 x 6 quarters (2 yrs). Excludes campus-based fees, tech fee and health insurance.",
+   "tuition_basis": "2026-27 nonresident: Tuition $4,574 + SSF $448 + Nonresident Supplemental Tuition $5,034 per quarter x 6 = $60,336. Same 2-year, tuition+SSF basis at every UC (was $60,336 on a mixed basis before the 2026-11-06 review). Campus fees excluded.",
    "tuition_url": "https://www.graddiv.ucsb.edu/fees-costs/26-27-quarterly",
    "deadline_fall2027": "2026-12-16",
    "deadline_note": "Graduate Division program page: Fall 2027 final deadline Wednesday, December 16, 2026; no priority deadline. Fall admission only.",
    "deadline_url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=CMPSC-MS-0",
    "gre": "not accepted: 'The department does not currently require the GRE for any applicants'; do not upload scores, they will not be reviewed",
    "app_fee_usd": 135,
-   "funding_note": "'MS students may apply for TA positions each quarter and may be employed as GSRs upon availability with a faculty member.'"
+   "funding_note": "'MS students may apply for TA positions each quarter and may be employed as GSRs upon availability with a faculty member.'",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-16",
+   "total_tuition_resident_usd": 30132,
+   "resident_basis": "2026-27 UCOP systemwide graduate rates, California resident: Tuition $4,574 + Student Services Fee $448 per quarter x 6 quarters = $30,132 (tuition alone $27,444). Campus fees and health insurance excluded. The MS CS is not on the UCOP 2026-27 PDST list (inferred from absence). 2027-28 rates not yet published.",
+   "resident_url": "https://www.graddiv.ucsb.edu/fees-costs/26-27-quarterly",
+   "resident_sources": [
+    "https://www.graddiv.ucsb.edu/fees-costs/26-27-quarterly",
+    "https://ucop.edu/operating-budget/_files/fees/202627/2026-27.pdf"
+   ]
   },
   "alt_programs": [],
   "research_fit_note": "The thesis plan (committee of three, public defense, up to 12 units of 596/598 research) lets an MS student do supervised research with UCSB's crypto/security faculty; no official MS-to-PhD pathway was stated.",
@@ -3939,7 +4247,8 @@
    "https://www.graddiv.ucsb.edu/admissions/faqs-applicants",
    "https://www.graddiv.ucsb.edu/fees-costs/26-27-quarterly",
    "https://cs.ucsb.edu/sites/default/files/2022-2023%20CS%20Graduate%20Student%20Handbook.pdf"
-  ]
+  ],
+  "short": "University of California, Santa Barbara"
  },
  {
   "school": "University of Delaware",
@@ -3977,7 +4286,9 @@
    "deadline_url": "https://www.udel.edu/academics/colleges/grad/prospective-students/programs/computer-science/",
    "gre": "optional: 'GRE test scores are optional and not required for admission' (CIS admissions page); the CIS MS page still lists minimums of 153V/155Q/4.0 AW",
    "app_fee_usd": 75,
-   "funding_note": "'most of the financial aid awards are made to PhD students and occasionally to strong MS students'; outstanding MS applicants may be considered for aid; admission does not guarantee funding. TA consideration requires TOEFL 100+ (international)."
+   "funding_note": "'most of the financial aid awards are made to PhD students and occasionally to strong MS students'; outstanding MS applicants may be considered for aid; admission does not guarantee funding. TA consideration requires TOEFL 100+ (international).",
+   "priority_iso": "2027-01-31",
+   "deadline_iso": "2027-08-18"
   },
   "alt_programs": [],
   "research_fit_note": "30-credit MS with a thesis track (6 thesis credits + 12 breadth + 12 elective) that the department describes as for students who may consider a PhD; all students start non-thesis and enter the thesis track once their advisory committee is approved, so lining up a faculty advisor early is key.",
@@ -3992,7 +4303,8 @@
    "https://www.udel.edu/academics/colleges/grad/prospective-students/programs/computer-science/",
    "https://www.udel.edu/academics/colleges/grad/prospective-students/grad-admissions/",
    "https://www.udel.edu/academics/colleges/grad/prospective-students/cost-of-attendance/"
-  ]
+  ],
+  "short": "University of Delaware"
  },
  {
   "school": "University of Illinois Chicago",
@@ -4000,7 +4312,7 @@
   "city": "Chicago",
   "state": "IL",
   "region": "Chicago",
-  "n_professors": 1,
+  "n_professors": 3,
   "professors": [
    {
     "name": "Alexander R. Block",
@@ -4014,6 +4326,38 @@
     ],
     "homepage": "https://www.cs.uic.edu/~block",
     "source": "csrankings+dblp"
+   },
+   {
+    "name": "Daniel J. Bernstein",
+    "dblp": "https://dblp.org/pid/b/DanielJBernstein",
+    "papers": 4,
+    "papers_core_iacr_joc": 3,
+    "papers_crypto_themed_ccs_uss_sp": 1,
+    "topics": [
+     "lattices/PQ",
+     "quantum crypto",
+     "secure messaging/protocols"
+    ],
+    "homepage": "https://cr.yp.to/djb.html",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Research Professor, Department of Computer Science",
+    "affiliation_source": "https://cs.uic.edu/profiles/daniel-j-bernstein/"
+   },
+   {
+    "name": "Anrin Chakraborti",
+    "dblp": "https://dblp.org/pid/157/8155",
+    "papers": 1,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 1,
+    "topics": [
+     "MPC",
+     "PIR/ORAM"
+    ],
+    "homepage": "https://anrin.xyz",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Assistant Professor (applied crypto, secure systems)",
+    "affiliation_source": "https://cs.uic.edu/profiles/chakraborti-anrin/",
+    "note": "Below the method's paper threshold; listed because the review flagged him."
    }
   ],
   "program": {
@@ -4029,7 +4373,9 @@
    "deadline_url": "https://cs.uic.edu/graduate/admissions/",
    "gre": "Conflicting official pages: CS admissions page says 'GRE general test scores are required for all MS applicants, with the exception of UIC graduates'; the CS MS admissions page says U.S. degree holders are not required to submit GRE and it is required for degrees received outside the U.S.",
    "app_fee_usd": 80,
-   "funding_note": "CS admissions page: 'Most CS graduate students, including masters, are eligible for financial support, including teaching assistantships (TA), research assistantships (RA), and graduate fellowships.' Assistantships of 25-67% time carry a tuition exemption (CS funding page). Not guaranteed for MS (the guaranteed funded appointment described is for PhD students)."
+   "funding_note": "CS admissions page: 'Most CS graduate students, including masters, are eligible for financial support, including teaching assistantships (TA), research assistantships (RA), and graduate fellowships.' Assistantships of 25-67% time carry a tuition exemption (CS funding page). Not guaranteed for MS (the guaranteed funded appointment described is for PhD students).",
+   "priority_iso": "2027-01-15",
+   "deadline_iso": "2027-02-15"
   },
   "alt_programs": [],
   "research_fit_note": "The MS has coursework-only, project, and thesis options; the department says the thesis option is 'strongly advised for students who may be interested in pursuing a PhD in the future.' No formal MS-to-PhD transfer pathway is stated.",
@@ -4046,7 +4392,8 @@
    "https://grad.uic.edu/admissions/degree-admission/domestic-admission/",
    "https://registrar.uic.edu/financial-matters/graduate-tuition-and-fees/",
    "https://uofi.box.com/s/z2nl5shzqqa74wjizi1kk64a195n4tjm"
-  ]
+  ],
+  "short": "University of Illinois Chicago"
  },
  {
   "school": "University of Massachusetts Amherst (Manning College of Information & Computer Sciences)",
@@ -4084,7 +4431,9 @@
    "deadline_url": "https://www.cics.umass.edu/academics/ms-computer-science-campus",
    "gre": "Optional: 'The GRE test is optional for the MS program.'",
    "app_fee_usd": 90,
-   "funding_note": "None: 'Graduate assistantships are not available to Manning CICS; however, MS students can seek part-time employment opportunities across campus.' Terminal master's students (cohorts since Fall 2016) are ineligible for assistantships in the college or elsewhere on campus except in extraordinary circumstances."
+   "funding_note": "None: 'Graduate assistantships are not available to Manning CICS; however, MS students can seek part-time employment opportunities across campus.' Terminal master's students (cohorts since Fall 2016) are ineligible for assistantships in the college or elsewhere on campus except in extraordinary circumstances.",
+   "priority_iso": "2026-12-15",
+   "deadline_iso": "2027-03-15"
   },
   "alt_programs": [
    {
@@ -4107,7 +4456,8 @@
    "https://www.cics.umass.edu/academics/academic-policies/graduate-programs-policies/ms-degree-requirements/ms-course-requirements",
    "https://www.umass.edu/bursar/tuition/graduate-tuition",
    "https://www.umass.edu/graduate/apply/how-apply"
-  ]
+  ],
+  "short": "University of Massachusetts Amherst"
  },
  {
   "school": "University of Utah",
@@ -4145,7 +4495,9 @@
    "deadline_url": "https://www.cs.utah.edu/graduate/prospective-students/admissions/graduate-deadline-details/",
    "gre": "optional: 'Optional for Masters and Ph.D. Applicants'",
    "app_fee_usd": 55,
-   "funding_note": "RAs appointed directly by faculty on external grants; TAs via the School's TA portal but it 'cannot guarantee a TA position to new students'; master's students limited to 2 years (4 semesters) of tuition benefit."
+   "funding_note": "RAs appointed directly by faculty on external grants; TAs via the School's TA portal but it 'cannot guarantee a TA position to new students'; master's students limited to 2 years (4 semesters) of tuition benefit.",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-15"
   },
   "alt_programs": [
    {
@@ -4169,7 +4521,8 @@
    "https://www.cs.utah.edu/graduate/academic-programs/ms-and-phd-programs/",
    "https://www.cs.utah.edu/graduate/academic-programs/bs-ms-program/",
    "https://fbs.admin.utah.edu/download/income/Graduate/GeneralGraduateFeeNRes.pdf"
-  ]
+  ],
+  "short": "University of Utah"
  },
  {
   "school": "University of Wisconsin-Madison",
@@ -4207,7 +4560,9 @@
    "deadline_url": "https://www.cs.wisc.edu/grad/programs/admissions/",
    "gre": "Not required ('GRE test scores are NOT required for admission to Department of Computer Sciences graduate programs'); submitted scores may be considered.",
    "app_fee_usd": 75,
-   "funding_note": "CS admissions page (traditional MS/PhD): 'We offer financial support to a large number of our admitted students in the form of teaching assistantships, research assistantships and/or competitive fellowships. Decisions on financial support are made at the same time as admission decisions.'"
+   "funding_note": "CS admissions page (traditional MS/PhD): 'We offer financial support to a large number of our admitted students in the form of teaching assistantships, research assistantships and/or competitive fellowships. Decisions on financial support are made at the same time as admission decisions.'",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-15"
   },
   "alt_programs": [
    {
@@ -4229,7 +4584,15 @@
    "https://grad.wisc.edu/apply/",
    "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
    "https://www.wisconsin.edu/budget-planning/download/tuition/2026-27-Tuition-Schedule-FINAL.pdf"
-  ]
+  ],
+  "short": "University of Wisconsin-Madison",
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.wisc.edu/grad/programs/admissions/",
+   "note": "One MS/PhD pool, \"December 15\" (year not printed). An admitted MS student \"does not need to reapply\" to continue to the PhD, contingent on the PhD Qualifying Process. Fee $75."
+  }
  },
  {
   "school": "University of Wisconsin-Milwaukee",
@@ -4265,7 +4628,9 @@
    "deadline_url": "https://uwm.edu/engineering/students/faqs-computer-science-master-of-science/",
    "gre": "not required (\"they are not required for admission to our master's program\"; may support a weak application)",
    "app_fee_usd": 75,
-   "funding_note": "Regular-track students \"are eligible for departmental scholarships, teaching and research assistantships. Competition for the few slots available is stiff.\" RAs come from individual faculty with openings. Professional track not eligible."
+   "funding_note": "Regular-track students \"are eligible for departmental scholarships, teaching and research assistantships. Competition for the few slots available is stiff.\" RAs come from individual faculty with openings. Professional track not eligible.",
+   "priority_iso": null,
+   "deadline_iso": "2027-03-15"
   },
   "alt_programs": [
    {
@@ -4291,7 +4656,8 @@
    "https://uwm.edu/engineering/wp-content/uploads/sites/537/2026/02/MS-CS-Thesis-Regular-Track-PoS.pdf",
    "https://uwm.edu/finances/finances/estimating-your-costs/tuition/tuition-fees-fall-2026/",
    "https://uwm.edu/graduateschool/students/admission/"
-  ]
+  ],
+  "short": "University of Wisconsin-Milwaukee"
  },
  {
   "school": "Virginia Commonwealth University",
@@ -4329,7 +4695,9 @@
    "deadline_url": "https://egr.vcu.edu/future-students/graduate/graduate-degrees/computer-science-masters/",
    "gre": "not required (\"Not needed to apply: GRE general test scores\")",
    "app_fee_usd": 75,
-   "funding_note": "Officially none: \"Is financial assistance available for master's students? No. Master's students in the College are self-funded, and scholarships are unavailable.\""
+   "funding_note": "Officially none: \"Is financial assistance available for master's students? No. Master's students in the College are self-funded, and scholarships are unavailable.\"",
+   "priority_iso": null,
+   "deadline_iso": "2027-06-01"
   },
   "alt_programs": [
    {
@@ -4359,7 +4727,8 @@
    "https://sfs.vcu.edu/tuition-and-fees/",
    "https://sfs.vcu.edu/media/semgi--student-success/sfs/FY2027BudgetPlanREMEDIATED.pdf",
    "https://www.vcu.edu/admissions/apply/graduate/"
-  ]
+  ],
+  "short": "Virginia Commonwealth University"
  },
  {
   "school": "Virginia Polytechnic Institute and State University",
@@ -4397,7 +4766,9 @@
    "deadline_url": "https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html",
    "gre": null,
    "app_fee_usd": 75,
-   "funding_note": "Dept: \"We offer funding opportunities to research-track Ph.D. and Master of Science students\"; remaining GTA slots go to an unranked pool of eligible M.S. and Ph.D. students; assistantships include a stipend and an out-of-state tuition waiver if eligible. PhD students get guaranteed 5-year funding."
+   "funding_note": "Dept: \"We offer funding opportunities to research-track Ph.D. and Master of Science students\"; remaining GTA slots go to an unranked pool of eligible M.S. and Ph.D. students; assistantships include a stipend and an out-of-state tuition waiver if eligible. PhD students get guaranteed 5-year funding.",
+   "priority_iso": null,
+   "deadline_iso": "2026-12-01"
   },
   "alt_programs": [
    {
@@ -4427,7 +4798,8 @@
    "https://bursar.vt.edu/tuition-fee-rates/tuition-fees.html",
    "https://www.bursar.vt.edu/content/dam/bursar_vt_edu/tuition/fall-26---spring-27/2026-2027%20Tuition%20Fee%20Rates%20with%20COA.pdf",
    "https://graduateschool.vt.edu/admissions/how-to-apply.html"
-  ]
+  ],
+  "short": "Virginia Tech"
  },
  {
   "school": "Washington State University (Pullman)",
@@ -4465,7 +4837,9 @@
    "deadline_url": "https://school.eecs.wsu.edu/academics/graduate-program/admission/",
    "gre": "Optional ('GRE scores are optional'; Graduate School factsheet: 'GRE Optional').",
    "app_fee_usd": 100,
-   "funding_note": "All applicants are considered for RA/TA support (tuition waiver plus monthly stipend for 20 hrs/week) but not all receive it; FAQ: 'Funded positions typically go to Ph.D. students, but there are occasional positions available for Master's students.' Graduate School factsheet: 6 of 22 students in the program receive assistantships."
+   "funding_note": "All applicants are considered for RA/TA support (tuition waiver plus monthly stipend for 20 hrs/week) but not all receive it; FAQ: 'Funded positions typically go to Ph.D. students, but there are occasional positions available for Master's students.' Graduate School factsheet: 6 of 22 students in the program receive assistantships.",
+   "priority_iso": "2027-01-10",
+   "deadline_iso": null
   },
   "alt_programs": [
    {
@@ -4487,7 +4861,8 @@
    "https://school.eecs.wsu.edu/academics/graduate-program/current-students/graduate-student-handbook-2025-2027/",
    "https://budget.wsu.edu/documents/2026/03/wsu-system-tuition-rates-academic-year-2026-2027.pdf/",
    "https://gradschool.wsu.edu/apply/"
-  ]
+  ],
+  "short": "Washington State University"
  },
  {
   "school": "William Marsh Rice University",
@@ -4525,7 +4900,9 @@
    "deadline_url": "https://csweb.rice.edu/academics/graduate-programs/admission/graduate-program-application",
    "gre": "optional ('GRE recommended, but not required')",
    "app_fee_usd": 85,
-   "funding_note": "Early applicants automatically considered for merit-based scholarships; 'Limited teaching and research assistantships are available.'"
+   "funding_note": "Early applicants automatically considered for merit-based scholarships; 'Limited teaching and research assistantships are available.'",
+   "priority_iso": "2027-02-10",
+   "deadline_iso": "2027-07-01"
   },
   "alt_programs": [
    {
@@ -4549,6 +4926,170 @@
    "https://cs.rice.edu/academics/graduate-programs/master-computer-science",
    "https://csweb.rice.edu/academics/graduate-programs/admission/graduate-program-application",
    "https://bursar.rice.edu/tuition_fee_rates/graduate-programs/engineering"
-  ]
+  ],
+  "short": "Rice University"
+ },
+ {
+  "school": "University of Chicago",
+  "short": "University of Chicago",
+  "csrankings_name": "University of Chicago",
+  "city": "Chicago",
+  "state": "IL",
+  "region": "Chicago",
+  "professors": [
+   {
+    "name": "David Cash",
+    "dblp": "https://dblp.org/pid/68/158",
+    "papers": 2,
+    "papers_core_iacr_joc": 1,
+    "papers_crypto_themed_ccs_uss_sp": 1,
+    "topics": [],
+    "homepage": "https://people.cs.uchicago.edu/~davidcash/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Professor of Computer Science",
+    "affiliation_source": "https://cs.uchicago.edu/people/david-cash/",
+    "note": "Below the method's 2021-25 paper threshold (1 theory-venue + 1 security-venue paper), which is why the CSrankings pass dropped him."
+   },
+   {
+    "name": "Aloni Cohen",
+    "dblp": "https://dblp.org/pid/157/0152",
+    "papers": 0,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [],
+    "homepage": "https://aloni.net/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Assistant Professor of Computer Science and Data Science",
+    "affiliation_source": "https://cs.uchicago.edu/people/aloni-cohen/",
+    "note": "0 papers at the method's venues 2021-25; added because the review flagged him."
+   }
+  ],
+  "program": {
+   "name": "Pre-Doctoral MS in Computer Science (MPCS research track)",
+   "url": "https://masters.cs.uchicago.edu/pre-doctoral-ms-computer-science/",
+   "length": "15 months full-time, starting Autumn quarter; 12 courses (4 core, 4 research with an MS research advisor, 4 PhD-level electives)",
+   "thesis": "no",
+   "total_tuition_usd": 85592,
+   "tuition_basis": "2025-26 official MPCS rate: 12-course MS = $85,592 (about $7,133 per course). 2026-27 rate not verified (search index shows about $89K). Fees (Student Services $503/qtr, U-SHIP) excluded.",
+   "tuition_url": "https://masters.cs.uchicago.edu/admissions/tuition-fees/",
+   "deadline_fall2027": null,
+   "deadline_iso": null,
+   "priority_iso": null,
+   "deadline_note": "NOT VERIFIED for Fall 2027: masters.cs.uchicago.edu was unreachable on 2026-11-06. Last cycle (2026 entry): Round 1 Feb 4, 2026, Round 2 Apr 1, 2026 (Wayback copy, 2026-03-25). A search index shows \"March 1, 2027\" for the live page; unconfirmed.",
+   "deadline_url": "https://masters.cs.uchicago.edu/pre-doctoral-ms-computer-science/",
+   "gre": "Optional (test-optional since Autumn 2025); strongly recommended without a CS/math background.",
+   "app_fee_usd": 90,
+   "funding_note": "\"While we offer a limited number of merit-based scholarships, applicants should plan to take primary financial responsibility for the cost of the program.\" All applicants are considered automatically."
+  },
+  "alt_programs": [],
+  "research_fit_note": "Research track with 4 research courses under an MS research advisor plus summer research after year 1; no formal thesis. Caveat: the 2026-27 list of faculty reviewing Pre-Doctoral applicants did NOT include Cash or Cohen (security names on it: Grant Ho, Kexin Pei, Blase Ur, Ben Zhao), so a crypto advisor is not guaranteed.",
+  "notes": "Added 2026-11-06 after the independent review. UChicago pages were down for maintenance; details read from Wayback copies dated 2026-03 to 2026-07. CS PhD: last verified deadline Dec 11, 2025 (Fall 2026 entry); a search index shows Dec 10, 2026 for Fall 2027, unconfirmed, so no PhD date is in the timeline.",
+  "sources": [
+   "https://cs.uchicago.edu/people/david-cash/",
+   "https://cs.uchicago.edu/people/aloni-cohen/",
+   "https://masters.cs.uchicago.edu/pre-doctoral-ms-computer-science/",
+   "https://masters.cs.uchicago.edu/admissions/tuition-fees/",
+   "https://masters.cs.uchicago.edu/admissions/application-requirements/",
+   "https://cs-www.uchicago.edu/academics/admission/"
+  ],
+  "phd_direct": {
+   "deadline": "not verified (last cycle Dec 11, 2025; search index shows Dec 10, 2026)",
+   "deadline_iso": null,
+   "priority_iso": null,
+   "url": "https://cs-www.uchicago.edu/academics/admission/",
+   "note": "$90 fee, GRE optional (last verified cycle)."
+  },
+  "n_professors": 2
+ },
+ {
+  "school": "Cornell Tech (New York City campus of Cornell University)",
+  "short": "Cornell Tech (NYC)",
+  "csrankings_name": "Cornell University",
+  "city": "New York",
+  "state": "NY",
+  "region": "NYC",
+  "professors": [
+   {
+    "name": "Rafael Pass",
+    "dblp": "https://dblp.org/pid/p/RPass",
+    "papers": 18,
+    "papers_core_iacr_joc": 18,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "foundations",
+     "ZK/SNARKs",
+     "obfuscation/iO"
+    ],
+    "homepage": "http://www.cs.cornell.edu/~rafael/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Professor of Computer Science, located at Cornell Tech",
+    "affiliation_source": "https://www.cs.cornell.edu/people/rafael-pass",
+    "note": "Tel Aviv University also lists him as Full Professor (2023-present), so his time in NYC is unclear."
+   },
+   {
+    "name": "Ari Juels",
+    "dblp": "https://dblp.org/pid/j/AriJuels",
+    "papers": 1,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 1,
+    "topics": [],
+    "homepage": "https://www.arijuels.com/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Weill Professor of Computer Science, Cornell Tech",
+    "affiliation_source": "https://www.cs.cornell.edu/people/ari-juels",
+    "note": "Below the paper threshold for 2021-25 at these venues."
+   },
+   {
+    "name": "Thomas Ristenpart",
+    "dblp": "https://dblp.org/pid/26/3399",
+    "papers": 9,
+    "papers_core_iacr_joc": 5,
+    "papers_crypto_themed_ccs_uss_sp": 4,
+    "topics": [
+     "secure messaging/protocols",
+     "symmetric/hash"
+    ],
+    "homepage": "https://rist.tech.cornell.edu/",
+    "source": "manual (independent review 2026-11-06); counts from dblp SPARQL, same venues/years as the method",
+    "title": "Professor, Cornell Tech and Cornell CS (on leave)",
+    "affiliation_source": "https://rist.tech.cornell.edu/",
+    "note": "His homepage: \"Starting January 2026, I will be at the University of Toronto and on leave from Cornell\" and \"I will not be taking new PhD students at Cornell in the coming year.\""
+   }
+  ],
+  "program": {
+   "name": "M.Eng. in Computer Science (Cornell Tech)",
+   "url": "https://tech.cornell.edu/programs/masters-programs/master-in-computer-science/",
+   "length": "1 year, 30 credits",
+   "thesis": "no",
+   "total_tuition_usd": 73946,
+   "tuition_basis": "2026-27 Cornell Tech M.Eng tuition $73,946 for the one-year program. Fees excluded.",
+   "tuition_url": "https://tech.cornell.edu/admissions/tuition-fees/",
+   "deadline_fall2027": "2026-12-01",
+   "priority_iso": "2026-12-01",
+   "deadline_iso": "2027-04-01",
+   "deadline_note": "Full-time: Priority Dec 1, 2026; Round 2 Jan 26, 2027; Rolling deadline Apr 1, 2027 (all 5:00 PM EST).",
+   "deadline_url": "https://tech.cornell.edu/admissions/meng-application/",
+   "gre": "\"not required and will not be accepted\"",
+   "app_fee_usd": 95,
+   "funding_note": "\"Cornell Tech offers scholarship aid to a limited number of master's degree students each year.\""
+  },
+  "alt_programs": [],
+  "research_fit_note": "Honest read: the only Cornell Tech master's is a 1-year professional M.Eng built on courses and studios, with no thesis or research track (an independent-study process exists but is not described). For research with Pass/Juels, the Cornell CS PhD (Dec 15) is the real route; whether an applicant can target a Cornell Tech advisor is not verified here.",
+  "notes": "Added 2026-11-06 after the independent review. Pass and Ristenpart meet the method's thresholds but were missed by the CSrankings pass (likely listed under another affiliation there; not verified).",
+  "sources": [
+   "https://www.cs.cornell.edu/people/rafael-pass",
+   "https://www.cs.cornell.edu/people/ari-juels",
+   "https://rist.tech.cornell.edu/",
+   "https://tech.cornell.edu/admissions/meng-application/",
+   "https://tech.cornell.edu/admissions/tuition-fees/"
+  ],
+  "phd_direct": {
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.cornell.edu/index.php/phd-computer-science/apply",
+   "note": "Cornell CS PhD: \"The deadline for the Fall semester is December 15th\" (year not printed)."
+  },
+  "n_professors": 3
  }
 ]

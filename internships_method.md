@@ -39,7 +39,7 @@ Schools and fellowships that aren't internships are kept but marked in `focus_ar
   - No verifiable intern program for Aleo, Succinct, StarkWare, Coinbase (no crypto research intern among 285 postings), Espresso, Offchain, Nillion, Ingonyama, Fabric, Polygon, Protocol Labs, Ripple, Galois or Thales.
   - No program called "AlgoCRYPT" found at JPMorgan. Its crypto research internships appear as the AI Research Associate (MPC/crypto track) and the GTAR quantum-crypto summer associate instead.
   - No Simons Institute crypto program and no IACR school listed for summer 2027.
-- **Already closed for 2027:** NSA GMP, CASASP and SoS (Aug 15 - Sep 5 2026), and the Max Planck internship including MPI-SP (Nov 1 2026). These are 2028 targets.
+- **Already closed for 2027:** NSA GMP (IC job 1261493), CASASP (1261551) and SoS (1261519), all Aug 15 - Sep 5 2026 (re-sourced 2026-11-06; USAJobs 880807100 is the umbrella posting), and the Max Planck internship including MPI-SP (Nov 1 2026). These are 2028 targets.
 - **Deadlines that are close as of retrieval:**
   - IDA CCR-La Jolla SCAMP: Nov 14 2026
   - a16z Frontier: Nov 20 2026
@@ -52,3 +52,24 @@ Schools and fellowships that aren't internships are kept but marked in `focus_ar
 - **Lower-quality sources:** some pages load only with JavaScript and were read through public JSON APIs. Headless Edge was used briefly by some research agents before the stop request; Chrome was never used. A few rows rely on aggregators or search snippets: Chainlink pay, EF pay, the Intel and JPMorgan quantum-crypto rows, Aerospace, INL and Lincoln Lab pay.
 - Pay is copied as posted (weekly, monthly or annualized). Nothing was converted or estimated.
 - No one was contacted, nothing was applied to, and nothing was logged into.
+
+## Changes after the independent review (2026-11-06)
+- **New fields:**
+  - `deadline_iso`, `priority_iso` and `opens_iso` hold ISO dates where a concrete date exists.
+  - `deadline_kind` is one of final, posting end or opens.
+  - `status` is one of open, rolling, not yet posted or closed.
+  - `location_bucket` holds one or more of NYC, Chicago, Bay Area, SoCal, Remote, International or Other.
+  - The site also treats a row as closed once its final date has passed.
+- **NTT Research CIS:** category changed from Big tech to Industry research labs.
+- **a16z Frontier:** category changed to Industry research labs (the lab is now multidisciplinary), difficulty raised from Moderate to Hard, and moved from top pick #1 to #6.
+- **New top-pick order:**
+  1. LANL CSRP
+  2. LLNL CSI
+  3. CISPA
+  4. Ethereum Foundation
+  5. IDA SCAMP La Jolla
+  6. a16z
+- **Arizona Winter School 2027:** the student deadline (Nov 24, 2026) was added. The school runs March 6-10, 2027, so it is a winter school, not a summer program.
+- **Not added (unverified):**
+  - IDA CCS (Bowie) SCAMP 2027: no official posting found.
+  - KU Leuven COSIC, Duality, IOG and Google DeepMind Student Researcher: not checked in this pass.

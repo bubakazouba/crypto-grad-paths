@@ -28,8 +28,18 @@
    "https://careers.ntt-research.com/job_posts/8c839d53-4bde-493f-bd38-2b539d61552d",
    "email from NTT CIS to candidate, Nov 2026"
   ],
-  "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "category": "Industry research labs",
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area"
+  ],
+  "deadline_iso": "2026-12-20",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "Year inferred: page says \"December 20\" without a year; positions start in 2027.",
+  "top_pick": null
  },
  {
   "org": "Microsoft Research",
@@ -61,7 +71,16 @@
    "https://careers.microsoft.com/us/en/us-intern-pay"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Microsoft Research",
@@ -93,7 +112,16 @@
    "https://careers.microsoft.com/us/en/us-intern-pay"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Microsoft Research",
@@ -122,7 +150,16 @@
    "https://simplify.jobs/p/af9ab5dc-ea22-45aa-8e47-1a9dd4e899f4"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Microsoft Research",
@@ -152,7 +189,16 @@
    "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557050102&domain=microsoft.com&hl=en"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Google",
@@ -182,7 +228,18 @@
    "https://www.google.com/about/careers/applications/jobs/results/134313315235963590-student-researcher-phd-wintersummer-2027"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other",
+   "Remote"
+  ],
+  "deadline_iso": "2027-07-16",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "Window may close earlier if projects fill.",
+  "top_pick": null
  },
  {
   "org": "Google",
@@ -211,7 +268,18 @@
    "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area",
+   "Other"
+  ],
+  "deadline_iso": "2027-02-26",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "Window may close earlier if projects fill.",
+  "top_pick": null
  },
  {
   "org": "IBM Research",
@@ -240,7 +308,16 @@
    "https://careers.ibm.com/careers/JobDetail?jobId=132704"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "IBM Research",
@@ -272,7 +349,16 @@
    "https://research.ibm.com/topics/cryptography"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Apple",
@@ -302,7 +388,16 @@
    "https://jobs.apple.com/en-us/details/200576537/internship-authentication-engineer-sear?team=SFTWR"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Apple",
@@ -331,7 +426,16 @@
    "https://jobs.apple.com/en-us/details/200664320-3810/software-engineering-masters-internships?team=STDNT"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Apple",
@@ -361,7 +465,16 @@
    "https://jobs.apple.com/en-us/details/200664221-3810/machine-learning-and-artificial-intelligence-masters-internships?team=STDNT"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Meta",
@@ -391,7 +504,16 @@
    "https://www.metacareers.com/jobsearch?q=research%20scientist%20intern%20privacy"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Meta",
@@ -422,7 +544,16 @@
    "https://research.facebook.com/blog/2024/4/how-to-create-impact-through-metas-research-intern-program-a-qa-with-kevin-lewi-and-jasleen-malvai"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Meta",
@@ -451,7 +582,17 @@
    "https://www.metacareers.com/profile/job_details/2535222523640873"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area",
+   "NYC"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Amazon / AWS",
@@ -481,7 +622,18 @@
    "https://www.amazon.jobs/en/search.json?base_query=AWS%20Cryptography"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other",
+   "NYC",
+   "Bay Area"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Amazon / AWS",
@@ -510,7 +662,16 @@
    "https://www.amazon.jobs/en/jobs/10564586/2027-applied-science-internship-united-states-master-s-student-science-recruiting"
   ],
   "category": "Big tech",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Cloudflare",
@@ -541,7 +702,17 @@
    "https://job-boards.greenhouse.io/cloudflare/jobs/8089407"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other",
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Visa Research",
@@ -572,7 +743,16 @@
    "https://jobs.smartrecruiters.com/Visa/744000080905814"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "JPMorgan Chase",
@@ -603,7 +783,17 @@
    "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800615"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "NYC"
+  ],
+  "deadline_iso": "2026-12-31",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "posting end",
+  "status": "open",
+  "deadline_iso_note": "Scheduled posting end from the JPMC careers API; not stated as a hard deadline.",
+  "top_pick": null
  },
  {
   "org": "JPMorgan Chase",
@@ -635,7 +825,16 @@
    "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "NYC"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Bosch Research (Research and Technology Center North America)",
@@ -666,7 +865,16 @@
    "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?q=security%20research&country=us"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Intel Labs",
@@ -697,7 +905,16 @@
    "https://jobs.intel.com/en/job/vienna/pqc-intern-f-m-d/41147/67144378192"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "SandboxAQ",
@@ -728,7 +945,16 @@
    "https://jobs.ashbyhq.com/sandboxaq"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Zama",
@@ -759,7 +985,17 @@
    "https://jobs.zama.org"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International",
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "PQShield",
@@ -790,7 +1026,17 @@
    "https://boards-api.greenhouse.io/v1/boards/pqshield/jobs"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International",
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Trail of Bits",
@@ -821,7 +1067,17 @@
    "https://www.trailofbits.com/careers/"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "NYC",
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "NEC Laboratories America",
@@ -852,7 +1108,16 @@
    "https://www.nec-labs.com/careers/"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "open",
+  "top_pick": null
  },
  {
   "org": "Ericsson Research",
@@ -881,7 +1146,16 @@
    "https://builtin.com/job/research-internship-cellular-security/8547294"
   ],
   "category": "Industry research labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "a16z (Andreessen Horowitz) - a16z Frontier research lab (formerly a16z crypto research)",
@@ -903,17 +1177,26 @@
   "pay_source": "https://a16z.com/about/jobs/?gh_jid=8046730003",
   "prestige_tier": "Top",
   "prestige_justification": "Judgment: a16z crypto research (Tim Roughgarden's lab) is one of the best-known industry crypto research groups; NYC residency with paid housing.",
-  "difficulty_for_sahmoud": "Moderate",
-  "difficulty_reason": "Judgment: MS students are explicitly in scope with their own pay band and there is no publication bar, and his math MS plus 9y engineering fits the 'transition to building' profile; but it is a broad, very competitive call and he needs 1 recommendation letter by Nov 20 (2 weeks away).",
+  "difficulty_for_sahmoud": "Hard",
+  "difficulty_reason": "Hard (revised 2026-11-06 after independent review): MS students are explicitly in scope with their own pay band and there is no publication bar, but a16z Frontier is now a multidisciplinary lab (AI, bio, energy, materials, pure math, crypto...) running one open call across all fields, so competition is broader than a crypto-only call; he also needs 1 recommendation letter by Nov 20.",
   "notes": "Posting is LIVE (Greenhouse API updated_at 2026-11-06). The lab has broadened from crypto-only to AI/materials/energy/hardware; cryptography/security are still listed areas. Includes U.S. export-control questions (he is a US citizen, so no issue). Typical split: 2/3 own research, 1/3 portfolio problems.",
   "sources": [
    "https://a16z.com/about/jobs/?gh_jid=8046730003",
    "https://boards-api.greenhouse.io/v1/boards/a16z/jobs/8046730003",
    "https://venturecapitalcareers.com/companies/andreessen-horowitz/jobs/research-intern-frontier"
   ],
-  "category": "Blockchain / web3 research",
+  "category": "Industry research labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 1
+  "top_pick": 6,
+  "location_bucket": [
+   "NYC"
+  ],
+  "deadline_iso": "2026-11-20",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "review_change": "Recategorized from \"Blockchain / web3 research\" to \"Industry research labs\"; difficulty Moderate -> Hard; top pick #1 -> #6. Source: https://boards-api.greenhouse.io/v1/boards/a16z/jobs/8046730003"
  },
  {
   "org": "Ethereum Foundation",
@@ -945,7 +1228,16 @@
   ],
   "category": "Blockchain / web3 research",
   "date_retrieved": "2026-11-06",
-  "top_pick": 4
+  "top_pick": 4,
+  "location_bucket": [
+   "Remote",
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted"
  },
  {
   "org": "Ethereum Foundation (Protocol Support)",
@@ -974,7 +1266,16 @@
    "https://blog.ethereum.org/2026/04/30/epf-7"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Chainlink Labs",
@@ -1004,7 +1305,16 @@
    "https://cryptojobslist.com/jobs/research-internship-united-states-united-states-canada-at-chainlink-labs"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Flashbots",
@@ -1033,7 +1343,16 @@
    "https://github.com/flashbots/mev-research/blob/main/grants.md"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "rolling",
+  "top_pick": null
  },
  {
   "org": "Mysten Labs",
@@ -1063,7 +1382,16 @@
    "https://cryptocurrencyjobs.co/engineering/mysten-labs-phd-research-internship-cryptography-summer-2023"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Aptos Labs",
@@ -1092,7 +1420,16 @@
    "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Matter Labs (ZKsync)",
@@ -1122,7 +1459,16 @@
    "https://cryptocurrencyjobs.co/engineering/matter-labs-research-intern-cryptography"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Algorand Technologies",
@@ -1151,7 +1497,16 @@
    "https://cryptocurrencyjobs.co/engineering/algorand-intern-cryptography"
   ],
   "category": "Blockchain / web3 research",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "IDA Center for Communications Research, La Jolla (CCR-L)",
@@ -1184,7 +1539,16 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 6
+  "top_pick": 5,
+  "location_bucket": [
+   "SoCal"
+  ],
+  "deadline_iso": "2027-01-31",
+  "priority_iso": "2026-11-14",
+  "opens_iso": null,
+  "deadline_kind": "posting end",
+  "status": "open",
+  "deadline_iso_note": "Nov 14 is the full-consideration date; the listing stays up to Jan 31, 2027."
  },
  {
   "org": "IDA Center for Communications Research, Princeton (CCR-P)",
@@ -1214,7 +1578,16 @@
    "https://www.ziprecruiter.com/c/Institute-for-Defense-Analyses/Job/Summer-Associate-SCAMP-2027-28-CCRP/-in-Princeton,NJ?jid=ceef12a607cf2cff"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1229,9 +1602,9 @@
   "publications_source": "https://www.usajobs.gov/job/880807100",
   "letters_of_recommendation": "Older GMP materials: \"at least two letters of recommendation from faculty members familiar with their work\"; 2027 announcement text did not mention letters",
   "letters_source": "https://www.math.ucdavis.edu/~saito/nsa-grad.html",
-  "deadline_summer_2027": "CLOSED: Summer 2027 announcement opened 08/15/2026 and closed 09/05/2026 (\"COMPLETE application package by 5 September 11:59pm EST\")",
+  "deadline_summer_2027": "CLOSED: the Graduate Mathematics Program Summer 2027 announcement (IC job 1261493) accepted applications 15 August - 5 September 2026, 11:59pm EST.",
   "deadline_last_year_or_typical_window": "Early September for the following summer (2027 cycle); older materials cited Sept 30 or Oct 15",
-  "deadline_source": "https://www.usajobs.gov/job/880807100",
+  "deadline_source": "https://apply.intelligencecareers.gov/job-description/1261493 ; https://www.usajobs.gov/job/880807100 (umbrella \"NSAW Summer Internship Program\" posting, also closed 09/05/2026)",
   "pay": "$41,659 - $91,815 per year (GG 4-9), prorated for the 10-12 week summer",
   "pay_source": "https://www.usajobs.gov/job/880807100",
   "prestige_tier": "Top",
@@ -1243,10 +1616,22 @@
    "https://www.usajobs.gov/job/880807100",
    "https://app.joinhandshake.com/jobs/6948281/share_preview",
    "https://www.math.ucdavis.edu/~saito/nsa-grad.html",
-   "https://www.intelligencecareers.gov/nsa/students-and-internships"
+   "https://www.intelligencecareers.gov/nsa/students-and-internships",
+   "https://apply.intelligencecareers.gov/job-description/1261493"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2026-09-05",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "closed",
+  "top_pick": null,
+  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261493. Status confirmed closed. A 2028 target.",
+  "eligibility_note_review": "IC job 1261493: \"Applicants may be at any stage in their graduate careers\"; \"1 Letter of Recommendation from a faculty member familiar with your technical work\"."
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1261,9 +1646,9 @@
   "publications_source": "https://www.usajobs.gov/job/880807100",
   "letters_of_recommendation": "not stated",
   "letters_source": "https://www.usajobs.gov/job/880807100",
-  "deadline_summer_2027": "CLOSED: announcement open 08/15/2026 to 09/05/2026",
+  "deadline_summer_2027": "CLOSED: the Cryptanalysis and Signals Analysis Summer Program Summer 2027 announcement (IC job 1261551) accepted applications 15 August - 5 September 2026, 11:59pm EST.",
   "deadline_last_year_or_typical_window": "Late summer / early September of the year before",
-  "deadline_source": "https://www.usajobs.gov/job/880807100",
+  "deadline_source": "https://apply.intelligencecareers.gov/job-description/1261551 ; https://www.usajobs.gov/job/880807100 (umbrella \"NSAW Summer Internship Program\" posting, also closed 09/05/2026)",
   "pay": "$41,659 - $91,815 per year (GG 4-9) per the umbrella announcement, prorated",
   "pay_source": "https://www.usajobs.gov/job/880807100",
   "prestige_tier": "Strong",
@@ -1274,10 +1659,21 @@
   "sources": [
    "https://www.usajobs.gov/job/880807100",
    "https://app.joinhandshake.com/jobs/6948281/share_preview",
-   "https://middlebury.joinhandshake.com/jobs/3056308/share_preview"
+   "https://middlebury.joinhandshake.com/jobs/3056308/share_preview",
+   "https://apply.intelligencecareers.gov/job-description/1261551"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2026-09-05",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "closed",
+  "top_pick": null,
+  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261551. Status confirmed closed. A 2028 target."
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1292,9 +1688,9 @@
   "publications_source": "https://www.usajobs.gov/job/880807100",
   "letters_of_recommendation": "not stated",
   "letters_source": "https://www.usajobs.gov/job/880807100",
-  "deadline_summer_2027": "CLOSED: announcement open 08/15/2026 to 09/05/2026",
+  "deadline_summer_2027": "CLOSED: the Science of Security Summer 2027 announcement (IC job 1261519) accepted applications 15 August - 5 September 2026, 11:59pm EST.",
   "deadline_last_year_or_typical_window": "Late summer / early September of the year before",
-  "deadline_source": "https://www.usajobs.gov/job/880807100",
+  "deadline_source": "https://apply.intelligencecareers.gov/job-description/1261519 ; https://www.usajobs.gov/job/880807100 (umbrella \"NSAW Summer Internship Program\" posting, also closed 09/05/2026)",
   "pay": "$41,659 - $91,815 per year (GG 4-9) per the umbrella announcement, prorated",
   "pay_source": "https://www.usajobs.gov/job/880807100",
   "prestige_tier": "Strong",
@@ -1304,10 +1700,21 @@
   "notes": "Listed by name only in the 2027 USAJOBS announcement and the NSA Mathematics Handshake listing. No description could be verified. The Cyber Summer Program (CSP) is also in the same announcement, with the same terms.",
   "sources": [
    "https://www.usajobs.gov/job/880807100",
-   "https://app.joinhandshake.com/jobs/6948281/share_preview"
+   "https://app.joinhandshake.com/jobs/6948281/share_preview",
+   "https://apply.intelligencecareers.gov/job-description/1261519"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2026-09-05",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "closed",
+  "top_pick": null,
+  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261519. Status confirmed closed. A 2028 target."
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1339,7 +1746,16 @@
    "https://www.usajobs.gov/job/880807100"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -1372,7 +1788,16 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 3
+  "top_pick": 1,
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2027-02-01",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "\"or until all positions have been filled\""
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -1401,7 +1826,16 @@
    "https://www.lanl.gov/engage/collaboration/internships/summer-schools/quantumschool/"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -1430,7 +1864,16 @@
    "https://lanl.gov/careers/career-options/student-internships/graduate/index.php"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Lawrence Livermore National Laboratory (LLNL)",
@@ -1461,7 +1904,15 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 5
+  "top_pick": 2,
+  "location_bucket": [
+   "Bay Area"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "open"
  },
  {
   "org": "Sandia National Laboratories",
@@ -1493,7 +1944,16 @@
    "https://www.sandia.gov/app/uploads/sites/51/2026/01/Intern_Institute_Comparison_2026.docx"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "open",
+  "top_pick": null
  },
  {
   "org": "Sandia National Laboratories",
@@ -1527,7 +1987,18 @@
    "https://sandia.gov/ccr/careers"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other",
+   "Bay Area",
+   "Remote"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Pacific Northwest National Laboratory (PNNL)",
@@ -1558,7 +2029,16 @@
    "https://www.extern.com/post/pacific-northwest-national-laboratory-internship-guide"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Idaho National Laboratory (INL)",
@@ -1587,7 +2067,16 @@
    "https://www.career.com/job/battelle-energy-alliance/computer-security-researcher-internship-summer-2026/j202509301804536307294"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "U.S. Department of Energy / ORISE",
@@ -1617,7 +2106,16 @@
    "https://education.ornl.gov/omni/"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "MIT Lincoln Laboratory",
@@ -1648,7 +2146,16 @@
    "https://careers.ll.mit.edu/job/Lexington-Group-05-53-SRP-Intern-Secure-Resilient-Systems-and-Technology-Summer-2026-MA-02420/1326712500"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "MITRE",
@@ -1678,7 +2185,16 @@
    "https://www.extern.com/post/mitre-internship-guide"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "The Aerospace Corporation",
@@ -1707,7 +2223,17 @@
    "https://www.dice.com/job-detail/06d016d5-18c5-44d1-804c-031cc843ae5e"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "SoCal",
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "open",
+  "top_pick": null
  },
  {
   "org": "NIST",
@@ -1737,7 +2263,16 @@
    "https://www.uscybergames.com/cybersecurity-careers-at-nist"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "open",
+  "top_pick": null
  },
  {
   "org": "NIST",
@@ -1766,7 +2301,16 @@
    "https://www.nist.gov/iaao/nist-professional-research-experience-program-prep"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "NIST",
@@ -1796,7 +2340,16 @@
    "https://www.uscybergames.com/cybersecurity-careers-at-nist"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "NIST / National Academies",
@@ -1825,7 +2378,16 @@
    "https://www.nationalacademies.org/our-work/rap/nrc-research-associateship-programs"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2026-11-02",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "closed",
+  "top_pick": null
  },
  {
   "org": "U.S. Department of Defense (Department of War)",
@@ -1855,7 +2417,17 @@
    "https://www.studyabroad.pk/scholarships/smart-scholarship-for-service-program-2027"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2026-12-04",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "First Friday in December; 5 PM ET per aggregators.",
+  "top_pick": null
  },
  {
   "org": "NSF / OPM",
@@ -1886,7 +2458,16 @@
    "https://www.csusb.edu/cybersecurity/student-resources/scholarships/cybercorpsr-scholarship-service"
   ],
   "category": "Government / national labs",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "CISPA Helmholtz Center for Information Security",
@@ -1917,7 +2498,16 @@
   ],
   "category": "Academic summer programs / schools",
   "date_retrieved": "2026-11-06",
-  "top_pick": 2
+  "top_pick": 3,
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": "2026-11-30",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "11:59 pm AoE"
  },
  {
   "org": "Max Planck Institutes for Computer Science (incl. MPI for Security and Privacy, Bochum)",
@@ -1947,7 +2537,17 @@
    "https://csp.mpg.de/28295/guest-program"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": "2026-11-01",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "closed",
+  "deadline_iso_note": "Passed; a 2028 target.",
+  "top_pick": null
  },
  {
   "org": "ETH Zurich, Department of Computer Science",
@@ -1977,7 +2577,17 @@
    "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": "2026-12-16",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "13:00 CET",
+  "top_pick": null
  },
  {
   "org": "EPFL School of Computer and Communication Sciences (IC)",
@@ -2006,7 +2616,17 @@
    "https://summer.epfl.ch/"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": "2026-11-29",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "deadline_iso_note": "AoE",
+  "top_pick": null
  },
  {
   "org": "Weizmann Institute of Science (Weizmann School of Science)",
@@ -2036,7 +2656,16 @@
    "https://lists.ucmerced.edu/pipermail/health_scholars/2026-January/000205.html"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": "2027-01-20",
+  "priority_iso": null,
+  "opens_iso": "2026-12-20",
+  "deadline_kind": "final",
+  "status": "open",
+  "top_pick": null
  },
  {
   "org": "Radboud University / MPI-SP / TU Eindhoven / Univ. of Zagreb (organizers)",
@@ -2067,7 +2696,16 @@
    "https://iuc.hr/programme/2041"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Graz University of Technology, Institute of Information Security (ISEC)",
@@ -2097,7 +2735,16 @@
    "https://www.isec.tugraz.at/?p=23339"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "CASA Cluster of Excellence, Ruhr University Bochum",
@@ -2127,7 +2774,16 @@
    "https://casa.rub.de/veranstaltungen/casa-summer-school/application-casa-summer-school-2026"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "SLMath (Simons Laufer Mathematical Sciences Institute, formerly MSRI)",
@@ -2156,7 +2812,18 @@
    "https://www.slmath.org/summer-schools"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Bay Area",
+   "International"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": "2026-12-01",
+  "deadline_kind": "opens",
+  "status": "open",
+  "deadline_iso_note": "Nominations are first-come first-served from Dec 1; no closing date.",
+  "top_pick": null
  },
  {
   "org": "IAS / Park City Mathematics Institute",
@@ -2187,7 +2854,16 @@
    "https://www.ias.edu/pcmi"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2027-01-15",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "top_pick": null
  },
  {
   "org": "Southwest Center for Arithmetic Geometry (Univ. of Arizona) / Clay Math Institute",
@@ -2202,7 +2878,7 @@
   "publications_source": "https://swc-math.github.io/aws/2027/index.html",
   "letters_of_recommendation": "not stated",
   "letters_source": "https://swc-math.github.io/aws/2027/index.html",
-  "deadline_summer_2027": null,
+  "deadline_summer_2027": "November 24, 2026 (student application deadline). NOTE: the school runs March 6-10, 2027 in Tucson, during the spring semester; it is a winter school, not a summer program or internship.",
   "deadline_last_year_or_typical_window": "Student application deadline November 24, 2026 for the March 6-10, 2027 school",
   "deadline_source": "https://swc-math.github.io/aws/2027/index.html",
   "pay": null,
@@ -2216,7 +2892,17 @@
    "https://swc-math.github.io/aws/2027/index.html"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": "2026-11-24",
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": "final",
+  "status": "open",
+  "top_pick": null,
+  "review_change": "Deadline added 2026-11-06 (was null and shown as \"not posted yet\"): \"The application deadline for students is November 24th, 2026.\" Dates: \"AWS 2027 will be held March 6-10, 2027\"."
  },
  {
   "org": "IPAM (Institute for Pure and Applied Mathematics), UCLA",
@@ -2246,7 +2932,16 @@
    "https://classcentral.com/course/youtube-jonathan-katz-introduction-to-cryptography-part-1-of-3-ipam-at-ucla-181448"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "SoCal"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "DIMACS, Rutgers University",
@@ -2275,7 +2970,16 @@
    "https://dimacs.rutgers.edu/apply-to-the-dimacs-reu"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  },
  {
   "org": "Carnegie Mellon University (S3D / CyLab)",
@@ -2305,6 +3009,15 @@
    "https://www.cylab.cmu.edu/education/internships.html"
   ],
   "category": "Academic summer programs / schools",
-  "date_retrieved": "2026-11-06"
+  "date_retrieved": "2026-11-06",
+  "location_bucket": [
+   "Other"
+  ],
+  "deadline_iso": null,
+  "priority_iso": null,
+  "opens_iso": null,
+  "deadline_kind": null,
+  "status": "not yet posted",
+  "top_pick": null
  }
 ]
