@@ -39,7 +39,13 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "Year inferred: page says \"December 20\" without a year; positions start in 2027.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "Posting seeks \"top minds and rising stars in cryptography research\"; interns are matched with a CIS research scientist and must be PhD students in crypto/security/theoretical CS.",
+  "track_source": "https://careers.ntt-research.com/cis",
+  "letters_required": "yes (1)",
+  "letters_required_reason": "\"List a minimum of 1 reference for this job\"; referees get an upload link.",
+  "letters_required_source": "https://careers.ntt-research.com/intern"
  },
  {
   "org": "Microsoft Research",
@@ -80,7 +86,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "Group page: research spans \"core cryptography\" and the team \"regularly publish[es] in top conferences in the field\"; interns join through the research-intern program.",
+  "track_source": "https://www.microsoft.com/en-us/research/group/msr-cryptography/",
+  "letters_required": "yes (2)",
+  "letters_required_reason": "Microsoft research-intern postings: \"a minimum of two reference letters\".",
+  "letters_required_source": "https://jobs.anitab.org/companies/microsoft/jobs/63482286-research-intern-cryptography"
  },
  {
   "org": "Microsoft Research",
@@ -121,7 +133,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Security Research Group posting: interns explore \"building secure and trustworthy software and cloud services\" (confidential computing, ZK, formal verification); prefers \"ability to build and extend complex software\".",
+  "track_source": "https://apply.careers.microsoft.com/careers/job/1970393557022480",
+  "letters_required": "yes (2)",
+  "letters_required_reason": "\"submit a minimum of two reference letters for this position\".",
+  "letters_required_source": "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557022480&domain=microsoft.com&hl=en"
  },
  {
   "org": "Microsoft Research",
@@ -159,7 +177,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Posting desires \"hardware RTL development (Verilog/VHDL), validation and side channel analysis using FPGAs\" and AI-built testbenches: hardware validation work despite the research-intern title.",
+  "track_source": "https://simplify.jobs/p/af9ab5dc-ea22-45aa-8e47-1a9dd4e899f4",
+  "letters_required": "yes (2)",
+  "letters_required_reason": "\"submit a minimum of two reference letters for this position\".",
+  "letters_required_source": "https://simplify.jobs/p/af9ab5dc-ea22-45aa-8e47-1a9dd4e899f4"
  },
  {
   "org": "Microsoft Research",
@@ -198,7 +222,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Azure Research security/privacy: \"Build prototypes for new ideas\" in confidential computing, protocol verification and side channels, communicated through papers; systems-security research, not crypto theory.",
+  "track_source": "https://apply.careers.microsoft.com/careers/job/1970393557050102",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://apply.careers.microsoft.com/api/pcsx/position_details?position_id=1970393557050102&domain=microsoft.com&hl=en"
  },
  {
   "org": "Google",
@@ -239,7 +269,13 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "Window may close earlier if projects fill.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "General Google Student Researcher pool; listed areas are NLU, HCI, vision, ML, optimization, quantum, data science, SWE, with no crypto/security area named.",
+  "track_source": "https://www.google.com/about/careers/applications/jobs/results/131518356678156998-student-researcher-bsms-wintersummer-2027",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated (requires CV with graduation date and transcript)).",
+  "letters_required_source": "https://www.google.com/about/careers/applications/jobs/results/131518356678156998-student-researcher-bsms-wintersummer-2027"
  },
  {
   "org": "Google",
@@ -279,7 +315,13 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "Window may close earlier if projects fill.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "General Google Research Intern pool: interns \"develop and execute a research agenda\"; privacy is the only security-adjacent area listed, so crypto placement depends on team match.",
+  "track_source": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027"
  },
  {
   "org": "IBM Research",
@@ -317,7 +359,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Interns \"design, implement, and evaluate state-of-the-art tools and systems to secure AI agents\"; systems-security research with proof-of-concept implementations, no cryptography.",
+  "track_source": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://careers.ibm.com/careers/JobDetail?jobId=132704"
  },
  {
   "org": "IBM Research",
@@ -358,7 +406,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "Only current IBM Zurich crypto opening is the Foundational Cryptography group's \"research on cryptographic proof systems\" (a 4-year PhD position, not a summer internship).",
+  "track_source": "https://www.zurich.ibm.com/careers/2026_022.html",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.zurich.ibm.com/careers/"
  },
  {
   "org": "Apple",
@@ -397,7 +451,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Apple software PhD pool: responsibilities are back-end, OS, UI/UX, iOS/web development; Information Security is one SWE track.",
+  "track_source": "https://jobs.apple.com/en-us/details/200664323-3810/software-phd-internships?team=STDNT",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.apple.com/en-us/details/200664323-3810/software-phd-internships?team=STDNT"
  },
  {
   "org": "Apple",
@@ -435,7 +495,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Apple software-engineering masters pool: back-end, Core OS, web and iOS development; Information Security is one SWE track.",
+  "track_source": "https://jobs.apple.com/en-us/details/200664320-3810/software-engineering-masters-internships?team=STDNT",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.apple.com/en-us/details/200664320-3810/software-engineering-masters-internships?team=STDNT"
  },
  {
   "org": "Apple",
@@ -474,7 +540,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "AIML PhD internship: \"design and implement an innovative solution for a Machine Learning problem\"; privacy appears only as one ML-adjacent area.",
+  "track_source": "https://jobs.apple.com/en-us/details/200664223-3810/machine-learning-and-artificial-intelligence-phd-internships?team=STDNT",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.apple.com/en-us/details/200664223-3810/machine-learning-and-artificial-intelligence-phd-internships?team=STDNT"
  },
  {
   "org": "Meta",
@@ -513,7 +585,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Meta Research Scientist Intern, Security & Privacy: systems/OS/hardware security research (from stored description; posting unreadable)",
+  "track_source": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.career.com/job/meta/research-scientist-intern-security-and-privacy-phd/j202512192044089029635"
  },
  {
   "org": "Meta",
@@ -553,7 +631,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "IACR posting: PhD interns in PETs, \"Honest-Majority MPC and Non-Malleable Encryption\"; crypto expertise is key but it is \"categorized as a general software engineering internship (PhD)\".",
+  "track_source": "https://iacr.org/news/item/22180",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://iacr.org/news/item/22180"
  },
  {
   "org": "Meta",
@@ -592,7 +676,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Product Security Engineer intern: AI-enhanced security reviews, building static/dynamic analysis tooling, fuzzing for memory-safety bugs.",
+  "track_source": "https://www.metacareers.com/profile/job_details/2535222523640873",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.metacareers.com/profile/job_details/2535222523640873"
  },
  {
   "org": "Amazon / AWS",
@@ -633,7 +723,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Applied Science intern in formal methods: \"design and implementation of algorithms and formal methods for automated reasoning\" (SAT/SMT, theorem proving), with cryptographic assurance as one application area.",
+  "track_source": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning"
  },
  {
   "org": "Amazon / AWS",
@@ -671,7 +767,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "Masters applied-science pool for ML, NLP, CV, automated reasoning, robotics; interns \"own the design and development of end-to-end systems\"; no crypto.",
+  "track_source": "https://www.amazon.jobs/en/jobs/10564586/2027-applied-science-internship-united-states-master-s-student-science-recruiting",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.amazon.jobs/en/jobs/10564586/2027-applied-science-internship-united-states-master-s-student-science-recruiting"
  },
  {
   "org": "Cloudflare",
@@ -712,7 +814,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Cloudflare Research work \"involves engineering, data analysis, open source software development, protocol design, implementation of primitives, with lots of measurement\" (posting removed but text readable).",
+  "track_source": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://builtin.com/job/research-engineer-intern-summer-2026/7495514"
  },
  {
   "org": "Visa Research",
@@ -752,7 +860,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Visa Research PhD intern posting describes \"applied research in quantum algorithms ... and quantum cryptography\" for payments, with publication track record required.",
+  "track_source": "https://jobs.smartrecruiters.com/Visa/744000081110136",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.smartrecruiters.com/Visa/744000081110136"
  },
  {
   "org": "JPMorgan Chase",
@@ -793,7 +907,13 @@
   "deadline_kind": "posting end",
   "status": "open",
   "deadline_iso_note": "Scheduled posting end from the JPMC careers API; not stated as a hard deadline.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "JPMC AI Research PhD intern program; team includes \"experts in trustworthy AI, privacy, and cryptography\" but the role requires AI/ML research publications.",
+  "track_source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354"
  },
  {
   "org": "JPMorgan Chase",
@@ -834,7 +954,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "JPMC GTAR applied research on quantum-safe/post-quantum crypto and quantum communication (from stored description; posting unreadable)",
+  "track_source": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://builtinnyc.com/job/2025-quantum-communication-and-quantum-cryptography-summer-associate/284301"
  },
  {
   "org": "Bosch Research (Research and Technology Center North America)",
@@ -874,7 +1000,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Bosch RTC-NA: \"conduct applied research\" in \"applied cryptography, security, privacy, and embedded systems\" (automotive security; embedded C/Assembly, JTAG, FPGA skills).",
+  "track_source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000039692254"
  },
  {
   "org": "Intel Labs",
@@ -914,7 +1046,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Intel Labs Security Circuits intern: hardware accelerators / security circuit design for crypto workloads (from stored description; posting unreadable)",
+  "track_source": "https://jobs.intel.com/en/job/-/security-circuits-research-intern/41147/76024207776",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.intel.com/en/job/-/security-circuits-research-intern/41147/76024207776"
  },
  {
   "org": "SandboxAQ",
@@ -954,7 +1092,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "SandboxAQ residency: residents work on Large Quantitative Model projects across fields incl. cybersecurity (\"mapping vulnerabilities\"); no crypto-theory track named on the current page.",
+  "track_source": "https://www.sandboxaq.com/company/residencies",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.sandboxaq.com/company/residencies"
  },
  {
   "org": "Zama",
@@ -995,7 +1139,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Zama intern \"will mix some research ... and some implementation\"; \"main tasks will be to write high performance code in Rust\" for the Concrete FHE library.",
+  "track_source": "https://iacr.org/news/index.php?next=17886",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://iacr.org/news/index.php?next=17886"
  },
  {
   "org": "PQShield",
@@ -1036,7 +1186,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "PQShield \"Software Prototype Intern\": integrate and benchmark PQC libraries, build proof-of-concept integrations, write docs (posting removed but text readable).",
+  "track_source": "https://builtin.com/job/software-prototype-intern-post-quantum-cryptography/8304510",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://builtin.com/job/software-prototype-intern-post-quantum-cryptography/8304510"
  },
  {
   "org": "Trail of Bits",
@@ -1077,7 +1233,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Trail of Bits security consultancy internship: assessments, tool development, reverse engineering; cryptography/cryptanalysis is one team's audit domain.",
+  "track_source": "https://builtin.com/job/summer-internship-2026/8094619",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://builtin.com/job/summer-internship-2026/8094619"
  },
  {
   "org": "NEC Laboratories America",
@@ -1117,7 +1279,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "NEC Data Science & System Security intern: LLMs, AI agents, time-series and graph mining; security only as \"AI for security and security for AI\".",
+  "track_source": "https://www.appone.com/MainInfoReq.asp?R_ID=7221693&B_ID=83&fid=1&Adid=0&ssbgcolor=FFFFFF&SearchScreenID=1381&CountryID=3&LanguageID=2",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated for internships (reference letters are requested only for full-time research hires)).",
+  "letters_required_source": "https://www.nec-labs.com/careers/"
  },
  {
   "org": "Ericsson Research",
@@ -1155,7 +1323,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Ericsson: \"conceptual research studies and prototype work\" on 6G/cellular security, possibly contributing \"to a conference or journal publication\".",
+  "track_source": "https://builtin.com/job/research-internship-cellular-security/8547294",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://builtin.com/job/research-internship-cellular-security/8547294"
  },
  {
   "org": "a16z (Andreessen Horowitz) - a16z Frontier research lab (formerly a16z crypto research)",
@@ -1196,7 +1370,13 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "open",
-  "review_change": "Recategorized from \"Blockchain / web3 research\" to \"Industry research labs\"; difficulty Moderate -> Hard; top pick #1 -> #6. Source: https://boards-api.greenhouse.io/v1/boards/a16z/jobs/8046730003"
+  "review_change": "Recategorized from \"Blockchain / web3 research\" to \"Industry research labs\"; difficulty Moderate -> Hard; top pick #1 -> #6. Source: https://boards-api.greenhouse.io/v1/boards/a16z/jobs/8046730003",
+  "track": "applied-research",
+  "track_reason": "a16z Frontier: \"multidisciplinary lab that bridges ... academic theory and industry practice\"; cryptography and foundations of computing are among many areas, with 1/3 time on portfolio problems.",
+  "track_source": "https://boards-api.greenhouse.io/v1/boards/a16z/jobs/8046730003",
+  "letters_required": "yes (1)",
+  "letters_required_reason": "\"one letter is required, a second letter is optional but recommended\".",
+  "letters_required_source": "https://a16z.com/about/jobs/?gh_jid=8046730003"
  },
  {
   "org": "Ethereum Foundation",
@@ -1228,7 +1408,7 @@
   ],
   "category": "Blockchain / web3 research",
   "date_retrieved": "2026-11-06",
-  "top_pick": 4,
+  "top_pick": 2,
   "location_bucket": [
    "Remote",
    "International"
@@ -1237,7 +1417,13 @@
   "priority_iso": null,
   "opens_iso": null,
   "deadline_kind": null,
-  "status": "not yet posted"
+  "status": "not yet posted",
+  "track": "theory",
+  "track_reason": "EF cryptography research team \"designs and analyzes cryptographic primitives\" and \"publishes peer-reviewed results\"; the intern joins that team.",
+  "track_source": "https://blog.ethereum.org/2025/10/14/internship-2026",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://blog.ethereum.org/2025/10/14/internship-2026"
  },
  {
   "org": "Ethereum Foundation (Protocol Support)",
@@ -1275,7 +1461,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "EPF: pathway for \"aspiring protocol developers\"; work is client implementations, testing and specifications.",
+  "track_source": "https://blog.ethereum.org/2026/04/30/epf-7",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://blog.ethereum.org/2026/04/30/epf-7"
  },
  {
   "org": "Chainlink Labs",
@@ -1314,7 +1506,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Chainlink Labs research intern: study, invent and \"build production solutions\" in applied crypto/mechanism design; \"professional software development experience is required\".",
+  "track_source": "https://builtin.com/job/research-internship/7122716",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://builtin.com/job/research-internship/7122716"
  },
  {
   "org": "Flashbots",
@@ -1352,7 +1550,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "rolling",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Flashbots MEV fellowship: self-directed MEV research (mechanism design, privacy) with a paper on arXiv or forum post as deliverable.",
+  "track_source": "https://github.com/flashbots/mev-research/blob/main/grants.md",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://github.com/flashbots/mev-research/blob/main/grants.md"
  },
  {
   "org": "Mysten Labs",
@@ -1391,7 +1595,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Mysten Labs: \"Pursue applied and fundamental research\" in secure distributed systems/crypto and \"contribute to academic publications\" for Sui.",
+  "track_source": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://simplify.jobs/p/1c68d292-df1e-4b7c-8d87-2e6ada81b18e/Research-Intern"
  },
  {
   "org": "Aptos Labs",
@@ -1429,7 +1639,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Aptos \"Software Engineering Graduate Internship, Research\": research in cryptography/consensus and \"coding up your solution\" for open-source products (2024 posting).",
+  "track_source": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://web3.career/software-engineering-graduate-internship-research-summer-2024-aptoslabs/60819"
  },
  {
   "org": "Matter Labs (ZKsync)",
@@ -1468,7 +1684,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Matter Labs PhD research intern in applied cryptography/ZK for zkSync; \"we appreciate the emergence of research papers resulting from internships\".",
+  "track_source": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.dragonfly.xyz/companies/matter-labs/jobs/25837349-research-intern"
  },
  {
   "org": "Algorand Technologies",
@@ -1506,7 +1728,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Algorand \"Intern - Cryptography\": aggregator files it under engineering and shows no research description (from stored description; posting unreadable)",
+  "track_source": "https://cryptocurrencyjobs.co/engineering/algorand-intern-cryptography",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://cryptocurrencyjobs.co/engineering/algorand-intern-cryptography"
  },
  {
   "org": "IDA Center for Communications Research, La Jolla (CCR-L)",
@@ -1539,7 +1767,7 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 5,
+  "top_pick": 3,
   "location_bucket": [
    "SoCal"
   ],
@@ -1548,7 +1776,13 @@
   "opens_iso": null,
   "deadline_kind": "posting end",
   "status": "open",
-  "deadline_iso_note": "Nov 14 is the full-consideration date; the listing stays up to Jan 31, 2027."
+  "deadline_iso_note": "Nov 14 is the full-consideration date; the listing stays up to Jan 31, 2027.",
+  "track": "theory",
+  "track_reason": "SCAMP @ CCRL: mathematicians work side-by-side with research staff, scope includes \"proving theorems\" for cryptologic (NSA) problems; classified, so no public papers.",
+  "track_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL",
+  "letters_required": "optional",
+  "letters_required_reason": "\"Provide three references ... or letters of recommendation. Note that you are not required to submit letters of recommendation.\"",
+  "letters_required_source": "https://www.mathjobs.org/jobs/IDA/SCAMP27CCRL"
  },
  {
   "org": "IDA Center for Communications Research, Princeton (CCR-P)",
@@ -1587,7 +1821,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "CCRP SCAMP \"concentrates on a problem area in cryptology\"; algebra, number theory, combinatorics applied by research mathematicians.",
+  "track_source": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://diversityjobs.com/career/17284249/Summer-Associate-Scamp-2027-28-Ccrp-New-Jersey-Princeton"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1631,7 +1871,13 @@
   "status": "closed",
   "top_pick": null,
   "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261493. Status confirmed closed. A 2028 target.",
-  "eligibility_note_review": "IC job 1261493: \"Applicants may be at any stage in their graduate careers\"; \"1 Letter of Recommendation from a faculty member familiar with your technical work\"."
+  "eligibility_note_review": "IC job 1261493: \"Applicants may be at any stage in their graduate careers\"; \"1 Letter of Recommendation from a faculty member familiar with your technical work\".",
+  "track": "theory",
+  "track_reason": "NSA GMP: graduate mathematicians solve cryptologic math problems (number theory, algebra, etc.) for the mission; 2027 GMP job page now closed.",
+  "track_source": "https://www.usajobs.gov/job/880807100",
+  "letters_required": "unclear",
+  "letters_required_reason": "2027 job page closed; older GMP materials asked for \"at least two letters of recommendation\".",
+  "letters_required_source": "https://www.math.ucdavis.edu/~saito/nsa-grad.html"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1673,7 +1919,13 @@
   "deadline_kind": "final",
   "status": "closed",
   "top_pick": null,
-  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261551. Status confirmed closed. A 2028 target."
+  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261551. Status confirmed closed. A 2028 target.",
+  "track": "theory",
+  "track_reason": "NSA CASASP: cryptanalysis and signals-analysis math problems for the mission; individual 2027 job page now closed.",
+  "track_source": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.usajobs.gov/job/880807100"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1714,7 +1966,13 @@
   "deadline_kind": "final",
   "status": "closed",
   "top_pick": null,
-  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261519. Status confirmed closed. A 2028 target."
+  "review_change": "Re-sourced 2026-11-06: the earlier source (USAJobs 880807100) is the umbrella posting for ~14 NSA summer programs; the program-specific announcement is IC job 1261519. Status confirmed closed. A 2028 target.",
+  "track": "applied-research",
+  "track_reason": "NSA Science of Security summer program: security research for NSA's cybersecurity mission; individual 2027 job page now closed.",
+  "track_source": "https://www.usajobs.gov/job/880807100",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.usajobs.gov/job/880807100"
  },
  {
   "org": "National Security Agency (NSA)",
@@ -1755,7 +2013,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "NSA math internship (DSP): \"solving problems in mathematics, cryptology ... number theory, abstract algebra\" for the mission.",
+  "track_source": "https://app.joinhandshake.com/jobs/6948281/share_preview",
+  "letters_required": "unclear",
+  "letters_required_reason": "2027 job page closed; older materials asked for \"at least two letters of recommendation\".",
+  "letters_required_source": "https://www.math.ucdavis.edu/~saito/nsa-ugrad.html"
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -1788,7 +2052,7 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 1,
+  "top_pick": 5,
   "location_bucket": [
    "Other"
   ],
@@ -1797,7 +2061,13 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "open",
-  "deadline_iso_note": "\"or until all positions have been filled\""
+  "deadline_iso_note": "\"or until all positions have been filled\"",
+  "track": "applied-research",
+  "track_reason": "LANL CSRP: mentored cyber research projects (incl. \"data privacy, cryptography\"); \"students craft papers for and/or present posters at prestigious conferences\".",
+  "track_source": "https://cyberfire.energy.gov/school/2027/research/",
+  "letters_required": "no",
+  "letters_required_reason": "Listed application materials are resume/CV and cover letter only.",
+  "letters_required_source": "https://cyberfire.energy.gov/school/2027/research/"
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -1835,7 +2105,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "LANL Quantum Computing Summer School: lectures plus an 8-week quantum computing research project; not crypto.",
+  "track_source": "https://www.lanl.gov/engage/collaboration/internships/summer-schools/quantumschool/",
+  "letters_required": "no",
+  "letters_required_reason": "Listed materials are resume and letter of intent (transcripts if selected).",
+  "letters_required_source": "https://www.lanl.gov/engage/collaboration/internships/summer-schools/quantumschool/"
  },
  {
   "org": "Los Alamos National Laboratory (LANL)",
@@ -1873,7 +2149,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "LANL GRA: generic graduate research-assistant appointment in any technical or professional field; crypto only if a crypto group hires you.",
+  "track_source": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://lanl.gov/careers/career-options/student-internships/graduate/index.php"
  },
  {
   "org": "Lawrence Livermore National Laboratory (LLNL)",
@@ -1904,7 +2186,7 @@
   ],
   "category": "Government / national labs",
   "date_retrieved": "2026-11-06",
-  "top_pick": 2,
+  "top_pick": null,
   "location_bucket": [
    "Bay Area"
   ],
@@ -1912,7 +2194,13 @@
   "priority_iso": null,
   "opens_iso": null,
   "deadline_kind": null,
-  "status": "open"
+  "status": "open",
+  "track": "engineering",
+  "track_reason": "LLNL CSI: \"development and implementation of cybersecurity tools and capabilities\", technical support, software/hardware testing, OT/ICS security.",
+  "track_source": "https://jobs.smartrecruiters.com/LLNL/3743990016165586-cybersecurity-graduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://jobs.smartrecruiters.com/LLNL/3743990016165586-cybersecurity-graduate-intern-cyber-and-critical-infrastructure-summer-institute-summer-2027"
  },
  {
   "org": "Sandia National Laboratories",
@@ -1953,7 +2241,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "Sandia MARTIANS: applied math/analytics (imaging, NLP, functional data analysis) for national security (from stored description; posting unreadable)",
+  "track_source": "https://www.sandia.gov/careers/jobs-app/",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.sandia.gov/careers/jobs-app/"
  },
  {
   "org": "Sandia National Laboratories",
@@ -1998,7 +2292,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Sandia CCD: grows \"R&D cybersecurity staff\"; skills are Ghidra/IDA, reverse engineering, pen testing, FPGA; cryptography research is one item among many.",
+  "track_source": "https://www.sandia.gov/ccd",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.sandia.gov/careers/career-possibilities/students-and-postdocs/internships-co-ops/"
  },
  {
   "org": "Pacific Northwest National Laboratory (PNNL)",
@@ -2038,7 +2338,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "PNNL NSIP: general national-security research internships across AI, threats, nuclear/chem/bio, detection; crypto not named.",
+  "track_source": "https://www.pnnl.gov/national-security-internship",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.pnnl.gov/national-security-internship"
  },
  {
   "org": "Idaho National Laboratory (INL)",
@@ -2076,7 +2382,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "INL Computer/Cyber Security Researcher intern: ICS/critical-infrastructure security research, no crypto (from stored description; posting unreadable)",
+  "track_source": "https://www.career.com/job/battelle-energy-alliance/computer-security-researcher-internship-summer-2026/j202509301804536307294",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.career.com/job/battelle-energy-alliance/computer-security-researcher-internship-summer-2026/j202509301804536307294"
  },
  {
   "org": "U.S. Department of Energy / ORISE",
@@ -2115,7 +2427,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "DOE Omni: rotational cybersecurity/IT internships \"to secure the Nation's energy ... technologies from malicious attackers\" (2024 posting); ops-oriented.",
+  "track_source": "https://www.zintellect.com/Opportunity/Details/DOE-Omni-2024",
+  "letters_required": "yes",
+  "letters_required_reason": "\"Applicants must provide contact information for recommenders\" (count not stated).",
+  "letters_required_source": "https://www.zintellect.com/Opportunity/Details/DOE-Omni-2024"
  },
  {
   "org": "MIT Lincoln Laboratory",
@@ -2155,7 +2473,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "MIT LL Summer Research Program: hands-on research on lab projects; Group 05-53 does secure systems/applied cryptography (group not named on program page).",
+  "track_source": "https://www.ll.mit.edu/careers/summer-research.html",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.ll.mit.edu/careers/summer-research.html"
  },
  {
   "org": "MITRE",
@@ -2194,7 +2518,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "MITRE interns \"work side by side with senior staff on crucial sponsor programs\"; mostly CS/ECE/cyber engineering.",
+  "track_source": "https://careers.mitre.org/us/en/co-ops-interns",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://careers.mitre.org/us/en/co-ops-interns"
  },
  {
   "org": "The Aerospace Corporation",
@@ -2233,7 +2563,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "Aerospace Hardware Security Engineering intern: define threat paths, FPGA/ASIC/embedded mitigations, debug hardware/firmware.",
+  "track_source": "https://www.dice.com/job-detail/06d016d5-18c5-44d1-804c-031cc843ae5e",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated (transcripts required)).",
+  "letters_required_source": "https://www.dice.com/job-detail/06d016d5-18c5-44d1-804c-031cc843ae5e"
  },
  {
   "org": "NIST",
@@ -2272,7 +2608,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "open",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "NIST SURF: undergraduate STEM research across NIST labs (MRI, nanofab, etc.); crypto not featured.",
+  "track_source": "https://www.nist.gov/surf",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated on main page (see SURF FAQs)).",
+  "letters_required_source": "https://www.nist.gov/surf"
  },
  {
   "org": "NIST",
@@ -2310,7 +2652,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "NIST PREP: general measurement-science research appointments via university consortia; crypto not featured.",
+  "track_source": "https://www.nist.gov/iaao/nist-professional-research-experience-program-prep",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.nist.gov/iaao/nist-professional-research-experience-program-prep"
  },
  {
   "org": "NIST",
@@ -2349,7 +2697,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "NIST Pathways: federal student-employment hiring path, not a research program.",
+  "track_source": "https://www.nist.gov/itl/math/how-work-us-0/pathways-program",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.nist.gov/itl/math/how-work-us-0/pathways-program"
  },
  {
   "org": "NIST / National Academies",
@@ -2387,7 +2741,13 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "closed",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "NRC RAP: postdoctoral/senior research associateships at federal labs; not a student internship and not crypto-specific.",
+  "track_source": "https://www.nationalacademies.org/our-work/rap/nrc-research-associateship-programs",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.nationalacademies.org/our-work/rap/nrc-research-associateship-programs"
  },
  {
   "org": "U.S. Department of Defense (Department of War)",
@@ -2427,7 +2787,13 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "First Friday in December; 5 PM ET per aggregators.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "SMART: DoD STEM scholarship-for-service with internships at DoD facilities; no crypto focus.",
+  "track_source": "https://www.smartscholarship.org/smart",
+  "letters_required": "yes",
+  "letters_required_reason": "References required by the deadline (count not verified).",
+  "letters_required_source": "https://www.studyabroad.pk/scholarships/smart-scholarship-for-service-program-2027"
  },
  {
   "org": "NSF / OPM",
@@ -2467,7 +2833,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "engineering",
+  "track_reason": "CyberCorps SFS: scholarships to train \"information technology professionals ... and security managers\" for government cyber jobs.",
+  "track_source": "https://www.sfs.opm.gov/",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated (set by each participating institution)).",
+  "letters_required_source": "https://www.sfs.opm.gov/StudFAQ.aspx"
  },
  {
   "org": "CISPA Helmholtz Center for Information Security",
@@ -2498,7 +2870,7 @@
   ],
   "category": "Academic summer programs / schools",
   "date_retrieved": "2026-11-06",
-  "top_pick": 3,
+  "top_pick": 1,
   "location_bucket": [
    "International"
   ],
@@ -2507,7 +2879,13 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "open",
-  "deadline_iso_note": "11:59 pm AoE"
+  "deadline_iso_note": "11:59 pm AoE",
+  "track": "theory",
+  "track_reason": "CISPA CSR: research internship with \"world-leading researchers in cryptography, computer security, privacy\"; you join a research group (pick a crypto group for theory).",
+  "track_source": "https://career.cispa.de/internship",
+  "letters_required": "optional",
+  "letters_required_reason": "\"Optional references: Contact details for potential referees.\"",
+  "letters_required_source": "https://career.cispa.de/internship"
  },
  {
   "org": "Max Planck Institutes for Computer Science (incl. MPI for Security and Privacy, Bochum)",
@@ -2547,7 +2925,13 @@
   "deadline_kind": "final",
   "status": "closed",
   "deadline_iso_note": "Passed; a 2028 target.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "Max Planck CS internships: \"pursue world-class research\" with a faculty mentor; MPI-SP Bochum hosts cryptography groups.",
+  "track_source": "https://cis.mpg.de/internships",
+  "letters_required": "yes (1)",
+  "letters_required_reason": "\"contact information for at least one reference ... we do not request references in all cases\".",
+  "letters_required_source": "https://cis.mpg.de/internships"
  },
  {
   "org": "ETH Zurich, Department of Computer Science",
@@ -2587,7 +2971,13 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "13:00 CET",
-  "top_pick": null
+  "top_pick": 4,
+  "track": "theory",
+  "track_reason": "ETH SSRF: first research experience in a chosen area; \"Information Security\" and \"Theory\" are listed areas.",
+  "track_source": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+  "letters_required": "no",
+  "letters_required_reason": "Required documents: Europass CV, transcript, 1-page motivation letter; no letters.",
+  "letters_required_source": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html"
  },
  {
   "org": "EPFL School of Computer and Communication Sciences (IC)",
@@ -2626,7 +3016,13 @@
   "deadline_kind": "final",
   "status": "open",
   "deadline_iso_note": "AoE",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Summer@EPFL: research-lab fellowship but \"often ... challenging programming or design tasks to prove new concepts\"; crypto/security labs among hosts.",
+  "track_source": "https://summer.epfl.ch/",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated on main page).",
+  "letters_required_source": "https://summer.epfl.ch/"
  },
  {
   "org": "Weizmann Institute of Science (Weizmann School of Science)",
@@ -2665,7 +3061,13 @@
   "opens_iso": "2026-12-20",
   "deadline_kind": "final",
   "status": "open",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "Weizmann Kupcinet-Getz: research project in a chosen group, open to math & CS majors (Weizmann CS is theory-heavy incl. crypto); crypto not named.",
+  "track_source": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/",
+  "letters_required": "yes (1)",
+  "letters_required_reason": "\"must provide at least one letter of recommendation\" uploaded by an academic recommender.",
+  "letters_required_source": "https://info.weizmann.ac.il/kupcinet-getz-international-summer-program/"
  },
  {
   "org": "Radboud University / MPI-SP / TU Eindhoven / Univ. of Zagreb (organizers)",
@@ -2705,7 +3107,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Summer school (not an internship) on \"the latest advances in cryptography, security, and privacy\" in the real world.",
+  "track_source": "https://summerschool-croatia.cs.ru.nl/",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://summerschool-croatia.cs.ru.nl/"
  },
  {
   "org": "Graz University of Technology, Institute of Information Security (ISEC)",
@@ -2744,7 +3152,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "Security summer school: \"Cryptography and Cryptographic Implementations\" lectures plus side-channel labs and CTF.",
+  "track_source": "https://www.securityweek.at/",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.securityweek.at/"
  },
  {
   "org": "CASA Cluster of Excellence, Ruhr University Bochum",
@@ -2783,7 +3197,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "theory",
+  "track_reason": "CASA Summer School: 2026 edition was \"Kryptographie und Distributed Computing\" with theory speakers (Katz, Loss); 2027 topic TBA.",
+  "track_source": "https://casa.rub.de/veranstaltungen/casa-summer-school",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting (stored record: not stated (2026 form asked for a motivation statement)).",
+  "letters_required_source": "https://casa.rub.de/veranstaltungen/casa-summer-school/application-casa-summer-school-2026"
  },
  {
   "org": "SLMath (Simons Laufer Mathematical Sciences Institute, formerly MSRI)",
@@ -2823,7 +3243,13 @@
   "deadline_kind": "opens",
   "status": "open",
   "deadline_iso_note": "Nominations are first-come first-served from Dec 1; no closing date.",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "SLMath summer graduate schools: two-week math schools, none on crypto; nomination-only.",
+  "track_source": "https://www.slmath.org/summer-schools",
+  "letters_required": "no",
+  "letters_required_reason": "No letters; students are nominated by their Director of Graduate Studies.",
+  "letters_required_source": "https://www.slmath.org/summer-schools"
  },
  {
   "org": "IAS / Park City Mathematics Institute",
@@ -2863,7 +3289,13 @@
   "opens_iso": null,
   "deadline_kind": "final",
   "status": "open",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "PCMI Graduate Summer School: analytic number theory and dynamics; not crypto.",
+  "track_source": "https://www.ias.edu/node/324591",
+  "letters_required": "yes (1)",
+  "letters_required_reason": "\"One letter of reference is REQUIRED\"; up to two accepted.",
+  "letters_required_source": "https://www.ias.edu/node/324591"
  },
  {
   "org": "Southwest Center for Arithmetic Geometry (Univ. of Arizona) / Clay Math Institute",
@@ -2902,7 +3334,13 @@
   "deadline_kind": "final",
   "status": "open",
   "top_pick": null,
-  "review_change": "Deadline added 2026-11-06 (was null and shown as \"not posted yet\"): \"The application deadline for students is November 24th, 2026.\" Dates: \"AWS 2027 will be held March 6-10, 2027\"."
+  "review_change": "Deadline added 2026-11-06 (was null and shown as \"not posted yet\"): \"The application deadline for students is November 24th, 2026.\" Dates: \"AWS 2027 will be held March 6-10, 2027\".",
+  "track": "non-crypto",
+  "track_reason": "Arizona Winter School 2027: \"Rationality and Irrationality: Geometry and Arithmetic\"; not crypto.",
+  "track_source": "https://swc-math.github.io/aws/2027/index.html",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://swc-math.github.io/aws/2027/index.html"
  },
  {
   "org": "IPAM (Institute for Pure and Applied Mathematics), UCLA",
@@ -2941,7 +3379,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "IPAM: \"We don't have any Summer Schools scheduled right now\"; 2027 topic unknown.",
+  "track_source": "https://www.ipam.ucla.edu/programs/summer-schools/",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://www.ipam.ucla.edu/programs/summer-schools/"
  },
  {
   "org": "DIMACS, Rutgers University",
@@ -2979,7 +3423,13 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "non-crypto",
+  "track_reason": "DIMACS REU: original research in algorithms/TCS with a Rutgers mentor; undergraduate, crypto not named.",
+  "track_source": "https://dimacs.rutgers.edu/apply-to-the-dimacs-reu",
+  "letters_required": "yes (2)",
+  "letters_required_reason": "\"two faculty members who have agreed to write a recommendation letter\".",
+  "letters_required_source": "https://dimacs.rutgers.edu/apply-to-the-dimacs-reu"
  },
  {
   "org": "Carnegie Mellon University (S3D / CyLab)",
@@ -3018,6 +3468,12 @@
   "opens_iso": null,
   "deadline_kind": null,
   "status": "not yet posted",
-  "top_pick": null
+  "top_pick": null,
+  "track": "applied-research",
+  "track_reason": "CMU SPUR: undergrad security & privacy research (hardware security, usable privacy, program analysis, cryptography, verification).",
+  "track_source": "https://www.cylab.cmu.edu/education/internships.html",
+  "letters_required": "unclear",
+  "letters_required_reason": "not stated in the posting.",
+  "letters_required_source": "https://cylab.cmu.edu/news/2026/01/23-spur.html"
  }
 ]

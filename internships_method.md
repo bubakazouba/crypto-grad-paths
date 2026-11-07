@@ -73,3 +73,10 @@ Schools and fellowships that aren't internships are kept but marked in `focus_ar
 - **Not added (unverified):**
   - IDA CCS (Bowie) SCAMP 2027: no official posting found.
   - KU Leuven COSIC, Duality, IOG and Google DeepMind Student Researcher: not checked in this pass.
+
+
+## Track and letters (added 2026-11-06, evening)
+- **Track** (`track`, `track_reason`, `track_source`): each posting was re-read in headless Edge on 2026-11-06 and judged on what the intern actually does, not on keywords. **Theory** = research on cryptographic theory, proofs, new constructions or cryptologic math (papers or classified math). **Applied research** = research producing papers on applied crypto or security systems. **Engineering** = software, hardware, security-engineering or ops work, even when crypto-adjacent. **Non-crypto** = not crypto/security research (general math schools, ML, general lab programs). Where the posting is gone, the reason says "(from stored description; posting unreadable)".
+- The Internships tab and the Apply-by timeline show only Theory + Applied research by default.
+- **Top picks recomputed** so every pick is Theory or Applied research, theory first: 1. CISPA CSR, 2. EF cryptography research intern, 3. IDA SCAMP (CCR-L), 4. ETH SSRF, 5. LANL CSRP, 6. a16z Frontier. LLNL CSI (engineering) was removed.
+- **Letters** (`letters_required`): `yes (N)` when the posting states a count, `yes` when required without a count, `optional`, `no` when the posting lists the full set of materials and letters are not among them, and `unclear` when the posting says nothing (this is most industry postings).

@@ -96,7 +96,7 @@ a{color:var(--accent)}
 <body>
 <header>
   <h1>Crypto Grad Paths</h1>
-  <div class="sub">US master's and PhD-direct routes into cryptography research, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after an independent review; every field links its source. Blank = not confirmed. Filters are multi-select (none ticked = all) and saved in the link.</div>
+  <div class="sub">US master's and PhD-direct routes into cryptography research, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after an independent review; every field links its source. Blank = not confirmed. Filters are multi-select (none ticked = all) and saved in the link. Internships default to the Theory + Applied-research tracks; tick Engineering or Non-crypto to see the rest.</div>
 </header>
 <nav>
   <button id="t-ms" data-tab="ms" class="on">Master's programs</button>
@@ -146,8 +146,8 @@ const leftCls=n=>n<0?'':n<=14?'soon':n<=35?'near':'';
 // ---------- state (persisted in URL hash) ----------
 const DEF={tab:'ms',
   'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'theory','ms.view':'cards','ms.tcol':'','ms.tdir':'1',
-  'in.q':'','in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'picks','in.view':'cards','in.tcol':'','in.tdir':'1',
-  'tl.kind':[],'tl.past':'0','tl.ok':'1'};
+  'in.q':'','in.track':['theory','applied-research'],'in.letters':[],'in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'picks','in.view':'cards','in.tcol':'','in.tdir':'1',
+  'tl.kind':[],'tl.track':['theory','applied-research'],'tl.past':'0','tl.ok':'1'};
 const st=JSON.parse(JSON.stringify(DEF));
 function writeHash(){const p=new URLSearchParams();for(const k in DEF){const v=st[k],d=DEF[k];const sv=Array.isArray(v)?v.join('|'):v,sd=Array.isArray(d)?d.join('|'):d;if(sv!==sd)p.set(k,sv)}const h=p.toString();history.replaceState(null,'',h?'#'+h:location.pathname+location.search)}
 function readHash(){const p=new URLSearchParams(location.hash.slice(1));for(const k in DEF){if(p.has(k)){const v=p.get(k);st[k]=Array.isArray(DEF[k])?(v?v.split('|'):[]):v}else st[k]=Array.isArray(DEF[k])?DEF[k].slice():DEF[k]}}
@@ -238,6 +238,12 @@ function renderMS(){
 // ---------- internships ----------
 const reachRank={'Reachable':0,'Moderate':1,'Hard':2,'Very hard':3};
 const prestRank={'Top':0,'Strong':1,'Good':2};
+const TRACKS=[['theory','Theory'],['applied-research','Applied research'],['engineering','Engineering'],['non-crypto','Non-crypto']];
+const trackLab=t=>(TRACKS.find(a=>a[0]===t)||[t,t||'?'])[1];
+const trackRank=t=>{const i=TRACKS.findIndex(a=>a[0]===t);return i<0?9:i};
+const trackChip=t=>`<span class="chip ${t==='theory'?'good':t==='applied-research'?'':'warn'}">${esc(trackLab(t))}</span>`;
+const letKey=x=>{const v=x.letters_required||'unclear';return v.startsWith('yes')?'yes':v};
+const letChip=x=>{const k=letKey(x);return `<span class="chip ${k==='yes'?'warn':k==='no'||k==='optional'?'good':''}">Letters: ${esc(x.letters_required||'unclear')}</span>`};
 function diffChip(d){const c={'Reachable':'good','Moderate':'good','Hard':'warn','Very hard':'bad'}[d]||'';return `<span class="chip ${c}">${esc(d||'?')} for you</span>`}
 const statusOf=x=>(x.status!=='closed'&&(x.deadline_iso?dleft(x.deadline_iso)<0:(!!x.priority_iso&&dleft(x.priority_iso)<0)))?'closed':(x.status||'not yet posted');
 const nextDate=x=>{for(const k of ['priority_iso','deadline_iso']){if(x[k]&&dleft(x[k])>=0)return x[k]}return null};
@@ -245,12 +251,13 @@ function deadlineHTML(x){const a=[];if(x.priority_iso)a.push(`Priority ${fmt(x.p
   return `${a.length?'<b>'+a.join(' · ')+'</b><br>':''}${more(x.deadline_summer_2027||(a.length?'':'not posted yet'),140)}${x.deadline_iso_note?`<div class="small">${esc(x.deadline_iso_note)}</div>`:''}<div class="small">${more(x.deadline_last_year_or_typical_window||'',120)}</div>`}
 function cardIN(x){const s=statusOf(x);return `<div class="card">
   <div class="row"><div class="title">${link(x.url,(x.org||'')+' · '+(x.program_name||''))}</div><div class="meta">${esc(x.location||'')}</div></div>
-  <div class="chips">${x.top_pick?`<span class="chip good">Top pick #${x.top_pick}</span>`:''}<span class="chip ${s==='closed'?'bad':s==='open'?'good':''}">${esc(s)}</span><span class="chip">${esc(x.category||'')}</span><span class="chip">${esc(x.prestige_tier||'?')} prestige</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span>${(x.location_bucket||[]).map(b=>`<span class="chip">${esc(b)}</span>`).join('')}</div>
+  <div class="chips">${x.top_pick?`<span class="chip good">Top pick #${x.top_pick}</span>`:''}${trackChip(x.track)}${letChip(x)}<span class="chip ${s==='closed'?'bad':s==='open'?'good':''}">${esc(s)}</span><span class="chip">${esc(x.category||'')}</span><span class="chip">${esc(x.prestige_tier||'?')} prestige</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span>${(x.location_bucket||[]).map(b=>`<span class="chip">${esc(b)}</span>`).join('')}</div>
   <div class="kv">
+    <div>Track</div><div><b>${esc(trackLab(x.track))}</b> · ${more(x.track_reason,140)} ${link(x.track_source,'source')}</div>
     <div>Area</div><div>${more(x.focus_area,120)}</div>
     <div>Deadline</div><div>${deadlineHTML(x)}</div>
     <div>Paper required?</div><div>${more(x.publications_expected,120)}</div>
-    <div>Letters?</div><div>${more(x.letters_of_recommendation,120)}</div>
+    <div>Letters?</div><div><b>${esc(x.letters_required||'unclear')}</b> · ${more(x.letters_required_reason,140)} ${link(x.letters_required_source,'source')}</div>
     <div>Eligibility</div><div>${more(x.eligibility,120)}</div>
     <div>Pay</div><div>${more(x.pay,120)}</div>
     <div>Why this prestige</div><div>${more(x.prestige_justification,100)}</div>
@@ -262,15 +269,17 @@ const dsort=x=>{const n=nextDate(x);return n?dleft(n):(statusOf(x)==='closed'?2e
 const INCOLS=[
   {k:'name',h:'Org · program',v:x=>esc(x.org+' · '+x.program_name),s:x=>x.org},
   {k:'pick',h:'Pick',v:x=>x.top_pick?'#'+x.top_pick:'',s:x=>x.top_pick??99},
+  {k:'track',h:'Track',v:x=>esc(trackLab(x.track)),s:x=>trackRank(x.track)},
   {k:'dl',h:'Next deadline',v:x=>{const n=nextDate(x);return n?`${fmt(n)} <span class="left ${leftCls(dleft(n))}">${leftTxt(dleft(n))}</span>`:`<span class="small">${esc(statusOf(x))}</span>`},s:dsort},
   {k:'elig',h:'MS eligible',v:x=>esc(x.ms_students_eligible||'unclear'),s:x=>({yes:0,unclear:1,no:2})[x.ms_students_eligible]??1},
+  {k:'let',h:'Letters',v:x=>esc(x.letters_required||'unclear'),s:x=>({no:0,optional:1,yes:2,unclear:3})[letKey(x)]+':'+(x.letters_required||'')},
   {k:'diff',h:'Difficulty',v:x=>esc(x.difficulty_for_sahmoud||''),s:x=>reachRank[x.difficulty_for_sahmoud]??9},
   {k:'prest',h:'Prestige',v:x=>esc(x.prestige_tier||''),s:x=>prestRank[x.prestige_tier]??9},
   {k:'cat',h:'Category',v:x=>esc(x.category),s:x=>x.category},
   {k:'loc',h:'Location',v:x=>esc((x.location_bucket||[]).join(', ')),s:x=>(x.location_bucket||[]).join()}];
 function renderIN(){
   const q=st['in.q'].toLowerCase();
-  let L=I.filter(x=>any(st['in.elig'],x.ms_students_eligible||'unclear')&&any(st['in.status'],statusOf(x))&&any(st['in.cat'],x.category)&&any(st['in.loc'],x.location_bucket||[])&&any(st['in.diff'],x.difficulty_for_sahmoud)&&any(st['in.prest'],x.prestige_tier)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
+  let L=I.filter(x=>any(st['in.track'],x.track)&&any(st['in.letters'],letKey(x))&&any(st['in.elig'],x.ms_students_eligible||'unclear')&&any(st['in.status'],statusOf(x))&&any(st['in.cat'],x.category)&&any(st['in.loc'],x.location_bucket||[])&&any(st['in.diff'],x.difficulty_for_sahmoud)&&any(st['in.prest'],x.prestige_tier)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));
   const so=st['in.sort'];
   const k=so==='picks'?x=>[x.top_pick??99,reachRank[x.difficulty_for_sahmoud]??9]:so==='reach'?x=>[reachRank[x.difficulty_for_sahmoud]??9,prestRank[x.prestige_tier]??9]:so==='deadline'?x=>[dsort(x),reachRank[x.difficulty_for_sahmoud]??9]:x=>[prestRank[x.prestige_tier]??9,reachRank[x.difficulty_for_sahmoud]??9];
   L.sort((a,b)=>{const x=k(a),y=k(b);return x[0]-y[0]||x[1]-y[1]});
@@ -283,7 +292,7 @@ function events(){const E=[];
     if(p.priority_iso)E.push({d:p.priority_iso,kind:'MS',pf:'Priority',t:nm+' · MS',u:p.deadline_url,n:p.deadline_note,ok:true});
     if(p.deadline_iso)E.push({d:p.deadline_iso,kind:'MS',pf:'Final',t:nm+' · MS',u:p.deadline_url,n:p.deadline_note,ok:true});
     const ph=s.phd_direct;if(ph&&ph.deadline_iso)E.push({d:ph.deadline_iso,kind:'PhD',pf:'Final',t:nm+' · PhD (apply direct)',u:ph.url,n:ph.note,ok:true})}
-  for(const x of I){const nm=x.org+' · '+x.program_name,ok=x.ms_students_eligible!=='no';
+  for(const x of I){if(!any(st['tl.track'],x.track))continue;const nm=x.org+' · '+x.program_name,ok=x.ms_students_eligible!=='no';
     if(x.priority_iso)E.push({d:x.priority_iso,kind:'Internship',pf:'Priority',t:nm,u:x.url,n:x.deadline_summer_2027,ok});
     if(x.deadline_iso)E.push({d:x.deadline_iso,kind:'Internship',pf:x.deadline_kind==='posting end'?'Posting ends':'Final',t:nm,u:x.url,n:x.deadline_summer_2027,ok});
     if(x.opens_iso)E.push({d:x.opens_iso,kind:'Internship',pf:'Opens',t:nm,u:x.url,n:x.deadline_summer_2027,ok})}
@@ -329,10 +338,10 @@ Promise.all(['schools.json','internships.json','routes.json','methodology.md','i
   S=s;I=i;R=r;
   buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic, notes…'],['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','Thesis',[['yes','yes'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['funded','Funded MS (≈$0)'],['ca','CA public (resident tuition)'],['phd','PhD-direct is the route'],['ms','Has an MS to apply to']]],
     ['sel','ms.sort','',[['theory','Sort: most theory-venue professors'],['profs','Sort: most crypto professors (all)'],['core','Sort: most theory papers'],['deadline','Sort: next upcoming deadline'],['cost','Sort: lowest tuition for me']]],['view','ms.view']]);
-  buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, eligibility…'],['m','in.elig','Can I apply? MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
+  buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, eligibility…'],['m','in.track','Track',TRACKS],['m','in.letters','Letters required',[['yes','yes'],['optional','optional'],['no','no'],['unclear','unclear / not stated']]],['m','in.elig','Can I apply? MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
     ['m','in.cat','Category',uniq(I.map(x=>x.category))],['m','in.loc','Location',['NYC','Chicago','Bay Area','SoCal','Remote','International','Other'].map(v=>[v,v])],['m','in.diff','Difficulty',['Reachable','Moderate','Hard','Very hard'].map(v=>[v,v])],['m','in.prest','Prestige',['Top','Strong','Good'].map(v=>[v,v])],
     ['sel','in.sort','',[['picks','Sort: my top picks first'],['deadline','Sort: deadline (soonest first)'],['reach','Sort: most reachable first'],['prestige','Sort: most prestigious first']]],['view','in.view']]);
-  buildCtl($('#tl-ctl'),[['m','tl.kind','Type',[['MS','MS programs'],['PhD','PhD-direct'],['Internship','Internships / summer'],['Funding','Funding']]],['ck','tl.past','show past'],['ck','tl.ok','only ones I can apply to']]);
+  buildCtl($('#tl-ctl'),[['m','tl.kind','Type',[['MS','MS programs'],['PhD','PhD-direct'],['Internship','Internships / summer'],['Funding','Funding']]],['m','tl.track','Internship track',TRACKS],['ck','tl.past','show past'],['ck','tl.ok','only ones I can apply to']]);
   $('#me-ms').innerHTML=md(m1);$('#me-in').innerHTML=md(m2);
   readHash();renderOR();update();tab(st.tab);
   window.addEventListener('hashchange',()=>{readHash();update();tab(st.tab)});
