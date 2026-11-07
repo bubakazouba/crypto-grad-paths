@@ -50,6 +50,15 @@ main *{overflow-wrap:anywhere;min-width:0}
 .vt button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
 .count{color:var(--muted);font-size:13px;margin-bottom:8px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.card.fms{background:color-mix(in srgb,var(--good) 9%,var(--card));border:2px solid var(--good)}
+.chip.fund{background:var(--good);color:var(--card);font-weight:700}
+.chip.fundp{border:1px solid var(--good);color:var(--good);background:transparent;font-weight:650}
+.tbl tr.fms td{background:color-mix(in srgb,var(--good) 10%,var(--card))}
+.tbl tr.fms td:first-child{box-shadow:inset 4px 0 0 var(--good)}
+.fundlist{margin:4px 0 10px;padding:8px 12px;border:1px solid var(--good);border-radius:12px;background:color-mix(in srgb,var(--good) 6%,var(--card));font-size:13.5px}
+.fundlist summary{cursor:pointer;font-weight:650}
+.fundlist a{white-space:nowrap}
+.fundlist .grp{margin:4px 0}
 .card.mine{border-color:var(--accent)}
 .card.sl{box-shadow:inset 4px 0 0 var(--accent)}
 .card.skip{opacity:.65}
@@ -79,6 +88,7 @@ ul.profs li{margin:4px 0}
 .tag{display:inline-block;font-size:11.5px;background:var(--chip);border-radius:6px;padding:0 6px;margin:1px 2px 1px 0}
 .tag.hit{background:var(--mark);font-weight:650}
 .small{font-size:12px;color:var(--muted)}
+.unof{color:var(--muted);font-style:italic}.unof .ut{white-space:nowrap;font-style:normal;font-size:10.5px;border:1px dashed var(--muted);border-radius:4px;padding:0 3px;margin-left:3px}
 a{color:var(--accent)}
 .my{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:8px}
 .my select{padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);font-size:13px}
@@ -91,7 +101,8 @@ a{color:var(--accent)}
 .method code{background:var(--chip);padding:0 4px;border-radius:4px;font-size:12.5px}
 .tblwrap{overflow:auto;-webkit-overflow-scrolling:touch;max-width:100%;max-height:78vh;background:var(--card);border:1px solid var(--line);border-radius:12px}
 .method .tblwrap{max-height:none}
-.tbl{min-width:860px}
+.tbl{min-width:1500px}
+.tbl td.c-fee,.tbl td.c-letters{min-width:120px}.tbl td.c-gre{min-width:150px}.tbl td.c-admit{min-width:170px}.tbl td.c-fund{min-width:190px}.tbl td.c-path{min-width:120px}.tbl td.c-fund .chip{white-space:nowrap;display:inline-block;margin:1px 0}
 .tbl thead th{position:sticky;top:0;z-index:2;background:var(--card);white-space:nowrap;padding:0;box-shadow:0 1px 0 var(--line)}
 .tbl thead th button{all:unset;display:block;padding:7px 8px;cursor:pointer;font-weight:650}
 .tbl thead th button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
@@ -156,6 +167,7 @@ a{color:var(--accent)}
   <div id="err" role="alert"></div>
   <section id="ms" role="tabpanel" aria-labelledby="t-ms">
     <div class="controls" id="ms-ctl"></div>
+    <div id="ms-funded"></div>
     <div class="count" id="ms-count" aria-live="polite"></div>
     <div id="ms-list"></div>
   </section>
@@ -202,7 +214,7 @@ const MYK='cgp.my.v1';let MY={},MYOK=true;
 try{MY=JSON.parse(localStorage.getItem(MYK)||'{}')||{}}catch(e){MY={};MYOK=false}
 function saveMY(){try{localStorage.setItem(MYK,JSON.stringify(MY));MYOK=true}catch(e){MYOK=false}}
 const STATUSES=[['','My status…'],['interested','Interested'],['applying','Applying'],['applied','Applied'],['skip','Skip']];
-const sid=s=>'s:'+(s.short||s.school);
+const sid=s=>'s:'+(s.id||s.short||s.school);
 const iid=x=>'i:'+x.org+'|'+x.program_name;
 const myst=id=>(MY[id]&&MY[id].st)||'';
 const onList=id=>['interested','applying','applied'].includes(myst(id));
@@ -221,7 +233,7 @@ const qTokens=q=>words(q);
 function matchQ(hay,toks){if(!toks.length)return true;return toks.every(t=>t.length<=3?hay.includes(t):hay.some(w=>w.startsWith(t)))}
 // ---------- state (persisted in URL hash) ----------
 const DEF={tab:'ms',
-  'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'fit','ms.dir':'','ms.view':'cards','ms.my':'0',
+  'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'fit','ms.dir':'','ms.view':'cards','ms.my':'0','ms.pyes':'0','ms.fund':'0','ms.ff':'0',
   'in.q':'','in.track':['theory','applied-research'],'in.letters':[],'in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'pick','in.dir':'','in.view':'cards','in.my':'0',
   'tl.kind':['PhD','Internship','School','Scholarship','Funding','Letters','Deferral'],'tl.track':['theory','applied-research'],'tl.past':'0','tl.ok':'1','tl.my':'0'};
 const st=JSON.parse(JSON.stringify(DEF));
@@ -269,7 +281,7 @@ function sortList(L,cols,key,dir){const c=cols.find(c=>c.k===key)||cols[0];const
   return {asc,col:c,L:L.slice().sort((a,b)=>{const x=c.val(a),y=c.val(b);const xn=x==null||x==='',yn=y==null||y==='';if(xn&&yn)return (a._nm||'').localeCompare(b._nm||'');if(xn)return 1;if(yn)return -1;
     const r=typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y));return (asc?r:-r)||(a._nm||'').localeCompare(b._nm||'')})}}
 function table(pfx,L,cols,asc,detail,rowCls,idOf){const key=st[pfx+'.sort'];
-  const html=`<div class="tblwrap" tabindex="-1"><table class="tbl" data-p="${pfx}"><thead><tr>${cols.map(c=>`<th scope="col" ${c.k===key?`aria-sort="${asc?'ascending':'descending'}"`:''}>${c.nosort?`<span style="display:block;padding:7px 8px;font-weight:650">${esc(c.h)}</span>`:`<button type="button" data-c="${c.k}">${esc(c.h)}</button>`}</th>`).join('')}</tr></thead><tbody>${L.map((x,i)=>`<tr class="it ${rowCls?rowCls(x):''}${onList(idOf(x))?' sl':''}" data-i="${i}">${cols.map(c=>c.k==='name'?`<td class="nm"><button type="button" class="exp" aria-expanded="false">${c.v(x)}</button></td>`:`<td>${c.v(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="small">Sort with a column header (click again to reverse); open a row with its name (Enter or click) for full details.</p>`;
+  const html=`<div class="tblwrap" tabindex="-1"><table class="tbl" data-p="${pfx}"><thead><tr>${cols.map(c=>`<th scope="col" ${c.k===key?`aria-sort="${asc?'ascending':'descending'}"`:''}>${c.nosort?`<span style="display:block;padding:7px 8px;font-weight:650">${esc(c.h)}</span>`:`<button type="button" data-c="${c.k}">${esc(c.h)}</button>`}</th>`).join('')}</tr></thead><tbody>${L.map((x,i)=>`<tr class="it ${rowCls?rowCls(x):''}${onList(idOf(x))?' sl':''}" data-i="${i}">${cols.map(c=>c.k==='name'?`<td class="nm"><button type="button" class="exp" aria-expanded="false">${c.v(x)}</button></td>`:`<td class="c-${c.k}">${c.v(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="small">Sort with a column header (click again to reverse); open a row with its name (Enter or click) for full details.</p>`;
   return {html,bind(el){const t=el.querySelector('table');
     t.querySelector('thead').addEventListener('click',e=>{const b=e.target.closest('button[data-c]');if(!b)return;const k=b.dataset.c;if(st[pfx+'.sort']===k)st[pfx+'.dir']=st[pfx+'.dir']==='rev'?'':'rev';else{st[pfx+'.sort']=k;st[pfx+'.dir']=''}update();const nb=document.querySelector(`table[data-p="${pfx}"] button[data-c="${k}"]`);if(nb)nb.focus()});
     t.querySelector('tbody').addEventListener('click',e=>{if(e.target.closest('a,select,textarea,.my,tr.det'))return;const tr=e.target.closest('tr.it');if(!tr)return;
@@ -302,7 +314,7 @@ const EVF=[['ms_feeds_phd','MS → PhD'],['ms_research_publish','MS research'],[
 function evHTML(s){const e=s.ms_phd||{};const rows=EVF.filter(([k])=>e[k]&&e[k].value!=null);if(!rows.length)return '<span class="small">No official evidence found (unknown, not "no").</span>';
   return rows.map(([k,l])=>`<div><b>${esc(l)}:</b> ${esc(e[k].value)} ${e[k].quote?`<span class="small">“${more(e[k].quote,110)}”</span>`:''} ${link(e[k].url,'source')}</div>`).join('')}
 function profLI(x){const tags=(x.research_tags||[]).map(t=>`<span class="tag${MYTAGS.includes(t)?' hit':''}" title="${esc(((x.tag_evidence||{})[t]||[]).map(e=>e.y+': '+e.t).join('\n'))}">${esc(t)}</span>`).join('');
-  return `<li>${link(x.homepage||x.dblp,x.name)} ${x.role_note?`<span class="chip warn">${esc(x.role_note)}</span>`:''}${x.dblp_suspect?` <span class="chip" title="${esc(typeof x.dblp_suspect==='string'?x.dblp_suspect:'')}">dblp record may mix in another author</span>`:''} <div>${tags||'<span class="small">no tags</span>'}</div><span class="small">${x.papers_core_iacr_joc!=null?`${x.papers_core_iacr_joc||0} theory-venue + ${x.papers_crypto_themed_ccs_uss_sp||0} security-venue papers 2021-25`:''}${x.title?' · '+esc(x.title):''}${x.dblp?' · '+link(x.dblp,'dblp'):''}${x.affiliation_source?' · '+link(x.affiliation_source,'affiliation source'):''}</span></li>`}
+  return `<li>${link(x.homepage||x.dblp,x.name)} ${x.department?`<span class="chip" title="${esc(x.department_source||'')}">${esc(x.department)}</span> `:''}${x.role_note?`<span class="chip warn">${esc(x.role_note)}</span>`:''}${x.dblp_suspect?` <span class="chip" title="${esc(typeof x.dblp_suspect==='string'?x.dblp_suspect:'')}">dblp record may mix in another author</span>`:''} <div>${tags||'<span class="small">no tags</span>'}</div><span class="small">${x.papers_core_iacr_joc!=null?`${x.papers_core_iacr_joc||0} theory-venue + ${x.papers_crypto_themed_ccs_uss_sp||0} security-venue papers 2021-25`:''}${x.title?' · '+esc(x.title):''}${x.dblp?' · '+link(x.dblp,'dblp'):''}${x.affiliation_source?' · '+link(x.affiliation_source,'affiliation source'):''}</span></li>`}
 function phdLine(s){const p=phdOf(s);
   if(s.baseline)return `<div class="phdline"><b>Current program (baseline)</b></div>`;
   if(!p)return `<div class="phdline small">PhD deadline: not found on an official page${s.phd_null_note?' · '+esc(s.phd_null_note):''}</div>`;
@@ -311,10 +323,10 @@ function phdLine(s){const p=phdOf(s);
 function cardMS(s){const p=s.program||{},id=sid(s),fp=fitProfs(s),m=myst(id);
   const profs=(s.professors||[]).slice().sort((a,b)=>fitTagsN(b)-fitTagsN(a)||(b.papers_core_iacr_joc||0)-(a.papers_core_iacr_joc||0)).map(profLI).join('');
   const tn=theoryN(s);
-  return `<div class="card${s.his_note||s.baseline?' mine':''}${onList(id)?' sl':''}${m==='skip'?' skip':''}">
+  return `<div class="card${s.his_note||s.baseline?' mine':''}${isFunded(s,'ms')?' fms':''}${onList(id)?' sl':''}${m==='skip'?' skip':''}" id="${cardId(s)}">
     <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
     ${phdLine(s)}
-    <div class="chips">${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${fp.length?`<span class="chip fit">Fit to my work: ${fp.length} · ${esc(fp.map(x=>x.name).join(', '))}</span>`:s.baseline?'':'<span class="chip">Fit to my work: 0</span>'}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?'<span class="chip bad">MS closed for Fall 2027</span>':''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>
+    <div class="chips">${fundBadges(s)}${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${fp.length?`<span class="chip fit">Fit to my work: ${fp.length} · ${esc(fp.map(x=>x.name).join(', '))}</span>`:s.baseline?'':'<span class="chip">Fit to my work: 0</span>'}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?'<span class="chip bad">MS closed for Fall 2027</span>':''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>
     ${s.his_note?`<div class="small" style="color:var(--accent)">${esc(s.his_note)} ${link(s.his_note_url,'policy')}</div>`:''}
     <div class="kv">
       <div>Program</div><div>${p.name?link(p.url,p.name):'<i>No master\'s to apply to for Fall 2027</i>'}</div>
@@ -323,17 +335,86 @@ function cardMS(s){const p=s.program||{},id=sid(s),fp=fitProfs(s),m=myst(id);
       ${s.net_cost_note?`<div>Net cost</div><div>${more(s.net_cost_note,140)} ${s.net_cost_url?'· '+link(s.net_cost_url,'source'):''}</div>`:''}
       <div>Realistic cost</div><div>${realHTML(s)||'<span class="small">not computed</span>'}</div>
       <div>MS deadline (Fall 2027)</div><div>${esc(dl(p))||'<span class="small">none</span>'} ${p.deadline_url?'· '+link(p.deadline_url,'source'):''}<div class="small">${more(p.deadline_note||'',120)}</div></div>
+      <div>Application fee</div><div>${reqHTML(s,'fee')}</div>
+      <div>Recommendation letters</div><div>${reqHTML(s,'let')}</div>
+      <div>PhD pathway (no reapplying)</div><div>${pwHTML(s)}</div>
+      <div>Acceptance rate</div><div>${admHTML(s)}</div>
+      <div>GRE</div><div>${greHTML(s)}</div>
       <div>MS → PhD evidence</div><div>${evHTML(s)}</div>
-      ${p.gre?`<div>GRE</div><div>${more(p.gre,100)}</div>`:''}
-      ${p.app_fee_usd!=null?`<div>MS app fee</div><div>${money(p.app_fee_usd)} ${p.app_fee_url?link(p.app_fee_url,'source'):''}</div>`:''}
-      ${p.funding_note?`<div>Funding</div><div>${more(p.funding_note,140)}</div>`:''}
+      ${p.gre&&!s.gre_info?`<div>GRE</div><div>${more(p.gre,100)}</div>`:''}
+      <div>Funding</div><div>${fundHTML(s)}</div>
     </div>
     ${s.research_fit_note?`<div class="small" style="margin-top:8px">${more(s.research_fit_note,180)}</div>`:''}
     ${s.notes?`<div class="small" style="margin-top:4px">${more(s.notes,180)}</div>`:''}
     ${(s.alt_programs||[]).length?`<details><summary>Other programs here (${s.alt_programs.length})</summary><ul class="profs">${s.alt_programs.map(a=>`<li>${link(a.url,a.name)} <span class="small">${esc(a.note||'')}</span></li>`).join('')}</ul></details>`:''}
+    ${s.shared_faculty_note?`<div class="small" style="margin-top:6px"><b>Faculty:</b> ${more(s.shared_faculty_note,220)} ${link(s.shared_faculty_url,'faculty list')}</div>`:''}
     ${(s.professors||[]).length?`<details${fp.length?' open':''}><summary>Professors (${s.professors.length}) · tags from their 2021-26 dblp titles; highlighted = your topics</summary><ul class="profs">${profs}</ul></details>`:''}
     ${myHTML(id,s.short||s.school)}
   </div>`}
+// ---------- application fee + recommendation letters: s.app_reqs.{phd,ms} = {fee_usd, fee_url, fee_quote, fee_note, fee_waiver, fee_waiver_url, letters, letters_min, letters_max, letters_url, letters_quote, letters_note} ----------
+const AR=(s,w)=>(s.app_reqs||{})[w]||null;
+const RQ={fee:{has:r=>r.fee_usd!=null,txt:r=>money(r.fee_usd),url:'fee_url',q:'fee_quote',n:'fee_note'},
+  let:{has:r=>r.letters!=null,txt:r=>r.letters_min!=null&&r.letters_max!=null&&r.letters_max!==r.letters_min?`${r.letters_min}–${r.letters_max}`:String(r.letters),url:'letters_url',q:'letters_quote',n:'letters_note'}};
+function reqCell(s,k){const R=RQ[k],ph=AR(s,'phd'),ms=AR(s,'ms');if(!ph&&!ms)return '';
+  const P=ph&&R.has(ph)?R.txt(ph):null,M=ms&&R.has(ms)?R.txt(ms):null,nf='<span class="small" title="not found on an official page">?</span>';
+  if(P==null&&M==null)return '<span class="small">not found</span>';
+  const w=k==='fee'&&[ph,ms].some(r=>r&&r.fee_waiver)?' <span class="small" title="'+esc([ph,ms].filter(r=>r&&r.fee_waiver).map(r=>r.fee_waiver).join(' | '))+'">waiver</span>':'';
+  if(ph&&ms&&P===M)return esc(P)+w;
+  return [ph?'PhD '+(P!=null?esc(P):nf):'',ms?'MS '+(M!=null?esc(M):nf):''].filter(Boolean).join(' / ')+w}
+const reqVal=(s,k)=>{const R=RQ[k];for(const w of ['phd','ms']){const r=AR(s,w);if(r&&R.has(r))return k==='fee'?r.fee_usd:r.letters}return null};
+function reqHTML(s,k){const R=RQ[k],rows=[['phd','PhD'],['ms','MS']].filter(([w])=>AR(s,w));if(!rows.length)return '<span class="small">not researched</span>';
+  return rows.map(([w,l])=>{const r=AR(s,w);return `<div><b>${l}:</b> ${R.has(r)?esc(R.txt(r))+' '+link(r[R.url],'source'):'<span class="small">not found</span>'}${r[R.n]?` <span class="small">${more(r[R.n],110)}</span>`:''}${k==='fee'&&r.fee_waiver?`<div class="small">Waiver: ${more(r.fee_waiver,120)} ${link(r.fee_waiver_url,'source')}</div>`:''}</div>`}).join('')}
+// ---------- GRE (s.gre_info), MS admit rate (s.ms_admit), PhD pathway without reapplying (s.phd_pathway) ----------
+const GRE_POL={'required':'required','optional':'optional','not required':'not required','not accepted':'not accepted','not considered':'not considered'};
+const greAvg=s=>{const g=s.gre_info||{};return g.ms_avg?['MS',g.ms_avg]:g.phd_avg?['PhD',g.phd_avg]:null};
+const unofTip=u=>'Unofficial: '+(u.context||'')+(u.source_url?' · '+u.source_url:'');
+const unofWrap=(u,h)=>`<span class="unof" title="${esc(unofTip(u))}">${h}<span class="ut">unofficial</span></span>`;
+const greUnof=s=>{const u=(s.gre_info||{}).unofficial;return u&&(u.q!=null||u.v!=null||u.awa!=null)?u:null};
+const admUnof=s=>{const u=(s.ms_admit||{}).unofficial;return u&&u.rate_pct!=null?u:null};
+const greAvgTxt=a=>[a.q!=null?'Q'+a.q:'',a.v!=null?'V'+a.v:'',a.awa!=null?'AWA '+a.awa:''].filter(Boolean).join(' ');
+function greCell(s){const g=s.gre_info;if(!g)return '';const a=greAvg(s);
+  const pol=[g.policy_phd?'PhD '+g.policy_phd:'',g.policy_ms?'MS '+g.policy_ms:''].filter(Boolean);const polTxt=g.policy_phd&&g.policy_phd===g.policy_ms?g.policy_ms:pol.join(' / ');
+  const u=!a&&greUnof(s);
+  return (a?`${esc(a[0])} ${esc(greAvgTxt(a[1]))}${a[1].year?` <span class="small">(${esc(a[1].year)})</span>`:''}<br>`:u?unofWrap(u,esc((u.program?u.program+' ':'')+greAvgTxt(u)))+'<br>':'<span class="small">no avg published</span><br>')+(polTxt?`<span class="small">GRE ${esc(polTxt)}</span>`:'')}
+const greVal=s=>{const a=greAvg(s);if(a)return a[1].q??null;const u=greUnof(s);return u&&u.q!=null?u.q:null};
+function greHTML(s){const g=s.gre_info;if(!g)return '<span class="small">not researched</span>';const r=[];
+  if(g.policy_ms||g.policy_phd)r.push(`<div><b>Policy:</b> ${g.policy_phd?'PhD '+esc(g.policy_phd)+' '+link(g.policy_phd_url||g.policy_url,'source'):''}${g.policy_phd&&g.policy_ms?' · ':''}${g.policy_ms?'MS '+esc(g.policy_ms)+' '+link(g.policy_url,'source'):''}</div>`);
+  for(const [k,l] of [['ms_avg','MS average'],['phd_avg','PhD average']]){const a=g[k];if(a)r.push(`<div><b>${l}:</b> ${esc(greAvgTxt(a))}${a.year?' ('+esc(a.year)+')':''} ${link(a.url,'source')}</div>`)}
+  if(!g.ms_avg&&!g.phd_avg){r.push('<div class="small">No official average GRE published.</div>');const u=greUnof(s);if(u)r.push(`<div>${unofWrap(u,'<b>Unofficial'+(u.program?' '+esc(u.program):'')+':</b> '+esc(greAvgTxt(u)))} <span class="small">${esc(u.context||'')}</span> ${link(u.source_url,'source')}</div>`)}
+  if(g.note)r.push(`<div class="small">${more(g.note,120)}</div>`);return r.join('')}
+const admOverall=a=>a&&/overall/i.test(a.scope||'');
+const ADM={ms:'ms_admit',phd:'phd_admit'};
+const admOf=(s,w)=>s[ADM[w]]||null;
+const admU=a=>{const u=(a||{}).unofficial;return u&&u.rate_pct!=null?u:null};
+const admRate=a=>a&&a.rate_pct!=null?a.rate_pct:(admU(a)||{}).rate_pct??null;
+function admOne(a,l){if(a&&a.rate_pct!=null)return `${l} ${esc(String(a.rate_pct))}%${a.year?` <span class="small">(${esc(a.year)})</span>`:''}${admOverall(a)?' <span class="small">grad school overall</span>':a.scope&&a.scope!=='program'?` <span class="small">${esc(a.scope)}</span>`:''}`;
+  const u=admU(a);return u?unofWrap({...u,context:(u.year?u.year+'; ':'')+(u.context||'')},`${l} ${esc(String(u.rate_pct))}%`):''}
+function admCell(s){const r=[admOne(admOf(s,'ms'),'MS'),admOne(admOf(s,'phd'),'PhD')].filter(Boolean);
+  return r.length?r.join(' / '):(admOf(s,'ms')||admOf(s,'phd'))?'<span class="small">not published</span>':''}
+const admVal=s=>admRate(admOf(s,'ms'));
+function admBlock(a,l){if(!a)return '';
+  if(a.rate_pct==null){const u=admU(a);return `<div><b>${l}:</b> <span class="small">not published on an official page.${a.note?' '+more(a.note,110):''}</span>${u?` ${unofWrap(u,esc(String(u.rate_pct))+'%'+(u.year?' ('+esc(u.year)+')':''))} <span class="small">${esc(u.context||'')}</span> ${link(u.source_url,'source')}`:''}</div>`}
+  return `<div><b>${l}: ${esc(String(a.rate_pct))}%</b>${a.year?' ('+esc(a.year)+')':''}${admOverall(a)?' <span class="chip warn">grad school overall, not the program</span>':a.scope?' <span class="small">'+esc(a.scope)+'</span>':''}${a.applicants!=null&&a.admits!=null?` <span class="small">${Number(a.admits).toLocaleString('en-US')} of ${Number(a.applicants).toLocaleString('en-US')}</span>`:''} ${link(a.url,'source')}${a.quote?`<div class="small">“${more(a.quote,110)}”</div>`:''}${a.note?`<div class="small">${more(a.note,110)}</div>`:''}</div>`}
+function admHTML(s){const h=admBlock(admOf(s,'ms'),'MS')+admBlock(admOf(s,'phd'),'PhD');return h||'<span class="small">not researched</span>'}
+const PW={yes:['Yes','good',0],'partial-internal':['Partial (internal petition)','warn',1],'partial-reapply':['Partial (reapply)','warn',2],no:['No','bad',3]};
+const pwOf=s=>{const p=s.phd_pathway||{};return {v:PW[p.value]?p.value:null,p}};
+function pwCell(s){if(s.baseline)return '';const {v,p}=pwOf(s);if(!v)return '<span class="small">unknown</span>';
+  return `<span class="chip ${PW[v][1]}" title="${esc((p.kind?p.kind+': ':'')+(p.quote?'“'+p.quote+'”':''))}">${esc(PW[v][0])}</span>`}
+const pwVal=s=>{const {v}=pwOf(s);return v?PW[v][2]:null};
+function pwHTML(s){const {v,p}=pwOf(s);if(!v)return '<span class="small">unknown (no official evidence found; not "No")</span>';
+  return `<span class="chip ${PW[v][1]}">${esc(PW[v][0])}</span> ${p.kind?esc(p.kind):''} ${link(p.url,'source')}${p.quote?`<div class="small">“${more(p.quote,160)}”</div>`:''}${p.note?`<div class="small">${more(p.note,120)}</div>`:''}`}
+// ---------- funding per program: s.funding.{ms,phd} = {value, also[], detail, url, quote} ----------
+const FV={'Funded':['good',0],'TA/RA possible':['good',1],'Merit scholarships':['',2],'None stated':['bad',3],'Unknown':['',null]};
+const fOf=(s,w)=>{const f=(s.funding||{})[w];return f&&FV[f.value]?f:null};
+const isFunded=(s,w)=>{const f=fOf(s,w);return !!f&&f.value==='Funded'};
+const fundBadges=s=>(isFunded(s,'ms')?'<span class="chip fund">MS funded</span>':'')+(isFunded(s,'phd')?'<span class="chip fundp">PhD funded</span>':'');
+const cardId=s=>'c-'+sid(s).replace(/[^A-Za-z0-9]+/g,'-');
+const hasMSFund=s=>{const f=fOf(s,'ms');return !!f&&[f.value,...(f.also||[])].some(v=>['Funded','TA/RA possible','Merit scholarships'].includes(v))};
+const fTip=f=>[f.detail,f.quote?'“'+f.quote+'”':''].filter(Boolean).join(' ');
+function fundCell(s){const r=[['ms','MS'],['phd','PhD']].map(([w,l])=>{const f=fOf(s,w);return f?`<span class="chip ${FV[f.value][0]}" title="${esc(fTip(f))}">${l}: ${esc(f.value)}</span>`:''}).filter(Boolean);return r.join(' ')}
+const fundVal=s=>{const f=fOf(s,'ms');return f?FV[f.value][1]:null};
+function fundHTML(s){const p=s.program||{};const r=[['ms','MS'],['phd','PhD']].filter(([w])=>(s.funding||{})[w]).map(([w,l])=>{const f=s.funding[w];return `<div><b>${l}:</b> <span class="chip ${(FV[f.value]||[''])[0]}">${esc(f.value||'Unknown')}</span>${(f.also||[]).length?' <span class="small">also '+esc(f.also.join(', '))+'</span>':''} ${link(f.url,'source')}${f.detail?`<div class="small">${more(f.detail,130)}</div>`:''}${f.quote?`<div class="small">“${more(f.quote,130)}”</div>`:''}</div>`});
+  if(p.funding_note)r.push(`<div class="small">${more(p.funding_note,140)}</div>`);return r.join('')||'<span class="small">Unknown</span>'}
 const fitTagsN=p=>p.crypto_core==='not-crypto'?0:(p.research_tags||[]).filter(t=>MYTAGS.includes(t)).length;
 const nextMS=s=>{const p=s.program||{};const c=[p.priority_iso,p.deadline_iso,phdIso(s)].filter(d=>d&&dleft(d)>=0).sort();return c[0]||null};
 const MSCOLS=[
@@ -345,6 +426,12 @@ const MSCOLS=[
   {k:'profs',h:'All profs',sortLabel:'Most crypto professors (all)',nat:'desc',v:s=>s.baseline?'':(s.professors||[]).length,val:s=>s.baseline?null:(s.professors||[]).length},
   {k:'core',h:'Theory papers',sortLabel:'Most theory-venue papers',nat:'desc',v:s=>s.baseline?'':coreCount(s),val:s=>s.baseline?null:coreCount(s)},
   {k:'ms',h:'MS deadline',sortLabel:'MS deadline (soonest first)',nat:'asc',v:s=>esc(dl(s.program||{}))||'<span class="small">none</span>',val:s=>{const p=s.program||{};return p.priority_iso||p.deadline_iso||null}},
+  {k:'fee',h:'App fee',sortLabel:'Lowest application fee (PhD, else MS)',nat:'asc',v:s=>reqCell(s,'fee'),val:s=>reqVal(s,'fee')},
+  {k:'letters',h:'Letters',sortLabel:'Fewest recommendation letters (PhD, else MS)',nat:'asc',v:s=>reqCell(s,'let'),val:s=>reqVal(s,'let')},
+  {k:'gre',h:'Avg GRE',sortLabel:'Highest official average GRE Quant',nat:'desc',v:greCell,val:greVal},
+  {k:'admit',h:'Acceptance rate',sortLabel:'MS acceptance rate (most selective first)',nat:'asc',v:admCell,val:admVal},
+  {k:'path',h:'PhD pathway',sortLabel:'PhD pathway without reapplying (Yes first)',nat:'asc',v:pwCell,val:pwVal},
+  {k:'fund',h:'Funding',sortLabel:'MS funding (funded first)',nat:'asc',v:fundCell,val:fundVal},
   {k:'cost',h:'Tuition for me',sortLabel:'Lowest tuition for me',nat:'asc',v:s=>closedMS(s)?'<span class="small">closed</span>':s.funded_ms?'≈$0 (funded track)':money(myTuition(s))+(isCA(s)?' <span class="small">CA res.</span>':''),val:s=>myTuition(s)},
   {k:'real',h:'Realistic total',sortLabel:'Lowest realistic total (tuition + fees + living)',nat:'asc',v:s=>{const r=realCost(s);return r==null?'':money(r)},val:s=>realCost(s)},
   {k:'thesis',h:'MS thesis',sortLabel:'MS thesis option',nat:'asc',v:s=>esc((s.program||{}).thesis||''),val:s=>({yes:0,'research track':0,no:2})[(s.program||{}).thesis]??1},
@@ -353,12 +440,22 @@ const MSCOLS=[
 function hayMS(s){if(s._hay)return s._hay;const p=s.program||{};s._hay=words([s.school,s.short,s.city,s.state,s.region,p.name,p.thesis,(s.alt_programs||[]).map(a=>a.name).join(' '),(s.professors||[]).map(x=>[x.name,(x.topics||[]).join(' '),(x.research_tags||[]).join(' ')].join(' ')).join(' '),s.research_fit_note,s.notes,s.his_note,s.baseline?'baseline current csula':''].join(' '));return s._hay}
 function renderMS(){
   const toks=qTokens(st['ms.q']);
-  let L=S.filter(s=>any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(st['ms.my']!=='1'||onList(sid(s)))&&matchQ(hayMS(s),toks));
+  let L=S.filter(s=>any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(st['ms.my']!=='1'||onList(sid(s)))&&(st['ms.pyes']!=='1'||pwOf(s).v==='yes')&&(st['ms.fund']!=='1'||hasMSFund(s))&&(st['ms.ff']!=='1'||isFunded(s,'ms')||isFunded(s,'phd'))&&matchQ(hayMS(s),toks));
   const r=sortList(L,MSCOLS,st['ms.sort'],st['ms.dir']);L=r.L;
   const real=L.filter(s=>!s.baseline);
+  $('#ms-funded').innerHTML=fundedList();
   $('#ms-count').textContent=`${real.length} of ${S.filter(s=>!s.baseline).length} schools${L.length>real.length?' + your current program':''} · ${real.reduce((a,s)=>a+fitN(s),0)} professors on your topics · sorted by ${r.col.sortLabel}${st['ms.dir']==='rev'?' (reversed)':''}${toks.length?` · search: ${toks.join(' + ')}`:''}`;
-  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,r.asc,cardMS,null,sid);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
+  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,r.asc,cardMS,s=>isFunded(s,'ms')?'fms':'',sid);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
   $('#ms-list').innerHTML=L.map(cardMS).join('')||'<div class="card small">Nothing matches. Clear the search or filters.</div>'}
+function fundedList(){const R=S.filter(s=>!s.baseline),M=R.filter(s=>isFunded(s,'ms')),P=R.filter(s=>isFunded(s,'phd'));
+  const a=L=>L.map(s=>`<a href="#" data-goto="${esc(cardId(s))}">${esc(s.short||s.school)}</a>`).join(', ');
+  return `<details class="fundlist"${M.length?' open':''}><summary>Fully funded options: <b>MS funded ${M.length}</b> · PhD funded ${P.length} of ${R.length}</summary>
+    <div class="grp"><span class="chip fund">MS funded</span> ${M.length?a(M):'<span class="small">none found on official pages</span>'}</div>
+    <details class="grp"><summary><span class="chip fundp">PhD funded</span> <span class="small">${P.length} schools (almost every PhD is funded; show list)</span></summary>${a(P)}</details>
+    <div class="small">"Funded" = an official page says the program is typically fully funded (tuition + stipend). TA/RA-possible and merit-scholarship programs are not counted here; see the Funding column.</div></details>`}
+document.addEventListener('click',e=>{const g=e.target.closest('a[data-goto]');if(!g)return;e.preventDefault();const id=g.dataset.goto;
+  if(st['ms.view']!=='cards'||!document.getElementById(id)){st['ms.view']='cards';for(const k in DEF)if(k.startsWith('ms.')&&k!=='ms.sort'&&k!=='ms.dir'&&k!=='ms.view')st[k]=Array.isArray(DEF[k])?DEF[k].slice():DEF[k];update()}
+  const el=document.getElementById(id);if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.setAttribute('tabindex','-1');el.focus({preventScroll:true})}});
 // ---------- internships ----------
 const reachRank={'Reachable':0,'Moderate':1,'Hard':2,'Very hard':3};
 const prestRank={'Top':0,'Strong':1,'Good':2};
@@ -491,7 +588,7 @@ function update(){syncCtl();renderMS();renderIN();renderTL();renderOR();writeHas
 const FILES=['schools.json','internships.json','routes.json','methodology.md','internships_method.md'];
 Promise.all(FILES.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`${f}: HTTP ${r.status}`);return f.endsWith('json')?r.json().catch(e=>{throw new Error(`${f}: invalid JSON (${e.message})`)}):r.text()}))).then(([s,i,r,m1,m2])=>{
   S=s;I=i;R=r;for(const x of S)x._nm=x.short||x.school;for(const x of I)x._nm=x.org+' '+x.program_name;
-  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic (e.g. ORAM, memory checking)'],['ck','ms.my','My shortlist']],[['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','MS thesis',[['yes','yes'],['research track','research track'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['phd','PhD-direct is the route'],['ms','Has an MS to apply to'],['funded','Funded MS track'],['ca','CA public (resident tuition)'],['base','My current program']]],
+  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic (e.g. ORAM, memory checking)'],['ck','ms.my','My shortlist'],['ck','ms.ff','Fully funded'],['ck','ms.pyes','PhD pathway: Yes'],['ck','ms.fund','Has MS funding']],[['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','MS thesis',[['yes','yes'],['research track','research track'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['phd','PhD-direct is the route'],['ms','Has an MS to apply to'],['funded','Funded MS track'],['ca','CA public (resident tuition)'],['base','My current program']]],
     ['sel','ms.sort','',MSCOLS.map(c=>[c.k,'Sort: '+c.sortLabel])],['view','ms.view']]);
   buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, gate…'],['ck','in.my','My shortlist']],[['m','in.track','Track',TRACKS],['m','in.letters','Letters required',[['yes','yes'],['optional','optional'],['no','no'],['unclear','unclear / not stated']]],['m','in.elig','MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
     ['m','in.cat','Category',uniq(I.map(x=>x.category))],['m','in.loc','Location',['NYC','Chicago','Bay Area','SoCal','Remote','International','Other'].map(v=>[v,v])],['m','in.diff','Difficulty',['Reachable','Moderate','Hard','Very hard'].map(v=>[v,v])],['m','in.prest','Prestige',['Top','Strong','Good'].map(v=>[v,v])],
