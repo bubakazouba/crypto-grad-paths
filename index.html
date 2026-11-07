@@ -154,7 +154,7 @@ a{color:var(--accent)}
 <body>
 <header>
   <h1>Crypto Grad Paths</h1>
-  <div class="sub">PhD-first plan for theory crypto, Fall 2027. <span class="long">US PhD and master's routes, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after two independent reviews; every field links its source. Blank = not confirmed. Schools are sorted by fit to your topics (lower bounds, memory checking, ORAM, PIR, garbling, oblivious algorithms, lattices); the best-matched professors are listed under Other routes. Your shortlist, status and notes stay in this browser only.</span></div>
+  <div class="sub">PhD-first plan for theory crypto, Fall 2027. <span class="long">US and Canadian PhD and master's routes, Summer 2027 internships, a dated apply-by timeline, and other routes. Data gathered 2026-11-06 from official pages and corrected after two independent reviews; every field links its source. Blank = not confirmed. Schools are sorted by fit to your topics (lower bounds, memory checking, ORAM, PIR, garbling, oblivious algorithms, lattices); the best-matched professors are listed under Other routes. Your shortlist, status and notes stay in this browser only.</span></div>
 </header>
 <nav role="tablist" aria-label="Sections">
   <button role="tab" id="t-ms" data-tab="ms" aria-controls="ms" aria-selected="true"><span class="lg">Schools (PhD + MS)</span><span class="sm">Schools</span></button>
@@ -233,7 +233,7 @@ const qTokens=q=>words(q);
 function matchQ(hay,toks){if(!toks.length)return true;return toks.every(t=>t.length<=3?hay.includes(t):hay.some(w=>w.startsWith(t)))}
 // ---------- state (persisted in URL hash) ----------
 const DEF={tab:'ms',
-  'ms.q':'','ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'fit','ms.dir':'','ms.view':'cards','ms.my':'0','ms.pyes':'0','ms.fund':'0','ms.ff':'0',
+  'ms.q':'','ms.country':[],'ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'fit','ms.dir':'','ms.view':'cards','ms.my':'0','ms.pyes':'0','ms.fund':'0','ms.ff':'0',
   'in.q':'','in.track':['theory','applied-research'],'in.letters':[],'in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'pick','in.dir':'','in.view':'cards','in.my':'0',
   'tl.kind':['PhD','Internship','School','Scholarship','Funding','Letters','Deferral'],'tl.track':['theory','applied-research'],'tl.past':'0','tl.ok':'1','tl.my':'0'};
 const st=JSON.parse(JSON.stringify(DEF));
@@ -291,21 +291,24 @@ const mySel=(id,label)=>`<select class="mysel" data-id="${esc(id)}" aria-label="
 // ---------- schools ----------
 const theoryN=s=>(s.professors||[]).filter(p=>(p.papers_core_iacr_joc||0)>=2&&p.crypto_core!=='adjacent'&&p.crypto_core!=='not-crypto').length;
 const coreCount=s=>(s.professors||[]).reduce((a,p)=>a+(p.papers_core_iacr_joc||0),0);
+const countryOf=s=>s.country||'US';
+const cad=n=>n==null?'':'CA$'+Math.round(n).toLocaleString('en-US');
+const fxTxt=s=>s.fx?`converted at ${s.fx.usd_cad} CAD per USD (${esc(s.fx.source)}, ${esc(s.fx.date)})`:'';
 const isCA=s=>s.program&&s.program.total_tuition_resident_usd!=null;
 const closedMS=s=>!!(s.program&&s.program.closed_fall2027);
 const myTuition=s=>{const p=s.program||{};if(closedMS(s))return null;if(s.funded_ms)return 0;return isCA(s)?p.total_tuition_resident_usd:p.total_tuition_usd};
 const realCost=s=>{const t=myTuition(s),c=s.cost||{},y=(s.program||{}).years;if(t==null||y==null||c.living_usd==null)return null;return t+y*((c.living_usd||0)+(c.fees_usd||0)+(c.health_usd||0))};
 function costHTML(s){const p=s.program||{};
-  if(closedMS(s))return `<b>Closed for Fall 2027</b> <span class="small">(M.S.E. not accepting applications; PhD only)</span>`;
+  if(closedMS(s))return p.closed_note?`<b>Not open to you</b> <span class="small">(${esc(p.closed_note)})</span>`:`<b>Closed for Fall 2027</b> <span class="small">(M.S.E. not accepting applications; PhD only)</span>`;
   let h='';
   if(s.funded_ms)h+=`<b>≈$0 tuition (funded track)</b> <span class="small">sticker ${money(p.total_tuition_usd)}</span>`;
   else if(isCA(s))h+=`<b>${money(p.total_tuition_resident_usd)}</b> as a CA resident ${p.resident_url?'· '+link(p.resident_url,'fee page'):''}<div class="small">${more(p.resident_basis||'',110)}</div><div class="small">Out-of-state: ${money(p.total_tuition_usd)}</div>`;
-  else if(p.total_tuition_usd!=null)h+=`${money(p.total_tuition_usd)} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${more(p.tuition_basis||'',110)}</div>`;
+  else if(p.total_tuition_usd!=null)h+=`${money(p.total_tuition_usd)}${p.total_tuition_cad!=null?` <span class="small">= ${cad(p.total_tuition_cad)} international, ${fxTxt(s)}</span>`:''} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${more(p.tuition_basis||'',110)}</div>`;
   else h+='<span class="small">n/a</span>';
   return h}
 function realHTML(s){const c=s.cost,p=s.program||{};if(!c)return '';if(c.living_usd==null)return `<span class="small">${esc(c.note||'No official cost-of-attendance figure found.')}</span>`;
   const r=realCost(s),per=(c.living_usd||0)+(c.fees_usd||0)+(c.health_usd||0);
-  return `${r!=null?`<b>≈${money(r)}</b> for ~${p.years} yr = tuition + ${p.years} × ${money(per)}/yr`:`${money(per)}/yr living + fees`} <span class="small">(living ${money(c.living_usd)}${c.fees_usd?` + fees ${money(c.fees_usd)}`:''}${c.health_usd?` + insurance ${money(c.health_usd)}`:''}, ${esc(c.coa_year||'')} official ${c.months||9}-month budget)</span> ${link(c.url,'cost of attendance')}<div class="small">${more(c.basis||'',120)}${p.years_note?' · '+esc(p.years_note):''}</div>`}
+  return `${r!=null?`<b>≈${money(r)}</b> for ~${p.years} yr = tuition + ${p.years} × ${money(per)}/yr`:`${money(per)}/yr living + fees`} <span class="small">(living ${money(c.living_usd)}${c.fees_usd?` + fees ${money(c.fees_usd)}`:''}${c.health_usd?` + insurance ${money(c.health_usd)}`:''}, ${esc(c.coa_year||'')} official ${c.months||9}-month budget${c.living_cad!=null?`; ${cad(c.living_cad)} living${c.health_cad?` + ${cad(c.health_cad)} health`:''}${c.fees_cad?` + ${cad(c.fees_cad)} fees`:''} in CAD, ${fxTxt(s)}`:''})</span> ${link(c.url,'cost of attendance')}<div class="small">${more(c.basis||'',120)}${p.years_note?' · '+esc(p.years_note):''}</div>`}
 function dl(p){const a=[];if(p.priority_iso)a.push(`Priority ${fmt(p.priority_iso)}`);if(p.deadline_iso)a.push(`Final ${fmt(p.deadline_iso)}`);return a.join(' · ')}
 const phdOf=s=>s.phd||null;
 const phdIso=s=>{const p=phdOf(s);return p&&p.deadline_iso||null};
@@ -326,7 +329,7 @@ function cardMS(s){const p=s.program||{},id=sid(s),fp=fitProfs(s),m=myst(id);
   return `<div class="card${s.his_note||s.baseline?' mine':''}${isFunded(s,'ms')?' fms':''}${onList(id)?' sl':''}${m==='skip'?' skip':''}" id="${cardId(s)}">
     <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
     ${phdLine(s)}
-    <div class="chips">${fundBadges(s)}${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${fp.length?`<span class="chip fit">Fit to my work: ${fp.length} · ${esc(fp.map(x=>x.name).join(', '))}</span>`:s.baseline?'':'<span class="chip">Fit to my work: 0</span>'}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?'<span class="chip bad">MS closed for Fall 2027</span>':''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>
+    <div class="chips">${countryOf(s)==='Canada'?'<span class="chip acc">Canada · international tuition</span>':''}${fundBadges(s)}${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${fp.length?`<span class="chip fit">Fit to my work: ${fp.length} · ${esc(fp.map(x=>x.name).join(', '))}</span>`:s.baseline?'':'<span class="chip">Fit to my work: 0</span>'}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?`<span class="chip bad">${p.closed_note?'MS not open to international applicants':'MS closed for Fall 2027'}</span>`:''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>
     ${s.his_note?`<div class="small" style="color:var(--accent)">${esc(s.his_note)} ${link(s.his_note_url,'policy')}</div>`:''}
     <div class="kv">
       <div>Program</div><div>${p.name?link(p.url,p.name):'<i>No master\'s to apply to for Fall 2027</i>'}</div>
@@ -353,7 +356,7 @@ function cardMS(s){const p=s.program||{},id=sid(s),fp=fitProfs(s),m=myst(id);
   </div>`}
 // ---------- application fee + recommendation letters: s.app_reqs.{phd,ms} = {fee_usd, fee_url, fee_quote, fee_note, fee_waiver, fee_waiver_url, letters, letters_min, letters_max, letters_url, letters_quote, letters_note} ----------
 const AR=(s,w)=>(s.app_reqs||{})[w]||null;
-const RQ={fee:{has:r=>r.fee_usd!=null,txt:r=>money(r.fee_usd),url:'fee_url',q:'fee_quote',n:'fee_note'},
+const RQ={fee:{has:r=>r.fee_usd!=null,txt:r=>money(r.fee_usd)+(r.fee_cad!=null?` (${cad(r.fee_cad)})`:''),url:'fee_url',q:'fee_quote',n:'fee_note'},
   let:{has:r=>r.letters!=null,txt:r=>r.letters_min!=null&&r.letters_max!=null&&r.letters_max!==r.letters_min?`${r.letters_min}–${r.letters_max}`:String(r.letters),url:'letters_url',q:'letters_quote',n:'letters_note'}};
 function reqCell(s,k){const R=RQ[k],ph=AR(s,'phd'),ms=AR(s,'ms');if(!ph&&!ms)return '';
   const P=ph&&R.has(ph)?R.txt(ph):null,M=ms&&R.has(ms)?R.txt(ms):null,nf='<span class="small" title="not found on an official page">?</span>';
@@ -406,10 +409,10 @@ function pwHTML(s){const {v,p}=pwOf(s);if(!v)return '<span class="small">unknown
 // ---------- funding per program: s.funding.{ms,phd} = {value, also[], detail, url, quote} ----------
 const FV={'Funded':['good',0],'TA/RA possible':['good',1],'Merit scholarships':['',2],'None stated':['bad',3],'Unknown':['',null]};
 const fOf=(s,w)=>{const f=(s.funding||{})[w];return f&&FV[f.value]?f:null};
-const isFunded=(s,w)=>{const f=fOf(s,w);return !!f&&f.value==='Funded'};
+const isFunded=(s,w)=>{const f=fOf(s,w);return !!f&&f.value==='Funded'&&!(w==='ms'&&closedMS(s))};
 const fundBadges=s=>(isFunded(s,'ms')?'<span class="chip fund">MS funded</span>':'')+(isFunded(s,'phd')?'<span class="chip fundp">PhD funded</span>':'');
 const cardId=s=>'c-'+sid(s).replace(/[^A-Za-z0-9]+/g,'-');
-const hasMSFund=s=>{const f=fOf(s,'ms');return !!f&&[f.value,...(f.also||[])].some(v=>['Funded','TA/RA possible','Merit scholarships'].includes(v))};
+const hasMSFund=s=>{const f=fOf(s,'ms');return !closedMS(s)&&!!f&&[f.value,...(f.also||[])].some(v=>['Funded','TA/RA possible','Merit scholarships'].includes(v))};
 const fTip=f=>[f.detail,f.quote?'“'+f.quote+'”':''].filter(Boolean).join(' ');
 function fundCell(s){const r=[['ms','MS'],['phd','PhD']].map(([w,l])=>{const f=fOf(s,w);return f?`<span class="chip ${FV[f.value][0]}" title="${esc(fTip(f))}">${l}: ${esc(f.value)}</span>`:''}).filter(Boolean);return r.join(' ')}
 const fundVal=s=>{const f=fOf(s,'ms');return f?FV[f.value][1]:null};
@@ -440,7 +443,7 @@ const MSCOLS=[
 function hayMS(s){if(s._hay)return s._hay;const p=s.program||{};s._hay=words([s.school,s.short,s.city,s.state,s.region,p.name,p.thesis,(s.alt_programs||[]).map(a=>a.name).join(' '),(s.professors||[]).map(x=>[x.name,(x.topics||[]).join(' '),(x.research_tags||[]).join(' ')].join(' ')).join(' '),s.research_fit_note,s.notes,s.his_note,s.baseline?'baseline current csula':''].join(' '));return s._hay}
 function renderMS(){
   const toks=qTokens(st['ms.q']);
-  let L=S.filter(s=>any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(st['ms.my']!=='1'||onList(sid(s)))&&(st['ms.pyes']!=='1'||pwOf(s).v==='yes')&&(st['ms.fund']!=='1'||hasMSFund(s))&&(st['ms.ff']!=='1'||isFunded(s,'ms')||isFunded(s,'phd'))&&matchQ(hayMS(s),toks));
+  let L=S.filter(s=>any(st['ms.country'],countryOf(s))&&any(st['ms.region'],s.region)&&any(st['ms.thesis'],(s.program||{}).thesis||'unknown')&&any(st['ms.route'],routeOf(s))&&(st['ms.my']!=='1'||onList(sid(s)))&&(st['ms.pyes']!=='1'||pwOf(s).v==='yes')&&(st['ms.fund']!=='1'||hasMSFund(s))&&(st['ms.ff']!=='1'||isFunded(s,'ms')||isFunded(s,'phd'))&&matchQ(hayMS(s),toks));
   const r=sortList(L,MSCOLS,st['ms.sort'],st['ms.dir']);L=r.L;
   const real=L.filter(s=>!s.baseline);
   $('#ms-funded').innerHTML=fundedList();
@@ -588,7 +591,7 @@ function update(){syncCtl();renderMS();renderIN();renderTL();renderOR();writeHas
 const FILES=['schools.json','internships.json','routes.json','methodology.md','internships_method.md'];
 Promise.all(FILES.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`${f}: HTTP ${r.status}`);return f.endsWith('json')?r.json().catch(e=>{throw new Error(`${f}: invalid JSON (${e.message})`)}):r.text()}))).then(([s,i,r,m1,m2])=>{
   S=s;I=i;R=r;for(const x of S)x._nm=x.short||x.school;for(const x of I)x._nm=x.org+' '+x.program_name;
-  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic (e.g. ORAM, memory checking)'],['ck','ms.my','My shortlist'],['ck','ms.ff','Fully funded'],['ck','ms.pyes','PhD pathway: Yes'],['ck','ms.fund','Has MS funding']],[['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','MS thesis',[['yes','yes'],['research track','research track'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['phd','PhD-direct is the route'],['ms','Has an MS to apply to'],['funded','Funded MS track'],['ca','CA public (resident tuition)'],['base','My current program']]],
+  buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic (e.g. ORAM, memory checking)'],['ck','ms.my','My shortlist'],['ck','ms.ff','Fully funded'],['ck','ms.pyes','PhD pathway: Yes'],['ck','ms.fund','Has MS funding']],[['m','ms.country','Country',[['US','US'],['Canada','Canada']]],['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','MS thesis',[['yes','yes'],['research track','research track'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['phd','PhD-direct is the route'],['ms','Has an MS to apply to'],['funded','Funded MS track'],['ca','CA public (resident tuition)'],['base','My current program']]],
     ['sel','ms.sort','',MSCOLS.map(c=>[c.k,'Sort: '+c.sortLabel])],['view','ms.view']]);
   buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, gate…'],['ck','in.my','My shortlist']],[['m','in.track','Track',TRACKS],['m','in.letters','Letters required',[['yes','yes'],['optional','optional'],['no','no'],['unclear','unclear / not stated']]],['m','in.elig','MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],
     ['m','in.cat','Category',uniq(I.map(x=>x.category))],['m','in.loc','Location',['NYC','Chicago','Bay Area','SoCal','Remote','International','Other'].map(v=>[v,v])],['m','in.diff','Difficulty',['Reachable','Moderate','Hard','Very hard'].map(v=>[v,v])],['m','in.prest','Prestige',['Top','Strong','Good'].map(v=>[v,v])],

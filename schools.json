@@ -19913,5 +19913,3076 @@
     "quote": "UC Santa Cruz offers all eligible new and continuing doctoral and MFA* students five-year (*two-year for MFA) funding packages for the academic year"
    }
   }
+ },
+ {
+  "school": "University of Waterloo",
+  "short": "University of Waterloo",
+  "csrankings_name": null,
+  "city": "Waterloo",
+  "state": "ON",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 4,
+  "professors": [
+   {
+    "name": "Mohammad Hajiabadi",
+    "dblp": "https://dblp.org/pid/81/10308",
+    "papers": 12,
+    "papers_core_iacr_joc": 12,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "homepage": "https://cs.uwaterloo.ca/~mdhajiab/",
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "foundations",
+     "signatures/PKE",
+     "lower bounds",
+     "PIR",
+     "MPC"
+    ],
+    "tag_evidence": {
+     "foundations": [
+      {
+       "y": 2025,
+       "t": "Minicrypt PRFs Do Not Admit Black-Box Oblivious Evaluations."
+      },
+      {
+       "y": 2021,
+       "t": "How to Build a Trapdoor Function from an Encryption Scheme."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2025,
+       "t": "A Framework for Witness Encryption from Linearly Verifiable SNARKs and Applications."
+      },
+      {
+       "y": 2021,
+       "t": "Compact Ring Signatures from Learning with Errors."
+      }
+     ],
+     "lower bounds": [
+      {
+       "y": 2024,
+       "t": "Lower-Bounds on Public-Key Operations in PIR."
+      },
+      {
+       "y": 2023,
+       "t": "Lower Bounds on Assumptions Behind Registration-Based Encryption."
+      }
+     ],
+     "PIR": [
+      {
+       "y": 2024,
+       "t": "Lower-Bounds on Public-Key Operations in PIR."
+      },
+      {
+       "y": 2021,
+       "t": "Amortizing Rate-1 OT and Applications to PIR and PSI."
+      }
+     ],
+     "MPC": [
+      {
+       "y": 2026,
+       "t": "Round-Optimal Black-Box MPC in the Plain Model from Minimal Assumptions."
+      },
+      {
+       "y": 2024,
+       "t": "Randomness Recoverable Secret Sharing Schemes."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Associate Professor",
+    "affiliation_source": "https://cs.uwaterloo.ca/about/people/mdhajiab",
+    "department": "David R. Cheriton School of Computer Science"
+   },
+   {
+    "name": "Douglas Stebila",
+    "dblp": "https://dblp.org/pid/67/675",
+    "papers": 6,
+    "papers_core_iacr_joc": 4,
+    "papers_crypto_themed_ccs_uss_sp": 2,
+    "homepage": "https://www.douglas.stebila.ca/",
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "lattices/PQC",
+     "signatures/PKE",
+     "applied/systems"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2025,
+       "t": "FrodoKEM: A CCA-Secure Learning With Errors Key Encapsulation Mechanism."
+      },
+      {
+       "y": 2025,
+       "t": "Verifiable Decapsulation: Recognizing Faulty Implementations of Post-quantum KEMs."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2025,
+       "t": "Hybrid Obfuscated Key Exchange and KEMs."
+      },
+      {
+       "y": 2022,
+       "t": "Proof-of-Possession for KEM Certificates using Verifiable Generation."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2024,
+       "t": "TurboTLS: TLS Connection Establishment with 1 Less Round Trip."
+      },
+      {
+       "y": 2022,
+       "t": "A Tale of Two Models: Formal Verification of KEMTLS via Tamarin."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Associate Professor, Combinatorics and Optimization",
+    "affiliation_source": "https://uwaterloo.ca/computer-science/about/people/dstebila",
+    "department": "Combinatorics and Optimization (cross-appointed to CS)"
+   },
+   {
+    "name": "Ian Goldberg",
+    "dblp": "https://dblp.org/pid/04/6434",
+    "papers": 4,
+    "papers_core_iacr_joc": 1,
+    "papers_crypto_themed_ccs_uss_sp": 3,
+    "homepage": "https://cs.uwaterloo.ca/~iang/",
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "applied/systems",
+     "oblivious algorithms",
+     "ORAM",
+     "MPC",
+     "signatures/PKE",
+     "PIR"
+    ],
+    "tag_evidence": {
+     "applied/systems": [
+      {
+       "y": 2024,
+       "t": "SoK: Metadata-Protecting Communication Systems."
+      },
+      {
+       "y": 2021,
+       "t": "Weaving a Faster Tor: A Multi-Threaded Relay Architecture for Improved Throughput."
+      }
+     ],
+     "oblivious algorithms": [
+      {
+       "y": 2023,
+       "t": "Waks-On/Waks-Off: Fast Oblivious Offline/Online Shuffling and Sorting with Waksman Networks."
+      },
+      {
+       "y": 2022,
+       "t": "Fast Fully Oblivious Compaction and Shuffling."
+      }
+     ],
+     "ORAM": [
+      {
+       "y": 2023,
+       "t": "Duoram: A Bandwidth-Efficient Distributed ORAM for 2- and 3-Party Computation."
+      }
+     ],
+     "MPC": [
+      {
+       "y": 2024,
+       "t": "PRAC: Round-Efficient 3-Party MPC for Dynamic Data Structures."
+      },
+      {
+       "y": 2023,
+       "t": "Duoram: A Bandwidth-Efficient Distributed ORAM for 2- and 3-Party Computation."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2025,
+       "t": "Arctic: Lightweight and Stateless Threshold Schnorr Signatures."
+      },
+      {
+       "y": 2021,
+       "t": "FROST: Flexible Round-Optimized Schnorr Threshold Signatures."
+      }
+     ],
+     "PIR": [
+      {
+       "y": 2021,
+       "t": "Do You Feel a Chill?: Using PIR against Chilling Effects for Censorship-resistant Publishing."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Professor, and Canada Research Chair in Privacy Enhancing Technologies",
+    "affiliation_source": "https://cs.uwaterloo.ca/about/people/iang",
+    "department": "David R. Cheriton School of Computer Science"
+   },
+   {
+    "name": "Florian Kerschbaum",
+    "dblp": "https://dblp.org/pid/26/5304",
+    "papers": 10,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 10,
+    "homepage": "https://cs.uwaterloo.ca/~fkerschb/",
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "privacy/DP",
+     "MPC",
+     "PIR",
+     "applied/systems",
+     "FHE",
+     "ORAM"
+    ],
+    "tag_evidence": {
+     "privacy/DP": [
+      {
+       "y": 2025,
+       "t": "FastLloyd: Federated, Accurate, Secure, and Tunable k-Means Clustering with Differential Privacy."
+      },
+      {
+       "y": 2021,
+       "t": "Secure Multi-party Computation of Differentially Private Heavy Hitters."
+      }
+     ],
+     "MPC": [
+      {
+       "y": 2024,
+       "t": "PEPSI: Practically Efficient Private Set Intersection in the Unbalanced Setting."
+      },
+      {
+       "y": 2023,
+       "t": "Trifecta: Faster High-Throughput Three-Party Computation over WAN Using Multi-Fan-In Logic Gates."
+      }
+     ],
+     "PIR": [
+      {
+       "y": 2026,
+       "t": "ZipPIR: High-throughput Single-server PIR without Client-side Storage."
+      },
+      {
+       "y": 2022,
+       "t": "Constant-weight PIR: Single-round Keyword PIR via Constant-weight Equality Operators."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2025,
+       "t": "OasisDB: An Oblivious and Scalable System for Relational Data."
+      },
+      {
+       "y": 2023,
+       "t": "Waffle: An Online Oblivious Datastore for Protecting Data Access Patterns."
+      }
+     ],
+     "FHE": [
+      {
+       "y": 2023,
+       "t": "Level Up: Private Non-Interactive Decision Tree Evaluation using Levelled Homomorphic Encryption."
+      },
+      {
+       "y": 2023,
+       "t": "HE is all you need: Compressing FHE Ciphertexts using Additive HE."
+      }
+     ],
+     "ORAM": [
+      {
+       "y": 2026,
+       "t": "Cloak: Heuristic ORAM Optimization Through Fixed Temporal Distribution."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Professor, and NSERC/RBC Industrial Research Chair in Data Security",
+    "affiliation_source": "https://cs.uwaterloo.ca/about/people/fkerschb",
+    "department": "David R. Cheriton School of Computer Science"
+   }
+  ],
+  "program": {
+   "name": "Computer Science - Master of Mathematics (MMath), thesis option (David R. Cheriton School of Computer Science)",
+   "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath",
+   "length": "24 months (full-time)",
+   "years": 2,
+   "years_note": "Program page: 'Length of program : 24 months (full-time)'. Waterloo runs 3 terms/year (Fall, Winter, Spring), so 24 months = 6 terms.",
+   "thesis": "yes",
+   "thesis_quote": "Study option(s) : Thesis*, Master's Research Paper *Please note: Admission is only available to the thesis option.",
+   "thesis_source": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath",
+   "tuition_basis": "Fall 2026 (2026-27 schedule) international 'Most Graduate Master's Research' full-time tuition $7,696.00 per term x 6 terms (24 months; Waterloo charges every term incl. spring) = $46,176. Excludes incidental fees ($1,014.11/term incl. HST) and UHIP. Later-year rates may change. Incidental fees CA$3,042.33/yr are counted in the realistic cost.",
+   "tuition_url": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+   "fees_cad_per_year": 3042.33,
+   "fees_url": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "deadline_note": "Verbatim: 'December 1 (for admission in September of the following year)'. Year not printed; for Sept 2027 entry = Dec 1, 2026. Documents due on the deadline; 'Letters of reference are due within 14 calendar days of the application deadline.'",
+   "deadline_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath",
+   "gre": "Not required: 'No, the GRE is not required for any student applying to a Computer Science graduate program.' (https://cs.uwaterloo.ca/future-graduate-students/applying-admissions)",
+   "total_tuition_cad": 46176,
+   "total_tuition_usd": 32719,
+   "deadline_fall2027": "2026-12-01",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 25452,
+   "health_cad": 948,
+   "url": "https://uwaterloo.ca/future-graduate-students/funding/living-costs-and-housing",
+   "quote": "Total $2,121 - $3,071 $8,484 - $12,584 $25,452 - $36,852",
+   "basis": "Official grad 'Estimated living costs' table for a single person in Waterloo (columns monthly / one term / one year = 3 terms). Took lower bound $25,452 (shared housing); upper bound $36,852. Includes housing+utilities, groceries, phone, entertainment, personal care, clothing, laundry, transportation beyond UPass, books ($2,964). Page says 'updated annually' but prints no year label, so 2026-27 is assumed. Health = UHIP: 'UHIP is an annual plan from September 1 st to August 31 st and costs $948 per year' (https://uwaterloo.ca/finance/graduate-incidental-fees-winter-2027-0).",
+   "living_usd": 18034,
+   "health_usd": 672,
+   "fees_cad": 3042.33,
+   "fees_usd": 2156
+  },
+  "alt_programs": [
+   {
+    "name": "Combinatorics and Optimization - Master of Mathematics (MMath)",
+    "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-master-math-mmath",
+    "note": "Cryptography is one of C&O's six research fields (Jao, Menezes, Mosca, Stebila, Jaques). 24 months full-time; Thesis or Master's Research Paper. Deadline 'January 15 (for admission in September)' -> 2027-01-15 for Fall 2027. 'Three references are required, normally from academic sources.' GRE: 'Applicants educated outside of Canada, including those from the United States, are recommended to submit scores from the Graduate Record Examinations (GRE) subject test in mathematics. Neither the GRE general test nor the GRE subject test is required.'"
+   },
+   {
+    "name": "Combinatorics and Optimization - Doctor of Philosophy (PhD)",
+    "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-doctor-philosophy-phd",
+    "note": "48 months full-time; deadline 'January 15 (for admission in September)' -> 2027-01-15."
+   },
+   {
+    "name": "Computer Science MMath - Master's Research Paper option",
+    "url": "https://cs.uwaterloo.ca/current-graduate-students/overview-degree-programs/master-mathematics-computer-science",
+    "note": "7 one-term courses + research paper; not open for admission ('Admission is only available to the thesis option'); Research Paper students are not guaranteed funding."
+   }
+  ],
+  "research_fit_note": "MMath thesis option = 4 one-term CS graduate courses plus a thesis 'equivalent to four one-term courses in effort'. Theory crypto in CS sits in the CrySP group (Hajiabadi, Goldberg, Kerschbaum); lattice/isogeny/provable-security crypto is in C&O (Jao, Menezes, Stebila), which has its own MMath/PhD with a later (Jan 15) deadline.",
+  "notes": "C&O deadlines differ from CS: MMath and PhD January 15 for September (vs CS Dec 1). Incidental fees $1,014.11/term are separate from tuition; UHIP ($948/yr, $316/term) charged separately. Faculty titles are from the CS cross-appointment profile pages; the C&O research-areas page lists Jao, Menezes, Mosca, Stebila, Jaques under Cryptography; C&O contact page lists Jao as Department Chair. Also cross-appointed in C&O and below the threshold: David Jao (isogenies; 1 ASIACRYPT paper) and Alfred Menezes.",
+  "sources": [
+   "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath",
+   "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-doctor-philosophy-phd",
+   "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-master-math-mmath",
+   "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-doctor-philosophy-phd",
+   "https://cs.uwaterloo.ca/future-graduate-students/applying-admissions",
+   "https://uwaterloo.ca/finance/tuition-fee-schedules-international-students-0",
+   "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-international-0",
+   "https://cs.uwaterloo.ca/current-graduate-students/funding-and-awards",
+   "https://cs.uwaterloo.ca/future-graduate-students/funding-graduate-studies",
+   "https://uwaterloo.ca/future-graduate-students/funding/living-costs-and-housing",
+   "https://uwaterloo.ca/finance/graduate-incidental-fees-winter-2027-0",
+   "https://uwaterloo.ca/future-graduate-students/admissions/how-to-apply",
+   "https://cs.uwaterloo.ca/current-graduate-students/overview-degree-programs/master-mathematics-computer-science",
+   "https://cs.uwaterloo.ca/about/people/mdhajiab",
+   "https://cs.uwaterloo.ca/about/people/iang",
+   "https://cs.uwaterloo.ca/about/people/fkerschb",
+   "https://uwaterloo.ca/computer-science/about/people/dstebila",
+   "https://uwaterloo.ca/computer-science/about/people/djao",
+   "https://uwaterloo.ca/computer-science/about/people/ajmeneze",
+   "https://uwaterloo.ca/combinatorics-and-optimization/research-combinatorics-and-optimization/research-areas",
+   "https://uwaterloo.ca/combinatorics-and-optimization/contact-us",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 4,
+  "fit_profs": [
+   "Mohammad Hajiabadi",
+   "Douglas Stebila",
+   "Ian Goldberg",
+   "Florian Kerschbaum"
+  ],
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-doctor-philosophy-phd",
+   "quote": "Length of program : 48 months (full-time) ... Application deadlines December 1 (for admission in September of the following year)",
+   "note": "CS PhD: 48 months full-time, same Dec 1 deadline as the MMath (year not printed). C&O PhD (where Jao/Menezes/Stebila sit) differs: 'January 15 (for admission in September)' -> 2027-01-15, https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-doctor-philosophy-phd"
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Mohammad Hajiabadi",
+     "on_official_page": true,
+     "title": "Associate Professor",
+     "department": "David R. Cheriton School of Computer Science",
+     "url": "https://cs.uwaterloo.ca/about/people/mdhajiab"
+    },
+    {
+     "name": "Ian Goldberg",
+     "on_official_page": true,
+     "title": "Professor, and Canada Research Chair in Privacy Enhancing Technologies",
+     "department": "David R. Cheriton School of Computer Science",
+     "url": "https://cs.uwaterloo.ca/about/people/iang"
+    },
+    {
+     "name": "Florian Kerschbaum",
+     "on_official_page": true,
+     "title": "Professor, and NSERC/RBC Industrial Research Chair in Data Security",
+     "department": "David R. Cheriton School of Computer Science",
+     "url": "https://cs.uwaterloo.ca/about/people/fkerschb"
+    },
+    {
+     "name": "Douglas Stebila",
+     "on_official_page": true,
+     "title": "Associate Professor, Combinatorics and Optimization",
+     "department": "Combinatorics and Optimization (cross-appointed to CS)",
+     "url": "https://uwaterloo.ca/computer-science/about/people/dstebila"
+    },
+    {
+     "name": "David Jao",
+     "on_official_page": true,
+     "title": "Professor, Combinatorics and Optimization; C&O Department Chair",
+     "department": "Combinatorics and Optimization (cross-appointed to CS)",
+     "url": "https://uwaterloo.ca/computer-science/about/people/djao"
+    },
+    {
+     "name": "Alfred Menezes",
+     "on_official_page": true,
+     "title": "Professor, Combinatorics and Optimization",
+     "department": "Combinatorics and Optimization (cross-appointed to CS)",
+     "url": "https://uwaterloo.ca/computer-science/about/people/ajmeneze"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 150,
+    "fee_url": "https://uwaterloo.ca/future-graduate-students/admissions/how-to-apply",
+    "fee_quote": "pay the non-refundable application fee of $150 CAD per program via the link in your portal.",
+    "fee_note": "One university-wide graduate fee; page does not distinguish domestic vs international.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://cs.uwaterloo.ca/future-graduate-students/applying-admissions",
+    "letters_quote": "Three letters of reference are required for both master's and doctoral applications to the School of Computer Science.",
+    "letters_note": "At least two from academic sources; due within 14 calendar days after the deadline.",
+    "fee_usd": 106
+   },
+   "ms": {
+    "fee_cad": 150,
+    "fee_url": "https://uwaterloo.ca/future-graduate-students/admissions/how-to-apply",
+    "fee_quote": "pay the non-refundable application fee of $150 CAD per program via the link in your portal.",
+    "fee_note": "One university-wide graduate fee; page does not distinguish domestic vs international.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath",
+    "letters_quote": "References Three references are required; at least two academic.",
+    "letters_note": "Due within 14 calendar days after the deadline.",
+    "fee_usd": 106
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_phd": "not required",
+   "policy_url": "https://cs.uwaterloo.ca/future-graduate-students/applying-admissions",
+   "policy_quote": "No, the GRE is not required for any student applying to a Computer Science graduate program.",
+   "policy_phd_url": "https://cs.uwaterloo.ca/future-graduate-students/applying-admissions",
+   "policy_phd_quote": "No, the GRE is not required for any student applying to a Computer Science graduate program.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "No official GRE averages (GRE not used by CS). C&O recommends, but does not require, the GRE Math subject test for applicants educated outside Canada including the US."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official CS MMath admit rate found on uwaterloo.ca (admissions pages; Institutional Analysis & Planning CUDO/KPI pages give enrolment/degrees, not offers). Unofficial not pursued."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official CS PhD offer/admit data found on uwaterloo.ca (searched admissions pages and Institutional Analysis & Planning; it publishes degrees granted, not offers). Unofficial not pursued."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "MMath-to-PhD transfer before completing the master's thesis",
+   "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-doctor-philosophy-phd",
+   "quote": "Like all MMath students, they will have the option to transfer into the PhD program before completing the master's thesis if their performance warrants.",
+   "note": "Conditional on performance; internal procedure not detailed on this page."
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "Students admitted Fall 2026 onward: MMath (year one) $34,908 domestic / $51,990 international; international rate includes the International Masters Award of Excellence; second-year MMath rates slightly lower. 'All full-time MMath and PhD students in the School of Computer Science receive funding packages.' Not for Research Paper students or part-time.",
+    "url": "https://cs.uwaterloo.ca/current-graduate-students/funding-and-awards",
+    "quote": "Plan Amount - Students admitted as of Fall 2026 & onwards MMath (year one) $34,908 Domestic students $51,990 International students"
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "PhD $34,908 domestic / $51,090 international per year (admitted Fall 2026+); international rate includes the International Doctoral Student Award.",
+    "url": "https://cs.uwaterloo.ca/current-graduate-students/funding-and-awards",
+    "quote": "PhD $34,908 Domestic students $51,090 International students"
+   }
+  },
+  "phd_direct": {
+   "note": "'Student with an undergraduate degree in computer science may apply for admission directly to the PhD program.' The page also says 'PhD applicants may be admitted into the Master of Mathematics (MMath) program.'",
+   "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-doctor-philosophy-phd"
+  }
+ },
+ {
+  "school": "University of Calgary",
+  "short": "University of Calgary",
+  "csrankings_name": null,
+  "city": "Calgary",
+  "state": "AB",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 1,
+  "professors": [
+   {
+    "name": "Ryan Henry",
+    "dblp": "https://dblp.org/pid/86/8283",
+    "papers": 3,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 3,
+    "homepage": null,
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "PIR",
+     "MPC",
+     "ORAM",
+     "applied/systems"
+    ],
+    "tag_evidence": {
+     "PIR": [
+      {
+       "y": 2024,
+       "t": "More is Merrier: Relax the Non-Collusion Assumption in Multi-Server PIR."
+      },
+      {
+       "y": 2021,
+       "t": "You May Also Like... Privacy: Recommendation Systems Meet PIR."
+      }
+     ],
+     "MPC": [
+      {
+       "y": 2023,
+       "t": "Grotto: Screaming fast (2+1)-PC or Z2n via (2, 2)-DPFs."
+      },
+      {
+       "y": 2025,
+       "t": "Wave Hello to Privacy: Efficient Mixed-Mode MPC using Wavelet Transforms."
+      }
+     ],
+     "ORAM": [
+      {
+       "y": 2023,
+       "t": "Duoram: A Bandwidth-Efficient Distributed ORAM for 2- and 3-Party Computation."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2022,
+       "t": "Sabre: Sender-Anonymous Messaging with Fast Audits."
+      },
+      {
+       "y": 2026,
+       "t": "Sensing Censorship and Censuring Censors with Censorship-Evident Publishing Systems."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Associate Professor",
+    "affiliation_source": "https://profiles.ucalgary.ca/ryan-henry",
+    "department": "Computer Science"
+   }
+  ],
+  "program": {
+   "name": "Computer Science - Master of Science (MSc), Thesis-based",
+   "url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-msc-thesis",
+   "length": "Time commitment Two years full-time",
+   "years": 2,
+   "years_note": "From the Faculty of Graduate Studies program page.",
+   "thesis": "yes",
+   "thesis_quote": "Thesis-based program Students are required to prepare a thesis and successfully defend in an open oral defense.",
+   "thesis_source": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-msc-thesis",
+   "tuition_basis": "Academic Calendar P.2.1 (rates effective Spring Term 2026): thesis students admitted Spring 2020 or later, international $2,858.55 per term; 'All tuition fees are charged over three terms: Fall, Winter and Summer.' 3 terms x 2 years x $2,858.55 = $17,151.30. Excludes general fees. Not net of any tuition award. Incidental fees CA$1,595.33/yr are counted in the realistic cost.",
+   "tuition_url": "https://calendar.ucalgary.ca/pages/bdf3d650a14247e4912def1671b7ba09",
+   "fees_cad_per_year": 1595.33,
+   "fees_url": "https://calendar.ucalgary.ca/pages/cdecfd021adb4815bf0fd932317e1dfd",
+   "deadline_iso": "2027-03-01",
+   "priority_iso": "2027-01-15",
+   "deadline_note": "Verbatim: 'FALL (For admission on September 1) INTERNATIONAL : Early Applications (complete application review) - January 15 Final Application Deadline – March 1 (Final Documentation Submission Deadline – March 15 )'. Year not printed; mapped to Jan 15 / Mar 1, 2027 for Fall 2027. Canadian final deadline is May 1.",
+   "deadline_url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-msc-thesis",
+   "gre": "Labelled optional but expected from non-Canadian applicants: 'Optional: Special consideration will be given to those with GRE scores of at least 600 verbal, 750 quantitative, and 720 analytical (5.5 in the new format). Applicants from outside Canada are expected to apply with GRE scores.'",
+   "total_tuition_cad": 17151.3,
+   "total_tuition_usd": 12153,
+   "deadline_fall2027": "2027-01-15",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 23448,
+   "health_cad": 716.56,
+   "url": "https://www.ucalgary.ca/student-services/iss/immigration/study-permits/applying-your-study-permit",
+   "quote": "you can cover the cost of your first year's tuition, travel costs and an additional $23,448 CAD in cost of living for a single applicant. (or $1,954/month) available to you for a 12-month period.",
+   "basis": "No itemized UCalgary graduate budget found; used the cost-of-living figure UCalgary International Student Services gives for study-permit proof of funds (single applicant, 12 months), which mirrors the IRCC minimum, so a floor rather than a budget. Health: basic Alberta Health Care (AHCIP) for international students with a long enough stay (no premium stated on the pages read); health_cad = compulsory GSA Health Insurance $381.60 + GSA Dental $334.96 per 12 months from Calendar P.2.5 (https://calendar.ucalgary.ca/pages/cdecfd021adb4815bf0fd932317e1dfd), excluded from fees_cad_per_year to avoid double counting.",
+   "living_usd": 16614,
+   "health_usd": 508,
+   "fees_cad": 1595.33,
+   "fees_usd": 1130
+  },
+  "alt_programs": [
+   {
+    "name": "Computer Science - PhD",
+    "url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-phd",
+    "note": "Four years full-time; requires a thesis-based MSc or equivalent; same Jan 15 early / Mar 1 final international deadlines."
+   },
+   {
+    "name": "Mathematics and Statistics (Scheidler's home dept; number theory / crypto)",
+    "url": "https://grad.ucalgary.ca/future-students/explore-programs/math-and-statistics-phd",
+    "note": "Math PhD page surfaced in search; its deadlines and requirements were not checked."
+   }
+  ],
+  "research_fit_note": "MSc thesis: 'One core course and four electives' plus a thesis with an open oral defense and a departmental seminar; 'admission is contingent upon securing a supervisor.' Crypto group: Henry (applied crypto/privacy, PIR-adjacent), Safavi-Naini, Jacobson and Scheidler (number-theoretic crypto).",
+  "notes": "Thesis-based tuition is low (rate unchanged for 2026-27 per calendar) and charged in 3 terms/yr. Supervisor must be secured for admission. phd_direct null: the PhD page requires a thesis MSc, and the transfer page says applicants without an MSc are 'normally admitted first to the MSc program'. Below the dblp threshold (2 core-venue or 3 crypto-themed security-venue papers, 2021-25): Reihaneh Safavi-Naini (1 PKC paper; post-quantum and information-theoretic crypto), Renate Scheidler (Math; 1 PKC paper on isogenies), Michael J. Jacobson Jr. (computational number theory).",
+  "sources": [
+   "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-msc-thesis",
+   "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-phd",
+   "https://science.ucalgary.ca/computer-science/future-students/graduate/admission-requirements",
+   "https://science.ucalgary.ca/computer-science/future-students/graduate/transfer",
+   "https://grad.ucalgary.ca/awards-and-funding/funding-TB-students",
+   "https://calendar.ucalgary.ca/pages/bdf3d650a14247e4912def1671b7ba09",
+   "https://calendar.ucalgary.ca/pages/cdecfd021adb4815bf0fd932317e1dfd",
+   "https://www.ucalgary.ca/student-services/iss/immigration/study-permits/applying-your-study-permit",
+   "https://science.ucalgary.ca/computer-science/contacts/faculty-members",
+   "https://science.ucalgary.ca/mathematics-statistics/contacts/faculty-members",
+   "https://profiles.ucalgary.ca/ryan-henry",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 1,
+  "fit_profs": [
+   "Ryan Henry"
+  ],
+  "phd": {
+   "deadline_iso": "2027-03-01",
+   "priority_iso": "2027-01-15",
+   "url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-phd",
+   "quote": "For admission on September 1 INTERNATIONAL : Early Applications (complete application review) - January 15 Final Application Deadline – March 1 (Final Documentation Submission Deadline – March 15 )",
+   "note": "CS PhD: 'Time commitment Four years full-time'; 'Courses Nine courses'; candidacy exam. 'Minimum education A thesis-based MSc., or equivalent from a recognized institution.' Year not printed."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Ryan Henry",
+     "on_official_page": true,
+     "title": "Associate Professor",
+     "department": "Computer Science",
+     "url": "https://profiles.ucalgary.ca/ryan-henry"
+    },
+    {
+     "name": "Reihaneh Safavi-Naini",
+     "on_official_page": true,
+     "title": "Professor",
+     "department": "Computer Science (listed as 'Safavi-Naini, Rei')",
+     "url": "https://science.ucalgary.ca/computer-science/contacts/faculty-members"
+    },
+    {
+     "name": "Renate Scheidler",
+     "on_official_page": true,
+     "title": "Professor",
+     "department": "Mathematics and Statistics; also listed on the Computer Science faculty list",
+     "url": "https://science.ucalgary.ca/mathematics-statistics/contacts/faculty-members"
+    },
+    {
+     "name": "Michael J. Jacobson Jr.",
+     "on_official_page": true,
+     "title": "Professor; Co-Department Head",
+     "department": "Computer Science (listed as 'Jacobson, Michael John')",
+     "url": "https://science.ucalgary.ca/computer-science/contacts/faculty-members"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 145,
+    "fee_url": "https://science.ucalgary.ca/computer-science/future-students/graduate/admission-requirements",
+    "fee_quote": "The non-refundable application fee is CDN $125.00 for Canadian citizens and permanent residents, and CDN $145.00 for international students who will be attending on a Study Permit.",
+    "fee_note": "Domestic $125; international (study permit) $145.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-phd",
+    "letters_quote": "Reference letters Two reference letters from within the 12-month period prior to application.",
+    "letters_note": "",
+    "fee_usd": 103
+   },
+   "ms": {
+    "fee_cad": 145,
+    "fee_url": "https://science.ucalgary.ca/computer-science/future-students/graduate/admission-requirements",
+    "fee_quote": "The non-refundable application fee is CDN $125.00 for Canadian citizens and permanent residents, and CDN $145.00 for international students who will be attending on a Study Permit.",
+    "fee_note": "Domestic $125; international (study permit) $145.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-msc-thesis",
+    "letters_quote": "Reference letters Two letters of reference dated within twelve months of the application.",
+    "letters_note": "",
+    "fee_usd": 103
+   }
+  },
+  "gre_info": {
+   "policy_ms": "optional",
+   "policy_phd": "optional",
+   "policy_url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-msc-thesis",
+   "policy_quote": "Optional: Special consideration will be given to those with GRE scores of at least 600 verbal, 750 quantitative, and 720 analytical (5.5 in the new format). Applicants from outside Canada are expected to apply with GRE scores.",
+   "policy_phd_url": "https://grad.ucalgary.ca/future-students/explore-programs/computer-science-phd",
+   "policy_phd_quote": "Optional: Special consideration will be given to those with GRE scores of at least 600 verbal, 750 quantitative, and 720 analytical (5.5 in the new format). Applicants from outside Canada are expected to apply with GRE scores.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "Labelled optional, but the same paragraph says applicants from outside Canada (he is US-educated) are expected to submit the GRE. GRE General scores at those levels can also offset a GPA below 3.3. No averages published."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official graduate application/offer statistics found on ucalgary.ca (searched for an institutional-analysis fact book; only one medical program publishes cycle stats). Unofficial not pursued."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "Same as ms_admit: no official CS PhD offer data found."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "MSc-to-PhD transfer (internal transfer application and committee review, no new admission application)",
+   "url": "https://science.ucalgary.ca/computer-science/future-students/graduate/transfer",
+   "quote": "Students without a MSc who apply for entry to the PhD program are normally admitted first to the MSc program. If their progress in the first year is of PhD caliber they can apply to transfer to the PhD program.",
+   "note": "'A GPA of 3.7 or better on graduate courses is expected of students applying for transfer. In addition, the student should have substantial evidence of research success such as a publication accepted to a well-recognized journal or conference.' Bar is high, so this is closer to partial-internal in practice."
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "FGS minimum for thesis students starting on/after Jan 1, 2026: MSc $23,676 domestic / $25,455 international per year, guaranteed for the first two years, contingent on continued full-time registration and satisfactory progress. (A search snippet quoted the CPSC dept as $24,000/yr; not confirmed on a loaded page.)",
+    "url": "https://grad.ucalgary.ca/awards-and-funding/funding-TB-students",
+    "quote": "MA or MSc thesis-based students will receive a minimum funding package of $23,676 for domestic students and $25,455 for international students."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "FGS minimum: PhD $31,426 domestic / $33,205 international per year, guaranteed for the first four years (start on/after Jan 1, 2026).",
+    "url": "https://grad.ucalgary.ca/awards-and-funding/funding-TB-students",
+    "quote": "Full-time PhD students beginning their program on or after January 1, 2026, are guaranteed a minimum funding package of $31,426 for domestic students and $33,205 for international students."
+   }
+  }
+ },
+ {
+  "school": "McGill University",
+  "short": "McGill University",
+  "csrankings_name": null,
+  "city": "Montreal",
+  "state": "QC",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "Computer Science (M.Sc.), Thesis - School of Computer Science",
+   "url": "https://www.mcgill.ca/gradapplicants/program/computer-science-msc",
+   "length": "ALL M.Sc. students have a minimum of 3 semesters and a maximum of 3 years to complete their degree.",
+   "years": null,
+   "years_note": "No normal duration stated; CS timeline page gives minimum 3 semesters, maximum 3 years. Thesis track is 45 credits (29 thesis-research credits). Typical 2 years (4 Fall/Winter terms) is an assumption, not stated.",
+   "thesis": "yes",
+   "thesis_quote": "The M.Sc. thesis program has a total of 45 credits. ... M.Sc. Computer Science (Thesis) (45 credits) Thesis Courses (29 credits)",
+   "thesis_source": "https://www.cs.mcgill.ca/graduate/masters/mscthesis/",
+   "tuition_basis": "2026-27 Graduate Studies tuition rates, (C) International Students, Masters' Full-Time Thesis Residency Term $10,674.30 x 3 terms (CS minimum of 3 semesters) = $32,022.90. Each further term after residency is billed as 'Thesis Additional Session' $943.33 (a 4th Fall/Winter term would make $32,966.23). Excludes compulsory/ancillary fees and IHI. Incidental fees CA$1,829.19/yr are counted in the realistic cost.",
+   "tuition_url": "https://www.mcgill.ca/student-accounts/tuition-fees/tuition-and-fees-tables-and-rates/tuition-rates-information/graduate-studies-tuition-rates-fallwinter-2026-27",
+   "fees_cad_per_year": 1829.19,
+   "fees_url": "https://www.mcgill.ca/student-accounts/masters-thesis-full-time-7",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "deadline_note": "CS dept: 'M.Sc. Thesis program: Admissions are for the Fall semester only. For International students the application deadline is December 15th.' Program page table: FALL opens September 15, international deadline December 15, domestic February 15. Year not printed; mapped to 2026-12-15 for Fall 2027. CS FAQ says applications complete by January 1 are automatically considered for (limited) McGill funding.",
+   "deadline_url": "https://www.cs.mcgill.ca/graduate/future/deadline/",
+   "gre": "Optional: 'Applicants to the M.Sc. programs who obtained their undergraduate degree outside Canada can OPTIONALLY take the GRE general test.'",
+   "total_tuition_cad": 32022.9,
+   "total_tuition_usd": 22690,
+   "deadline_fall2027": "2026-12-15",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 24617,
+   "health_cad": 1212,
+   "url": "https://www.mcgill.ca/macdonald/graduate-studies/funding",
+   "quote": "To study in Québec, international applicants must demonstrate financial capacity to cover several study and living costs including access to a minimum of $24,617 for living expenses for one year of studies.",
+   "basis": "No CS/central McGill itemized budget found. Used the Quebec financial-capacity minimum for one year as stated on a McGill page (Macdonald campus grad funding page); a floor, not a budget. Same page's Montreal monthly table: TOTAL $1,807-$3,171, average $2,405 (one-bedroom rent 2025). McGill Student Aid adds ~'$1000 for books' per 12-month grad year (not added). Health = IHI 2026-27 single full year $1,212 (https://www.mcgill.ca/internationalstudents/health/rates).",
+   "living_usd": 17443,
+   "health_usd": 859,
+   "fees_cad": 1829.19,
+   "fees_usd": 1296
+  },
+  "alt_programs": [
+   {
+    "name": "Computer Science (M.Sc.), Non-Thesis",
+    "url": "https://www.cs.mcgill.ca/graduate/future/deadline/",
+    "note": "Fall only, December 15 deadline for all applicants; course/project-based, charged per credit (international new students $1,094.42/credit in 2026-27)."
+   },
+   {
+    "name": "Computer Science (PhD)",
+    "url": "https://www.mcgill.ca/gradapplicants/program/computer-science-phd",
+    "note": "International deadlines: Fall December 15, Winter August 1. International PhD full-time thesis residency term $9,581.40 (2026-27)."
+   }
+  ],
+  "research_fit_note": "M.Sc. thesis: 45 credits, of which at least 29 are thesis research, plus COMP 602/603 seminar and 4 complementary courses; research areas are chosen among Applications, Theory, Systems. Only Crépeau (now listed as adjunct) and a teaching lecturer list cryptography, so crypto supervision capacity looks thin.",
+  "notes": "Crépeau appears under 'Adjunct Professors', not 'Professors', on the current faculty page, so check he still takes students. 'The School requires a list of at least 3 proposed supervisors that you would like to work with in order to process your application.' (CS applying page). fees_cad_per_year = non-tuition charges from the full-time master's thesis annual fee table (Fall $987.77 + Winter $841.42, excl. tuition and PGSS Canadian health plan), which is the Quebec-rate page; ancillary fees are not residency-dependent there. No McGill faculty met the dblp threshold. Claude Crépeau (quantum cryptography) is listed as an Adjunct Professor.",
+  "sources": [
+   "https://www.mcgill.ca/gradapplicants/program/computer-science-msc",
+   "https://www.mcgill.ca/gradapplicants/program/computer-science-phd",
+   "https://www.cs.mcgill.ca/graduate/future/deadline/",
+   "https://www.cs.mcgill.ca/academic/graduate/applying/",
+   "https://www.cs.mcgill.ca/graduate/future/mscadmission/",
+   "https://www.cs.mcgill.ca/graduate/future/phdadmission/",
+   "https://www.cs.mcgill.ca/graduate/masters/mscthesis/",
+   "https://www.cs.mcgill.ca/graduate/masters/timeline/",
+   "https://www.cs.mcgill.ca/academic/graduate/faq/",
+   "https://www.cs.mcgill.ca/academic/funding/overview/",
+   "https://www.mcgill.ca/student-accounts/tuition-fees/tuition-and-fees-tables-and-rates/tuition-rates-information/graduate-studies-tuition-rates-fallwinter-2026-27",
+   "https://www.mcgill.ca/student-accounts/masters-thesis-full-time-7",
+   "https://www.mcgill.ca/internationalstudents/health/rates",
+   "https://www.mcgill.ca/macdonald/graduate-studies/funding",
+   "https://www.mcgill.ca/studentaid/finances/cost",
+   "https://www.mcgill.ca/gradapplicants/how-apply/application-support",
+   "https://www.cs.mcgill.ca/people/faculty/",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.cs.mcgill.ca/graduate/future/deadline/",
+   "quote": "PhD program: For Fall admission: For International students the application deadline is December 15th. For Canadian students the application deadline is February 15th.",
+   "note": "Winter PhD intake also exists (international August 1). PhD normally requires an M.Sc.; year not printed."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Claude Crépeau",
+     "on_official_page": true,
+     "title": "Adjunct Professor (listed under 'Adjunct Professors' on the School's faculty page; areas: Cryptography, Quantum Computing)",
+     "department": "School of Computer Science",
+     "url": "https://www.cs.mcgill.ca/people/faculty/"
+    },
+    {
+     "name": "Giulia Alberini",
+     "on_official_page": true,
+     "title": "Faculty Lecturer (areas: Computer Science Education, Algorithms, Cryptography)",
+     "department": "School of Computer Science",
+     "url": "https://www.cs.mcgill.ca/people/faculty/"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 143.82,
+    "fee_url": "https://www.mcgill.ca/gradapplicants/how-apply/application-support",
+    "fee_quote": "The non-refundable application fee for Summer 2027 is $143.82 CAD. With one application fee, you can submit up to two applications in the same term to two different programs.",
+    "fee_note": "Same fee for all applicants. Official page states the Summer 2027 fee; Fall 2027 assumed the same. CS dept page still shows an older $132.90.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://www.cs.mcgill.ca/academic/graduate/applying/",
+    "letters_quote": "Two (2) letters of recommendation are required. Reference letters must be uploaded directly by the referee.",
+    "letters_note": "Institutional email required for each referee.",
+    "fee_usd": 102
+   },
+   "ms": {
+    "fee_cad": 143.82,
+    "fee_url": "https://www.mcgill.ca/gradapplicants/how-apply/application-support",
+    "fee_quote": "The non-refundable application fee for Summer 2027 is $143.82 CAD. With one application fee, you can submit up to two applications in the same term to two different programs.",
+    "fee_note": "Same fee for all applicants. Official page states the Summer 2027 fee; Fall 2027 assumed the same. CS dept page still shows an older $132.90.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://www.cs.mcgill.ca/academic/graduate/applying/",
+    "letters_quote": "Two (2) letters of recommendation are required. Reference letters must be uploaded directly by the referee.",
+    "letters_note": "Institutional email required for each referee.",
+    "fee_usd": 102
+   }
+  },
+  "gre_info": {
+   "policy_ms": "optional",
+   "policy_phd": "optional",
+   "policy_url": "https://www.cs.mcgill.ca/graduate/future/mscadmission/",
+   "policy_quote": "Applicants to the M.Sc. programs who obtained their undergraduate degree outside Canada can OPTIONALLY take the GRE general test.",
+   "policy_phd_url": "https://www.cs.mcgill.ca/graduate/future/phdadmission/",
+   "policy_phd_quote": "Applicants to the Ph.D. program are not required to take the Graduate Record Examinations . However, we strongly suggest that applicants who obtained their degrees outside Canada take the GRE general test",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "PhD: not required but 'strongly suggested' for degrees from outside Canada (he has a US degree). No averages published."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official application/offer statistics found on mcgill.ca for CS. Unofficial not pursued."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "Same as ms_admit."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "M.Sc.-to-Ph.D. fast-track at end of first year (Ph.D. committee decision)",
+   "url": "https://www.cs.mcgill.ca/graduate/future/phdadmission/",
+   "quote": "Students who are in the M.Sc. program have the option to be fast-tracked into the Ph.D. program at the end of their first academic year, contingent on excellent performance as judged by the Ph.D. committee.",
+   "note": "mscthesis page: 'students may apply to be fast-tracked to the Ph.D. program without completing the M.Sc. first. Such applicants must have completed a minimum of two and a maximum of four full-time semesters'."
+  },
+  "funding": {
+   "ms": {
+    "value": "TA/RA possible",
+    "also": [
+     "Merit scholarships"
+    ],
+    "detail": "No guarantee. 'All our Ph.D. students and most of our Masters students are funded'; average approx $15,000/yr among funded Masters students. FAQ: 'in some years, there is also a small amount of funding available for strong MSc applicants.' International coverage not stated separately.",
+    "url": "https://www.cs.mcgill.ca/academic/funding/overview/",
+    "quote": "the average student funding at the Ph.D. level is approximately 25,000$ per year, and approximately 15,000$ among funded Masters students."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "'All our Ph.D. students ... are funded' (scholarships, RA, TA); average approx $25,000/yr; amount varies by needs and merit and is stated in the admission letter. No published minimum.",
+    "url": "https://www.cs.mcgill.ca/academic/funding/overview/",
+    "quote": "All our Ph.D. students and most of our Masters students are funded either through federal or provincial scholarships, McGill scholarships, research assistantships, or teaching assistantships."
+   }
+  },
+  "shared_faculty_note": "No McGill faculty met the dblp threshold. Claude Crépeau (quantum cryptography) is listed as an Adjunct Professor.",
+  "phd_direct": {
+   "note": "'Students who hold a B.Sc. degree in Computer Science but have an exceptionally strong academic record may be admitted directly to the Ph.D. program, but they must initially apply to the M.Sc. Program.'",
+   "url": "https://www.cs.mcgill.ca/graduate/future/phdadmission/"
+  }
+ },
+ {
+  "school": "The University of British Columbia",
+  "short": "University of British Columbia",
+  "csrankings_name": null,
+  "city": "Vancouver",
+  "state": "BC",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "Master of Science in Computer Science (MSc), thesis options (12-credit or 6-credit Thesis Master's)",
+   "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "length": "The two-year period of the master's first helps students decide whether a research career is the right career choice for them.",
+   "years": 2,
+   "years_note": "Duration taken from the program overview's 'two-year period of the master's'; funding guarantee is also 'Thesis Masters: 2 years'. Observed average completion 2.3 years (142 graduations 2021-2024).",
+   "thesis": "yes",
+   "thesis_quote": "The first of these is the 12 credit Thesis Master's, where the major focus is on the student's own research. The second is the Comprehensive Course Master's, that includes a 3-credit major project (essay). The third option is the 6-credit Thesis Master's",
+   "thesis_source": "https://www.cs.ubc.ca/students/grad/prospective-grads/grad-programs/full-time-masters-programs",
+   "tuition_basis": "International tuition per year $10,081.65 (3 installments of $3,360.55), first-year rate shown for the program, x 2 years = $20,163.30. Excludes annual increases ('usually 2%-5%'), student fees ($1,203.20/yr), and is before the International Tuition Award ($3,200/yr for eligible) and the first-year Faculty of Science Master's Tuition Award ($5,515.71). Incidental fees CA$1,203.2/yr are counted in the realistic cost.",
+   "tuition_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "fees_cad_per_year": 1203.2,
+   "fees_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "deadline_note": "Verbatim: 'September 2027 Intake Application Open Date 15 September 2026 ... International Applicants Application Deadline 15 December 2026 Transcript Deadline 16 December 2026 Referee Deadline 15 January 2027'. Year printed.",
+   "deadline_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "gre": "Not required: 'The requirements for this program are: The GRE is not required.'",
+   "total_tuition_cad": 20163.3,
+   "total_tuition_usd": 14287,
+   "deadline_fall2027": "2026-12-15",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 15500,
+   "health_cad": 864,
+   "url": "https://engineering.ubc.ca/admissions/graduate/tuition-fees-cost-living",
+   "quote": "Estimated minimum annual living costs for a single person Room & Board $12,000 ... Books & Supplies $800 ... BC Health Plan $864 Mandatory basic health coverage Personal & Household Expenses $2,100 ... Entertainment $600",
+   "basis": "Graduate School's own cost-of-living page is an interactive JS calculator with no static figures, so used UBC Faculty of Applied Science (Engineering) graduate page: room & board 12,000 + books 800 + personal/household 2,100 + entertainment 600 = $15,500 (a stated minimum; no year printed, so the 2026-27 label is an assumption; looks low for Vancouver). Health = BC Health Plan (MSP) $864 from same page. AMS/GSS Extended Health Plan $396.41/yr (Sept 2025-Aug 2026) is separate (https://www.grad.ubc.ca/prospective-students/tuition-fees-cost-living/graduate-student-fees).",
+   "living_usd": 10983,
+   "health_usd": 612,
+   "fees_cad": 1203.2,
+   "fees_usd": 853
+  },
+  "alt_programs": [
+   {
+    "name": "MSc Computer Science - Comprehensive Course Master's (essay)",
+    "url": "https://www.cs.ubc.ca/students/grad/prospective-grads/grad-programs/full-time-masters-programs",
+    "note": "Includes a 3-credit major project (essay); guaranteed support '20 months, $ 22,264/year'."
+   },
+   {
+    "name": "MSc Computer Science - PhD-Track",
+    "url": "https://cs.ubc.ca/students/grad/prospective/programs/phd-track-msc",
+    "note": "Admitted by a specific supervisor; RPE in first year, then move to PhD without completing the MSc or reapplying."
+   },
+   {
+    "name": "Doctor of Philosophy in Computer Science (PhD)",
+    "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+    "note": "Deadline 15 December 2026 for Sept 2027; funded $46,236/yr international for 4 years."
+   }
+  ],
+  "research_fit_note": "Thesis options: 12-credit Thesis Master's (research-focused) or 6-credit Thesis Master's; incoming students get an advisor and 'have two semesters to meet faculty members' before choosing a thesis supervisor. No UBC CS faculty profile lists cryptography as a research area, so theory-crypto supervision looks very thin.",
+  "notes": "faculty_checks: scanned all 150 /people/ profiles linked from https://www.cs.ubc.ca/people/faculty for 'cryptograph'. None lists cryptography or applied cryptography as a research area. Only hit: Daochen Wang (research area Algorithms, interest quantum computing) teaches CPSC 536D 'Intro to Cryptography'. The Security & Privacy area (Mehta, Pasquier, Lecuyer, Beschastnikh, Hoang, Lemieux, Ng, Park, Xiao) is systems/privacy, none mentions cryptography. No UBC CS faculty met the dblp threshold, and no UBC CS profile lists cryptography as a research area (Daochen Wang, quantum computing, teaches Intro to Cryptography).",
+  "sources": [
+   "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+   "https://www.cs.ubc.ca/students/grad/prospective-grads/grad-programs/full-time-masters-programs",
+   "https://cs.ubc.ca/students/grad/prospective/programs/phd-track-msc",
+   "https://www.grad.ubc.ca/prospective-students/tuition-fees-cost-living/graduate-student-fees",
+   "https://www.grad.ubc.ca/prospective-students/tuition-fees-cost-living/cost-living",
+   "https://engineering.ubc.ca/admissions/graduate/tuition-fees-cost-living",
+   "https://www.cs.ubc.ca/people/faculty",
+   "https://www.cs.ubc.ca/cs-research/research-area/security-privacy",
+   "https://www.cs.ubc.ca/people/daochen-wang",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+   "quote": "September 2027 Intake Application Open Date 15 September 2026 ... International Applicants Application Deadline 15 December 2026 Transcript Deadline 16 December 2026 Referee Deadline 15 January 2027",
+   "note": "Year printed. PhD tuition shown on the page is the same $10,081.65/yr international. Average completion 5.7 years."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Daochen Wang",
+     "on_official_page": true,
+     "title": "Assistant Professor",
+     "department": "Computer Science (Research Areas: Algorithms; Interests: Quantum information and computation)",
+     "url": "https://www.cs.ubc.ca/people/daochen-wang"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 168.25,
+    "fee_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+    "fee_quote": "Application Fee $120.75 $168.25",
+    "fee_note": "Domestic $120.75; international $168.25 (columns: Canadian Citizen / PR / Refugee / Diplomat vs International).",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+    "letters_quote": "Applicants have to submit 3 references to apply to this graduate program.",
+    "letters_note": "Referee deadline 15 January 2027.",
+    "fee_usd": 119
+   },
+   "ms": {
+    "fee_cad": 168.25,
+    "fee_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+    "fee_quote": "Application Fee $120.75 $168.25",
+    "fee_note": "Domestic $120.75; international $168.25.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+    "letters_quote": "Applicants have to submit 3 references to apply to this graduate program.",
+    "letters_note": "Referee deadline 15 January 2027.",
+    "fee_usd": 119
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_phd": "not required",
+   "policy_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "policy_quote": "The requirements for this program are: The GRE is not required.",
+   "policy_phd_url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+   "policy_phd_quote": "The GRE is not required.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "No GRE averages published."
+  },
+  "ms_admit": {
+   "rate_pct": 7.3,
+   "scope": "program",
+   "year": "2025 (registration year May 2025-Apr 2026)",
+   "applicants": 986,
+   "admits": 72,
+   "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+   "quote": "ENROLMENT DATA 2025 2024 2023 2022 2021 Applications 986 1433 1718 2025 2491 Offers 72 38 53 65 92",
+   "unofficial": null,
+   "note": "72/986 = 7.3%. Covers the whole MSc CS program (all thesis/essay options, incl. PhD-track). Prior years: 2024 38/1433 = 2.7%, 2023 53/1718 = 3.1%, 2022 65/2025 = 3.2%, 2021 92/2491 = 3.7%."
+  },
+  "phd_admit": {
+   "rate_pct": 15.0,
+   "scope": "program",
+   "year": "2025 (registration year May 2025-Apr 2026)",
+   "applicants": 313,
+   "admits": 47,
+   "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+   "quote": "ENROLMENT DATA 2025 2024 2023 2022 2021 Applications 313 318 281 265 375 Offers 47 25 31 40 41",
+   "unofficial": null,
+   "note": "47/313 = 15.0%. Prior years: 2024 25/318 = 7.9%, 2023 31/281 = 11.0%, 2022 40/265 = 15.1%, 2021 41/375 = 10.9%. May include internal MSc-to-PhD moves; page does not say."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "PhD-Track MSc (admitted by a specific supervisor; RPE in year 1, then move to PhD)",
+   "url": "https://cs.ubc.ca/students/grad/prospective/programs/phd-track-msc",
+   "quote": "Our PhD Track is designed to allow graduate students without an MSc degree from a North American university to move into our PhD program after the first year without having to complete a Master's degree or reapply for admission.",
+   "note": "PhD-Track must be chosen at admission and needs a supervisor who admits you. A search snippet said regular-track MSc-to-PhD transfers are 'rare' (Academic Regulations page; not loaded/verified)."
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "Guaranteed support for Thesis Masters: 2 years at $32,171/year (any mix of awards, TA, RA, GAA), contingent on full-time registration and good standing. First-year MSc students also get the Faculty of Science Master's Tuition Award ($5,515.71, first year only). Page does not distinguish domestic/international for the MSc package.",
+    "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+    "quote": "The duration of guaranteed support is as follows: * Thesis Masters: 2 years, $32,171/year * Essay Masters: 20 months, $ 22,264/year"
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "$46,236/yr international (includes all tuition awards incl. ITA) and $41,653/yr domestic for the first four years; $34,654 guaranteed departmental support in year five.",
+    "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+    "quote": "All full-time PhD students will receive a funding package of $46,236 per year (this includes all tuition awards, including the International Tuition Award) for international students and $41,653 per year for domestic students"
+   }
+  },
+  "shared_faculty_note": "No UBC CS faculty met the dblp threshold, and no UBC CS profile lists cryptography as a research area (Daochen Wang, quantum computing, teaches Intro to Cryptography)."
+ },
+ {
+  "school": "University of Toronto",
+  "short": "University of Toronto",
+  "csrankings_name": null,
+  "city": "Toronto",
+  "state": "ON",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 2,
+  "professors": [
+   {
+    "name": "Akshayaram Srinivasan",
+    "dblp": "https://dblp.org/pid/153/9906",
+    "papers": 26,
+    "papers_core_iacr_joc": 26,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "homepage": null,
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "MPC",
+     "ZK",
+     "foundations",
+     "quantum crypto"
+    ],
+    "tag_evidence": {
+     "MPC": [
+      {
+       "y": 2023,
+       "t": "Round-Optimal Black-Box MPC in the Plain Model."
+      },
+      {
+       "y": 2022,
+       "t": "Reusable Two-Round MPC from LPN."
+      }
+     ],
+     "ZK": [
+      {
+       "y": 2025,
+       "t": "Rate-1 Statistical Non-interactive Zero-Knowledge."
+      },
+      {
+       "y": 2022,
+       "t": "SNARGs for P from Sub-exponential DDH and QR."
+      }
+     ],
+     "foundations": [
+      {
+       "y": 2021,
+       "t": "Improved Computational Extractors and Their Applications."
+      },
+      {
+       "y": 2021,
+       "t": "Multi-source Non-malleable Extractors and Applications."
+      }
+     ],
+     "quantum crypto": [
+      {
+       "y": 2023,
+       "t": "Secure Computation with Shared EPR Pairs (Or: How to Teleport in Zero-Knowledge)."
+      },
+      {
+       "y": 2026,
+       "t": "Obfuscating Pseudorandom Functions is Post-quantum Complete."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Assistant Professor",
+    "affiliation_source": "https://web.cs.toronto.edu/people/faculty-directory",
+    "department": "Department of Computer Science (Research Areas: theoretical computer science, cryptography)"
+   },
+   {
+    "name": "Thomas Ristenpart",
+    "dblp": "https://dblp.org/pid/26/3399",
+    "papers": 9,
+    "papers_core_iacr_joc": 5,
+    "papers_crypto_themed_ccs_uss_sp": 4,
+    "homepage": "https://www.cs.toronto.edu/~ristenpart/",
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "symmetric/hash",
+     "applied/systems"
+    ],
+    "tag_evidence": {
+     "symmetric/hash": [
+      {
+       "y": 2026,
+       "t": "Random-Access AEAD for Fast Lightweight Online Encryption."
+      },
+      {
+       "y": 2023,
+       "t": "Context Discovery and Commitment Attacks - How to Break CCM, EAX, SIV, and More."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2024,
+       "t": "Injection Attacks Against End-to-End Encrypted Applications."
+      },
+      {
+       "y": 2022,
+       "t": "Orca: Blocklisting in Sender-Anonymous Messaging."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Professor",
+    "affiliation_source": "https://web.cs.toronto.edu/people/faculty-directory",
+    "department": "Department of Computer Science (directory Research Areas: systems); dept news Oct 27, 2026 lists him among faculty who joined in 2026"
+   }
+  ],
+  "program": {
+   "name": "Master of Science (MSc) in Computer Science",
+   "url": "https://web.cs.toronto.edu/graduate/msc",
+   "length": "4 academic sessions full-time (typical registration sequence: Fall / Winter / Summer / Fall)",
+   "years": 1.33,
+   "years_note": "4 sessions (F/W/S/F) = ~16 months; guaranteed funding period 16 months. Years value derived (16/12).",
+   "thesis": "research track",
+   "thesis_quote": "A major research project (CSC4000Y) ... The standard for this paper is that it could reasonably be submitted for peer-reviewed publication.",
+   "thesis_source": "https://web.cs.toronto.edu/graduate/msc",
+   "tuition_basis": "Dept page lists 2026-27 international incoming MSc $36,700.39 CAD per academic year incl. incidental and ancillary fees; per-session split for the 4th (Fall) session not published on dept page, so no total computed. MOOT: 'International applicants are not considered for the MSc in Computer Science.' Intl PhD 2026-27: $9,570.39/yr incl. incidentals. FAQ: 'Tuition is covered by the Department for full-time admitted domestic and international students.'",
+   "tuition_url": "https://web.cs.toronto.edu/graduate/funding-tuition-awards",
+   "fees_cad_per_year": null,
+   "fees_url": "https://web.cs.toronto.edu/graduate/funding-tuition-awards",
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "deadline_note": "'Applications for Fall 2027 are now open and close on December 1, 2026.' Year printed. Single deadline for MSc/PhD/Direct-Entry PhD.",
+   "deadline_url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+   "gre": "Not required: 'Applicants who do not have a Canadian university degree are encouraged, but not required, to submit scores' (MSc page).",
+   "total_tuition_cad": null,
+   "total_tuition_usd": null,
+   "deadline_fall2027": "2026-12-01",
+   "funding_note": null,
+   "closed_fall2027": true,
+   "closed_note": "International applicants are not considered for the MSc in Computer Science; a US citizen would apply to the Direct-Entry PhD."
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 53273,
+   "health_cad": 948,
+   "url": "https://www.registrar.utoronto.ca/financial-aid-awards/us-student-aid/",
+   "quote": "School of Graduate Studies, Ph.D. Degree $6,330 $53,273 Estimated costs for: on-campus room and board = $40,680 books and supplies = $2,437 transportation ... = $3,016 miscellaneous/personal costs = $7,140",
+   "basis": "U of T Registrar US Student Aid cost of attendance, Sept 2026-Aug 2027 (12 months), SGS PhD living expenses (on-campus room and board basis). Doctoral-stream master's first year (Sept-Apr, 8 months) living = $36,174. Health: UHIP '$79 per month' x 12 = $948 (Learning Abroad page https://learningabroad.utoronto.ca/inbound-visiting/safety-resources/).",
+   "living_usd": 37747,
+   "health_usd": 672,
+   "fees_cad": null,
+   "fees_usd": null
+  },
+  "alt_programs": [
+   {
+    "name": "Master of Science in Applied Computing (MScAC)",
+    "url": "https://mscac.utoronto.ca/prospective-students/",
+    "note": "Professional master's with industry internship; dept says international applicants are 'strongly encouraged to apply to either the Master of Science in Applied Computing or the Direct-Entry PhD Program'. Not a research thesis program."
+   },
+   {
+    "name": "Direct-Entry PhD (PhD-U) in Computer Science",
+    "url": "https://web.cs.toronto.edu/graduate/phd",
+    "note": "The realistic research route for a US citizen with a bachelor's: 5 years, 60 months guaranteed funding."
+   }
+  ],
+  "research_fit_note": "Research MSc = 2.0 FCE coursework + major research project CSC4000Y at publishable standard; PhD = coursework + thesis with departmental and SGS final oral exams. Srinivasan works on foundations of cryptography / MPC / pseudorandomness.",
+  "notes": "KEY: 'International applicants are not considered for the MSc in Computer Science.' A US citizen must apply to the Direct-Entry PhD (PhD-U) or the professional MScAC. Applicants are urged to make only one research-stream application. No fee waiver ('The department does not offer a fee waiver program'). Up to 8 faculty can be named in the application.",
+  "sources": [
+   "https://web.cs.toronto.edu/graduate/how-to-apply",
+   "https://web.cs.toronto.edu/graduate/msc",
+   "https://web.cs.toronto.edu/graduate/phd",
+   "https://web.cs.toronto.edu/graduate/funding-tuition-awards",
+   "https://web.cs.toronto.edu/graduate/faq",
+   "https://web.cs.toronto.edu/people/faculty-directory",
+   "https://www.registrar.utoronto.ca/financial-aid-awards/us-student-aid/",
+   "https://learningabroad.utoronto.ca/inbound-visiting/safety-resources/",
+   "https://web.cs.toronto.edu/news-events/news/tag/Thomas+Ristenpart",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2026-12-01",
+   "priority_iso": null,
+   "url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+   "quote": "Applications for Fall 2027 are now open and close on December 1, 2026.",
+   "note": "PhD length: '4 years for PhD after a recognized master's degree; 5 years for Direct-Entry PhD after a recognized bachelor's degree'. For a US citizen with a bachelor's (no master's), the Direct-Entry PhD (PhD-U) is the only research-stream CS route."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Akshayaram Srinivasan",
+     "on_official_page": true,
+     "title": "Assistant Professor",
+     "department": "Department of Computer Science (Research Areas: theoretical computer science, cryptography)",
+     "url": "https://web.cs.toronto.edu/people/faculty-directory"
+    },
+    {
+     "name": "Thomas Ristenpart",
+     "on_official_page": true,
+     "title": "Professor",
+     "department": "Department of Computer Science (directory Research Areas: systems); dept news Oct 27, 2026 lists him among faculty who joined in 2026",
+     "url": "https://web.cs.toronto.edu/people/faculty-directory"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 135,
+    "fee_url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+    "fee_quote": "pay the non-refundable application fee of $135 (CAD) by the application deadline.",
+    "fee_note": "Single fee stated; no separate domestic/international amount on the dept page.",
+    "fee_waiver": "no",
+    "fee_waiver_url": "https://web.cs.toronto.edu/graduate/faq",
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+    "letters_quote": "Three reference letters are required to complete your application.",
+    "letters_note": "At least two letters should speak to ability to conduct independent research.",
+    "fee_usd": 96
+   },
+   "ms": {
+    "fee_cad": 135,
+    "fee_url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+    "fee_quote": "pay the non-refundable application fee of $135 (CAD) by the application deadline.",
+    "fee_note": "Single fee stated; no separate domestic/international amount on the dept page.",
+    "fee_waiver": "no",
+    "fee_waiver_url": "https://web.cs.toronto.edu/graduate/faq",
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+    "letters_quote": "Three reference letters are required to complete your application.",
+    "letters_note": "At least two letters should speak to ability to conduct independent research.",
+    "fee_usd": 96
+   }
+  },
+  "gre_info": {
+   "policy_ms": "optional",
+   "policy_phd": "optional",
+   "policy_url": "https://web.cs.toronto.edu/graduate/msc",
+   "policy_quote": "Applicants who do not have a Canadian university degree are encouraged, but not required, to submit scores from the GRE General Test.",
+   "policy_phd_url": "https://web.cs.toronto.edu/graduate/phd",
+   "policy_phd_quote": "Applicants who do not have a Canadian university degree are strongly encouraged, but not required, to submit scores from the GRE General Test.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "No official GRE averages published; no unofficial aggregate recorded."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": "https://web.cs.toronto.edu/graduate/phd",
+   "quote": "Admission to our graduate programs is very competitive ... only 5-10% of applicants receive an offer of admission.",
+   "unofficial": null,
+   "note": "Dept gives a 5-10% range for 'our graduate programs' (no year, no MSc-specific figure); recorded under phd_admit. International applicants not considered for MSc anyway."
+  },
+  "phd_admit": {
+   "rate_pct": 7.5,
+   "scope": "department (MS+PhD combined)",
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": "https://web.cs.toronto.edu/graduate/phd",
+   "quote": "Admission to our graduate programs is very competitive and meeting the minimum admission requirements does not guarantee admission: only 5–10% of applicants receive an offer of admission.",
+   "unofficial": null,
+   "note": "Stated as a 5-10% range (midpoint 7.5 recorded) for the department's graduate programs; no year printed. GradCafe institution-wide 40.5% figure seen but not CS-specific, not recorded."
+  },
+  "phd_pathway": {
+   "value": "partial-internal",
+   "kind": "MSc-to-PhD transition after completing the MSc (16 months) with supervisor support and grad chair approval",
+   "url": "https://web.cs.toronto.edu/graduate/faq",
+   "quote": "Students who successfully complete the MSc, including meeting the usual admission requirements for the PhD, and who have their supervisor's support (along with grad chair approval), will normally transition into the PhD program after 16 months.",
+   "note": "Grad office contacts students about 'the specific application process for the completion of the MSc and the transition to the PhD'. Applies to MSc students, which excludes international applicants."
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "Guaranteed 16 months. 2026-27 domestic MSc A&S minimum package $32,142 + DCS enhanced up to $17,250; no international MSc figure because international applicants are not admitted to the MSc.",
+    "url": "https://web.cs.toronto.edu/graduate/funding-tuition-awards",
+    "quote": "We offer a funding package to all of our full-time research-stream students. The package is composed of a research assistantship and teaching assistantships."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "PhD-International (admitted 2026-27): A&S minimum package $41,122 + DCS enhanced up to $7,948; enhanced package targets a 'take-home living allowance of $39,500 after tuition and incidentals are paid'. Guaranteed 60 months PhD-U, 48 months PhD-M, 44 months from U of T MSc.",
+    "url": "https://web.cs.toronto.edu/graduate/funding-tuition-awards",
+    "quote": "Doctor of Philosophy - International (Admitted in 2026-2027) $41,122 Up to an additional $7,948"
+   }
+  },
+  "phd_direct": {
+   "note": "'The Direct-Entry PhD is intended for international students.' FAQ: 'International students with equivalency to a U of T honours bachelor's degree in a closely related field should apply to the Direct-Entry PhD (PhD U).' Guaranteed funding 60 months for PhD-U.",
+   "url": "https://web.cs.toronto.edu/graduate/phd"
+  }
+ },
+ {
+  "school": "University of Ottawa",
+  "short": "University of Ottawa",
+  "csrankings_name": null,
+  "city": "Ottawa",
+  "state": "ON",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 1,
+  "professors": [
+   {
+    "name": "Andrej Bogdanov",
+    "dblp": "https://dblp.org/pid/06/5074",
+    "papers": 9,
+    "papers_core_iacr_joc": 9,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "homepage": null,
+    "source": "csrankings+dblp (Canada pass 2026-11-07)",
+    "research_tags": [
+     "foundations",
+     "non-crypto theory",
+     "lattices/PQC",
+     "ZK"
+    ],
+    "tag_evidence": {
+     "foundations": [
+      {
+       "y": 2025,
+       "t": "Sample Efficient Search to Decision for kLIN."
+      },
+      {
+       "y": 2023,
+       "t": "Public-Key Encryption, Local Pseudorandom Generators, and the Low-Degree Method."
+      }
+     ],
+     "non-crypto theory": [
+      {
+       "y": 2026,
+       "t": "Adaptive Robustness of Hypergrid Johnson-Lindenstrauss."
+      },
+      {
+       "y": 2022,
+       "t": "Hitting Sets for Regular Branching Programs."
+      }
+     ],
+     "lattices/PQC": [
+      {
+       "y": 2022,
+       "t": "Public-Key Encryption from Homogeneous CLWE."
+      },
+      {
+       "y": 2026,
+       "t": "Sample-Preserving Search-to-Decision Reduction for Noisy Linear Equations over Large Moduli."
+      }
+     ],
+     "ZK": [
+      {
+       "y": 2021,
+       "t": "Acyclicity Programming for Sigma-Protocols."
+      },
+      {
+       "y": 2021,
+       "t": "Non-Interactive Composition of Sigma-Protocols via Share-then-Hash."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "title": "Professor",
+    "affiliation_source": "https://uniweb.uottawa.ca/view/profile/members/5603/topic",
+    "department": "School of Electrical Engineering and Computer Science (research interests: Cryptography, Computer and Network Security, Privacy Technologies; Theoretical Computer Science)"
+   }
+  ],
+  "program": {
+   "name": "Master of Computer Science (MCS), thesis option (Ottawa-Carleton Institute for Computer Science joint program)",
+   "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+   "length": "within two years of full-time study",
+   "years": 2,
+   "years_note": "Catalogue: 'Program options (expected duration of the program): within two years of full-time study'; requirements page: 'Average time to completion 6 terms'.",
+   "thesis": "yes",
+   "thesis_quote": "Master's with Thesis ... 9 course units in computer science (CSI) at the graduate level ... 6 elective course units in computer science (CSI) at the graduate level ... Thesis: THM 7999 Master's Thesis",
+   "thesis_source": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+   "tuition_basis": "$10,502.45 per term (uOttawa example: 'International student enrolled in the Faculty of Engineering for the Fall 2026 term', graduate brackets, same in all 4 brackets) x 6 terms (requirements page 'Average time to completion 6 terms') = $63,014.70; EXCLUDES ancillary/incidental fees. Caveat: example does not state master's vs doctoral level; the program-specific international fee table (dnn.uottawa.ca Tuition-Fees-INTL) was 'currently offline for an update' on 2026-11-07. Generic 2026-27 first-year international master's example on the estimating page uses $9,815.26/term. uOttawa: 'Tuition fees for students enrolled in master's and doctoral programs remain unchanged' for 2026-27. Incidental fees CA$2,196.83/yr are counted in the realistic cost.",
+   "tuition_url": "https://www.uottawa.ca/study/fees-financial-support/university-fees/factors-affecting-university-fees",
+   "fees_cad_per_year": 2196.83,
+   "fees_url": "https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees",
+   "deadline_iso": "2027-02-01",
+   "priority_iso": null,
+   "deadline_note": "Requirements page table: 'International Students: February 1' (Fall), 'Canadian Students: May 1'. Year NOT printed; 2027-02-01 inferred for Fall 2027. 'applications and required documents must be received by the application deadline.'",
+   "deadline_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=33",
+   "gre": null,
+   "total_tuition_cad": 63014.7,
+   "total_tuition_usd": 44650,
+   "deadline_fall2027": "2027-02-01",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": null,
+   "health_cad": 948,
+   "url": "https://www.uottawa.ca/study/international-experience/incoming-exchanges",
+   "quote": "Off-campus shared apartment and groceries $15,800 to $32,600 U-Pass $722 ($240.67 per term) University Health Insurance Plan (UHIP) - 12 months $948",
+   "basis": "Only official 2026-27 living figures found are on the incoming-exchange page (housing+groceries ranges: residence w/ meal plan $17,128-$23,298; residence + groceries $20,601-$32,304; off-campus shared + groceries $15,800-$32,600) with no books/transport/personal totals, so living_cad left null. UHIP $948/12 months (also $316/term on the estimating page).",
+   "living_usd": null,
+   "health_usd": 672,
+   "fees_cad": 2196.83,
+   "fees_usd": 1557
+  },
+  "alt_programs": [
+   {
+    "name": "MCS, Coursework and Project option",
+    "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+    "note": "Non-thesis option of the same MCS."
+   },
+   {
+    "name": "MCS Accelerated Stream (thesis)",
+    "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+    "note": "For uOttawa undergrads; requires A- (80%); accelerated-stream students are not eligible for fast-track to PhD."
+   },
+   {
+    "name": "MCS Concentration in Applied Artificial Intelligence",
+    "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+    "note": "Listed as related program."
+   },
+   {
+    "name": "Carleton University School of Computer Science (same OCICS joint MCS/PhD)",
+    "url": "https://carleton.ca/scs/",
+    "note": "OCICS joint program: students register at one university and can be supervised by members of both."
+   }
+  ],
+  "research_fit_note": "Thesis MCS = 15 graduate course units (incl. 3 in Theory of Computing) plus THM 7999 Master's Thesis, supervised under the OCICS joint program; applicants must 'Identify at least one professor who is willing to supervise your research and thesis.' EECS lists Bogdanov and Carlisle Adams under both Cybersecurity and Theory of computing.",
+  "notes": "OCICS site (ocics.eecs.uottawa.ca) returned 403 to all fetches. Admission requires identifying a willing supervisor before applying. Part-time professors' strike banner on uOttawa site (Nov 7, 2026).",
+  "sources": [
+   "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+   "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-computer-science/",
+   "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=33",
+   "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=32",
+   "https://www.uottawa.ca/study/fees-financial-support/university-fees/factors-affecting-university-fees",
+   "https://www.uottawa.ca/study/fees-financial-support/university-fees/estimating-total-university-fees",
+   "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+   "https://www.uottawa.ca/study/international-experience/incoming-exchanges",
+   "https://www.uottawa.ca/faculty-engineering/student-hub/scholarships-bursaries/graduate",
+   "https://www.uottawa.ca/faculty-engineering/school-electrical-engineering-computer-science/research",
+   "https://uniweb.uottawa.ca/view/profile/members/5603/topic",
+   "https://www.uottawa.ca/study/fees-financial-support/us-residents",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 1,
+  "fit_profs": [
+   "Andrej Bogdanov"
+  ],
+  "phd": {
+   "deadline_iso": "2027-02-01",
+   "priority_iso": null,
+   "url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=32",
+   "quote": "International Students: February 1 April 30",
+   "note": "Fall intl deadline February 1 (year not printed). PhD requires 'B+ or higher in a related master's degree'; 'Average time to completion 12 terms'; catalogue: 'within four years'."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Andrej Bogdanov",
+     "on_official_page": true,
+     "title": "Professor",
+     "department": "School of Electrical Engineering and Computer Science (research interests: Cryptography, Computer and Network Security, Privacy Technologies; Theoretical Computer Science)",
+     "url": "https://uniweb.uottawa.ca/view/profile/members/5603/topic"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 125,
+    "fee_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=32",
+    "fee_quote": "Application Fee: CA$125.00 (non-refundable)",
+    "fee_note": "Same CA$125 shown on the program requirements page; no separate domestic/international amount listed.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=32",
+    "letters_quote": "Recommendation letter(s): 2",
+    "letters_note": null,
+    "fee_usd": 89
+   },
+   "ms": {
+    "fee_cad": 125,
+    "fee_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=33",
+    "fee_quote": "Application Fee: CA$125.00 (non-refundable)",
+    "fee_note": "Same CA$125 shown on the program requirements page; no separate domestic/international amount listed.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=33",
+    "letters_quote": "Recommendation letter(s): 2",
+    "letters_note": null,
+    "fee_usd": 89
+   }
+  },
+  "gre_info": {
+   "policy_ms": null,
+   "policy_phd": null,
+   "policy_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=33",
+   "policy_quote": null,
+   "policy_phd_url": "https://dnn.uottawa.ca/en/Utilities/Specific-Requirements/Graduate-programs?Id=32",
+   "policy_phd_quote": null,
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "GRE not mentioned on the catalogue or the program requirements pages (required documents: letter of intent, preference form, resume, transcripts, 2 letters). No explicit policy statement found."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official program/department admit rate found; not searched further on third-party sites."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official PhD admit rate found."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "Fast-track from MCS to PhD without writing a master's thesis",
+   "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-computer-science/",
+   "quote": "Students enrolled in the master's program in computer science at the University of Ottawa may be eligible to fast-track directly into the doctoral program without writing a master's thesis",
+   "note": "Conditions: 5 graduate courses with A- (80%) average, satisfactory research progress, supervisor recommendation, approval by graduate studies committee and vice-dean; request during 4th term or earlier. Not for Accelerated Stream."
+  },
+  "funding": {
+   "ms": {
+    "value": "None stated",
+    "also": [],
+    "detail": "Faculty of Engineering master's-with-thesis admission scholarship ($7,500 = $2,500/term x 3) is for 'Canadian students, permanent residents, protected persons or members of the diplomatic corps' only, so it excludes international (US) students. No international MCS funding guarantee found.",
+    "url": "https://www.uottawa.ca/faculty-engineering/student-hub/scholarships-bursaries/graduate",
+    "quote": "Admission Scholarships can be awarded to Canadian students, permanent residents, protected persons or members of the diplomatic corps admitted to an eligible master's with thesis program."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "Merit scholarships",
+     "TA/RA possible"
+    ],
+    "detail": "Doctoral admission scholarship of at least $72,000 over four years, open to international students; plus International Doctoral Scholarship '$45,000 over five years' (up to $3,000/term for 15 terms) for international students paying international tuition.",
+    "url": "https://www.uottawa.ca/faculty-engineering/student-hub/scholarships-bursaries/graduate",
+    "quote": "We provide an admission scholarship of at least $72,000 for four years. Admission Scholarships can be awarded to ... international students admitted to a doctoral program."
+   }
+  }
+ },
+ {
+  "school": "Carleton University",
+  "short": "Carleton University",
+  "csrankings_name": null,
+  "city": "Ottawa",
+  "state": "ON",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "Master of Computer Science (MCS), Thesis Pathway (Ottawa-Carleton Institute for Computer Science joint program)",
+   "url": "https://graduate.carleton.ca/cu-programs/computer-science-masters/",
+   "length": "Length: 2 years",
+   "years": 2,
+   "years_note": "Grad Studies program page: 'Length: 2 years'; domestic thesis cost shown as 'approx. C$3,000 (6 terms)', i.e. 6 terms.",
+   "thesis": "yes",
+   "thesis_quote": "1. Thesis Pathway (Supervisor Required) You will need to secure a supervisor from one of the SCS Faculty members in order to be admitted.",
+   "thesis_source": "https://carleton.ca/scs/future-students/graduate-studies/masters-program/",
+   "tuition_basis": "2 x Fall+Winter 2026-27 international full-time MCS ($26,787.39 first year and upper years, 'Compulsory Miscellaneous Fees included') + 2 x Summer international MCS ($12,683.87, Summer 2026 table, latest published) = $78,942.52 for 6 terms. INCLUDES compulsory misc fees (F+W misc total $1,666.92, of which UHIP $948). Thesis students register in summer ('Most graduate programs require summer registration'). Incidental fees CA$718.92/yr are counted in the realistic cost.",
+   "tuition_url": "https://carleton.ca/studentaccounts/tuition-fees/fw-gr/f26w27-gr-international",
+   "fees_cad_per_year": 718.92,
+   "fees_url": "https://carleton.ca/studentaccounts/tuition-fees/fw-gr/f26w27-gr-international",
+   "deadline_iso": "2027-01-20",
+   "priority_iso": null,
+   "deadline_note": "'Application Deadline: January 20' (Grad Studies program page). Year NOT printed; 2027 inferred for Fall 2027. Fall entry only. Grad Studies: 'Most programs have two application deadlines ... The first deadline is for guaranteed consideration of admission and funding'.",
+   "deadline_url": "https://graduate.carleton.ca/cu-programs/computer-science-masters/",
+   "gre": "Not required: 'A Graduate Record Examination (GRE) is not required.'",
+   "total_tuition_cad": 78942.52,
+   "total_tuition_usd": 55936,
+   "deadline_fall2027": "2027-01-20",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 30950,
+   "health_cad": null,
+   "url": "https://graduate.carleton.ca/financial-assistance/cost-and-fees/",
+   "quote": "C$1,626 per month based on numbers from Rental.ca = $19,512 per year ... Books and supplies ... C$734 to C$2,000 ... Groceries ... C$892 per month = C$10,704 per year",
+   "basis": "Sum of Carleton Grad Studies single-student estimates: off-campus 1-bedroom $19,512 + groceries $10,704 + books (low end) $734 = $30,950/yr. Transit covered by U-Pass in student fees; personal/misc listed as 'Varies' (not included). UHIP 'UHIP Insurance 948.00' from the 2026-27 international fee table (already inside the tuition total). Health (UHIP) is already inside the tuition total, so it is not added again.",
+   "living_usd": 21930,
+   "health_usd": null,
+   "fees_cad": 718.92,
+   "fees_usd": 509
+  },
+  "alt_programs": [
+   {
+    "name": "MCS Non-Thesis Pathway (Project or Coursework)",
+    "url": "https://carleton.ca/scs/future-students/graduate-studies/masters-program/",
+    "note": "International non-thesis MCS billed per billing hour (F26/W27 non-thesis table)."
+   },
+   {
+    "name": "MCS with Specialization in Data Science, Analytics & AI",
+    "url": "https://carleton.ca/studentaccounts/tuition-fees/fw-gr/f26w27-gr-international",
+    "note": "Separate fee line ($24,573.43 F+W intl)."
+   },
+   {
+    "name": "University of Ottawa EECS (same OCICS joint MCS/PhD)",
+    "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+    "note": "OCICS joint program."
+   }
+  ],
+  "research_fit_note": "Thesis MCS requires securing an SCS supervisor to be admitted ('select at least one potential supervisor' in the application); grad page: 'Typically, graduate students will engage in a one-year, in-depth research'. Only 3 of 104 SCS faculty profiles mention cryptography/cryptology; none lists theoretical crypto (lower bounds/ORAM/PIR) as a focus.",
+  "notes": "Carleton grad calendar (calendar.carleton.ca) was unreachable (connection refused), so thesis credit breakdown not captured. Scan covered the 104 profile links on the SCS faculty page; cross-appointed lists load via JS and were not scanned. No Carleton faculty met the dblp threshold.",
+  "sources": [
+   "https://graduate.carleton.ca/cu-programs/computer-science-masters/",
+   "https://graduate.carleton.ca/program/computer-science-doctoral-programs/",
+   "https://carleton.ca/scs/future-students/graduate-studies/masters-program/",
+   "https://carleton.ca/scs/program-information-and-admissions-phd/",
+   "https://carleton.ca/scs/future-students/graduate-studies/how-to-apply-to-graduate-school-in-computer-science/",
+   "https://carleton.ca/scs/future-students/graduate-studies/programs/frequently-asked-questions/",
+   "https://graduate.carleton.ca/apply-online/",
+   "https://graduate.carleton.ca/deadlines/",
+   "https://carleton.ca/studentaccounts/tuition-fees/fw-gr/f26w27-gr-international",
+   "https://carleton.ca/studentaccounts/tuition-fees/su-gr/summer-2025-gr-intl/",
+   "https://graduate.carleton.ca/financial-assistance/cost-and-fees/",
+   "https://graduate.carleton.ca/financial-assistance/admissions-funding/",
+   "https://carleton.ca/scs/our-people/school-of-computer-science-faculty/",
+   "https://carleton.ca/scs/people/paul-van-oorschot/",
+   "https://carleton.ca/scs/people/evangelos-kranakis/",
+   "https://carleton.ca/scs/people/m-jason-hinek/",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2027-01-20",
+   "priority_iso": null,
+   "url": "https://graduate.carleton.ca/program/computer-science-doctoral-programs/",
+   "quote": "Application Deadline: January 20 Length: 4 years Entry Terms: Fall Pathways: Thesis",
+   "note": "Year not printed. PhD requires a supervisor before admission (SCS FAQ). 2026-27 international PhD CS Fall+Winter $16,227.84 incl. misc fees."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Paul Van Oorschot",
+     "on_official_page": true,
+     "title": "Professor",
+     "department": "School of Computer Science (Research Interests: Authentication, Computer Security, Internet Security, Applied Cryptography, Information Security)",
+     "url": "https://carleton.ca/scs/people/paul-van-oorschot/"
+    },
+    {
+     "name": "Evangelos Kranakis",
+     "on_official_page": true,
+     "title": "Chancellor's Professor",
+     "department": "School of Computer Science (Research Interests include 'Cryptographic and Network Security')",
+     "url": "https://carleton.ca/scs/people/evangelos-kranakis/"
+    },
+    {
+     "name": "Jason Hinek",
+     "on_official_page": true,
+     "title": "Associate Professor, Teaching Stream",
+     "department": "School of Computer Science (profile: 'Computer Science education, cryptology, security')",
+     "url": "https://carleton.ca/scs/people/m-jason-hinek/"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 125,
+    "fee_url": "https://graduate.carleton.ca/apply-online/",
+    "fee_quote": "pay the non-refundable application fee of C$125 (C$175 for the MBA program)",
+    "fee_note": "Single C$125 fee for all applicants (no separate domestic/international amount stated).",
+    "fee_waiver": "no",
+    "fee_waiver_url": "https://carleton.ca/scs/future-students/graduate-studies/programs/frequently-asked-questions/",
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://carleton.ca/scs/future-students/graduate-studies/how-to-apply-to-graduate-school-in-computer-science/",
+    "letters_quote": "International Students Required Documents Transcripts CV/Resume Statement of Intent Two Letters of Reference",
+    "letters_note": "FAQ: 'We require 2 academic references.'",
+    "fee_usd": 89
+   },
+   "ms": {
+    "fee_cad": 125,
+    "fee_url": "https://graduate.carleton.ca/apply-online/",
+    "fee_quote": "pay the non-refundable application fee of C$125 (C$175 for the MBA program)",
+    "fee_note": "Single C$125 fee for all applicants (no separate domestic/international amount stated).",
+    "fee_waiver": "no",
+    "fee_waiver_url": "https://carleton.ca/scs/future-students/graduate-studies/programs/frequently-asked-questions/",
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://carleton.ca/scs/future-students/graduate-studies/how-to-apply-to-graduate-school-in-computer-science/",
+    "letters_quote": "International Students Required Documents Transcripts CV/Resume Statement of Intent Two Letters of Reference",
+    "letters_note": "FAQ: 'We require 2 academic references.'",
+    "fee_usd": 89
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_phd": "not required",
+   "policy_url": "https://carleton.ca/scs/future-students/graduate-studies/how-to-apply-to-graduate-school-in-computer-science/",
+   "policy_quote": "A Graduate Record Examination (GRE) is not required.",
+   "policy_phd_url": "https://carleton.ca/scs/future-students/graduate-studies/programs/frequently-asked-questions/",
+   "policy_phd_quote": "Is a Graduate Record Examination (GRE) required? No, a Graduate Record Examination (GRE) is not required.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "Applies to all SCS programs."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official admit rate found on SCS / Grad Studies pages."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official PhD admit rate found."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "Fast-track into PhD for current MCS students at supervisor's request, before end of first year",
+   "url": "https://carleton.ca/scs/program-information-and-admissions-phd/",
+   "quote": "Current M.C.S. students who have completed at least 3 graduate courses with an A or A+ and have demonstrated research potential may be considered for admission into the Ph.D. program ... at the request of their supervisor",
+   "note": "Must be requested before completion of first year."
+  },
+  "funding": {
+   "ms": {
+    "value": "TA/RA possible",
+    "also": [
+     "Merit scholarships"
+    ],
+    "detail": "Applicants automatically considered for funding; TA value 'more than $10,000 per year'; research scholarships '$1,000 - $12,000 per year'; RA only for students authorized to work in Canada. No guaranteed minimum package or explicit international coverage statement found.",
+    "url": "https://graduate.carleton.ca/financial-assistance/admissions-funding/",
+    "quote": "When submitting an application for admission to Carleton, students are automatically considered for funding and if eligible, will be notified in the Offer of Admission and Funding."
+   },
+   "phd": {
+    "value": "TA/RA possible",
+    "also": [
+     "Merit scholarships"
+    ],
+    "detail": "Same Carleton admissions-funding framework (TA > $10,000/yr; research scholarships $1,000-$12,000/yr; donor awards up to $20,000). No published guaranteed PhD minimum found.",
+    "url": "https://graduate.carleton.ca/financial-assistance/admissions-funding/",
+    "quote": "Carleton offers generous funding packages to its graduate students."
+   }
+  },
+  "shared_faculty_note": "No Carleton faculty met the dblp threshold.",
+  "phd_direct": {
+   "note": "'Exceptional applicants who hold only an Honours Bachelor of Computer Science (with a minimum GPA of A-) with demonstrated research potential may be eligible for admission with strong supervisor support.'",
+   "url": "https://carleton.ca/scs/program-information-and-admissions-phd/"
+  }
+ },
+ {
+  "school": "Western University (The University of Western Ontario)",
+  "short": "Western University",
+  "csrankings_name": null,
+  "city": "London",
+  "state": "ON",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "MSc in Computer Science (thesis-based)",
+   "url": "https://grad.uwo.ca/admissions/program.cfm?p=37",
+   "length": "5 Terms (Thesis-based; Project-based)",
+   "years": 1.67,
+   "years_note": "SGPS program page: '4 Terms (Course-based) | 5 Terms (Thesis-based; Project-based)'; dept: 'MSc students are guaranteed funding for 5 terms'. Years derived (5 terms = 20 months).",
+   "thesis": "yes",
+   "thesis_quote": "Thesis Option: Students must complete four graduate courses ... In addition, students must complete: Thesis.",
+   "thesis_source": "https://www.csd.uwo.ca/graduate/current/degree_requirements.html",
+   "tuition_basis": "International full-time MSc Computer Science tuition per term: Fall 2026 $6,986.67, Winter 2027 $6,986.67 (Registrar fee schedules); 5 terms = 4 x $6,986.67 (F/W terms; 2027-28 rate not yet published, 2026-27 rate used) + 1 x $6,849.67 (Summer 2026 table, latest summer published) = $34,796.35. EXCLUDES ancillary/student org/transit/UHIP/health-dental fees. Incidental fees CA$2,675.69/yr are counted in the realistic cost.",
+   "tuition_url": "https://registrar.uwo.ca/student_finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+   "fees_cad_per_year": 2675.69,
+   "fees_url": "https://registrar.uwo.ca/student_finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+   "deadline_iso": "2027-02-15",
+   "priority_iso": null,
+   "deadline_note": "Dept FAQ: 'students wishing to start in September 2027 must submit a completed application by February 15, 2027.' Year printed. SGPS page: 'International Applicants: February 15'. Fall entry only.",
+   "deadline_url": "https://www.csd.uwo.ca/graduate/future/faq.html",
+   "gre": null,
+   "total_tuition_cad": 34796.35,
+   "total_tuition_usd": 24656,
+   "deadline_fall2027": "2027-02-15",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": null,
+   "health_cad": 948,
+   "url": "https://international.uwo.ca/studentservices/student_life/money_and_taxes/making_a_budget.html",
+   "quote": "Rent * $750 - $1800/month With roommates ($750 - $1100/month); One bedroom/bachelor ($1400 - $1800/month) ... Food $350 - $600/month",
+   "basis": "Western International 'Making a Budget' gives only monthly ranges (rent $750-$1,800; food $350-$600; utilities $50-$300; internet $15-$100; phone $20-$95), no single annual total, so living_cad left null. Health: UHIP $316.00 per term on Fall 2026 and Winter 2027 international fee schedules (x3 = $948/yr; Summer 2026 table shows $264). Separate mandatory health & dental plan: $702.71 (Fall) + $468.47 (Winter) included in fees_cad_per_year.",
+   "living_usd": null,
+   "health_usd": 672,
+   "fees_cad": 2675.69,
+   "fees_usd": 1896
+  },
+  "alt_programs": [
+   {
+    "name": "MSc Computer Science, Project-based",
+    "url": "https://grad.uwo.ca/admissions/program.cfm?p=37",
+    "note": "5 terms; project report and oral presentation."
+   },
+   {
+    "name": "MSc Computer Science, Course-based",
+    "url": "https://grad.uwo.ca/admissions/program.cfm?p=37",
+    "note": "4 terms; 'No funding provided'; 'not a normal route for entry into the PhD Program'."
+   }
+  ],
+  "research_fit_note": "Thesis MSc = 4 graduate courses + written thesis with public oral defence; acceptance 'is strictly up to the individual faculty member' (supervisor-driven admission). No supervisor needed before applying.",
+  "notes": "No faculty_checks entries: none of the 23 core faculty bios, the faculty listing, cross-appointed or adjunct pages on csd.uwo.ca mention cryptography. Nearest: Marwa Elsayed (Assistant Professor; 'Cybersecurity, Secure Software Engineering, Security Analytics'), Anwar Haque ('cyber security'), Mahmoud El-Sakka ('Image Security'). Weak fit for theory crypto. BSc holders cannot apply directly to the PhD. No Western faculty met the dblp threshold.",
+  "sources": [
+   "https://grad.uwo.ca/admissions/program.cfm?p=37",
+   "https://www.csd.uwo.ca/graduate/future/faq.html",
+   "https://www.csd.uwo.ca/graduate/future/admission.html",
+   "https://www.csd.uwo.ca/graduate/future/procedure.html",
+   "https://www.csd.uwo.ca/graduate/future/finances.html",
+   "https://www.csd.uwo.ca/graduate/current/degree_requirements.html",
+   "https://registrar.uwo.ca/student_finances/fees_refunds/Fall-2026-Graduate-Fee-Schedules---FT-International.pdf",
+   "https://registrar.uwo.ca/student_finances/fees_refunds/Winter-2027-Grad-Fee-Schedule-Full-time-International1.pdf",
+   "https://registrar.uwo.ca/student_finances/fees_refunds/Grad-FT-International-Summer-20262.pdf",
+   "https://registrar.uwo.ca/student_finances/fees_refunds/2026-27-Application-Fees.pdf",
+   "https://registrar.uwo.ca/student_finances/fees_refunds/fee_schedules.html",
+   "https://international.uwo.ca/studentservices/student_life/money_and_taxes/making_a_budget.html",
+   "https://www.csd.uwo.ca/people/faculty/index.html",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2027-02-15",
+   "priority_iso": null,
+   "url": "https://www.csd.uwo.ca/graduate/future/faq.html",
+   "quote": "For international students applying to the PhD program, completed applications must be submitted by February 15 for a Fall (September) start, or by October 1 for a Winter (January) start.",
+   "note": "PhD requires an MSc in CS. Year not printed in the PhD sentence (the MSc example sentence prints 2027). International PhD tuition 2026-27: $2,162.33/term."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": []
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 185,
+    "fee_url": "https://www.csd.uwo.ca/graduate/future/faq.html",
+    "fee_quote": "What is the application fee? $ 185 CDN",
+    "fee_note": "Registrar 2026-27 Application Fees table: 'All other graduate programs 185' (same for domestic and international). Dept Admission Procedure page still shows an outdated '(Application fee: $100)'.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://www.csd.uwo.ca/graduate/future/procedure.html",
+    "letters_quote": "Transcripts Two References An English language test score (if applicable) Statement of academic intent",
+    "letters_note": "Electronic references; 'Email Address of References (2)'.",
+    "fee_usd": 131
+   },
+   "ms": {
+    "fee_cad": 185,
+    "fee_url": "https://www.csd.uwo.ca/graduate/future/faq.html",
+    "fee_quote": "What is the application fee? $ 185 CDN",
+    "fee_note": "Registrar 2026-27 Application Fees table: 'All other graduate programs 185' (same for domestic and international). Dept Admission Procedure page still shows an outdated '(Application fee: $100)'.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": 2,
+    "letters_url": "https://www.csd.uwo.ca/graduate/future/procedure.html",
+    "letters_quote": "Transcripts Two References An English language test score (if applicable) Statement of academic intent",
+    "letters_note": "Electronic references; 'Email Address of References (2)'.",
+    "fee_usd": 131
+   }
+  },
+  "gre_info": {
+   "policy_ms": null,
+   "policy_phd": null,
+   "policy_url": "https://www.csd.uwo.ca/graduate/future/procedure.html",
+   "policy_quote": null,
+   "policy_phd_url": "https://www.csd.uwo.ca/graduate/future/procedure.html",
+   "policy_phd_quote": null,
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "GRE not mentioned on dept FAQ, admission requirements, admission procedure, or SGPS program page (required documents: transcripts, two references, ELP score if applicable, statement of academic intent, TA application, PhD background statement). No explicit policy."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": "https://www.csd.uwo.ca/graduate/future/admission.html",
+   "quote": "in the past few years, most of the accepted MSc students have had over 82% average and most of the accepted PhD students have had over 85% average.",
+   "unofficial": null,
+   "note": "No official admit rate; only admitted-student averages published."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official PhD admit rate found."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "Transfer from thesis MSc to PhD without completing the MSc, within first three terms",
+   "url": "https://www.csd.uwo.ca/graduate/future/admission.html",
+   "quote": "they can only apply to a CS thesis MSc and if they academically prove themselves within the first three terms, they can ask to be transferred to a CS PhD program without completing their MSc degree.",
+   "note": "Requires approval by supervisor and the Graduate Executive Committee; 'all credits collected during the MSc program will be automatically transferred toward the PhD degree.'"
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "Annual Master's Funding Support Package - International Students (no external scholarship): WGRS $8,600 + GF $9,600 + GTA $15,253.06 = $33,453.06 minimum; 'MSc students are guaranteed funding for 5 terms'. Dept note: international thesis MSc students 'are responsible for a portion of international tuition fees'.",
+    "url": "https://www.csd.uwo.ca/graduate/future/finances.html",
+    "quote": "Annual Master's Funding Support Package - International Students ... No external scholarship $8,600 $9,600 $15,253.06 $33,453.06"
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "Annual Doctoral Funding Support Package - International Students (no external scholarship): WGRS $4,110 + GF $8,100 + GTA $15,253.06 = $27,463.06; 'PhD students are guaranteed funding for 4 years'.",
+    "url": "https://www.csd.uwo.ca/graduate/future/finances.html",
+    "quote": "PhD Fully funded through a combination of GTA, WGRS, and supervisor support. Similar funding model as domestic."
+   }
+  },
+  "shared_faculty_note": "No Western faculty met the dblp threshold."
+ },
+ {
+  "school": "Université de Montréal",
+  "short": "Université de Montréal",
+  "csrankings_name": null,
+  "city": "Montréal",
+  "state": "QC",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "Maîtrise en informatique (M. Sc., 2-175-1-0), cheminement avec mémoire, Département d'informatique et de recherche opérationnelle (DIRO)",
+   "url": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/",
+   "length": "45 crédits; Règlement ESP: \"La scolarité minimale exigée pour un programme de maîtrise est de trois trimestres à plein temps ou l'équivalent.\"",
+   "years": null,
+   "years_note": "No normal duration printed on the program page (only 45 credits and full-time/part-time). The DIRO graduate welcome guide quotes the ESP minimum of three full-time trimesters. The program page lists 'Soutien financier durant la 2e année des études', which implies a second year is typical, but no duration is stated.",
+   "thesis": "yes",
+   "thesis_quote": "Les crédits de l'option avec mémoire (MM), sont répartis de la façon suivante : 30 crédits obligatoires attribués à la recherche et à la rédaction d'un mémoire et 15 crédits à option.",
+   "thesis_source": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/structure-du-programme/",
+   "tuition_basis": "2026-27 registrar schedule, international 2e cycle, 'Maîtrise avec mémoire', full-time (15 credits) per trimester: Base 1 558,80 $ + Suppl. 9 115,50 $ = 10 674,30 $. 45-credit program = 3 x 15 credits, so 3 x 10 674,30 = 32 022,90 CAD. Excludes other mandatory fees (autres frais exigibles) and health insurance. After credits are done, a rédaction fee of 554,38 $ (Fall 2026/Winter 2027) applies per term. The UdeM exemption scholarship (bourse d'exemption) can reduce the international supplement for non-French/Belgian international students; the amount is decided after admission. fees_cad_per_year = program-page 'Autres frais exigibles : 701,62 $' per full-time 15-credit trimester (2025-26 estimate) x 3 trimesters. Incidental fees CA$2,104.86/yr are counted in the realistic cost.",
+   "tuition_url": "https://registraire.umontreal.ca/droits-de-scolarite/couts/",
+   "fees_cad_per_year": 2104.86,
+   "fees_url": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/",
+   "deadline_iso": "2027-02-01",
+   "priority_iso": null,
+   "deadline_note": "Program page, Automne 2027 (start 'août 2027'): 'Déposer la demande d'admission Du 1er août 2026 au 1er février 2027' (year printed). DIRO admission page: 'À titre d'étudiant étranger, la demande d'admission en ligne doit être complétée pour l'automne avant le 1er février de chaque année' (no year). Note: the Mila-affiliated option has a separate earlier step (Mila supervision form 15 Oct - 1 Dec).",
+   "deadline_url": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/",
+   "gre": null,
+   "total_tuition_cad": 32022.9,
+   "total_tuition_usd": 22690,
+   "deadline_fall2027": "2027-02-01",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 24000,
+   "health_cad": 900,
+   "url": "https://admission.umontreal.ca/fileadmin/fichiers/Conversion_2025/RDV-Admis-Livret-International-Web.pdf",
+   "quote": "Dépenses mensuelles ... Logement hors campus 800 - 1 000 $ Nourriture 410 $ Transport 68 - 335 $ Téléphone et Internet 134 $ Divers 200 - 400 $ TOTAL 2 000 $ - 3 000 $",
+   "basis": "UdeM admitted-international-student booklet (Conversion_2025 edition; no 2026-27 version found) gives a monthly total of 2 000-3 000 $; living_cad uses the low end x 12 months = 24 000 (high end = 36 000). Books not itemized. Health: UdeM international page, Desjardins group plan for students not covered by RAMQ: 'For the 2025-2026 academic year, the monthly premium is $75' (300 $ fall + 600 $ winter-to-Aug 31 = 900 $/yr); https://international.umontreal.ca/english/international-students/getting-health-insurance/. Arrival costs of 4 000-6 000 $ not included.",
+   "living_usd": 17006,
+   "health_usd": 638,
+   "fees_cad": 2104.86,
+   "fees_usd": 1491
+  },
+  "alt_programs": [
+   {
+    "name": "Maîtrise en informatique, cheminement avec stage ou travaux dirigés (option Générale)",
+    "url": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/structure-du-programme/",
+    "note": "Same 45-credit M.Sc.; non-thesis modalities (ST/TD) in the Générale option. International tuition for this modality is higher: 11 668,77 $ per full-time trimester (2026-27)."
+   },
+   {
+    "name": "Maîtrise en informatique, option Informatique théorique et quantique (Segment 74)",
+    "url": "https://admission.umontreal.ca/programmes/maitrise-en-informatique/",
+    "note": "Thesis option: 'Vous serez appelé à suivre des cours dans des domaines comme la cryptographie, la complexité et l'informatique quantique.'"
+   }
+  ],
+  "research_fit_note": "Thesis M.Sc. is 30 credits of research/mémoire + 15 course credits; the 'Informatique théorique et quantique' option covers cryptography, complexity and quantum computing (course IFT 6180 Cryptologie). Crypto at DIRO is quantum-crypto-centred (Salvail, Brassard, LITQ); no DIRO profile lists classical theory crypto areas like ORAM/PIR/lattices.",
+  "notes": "French is required: courses are in French and the candidate must know French well enough to take them; non-francophone admits may be required to pass the TFI (785/990) or DALF/TEF C1. Only 2 of 49 DIRO profiles list Cryptographie as an expertise (Brassard, Salvail); Esma Aïmeur lists Sécurité informatique and mentions cryptographic protocols in her bio. M.Sc. applicants need no supervisor at application but must find one by the end of the first trimester. Below the dblp threshold: Louis Salvail (quantum cryptography; 1 ASIACRYPT paper 2021-25).",
+  "sources": [
+   "https://admission.umontreal.ca/programmes/maitrise-en-informatique/",
+   "https://admission.umontreal.ca/programmes/maitrise-en-informatique/structure-du-programme/",
+   "https://admission.umontreal.ca/programmes/doctorat-en-informatique/",
+   "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/",
+   "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/admission/",
+   "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/doctorat-en-informatique/admission/",
+   "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/procedure-du-passage-accelere-au-doctorat/",
+   "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/bourses/",
+   "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/doctorat-en-informatique/bourses/",
+   "https://diro.umontreal.ca/english/student-resources/financial-assistance/",
+   "https://diro.umontreal.ca/ressources-services/soutien-financier/",
+   "https://diro.umontreal.ca/public/FAS/diro/Documents/1-Programmes-cours/2-3-cycle/AccueilDIRO_Fr.pdf",
+   "https://diro.umontreal.ca/public/FAS/diro/Documents/1-Programmes-cours/2-3-cycle/guide2cy.pdf",
+   "https://registraire.umontreal.ca/droits-de-scolarite/couts/",
+   "https://admission.umontreal.ca/admission/depot-de-la-demande/payer-les-frais-dadmission/",
+   "https://admission.umontreal.ca/bourses-pour-etudiants-internationaux/",
+   "https://admission.umontreal.ca/fileadmin/fichiers/Conversion_2025/RDV-Admis-Livret-International-Web.pdf",
+   "https://international.umontreal.ca/english/international-students/getting-health-insurance/",
+   "https://diro.umontreal.ca/repertoire-departement/professeurs/",
+   "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in15429/sg/Louis%20Salvail/",
+   "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in13606/sg/Gilles%20Brassard/",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2027-02-01",
+   "priority_iso": null,
+   "url": "https://admission.umontreal.ca/programmes/doctorat-en-informatique/",
+   "quote": "Automne 2027 ... Dates limites Déposer la demande d'admission Du 1er août 2026 au 1er février 2027",
+   "note": "Doctorat en informatique, 90 credits (84 for research and thesis). DIRO PhD admission page: the application is evaluated only if the student has a DIRO research director who has financial arrangements for the duration of the PhD; a supervision consent form is required. Admission also possible in winter (deadline 1 Sept) and summer."
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Louis Salvail",
+     "on_official_page": true,
+     "title": "Professeur titulaire",
+     "department": "Département d'informatique et de recherche opérationnelle (DIRO); expertises incl. Cryptographie, Cryptographie quantique; member of LITQ",
+     "url": "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in15429/sg/Louis%20Salvail/"
+    },
+    {
+     "name": "Gilles Brassard",
+     "on_official_page": true,
+     "title": "Professeur titulaire",
+     "department": "DIRO; expertises incl. Cryptographie, Cryptographie quantique, Calcul quantique",
+     "url": "https://diro.umontreal.ca/repertoire-departement/professeurs/professeur/in/in13606/sg/Gilles%20Brassard/"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 106.75,
+    "fee_url": "https://admission.umontreal.ca/admission/depot-de-la-demande/payer-les-frais-dadmission/",
+    "fee_quote": "Frais de base par trimestre d'admission 83,40 $ ... Frais par programme régulier ... 23,35 $",
+    "fee_note": "Hiver 2027 schedule (latest shown); same for domestic and international. 83,40 $ base per admission term (paid once even with several applications) + 23,35 $ per program = 106,75 $ for one program.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": null,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/doctorat-en-informatique/admission/",
+    "letters_quote": null,
+    "letters_note": "No reference-letter count published. PhD requires a letter of acceptance from the future research director plus the supervision consent form ('la lettre d'acceptation de votre futur directeur de recherche et le formulaire de consentement').",
+    "fee_usd": 76
+   },
+   "ms": {
+    "fee_cad": 106.75,
+    "fee_url": "https://admission.umontreal.ca/admission/depot-de-la-demande/payer-les-frais-dadmission/",
+    "fee_quote": "Frais de base par trimestre d'admission 83,40 $ ... Frais par programme régulier ... 23,35 $",
+    "fee_note": "Hiver 2027 schedule (latest shown); same for domestic and international.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": null,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/admission/",
+    "letters_quote": null,
+    "letters_note": "Neither the UdeM program page nor the DIRO M.Sc. admission page lists recommendation letters; a supervisor is not needed at application ('Il n'est pas requis d'avoir un directeur de recherche avant le dépôt de votre demande d'admission').",
+    "fee_usd": 76
+   }
+  },
+  "gre_info": {
+   "policy_ms": null,
+   "policy_phd": null,
+   "policy_url": "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/admission/",
+   "policy_quote": null,
+   "policy_phd_url": "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/doctorat-en-informatique/admission/",
+   "policy_phd_quote": null,
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "GRE is not mentioned anywhere on the UdeM program pages or DIRO admission pages (M.Sc. and Ph.D.). Requirements listed are GPA (3,0/4,3 M.Sc.; 3,3/4,3 Ph.D.), 40 credits of CS/math prerequisites, and French: 'Le candidat doit avoir une connaissance de la langue française lui permettant de suivre des cours en français.'"
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official graduate admit statistics found for DIRO/UdeM graduate programs (registrar publishes only undergraduate cote R stats). No credible unofficial figure found in 1 search."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "Not published. PhD admission effectively requires a committed DIRO supervisor with funding arrangements."
+  },
+  "phd_pathway": {
+   "value": "partial-internal",
+   "kind": "Passage accéléré au doctorat (fast-track from M.Sc. to Ph.D. without depositing the mémoire)",
+   "url": "https://diro.umontreal.ca/programmes-cours/cycles-superieurs/maitrise-en-informatique/procedure-du-passage-accelere-au-doctorat/",
+   "quote": "Voici la procédure à suivre pour demander un passage accéléré au programme de doctorat ... 4) L'étudiant doit remplir une demande d'admission au doctorat pour le trimestre désiré en ligne",
+   "note": "Requires a statement from the student, a supporting letter from the supervisor, a research sketch, and an online PhD admission application, approved by the graduate chair and FAS. The DIRO graduate guide (2015) describes it as 'un passage accéléré du deuxième au troisième cycle sans dépôt de mémoire'. Internal petition plus an online application; classed partial-internal."
+  },
+  "funding": {
+   "ms": {
+    "value": "Merit scholarships",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "DIRO: 'Complete financial assistance — Master's level $9,000' (M.Sc. bourses page: 'Au DIRO (jusqu'à 9 000 $ à la maîtrise en rédaction)'), i.e. support in the 2nd (writing) year, not a guaranteed package. International students: UdeM exemption scholarship (bourse d'exemption) evaluated automatically after admission, amount set case by case; excludes French/Belgian francophones. TA about $2,000 per term.",
+    "url": "https://diro.umontreal.ca/english/student-resources/financial-assistance/",
+    "quote": "Complete financial assistance Master's level $9,000 Doctoral level $12,000 - $15,000"
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "UdeM program page: 'Financement DIRO — Soutien financier pour les 4 premières années d'études offert par le DIRO aux étudiantes et étudiants inscrits à plein temps au programme de doctorat'. DIRO: doctoral level $12,000 - $15,000 per year ('Au DIRO (jusqu'à 15 000 $)'). Admission requires supervisor financial arrangements. Only full-time students are eligible. International students may also receive the UdeM exemption scholarship.",
+    "url": "https://admission.umontreal.ca/programmes/doctorat-en-informatique/",
+    "quote": "Soutien financier pour les 4 premières années d'études offert par le Département d'informatique et de recherche opérationnelle aux étudiantes et étudiants inscrits à plein temps au programme de ..."
+   }
+  },
+  "shared_faculty_note": "Below the dblp threshold: Louis Salvail (quantum cryptography; 1 ASIACRYPT paper 2021-25)."
+ },
+ {
+  "school": "Concordia University",
+  "short": "Concordia University",
+  "csrankings_name": null,
+  "city": "Montréal",
+  "state": "QC",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "Master of Computer Science (MCompSc), thesis, Department of Computer Science and Software Engineering (CSSE), Gina Cody School",
+   "url": "https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html",
+   "length": "Duration 2 years; 45 credits. Graduate Calendar: \"Normally a full-time student will require six terms to complete the degree requirements.\"",
+   "years": 2,
+   "years_note": "Program page lists 'Duration 2 years'; Fall 2026 Graduate Calendar says six terms normally (3 terms per year).",
+   "thesis": "yes",
+   "thesis_quote": "The MCompSc consists of coursework and research, culminating in the presentation of a thesis.",
+   "thesis_source": "https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html",
+   "tuition_basis": "2026-27 graduate tuition page, international, Master's thesis-based, Arts & Science / Engineering and Computer Science: $711.62 per credit (Fall 2026, Winter 2027). Thesis master's are billed 11.25 credits per term until all 45 nominal credits are billed ('tuition fees for a 45-credit Master's degree taken full-time are billed in the first 4 terms'). 45 x 711.62 = 32,022.90 CAD. Summer 2026 rate was $690.89; Fall 2027 rates not yet published. Excludes compulsory university fees and health insurance. fees_cad_per_year is null because there is no single annual total for graduate students: fees are itemized per credit (Fall 2026: administrative $13.38, graduate student service $11.44, recreation $2.92, technology $6.31, copyright $0.45 per credit), plus an ENCS fee of $30/term and association levies.",
+   "tuition_url": "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html",
+   "fees_cad_per_year": null,
+   "fees_url": "https://www.concordia.ca/students/financial/tuition-fees/university-fees.html",
+   "deadline_iso": "2027-03-01",
+   "priority_iso": null,
+   "deadline_note": "Program page: 'FALL July 1 (Canadian resident) March 1 (U.S. and international)'; no year printed, recurring date. 'Priority will be given to complete applications submitted by the deadline. In some cases, programs may continue to accept applications as long as there is space available.'",
+   "deadline_url": "https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html",
+   "gre": null,
+   "total_tuition_cad": 32022.9,
+   "total_tuition_usd": 22690,
+   "deadline_fall2027": "2027-03-01",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 26521,
+   "health_cad": 1164,
+   "url": "https://www.concordia.ca/students/financial/tuition-fees/costs.html",
+   "quote": "U.S. & international students ... Renting in Montreal ... Books and supplies $3,020 Housing (Rent)* $8,760 Internet/Cell Phone $1,280 Food** $6,698 Personal expenses $1,978 Transport/Travel ...",
+   "basis": "Concordia cost-of-living page, U.S. & international, 'Renting in Montreal' tab ('These figures are based on 2026 data'): 3,020 + 8,760 + 1,280 + 6,698 + 1,978 + 3,285 + 1,500 = 26,521 (excludes the tuition and fees line). The 'Living in Residence' tab gives rent $14,994 and food $6,520. Health: university fees page, mandatory Blue Cross plan for international students, 'September 1 to August 31 - fall, winter and summer 12 months $ 1,164.00'; https://www.concordia.ca/students/financial/tuition-fees/university-fees.html.",
+   "living_usd": 18792,
+   "health_usd": 825,
+   "fees_cad": null,
+   "fees_usd": null
+  },
+  "alt_programs": [
+   {
+    "name": "Cybersecurity Engineering (MASc), thesis, Department of Cybersecurity and Intelligent Systems Engineering (CISE, formerly CIISE). This appears to be the former MASc in Information Systems Security.",
+    "url": "https://www.concordia.ca/academics/graduate/cybersecurity-engineering-masc.html",
+    "note": "This is where Clark and Mannan supervise. Their profiles still list 'Supervised programs: Information Systems Security (MASc) | Information and Systems Engineering (PhD)'. The Information Systems Security MASc calendar URL now returns 404, and the CISE graduate-programs page lists only 'Cybersecurity Engineering (MASc)'. 45 credits, 2 years, thesis; same deadlines (Fall: March 1 for U.S./international). 'a Faculty whose research topics include biometrics, cyber forensics, database security and cryptography.'"
+   },
+   {
+    "name": "Information and Systems Engineering (PhD), CISE",
+    "url": "https://www.concordia.ca/ginacody/cybersecurity-intelligent-systems-eng/programs/graduate.html",
+    "note": "PhD route for Clark/Mannan students. 'Faculty member expertise includes: cryptography and data security, communication networks, ...'"
+   },
+   {
+    "name": "Master of Applied Computer Science (MApCompSc), course-based",
+    "url": "https://www.concordia.ca/academics/graduate/computer-science-mcompsci-applied.html",
+    "note": "Non-thesis CSSE master's. International course-based tuition is fixed per cohort at $795.00 per credit (2026-27 cohort)."
+   }
+  ],
+  "research_fit_note": "The MCompSc is 16 course credits plus a 29-credit thesis (COMP 7941). None of the 82 CSSE faculty profiles mentions cryptography; CSSE's 'Security' topic lists only Aiman Hanna. Crypto at Concordia sits in CISE (Clark: cryptography and data security, MPC, blockchain), so the MCompSc is a weak fit for theory crypto and the CISE MASc/PhD is the relevant route.",
+  "notes": "Department rename: Clark's and Mannan's profiles now say 'Cybersecurity and Intelligent Systems Engineering', and the CISE graduate page lists Cybersecurity Engineering (MASc) in place of Information Systems Security (MASc). Clark's profile: 'If you are looking for a supervisor, please do not email me ... please visit my website'; Mannan is listed as 'Seeking students'. Courses are in English and no French is required. Below the dblp threshold: Jeremy Clark (CIISE; 1 ASIACRYPT paper; blockchain, e-voting) and Mohammad Mannan (CIISE; systems security).",
+  "sources": [
+   "https://www.concordia.ca/academics/graduate/computer-science-mcompsc.html",
+   "https://www.concordia.ca/academics/graduate/computer-science-phd.html",
+   "https://www.concordia.ca/academics/graduate/calendar/current/gina-cody-school-of-engineering-and-computer-science-programs/computer-science-mcompsc.html",
+   "https://www.concordia.ca/ginacody/computer-science-software-eng/programs/computer-science/mcompsc.html",
+   "https://www.concordia.ca/ginacody/computer-science-software-eng/programs/computer-science/doctorate.html",
+   "https://www.concordia.ca/admissions/graduate/requirements.html",
+   "https://www.concordia.ca/gradstudies/future-students/how-to-apply/programs-with-additional-requirements.html",
+   "https://www.concordia.ca/students/financial/tuition-fees/rates/grad.html",
+   "https://www.concordia.ca/students/financial/tuition-fees/rates.html",
+   "https://www.concordia.ca/students/financial/tuition-fees/university-fees.html",
+   "https://www.concordia.ca/students/financial/tuition-fees/costs.html",
+   "https://www.concordia.ca/gradstudies/future-students/finance-your-studies.html",
+   "https://www.concordia.ca/gradstudies/funding.html",
+   "https://www.concordia.ca/gradstudies/funding/entrance-awards/out-of-province-award.html",
+   "https://www.concordia.ca/faculty/jeremy-clark.html",
+   "https://www.concordia.ca/faculty/mohammad-mannan.html",
+   "https://www.concordia.ca/ginacody/computer-science-software-eng/about/faculty-members.html",
+   "https://www.concordia.ca/ginacody/computer-science-software-eng/research/expertise.html",
+   "https://www.concordia.ca/ginacody/cybersecurity-intelligent-systems-eng/programs/graduate.html",
+   "https://www.concordia.ca/academics/graduate/cybersecurity-engineering-masc.html",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2027-03-01",
+   "priority_iso": null,
+   "url": "https://www.concordia.ca/academics/graduate/computer-science-phd.html",
+   "quote": "FALL July 1 (Canadian resident) March 1 (U.S. and international)",
+   "note": "Computer Science PhD, 90 credits, 'Duration 4 years'. No year printed. 'An admission offer will not be issued until a supervisor match has been made.'"
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Jeremy Clark",
+     "on_official_page": true,
+     "title": "Associate Professor; NSERC/Raymond Chabot Grant Thornton/Catallaxy Industrial Research Chair in Blockchain Technologies",
+     "department": "Cybersecurity and Intelligent Systems Engineering (CISE, formerly CIISE); research areas incl. Cryptography & Data Security, Multiparty Computation",
+     "url": "https://www.concordia.ca/faculty/jeremy-clark.html"
+    },
+    {
+     "name": "Mohammad Mannan",
+     "on_official_page": true,
+     "title": "Professor",
+     "department": "Cybersecurity and Intelligent Systems Engineering (CISE, formerly CIISE); research areas: systems security, privacy, authentication, trusted computing (no cryptography listed)",
+     "url": "https://www.concordia.ca/faculty/mohammad-mannan.html"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 100,
+    "fee_url": "https://www.concordia.ca/ginacody/computer-science-software-eng/programs/computer-science/doctorate.html",
+    "fee_quote": "1. Submit your application and pay a $100 CAD application fee.",
+    "fee_note": "Same fee stated for all applicants; no separate domestic fee shown.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 6,
+    "letters_url": "https://www.concordia.ca/ginacody/computer-science-software-eng/programs/computer-science/doctorate.html",
+    "letters_quote": "Curriculum Vitae (CV) Three Letters of Reference and assessment form Statement of purpose",
+    "letters_note": "Grad admissions FAQ: 'Applicants may submit up to six referees during the admissions process.' (https://www.concordia.ca/admissions/graduate/requirements.html)",
+    "fee_usd": 71
+   },
+   "ms": {
+    "fee_cad": 100,
+    "fee_url": "https://www.concordia.ca/ginacody/computer-science-software-eng/programs/computer-science/mcompsc.html",
+    "fee_quote": "1. Submit your application and pay a $100 CAD application fee.",
+    "fee_note": "Same fee stated for all applicants.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 6,
+    "letters_url": "https://www.concordia.ca/ginacody/computer-science-software-eng/programs/computer-science/mcompsc.html",
+    "letters_quote": "A completed file that is ready to be assessed will include: Application form and Fee Curriculum Vitae (CV) Three Letters of Reference and assessment form",
+    "letters_note": "University rule: thesis programs require three letters; 'Applicants may submit up to six referees'.",
+    "fee_usd": 71
+   }
+  },
+  "gre_info": {
+   "policy_ms": null,
+   "policy_phd": null,
+   "policy_url": "https://www.concordia.ca/gradstudies/future-students/how-to-apply/programs-with-additional-requirements.html",
+   "policy_quote": null,
+   "policy_phd_url": "https://www.concordia.ca/academics/graduate/computer-science-phd.html",
+   "policy_phd_quote": null,
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "GRE is not mentioned on the MCompSc/PhD program pages, the CSSE department pages, or the CS entries of 'Programs with additional requirements'. The required file is CV, 3 letters, statement of purpose, transcripts, and English test scores if applicable."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official program-level or graduate-school admit statistics found on concordia.ca. Admission is conditional on a supervisor match ('An admission offer will not be issued until a supervisor match has been made')."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "Not published."
+  },
+  "phd_pathway": {
+   "value": "partial-internal",
+   "kind": "Transfer from master's to PhD after one term, on application and department recommendation",
+   "url": "https://www.concordia.ca/academics/graduate/computer-science-phd.html",
+   "quote": "After completion of a minimum of one term of full-time study in the Master's degree, they may, upon application, be recommended by the Department and approved by the GCS Associate Dean of ...",
+   "note": "Internal application plus department recommendation and Associate Dean approval."
+  },
+  "funding": {
+   "ms": {
+    "value": "TA/RA possible",
+    "also": [
+     "Merit scholarships"
+    ],
+    "detail": "Program page: 'Funding packages are generally available for students in thesis-based programs ... offered at the time of admission to most students'. SGS: supervisor/department support 'normally funds one to two years of your master's program'. No guaranteed minimum amount published. The $10,000 out-of-province award is for Canadians only, not international students.",
+    "url": "https://www.concordia.ca/gradstudies/future-students/finance-your-studies.html",
+    "quote": "If you are accepted into a research-based master's or PhD program, you normally receive financial support from your faculty supervisor or department. This support normally funds one to two years ..."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "Support normally funds four years of the PhD, but no minimum amount is published. All U.S./international PhD students receive the Concordia International Tuition Award of Excellence on admission. The 2026-27 rate page shows intl PhD tuition of $638.76/credit, while 'All PhD programs Québec residents & Non-Québec residents rate' is $103.92/credit.",
+    "url": "https://www.concordia.ca/gradstudies/future-students/finance-your-studies.html",
+    "quote": "This support normally funds one to two years of your master's program or four years of your PhD program. All U.S. and international PhD students are awarded a Concordia International Tuition ..."
+   }
+  },
+  "shared_faculty_note": "Below the dblp threshold: Jeremy Clark (CIISE; 1 ASIACRYPT paper; blockchain, e-voting) and Mohammad Mannan (CIISE; systems security).",
+  "phd_direct": {
+   "note": "University-wide minimum requirements: 'If you have an outstanding academic record in your bachelor's degree and have demonstrated that you can conduct doctoral-level research, you may be eligible for direct-entry to the PhD.' But the CS PhD page says: 'Holders of a bachelor's degree will, in general, be considered for admission to a master's program only.'",
+   "url": "https://www.concordia.ca/admissions/graduate/requirements.html"
+  }
+ },
+ {
+  "school": "Simon Fraser University",
+  "short": "Simon Fraser University",
+  "csrankings_name": null,
+  "city": "Burnaby",
+  "state": "BC",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "Master of Science (MSc) in Computing Science, Thesis Option, School of Computing Science",
+   "url": "https://www.sfu.ca/fas/study/future-graduates/programs/master-science-thesis.html",
+   "length": "Under normal circumstances, an MSc program should be completed within six semesters.",
+   "years": 2,
+   "years_note": "Six terms (3 terms per year) = 2 years. FAS FAQ: 'The expected time to finish the MSc program is 5 to 6 semesters (within two years).' The Fall 2026 calendar says 'Students are expected to complete the program requirements in six terms.'",
+   "thesis": "yes",
+   "thesis_quote": "The Master of Science (MSc) in Computing Science is a research-intensive program that has a primary emphasis on the MSc thesis. The program consists of coursework and a thesis, totaling a minimum ...",
+   "thesis_source": "https://www.sfu.ca/fas/study/future-graduates/programs/master-science-thesis.html",
+   "tuition_basis": "Research-based ('regular') program tuition, 2026-2027 academic year: 'Regular Full-time Fee Tuition: $2,192.57 per term', charged for the first six completed terms of a master's, then $1,096.29 continuing fee. 6 x 2,192.57 = 13,155.42 CAD. Same rate for domestic and international (FAS FAQ: tuition 'is the same for domestic and international students'). Excludes ancillary fees. Fall 2027 rate not yet published; current students' fees may rise up to 6%/yr. Incidental fees CA$1,359.63/yr are counted in the realistic cost.",
+   "tuition_url": "https://www.sfu.ca/gradstudies/apply/tuition-and-fees/tuition-types.html",
+   "fees_cad_per_year": 1359.63,
+   "fees_url": "https://www.sfu.ca/students/financial-aid/plan/typical-costs/",
+   "deadline_iso": "2027-01-19",
+   "priority_iso": null,
+   "deadline_note": "FAS Computing Science graduate admissions page, 'M.Sc. & Ph.D.': 'Fall 2027 (September) October 1, 2026 January 19, 2027' (year printed). Spring 2027 intake deadline was August 7, 2026. The same page still says extensions to 'the January 19, 2026 application deadline for the Fall 2026 intake' may be considered case by case.",
+   "deadline_url": "https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html",
+   "gre": "Not required: 'Are GRE scores required? No, they are not.'",
+   "total_tuition_cad": 13155.42,
+   "total_tuition_usd": 9321,
+   "deadline_fall2027": "2027-01-19",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": 28941,
+   "health_cad": 900,
+   "url": "https://www.sfu.ca/students/financial-aid/plan/typical-costs/",
+   "quote": "Graduate Estimated Costs ... International students ... Textbooks, technology and supplies $1,200 Residence (Hamilton Hall) $4,720 ... BC Medical Services Plan (Primary Medical Insurance) $300 ...",
+   "basis": "SFU 'Typical costs', 2026/27 per-term (4 months) costs for international graduate students: books/supplies 1,200 + residence (Hamilton Hall) 4,720 + meal plan 3,727 = 9,647 per term x 3 terms = 28,941 for 12 months. Transport is covered by the U-Pass inside supplementary fees ($453.21/term). Personal expenses are not listed. Health: BC MSP $300 per term x 3 = 900. The Student Society Health and Dental plan ($591.88 per year, normally paid each September) is extra. guard.me@sfu short-term insurance before MSP eligibility is required but not priced.",
+   "living_usd": 20507,
+   "health_usd": 638,
+   "fees_cad": 1359.63,
+   "fees_usd": 963
+  },
+  "alt_programs": [
+   {
+    "name": "Master of Cybersecurity (Professional Master's in Computer Science)",
+    "url": "https://www.sfu.ca/students/calendar/2027/spring/programs/cybersecurity/master-of-cybersecurity.html",
+    "note": "Course-based professional master's, not funded: 'Professional Master's students are not funded by the School.' Fall 2027 deadline January 19, 2027."
+   },
+   {
+    "name": "Master of Science in Big Data (Professional Master's)",
+    "url": "https://www.sfu.ca/students/calendar/2027/spring/programs/big-data/master-of-science.html",
+    "note": "Course-based professional master's; not funded."
+   }
+  ],
+  "research_fit_note": "Thesis MSc is five graduate courses (15 units) plus CMPT 898 thesis (18 units); the thesis proposal is due by the end of the third term. Of the 107 SFU Computing faculty, associate, adjunct and emeriti profiles loaded, only Sze Yiu Chau's mentions cryptography ('Protocol and Cryptography Engineering', an applied/protocol-analysis angle). Theory-adjacent: Valentine Kabanets (complexity theory, pseudorandomness, circuit lower bounds).",
+  "notes": "Tuition is unusually low and the same for international students: about $6.6k per year for a research MSc. With a $24k/yr MSc minimum, this is the best-funded master's of the four. Two intakes (Fall, Spring). No SFU faculty met the dblp threshold.",
+  "sources": [
+   "https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html",
+   "https://www.sfu.ca/fas/study/future-graduates/faq.html",
+   "https://www.sfu.ca/fas/study/future-graduates/programs/master-science-thesis.html",
+   "https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing.html",
+   "http://www.sfu.ca/students/calendar/2026/fall/programs/computing-science/doctor-of-philosophy.html",
+   "https://www.sfu.ca/students/calendar/2026/fall/programs/computing-science/master-of-science.html",
+   "https://www.sfu.ca/fas/computing/current-students/graduates/financial-support-scholarships.html",
+   "https://www.sfu.ca/gradstudies/apply/tuition-and-fees/tuition-types.html",
+   "https://www.sfu.ca/students/calendar/2027/spring/fees-and-regulations/tuition-fees/graduate.html",
+   "https://www.sfu.ca/students/financial-aid/plan/typical-costs/",
+   "https://www.sfu.ca/gradstudies/apply/applying.html",
+   "https://www.sfu.ca/fas/computing/people/faculty.html",
+   "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/sze-yiu-chau.html",
+   "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/valentine-kabanets.html",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2027-01-19",
+   "priority_iso": null,
+   "url": "https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html",
+   "quote": "M.Sc. & Ph.D. ... Fall 2027 (September) October 1, 2026 January 19, 2027",
+   "note": "Same deadline as the MSc. Spring (January) intake is also offered. PhD: 'Students are expected to complete the program requirements in 12 to 15 terms (4 to 5 years).'"
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Sze Yiu Chau",
+     "on_official_page": true,
+     "title": "Associate Professor",
+     "department": "School of Computing Science; Research Interests: Network Security and Privacy, Protocol and Cryptography Engineering, Usable Security and Privacy",
+     "url": "https://www.sfu.ca/fas/computing/people/faculty/faculty-members/sze-yiu-chau.html"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 160,
+    "fee_url": "https://www.sfu.ca/gradstudies/apply/applying.html",
+    "fee_quote": "Application Fees are $112 for applicants with Canadian transcripts, $160 for applicants with international transcripts.",
+    "fee_note": "Fee depends on where the transcripts are from, not citizenship. A US citizen with US (UC Davis) transcripts pays $160; Canadian-transcript applicants pay $112.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html",
+    "letters_quote": "Online application form All post-secondary transcripts CV/Resume Three letters of recommendation Statement of purpose",
+    "letters_note": "Same list for MSc thesis and PhD. FAQ: 'we would prefer at least one academic reference'.",
+    "fee_usd": 113
+   },
+   "ms": {
+    "fee_cad": 160,
+    "fee_url": "https://www.sfu.ca/gradstudies/apply/applying.html",
+    "fee_quote": "Application Fees are $112 for applicants with Canadian transcripts, $160 for applicants with international transcripts.",
+    "fee_note": "US transcripts are international transcripts, so $160.",
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 3,
+    "letters_url": "https://www.sfu.ca/fas/study/future-graduates/apply/computing-science.html",
+    "letters_quote": "Each application must include all of the following: Online application form All post-secondary transcripts CV/Resume Three letters of recommendation Statement of purpose",
+    "letters_note": null,
+    "fee_usd": 113
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_phd": "not required",
+   "policy_url": "https://www.sfu.ca/fas/study/future-graduates/faq.html",
+   "policy_quote": "Are GRE scores required? No, they are not.",
+   "policy_phd_url": "https://www.sfu.ca/fas/study/future-graduates/faq.html",
+   "policy_phd_quote": "Are GRE scores required? No, they are not.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "The FAQ answer covers the Computing Science graduate programs (MSc thesis and PhD)."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official admit statistics found on sfu.ca. The department says only 'Admission to the graduate programs in computer science is competitive: only the best qualified applicants are offered a seat.' An offer needs an available supervisor ('in order to receive admission a faculty member must be available to act as your supervisor')."
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "Not published."
+  },
+  "phd_pathway": {
+   "value": "partial-internal",
+   "kind": "Transfer from MSc to PhD (GGR 1.3.7b)",
+   "url": "http://www.sfu.ca/students/calendar/2026/fall/programs/computing-science/doctor-of-philosophy.html",
+   "quote": "As per GGR 1.3.7b, students enrolled in the MSc program may apply to transfer to the doctor of philosophy (PhD) program after two terms and normally before the seventh term.",
+   "note": "Requires CGPA of 3.5 or above, 75% of master's coursework completed, and evidence of capacity for substantial original research. An internal transfer application, not a new admission."
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "Department minimum for thesis MSc: $24,000 per year for two years (RA from supervisor grants + TA). No international/domestic distinction stated. Conditions: satisfactory progress; terms set in the offer letter.",
+    "url": "https://www.sfu.ca/fas/computing/current-students/graduates/financial-support-scholarships.html",
+    "quote": "The School of Computing Science provides generous support to thesis based PhD and MSc students. Minimum funding levels are as follows: PhD - $30,000 per year for four years MSc - $24,000 per year ..."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "Department minimum $30,000 per year for four years, including '$9,000 in Graduate Fellowships (GF) per year' as part of the funding promise. Program page: 'Every PhD student is guaranteed a minimum funding of $30,000 per year for four years.'",
+    "url": "https://www.sfu.ca/fas/computing/current-students/graduates/financial-support-scholarships.html",
+    "quote": "PhD - $30,000 per year for four years"
+   }
+  },
+  "shared_faculty_note": "No SFU faculty met the dblp threshold.",
+  "phd_direct": {
+   "note": "'Direct-entry Track: a bachelor's (but not master's) degree in Computing Science or related field ... Direct-entry PhD applicants should have obtained a cumulative grade point average of at least 3.5/4.33, or a grade point average of at least 3.67/4.33 (A-) based on the last 60 units of undergraduate courses.' Direct-entry students take four additional graduate courses.",
+   "url": "https://www.sfu.ca/fas/study/future-graduates/programs/phd-computing.html"
+  }
+ },
+ {
+  "school": "University of Alberta",
+  "short": "University of Alberta",
+  "csrankings_name": null,
+  "city": "Edmonton",
+  "state": "AB",
+  "region": "Canada",
+  "country": "Canada",
+  "fx": {
+   "usd_cad": 1.4113,
+   "date": "2026-11-06",
+   "source": "Bank of Canada daily rate",
+   "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  },
+  "n_professors": 0,
+  "professors": [],
+  "program": {
+   "name": "M.Sc. in Computing Science (thesis-based), Department of Computing Science",
+   "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/msc-program/index.html",
+   "length": "M.Sc. students are encouraged to finish their Master's program within 2 years.",
+   "years": 2,
+   "years_note": "Department M.Sc. requirements page: 'encouraged to finish ... within 2 years'. Department funding covers 'up to the first five terms (2 Fall, 2 Winter and 1 Summer term)'.",
+   "thesis": "yes",
+   "thesis_quote": "Thesis-Based Masters: Based on research from their chosen area, these M.Sc. students are expected to write a thesis.",
+   "thesis_source": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/msc-program/index.html",
+   "tuition_basis": "International students admitted Fall 2026 to Summer 2027, thesis-based programs with standard fees: 'Full-Time Yearly Program Fee ... $10,518.72' (the same figure was charged to the Fall 2025 cohort). 2 years x 10,518.72 = 21,037.44 CAD. The rate is guaranteed in the admission letter. The Fall 2027 cohort rate is not yet posted, but the tuition page says 'Thesis-based graduate tuition levels will be reduced by 5.5 per cent in Fall 2027' (about $9,940/yr if applied to this rate; not published). Excludes non-instructional fees. Incidental fees CA$1,549.58/yr are counted in the realistic cost.",
+   "tuition_url": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html",
+   "fees_cad_per_year": 1549.58,
+   "fees_url": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html",
+   "fees_note_basis": "Fall/Winter 2026-27 full-time on-campus non-instructional fees: Fall total $1474.79 + Winter $774.79 (excluding winter-only health/dental) = 2,249.58, minus the opt-out GSA Health ($400) and Dental ($300) = 1,549.58. Includes U-Pass $182.50/term. Spring/Summer fees not included.",
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "deadline_note": "Department page, 'Fall 2027 Graduate Admission Deadlines': 'October 15, 2026 December 15, 2026 MSc Thesis Open' (year printed). 'January 15th, 2027 - Documents such as transcripts, degree certificates, ELP tests should all be uploaded by this deadline. Late applications may be considered at the discretion of the graduate admissions committee.' Single Fall intake only.",
+   "deadline_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+   "gre": "Not required; recommended for non-Canadian degrees: 'The GRE (General) is NOT required for application to our graduate programs, however it is highly recommended for applicants who have received their degree outside of Canada.'",
+   "total_tuition_cad": 21037.44,
+   "total_tuition_usd": 14906,
+   "deadline_fall2027": "2026-12-15",
+   "funding_note": null
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 12,
+   "living_cad": null,
+   "health_cad": 400,
+   "url": "https://www.ualberta.ca/en/international/international-student-services/settlement-services/health-wellness/index.html",
+   "quote": "If you have a study permit valid for at least 12 months and will be in Alberta for at least 183 days in a year, apply for the Alberta Health Care Insurance Plan (AHCIP). It provides free basic ...",
+   "basis": "No official University of Alberta cost-of-living or budget figure for graduate students was found. The FGPS 'Cost of Living Comparison' page gives only city comparisons (average 1-bedroom rent in Edmonton $1,332/month), and the only itemized UAlberta budget is the MBA program's 2025-26 PDF, so living_cad is null. Health: basic AHCIP is free for international students with a study permit of 12+ months. Full-time students are auto-enrolled (opt-out allowed) in the GSA supplementary Health Plan, which is is '$400.00 (Combined Fall and Winter)', which gives 12-month coverage, and the GSA Dental Plan is $300.00 (non-instructional fees page, Fall/Winter 2026-27). health_cad = 400 (health only; 700 with dental).",
+   "living_usd": null,
+   "health_usd": 283,
+   "fees_cad": 1549.58,
+   "fees_usd": 1098
+  },
+  "alt_programs": [
+   {
+    "name": "M.Sc. / Ph.D. in Statistical Machine Learning (Computing Science)",
+    "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/statistical-machine-learning.html",
+    "note": "No direct M.Sc. admission: 'M.Sc. students are admitted into the mainstream Masters program but can apply to transfer to the Statistical Machine Learning program'."
+   },
+   {
+    "name": "M.Sc. in Multimedia (course-based)",
+    "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "note": "Course-based; Fall 2027 window October 1, 2026 to January 31, 2027. The general course-based M.Sc. in Computing Science is 'DISCONTINUED INDEFINITELY'."
+   }
+  ],
+  "research_fit_note": "The thesis M.Sc. requires 4 graduate courses plus a thesis. The department's Privacy and Security area page lists no one under 'cryptography' as such; the closest topics are Multiparty Computation (Kacsmar) and Homomorphic Encryption (Omid Ardakanian, Euijin Choo). The Algorithmics group (Friggstad, Salavatipour, et al.) does approximation and graph algorithms, not crypto. CMPUT 331 Computational Cryptography is undergraduate.",
+  "notes": "Kacsmar's directory entry: 'technical solutions for private computation (privacy in machine learning and private set intersections) alongside the corresponding user perceptions'. Applicants name up to 3 potential supervisors and are admitted only if a professor agrees to supervise. The Dec 15, 2026 deadline is the earliest of the four schools. Below the dblp threshold: Bailey Kacsmar (2 USENIX Security papers on private set intersection / private inference; usable privacy).",
+  "sources": [
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/frequently-asked-questions.html",
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/msc-program/index.html",
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/msc-program/msc-requirements1.html",
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/phd-program/index.html",
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/phd-program/phd-requirements.html",
+   "https://www.ualberta.ca/en/computing-science/graduate-studies/financial-support-and-awards/index.html",
+   "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/index.html",
+   "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/instructional-fees-international.html",
+   "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/international-tuition-framework.html",
+   "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/non-instructional.html",
+   "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/cost-of-living-comparison.html",
+   "https://www.ualberta.ca/en/international/international-student-services/settlement-services/health-wellness/index.html",
+   "https://www.ualberta.ca/en/computing-science/research/research-areas/privacy-security.html",
+   "https://www.ualberta.ca/en/computing-science/research/research-areas/algorithmics.html",
+   "https://apps.ualberta.ca/directory/person/kacsmar",
+   "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=3"
+  ],
+  "fit_score": 0,
+  "fit_profs": [],
+  "phd": {
+   "deadline_iso": "2026-12-15",
+   "priority_iso": null,
+   "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+   "quote": "October 15, 2026 December 15, 2026 PhD Open",
+   "note": "Same window as the M.Sc. thesis program; documents due January 15, 2027. Admission requires a professor who agrees to supervise. PhD timeline: 'encouraged to finish their Doctorate program within 5 years.'"
+  },
+  "ms_phd": {},
+  "extra_checks": {
+   "faculty_checks": [
+    {
+     "name": "Bailey Kacsmar",
+     "on_official_page": true,
+     "title": "Assistant Professor (Amii fellow)",
+     "department": "Faculty of Science - Computing Science; listed on the department's Privacy and Security research area (Multiparty Computation, Privacy in ML, Usable Privacy, Federated Learning)",
+     "url": "https://apps.ualberta.ca/directory/person/kacsmar"
+    }
+   ]
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_cad": 135,
+    "fee_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "fee_quote": "Fall 2026 Admission Fees Online Application System Fee GPS $135 CAD",
+    "fee_note": "Same fee for all applicants (labelled 'Fall 2026 Admission Fees' on the page that lists Fall 2027 deadlines). FAQ: 'there is a non-refundable application fee of $135 CAD'.",
+    "fee_waiver": "The University no longer offers fee exemptions; the department funds waivers for 'a small number of students from underdeveloped countries' (2027/28 Fee Waiver Application). Not applicable to a US citizen.",
+    "fee_waiver_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 6,
+    "letters_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "letters_quote": "Applicants must submit three reference names and emails for their application to be completed. ... Two of the referees should hold academic positions",
+    "letters_note": "'If an applicant wishes to update or change reference information, they may submit up to three additional references as needed.'",
+    "fee_usd": 96
+   },
+   "ms": {
+    "fee_cad": 135,
+    "fee_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "fee_quote": "Fall 2026 Admission Fees Online Application System Fee GPS $135 CAD",
+    "fee_note": "Same fee for all applicants.",
+    "fee_waiver": "Department waivers only for applicants from underdeveloped countries.",
+    "fee_waiver_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "letters": 3,
+    "letters_min": 3,
+    "letters_max": 6,
+    "letters_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+    "letters_quote": "Applicants must submit three reference names and emails for their application to be completed.",
+    "letters_note": "Up to three additional references may be submitted.",
+    "fee_usd": 96
+   }
+  },
+  "gre_info": {
+   "policy_ms": "optional",
+   "policy_phd": "optional",
+   "policy_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/index.html",
+   "policy_quote": "The GRE (General) is NOT required for application to our graduate programs, however it is highly recommended for applicants who have received their degree outside of Canada.",
+   "policy_phd_url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/applications-and-admissions/frequently-asked-questions.html",
+   "policy_phd_quote": "The GRE test is not required. However, for applicants who have obtained their degree outside of Canada, we highly recommend taking the GRE General.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "unofficial": null,
+   "note": "No averages published, but the department posts 'the minimum scores of strong applicants who choose to write the GRE: ... Quantitative 155, Analytical writing section 4.0'. Sahmoud's degree is from the US (UC Davis), so the recommendation aimed at degrees from outside Canada applies to him on its face."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "No official admit statistics found. The department says 'Admission to the M.Sc. program is highly competitive' and 'Students will only be admitted if a professor agrees to supervise.'"
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "unofficial": null,
+   "note": "Not published."
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "Fast Track to a Ph.D.: upgrade from M.Sc. to Ph.D. without completing the M.Sc.",
+   "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/msc-program/index.html",
+   "quote": "An outstanding student admitted may be eligible to upgrade their status to the Ph.D. program without completing the M.Sc.",
+   "note": "Conditions: interest in the PhD, 'the student's performance during the first year of the M.Sc. program lends sufficient and tangible evidence of their superb ability in courses and in research and there is strong support from at least two faculty members in the Department.' No reapplication is mentioned."
+  },
+  "funding": {
+   "ms": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible"
+    ],
+    "detail": "Minimum $30,800 for full-time thesis M.Sc., through TA (Sept-Apr) plus RA (May-Aug), for up to the first five terms. 'International students receive (through their supervisor grants and other funds) an extra funding component to off-set higher tuition fees.' Exact amounts are in the funding letter.",
+    "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/financial-support-and-awards/index.html",
+    "quote": "The minimum funding for all full time M.Sc. and Ph.D. students are $30,800 and $31,800, respectively."
+   },
+   "phd": {
+    "value": "Funded",
+    "also": [
+     "TA/RA possible",
+     "Merit scholarships"
+    ],
+    "detail": "Minimum $31,800 for full-time Ph.D., for up to the first 11 terms (4 Fall, 4 Winter, 3 Summer), plus an extra component for international students to offset tuition. Killam awards ($35,000/yr + differential fee for international students) are open to international students.",
+    "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/financial-support-and-awards/index.html",
+    "quote": "For Ph.D. students, the assistantships are for up to the first 11 terms (4 Fall, 4 Winter and 3 Summer terms) subject to satisfactory academic performance"
+   }
+  },
+  "shared_faculty_note": "Below the dblp threshold: Bailey Kacsmar (2 USENIX Security papers on private set intersection / private inference; usable privacy).",
+  "phd_direct": {
+   "note": "'Applicants for the Ph.D. in Computing Science must have an M.Sc. degree in Computing Science or a related field. Exceptionally qualified applicants having the equivalent of a First-Class Honors B.Sc. degree may be admitted directly to the Ph.D. program when supported by a computing science faculty supervisor.'",
+   "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/phd-program/index.html"
+  }
  }
 ]
