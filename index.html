@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Crypto Grad Paths</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e3e3e0;--accent:#2f5bea;--good:#1f8a4c;--warn:#b26a00;--bad:#c0392b;--chip:#eef1fb}
+@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#9a9aa2;--line:#2e2e33;--accent:#7b9bff;--chip:#262b3d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:20px 16px 8px;max-width:1200px;margin:0 auto}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--muted);font-size:13px}
+nav{display:flex;gap:6px;max-width:1200px;margin:10px auto 0;padding:0 16px}
+nav button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer;font-size:14px}
+nav button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{max-width:1200px;margin:0 auto;padding:12px 16px 40px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.controls input,.controls select{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:14px}
+.controls input{flex:1;min-width:180px}
+.count{color:var(--muted);font-size:13px;margin-bottom:8px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.title{font-weight:650;font-size:16px}
+.title a{color:inherit;text-decoration:none}
+.title a:hover{text-decoration:underline}
+.meta{color:var(--muted);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.chip{background:var(--chip);border-radius:999px;padding:2px 9px;font-size:12px}
+.chip.good{background:rgba(31,138,76,.15);color:var(--good)}
+.chip.warn{background:rgba(178,106,0,.15);color:var(--warn)}
+.chip.bad{background:rgba(192,57,43,.15);color:var(--bad)}
+.kv{display:grid;grid-template-columns:140px 1fr;gap:4px 12px;font-size:13.5px;margin-top:6px}
+.kv div:nth-child(odd){color:var(--muted)}
+details{margin-top:8px}
+summary{cursor:pointer;color:var(--accent);font-size:13px}
+ul.profs{margin:6px 0 0;padding-left:18px;font-size:13.5px}
+ul.profs li{margin:2px 0}
+.small{font-size:12px;color:var(--muted)}
+a{color:var(--accent)}
+.method{white-space:pre-wrap;font-size:13px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+@media (max-width:600px){.kv{grid-template-columns:1fr}.kv div:nth-child(odd){margin-top:6px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Crypto Grad Paths</h1>
+  <div class="sub">US master's programs that lead into cryptography research, and Summer 2027 crypto research internships. Data gathered 2026-11-06 from official pages; every field links its source. Blank = not confirmed.</div>
+</header>
+<nav>
+  <button id="t-ms" class="on">Master's programs</button>
+  <button id="t-in">Internships</button>
+  <button id="t-me">How this was built</button>
+</nav>
+<main>
+  <section id="ms">
+    <div class="controls">
+      <input id="ms-q" placeholder="Search school, professor, topic…">
+      <select id="ms-region"><option value="">All regions</option></select>
+      <select id="ms-thesis"><option value="">Thesis: any</option><option value="yes">Thesis option: yes</option></select>
+      <select id="ms-sort">
+        <option value="profs">Sort: most crypto professors</option>
+        <option value="core">Sort: most theory (CRYPTO/EUROCRYPT/TCC…) papers</option>
+        <option value="deadline">Sort: earliest deadline</option>
+        <option value="cost">Sort: lowest tuition</option>
+      </select>
+    </div>
+    <div class="count" id="ms-count"></div>
+    <div id="ms-list"></div>
+  </section>
+  <section id="in" hidden>
+    <div class="controls">
+      <input id="in-q" placeholder="Search org, program, area…">
+      <select id="in-cat"><option value="">All categories</option></select>
+      <select id="in-ms"><option value="">MS eligible: any</option><option value="yes">MS students eligible</option></select>
+      <select id="in-diff"><option value="">Difficulty: any</option></select>
+      <select id="in-sort">
+        <option value="reach">Sort: most reachable first</option>
+        <option value="prestige">Sort: most prestigious first</option>
+      </select>
+    </div>
+    <div class="count" id="in-count"></div>
+    <div id="in-list"></div>
+  </section>
+  <section id="me" hidden>
+    <h3>Master's programs</h3><div class="method" id="me-ms"></div>
+    <h3>Internships</h3><div class="method" id="me-in"></div>
+  </section>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const link=(u,t)=>u&&/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t||'source')}</a>`:esc(t||'');
+const money=n=>n==null?'':'$'+Math.round(n).toLocaleString();
+let S=[],I=[];
+function tab(id){for(const t of ['ms','in','me']){$('#'+t).hidden=t!==id;$('#t-'+t).classList.toggle('on',t===id)}try{localStorage.setItem('tab',id)}catch(e){}}
+$('#t-ms').onclick=()=>tab('ms');$('#t-in').onclick=()=>tab('in');$('#t-me').onclick=()=>tab('me');
+function coreCount(s){return (s.professors||[]).reduce((a,p)=>a+(p.papers_core_iacr_joc||0),0)}
+function renderMS(){
+  const q=$('#ms-q').value.toLowerCase(),r=$('#ms-region').value,th=$('#ms-thesis').value,so=$('#ms-sort').value;
+  let L=S.filter(s=>(!r||s.region===r)&&(!th||(s.program&&s.program.thesis===th))&&(!q||JSON.stringify([s.school,s.city,s.professors,s.program&&s.program.name]).toLowerCase().includes(q)));
+  const key={profs:s=>-(s.n_professors||0),core:s=>-coreCount(s),deadline:s=>(s.program&&s.program.deadline_fall2027)||'9999',cost:s=>(s.program&&s.program.total_tuition_usd)??1e12}[so];
+  L.sort((a,b)=>{const x=key(a),y=key(b);return x<y?-1:x>y?1:0});
+  $('#ms-count').textContent=`${L.length} of ${S.length} schools`;
+  $('#ms-list').innerHTML=L.map(s=>{const p=s.program||{};
+    const profs=(s.professors||[]).slice().sort((a,b)=>(b.papers||0)-(a.papers||0)).map(x=>`<li>${link(x.homepage||x.dblp,x.name)} <span class="small">· ${x.papers||0} papers (${x.papers_core_iacr_joc||0} theory venues) · ${esc((x.topics||[]).join(', '))} · ${link(x.dblp,'dblp')}</span></li>`).join('');
+    return `<div class="card">
+      <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
+      <div class="chips"><span class="chip">${s.n_professors} crypto professor${s.n_professors==1?'':'s'}</span><span class="chip">${coreCount(s)} theory-venue papers 2021-25</span>${p.thesis==='yes'?'<span class="chip good">thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no thesis option</span>':''}</div>
+      <div class="kv">
+        <div>Program</div><div>${link(p.url,p.name||'(not found)')}</div>
+        <div>Length</div><div>${esc(p.length||'')}</div>
+        <div>Total tuition</div><div>${money(p.total_tuition_usd)} ${p.tuition_url?'· '+link(p.tuition_url,'tuition page'):''}<div class="small">${esc(p.tuition_basis||'')}</div></div>
+        <div>Fall 2027 deadline</div><div>${esc(p.deadline_fall2027||'')} ${p.deadline_url?'· '+link(p.deadline_url,'source'):''}<div class="small">${esc(p.deadline_note||'')}</div></div>
+        <div>GRE</div><div>${esc(p.gre||'')}</div>
+        <div>App fee</div><div>${money(p.app_fee_usd)}</div>
+        <div>Funding</div><div>${esc(p.funding_note||'')}</div>
+      </div>
+      ${s.research_fit_note?`<div class="small" style="margin-top:8px">${esc(s.research_fit_note)}</div>`:''}
+      ${s.notes?`<div class="small" style="margin-top:4px">${esc(typeof s.notes==='string'?s.notes:JSON.stringify(s.notes))}</div>`:''}
+      <details><summary>Professors (${(s.professors||[]).length})</summary><ul class="profs">${profs}</ul></details>
+    </div>`}).join('');
+}
+const reachRank={'Reachable':0,'Moderate':1,'Hard':2,'Very hard':3};
+const prestRank={'Top':0,'Strong':1,'Good':2};
+function diffChip(d){const c={'Reachable':'good','Moderate':'good','Hard':'warn','Very hard':'bad'}[d]||'';return `<span class="chip ${c}">${esc(d||'?')} for you</span>`}
+function renderIN(){
+  const q=$('#in-q').value.toLowerCase(),c=$('#in-cat').value,ms=$('#in-ms').value,d=$('#in-diff').value,so=$('#in-sort').value;
+  let L=I.filter(x=>(!c||x.category===c)&&(!ms||x.ms_students_eligible===ms)&&(!d||x.difficulty_for_sahmoud===d)&&(!q||JSON.stringify([x.org,x.program_name,x.focus_area,x.location]).toLowerCase().includes(q)));
+  const k=so==='reach'?x=>[reachRank[x.difficulty_for_sahmoud]??9,prestRank[x.prestige_tier]??9]:x=>[prestRank[x.prestige_tier]??9,reachRank[x.difficulty_for_sahmoud]??9];
+  L.sort((a,b)=>{const x=k(a),y=k(b);return x[0]-y[0]||x[1]-y[1]});
+  $('#in-count').textContent=`${L.length} of ${I.length} programs`;
+  $('#in-list').innerHTML=L.map(x=>`<div class="card">
+    <div class="row"><div class="title">${link(x.url,(x.org||'')+' · '+(x.program_name||''))}</div><div class="meta">${esc(x.location||'')}</div></div>
+    <div class="chips"><span class="chip">${esc(x.category||'')}</span><span class="chip">${esc(x.prestige_tier||'?')} prestige</span>${diffChip(x.difficulty_for_sahmoud)}<span class="chip ${x.ms_students_eligible==='yes'?'good':x.ms_students_eligible==='no'?'bad':'warn'}">MS eligible: ${esc(x.ms_students_eligible||'unclear')}</span></div>
+    <div class="kv">
+      <div>Area</div><div>${esc(x.focus_area||'')}</div>
+      <div>Deadline</div><div>${esc(x.deadline_summer_2027||'not posted yet')}<div class="small">${esc(x.deadline_last_year_or_typical_window||'')}</div></div>
+      <div>Paper required?</div><div>${esc(x.publications_expected||'')}</div>
+      <div>Letters?</div><div>${esc(x.letters_of_recommendation||'')}</div>
+      <div>Eligibility</div><div>${esc(x.eligibility||'')}</div>
+      <div>Pay</div><div>${esc(x.pay||'')}</div>
+      <div>Why this prestige</div><div>${esc(x.prestige_justification||'')}</div>
+      <div>My honest read</div><div>${esc(x.difficulty_reason||'')}</div>
+    </div>
+    ${x.notes?`<div class="small" style="margin-top:6px">${esc(typeof x.notes==='string'?x.notes:JSON.stringify(x.notes))}</div>`:''}
+  </div>`).join('');
+}
+function opts(sel,vals){const s=$(sel);[...new Set(vals.filter(Boolean))].sort().forEach(v=>s.insertAdjacentHTML('beforeend',`<option>${esc(v)}</option>`))}
+Promise.all(['schools.json','internships.json','methodology.md','internships_method.md'].map(f=>fetch(f).then(r=>f.endsWith('json')?r.json():r.text()))).then(([s,i,m1,m2])=>{
+  S=s;I=i;opts('#ms-region',S.map(x=>x.region));opts('#in-cat',I.map(x=>x.category));opts('#in-diff',I.map(x=>x.difficulty_for_sahmoud));
+  $('#me-ms').textContent=m1;$('#me-in').textContent=m2;
+  ['#ms-q','#ms-region','#ms-thesis','#ms-sort'].forEach(id=>$(id).addEventListener('input',renderMS));
+  ['#in-q','#in-cat','#in-ms','#in-diff','#in-sort'].forEach(id=>$(id).addEventListener('input',renderIN));
+  renderMS();renderIN();
+  try{const t=localStorage.getItem('tab');if(t)tab(t)}catch(e){}
+});
+</script>
+</body>
+</html>
