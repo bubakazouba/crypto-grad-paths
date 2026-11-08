@@ -138,20 +138,6 @@
    "notes": "MMath thesis, funded"
   },
   {
-   "id": "T9",
-   "area": "school",
-   "title": "Apply: Toronto MS (Fall 2027)",
-   "owner": "sahmoud",
-   "status": "todo",
-   "due": "2026-12-01",
-   "related": [
-    "Toronto"
-   ],
-   "added": "2026-11-08",
-   "source": "school deadline pages via crypto-grad-paths schools.json",
-   "notes": "MSc CS, funded 16 mo"
-  },
-  {
    "id": "T10",
    "area": "school",
    "title": "Apply: Cornell Tech MS (Fall 2027)",
