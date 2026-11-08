@@ -33,7 +33,7 @@
    "area": "school",
    "title": "Sample admitted MS students at the 12 shortlisted schools and record the papers they had before admission",
    "owner": "bot",
-   "status": "doing",
+   "status": "done",
    "due": null,
    "related": [
     "UIUC",
@@ -51,7 +51,7 @@
    ],
    "added": "2026-11-08",
    "source": "Sahmoud, Telegram 2026-11-08 11:00",
-   "notes": "GradCafe pass sent 11/8; real-student pass (lab pages + DBLP) in progress."
+   "notes": "Done 11/8: 29 real admits checked; ~6-8 had any pre-MS paper (mostly minor). Outside admits to regular MS: 2 of 9. Sent to Sahmoud on Telegram."
   },
   {
    "id": "T3",
