@@ -162,6 +162,7 @@ a{color:var(--accent)}
   <button role="tab" id="t-ms" data-tab="ms" aria-controls="ms" aria-selected="true"><span class="lg">Schools (PhD + MS)</span><span class="sm">Schools</span></button>
   <button role="tab" id="t-in" data-tab="in" aria-controls="in" aria-selected="false">Internships</button>
   <button role="tab" id="t-tl" data-tab="tl" aria-controls="tl" aria-selected="false"><span class="lg">Apply-by timeline</span><span class="sm">Timeline</span></button>
+  <button role="tab" id="t-td" data-tab="td" aria-controls="td" aria-selected="false">To-do</button>
   <button role="tab" id="t-or" data-tab="or" aria-controls="or" aria-selected="false">Other routes</button>
   <button role="tab" id="t-me" data-tab="me" aria-controls="me" aria-selected="false"><span class="lg">How this was built</span><span class="sm">Method</span></button>
 </nav>
@@ -184,6 +185,7 @@ a{color:var(--accent)}
     <div class="box" id="tl-list"></div>
     <p class="small">Days left are counted from today's date on your device. "Priority" = early, round-1, scholarship or full-consideration date (usually the one to hit); "Final" = last date stated. "Ask for letters" rows are the deadline minus 4 weeks, a rule of thumb, not an official date. Dates whose year was not printed on the official page were assigned to the Fall 2027 cycle; each row's note says so.</p>
   </section>
+  <section id="td" role="tabpanel" aria-labelledby="t-td" hidden><div id="td-body"></div></section>
   <section id="or" role="tabpanel" aria-labelledby="t-or" hidden><div id="or-body"></div></section>
   <section id="me" role="tabpanel" aria-labelledby="t-me" hidden>
     <h3>Schools</h3><div class="method" id="me-ms"></div>
@@ -197,8 +199,8 @@ const link=(u,t)=>u&&/^https?:/.test(u)?`<a href="${esc(u)}" target="_blank" rel
 const money=n=>n==null?'':'$'+Math.round(n).toLocaleString('en-US');
 function more(t,n=150){t=t==null?'':(typeof t==='string'?t:Object.entries(t).map(([k,v])=>k.replace(/_/g,' ')+': '+v).join(' · '));if(t.length<=n+20)return esc(t);
   return `<details class="more"><summary><span class="short">${esc(t.slice(0,n).replace(/\s+\S*$/,''))}…</span><span class="ml">more</span></summary>${esc(t)}</details>`}
-let S=[],I=[],R={},A={};
-const TABS=['ms','in','tl','or','me'];
+let S=[],I=[],R={},A={},TD={items:[]};
+const TABS=['ms','in','tl','td','or','me'];
 // ---------- his interests (research fit) ----------
 const MYTAGS=['lower bounds','memory checking','ORAM','PIR','garbling','oblivious algorithms','lattices/PQC'];
 const fitProfs=s=>(s.professors||[]).filter(p=>p.crypto_core!=='not-crypto'&&(p.research_tags||[]).some(t=>MYTAGS.includes(t)));
@@ -590,6 +592,10 @@ function topProfsHTML(){const P=[];for(const s of S)for(const p of (s.professors
   P.sort((a,b)=>b.n-a.n||(b.p.papers_core_iacr_joc||0)-(a.p.papers_core_iacr_joc||0));
   const top=P.filter(x=>x.n>=2);
   return `<h3 id="topprofs">Professors closest to your work</h3><p class="small">Ranked by how many of your topics (${esc(MYTAGS.join(', '))}) appear in their own 2021-2026 dblp paper titles. Hover a tag for the evidence titles. These are the natural PhD advisors and summer-RA hosts.</p><div class="card"><ul class="profs">${top.map(x=>`<li><b>${link(x.p.homepage||x.p.dblp,x.p.name)}</b> ${busyChip(x.p)}· ${esc(x.s.short||x.s.school)} <span class="small">(${esc(x.s.city)}${phdIso(x.s)?' · PhD deadline '+fmt(phdIso(x.s)):''})</span><div>${(x.p.research_tags||[]).map(t=>`<span class="tag${MYTAGS.includes(t)?' hit':''}" title="${esc(((x.p.tag_evidence||{})[t]||[]).map(e=>e.y+': '+e.t).join('\n'))}">${esc(t)}</span>`).join('')}</div></li>`).join('')}</ul><div class="small">${P.length-top.length} more professors match one of your topics; see each school's card.</div></div>`}
+function renderTD(){const L=(TD&&TD.items)||[];const ord={doing:0,todo:1,blocked:2,done:3};
+  const rows=L.slice().sort((a,b)=>(ord[a.status]??9)-(ord[b.status]??9)||String(a.due||'9').localeCompare(String(b.due||'9')));
+  const open=rows.filter(x=>x.status!=='done').length;
+  $('#td-body').innerHTML=`<p class="small">${open} open · ${L.length-open} done · updated ${esc(TD.updated||'')}. Tell the bot to add, change or close an item; it edits todos.json.</p><div class="tblwrap"><table class="tbl"><thead><tr><th>Status</th><th>Area</th><th>To-do</th><th>Who</th><th>Due</th><th>Applies to</th></tr></thead><tbody>${rows.map(x=>`<tr${x.status==='done'?' style="opacity:.55"':''}><td><span class="chip${x.status==='doing'?' good':x.status==='blocked'?' warn':''}">${esc(x.status)}</span></td><td>${esc(x.area)}</td><td><b>${esc(x.title)}</b>${x.notes?`<div class="small">${esc(x.notes)}</div>`:''}</td><td>${esc(x.owner)}</td><td>${x.due?esc(x.due):''}</td><td class="small">${esc((x.related||[]).join(', '))}</td></tr>`).join('')}</tbody></table></div>`}
 function renderOR(){const r=R;let h='';
   if(r.situation){h+=`<div class="card situ"><div class="title">Your situation</div><div class="kv">${r.situation.map(x=>`<div>${esc(x.label)}</div><div>${esc(x.text)} ${srcs(x.sources)}</div>`).join('')}<div>Key dates, next 6 weeks</div><div>${keyDates()}</div></div></div>`}
   h+=topProfsHTML();
@@ -620,10 +626,10 @@ function md(src){const L=src.replace(/\r/g,'').split('\n');let o='',i=0;
   return o}
 // ---------- boot ----------
 const uniq=a=>[...new Set(a.filter(Boolean))].sort().map(v=>[v,v]);
-function update(){syncCtl();renderMS();renderIN();renderTL();renderOR();writeHash(false)}
-const FILES=['schools.json','internships.json','routes.json','methodology.md','internships_method.md','admits.json'];
-Promise.all(FILES.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`${f}: HTTP ${r.status}`);return f.endsWith('json')?r.json().catch(e=>{throw new Error(`${f}: invalid JSON (${e.message})`)}):r.text()}))).then(([s,i,r,m1,m2,ad])=>{
-  S=s;I=i;R=r;A=ad;for(const x of S)x._nm=x.short||x.school;for(const x of I)x._nm=x.org+' '+x.program_name;
+function update(){syncCtl();renderMS();renderIN();renderTL();renderTD();renderOR();writeHash(false)}
+const FILES=['schools.json','internships.json','routes.json','methodology.md','internships_method.md','admits.json','todos.json'];
+Promise.all(FILES.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`${f}: HTTP ${r.status}`);return f.endsWith('json')?r.json().catch(e=>{throw new Error(`${f}: invalid JSON (${e.message})`)}):r.text()}))).then(([s,i,r,m1,m2,ad,td])=>{
+  S=s;I=i;R=r;A=ad;TD=td;for(const x of S)x._nm=x.short||x.school;for(const x of I)x._nm=x.org+' '+x.program_name;
   buildCtl($('#ms-ctl'),[['q','ms.q','Search school, professor, topic (e.g. ORAM, memory checking)'],['ck','ms.my','My shortlist'],['ck','ms.ff','Fully funded'],['ck','ms.pyes','PhD pathway: Yes'],['ck','ms.fund','Has MS funding']],[['m','ms.country','Country',[['US','US'],['Canada','Canada']]],['m','ms.region','Region',uniq(S.map(x=>x.region))],['m','ms.thesis','MS thesis',[['yes','yes'],['research track','research track'],['no','no'],['unknown','unknown']]],['m','ms.route','Route / cost',[['phd','PhD-direct is the route'],['ms','Has an MS to apply to'],['funded','Funded MS track'],['ca','CA public (resident tuition)'],['base','My current program']]],
     ['ck','ms.msonly','MS-only programs (apply as an MS student)'],['ck','ms.nobusy','Hide schools where all my-topic professors are majorly busy elsewhere'],['sel','ms.sort','',MSCOLS.map(c=>[c.k,'Sort: '+c.sortLabel])],['view','ms.view']]);
   buildCtl($('#in-ctl'),[['q','in.q','Search org, program, area, gate…'],['ck','in.my','My shortlist']],[['m','in.track','Track',TRACKS],['m','in.letters','Letters required',[['yes','yes'],['optional','optional'],['no','no'],['unclear','unclear / not stated']]],['m','in.elig','MS eligible',[['yes','yes'],['unclear','unclear'],['no','no']]],['m','in.status','Status',[['open','open'],['rolling','rolling'],['not yet posted','not yet posted'],['closed','closed']]],

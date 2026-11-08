@@ -1,0 +1,71 @@
+{
+ "schema": {
+  "version": 1,
+  "fields": {
+   "id": "T<n>, stable",
+   "area": "cv | school | internship | letters | research | other",
+   "title": "what needs doing",
+   "owner": "sahmoud | bot",
+   "status": "todo | doing | done | blocked",
+   "due": "YYYY-MM-DD or null",
+   "related": "list of school/internship names it applies to",
+   "added": "YYYY-MM-DD",
+   "source": "where the item came from",
+   "notes": "free text; done items keep a done date"
+  }
+ },
+ "updated": "2026-11-08",
+ "items": [
+  {
+   "id": "T1",
+   "area": "cv",
+   "title": "Add the MAA talk to my CV",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": null,
+   "related": [],
+   "added": "2026-11-08",
+   "source": "Sahmoud, Telegram 2026-11-08 11:04",
+   "notes": "Contributed talk, 'Upper Quantum Turán Numbers', MAA Southern California-Nevada Section Fall Meeting, Cal State LA, Oct 24 2026 (15 min, Contributed Paper Session)."
+  },
+  {
+   "id": "T2",
+   "area": "school",
+   "title": "Sample admitted MS students at the 12 shortlisted schools and record the papers they had before admission",
+   "owner": "bot",
+   "status": "doing",
+   "due": null,
+   "related": [
+    "UIUC",
+    "CMU",
+    "NYU Courant",
+    "BU",
+    "UC Berkeley",
+    "Northeastern",
+    "UC San Diego",
+    "Yale",
+    "Columbia",
+    "Maryland",
+    "Cornell Tech",
+    "Cornell Ithaca"
+   ],
+   "added": "2026-11-08",
+   "source": "Sahmoud, Telegram 2026-11-08 11:00",
+   "notes": "GradCafe pass sent 11/8; real-student pass (lab pages + DBLP) in progress."
+  },
+  {
+   "id": "T3",
+   "area": "internship",
+   "title": "For each research internship: sample past interns, their pre-internship papers, and what they worked on; show it on each internship card",
+   "owner": "bot",
+   "status": "doing",
+   "due": null,
+   "related": [
+    "43 theory + applied-research internships"
+   ],
+   "added": "2026-11-08",
+   "source": "Sahmoud, Telegram 2026-11-08 11:02",
+   "notes": ""
+  }
+ ]
+}
