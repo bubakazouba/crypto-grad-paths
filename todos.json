@@ -58,14 +58,14 @@
    "area": "internship",
    "title": "For each research internship: sample past interns, their pre-internship papers, and what they worked on; show it on each internship card",
    "owner": "bot",
-   "status": "doing",
+   "status": "done",
    "due": null,
    "related": [
     "43 theory + applied-research internships"
    ],
    "added": "2026-11-08",
    "source": "Sahmoud, Telegram 2026-11-08 11:02",
-   "notes": ""
+   "notes": "Done 11/8: 71 past interns across 43 programs; each card shows \"Established before joining: X of Y sampled\" + a filter to hide established-heavy programs."
   },
   {
    "id": "T4",
