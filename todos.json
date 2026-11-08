@@ -80,6 +80,202 @@
    "added": "2026-11-08",
    "source": "Preksha, bot+shosha group 2026-11-08 11:12",
    "notes": "Organized with Mark Hillery (Hunter/CUNY) and Tomoyuki Morimae (Kyoto). Chance to meet Bartusek in person (Columbia is on the school shortlist)."
+  },
+  {
+   "id": "T5",
+   "area": "school",
+   "title": "Apply: CMU MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-11-18",
+   "related": [
+    "CMU"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "Early deadline Nov 18 (final Dec 9)"
+  },
+  {
+   "id": "T6",
+   "area": "school",
+   "title": "Apply: UIUC MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-01",
+   "related": [
+    "UIUC"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T7",
+   "area": "school",
+   "title": "Apply: UC Berkeley MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-01",
+   "related": [
+    "UC Berkeley"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T8",
+   "area": "school",
+   "title": "Apply: Waterloo MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-01",
+   "related": [
+    "Waterloo"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "MMath thesis, funded"
+  },
+  {
+   "id": "T9",
+   "area": "school",
+   "title": "Apply: Toronto MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-01",
+   "related": [
+    "Toronto"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "MSc CS, funded 16 mo"
+  },
+  {
+   "id": "T10",
+   "area": "school",
+   "title": "Apply: Cornell Tech MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-01",
+   "related": [
+    "Cornell Tech"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "Priority; round 2 Jan 26, rolling Apr 1"
+  },
+  {
+   "id": "T11",
+   "area": "school",
+   "title": "Apply: Maryland MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-04",
+   "related": [
+    "Maryland"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T12",
+   "area": "school",
+   "title": "Apply: UC San Diego MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2026-12-16",
+   "related": [
+    "UC San Diego"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "Fee-waiver form closes Dec 2"
+  },
+  {
+   "id": "T13",
+   "area": "school",
+   "title": "Apply: Yale MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-01-02",
+   "related": [
+    "Yale"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T14",
+   "area": "school",
+   "title": "Apply: Cornell Ithaca MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-01-18",
+   "related": [
+    "Cornell Ithaca"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T15",
+   "area": "school",
+   "title": "Apply: NYU Courant MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-02-12",
+   "related": [
+    "NYU Courant"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T16",
+   "area": "school",
+   "title": "Apply: Columbia MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-01-15",
+   "related": [
+    "Columbia"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "Priority Jan 15, final Feb 15"
+  },
+  {
+   "id": "T17",
+   "area": "school",
+   "title": "Apply: BU MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-03-15",
+   "related": [
+    "BU"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": ""
+  },
+  {
+   "id": "T18",
+   "area": "school",
+   "title": "Apply: Northeastern MS (Fall 2027)",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-08-01",
+   "related": [
+    "Northeastern"
+   ],
+   "added": "2026-11-08",
+   "source": "school deadline pages via crypto-grad-paths schools.json",
+   "notes": "Rolling, domestic"
   }
  ]
 }
