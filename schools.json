@@ -218,6 +218,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://elaineshi.com/students/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -306,6 +312,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "If you are interested in working with me as a PhD student, please apply to CMU CS PhD program!",
+     "url": "https://sites.google.com/view/aayushjain",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -368,6 +380,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always looking for great PhD students! ... Please submit an application!",
+     "url": "https://wahby.net",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -423,6 +441,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.andrew.cmu.edu/user/bparno",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -504,6 +528,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for highly motivated students who are interested in building secure AI systems with cryptography to start in Fall 2027.",
+     "url": "https://wzheng.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -570,6 +600,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://mlfbrown.com",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -856,6 +892,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always interested in working with new students.",
+     "url": "https://cs.nyu.edu/~dodis/students.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -938,6 +980,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cs.nyu.edu/~nb3873/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1017,6 +1065,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cs.nyu.edu/~bb/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1102,6 +1156,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I'm currently looking for creative and motivated students.",
+     "url": "https://cs.nyu.edu/~mmb586/index.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1184,6 +1244,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Prospective students are encourage to apply directly to Courant... Please do list me as a potential advisor on your application and I will see it",
+     "url": "https://jbonneau.com/contact.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1258,6 +1324,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://fermima.com",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1307,6 +1379,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "Also looking for strong computational undergraduates and graduate students with interest in biological sciences.",
+     "url": "https://cims.nyu.edu/~regev/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1360,6 +1438,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://tonymetger.com/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -1792,6 +1876,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.bu.edu/cs/profiles/ran-canetti",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1876,6 +1966,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "We have open positions in several projects, on a variety of topics.",
+     "url": "https://cs-people.bu.edu/tromer/join",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -1974,6 +2070,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I will read your application if you clearly state my name as a potential advisor... I'm looking for students with a strong grasp of...",
+     "url": "https://www.mvaria.com",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2043,6 +2145,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "no",
+     "quote": "To prospective students: I currently do not have any PhD or post-doc positions in my group.",
+     "url": "https://scc1.bu.edu/poremba",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2095,6 +2203,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.bu.edu/~reyzin",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -2374,6 +2488,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://faculty.cc.gatech.edu/~vlad/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2450,6 +2570,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always looking for excellent PhD students.",
+     "url": "https://faculty.cc.gatech.edu/~vzikas",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2508,6 +2634,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://faculty.cc.gatech.edu/~josephjaeger",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2562,6 +2694,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for excellent students interested in working on topics related to security and cryptography",
+     "url": "https://faculty.cc.gatech.edu/~genkin",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2624,6 +2762,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://faculty.cc.gatech.edu/~aboldyre",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -2896,6 +3040,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Please email me if you're interested in working with us.",
+     "url": "https://www.dakshitakhurana.com",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -2983,6 +3133,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://daheath.web.illinois.edu",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3066,6 +3222,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I always welcome motivated students. If you are interested in working with me, please feel free to email me...",
+     "url": "https://sites.google.com/view/renling",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3112,6 +3274,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I'm always looking for motivated students, please send me an email with your CV.",
+     "url": "https://zhangyp.web.illinois.edu",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3169,6 +3337,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for motivated and energetic Ph.D. students.",
+     "url": "https://ning0luo.github.io",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -3444,6 +3618,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.baldimtsi.com",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3509,6 +3689,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "...please reach out! I am looking to advise such students on their PhD.",
+     "url": "https://people.cs.gmu.edu/~gordon/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3554,6 +3740,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://ateniese.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3600,6 +3792,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://people.cs.gmu.edu/~evgenios/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -3832,6 +4030,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "I am looking for motivated students who are interested in Cryptography.",
+     "url": "https://www.cs.purdue.edu/homes/hmaji",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -3923,6 +4127,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for motivated graduate students with a strong mathemical background and similar research interests.",
+     "url": "https://www.cs.purdue.edu/homes/jblocki/potentialStudents.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4000,6 +4210,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for 1–2 PhD students to join my group in Fall 2027. If you are interested, please email me...",
+     "url": "https://mahimnakelkar.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4084,6 +4300,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.purdue.edu/homes/akate",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -4348,6 +4570,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am recruiting Ph.D. students and postdocs.",
+     "url": "https://sites.google.com/view/qipengliu",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4406,6 +4634,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cseweb.ucsd.edu/~mihir",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4460,6 +4694,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://cseweb.ucsd.edu/~daniele",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4525,6 +4765,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "no",
+     "quote": "I am on sabbatical for the 2026-2027 academic year visiting INRIA Saclay.",
+     "url": "https://cseweb.ucsd.edu/~nadiah",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -4821,6 +5067,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://people.eecs.berkeley.edu/~sanjamg/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4890,6 +5142,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://people.eecs.berkeley.edu/~henrycg",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -4958,6 +5216,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.eecs.berkeley.edu/~raluca",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5037,6 +5301,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/goldwasser.html",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -5314,6 +5584,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://engineering.uconn.edu/~acr",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5395,6 +5671,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://tpeters.engr.uconn.edu/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5460,6 +5742,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "I encourage interested students to attend a meeting or talk to me about possible problems in cyber security.",
+     "url": "http://benjamin-fuller.uconn.edu",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5514,6 +5802,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always looking for self-motivated and talented Postdocs and PhD students to join my group.",
+     "url": "https://ghadaalmashaqbeh.github.io",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -5766,6 +6060,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://user.eng.umd.edu/~danadach",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5842,6 +6142,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "If you think so, you should apply to the CS PhD program at UMD, marking me as a potential advisor.",
+     "url": "https://www.cs.umd.edu/~kaptchuk/blog/post/work-with-me.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5900,6 +6206,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Interested in working with me as a PhD student? I am actively looking for PhD students.",
+     "url": "https://www.cs.umd.edu/~imiers/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -5954,6 +6266,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.umd.edu/~xwu/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -6214,6 +6532,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "PhD: I am always interested in recruiting strong PhD students.",
+     "url": "https://homes.cs.washington.edu/~tessaro/advising.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -6306,6 +6630,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://homes.cs.washington.edu/~rachel/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -6371,6 +6701,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://homes.cs.washington.edu/~tyagi/advising/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -6444,6 +6780,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.andreacoladangelo.com",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -6753,6 +7095,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always looking for bright and self-motivated students that wish to do research on computer security and applied cryptography. Feel free to contact me...",
+     "url": "https://www.cs.yale.edu/homes/cpap",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -6841,6 +7189,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/site/benafisch/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -6914,6 +7268,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sotiraki.com",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -6989,6 +7349,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.cs.yale.edu/homes/piskac/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -7232,6 +7598,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/view/jamesbartusek",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -7303,6 +7675,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "If you may want to work with me, apply at the link above, and mark my name.",
+     "url": "http://www.cs.columbia.edu/~tal/prospective.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -7364,6 +7742,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.henryyuen.net",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -7646,6 +8030,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "no",
+     "quote": "I am not looking to recruit PhD students this cycle. Please do not email me about it.",
+     "url": "https://spooner.cc",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -7711,6 +8101,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.noahsd.com",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -7767,6 +8163,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://golovnev.org",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -8056,6 +8458,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cs.jhu.edu/~abhishek/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -8125,6 +8533,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://matthewgreen.io/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -8161,6 +8575,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.jhu.edu/~susan/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -8440,6 +8860,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.khoury.northeastern.edu/home/wichs/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -8523,6 +8949,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I'm looking for talented students to join my group!",
+     "url": "https://zhengzhongjin.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -8592,6 +9024,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://shelat.khoury.northeastern.edu",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -8864,6 +9302,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://weikailin.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -8918,6 +9362,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://jackdoerner.net/about/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -8998,6 +9448,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.virginia.edu/~mohammad/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -9258,6 +9714,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://ckweng.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -9311,6 +9773,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://nitrieu.github.io/advising/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -9583,6 +10051,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "If you are a prospective Ph.D. student interested in Cryptography, I encourage you to apply to the Brown CS department.",
+     "url": "http://cs.brown.edu/people/alysyans/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -9641,6 +10115,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/view/peihanmiao/home",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -9913,6 +10393,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://muthu.georgetown.domains",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -9992,6 +10478,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "no",
+     "quote": "I am currently at a16z crypto research and on leave from Georgetown.",
+     "url": "http://people.cs.georgetown.edu/jthaler/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -10266,6 +10758,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://people.csail.mit.edu/vinodv/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -10338,6 +10836,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.eecs.mit.edu/people/yael-kalai",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -10554,6 +11058,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/view/jiayux",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -10623,6 +11133,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "no",
+     "quote": "My research group is at full capacity, so I am not seeking new grad students in the upcoming admissions cycle...",
+     "url": "https://garbledcircus.com/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -10876,6 +11392,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Prospective students interested in cryptography (classical or quantum) are encouraged to apply to our PhD program.",
+     "url": "https://sites.google.com/view/alex-lombardi/home",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -10923,6 +11445,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Please apply to the PhD program in the Department of Computer Science... Your application will reach me.",
+     "url": "https://jonathanmayer.org/advising/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -11168,6 +11696,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www3.cs.stonybrook.edu/~omkant/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -11203,6 +11737,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.stonybrook.edu/people/faculty/XinWang",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -11445,6 +11985,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://jagaray.com/students/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -11501,6 +12047,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://samsonzhou.github.io",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -11722,6 +12274,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I'm recruiting Ph.D. students at UNC Chapel Hill for Fall 2027.",
+     "url": "https://julialen.github.io",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -11769,6 +12327,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.cs.unc.edu/~saba",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -12045,6 +12609,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "we are actively recruiting top students",
+     "url": "https://crypto.cs.utexas.edu/applicants.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -12125,6 +12695,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "we are actively recruiting top students",
+     "url": "https://crypto.cs.utexas.edu/applicants.html",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -12405,6 +12981,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://web.cs.ucla.edu/~rafail/working_with_me.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -12511,6 +13093,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://web.cs.ucla.edu/~sahai",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -12764,6 +13352,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am currently recruiting graduate students.",
+     "url": "https://web.eecs.umich.edu/~paulgrub/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -12819,6 +13413,12 @@
        "quote": "Chris Peikert has joined the Algorand Foundation as Chief Scientific Officer."
       }
      ]
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://web.eecs.umich.edu/~cpeikert/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -13029,6 +13629,12 @@
        "quote": "I am a founding scientist at Aleo, a startup based on my research project Zexe."
       }
      ]
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://pratyush.zip/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -13101,6 +13707,12 @@
        "quote": "Chair of Undergraduate Curriculum"
       }
      ]
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cis.upenn.edu/~sga001",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -13374,6 +13986,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/site/jiapeng0708/student",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -13423,6 +14041,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Recruiting PhD students for Fall 2027.",
+     "url": "https://mengyuanli.com/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -13665,6 +14289,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cci.drexel.edu/faculty/nsirkin",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -13875,6 +14505,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always looking for highly motivated Ph.D. students.",
+     "url": "https://users.cs.duke.edu/~kartik/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -14116,6 +14752,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.cs.fsu.edu/~tvhoang",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -14365,6 +15007,12 @@
        "quote": "I also lead Harvard's Privacy Tools Project and co-lead the OpenDP open-source differential privacy software project."
       }
      ]
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "If you are interested in working with me, you should apply to our PhD program and include me among the faculty you list in...",
+     "url": "https://salil.seas.harvard.edu/contact",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -14609,6 +15257,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/ncsu.edu/ascafuro/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -14870,6 +15524,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I'm always looking for motivated and energetic students (as well as post-docs and visiting scholars)",
+     "url": "https://wangxiao1254.github.io",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -15095,6 +15755,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Self-motivated students are welcome to apply by following the official instructions.",
+     "url": "https://fangsong.info/advise/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -15327,6 +15993,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for motivated students to join me!",
+     "url": "https://aarushigoel.github.io",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -15623,6 +16295,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://crypto.stanford.edu/~dabo/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -15716,6 +16394,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://mzhandry.github.io/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -15783,6 +16467,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cs.stanford.edu/~edauterman/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -16059,6 +16749,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "I am always looking for talented students, either graduate or undergraduate, to work with me.",
+     "url": "http://www-cs.ccny.cuny.edu/~rosario",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -16308,6 +17004,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "I am always looking for talented, mathematically-mature, students interested in theoretical and applied cryptography.",
+     "url": "https://www2.seas.gwu.edu/~arkady/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -16542,6 +17244,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://facultyprofiles.tufts.edu/megumi-ando/about",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -16789,6 +17497,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.ics.uci.edu/~stasio/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -17044,6 +17758,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/view/amey-bhangale/home",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -17306,6 +18026,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/site/prabhanjanva",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -17574,6 +18300,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am looking for self-motivated students to join my research group.",
+     "url": "https://sites.google.com/view/mingyuan-wang",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -17815,6 +18547,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am currently looking for PhD students to join my research group!",
+     "url": "https://www.cs.uic.edu/~block",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -17875,6 +18613,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cr.yp.to/djb.html",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -17935,6 +18679,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://anrinch.github.io/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -18171,6 +18921,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://groups.cs.umass.edu/oneill",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -18435,6 +19191,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://users.cs.utah.edu/~psoni",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -18709,6 +19471,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://pages.cs.wisc.edu/~rishab",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -18968,6 +19736,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "no",
+     "quote": "Date of Employment:2019-08",
+     "url": "https://faculty.sdu.edu.cn/XUGUANGWU/en/index.htm",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -19240,6 +20014,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.people.vcu.edu/~hszhou",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -19489,6 +20269,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://thanghoang.github.io/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -19767,6 +20553,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "Currently, our group is not recruiting RAs. We will update the page when there is an open position.",
+     "url": "https://fenghaoliu.github.io",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -20003,6 +20795,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://sites.google.com/view/naihuichia",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -20240,6 +21038,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://people.cs.uchicago.edu/~davidcash/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -20286,6 +21090,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://aloni.net/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -20559,6 +21369,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://www.cs.cornell.edu/~rafael/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -20631,6 +21447,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "If you believe you may wish work with me, please list me as a contact in your application to the Ph.D. program.",
+     "url": "https://www.arijuels.com/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -20887,6 +21709,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "I am hiring PhD students and postdocs at UC Santa Cruz (starting from Fall 2026)!",
+     "url": "https://idemertzis.com",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -21147,6 +21975,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cs.uwaterloo.ca/~mdhajiab/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -21203,6 +22037,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "Students seeking admission for Fall 2027 should check out information on the Faculty of Mathematics’ website. I can supervise/co-supervise students in the C&O...",
+     "url": "https://www.douglas.stebila.ca/supervision",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -21284,6 +22124,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am currently seeking interested graduate students to start in September 2027 or later.",
+     "url": "https://cs.uwaterloo.ca/~iang/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -21369,6 +22215,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am reducing the size of my group but very select spots for highly qualified graduate students...",
+     "url": "https://cs.uwaterloo.ca/~fkerschb/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -21689,6 +22541,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://profiles.ucalgary.ca/ryan-henry",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -22391,6 +23249,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am always looking for motivated students interested in cryptography and theoretical computer science.",
+     "url": "https://www.cs.toronto.edu/~akshayaram/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -22444,6 +23308,12 @@
       }
      ],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "I will be recruiting PhD students at Toronto for Fall 2027, but not at Cornell for the foreseeable future.",
+     "url": "https://www.cs.toronto.edu/~ristenpart/applicants.html",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -22719,6 +23589,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-07"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://andrejb.net/",
+     "checked": "2026-11-08"
     }
    }
   ],
@@ -24257,6 +25133,12 @@
       }
      ],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://faculty.eng.fau.edu/azarderakhsh/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -24334,6 +25216,12 @@
       }
      ],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.persichetti.me/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -24403,6 +25291,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://shi-bai.github.io/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -24449,6 +25343,12 @@
     "outside": {
      "level": "none-found",
      "items": [],
+     "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": "If you are a young researcher/student and have something on your mind that might interest me, feel free to email me.",
+     "url": "https://sites.google.com/site/dasdipayan9038/home",
      "checked": "2026-11-08"
     }
    },
@@ -24519,6 +25419,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.fau.edu/science/about/directory/kuchta/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -24565,6 +25471,12 @@
     "outside": {
      "level": "none-found",
      "items": [],
+     "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.fau.edu/science/about/directory/sica/",
      "checked": "2026-11-08"
     }
    }
@@ -24831,6 +25743,12 @@
       }
      ],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://cse.usf.edu/~attilaayavuz/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -24904,6 +25822,12 @@
       }
      ],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "yes",
+     "quote": "There will be Ph.D. positions available. Interested applicants are advised to contact me and attach their CV and transcripts to proceed.",
+     "url": "https://www.cse.usf.edu/~mehran2/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -24962,6 +25886,12 @@
      "level": "none-found",
      "items": [],
      "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://biasse.myweb.usf.edu/",
+     "checked": "2026-11-08"
     }
    },
    {
@@ -25019,6 +25949,12 @@
     "outside": {
      "level": "none-found",
      "items": [],
+     "checked": "2026-11-08"
+    },
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://rbehnia.github.io",
      "checked": "2026-11-08"
     }
    }
