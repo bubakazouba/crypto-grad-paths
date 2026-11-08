@@ -71,12 +71,15 @@
      "name": "John Bostanci",
      "year": "2024",
      "level_at_time": "PhD student at Columbia (advised by Henry Yuen); year not stated",
-     "pubs_before": 2,
-     "pubs_before_note": "2 papers: Quantum journal 2022, ITCS 2024 (Jan); STOC 2024 (June) also accepted before start. DBLP pid 284/8146",
+     "pubs_before": 3,
+     "pubs_before_note": "3 before summer 2024 (his CV): Phys. Rev. Research 2021, Quantum 2022, ITCS 2024 (Jan). STOC 2024 (June) overlaps the start. Mostly quantum complexity/quantum information, not classical crypto/security.",
      "worked_on": "Quantum crypto/complexity with Mark Zhandry: 'A General Quantum Duality for Representations of Groups...' (STOC 2025) and 'Separating QMA from QCMA with a Classical Oracle' (STOC 2026), both co-authored with Zhandry",
      "source_url": "https://www.johnbostanci.com",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "In the summer of 2024, I was an intern at NTT Research working with Mark Zhandry.",
+     "verify_url": "https://www.johnbostanci.com"
     },
     {
      "name": "Damiano Abram",
@@ -87,7 +90,10 @@
      "worked_on": "Supervised by Mark Zhandry (Jun to Aug 2022); resulting paper is likely 'Security-Preserving Distributed Samplers: How to Generate Any CRS in One Round' (CRYPTO 2023, with Waters and Zhandry)",
      "source_url": "https://damianoabram.github.io/",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "From June to August 2022, I worked as an intern at NTT Research (USA) under the supervision of Mark Zhandry.",
+     "verify_url": "https://damianoabram.github.io/"
     }
    ],
    "summary": "Both confirmed interns were Zhandry-mentored PhD students with 2 to 4 peer-reviewed papers before starting, and each internship led to a top-venue paper.",
@@ -95,7 +101,9 @@
    "n": 2,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -174,7 +182,10 @@
      "worked_on": "Inferred from co-authorship with MSR's Chase, Ghosh and Laine (the source page lists no topics): key transparency, i.e. ELEKTRA (CCS 2023) and OPTIKS (USENIX Security 2024)",
      "source_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/past-interns/",
      "oss_before": "none notable (github.com/julialen top repo ~3 stars; co-authored ucsd-ccbb/visJS2jupyter has ~78 stars, current count)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Past interns list: 'Julia Len, Cornell University, USA, 2022'",
+     "verify_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/past-interns/"
     },
     {
      "name": "Maria Corte-Real Santos",
@@ -185,7 +196,10 @@
      "worked_on": "Inferred from co-authorship with MSR's Costello and Naehrig (the source page lists no topics): isogeny and pairing work, likely 'On Cycles of Pairing-Friendly Abelian Varieties' (CRYPTO 2024)",
      "source_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/past-interns/",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Past interns list: 'Maria Corte-Real Santos, University College London, UK, 2023'",
+     "verify_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/past-interns/"
     },
     {
      "name": "Guru-Vamsi Policharla",
@@ -196,7 +210,10 @@
      "worked_on": "Inferred from co-authorship with MSR's Paquin and Zaverucha: likely 'Crescent: Stronger Privacy for Existing Credentials' (ePrint 2024), i.e. anonymous credentials from existing JWT/mDL credentials",
      "source_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/past-interns/",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Past interns list: 'Guru Vamsi Policharla, University of California at Berkeley, USA, 2024'",
+     "verify_url": "https://www.microsoft.com/en-us/research/group/msr-cryptography/past-interns/"
     }
    ],
    "summary": "These interns had 1 to 7 peer-reviewed papers before starting, all PhD students in applied crypto (isogenies, key transparency, credentials).",
@@ -204,7 +221,9 @@
    "n": 3,
    "known": 3,
    "established": 3,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -283,7 +302,10 @@
      "worked_on": "Recursive SNARKs with Srinath Setty: Nova (CRYPTO 2022, with Setty and Tzialla); also transparency dictionaries (NDSS 2022)",
      "source_url": "https://www.microsoft.com/en-us/research/people/srinath/",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Srinath Setty's page: 'students, during their internships and beyond: ... Abhiram Kothapalli (2021)'",
+     "verify_url": "https://www.microsoft.com/en-us/research/people/srinath/"
     },
     {
      "name": "Arasu Arun",
@@ -294,7 +316,10 @@
      "worked_on": "Jolt: SNARKs for virtual machines via lookups (EUROCRYPT 2024, with Setty and Thaler)",
      "source_url": "https://arasua.run/",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Internships: 'Microsoft Research (Redmond), Summer 2023'",
+     "verify_url": "https://arasua.run/"
     },
     {
      "name": "Wilson Nguyen",
@@ -305,7 +330,10 @@
      "worked_on": "Unconfirmed; later co-authored with Setty 'Neo: lattice-based folding scheme for CCS over small fields' (ePrint 2025, CRYPTO 2026)",
      "source_url": "https://www.microsoft.com/en-us/research/people/srinath/",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Srinath Setty's page: 'students, during their internships and beyond: ... Wilson Nguyen (2024)'",
+     "verify_url": "https://www.microsoft.com/en-us/research/people/srinath/"
     }
    ],
    "summary": "Setty's interns worked on SNARKs and folding schemes, which led to Nova and Jolt. Their pre-internship records ranged from 1 to 4 papers.",
@@ -313,7 +341,9 @@
    "n": 3,
    "known": 3,
    "established": 3,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -433,7 +463,10 @@
      "worked_on": "Secure-by-design web agents with the Project Roma team, mentored by Santiago Zanella-Beguelin (MSR Cambridge)",
      "source_url": "https://egozverev.github.io/",
      "oss_before": "none notable (top repo Should-It-Be-Executed-Or-Processed ~63 stars, current count)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "June 2026: 'I started a research internship at Microsoft Research Cambridge, working with Santiago Zanella-Beguelin on secure-by-design web agents.'",
+     "verify_url": "https://egozverev.github.io/"
     }
    ],
    "summary": "Thin: only one verified intern was found, an LLM-agent-security PhD student with 2 ICLR papers before starting.",
@@ -441,7 +474,9 @@
    "n": 1,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -551,14 +586,17 @@
    "interns": [
     {
      "name": "Edoardo Debenedetti",
-     "year": "2024 (approx; dates not stated; paper posted Mar 2025)",
+     "year": "2024 (Oct 2024 - Feb 2025, Google Student Researcher)",
      "level_at_time": "PhD student at ETH Zurich (SPY Lab, Tramer)",
-     "pubs_before": 2,
-     "pubs_before_note": "2 papers before 2024: NeurIPS Datasets&Benchmarks 2021 (RobustBench), SaTML 2023; 2024 also has SaTML, USENIX Security and NeurIPS, which may have appeared before or during the internship. DBLP pid 319/7073",
+     "pubs_before": 4,
+     "pubs_before_note": "From his CV, 4 conference papers before Oct 2024: NeurIPS D&B 2021 (RobustBench), SaTML 2023, SaTML 2024, USENIX Security 2024; plus an ICLR 2024 workshop paper. 3 NeurIPS 2024 D&B papers came in Dec 2024. Role was Student Researcher, not the summer Research Intern program. All ML security, not crypto.",
      "worked_on": "CaMeL, a capability-based defense against prompt injection in LLM agents. He led the technical development as a Google student intern, per the paper's contributions section (which mentions the 'student internship proposal')",
      "source_url": "https://arxiv.org/html/2503.18813v1",
      "oss_before": "RobustBench/robustbench (~790 stars, co-author, org repo); ethz-spylab/agentdojo (~1000 stars, created Feb 2024; current counts, may have grown since); own github.com/dedeswim top repo ~54 stars",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Paper: Google affiliation, 'T.F. organised the student internship proposal'. CV: 'Google ... Student Researcher 10/2024 - 02/2025'.",
+     "verify_url": "https://edoardo.science/files/cv.pdf"
     },
     {
      "name": "Mahdi Haghifam",
@@ -569,7 +607,10 @@
      "worked_on": "Differentially private training at Google Brain: 'Why Is Public Pretraining Necessary for Private Model Training?' (ICML 2023) and DP second-order convex optimization (NeurIPS 2023), both with Steinke and Thakurta",
      "source_url": "https://arxiv.org/abs/2302.09483",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Footnote: 'Part of this work was done while the author was an intern at Google Brain.' No year given.",
+     "verify_url": "https://arxiv.org/abs/2302.09483"
     }
    ],
    "summary": "Both are security/privacy ML PhD interns, already well published (2 to 8 papers). No crypto-specific Google intern could be verified.",
@@ -577,7 +618,9 @@
    "n": 2,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -641,12 +684,15 @@
      "name": "Yifan Zhang (Vanderbilt)",
      "year": "2025",
      "level_at_time": "PhD student, year 3 at Vanderbilt University (PhD 2022-2026, advisors Kevin Leach and Yu Huang)",
-     "pubs_before": 6,
-     "pubs_before_note": "approx. 6 peer-reviewed before May 2025: ASE 2022, ASE 2023, TOSEM 2024, ICPC 2024, PACMSE/FSE 2024 (EyeTrans), ICPC 2025. DBLP 'Yifan Zhang' is ambiguous; counted only Leach-coauthored SE papers. MalMixer (EuroS&P 2025) is borderline on timing",
+     "pubs_before": 11,
+     "pubs_before_note": "News list shows about 11 peer-reviewed papers accepted before May 19 2025: CaPTion@MICCAI 2022 and InteNSE@ICSE 2023 workshops, ASE'23 NIER, IEEE TMI 2023, ICPC'24, FSE'24, WWW'24, TOSEM 2024, IEEE TMech 2024, ICPC'25 ERA, NAACL'25 Industry. Mostly SE/AI4Code and medical imaging, not security. CAVEAT: the IBM internship was in the AI Reasoning Group (LLM agent planning), not AI-Native Security.",
      "worked_on": "Research Intern, AI Reasoning Group (not the Security group), Yorktown Heights, May-Aug 2025: 'Grounded and Reflective Agent Planning' (SPIRAL LLM planning framework). Adjacent to AI agents, not security",
      "source_url": "https://coderdoge.com/",
      "oss_before": "none notable (github.com/CoderDoge1108, top repo 4 stars, current count)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "'[05/19/2025] Started my Research Intern at IBM Research in Yorktown Heights'; Experience lists AI Reasoning Group, May-Aug 2025.",
+     "verify_url": "https://coderdoge.com/"
     }
    ],
    "summary": "Thin: 1 verified Yorktown 2025 intern, PhD year 3 with ~6 SE papers, in AI agent planning rather than security. No security-group interns verified",
@@ -654,7 +700,9 @@
    "n": 1,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -716,7 +764,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -922,7 +972,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1009,7 +1061,10 @@
      "worked_on": "Key transparency with Kevin Lewi: first summer started the KT project, second summer built the prototype that was open-sourced as facebook/akd; led to Parakeet (NDSS 2023), used for WhatsApp KT",
      "source_url": "https://research.facebook.com/blog/2022/11/how-to-create-impact-through-metas-research-intern-program-a-qa-with-kevin-lewi-and-jasleen-malvai/",
      "oss_before": "none notable (github.com/Jasleen1, own repos 2 stars or fewer; facebook/akd ~336 stars is the internship output itself)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Blog: 'during my first summer internship' and 'Throughout my second internship, Kevin mentored me'. No years given.",
+     "verify_url": "https://research.facebook.com/blog/2022/11/how-to-create-impact-through-metas-research-intern-program-a-qa-with-kevin-lewi-and-jasleen-malvai/"
     },
     {
      "name": "Pratik Sarkar",
@@ -1020,7 +1075,10 @@
      "worked_on": "Research Engineer intern, Statistics and Privacy team at Meta (the Masny crypto/MPC team), May-Oct 2022. Project not stated on homepage",
      "source_url": "https://sites.google.com/view/pratiksarkar",
      "oss_before": "none notable (github.com/pratiksarkar93, all repos 0 stars and created 2025-2026)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "'In the summer of 2022, I was a Research Engineer intern with the Statistics and Privacy team at Meta.'",
+     "verify_url": "https://sites.google.com/view/pratiksarkar"
     }
    ],
    "summary": "2 verified interns, both already established: Malvai (1 CCS paper before her first summer, built facebook/akd) and Sarkar (10 crypto papers including NDSS, CCS and ASIACRYPT before 2022)",
@@ -1028,7 +1086,9 @@
    "n": 2,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1165,7 +1225,10 @@
      "worked_on": "Applied Science Intern, AWS Automated Reasoning Group, Santa Clara, from June 2025. Project not stated on homepage; his 2025-26 work is SMT stability and Lean autoformalization",
      "source_url": "https://cs.stanford.edu/~daneshva",
      "oss_before": "none notable (github.com/daneshvar-amrollahi, top repo 4 stars, current count)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "'[06.2025]: Joined the Automated Reasoning Group at Amazon Web Services (AWS) ... as an Applied Science Intern.'",
+     "verify_url": "https://cs.stanford.edu/~daneshva"
     }
    ],
    "summary": "1 verified ARG intern (2025): a 2nd-year Stanford PhD student with 4 formal-methods papers (SAS, IJCAR, FAC). Not a beginner",
@@ -1173,7 +1236,9 @@
    "n": 1,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1304,7 +1369,10 @@
      "worked_on": "Post-quantum crypto for internal services (log forwarder, Tunnel, gokeyless) and Tamarin verification of KEMTLS; intern Oct 2021 to Feb 2022",
      "source_url": "https://cloudflare.tv/research/post-quantum-internships-at-cloudflare/dgMdYAZD",
      "oss_before": "rustpq/pqcrypto (~416 stars now, repo from 2019, he is top contributor); kemtls-experiment (~36 stars)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Cloudflare TV: 'we will speak with Thom and Goutam about their experience of being an intern'. No year stated.",
+     "verify_url": "https://cloudflare.tv/research/post-quantum-internships-at-cloudflare/dgMdYAZD"
     },
     {
      "name": "Goutam Tamvada",
@@ -1315,7 +1383,10 @@
      "worked_on": "Post-quantum connections between Keyless and gokeyless-internal; Go implementation and EasyCrypt/Jasmin verification of a PQ KEM for CIRCL",
      "source_url": "https://cloudflare.tv/research/post-quantum-internships-at-cloudflare/dgMdYAZD",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Cloudflare TV: 'we will speak with Thom and Goutam about their experience of being an intern'. No year stated.",
+     "verify_url": "https://cloudflare.tv/research/post-quantum-internships-at-cloudflare/dgMdYAZD"
     },
     {
      "name": "Prajjwal",
@@ -1326,7 +1397,10 @@
      "worked_on": "Research intern: personalized WAF attack score, zero-shot learning to detect new attacks",
      "source_url": "https://blog.cloudflare.com/2024-interns/",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "2024 interns post: 'Prajjwal, a Research intern, focused on personalizing the WAF attack score'",
+     "verify_url": "https://blog.cloudflare.com/2024-interns/"
     },
     {
      "name": "Sudheesh Singanamalla",
@@ -1337,7 +1411,10 @@
      "worked_on": "Oblivious DoH (Go/Rust implementations, measurements; PETS 2021 best student paper) and CT log scanning in cfssl-scan",
      "source_url": "https://blog.cloudflare.com/internship-experience-research-engineer/",
      "oss_before": "none notable (GitHub sudheesh001)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "'I spent my summer of 2020 as an intern at Cloudflare working with the incredible research team.'",
+     "verify_url": "https://blog.cloudflare.com/internship-experience-research-engineer/"
     }
    ],
    "summary": "Documented research interns are mostly PhD students with 2-6 prior papers in applied crypto/PQ TLS (CCS, PQCrypto, ESORICS); the 2024 intern is undocumented.",
@@ -1345,7 +1422,9 @@
    "n": 4,
    "known": 3,
    "established": 3,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 4,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1409,14 +1488,17 @@
    "interns": [
     {
      "name": "Jihye Choi",
-     "year": "2022",
+     "year": "2022 and 2023",
      "level_at_time": "PhD student, about year 2 at UW-Madison (advisor Somesh Jha)",
      "pubs_before": 2,
      "pubs_before_note": "2 before summer 2022 (her homepage list): SPIE Electronic Imaging 2016; AAAI 2022 AdvML workshop (best paper). ICML 2023 papers came later",
      "worked_on": "Visa Identity and AI Security team, summers 2022 and 2023; SLVR (secure aggregation with client validation for robust federated learning)",
      "source_url": "https://jihyechoi.xyz/",
      "oss_before": "none notable (GitHub jihyechoi77; pre-2022 repos under 5 stars)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "CV: 'Visa Research, Identity and AI Security, Summer 2022, Summer 2023, PhD Research Intern'. Homepage itself never mentions Visa.",
+     "verify_url": "https://jihyechoi.xyz/CV.pdf"
     },
     {
      "name": "Ioannis Demertzis",
@@ -1427,7 +1509,10 @@
      "worked_on": "PhD research intern in the Crypto Group of Visa Research (topic not stated)",
      "source_url": "https://idemertzis.com/",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "'I have also been at the Crypto Group of Visa Research ... as a PhD research intern.' No year.",
+     "verify_url": "https://idemertzis.com/"
     }
    ],
    "summary": "Thin: one well-documented recent intern (ML-security PhD student, 2 prior papers). Crypto-track interns are probably named in eprint footnotes, which could not be read.",
@@ -1435,7 +1520,9 @@
    "n": 2,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1516,14 +1603,17 @@
    "interns": [
     {
      "name": "Chenkai Weng",
-     "year": "2022",
+     "year": "2022 (also a 2023 internship)",
      "level_at_time": "PhD student, year 3 at Northwestern (advisor Xiao Wang)",
      "pubs_before": 8,
      "pubs_before_note": "~8 before summer 2022 (OpenAlex): CRYPTO 2020, CCS 2020 (Ferret), IEEE S&P 2021 (Wolverine), CCS 2021 x2 (QuickSilver; ZK for RAM), USENIX Security 2021 (Mystique), IEEE TDSC 2021, healthcare MPC article",
      "worked_on": "Summer associate under Antigoni Polychroniadou in 2022; back in 2023 on privacy for financial systems and scalable interactive ZK; J.P. Morgan AI PhD Fellowship 2023",
      "source_url": "https://mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/doctoral-student-chenkai-weng-receives-jp-morgan-ai-research-fellowship.html",
      "oss_before": "emp-toolkit/emp-zk (~110 stars now, repo from Feb 2021, #2 contributor)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "'Weng began collaborating with the cryptographic researchers at J.P. Morgan as a summer associate in 2022'",
+     "verify_url": "https://mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/doctoral-student-chenkai-weng-receives-jp-morgan-ai-research-fellowship.html"
     },
     {
      "name": "Harish Karthikeyan",
@@ -1534,7 +1624,10 @@
      "worked_on": "J.P. Morgan AI Research internship with Antigoni Polychroniadou (thesis acknowledgment; project not stated)",
      "source_url": "https://cs.nyu.edu/media/publications/Thesis___Harish_Karthikeyan-4.pdf",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "Thesis acknowledgments: 'My time at J.P. Morgan AI Research ... support and encouragement during the internship.' No year.",
+     "verify_url": "https://cs.nyu.edu/media/publications/Thesis___Harish_Karthikeyan-4.pdf"
     },
     {
      "name": "Yanchao Sun",
@@ -1545,7 +1638,10 @@
      "worked_on": "Certifiably robust multi-agent RL against adversarial communication (footnote: 'done when the first author was an intern at JPMorgan AI Research'); adversarial ML, not crypto",
      "source_url": "https://arxiv.org/abs/2206.10158",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Footnote: 'Part of this work was done when the first author was an intern at JPMorgan AI Research.' No year.",
+     "verify_url": "https://arxiv.org/abs/2206.10158"
     }
    ],
    "summary": "Crypto interns under Polychroniadou are strong PhD students; the clearest case already had ~8 top-venue papers (CCS/S&P/CRYPTO).",
@@ -1553,7 +1649,9 @@
    "n": 3,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1633,7 +1731,10 @@
      "worked_on": "Learning shallow all-to-all quantum circuits with GTAR (paper says contributions were made entirely during his internship at JPMorganChase); quantum algorithms, not the crypto track",
      "source_url": "https://arxiv.org/abs/2608.20162",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Footnote: 'Contributions were made entirely during author's internship at JPMorganChase.' Affiliation: Global Technology Applied Research.",
+     "verify_url": "https://arxiv.org/abs/2608.20162"
     }
    ],
    "summary": "One verified GTAR intern (quantum algorithms PhD student, 2 journal papers before); no crypto-track intern found.",
@@ -1641,7 +1742,9 @@
    "n": 1,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1712,7 +1815,10 @@
      "worked_on": "Certified defense against adversarial patches (TMLR 2023); at Bosch Center for AI Pittsburgh, not the RTC-NA security group",
      "source_url": "https://arxiv.org/abs/2306.12610",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Footnote: '*Equal contribution. Work done during internship at BCAI, Pittsburgh.' Saha and Yu are the starred authors. No year.",
+     "verify_url": "https://arxiv.org/abs/2306.12610"
     },
     {
      "name": "Shuhua Yu",
@@ -1723,7 +1829,10 @@
      "worked_on": "Same adversarial-patch defense project (footnote: 'Work done during internship at BCAI, Pittsburgh')",
      "source_url": "https://arxiv.org/abs/2306.12610",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Footnote: '*Equal contribution. Work done during internship at BCAI, Pittsburgh.' Saha and Yu are the starred authors. No year.",
+     "verify_url": "https://arxiv.org/abs/2306.12610"
     }
    ],
    "summary": "Only nearby cases: two Bosch Pittsburgh (BCAI) adversarial-ML interns with 3-5 prior papers; no automotive-security intern found.",
@@ -1731,7 +1840,9 @@
    "n": 2,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1843,7 +1954,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -1915,7 +2028,10 @@
      "worked_on": "Topic not stated; supervised by D. Ligier and J.-B. Orfila, continued at Zama as a PhD student on TFHE (later JoC 2023 paper on TFHE parameter optimization)",
      "source_url": "https://ilachill.github.io/teaching.html",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "Under Zama: 'Loris Bergerat : Intern (2021) and PhD Student (2022 - 2023)'",
+     "verify_url": "https://ilachill.github.io/teaching.html"
     }
    ],
    "summary": "1 intern sampled: no papers before the internship; went on to a Zama PhD.",
@@ -1923,7 +2039,9 @@
    "n": 1,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2125,7 +2243,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2206,7 +2326,10 @@
      "worked_on": "Cryptographic protocols for blockchains with J. Bonneau; led to Naysayer Proofs (FC 2024) and Cicada private on-chain auctions/voting (CTB 2024), plus an a16z blog post on registration-based encryption",
      "source_url": "https://nglaeser.github.io/files/Glaeser_CV_research_full.pdf",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "CV: 'a16z crypto summer 2023 Research Intern, supervised by Joseph Bonneau'",
+     "verify_url": "https://nglaeser.github.io/files/Glaeser_CV_research_full.pdf"
     },
     {
      "name": "István András Seres",
@@ -2217,7 +2340,10 @@
      "worked_on": "Homomorphic time-lock-puzzle e-voting (Cicada) and fair data exchange for EIP-4844 with Bonneau and Nikolaenko; led to Naysayer Proofs (FC 2024) and Atomic and Fair Data Exchange via Blockchain (CCS 2024)",
      "source_url": "https://istvanseres.web.elte.hu/istvanseres.pdf",
      "oss_before": "none notable (largest: MixEth ~53 stars, 2018)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "CV: '2023 Research Intern (a16z crypto, New York City, USA.)' under Joseph Bonneau and Valeria Nikolaenko.",
+     "verify_url": "https://istvanseres.web.elte.hu/istvanseres.pdf"
     },
     {
      "name": "Ertem Nusret Tas",
@@ -2228,7 +2354,10 @@
      "worked_on": "The homepage does not say; he is a co-author of Atomic and Fair Data Exchange via Blockchain (CCS 2024) with the other 2023 a16z interns. Year is from his CV (06/2023-08/2023) as quoted in search results.",
      "source_url": "https://nusret1996.github.io/",
      "oss_before": "none notable",
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "'During my PhD, I have done internships with Celestia, Babylon Labs, and a16z.' No year.",
+     "verify_url": "https://nusret1996.github.io/"
     }
    ],
    "summary": "2 verified 2023 interns (Glaeser, Seres), both senior PhD students with prior peer-reviewed papers (Glaeser: 1 crypto paper; Seres: ~11). A third (Tas) is unverified as an intern. Kelkar was removed: his page lists a16z only as a talk venue.",
@@ -2236,7 +2365,9 @@
    "n": 3,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2306,7 +2437,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2424,7 +2557,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2481,30 +2616,38 @@
      "year": "2024",
      "level_at_time": "unknown (FRP lists only the name)",
      "pubs_before": 2,
-     "pubs_before_note": "2 confirmed crypto papers: ESORICS 2023 (Traffic Analysis by Adversaries with Partial Visibility) and BaseFold (CRYPTO 2024, eprint 2023). Semantic Scholar also lists a 2013 knot-theory paper and a 2021 npj Digital Medicine paper under her name, not verified as hers",
+     "pubs_before_note": "2 confirmed crypto papers: ESORICS 2023 (Traffic Analysis by Adversaries with Partial Visibility) and BaseFold (CRYPTO 2024, eprint 2023). Semantic Scholar also lists a 2013 knot-theory paper and a 2021 npj Digital Medicine paper under her name, not verified as hers [Participation not confirmed by a primary source; excluded from the count.]",
      "worked_on": "FRP-45, Zero Knowledge Proofs of FHE (with Flashbots' J. Passerat-Palmbach), created Oct 2024",
      "source_url": "https://github.com/flashbots/mev-research/blob/main/FRPs/active/FRP-45.md",
      "oss_before": "none notable (plonkish_basefold ~40 stars, Jan 2024)",
-     "established": true
+     "established": null,
+     "verified": "unverified",
+     "verify_evidence": "FRP-45 lists her on the team of an 'active' proposal (created 2024-10-07). The page never mentions a fellowship, grant or funding.",
+     "verify_url": "https://github.com/flashbots/mev-research/blob/main/FRPs/active/FRP-45.md"
     },
     {
      "name": "Shashank Motepalli",
      "year": "2025",
      "level_at_time": "University of Toronto (level not stated in the FRP)",
      "pubs_before": 8,
-     "pubs_before_note": "about 8 peer-reviewed papers before 2025: IEEE Blockchain 2020/2023/2024, BRAINS 2021 (x2), IEEE OJVT 2022, ACM Computing Surveys 2022, IEEE DAPPS 2023",
+     "pubs_before_note": "about 8 peer-reviewed papers before 2025: IEEE Blockchain 2020/2023/2024, BRAINS 2021 (x2), IEEE OJVT 2022, ACM Computing Surveys 2022, IEEE DAPPS 2023 [Participation not confirmed by a primary source; excluded from the count.]",
      "worked_on": "FRP-50, Accelerating Narwhal DAGs with TEEs (team with NUS, Advaita Labs, TU Berlin); related to the Rorqual arXiv paper",
      "source_url": "https://github.com/flashbots/mev-research/blob/main/FRPs/active/FRP-50.md",
      "oss_before": null,
-     "established": true
+     "established": null,
+     "verified": "unverified",
+     "verify_evidence": "FRP-50 lists him (UoT) on the team of an 'active' proposal (created 2025-02-11). The page never mentions a fellowship, grant or funding.",
+     "verify_url": "https://github.com/flashbots/mev-research/blob/main/FRPs/active/FRP-50.md"
     }
    ],
    "summary": "2 of 2 sampled grantees had 2+ peer-reviewed papers before their FRP.",
    "searched": "grants.md names no fellows, so I used the FRP files (team field) in flashbots/mev-research and the collective.flashbots.net FRP category. Most forum posts give only usernames.",
    "n": 2,
-   "known": 2,
-   "established": 2,
-   "checked": "2026-11-08"
+   "known": 0,
+   "established": 0,
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2569,12 +2712,15 @@
      "name": "Kushal Babel",
      "year": "2023",
      "level_at_time": "PhD student, about year 4 at Cornell Tech/IC3 (advisor Ari Juels)",
-     "pubs_before": 4,
-     "pubs_before_note": "4 peer-reviewed papers before 2023: USENIX OSDI 2022 (Shortstack), DeFi workshop at CCS 2022, J. Computer Security 2020, POST 2017. Clockwork Finance (IEEE S&P) came out May 2023",
+     "pubs_before": 6,
+     "pubs_before_note": "His homepage lists 6 before summer 2023: POST 2017, J. Computer Security 2020, OSDI 2022, DeFi@CCS 2022 workshop, ACM TOCS 2023 (accepted Feb 2023), IEEE S&P 2023 (May 2023). The earlier count left out TOCS and S&P.",
      "worked_on": "Systems Team intern hosted by George Danezis; co-authored Mysticeti, a low-latency DAG consensus protocol (arXiv 2023), integrated into Sui",
      "source_url": "https://www.cs.cornell.edu/~babel/",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Experience: 'Summer'23 - Research Intern, Mysten Labs - Systems Team, hosted by George Danezis'",
+     "verify_url": "https://www.cs.cornell.edu/~babel/"
     },
     {
      "name": "Giulia Scaffino",
@@ -2585,7 +2731,10 @@
      "worked_on": "Not stated on the host's page",
      "source_url": "https://sonnino.com/academia/",
      "oss_before": "none notable (largest: SoK ~18 stars)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Sonnino's Mysten Labs interns table: 'Giulia Scaffino, TU Wien, 2024, Sunfish'",
+     "verify_url": "https://sonnino.com/academia/"
     },
     {
      "name": "Srivatsan Sridhar",
@@ -2596,7 +2745,10 @@
      "worked_on": "Not stated on the host's page",
      "source_url": "https://sonnino.com/academia/",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Mysten table: 'Srivatsan Sridhar Stanford University 2024 Stingray' under 'Interns at Mysten Labs'",
+     "verify_url": "https://sonnino.com/academia/"
     }
    ],
    "summary": "3 of 3 sampled interns were PhD students with 1-5 peer-reviewed papers before the internship.",
@@ -2604,7 +2756,9 @@
    "n": 3,
    "known": 3,
    "established": 3,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2668,12 +2822,15 @@
      "name": "Florian Suri-Payer",
      "year": "2023",
      "level_at_time": "PhD student at Cornell, about year 5 (defended June 2025)",
-     "pubs_before": 3,
-     "pubs_before_note": "3 before 2023: SOSP 2021 (Basil), PODC 2022 (BeeGees), DISC 2022. Morty (EuroSys) came out May 2023; there are also 2 CloudCom/UCC 2018 papers on a separate profile",
+     "pubs_before": 4,
+     "pubs_before_note": "4 before May 2023, from his publication list: SOSP'21 Basil, DISC'22 brief announcement, plus UCC Companion 2018 and CloudCom 2018, both on this same page. BeeGees is PODC'23 (June 2023), not 2022. Morty is EuroSys May 2023, concurrent. All distributed systems/databases, not crypto.",
      "worked_on": "Research intern in the Aptos blockchain research group, May-Aug 2023; work led to Shoal++, a DAG BFT protocol (NSDI 2025)",
      "source_url": "https://fsuri.github.io",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Own site: \"May-August '23 Research Intern at the Blockchain Research Group @ AptosLabs!\"",
+     "verify_url": "https://fsuri.github.io"
     },
     {
      "name": "Sourav Das",
@@ -2684,7 +2841,10 @@
      "worked_on": "Shoal++ (NSDI 2025), started during his Aptos internship. The year is inferred from co-intern Suri-Payer's 2023 dates; his own homepage lists no internships",
      "source_url": "https://arxiv.org/html/2405.20488v2",
      "oss_before": "none notable (adkg ~30 stars)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Shoal++ footnote: 'The work was done while the authors were interns at Aptos Labs.' (Das marked *)",
+     "verify_url": "https://arxiv.org/html/2405.20488v2"
     }
    ],
    "summary": "2 of 2 sampled interns were PhD students with 3-9 top systems/security papers before the internship.",
@@ -2692,7 +2852,9 @@
    "n": 2,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2765,7 +2927,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -2916,7 +3080,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3018,14 +3184,17 @@
    "interns": [
     {
      "name": "Lawren Smithline",
-     "year": "2001",
+     "year": "1993, 1994, 2001, 2002, 2004",
      "level_at_time": "Assistant Professor of Mathematics, Cornell (also did SCAMP CCR-P in 1993-94 as a Harvard undergrad, and in 2002 and 2004)",
      "pubs_before": 2,
      "pubs_before_note": "2 before 2001: Discrete Mathematics 1995 and Ohio State-Denison conference proceedings 1993 (0 before his first SCAMP in 1993)",
      "worked_on": "Classified DoD mathematics research directed by D. Goldschmidt; no topic given. He later joined CCR-P research staff",
      "source_url": "https://pi.math.cornell.edu/~lawren/resume.pdf",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Resume: \"SCAMP Center for Communications Research, Princeton, NJ ... (Summer '93, '94, '01, '02, '04)\"",
+     "verify_url": "https://pi.math.cornell.edu/~lawren/resume.pdf"
     }
    ],
    "summary": "1 sampled participant (old, 1993-2004): a math PhD/faculty member with 2 papers when he returned as faculty.",
@@ -3033,7 +3202,9 @@
    "n": 1,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3143,7 +3314,10 @@
      "worked_on": "Not stated (NSA work is internal); her thesis was on rotation-symmetric Boolean functions, and she later worked at NSA",
      "source_url": "https://www.buffalo.edu/content/shared/cas/math/modules/our-alumni/thompson.html",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "'She spent one summer in graduate school at the National Security Agency's Graduate Mathematics Program.'",
+     "verify_url": "https://www.buffalo.edu/content/shared/cas/math/modules/our-alumni/thompson.html"
     }
    ],
    "summary": "1 sampled participant (PhD before 2012, year unknown); publication record not checked.",
@@ -3151,7 +3325,9 @@
    "n": 1,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3255,7 +3431,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3351,7 +3529,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3433,7 +3613,9 @@
    "n": 0,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 0,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3538,7 +3720,10 @@
      "oss_before": null,
      "established": null,
      "worked_on": "Research track (crypto/formal methods): 'Secure System Composition and Type Checking using Cryptographic Proofs', mentored by Michael Dixon and Boris Gelfand; later co-authored ePrint 2022/1007 on ZK proofs for probabilistic computations.",
-     "source_url": "https://www.osti.gov/servlets/purl/1820068"
+     "source_url": "https://www.osti.gov/servlets/purl/1820068",
+     "verified": "verified",
+     "verify_evidence": "LANL 'Cyber Security Summer School 2021' report (CSRP) lists Dani Barrack, Portland State, Research Track project",
+     "verify_url": "https://www.osti.gov/servlets/purl/1820068"
     },
     {
      "name": "Sina Sontowski",
@@ -3549,18 +3734,24 @@
      "oss_before": null,
      "established": true,
      "worked_on": "'Detecting Electrical Anomalies via Overlapping Measurements' (smart-grid anomaly detection), which became an IEEE BigData 2021 paper; represented LANL in DOE 'Ignite Off!'.",
-     "source_url": "https://www.osti.gov/servlets/purl/1820068"
+     "source_url": "https://www.osti.gov/servlets/purl/1820068",
+     "verified": "verified",
+     "verify_evidence": "Same 2021 report: 'Sina Sontowski Tennessee Technology University Detecting Electrical Anomalies via Overlapping Measurements'",
+     "verify_url": "https://www.osti.gov/servlets/purl/1820068"
     },
     {
      "name": "Alexander Most",
      "year": "2023",
      "level_at_time": "unknown (student; presented at the LANL Student Symposium, Aug 2023)",
      "pubs_before": 0,
-     "pubs_before_note": "None before 2023 on OpenAlex. Earliest are 2023 (BFMT 2023 workshop, and this MILCOM 2023 paper).",
+     "pubs_before_note": "None before 2023 on OpenAlex. Earliest are 2023 (BFMT 2023 workshop, and this MILCOM 2023 paper). [Participation not confirmed by a primary source; excluded from the count.]",
      "oss_before": null,
      "established": null,
      "worked_on": "Electrical grid SCADA anomaly detection via tensor decomposition (MILCOM 2023); the paper's acknowledgment credits ISTI's Cybersecurity Science Research Program.",
-     "source_url": "https://arxiv.org/pdf/2310.08650"
+     "source_url": "https://arxiv.org/pdf/2310.08650",
+     "verified": "unverified",
+     "verify_evidence": "Paper only says research 'was supported by the ... Cybersecurity Science Research Program'; LANL email, not stated as CSRP intern",
+     "verify_url": "https://arxiv.org/pdf/2310.08650"
     }
    ],
    "summary": "3 verified (2021 x2 from the official LANL roster, 2023 x1 from a paper acknowledgment). The 2021 program was then called the 'Cyber Security Summer School' research track. Only 1 of the 3 had a peer-reviewed paper beforehand.",
@@ -3568,7 +3759,9 @@
    "n": 3,
    "known": 1,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -3965,7 +4158,10 @@
      "oss_before": null,
      "established": null,
      "worked_on": "Industrial control system programming/design and IT/OT integration; was on the blue team in INL's ICS cybersecurity training (course record).",
-     "source_url": "https://www.newswise.com/articles/dream-team-cybersecurity-interns-demonstrate-strength-of-idaho-programs"
+     "source_url": "https://www.newswise.com/articles/dream-team-cybersecurity-interns-demonstrate-strength-of-idaho-programs",
+     "verified": "verified",
+     "verify_evidence": "'interns James Dawson and Andrew Bonilla were a dream team for the Idaho National Laboratory's (INL) Cybercore Integration Center' (summer 2025)",
+     "verify_url": "https://www.newswise.com/articles/dream-team-cybersecurity-interns-demonstrate-strength-of-idaho-programs"
     },
     {
      "name": "Andrew Bonilla",
@@ -3976,7 +4172,10 @@
      "oss_before": null,
      "established": null,
      "worked_on": "Operational-technology / ICS security experience; on the same INL ICS-training blue team.",
-     "source_url": "https://www.newswise.com/articles/dream-team-cybersecurity-interns-demonstrate-strength-of-idaho-programs"
+     "source_url": "https://www.newswise.com/articles/dream-team-cybersecurity-interns-demonstrate-strength-of-idaho-programs",
+     "verified": "verified",
+     "verify_evidence": "Same INL article: interns Dawson and Bonilla (University of Idaho), summer of 2025, Cybercore",
+     "verify_url": "https://www.newswise.com/articles/dream-team-cybersecurity-interns-demonstrate-strength-of-idaho-programs"
     }
    ],
    "summary": "2 verified 2025 INL cyber interns. Both were undergrads in an operations/ICS role, not research-track, so a weak match to the 'researcher' internship.",
@@ -3984,7 +4183,9 @@
    "n": 2,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -4120,7 +4321,10 @@
      "oss_before": "none notable (top repo Smart-Grid-Security-CS-4404, 3 stars)",
      "established": false,
      "worked_on": "Systems Security Research Intern (May-Aug 2026): Clang-based transpiler to instrument hardware-assisted kernel compartmentalization (PAC/MTE) in Linux; now a Student Technical Assistant in the Secure Resilient Systems and Technology group (Rust seL4 RTOS 'Magnetite').",
-     "source_url": "https://raw.githubusercontent.com/vivekjag1/portfolioWebsite/HEAD/data.jsx"
+     "source_url": "https://raw.githubusercontent.com/vivekjag1/portfolioWebsite/HEAD/data.jsx",
+     "verified": "verified",
+     "verify_evidence": "data.jsx: 'Systems Security Research Intern', MIT Lincoln Laboratory, 'May 2026 - Aug 2026'; STA with Secure Resilient Systems group",
+     "verify_url": "https://raw.githubusercontent.com/vivekjag1/portfolioWebsite/HEAD/data.jsx"
     },
     {
      "name": "Timothy Trippel",
@@ -4131,7 +4335,10 @@
      "oss_before": "none notable (pre-2017 repos have 0-1 stars)",
      "established": true,
      "worked_on": "Graduate Research Intern 2017-2019, Cyber-Physical Systems team (his site does not say Group 53): built the ICAS toolchain to assess IC layouts against fabrication-time hardware Trojans, which led to the R&D 100-winning T-TER work. Older and not confirmed to be the 05-53 group.",
-     "source_url": "https://raw.githubusercontent.com/timothytrippel/mywebsite/main/content/experience/past_jobs/2017-09-15-mitll.md"
+     "source_url": "https://raw.githubusercontent.com/timothytrippel/mywebsite/main/content/experience/past_jobs/2017-09-15-mitll.md",
+     "verified": "verified",
+     "verify_evidence": "start_year 2017, 'Graduate Research Intern', MIT Lincoln Laboratory; team is Cyber-Physical Systems, not Group 05-53",
+     "verify_url": "https://raw.githubusercontent.com/timothytrippel/mywebsite/main/content/experience/past_jobs/2017-09-15-mitll.md"
     }
    ],
    "summary": "2 verified LL summer interns, both systems/hardware security rather than applied crypto: one 2026 confirmed in Secure Resilient Systems and Technology (BS, 0 papers), one 2017-2019 PhD intern on a different team (1 paper).",
@@ -4139,7 +4346,9 @@
    "n": 2,
    "known": 2,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -4657,7 +4866,10 @@
      "worked_on": "Fuzzing (automated software bug-finding); project with a co-intern that stalled because supervision was light (his own account)",
      "source_url": "https://summerblog.insightiitb.org/ankit-saha-cispa/",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "'I also completed a research internship at CISPA Helmholtz ... in the Summer of 2024'",
+     "verify_url": "https://summerblog.insightiitb.org/ankit-saha-cispa/"
     }
    ],
    "summary": "Only 1 verified CSR-era intern (2024 IITB undergrad, fuzzing, 0 prior pubs); individual CSR alumni pages are hard to find by web search.",
@@ -4665,7 +4877,9 @@
    "n": 1,
    "known": 1,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -4736,7 +4950,10 @@
      "worked_on": "MPI-SP research intern with Yixin Zou: inclusive security and privacy (d/Deaf and hard-of-hearing S&P needs, later WASP 2024 and IEEE S&P 2026; vulnerability framework, CSCW 2025)",
      "source_url": "https://yixinzou.github.io/group/",
      "oss_before": "none notable",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Yixin Zou (MPI-SP) group page: 'Xinru Tang (research intern, 2023 --> PhD student, UC Irvine)'",
+     "verify_url": "https://yixinzou.github.io/group/"
     },
     {
      "name": "Jackie Hu",
@@ -4747,7 +4964,10 @@
      "worked_on": "Remote research intern at MPI-SP and MPI-SWS with Yixin Zou and Elissa Redmiles. CV gives no project; later co-authored papers with them on valuing digital accounts (IJHCI 2026) and S&P advice in Majority World countries (IEEE S&P 2026)",
      "source_url": "https://yjwho.github.io/cv.pdf",
      "oss_before": "none notable",
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "CV: 'MPI-SP and MPI-SWS, Remote, Research Intern with Dr. Yixin Zou and Dr. Elissa Redmiles, Summer 2023'",
+     "verify_url": "https://yjwho.github.io/cv.pdf"
     },
     {
      "name": "Princessa Cintaqia",
@@ -4758,7 +4978,10 @@
      "worked_on": "Research intern in Yixin Zou's MPI-SP group (project not stated on the source)",
      "source_url": "https://yixinzou.github.io/group/",
      "oss_before": "none notable",
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "Zou group page: 'Princessa Cintaqia (research intern, 2023 --> PhD student, Boston University)'",
+     "verify_url": "https://yixinzou.github.io/group/"
     }
    ],
    "summary": "3 MPI-SP 2023 interns (usable security/HCI, Zou group): 0-2 prior pubs; the one with prior pubs was already a PhD student.",
@@ -4766,7 +4989,9 @@
    "n": 3,
    "known": 3,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -4846,7 +5071,10 @@
      "worked_on": "SSRF fellow in Kenny Paterson's Applied Cryptography Group, Jul-Aug 2024 (project not named on the source)",
      "source_url": "https://appliedcrypto.ethz.ch/news-events/news-events-archive/2024.html",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "'Àlex Rodríguez García returned home after spending July and August with our group for the Student Summer Research Fellowship'",
+     "verify_url": "https://appliedcrypto.ethz.ch/news-events/news-events-archive/2024.html"
     },
     {
      "name": "Benjamín Benčík",
@@ -4857,7 +5085,10 @@
      "worked_on": "Anonymous communication systems in the Applied Cryptography Group (supervised by Annamira O'Toole and Kenny Paterson), Jul-Aug 2026",
      "source_url": "https://appliedcrypto.ethz.ch/news-events.html",
      "oss_before": "none notable (github.com/benbencik: top repo 2 stars)",
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "14.07.2026: 'Benjamín has won an ETH Student Summer Research Fellowship and will spend July and August with our group'",
+     "verify_url": "https://appliedcrypto.ethz.ch/news-events.html"
     }
    ],
    "summary": "2 crypto SSRF fellows found (2024, 2026); the one with known history had 0 prior peer-reviewed pubs (just a bachelor thesis).",
@@ -4865,7 +5096,9 @@
    "n": 2,
    "known": 1,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -4928,14 +5161,17 @@
    "interns": [
     {
      "name": "Yatharth Goswami",
-     "year": "2020",
+     "year": "2021",
      "level_at_time": "undergrad (2nd-year CSE, IIT Kanpur)",
      "pubs_before": 0,
      "pubs_before_note": "none found (no OpenAlex author profile); DBLP blocked this run",
      "worked_on": "Secure heavy-hitters detection in data streams via multi-party lattice-based homomorphic encryption, LDS lab (Hubaux); year inferred from Aug 2021 post saying 'last summer'",
      "source_url": "https://yatharth0610.github.io/blog/2021/08/04/InternExp/",
      "oss_before": "none notable (GitHub yatharth0610: top repo CS253 ~6 stars)",
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "Blog describes Summer@EPFL (LDS lab, remote); his homepage: 'Research Intern, Summer@EPFL LDS Lab ... May 2021 - July 2021'",
+     "verify_url": "https://yatharth0610.github.io/"
     },
     {
      "name": "Kirill Nikitin",
@@ -4946,7 +5182,10 @@
      "worked_on": "Factoring weak public keys on the Web via shared primes / GCD, Lenstra's cryptologic algorithms lab (LACAL)",
      "source_url": "https://actu.epfl.ch/news/make-the-most-of-your-summer",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "'One of these students, Kirill Nikitin, shares his experience' of Summer@EPFL (page (c) 2014, LACAL lab)",
+     "verify_url": "https://actu.epfl.ch/news/make-the-most-of-your-summer"
     },
     {
      "name": "Anastasiia Kucherenko",
@@ -4957,7 +5196,10 @@
      "worked_on": "FPGA circuit-embedding optimization (architecture + algorithm), LAP with Kapralov's Theory of Computation lab",
      "source_url": "https://actu.epfl.ch/news/investigate-both-projects-and-switzerland-together",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "'Anastasiia Kucherenko, shares her experience with us from the summer 2018 program' (Summer@EPFL)",
+     "verify_url": "https://actu.epfl.ch/news/investigate-both-projects-and-switzerland-together"
     }
    ],
    "summary": "3 verified Summer@EPFL interns (2014, 2018, 2020), all BS/MS with 0 prior papers; one was in crypto (LACAL), one in applied crypto (LDS), one in theory-adjacent work",
@@ -4965,7 +5207,9 @@
    "n": 3,
    "known": 3,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 3,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -5051,7 +5295,10 @@
      "worked_on": "unknown: the source only reports the grant to attend; project not stated (year inferred from the Feb 2017 announcement)",
      "source_url": "https://geometry.karazin.ua/en/news/33+++++++%D0%92%D0%86%D0%A2%D0%90%D0%84%D0%9C%D0%9E%21",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "13 Feb 2017: Krymova 'received a grant to participate in the Kupcinet-Getz International Summer Science School at the Weizmann Institute'",
+     "verify_url": "https://geometry.karazin.ua/en/news/33+++++++%D0%92%D0%86%D0%A2%D0%90%D0%84%D0%9C%D0%9E%21"
     }
    ],
    "summary": "Thin: only 1 verified participant (math undergrad, 2017, project unknown); no CS or crypto Kupcinet-Getz alumnus confirmed on a page I could open",
@@ -5059,7 +5306,9 @@
    "n": 1,
    "known": 0,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 1,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -5122,7 +5371,10 @@
      "worked_on": "Asynchronous remote key generation (ARKG) for WebAuthn-style key derivation",
      "source_url": "https://www.unibw.de/pacy-en/news/school-crypto-2023",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "'Jerome Nguyen, Hugo Nartz and Matteo Salvino attended international PhD summer school on Real-world Crypto and Privacy 2023'",
+     "verify_url": "https://www.unibw.de/pacy-en/news/school-crypto-2023"
     },
     {
      "name": "Matteo Salvino",
@@ -5133,7 +5385,10 @@
      "worked_on": "Non-malleability / CCA security of the Fujisaki-Okamoto transform (post-quantum KEMs)",
      "source_url": "https://www.unibw.de/pacy-en/news/school-crypto-2023",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "Same PACY news (13 June 2023): Salvino attended Real-world Crypto and Privacy summer school 2023",
+     "verify_url": "https://www.unibw.de/pacy-en/news/school-crypto-2023"
     },
     {
      "name": "Jerome Nguyen",
@@ -5144,7 +5399,10 @@
      "worked_on": "Fully homomorphic encryption with chosen-ciphertext security (research area, inferred from later talks)",
      "source_url": "https://www.unibw.de/pacy-en/news/school-crypto-2023",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "Same PACY news (13 June 2023): Jerome Nguyen attended Real-world Crypto and Privacy summer school 2023",
+     "verify_url": "https://www.unibw.de/pacy-en/news/school-crypto-2023"
     },
     {
      "name": "Hedwig Koerfgen",
@@ -5155,7 +5413,10 @@
      "worked_on": "Quantum cryptography / QKD for VPNs; wrote up the school's Tamarin and hardware reverse-engineering tutorials",
      "source_url": "https://www.concordia-h2020.eu/news/summer-school-on-real-world-crypto-and-privacy-in-sibenik-2022/",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "Testimonial by 'Hedwig Körfgen, University of the Bundeswehr Munich': first summer school since starting PhD, Šibenik 2022",
+     "verify_url": "https://www.concordia-h2020.eu/news/summer-school-on-real-world-crypto-and-privacy-in-sibenik-2022/"
     },
     {
      "name": "Petar Paradzik",
@@ -5166,7 +5427,10 @@
      "worked_on": "Formal protocol verification (Tamarin-style multiset rewriting, offline guessing attacks); wrote a participant account of the talks",
      "source_url": "https://www.concordia-h2020.eu/news/summer-school-on-real-world-crypto-and-privacy-in-sibenik-2022/",
      "oss_before": null,
-     "established": null
+     "established": null,
+     "verified": "verified",
+     "verify_evidence": "Testimonial by 'Petar Paradžik, ... University of Zagreb': 'we have finally witnessed the 7th edition ... in Šibenik'",
+     "verify_url": "https://www.concordia-h2020.eu/news/summer-school-on-real-world-crypto-and-privacy-in-sibenik-2022/"
     }
    ],
    "summary": "5 verified attendees (2022-2023), all early PhD students with 0 published papers before the school (some with a first paper the same summer); it is a PhD-entry-level school",
@@ -5174,7 +5438,9 @@
    "n": 5,
    "known": 1,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 5,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -5229,14 +5495,17 @@
    "interns": [
     {
      "name": "Sebastian David Albu",
-     "year": "2024",
+     "year": "2024 (also 2025)",
      "level_at_time": "MS student (Computer Science, TU Graz)",
      "pubs_before": 0,
      "pubs_before_note": "none found; homepage lists only seminar papers and MS theses, no peer-reviewed venues (DBLP blocked by bot-wall; counted via Semantic Scholar author search)",
      "worked_on": "Attended GSW 2024 and 2025 (2025 as scholarship holder); his area is privacy-enhancing tech (MPC with TEEs, differential-privacy noise sampling), now a PhD researcher at KU Leuven (from Sept 2026)",
      "source_url": "https://sebastianalbu33.github.io/",
      "oss_before": "none notable",
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "Certificates: 'Graz Security Week - International Summer School on Cybersecurity - ISEC TU Graz 2025 Edition (Scholarship Holder) 2024 Edition'",
+     "verify_url": "https://sebastianalbu33.github.io/"
     },
     {
      "name": "Ernesto Martinez Garcia",
@@ -5247,7 +5516,10 @@
      "worked_on": "Attended GSW 2025 and ran its CTF Labs workshop (so partly organizer side); research on Linux/Android kernel exploitation",
      "source_url": "https://ecomaikgolf.com/projects/",
      "oss_before": "none notable (github.com/ecomaikgolf; top repos ~10-13 stars, e.g. typst-isec-thesis-template 12)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Projects page: 'Graz Security Week 2025: Attended the Graz Security Week 2025 summer school and organized the CTF Labs'",
+     "verify_url": "https://ecomaikgolf.com/projects/"
     }
    ],
    "summary": "No official participant lists exist; found 2 attendees through their homepages: an MS student with no papers, and a first-year ISEC PhD student with 1 USENIX Security paper.",
@@ -5255,7 +5527,9 @@
    "n": 2,
    "known": 2,
    "established": 1,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -5317,7 +5591,10 @@
      "worked_on": "Participant at CASA Summer School 2026 (topic: cyber security in the AI era, consensus/crypto speakers); the program's recap quotes her saying the topic fits her MPC and applied-crypto research",
      "source_url": "https://hgi.rub.de/en/news/newsarchiv/hginews/hot-topics-und-sonnige-tage-die-casa-summer-school-2026",
      "oss_before": null,
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Quoted participant at CASA Summer School 2026: 'said Nina Schwanke from the Technical University of Munich'",
+     "verify_url": "https://hgi.rub.de/en/news/newsarchiv/hginews/hot-topics-und-sonnige-tage-die-casa-summer-school-2026"
     },
     {
      "name": "Clement Ducros",
@@ -5328,7 +5605,10 @@
      "worked_on": "Participant at CASA Summer School 2026; works on pseudorandom correlation generators and MPC from LPN/coding assumptions",
      "source_url": "https://hgi.rub.de/en/news/newsarchiv/hginews/hot-topics-und-sonnige-tage-die-casa-summer-school-2026",
      "oss_before": "none notable (a GitHub account named Clément Ducros, ClementDucros, has no public repos; it is a name match only, not linked from a homepage)",
-     "established": true
+     "established": true,
+     "verified": "verified",
+     "verify_evidence": "Quoted at CASA Summer School 2026: 'said Postdoc Clément Ducros from CISPA'",
+     "verify_url": "https://hgi.rub.de/en/news/newsarchiv/hginews/hot-topics-und-sonnige-tage-die-casa-summer-school-2026"
     }
    ],
    "summary": "Only the 2026 recap names any participants: a postdoc with PKC and ASIACRYPT papers, and a TUM MPC researcher with 1 earlier (non-crypto) paper.",
@@ -5336,7 +5616,9 @@
    "n": 2,
    "known": 2,
    "established": 2,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 2,
+   "reverified": "2026-11-08"
   }
  },
  {
@@ -5686,7 +5968,10 @@
      "worked_on": "Microarchitectural Attacks and Defenses, mentored by Riccardo Paccagnella (SPUR project list; the bio page says 'REUSE/SPUR student')",
      "source_url": "https://www.cmu.edu/scs/s3d/reuse/people/student-bios/vaz-nathan.html",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "CMU bio: 'Nathan Vaz REUSE/SPUR student ... Project: Microarchitectural Attacks and Defenses'",
+     "verify_url": "https://www.cmu.edu/scs/s3d/reuse/people/student-bios/vaz-nathan.html"
     },
     {
      "name": "Jennifer Forsyth",
@@ -5697,7 +5982,10 @@
      "worked_on": "Usable Privacy and Security, mentored by Lorrie Cranor (the bio page says 'REUSE/SPUR student')",
      "source_url": "https://www.cmu.edu/scs/s3d/reuse/people/student-bios/forsyth-jennifer.html",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "CMU bio: 'Jennifer Forsyth REUSE/SPUR student ... Project: Usable Privacy and Security Mentor: Dr. Lorrie Cranor'",
+     "verify_url": "https://www.cmu.edu/scs/s3d/reuse/people/student-bios/forsyth-jennifer.html"
     },
     {
      "name": "Elizabeth Cooney",
@@ -5708,7 +5996,10 @@
      "worked_on": "Usable Privacy and Security, mentored by Lorrie Cranor (the bio page says 'REUSE/SPUR student')",
      "source_url": "https://www.cmu.edu/scs/s3d/reuse/people/student-bios/cooney-elizabeth.html",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "CMU bio: 'Elizabeth Cooney REUSE/SPUR student ... Project: Usable Privacy and Security'",
+     "verify_url": "https://www.cmu.edu/scs/s3d/reuse/people/student-bios/cooney-elizabeth.html"
     },
     {
      "name": "Fabion Walden",
@@ -5719,7 +6010,10 @@
      "worked_on": "REUSE (SPUR's predecessor), not SPUR: a secure, scalable SMS classification platform for scam-warning research, mentored by Lorrie Cranor",
      "source_url": "https://blog.utc.edu/news/?p=71294",
      "oss_before": null,
-     "established": false
+     "established": false,
+     "verified": "verified",
+     "verify_evidence": "UTC 7 Oct 2025: 'This past summer, he participated in the ... (REUSE) Program at the Carnegie Mellon University CyLab'",
+     "verify_url": "https://blog.utc.edu/news/?p=71294"
     }
    ],
    "summary": "2026 is SPUR's first year, and CMU's pages don't separate SPUR from REUSE students. All 4 sampled security/privacy students were undergrads with no publications.",
@@ -5727,7 +6021,9 @@
    "n": 4,
    "known": 4,
    "established": 0,
-   "checked": "2026-11-08"
+   "checked": "2026-11-08",
+   "verified_n": 4,
+   "reverified": "2026-11-08"
   }
  }
 ]
