@@ -233,14 +233,15 @@ const words=t=>stripU(t).toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
 const qTokens=q=>words(q);
 // short tokens (<=3 chars: PIR, MPC, ZK, edu) must match a whole word; longer ones match a word prefix (garbl -> garbling)
 function matchQ(hay,toks){if(!toks.length)return true;return toks.every(t=>t.length<=3?hay.includes(t):hay.some(w=>w.startsWith(t)))}
-// ---------- state (persisted in URL hash) ----------
+// ---------- state (persisted in URL hash, and the last state in localStorage so filters survive reopening) ----------
 const DEF={tab:'ms',
   'ms.q':'','ms.country':[],'ms.region':[],'ms.thesis':[],'ms.route':[],'ms.sort':'fit','ms.dir':'','ms.view':'cards','ms.my':'0','ms.pyes':'0','ms.fund':'0','ms.ff':'0','ms.msonly':'0','ms.nobusy':'0',
   'in.q':'','in.track':['theory','applied-research'],'in.letters':[],'in.elig':['yes','unclear'],'in.status':['open','rolling','not yet posted'],'in.cat':[],'in.loc':[],'in.diff':[],'in.prest':[],'in.sort':'pick','in.dir':'','in.view':'cards','in.my':'0',
   'tl.kind':['PhD','Internship','School','Scholarship','Funding','Letters','Deferral'],'tl.track':['theory','applied-research'],'tl.past':'0','tl.ok':'1','tl.my':'0'};
 const st=JSON.parse(JSON.stringify(DEF));
 function enc(){const p=new URLSearchParams();for(const k in DEF){const v=st[k],d=DEF[k];const sv=Array.isArray(v)?v.join('|'):v,sd=Array.isArray(d)?d.join('|'):d;if(sv!==sd)p.set(k,sv)}const h=p.toString();return h?'#'+h:location.pathname+location.search}
-function writeHash(push){const u=enc();if(u===(location.hash||location.pathname+location.search))return;history[push?'pushState':'replaceState'](null,'',u)}
+const STK='cgp.state.v1';
+function writeHash(push){const u=enc();try{localStorage.setItem(STK,u.startsWith('#')?u:'')}catch(e){}if(u===(location.hash||location.pathname+location.search))return;history[push?'pushState':'replaceState'](null,'',u)}
 function readHash(){const p=new URLSearchParams(location.hash.slice(1));for(const k in DEF){if(p.has(k)){const v=p.get(k);st[k]=Array.isArray(DEF[k])?(v?v.split('|'):[]):v}else st[k]=Array.isArray(DEF[k])?DEF[k].slice():DEF[k]}
   if(p.has('ms.tcol')&&!p.has('ms.sort'))st['ms.sort']=p.get('ms.tcol');if(p.has('in.tcol')&&!p.has('in.sort'))st['in.sort']=p.get('in.tcol')}
 function showTab(id){if(!TABS.includes(id))id='ms';st.tab=id;for(const t of TABS){$('#'+t).hidden=t!==id;$('#t-'+t).setAttribute('aria-selected',t===id?'true':'false');$('#t-'+t).tabIndex=t===id?0:-1}}
@@ -630,6 +631,7 @@ Promise.all(FILES.map(f=>fetch(f).then(r=>{if(!r.ok)throw new Error(`${f}: HTTP 
     ['sel','in.sort','',INCOLS.map(c=>[c.k,'Sort: '+c.sortLabel])],['view','in.view']]);
   buildCtl($('#tl-ctl'),[['ck','tl.my','My shortlist'],['ck','tl.ok','only ones I can apply to']],[['m','tl.kind','Type',KINDS],['m','tl.track','Internship track',TRACKS],['ck','tl.past','show past']]);
   $('#me-ms').innerHTML=md(m1);$('#me-in').innerHTML=md(m2);
+  if(!location.hash){let sv='';try{sv=localStorage.getItem(STK)||''}catch(e){}if(sv.startsWith('#'))history.replaceState(null,'',sv)}
   readHash();fboxSync();if(mq.matches)document.querySelectorAll('details.fbox').forEach(f=>f.open=false);update();showTab(st.tab);
   window.addEventListener('popstate',()=>{readHash();update();showTab(st.tab)});
   window.addEventListener('hashchange',()=>{readHash();update();showTab(st.tab)});
