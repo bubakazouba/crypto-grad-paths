@@ -66,6 +66,20 @@
    "added": "2026-11-08",
    "source": "Sahmoud, Telegram 2026-11-08 11:02",
    "notes": ""
+  },
+  {
+   "id": "T4",
+   "area": "research",
+   "title": "Consider attending 'Frontiers in Quantum Computing, AI, and Cryptography' workshop (CUNY Graduate Center, NYC), Mar 10-12 2027, no registration fee",
+   "owner": "sahmoud",
+   "status": "todo",
+   "due": "2027-03-10",
+   "related": [
+    "Columbia (James Bartusek speaking)"
+   ],
+   "added": "2026-11-08",
+   "source": "Preksha, bot+shosha group 2026-11-08 11:12",
+   "notes": "Organized with Mark Hillery (Hunter/CUNY) and Tomoyuki Morimae (Kyoto). Chance to meet Bartusek in person (Columbia is on the school shortlist)."
   }
  ]
 }
