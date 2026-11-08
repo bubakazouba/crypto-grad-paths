@@ -205,7 +205,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Oblivious Labs, Inc.",
+       "role": "Co-founder",
+       "since": "",
+       "source_url": "http://elaineshi.com",
+       "quote": "I’m a co-founder of Oblivious Labs, Inc"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Aayush Jain",
@@ -288,7 +301,12 @@
     },
     "crypto_core": "core",
     "dblp_suspect": "Robotics/vision papers (CoBT behaviour trees, RL reward shaping, 3D object detection, hyperspectral recycling, SeekSuspect, Neural A*) look like a different Aayush Jain.",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Riad S. Wahby",
@@ -330,7 +348,27 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Cubist (key management startup)",
+       "role": "Co-founder & CEO",
+       "since": "2022",
+       "source_url": "https://bravenewcoin.com/insights/solving-key-management-a-conversation-with-cubist-ceo-riad-wahby",
+       "quote": "Solving key management: a conversation with Cubist CEO Riad Wahby"
+      },
+      {
+       "what": "Cubist about page lists him as founder while CMU faculty",
+       "role": "Co-founder & CEO",
+       "since": "",
+       "source_url": "https://www.cubist.dev/about",
+       "quote": "Riad is a member of the Electrical and Computer Engineering faculty at Carnegie Mellon University."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Bryan Parno",
@@ -372,7 +410,20 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Amazon Web Services (as part of sabbatical)",
+       "role": "Amazon Scholar",
+       "since": "2025",
+       "source_url": "https://www.andrew.cmu.edu/user/bparno",
+       "quote": "As part of my sabbatical work, I recently joined Amazon Web Services as an Amazon Scholar."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Wenting Zheng",
@@ -448,7 +499,12 @@
     },
     "crypto_core": "security",
     "dblp_suspect": "Many 3D graphics/avatar generation, concrete tomography and power-grid visualization papers look like a different Wenting Zheng.",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Fraser Brown",
@@ -501,7 +557,20 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Cubist (key management startup)",
+       "role": "Co-founder & CTO",
+       "since": "2022",
+       "source_url": "https://www.cubist.dev/about",
+       "quote": "Fraser is an Assistant Professor at Carnegie Mellon University’s Software and Societal Systems Department."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -774,7 +843,20 @@
     "crypto_core": "core",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Qrypt (quantum-safe crypto company); page undated, current status unconfirmed",
+       "role": "Chief Cryptographer",
+       "since": "",
+       "source_url": "https://www.qrypt.com/?p=554",
+       "quote": "Yevgeniy Dodis is the Qrypt Chief Cryptographer driving all software and algorithm development"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Nir Bitansky",
@@ -851,7 +933,12 @@
     "crypto_core": "core",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Benedikt Bünz",
@@ -917,7 +1004,20 @@
     "crypto_core": "core",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Espresso Systems",
+       "role": "Co-founder and Chief Scientist",
+       "since": "",
+       "source_url": "https://cs.nyu.edu/~bb/",
+       "quote": "I am a cofounder and chief scientist of Espresso Systems."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Marshall Ball",
@@ -997,7 +1097,12 @@
     "crypto_core": "core",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Joseph Bonneau",
@@ -1074,7 +1179,12 @@
     "crypto_core": "security",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Fermi Ma",
@@ -1143,7 +1253,12 @@
     "crypto_core": "core",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Oded Regev",
@@ -1187,7 +1302,12 @@
     "crypto_core": "core",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Tony Metger",
@@ -1235,7 +1355,12 @@
     "crypto_core": "adjacent",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "department": "Courant",
-    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/"
+    "department_source": "https://cs.nyu.edu/dynamic/people/faculty/type/22/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -1654,7 +1779,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Boston University center",
+       "role": "Director, Center for Reliable Information Systems and Cyber Security",
+       "since": "",
+       "source_url": "https://www.bu.edu/cs/profiles/ran-canetti",
+       "quote": "director of the center for Reliable Information System and Cyber Security"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Eran Tromer",
@@ -1718,7 +1856,27 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Sealance Corp.",
+       "role": "Founder (current status unconfirmed)",
+       "since": "",
+       "source_url": "https://cs-people.bu.edu/tromer",
+       "quote": "a founder of Sealance Corp."
+      },
+      {
+       "what": "BU CS department admin role",
+       "role": "Director of Graduate Studies, CS",
+       "since": "",
+       "source_url": "https://cs-people.bu.edu/tromer",
+       "quote": "Director of Graduate Studies"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mayank Varia",
@@ -1796,7 +1954,27 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "BU Faculty of Computing & Data Sciences",
+       "role": "Chair of Research Affairs; Director of PhD Admissions",
+       "since": "",
+       "source_url": "https://www.bu.edu/cds-faculty/profile/mayank-varia",
+       "quote": "Chair of Research Affairs"
+      },
+      {
+       "what": "US federal advisory committee",
+       "role": "Member, Advisory Committee on Data for Evidence Building",
+       "since": "",
+       "source_url": "https://www.bu.edu/cds-faculty/profile/mayank-varia",
+       "quote": "United States Advisory Committee on Data for Evidence Building"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Alexander Poremba",
@@ -1860,7 +2038,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Leonid Reyzin",
@@ -1907,7 +2090,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -2173,7 +2361,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Georgia Tech SCP/SCS",
+       "role": "Senior Associate Chair",
+       "since": "",
+       "source_url": "https://www.scs.gatech.edu/people/vladimir-kolesnikov",
+       "quote": "Professor and SCP Senior Associate Chair, Joint with the School of Computer Science"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Vassilis Zikas",
@@ -2244,7 +2445,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Joseph Jaeger",
@@ -2297,7 +2503,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Daniel Genkin",
@@ -2346,7 +2557,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Alexandra Boldyreva",
@@ -2395,7 +2611,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Georgia Tech School of Cybersecurity and Privacy",
+       "role": "Associate Chair for Graduate Studies",
+       "since": "",
+       "source_url": "https://faculty.cc.gatech.edu/~aboldyre",
+       "quote": "Associate Chair for Graduate Studies"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -2654,7 +2883,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "NTT Research (CIS Lab); NTT profile says on leave from UIUC",
+       "role": "Senior Scientist",
+       "since": "2024",
+       "source_url": "https://www.dakshitakhurana.com",
+       "quote": "Senior Scientist, NTT Research"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "David Heath",
@@ -2736,7 +2978,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ling Ren",
@@ -2814,7 +3061,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Yupeng Zhang",
@@ -2855,7 +3107,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ning Luo",
@@ -2907,7 +3164,12 @@
     },
     "crypto_core": "security",
     "dblp_suspect": "Illegal-building/vehicle detection deep-learning papers and a BGP stable-path paper look like a different Ning Luo.",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -3169,7 +3431,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Mysten Labs",
+       "role": "Advisor to cryptography team",
+       "since": "",
+       "source_url": "http://www.baldimtsi.com",
+       "quote": "I serve as an advisor to the cryptography team of Mysten Labs."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "S. Dov Gordon",
@@ -3229,7 +3504,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Giuseppe Ateniese",
@@ -3269,7 +3549,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Evgenios M. Kornaropoulos",
@@ -3310,7 +3595,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -3537,7 +3827,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Jeremiah Blocki",
@@ -3623,7 +3918,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mahimna Kelkar",
@@ -3687,7 +3987,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Offchain Labs (Arbitrum)",
+       "role": "Research Scientist (concurrent with Purdue)",
+       "since": "",
+       "source_url": "https://mahimnakelkar.github.io",
+       "quote": "I am also a Research Scientist at Offchain Labs."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Aniket Kate",
@@ -3758,7 +4071,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Mysten Labs",
+       "role": "Senior Research Scientist (concurrent with Purdue)",
+       "since": "",
+       "source_url": "https://www.cs.purdue.edu/homes/akate",
+       "quote": "Senior Research Scientist"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -4017,7 +4343,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mihir Bellare",
@@ -4070,7 +4401,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Daniele Micciancio",
@@ -4119,7 +4455,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Nadia Heninger",
@@ -4171,7 +4512,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Sabbatical at INRIA Saclay",
+       "role": "On sabbatical 2026-27",
+       "since": "2026",
+       "source_url": "https://cseweb.ucsd.edu/~nadiah",
+       "quote": "I am on sabbatical for the 2026-2027 academic year"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -4462,7 +4816,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Henry Corrigan-Gibbs",
@@ -4526,7 +4885,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Raluca A. Popa",
@@ -4581,7 +4945,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Google DeepMind",
+       "role": "Head of Security and Privacy Research",
+       "since": "",
+       "source_url": "http://eecs.berkeley.edu/~raluca",
+       "quote": "the head of Security and Privacy Research at Google DeepMind"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Shafi Goldwasser",
@@ -4633,7 +5010,34 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Duality Technologies",
+       "role": "Co-founder and Chief Scientist",
+       "since": "2016",
+       "source_url": "https://en.wikipedia.org/wiki/Shafi_Goldwasser",
+       "quote": "co-founder and chief scientist of Duality Technologies"
+      },
+      {
+       "what": "Startups (QED-it, Algorand)",
+       "role": "Scientific advisor",
+       "since": "",
+       "source_url": "https://en.wikipedia.org/wiki/Shafi_Goldwasser",
+       "quote": "Scientific advisor to several startups, including QED-it and Algorand"
+      },
+      {
+       "what": "Simons Institute",
+       "role": "Research Director, Resilience Research Pod",
+       "since": "2024",
+       "source_url": "https://simons.berkeley.edu/people/shafi-goldwasser",
+       "quote": "Research Director for the Resilience Research Pod"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -4905,7 +5309,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Thomas Peters",
@@ -4981,7 +5390,12 @@
     },
     "crypto_core": "core",
     "dblp_suspect": "Contains unrelated physics/agriculture papers (electrostatic force between spheres; Palmer amaranth hyperspectral imaging) from a different Thomas Peters",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Benjamin Fuller",
@@ -5033,7 +5447,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "UConn Connecticut Advanced Computing Center",
+       "role": "Co-director",
+       "since": "",
+       "source_url": "http://benjamin-fuller.uconn.edu",
+       "quote": "I'm a co-director of the Connecticut Advanced Computing Center."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ghada A. Al-Mashaqbeh",
@@ -5082,7 +5509,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -5329,7 +5761,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Gabriel Kaptchuk",
@@ -5400,7 +5837,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ian Miers",
@@ -5453,7 +5895,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Xiaodi Wu",
@@ -5494,7 +5941,20 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Amazon / AWS Braket (concurrent industry role)",
+       "role": "Amazon Scholar",
+       "since": "",
+       "source_url": "https://www.cs.umd.edu/~xwu",
+       "quote": "I am also an Amazon Scholar working for AWS Braket."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -5749,7 +6209,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Huijia Lin",
@@ -5836,7 +6301,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Nirvan Tyagi",
@@ -5896,7 +6366,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Andrea Coladangelo",
@@ -5956,7 +6431,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Co-founded qBraid (quantum cloud platform); current role not stated on page",
+       "role": "Co-founder",
+       "since": "",
+       "source_url": "https://www.cs.washington.edu/people/faculty/andrea-coladangelo/",
+       "quote": "He co-founded qBraid, a cloud-based platform for learning quantum computing and developing quantum algorithms."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -6245,7 +6733,27 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Lagrange Labs, Inc. (startup)",
+       "role": "Chief Scientist",
+       "since": "2022-10",
+       "source_url": "https://www.cs.yale.edu/homes/cpap",
+       "quote": "Chief Scientist"
+      },
+      {
+       "what": "Lagrange Labs, Inc. per CV",
+       "role": "Chief Scientist",
+       "since": "2022-10",
+       "source_url": "https://www.cs.yale.edu/homes/cpap/vita.pdf",
+       "quote": "LAGRANGE LABS, INC., NEW YORK NY, USA, Chief Scientist 10/22-current"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ben Fisch",
@@ -6320,7 +6828,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Espresso Systems (startup)",
+       "role": "Co-founder and CEO",
+       "since": "2020",
+       "source_url": "https://theorg.com/org/espresso-systems/org-chart/ben-fisch",
+       "quote": "Ben Fisch is the CEO and co-founder of Espresso Systems, where they have been leading since 2020."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Katerina Sotiraki",
@@ -6380,7 +6901,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Archimedes AI listed as affiliation on homepage; role not stated",
+       "role": "affiliation (role unstated)",
+       "since": "",
+       "source_url": "https://sotiraki.com",
+       "quote": "Archimedes AI"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ruzica Piskac",
@@ -6442,7 +6976,20 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Leibniz AI (Yale startup with Scott Shapiro)",
+       "role": "Co-founder",
+       "since": "2024",
+       "source_url": "https://ventures.yale.edu/node/4775",
+       "quote": "co-founded Leibniz AI, a startup combining AI and formal methods to automate legal reasoning"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -6680,7 +7227,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Tal Malkin",
@@ -6746,7 +7298,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Henry Yuen",
@@ -6802,7 +7359,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -7079,7 +7641,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Noah Stephens-Davidowitz",
@@ -7139,7 +7706,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Alexander Golovnev",
@@ -7190,7 +7762,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -7474,7 +8051,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Matthew Green",
@@ -7538,7 +8120,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Susan Hohenberger (Hohenberger-Waters)",
@@ -7569,7 +8156,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -7835,7 +8427,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "NTT Research (part-time industry role)",
+       "role": "Senior Scientist",
+       "since": "2019",
+       "source_url": "https://cis.ntt-research.com/?p=83857",
+       "quote": "Daniel Wichs is a Senior Scientist at NTT Research"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Zhengzhong Jin",
@@ -7913,7 +8518,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Abhi Shelat",
@@ -7962,7 +8572,27 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Deploying Longfellow ZK in Google Wallet",
+       "role": "(work, role unstated)",
+       "since": "",
+       "source_url": "https://shelat.khoury.northeastern.edu",
+       "quote": "My current work has focused on developing the Longfellow ZK protocol and deploying it in the Google Wallet."
+      },
+      {
+       "what": "Google (Longfellow ZK / Google Wallet) concurrent with Northeastern",
+       "role": "Engineer at Google",
+       "since": "2025",
+       "source_url": "https://podwise.ai/episodes/4308930",
+       "quote": "Abhi Shelat and Matteo Frigo, engineers at Google."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -8229,7 +8859,12 @@
     },
     "crypto_core": "core",
     "dblp_suspect": "Includes unrelated software/vision papers (MicroViSim Kubernetes simulator; deep-learning AOI component-mark detection) likely from a different Wei-Kai Lin",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Jack Doerner",
@@ -8278,7 +8913,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mohammad Mahmoody",
@@ -8353,7 +8993,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -8600,7 +9245,20 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "vole-labs (nature as company vs project unclear)",
+       "role": "builder (role unstated)",
+       "since": "",
+       "source_url": "https://ckweng.github.io",
+       "quote": "Now building vole-labs: from VOLE to VOLE-ZK and ZKML."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ni Trieu",
@@ -8648,7 +9306,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -8900,7 +9563,27 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "International Association for Cryptologic Research",
+       "role": "Board of Directors member",
+       "since": "",
+       "source_url": "http://cs.brown.edu/people/alysyans/",
+       "quote": "I serve on the Board of Directors of the International Association for Cryptologic Research."
+      },
+      {
+       "what": "Electronic Privacy Information Center",
+       "role": "Board of Directors member",
+       "since": "",
+       "source_url": "http://cs.brown.edu/people/alysyans/",
+       "quote": "I am also a member of the Board of Directors of the Electronic Privacy Information Center."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Peihan Miao",
@@ -8953,7 +9636,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -9212,7 +9900,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Ligero Inc. (startup)",
+       "role": "Co-founder and CEO",
+       "since": "",
+       "source_url": "https://muthu.georgetown.domains",
+       "quote": "co-founder and CEO of"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Justin Thaler",
@@ -9278,7 +9979,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "a16z crypto research (industry), on leave from Georgetown",
+       "role": "Research Partner",
+       "since": "",
+       "source_url": "http://people.cs.georgetown.edu/jthaler/",
+       "quote": "I am currently at a16z crypto research and on leave from Georgetown."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -9539,7 +10253,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Duality Technologies (startup)",
+       "role": "Co-Founder and Chief Cryptographer",
+       "since": "2016",
+       "source_url": "https://theorg.com/org/duality-technologies/org-chart/vinod-vaikuntanathan",
+       "quote": "Co-Founder and Chief Cryptographer"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Yael Tauman Kalai",
@@ -9606,7 +10333,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -9817,7 +10549,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mike Rosulek",
@@ -9881,7 +10618,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -10129,7 +10871,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Jonathan R. Mayer",
@@ -10171,7 +10918,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -10411,7 +11163,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Xin Wang",
@@ -10441,7 +11198,12 @@
     },
     "crypto_core": "core",
     "dblp_suspect": "dblp pid 10/5630-1 merges ~100 networking/CV/ML papers (INFOCOM, CVPR, IoT) with only 3 generic-group-model crypto papers (ASIACRYPT/PKC); crypto_core reflects the crypto subset only.",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -10670,7 +11432,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Texas A&M Global Cyber Research Institute (center, associate director)",
+       "role": "Associate Director",
+       "since": "",
+       "source_url": "https://engineering.tamu.edu/cse/profiles/garay-juan.html",
+       "quote": "Associate Director, Global Cyber Research Institute"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Samson Zhou",
@@ -10721,7 +11496,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -10937,7 +11717,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Saba Eskandarian",
@@ -10979,7 +11764,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -11235,7 +12025,27 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "NTT Research (industry); directs its CIS Lab",
+       "role": "Distinguished Scientist and Director, CIS Lab",
+       "since": "2019",
+       "source_url": "https://www.cs.utexas.edu/~bwaters",
+       "quote": "Distinguished Scientist, NTT Research"
+      },
+      {
+       "what": "NTT Research CIS Lab directorship",
+       "role": "Director",
+       "since": "",
+       "source_url": "https://ntt-research.com/ntt-research-names-brent-waters-as-cis-lab-director-2/",
+       "quote": "today announced that it has named Dr. Brent Waters as Director of its Cryptography and Information Security (CIS) Lab."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "David J. Wu",
@@ -11310,7 +12120,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -11577,7 +12392,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Stealth Software Technologies, Inc. (startup; aggregator source, current status unverified)",
+       "role": "CO-Founder and Board Member",
+       "since": "2008",
+       "source_url": "https://theorg.com/org/stealthsoftwareinc/org-chart/rafail-ostrovsky",
+       "quote": "CO-Founder and Board Member"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Amit Sahai",
@@ -11663,7 +12491,27 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "NSF Frontier Center, UCLA",
+       "role": "Director, Center for Encrypted Functionalities",
+       "since": "",
+       "source_url": "http://web.cs.ucla.edu/~sahai",
+       "quote": "Director, Center for Encrypted Functionalities (an NSF Frontier Center)"
+      },
+      {
+       "what": "Prison Mathematics Project (nonprofit)",
+       "role": "Advisor",
+       "since": "2023",
+       "source_url": "http://web.cs.ucla.edu/~sahai",
+       "quote": "He also serves as an Advisor to the Prison Mathematics Project"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -11911,7 +12759,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Chris Peikert",
@@ -11953,7 +12806,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "checked": "2026-11-07",
+     "items": [
+      {
+       "what": "Algorand Foundation (concurrent with Michigan professorship)",
+       "role": "Chief Scientific Officer",
+       "since": "2026-03",
+       "source_url": "https://algorand.co/blog/algorand-foundation-expands-protocol-engineering-team-with-key-hires-from-algorand-technologies",
+       "quote": "Chris Peikert has joined the Algorand Foundation as Chief Scientific Officer."
+      }
+     ]
+    }
    }
   ],
   "program": {
@@ -12150,7 +13016,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "checked": "2026-11-07",
+     "items": [
+      {
+       "what": "Aleo, startup based on his Zexe research",
+       "role": "Founding scientist",
+       "since": "",
+       "source_url": "https://pratyush.zip/",
+       "quote": "I am a founding scientist at Aleo, a startup based on my research project Zexe."
+      }
+     ]
+    }
    },
    {
     "name": "Sebastian Angel",
@@ -12209,7 +13088,20 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "checked": "2026-11-07",
+     "items": [
+      {
+       "what": "Penn CIS department",
+       "role": "Chair of Undergraduate Curriculum",
+       "since": "",
+       "source_url": "https://cis.upenn.edu/~sga001",
+       "quote": "Chair of Undergraduate Curriculum"
+      }
+     ]
+    }
    }
   ],
   "program": {
@@ -12477,7 +13369,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "role_note": "crypto-adjacent theorist, not a core cryptographer",
     "affiliation_source": "https://viterbi.usc.edu/directory/faculty/Zhang/Jiapeng",
-    "title": "Assistant Professor of Computer Science"
+    "title": "Assistant Professor of Computer Science",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mengyuan Li",
@@ -12521,7 +13418,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "role_note": "systems/TEE security, not cryptography",
     "affiliation_source": "https://viterbi.usc.edu/directory/faculty/Li/Mengyuan",
-    "title": "Assistant Professor of CS and ECE (\"Trusted Execution Environments, confidential computing, ... micro-architectural security\")"
+    "title": "Assistant Professor of CS and ECE (\"Trusted Execution Environments, confidential computing, ... micro-architectural security\")",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -12758,7 +13660,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -12963,7 +13870,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -13199,7 +14111,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -13428,7 +14345,27 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "checked": "2026-11-07",
+     "items": [
+      {
+       "what": "Simons Institute, UC Berkeley, two Fall 2026 programs (not stated as leave)",
+       "role": "Visiting Scientist and Program Organizer",
+       "since": "2026-08",
+       "source_url": "https://simons.berkeley.edu/people/salil-vadhan",
+       "quote": "Fall 2026, Visiting Scientist and Program Organizer"
+      },
+      {
+       "what": "Harvard OpenDP project / Privacy Tools Project",
+       "role": "Co-lead / faculty director",
+       "since": "",
+       "source_url": "https://salil.seas.harvard.edu/",
+       "quote": "I also lead Harvard's Privacy Tools Project and co-lead the OpenDP open-source differential privacy software project."
+      }
+     ]
+    }
    }
   ],
   "program": {
@@ -13667,7 +14604,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -13923,7 +14865,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -14143,7 +15090,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -14370,7 +15322,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -14646,7 +15603,27 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "a16z crypto research advisory",
+       "role": "Senior Research Advisor",
+       "since": "",
+       "source_url": "https://a16zfrontier.com/team/dan-boneh",
+       "quote": "Senior Research Advisor"
+      },
+      {
+       "what": "Stanford Computer Security Lab",
+       "role": "Co-director",
+       "since": "",
+       "source_url": "http://crypto.stanford.edu/~dabo",
+       "quote": "Co-director of the Stanford Computer Security Lab"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Mark Zhandry",
@@ -14734,7 +15711,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Emma Dauterman",
@@ -14796,7 +15778,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -15059,7 +16046,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "CCNY Center for Algorithms and Interactive Scientific Software",
+       "role": "Director",
+       "since": "",
+       "source_url": "http://www-cs.ccny.cuny.edu/~rosario",
+       "quote": "Director, Center for Algorithms and Interactive Scientific Software (CAISS)"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -15303,7 +16303,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -15532,7 +16537,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -15774,7 +16784,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -16024,7 +17039,12 @@
     "crypto_core": "not-crypto",
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "role_note": "not a cryptographer (PCPs, hardness of approximation)",
-    "affiliation_source": "https://theoryofcomputing.org/articles/v016a016/"
+    "affiliation_source": "https://theoryofcomputing.org/articles/v016a016/",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -16281,7 +17301,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -16544,7 +17569,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -16780,7 +17810,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Daniel J. Bernstein",
@@ -16835,7 +17870,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Anrin Chakraborti",
@@ -16890,7 +17930,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -17121,7 +18166,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -17380,7 +18430,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -17649,7 +18704,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -17903,7 +18963,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -18162,7 +19227,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Co-founder of Fractal, blockchain startup (VCU page present tense, page updated 06/08/2026; company status unclear, a colleague bio uses past tense)",
+       "role": "Scientist and co-founder",
+       "since": "",
+       "source_url": "https://cybersecurity.vcu.edu/focus-areas/blockchain/",
+       "quote": "Hong-Sheng is also a scientist and co-founder of Fractal, a blockchain startup."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -18406,7 +19484,12 @@
     },
     "crypto_core": "security",
     "dblp_suspect": "Mixes unrelated work (Intel silicon photonics review, IMU human-posture/gait sensor papers), likely a different Thang Hoang",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -18679,7 +19762,12 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -18910,7 +19998,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -19142,7 +20235,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Aloni Cohen",
@@ -19183,7 +20281,12 @@
      ]
     },
     "crypto_core": "adjacent",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -19443,7 +20546,20 @@
      ]
     },
     "crypto_core": "core",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "Tel-Aviv University chair in cryptography (on leave); visiting professor at Technion; Cornell-Technion liaison",
+       "role": "Visiting Professor, Technion / Cornell-Technion Liaison",
+       "since": "",
+       "source_url": "http://www.cs.cornell.edu/~rafael/",
+       "quote": "currently on leave"
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ari Juels",
@@ -19495,7 +20611,27 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "Chainlink Labs",
+       "role": "Chief Scientist",
+       "since": "2020",
+       "source_url": "https://www.arijuels.com/",
+       "quote": "He is also Chief Scientist at Chainlink Labs."
+      },
+      {
+       "what": "IC3 initiative (Cornell et al.)",
+       "role": "Co-founder and co-director",
+       "since": "",
+       "source_url": "https://www.arijuels.com/",
+       "quote": "He is a co-founder and co-director of the Initiative for CryptoCurrencies and Contracts (IC3)."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -19746,7 +20882,12 @@
      ]
     },
     "crypto_core": "security",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary"
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -20001,7 +21142,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Associate Professor",
     "affiliation_source": "https://cs.uwaterloo.ca/about/people/mdhajiab",
-    "department": "David R. Cheriton School of Computer Science"
+    "department": "David R. Cheriton School of Computer Science",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Douglas Stebila",
@@ -20052,7 +21198,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Associate Professor, Combinatorics and Optimization",
     "affiliation_source": "https://uwaterloo.ca/computer-science/about/people/dstebila",
-    "department": "Combinatorics and Optimization (cross-appointed to CS)"
+    "department": "Combinatorics and Optimization (cross-appointed to CS)",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Ian Goldberg",
@@ -20128,7 +21279,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Professor, and Canada Research Chair in Privacy Enhancing Technologies",
     "affiliation_source": "https://cs.uwaterloo.ca/about/people/iang",
-    "department": "David R. Cheriton School of Computer Science"
+    "department": "David R. Cheriton School of Computer Science",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Florian Kerschbaum",
@@ -20208,7 +21364,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Professor, and NSERC/RBC Industrial Research Chair in Data Security",
     "affiliation_source": "https://cs.uwaterloo.ca/about/people/fkerschb",
-    "department": "David R. Cheriton School of Computer Science"
+    "department": "David R. Cheriton School of Computer Science",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -20523,7 +21684,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Associate Professor",
     "affiliation_source": "https://profiles.ucalgary.ca/ryan-henry",
-    "department": "Computer Science"
+    "department": "Computer Science",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -21220,7 +22386,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Assistant Professor",
     "affiliation_source": "https://web.cs.toronto.edu/people/faculty-directory",
-    "department": "Department of Computer Science (Research Areas: theoretical computer science, cryptography)"
+    "department": "Department of Computer Science (Research Areas: theoretical computer science, cryptography)",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    },
    {
     "name": "Thomas Ristenpart",
@@ -21260,7 +22431,20 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Professor",
     "affiliation_source": "https://web.cs.toronto.edu/people/faculty-directory",
-    "department": "Department of Computer Science (directory Research Areas: systems); dept news Oct 27, 2026 lists him among faculty who joined in 2026"
+    "department": "Department of Computer Science (directory Research Areas: systems); dept news Oct 27, 2026 lists him among faculty who joined in 2026",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "On leave from Cornell University, now at University of Toronto (recruiting only at U of T)",
+       "role": "Professor (Toronto), on leave from Cornell",
+       "since": "2026-01",
+       "source_url": "https://www.cs.toronto.edu/~ristenpart/",
+       "quote": "Starting January 2026, I am at the University of Toronto and on leave from Cornell University."
+      }
+     ],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {
@@ -21530,7 +22714,12 @@
     "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
     "title": "Professor",
     "affiliation_source": "https://uniweb.uottawa.ca/view/profile/members/5603/topic",
-    "department": "School of Electrical Engineering and Computer Science (research interests: Cryptography, Computer and Network Security, Privacy Technologies; Theoretical Computer Science)"
+    "department": "School of Electrical Engineering and Computer Science (research interests: Cryptography, Computer and Network Security, Privacy Technologies; Theoretical Computer Science)",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-07"
+    }
    }
   ],
   "program": {

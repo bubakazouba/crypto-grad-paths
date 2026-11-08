@@ -1,6 +1,6 @@
 # US master's programs leading into cryptography research: methodology
 
-Retrieval date: 2026-11-06. Dataset: `schools.json` in this folder. It has 59 schools and 136 professors (57 schools and 127 professors from the original pass, plus the corrections from the 2026-11-06 independent review; see section 6).
+Retrieval date: 2026-11-06 (updated 2026-11-07). Dataset: `schools.json` in this folder. It has 74 rows (73 schools plus the CSULA baseline) and 146 professors; originally 59 schools and 136 professors (57 schools and 127 professors from the original pass, plus the corrections from the 2026-11-06 independent review; see section 6).
 
 ## 1. Professor and school selection
 
@@ -144,3 +144,20 @@ Three parallel research passes (about 20 schools each) read official graduate-sc
 - **Toronto**: "International applicants are not considered for the MSc in Computer Science", so the MSc is shown as not open to him and the Direct-Entry PhD is the route.
 - **Funding**: many Canadian research master's carry a minimum funding package (e.g. Waterloo, Calgary, UBC, SFU, Alberta, Western), recorded as "Funded" with the amount and whether it covers international students.
 - Other fields (fees, letters, GRE, acceptance rates, PhD pathway) follow section 8.
+
+## 10. MS-only filter and professors' outside commitments (2026-11-07)
+
+**MS-only filter** ("MS-only programs (apply as an MS student)", Filters & sort box). It keeps a school only if you would apply and enroll as a master's student:
+- `program.name` is a real program (it does not start with "None": MIT and Harvard have only an SM earned en route to the PhD, or a "master's in passing", so they are out);
+- `program.closed_fall2027` is not set (Princeton M.S.E. is not admitting for Fall 2027; Toronto's MSc does not consider international applicants);
+- it is not the CSULA baseline row.
+
+Result: 69 of the 73 schools pass (the 4 out are MIT, Harvard, Princeton and Toronto; the CSULA baseline row is not counted and is hidden while the filter is on). Things that still count as MS-only: the Berkeley "M.S. (Only)" program and other schools where the PhD is the better route (`phd_direct` is a recommendation, not a statement that no MS exists), UChicago's one-year Pre-Doctoral MS, Cornell Tech's M.Eng., and Wisconsin's "traditional MS/PhD program" (you apply to the MS; Wisconsin tells people not to apply to both). The same rule now drives the existing Route filter's "Has an MS to apply to", which before this change wrongly included MIT and Harvard. The filter combines with all other filters by AND and the count line updates.
+
+**Outside commitments** (`professors[].outside` = {level, items[], checked}; checked 2026-11-07). For all 146 professors, the homepage or CV, university pages, company pages, news and search-result snippets were read for commitments that would cut availability to a master's student: startup founder or executive, concurrent industry role (Google, a16z crypto, NTT Research, Amazon Scholar and similar), leave or sabbatical in 2026-27, moving or leaving, emeritus or retired, heavy administration, advisory or consulting roles. Each item is {what, role, since, source_url, quote} with a short verbatim quote from the cited page. Only current roles (or ones starting in 2026-27) are recorded.
+- **major**: startup founder or executive, concurrent industry position, on leave or sabbatical, or leaving the university. 27 professors.
+- **some**: advisory or consulting roles, or a chair or center-director role. 19 professors.
+- **none-found**: nothing found. 100 professors. This is not confirmed free: homepages that were thin, stale or unreachable are noted in the per-person research but not in the data.
+- Caveats: a few items rest on a company or aggregator page whose date is unknown (Dodis at Qrypt, Ostrovsky at Stealth Software, Zhou at Fractal), and some quotes are only a title (for example "Senior Scientist, NTT Research"). Treat the chip as "ask them", not as proof.
+
+**Display.** A red "busy: ..." chip (major) or amber chip (some) sits next to the professor's name on school cards and in "Professors closest to your work". The chip links to the first item's source; hovering shows every item's role, quote and URL. The filter "Hide schools where all my-topic professors are majorly busy elsewhere" removes a school only if it has at least one professor on your topics and every one of them is major; those schools also get an "all my-topic profs busy elsewhere" chip when the filter is off.
