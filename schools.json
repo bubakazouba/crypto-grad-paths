@@ -24173,5 +24173,1035 @@
    "note": "'Applicants for the Ph.D. in Computing Science must have an M.Sc. degree in Computing Science or a related field. Exceptionally qualified applicants having the equivalent of a First-Class Honors B.Sc. degree may be admitted directly to the Ph.D. program when supported by a computing science faculty supervisor.'",
    "url": "https://www.ualberta.ca/en/computing-science/graduate-studies/programs-and-admissions/phd-program/index.html"
   }
+ },
+ {
+  "school": "Florida Atlantic University",
+  "csrankings_name": "Florida Atlantic University",
+  "city": "Boca Raton",
+  "state": "FL",
+  "region": "Southeast",
+  "n_professors": 6,
+  "professors": [
+   {
+    "name": "Reza Azarderakhsh",
+    "dblp": "https://dblp.org/pid/14/7448",
+    "papers": 0,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "lattices/PQ",
+     "applied/systems crypto",
+     "signatures"
+    ],
+    "homepage": "https://www.fau.edu/engineering/about/directory/azarderakhsh/",
+    "source": "csrankings+dblp (Professor and I-SENSE Fellow, FAU EECS directory); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "lattices/PQC",
+     "applied/systems",
+     "signatures/PKE",
+     "symmetric/hash"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2026,
+       "t": "Drop-In Masked Modular Reduction for ML-DSA: Cutting Side-Channel Cost in the Root-of-Trust."
+      },
+      {
+       "y": 2025,
+       "t": "ParallelNTT: Maximizing Performance of Forward and Inverse NTT on FPGA for ML-DSA and ML-KEM."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2025,
+       "t": "Efficient Cpa Attack on Hardware Implementation of Ml-Dsa in Post-Quantum Root of Trust."
+      },
+      {
+       "y": 2024,
+       "t": "Fully Hybrid TLSv1.3 in WolfSSL on Cortex-M4."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2024,
+       "t": "Efficient and Side-Channel Resistant Ed25519 on ARM Cortex-M4."
+      },
+      {
+       "y": 2023,
+       "t": "Highly Optimized Curve448 and Ed448 design in wolfSSL and Side-Channel Evaluation on Cortex-M4."
+      }
+     ],
+     "symmetric/hash": [
+      {
+       "y": 2026,
+       "t": "A Survey on the Implementations, Attacks, and Countermeasures of the NIST Lightweight Cryptography Standard: ASCON."
+      },
+      {
+       "y": 2024,
+       "t": "Hardware Constructions for Error Detection in WG-29 Stream Cipher Benchmarked on FPGA."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "PQSecure Technologies",
+       "role": "Founder and CEO",
+       "since": "",
+       "source_url": "https://pqsecurity.com/team/",
+       "quote": "Dr. Reza Azarderakhsh Founder and CEO"
+      }
+     ],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Edoardo Persichetti",
+    "dblp": "https://dblp.org/pid/51/10309",
+    "papers": 4,
+    "papers_core_iacr_joc": 4,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "signatures",
+     "lattices/PQ",
+     "foundations"
+    ],
+    "homepage": "https://www.fau.edu/science/about/directory/persichetti/",
+    "source": "not in CSrankings (Mathematics and Statistics); added after manual check: Associate Professor | Director, CCIS (FAU directory); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "signatures/PKE",
+     "lattices/PQC",
+     "ZK",
+     "foundations"
+    ],
+    "tag_evidence": {
+     "signatures/PKE": [
+      {
+       "y": 2025,
+       "t": "LESS is Even More: Optimizing Digital Signatures from Code Equivalence."
+      },
+      {
+       "y": 2026,
+       "t": "Post-Quantum Blind Signature from Standard Group Action Assumptions and More."
+      }
+     ],
+     "lattices/PQC": [
+      {
+       "y": 2024,
+       "t": "Polynomial Inversion Algorithms in Constant Time for Post-Quantum Cryptography."
+      },
+      {
+       "y": 2026,
+       "t": "Post-quantum (partially) blind signatures from matrix code equivalence."
+      }
+     ],
+     "ZK": [
+      {
+       "y": 2023,
+       "t": "Zero-Knowledge Proofs from the Action Subgraph."
+      },
+      {
+       "y": 2022,
+       "t": "Designing a Practical Code-Based Signature Scheme from Zero-Knowledge Proofs with Trusted Setup."
+      }
+     ],
+     "foundations": [
+      {
+       "y": 2024,
+       "t": "On the hardness of the Lee syndrome decoding problem."
+      },
+      {
+       "y": 2023,
+       "t": "On the computational hardness of the code equivalence problem in cryptography."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "FAU Center for Cryptology and Information Security (CCIS)",
+       "role": "Director",
+       "since": "",
+       "source_url": "https://www.fau.edu/science/about/directory/persichetti/",
+       "quote": "Associate Professor | Director, CCIS"
+      }
+     ],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Shi Bai",
+    "dblp": "https://dblp.org/pid/25/4561-1",
+    "papers": 3,
+    "papers_core_iacr_joc": 3,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "lattices/PQ",
+     "quantum crypto",
+     "signatures"
+    ],
+    "homepage": "https://shi-bai.github.io/",
+    "source": "not in CSrankings (Mathematical Sciences); added after manual check: associate professor (homepage; dblp primary affiliation FAU Dept. of Mathematical Sciences); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "lattices/PQC",
+     "quantum crypto",
+     "applied/systems",
+     "signatures/PKE"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2024,
+       "t": "Compact Encryption Based on Module-NTRU Problems."
+      },
+      {
+       "y": 2021,
+       "t": "Lattice Reduction with Approximate Enumeration Oracles - Practical Algorithms and Concrete Performance."
+      }
+     ],
+     "quantum crypto": [
+      {
+       "y": 2025,
+       "t": "A Quasi-polynomial Time Algorithm for the Extrapolated Dihedral Coset Problem over Power-of-Two Moduli."
+      },
+      {
+       "y": 2023,
+       "t": "Concrete Analysis of Quantum Lattice Enumeration."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2025,
+       "t": "SCOPE: Schoolbook-Originated Novel Polynomial Multiplication Accelerators for NTRU-Based PQC."
+      },
+      {
+       "y": 2024,
+       "t": "TINA: TMVP-Initiated Novel Accelerator for Lightweight Ring-LWE-Based PQC."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2022,
+       "t": "Fiat-Shamir Signatures Based on Module-NTRU."
+      },
+      {
+       "y": 2024,
+       "t": "Compact Encryption Based on Module-NTRU Problems."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Dipayan Das",
+    "dblp": "https://dblp.org/pid/75/9427-1",
+    "papers": 3,
+    "papers_core_iacr_joc": 3,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "foundations",
+     "signatures",
+     "anonymity/credentials"
+    ],
+    "homepage": "https://sites.google.com/site/dasdipayan9038/home",
+    "source": "not in CSrankings (Mathematics and Statistics); added after manual check: Assistant Professor (homepage; listed under Cryptology on fau.edu/science/cryptology/research); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "lattices/PQC",
+     "signatures/PKE"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2024,
+       "t": "Key Recovery Attack on the Partial Vandermonde Knapsack Problem."
+      },
+      {
+       "y": 2023,
+       "t": "On the Hardness of the Finite Field Isomorphism Problem."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2025,
+       "t": "Privacy-Preserving Multi-signatures: Generic Techniques and Constructions Without Pairings."
+      },
+      {
+       "y": 2022,
+       "t": "Fiat-Shamir signatures without aborts using Ring-and-Noise assumptions."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Veronika Kuchta",
+    "dblp": "https://dblp.org/pid/137/5239",
+    "papers": 2,
+    "papers_core_iacr_joc": 1,
+    "papers_crypto_themed_ccs_uss_sp": 1,
+    "topics": [
+     "lattices/PQ",
+     "signatures",
+     "ZK/SNARKs"
+    ],
+    "homepage": "https://www.fau.edu/science/about/directory/kuchta/",
+    "source": "not in CSrankings (Mathematics and Statistics); added after manual check: Assistant Professor (FAU directory); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "ZK",
+     "lattices/PQC",
+     "signatures/PKE",
+     "blockchain/consensus"
+    ],
+    "tag_evidence": {
+     "ZK": [
+      {
+       "y": 2024,
+       "t": "LUNA: Quasi-Optimally Succinct Designated-Verifier Zero-Knowledge Arguments from Lattices."
+      },
+      {
+       "y": 2026,
+       "t": "Secure MSM Outsourcing Computation for Zero-knowledge Proof Generation."
+      }
+     ],
+     "lattices/PQC": [
+      {
+       "y": 2022,
+       "t": "Private Re-Randomization for Module LWE and Applications to Quasi-Optimal ZK-SNARKs."
+      },
+      {
+       "y": 2021,
+       "t": "Lattice-based zero-knowledge arguments for additive and multiplicative relations."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2026,
+       "t": "Post-quantum (partially) blind signatures from matrix code equivalence."
+      },
+      {
+       "y": 2026,
+       "t": "(Mis)using the Lattice Isomorphism Problem. Cryptanalysis of the double-LIP and Construction of LIP-Based Blind Signatures."
+      }
+     ],
+     "blockchain/consensus": [
+      {
+       "y": 2023,
+       "t": "A New Look at Blockchain Leader Election: Simple, Efficient, Sustainable and Post-Quantum."
+      },
+      {
+       "y": 2022,
+       "t": "Post-Quantum Verifiable Random Function from Symmetric Primitives in PoS Blockchain."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Francesco Sica",
+    "dblp": "https://dblp.org/pid/60/4502",
+    "papers": 1,
+    "papers_core_iacr_joc": 1,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "lattices/PQ",
+     "signatures",
+     "symmetric/hash"
+    ],
+    "homepage": "https://www.fau.edu/science/about/directory/sica/",
+    "source": "not in CSrankings (Mathematics and Statistics); added after manual check: Assistant Professor (FAU directory); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "lattices/PQC",
+     "applied/systems"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2026,
+       "t": "(Mis)using the Lattice Isomorphism Problem. Cryptanalysis of the double-LIP and Construction of LIP-Based Blind Signatures."
+      },
+      {
+       "y": 2023,
+       "t": "Two Remarks on Torsion-Point Attacks in Isogeny-Based Cryptography."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2024,
+       "t": "TPU as Cryptographic Accelerator."
+      },
+      {
+       "y": 2026,
+       "t": "A New Multiscalar Multiplication Method Resistant to Timing Attacks."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-08"
+    }
+   }
+  ],
+  "program": {
+   "name": "MS in Computer Science (thesis option)",
+   "url": "https://catalog.fau.edu/programs/XWmhrWRrUNKiA5RqD2Xf/program-requirements-TCjHU",
+   "length": null,
+   "thesis": "yes",
+   "total_tuition_usd": 33752,
+   "tuition_basis": "2026-27 graduate per-credit total, non-resident $1,125.06 x 30 credits = $33,751.80 (bundles tuition $303.71 + non-resident fee $717.37 + capital improvement $6.76 + financial aid $51.05 + activity $12.32 + athletic $19.27 + health $9.42 + technology $5.16; tuition + non-resident fee alone = $1,021.08/credit x 30 = $30,632). Florida resident: $371.82/credit x 30 = $11,155. Per year at 9 credits/term (18 credits): resident $6,693, non-resident $20,251; the 2026-27 COA budget lists $7,704 resident / $20,712 non-resident for graduate tuition & fees. Excludes the $76.90/semester Transportation Access Fee and the one-time $35 Graduate Student Orientation Fee.",
+   "tuition_url": "https://www.fau.edu/administration/controller/student-services/tuition-breakdown/",
+   "deadline_fall2027": "2027-07-01",
+   "deadline_note": "No CS-specific deadline found; EECS FAQ defers to the Graduate College. University graduate filing dates (catalog, no year printed): Fall July 1 domestic / June 1 international; Spring November 1 / October 1; Summer April 1 / March 1. EECS TA applications have their own dates (for Fall 2026 it was May 31, 2026).",
+   "deadline_url": "https://catalog.fau.edu/admissions/admissions#graduate-admissions",
+   "gre": "not required: 'The GRE is currently not required for admission to MS programs in the EECS department. GRE is required for Ph.D. programs.'",
+   "funding_note": "EECS TAs go to 'eligible EECS graduate students with a 3.4 GPA, with a priority given to new doctoral students, new BS to PhD Direct-Path program students, and incoming joint BS/MS degree program students'; up to 20 h/week with tuition covered proportionally. No MS-specific funding statement found.",
+   "priority_iso": null,
+   "deadline_iso": "2027-07-01",
+   "years": 2,
+   "years_note": "years assumed (no official length for the MS CS; tuition total is per 30 credits, not per term)"
+  },
+  "alt_programs": [
+   {
+    "name": "MS in Mathematics, Cryptology and Information Security concentration",
+    "url": "https://catalog.fau.edu/programs/Ngd3CMZWD4c98r0edQiL",
+    "note": "Math department program where Persichetti, Bai, Das, Kuchta and Sica sit; 30 credits with a thesis option (6 credits MAT 6971, defended); catalog: 'It should normally take a full-time student two years to complete.'"
+   },
+   {
+    "name": "MS in Computer Science (Professional)",
+    "url": "https://catalog.fau.edu/programs/hgxiqFhxqnuFDuZ8OW7D/program-requirements-TCjHU",
+    "note": "Working-professional track; degree requirements are those of the non-thesis MS CS option. Not a research path."
+   }
+  ],
+  "research_fit_note": "30-credit MS with a thesis option (6 thesis credits, public defense before a 3-member EECS committee). FAU also runs a B.S./M.S.-to-Ph.D. direct path that FAU MS students must apply to within their first graduate year (GRE 310 V+Q, 3.5 graduate GPA). Most of the crypto faculty (Persichetti, Bai, Das, Kuchta, Sica) are in Mathematics and Statistics, not EECS; an EECS MS thesis must be chaired by EECS graduate faculty, so Azarderakhsh is the in-department crypto advisor. Azarderakhsh is PQC hardware/engineering and has 0 core-venue or crypto-themed CCS/USENIX/S&P papers in 2021-25 (he publishes in IEEE TVLSI/TCAD/TCAS, CT-RSA, HOST, ePrint). Theory-side lattice work: Bai (lattice reduction, quantum algorithms), Das (lattice/knapsack hardness), Kuchta (lattice ZK).",
+  "notes": "Faculty: CSrankings lists only Azarderakhsh and Nojoumian as FAU crypto/security names; the math-department cryptographers were added from the CCIS faculty/research pages and their directory or homepages. Excluded: Mehrdad Nojoumian (EECS; 2021-26 dblp titles are mostly autonomous-vehicle trust and blockchain reputation, one PQC side-channel survey), Feng-Hao Liu (moved to Washington State University, Aug 2023), Koray Karabina (not on the CCIS faculty or research lists; a 2025 Carleton thesis board lists him at \"National Research Center\"). Topics come from the fixed tag regex over all 2021-26 dblp titles (\"post-quantum\" not counted as quantum crypto), since most of these people publish outside the counted venues. Counts include CHES/TCHES per this pass, unlike the original dataset method, which counted CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/JoC only. Persichetti is the only one with a TCHES paper in the window (LESS is Even More, 2025), so he has 3 papers without it. Length null: the MS CS catalog gives no time to degree. Application fee amount not published on the FAU graduate pages opened (catalog: \"A non-refundable application fee is required\"); applications for engineering go through EngineeringCAS.",
+  "extra_checks": null,
+  "sources": [
+   "https://github.com/emeryberger/CSrankings (gh-pages csrankings.csv)",
+   "https://sparql.dblp.org/sparql",
+   "https://www.fau.edu/science/cryptology/faculty",
+   "https://www.fau.edu/science/cryptology/research",
+   "https://www.fau.edu/science/research/cryptology/directory/",
+   "https://www.fau.edu/engineering/about/directory/azarderakhsh/",
+   "https://www.fau.edu/engineering/about/directory/nojoumian/",
+   "https://www.fau.edu/science/about/directory/persichetti/",
+   "https://www.fau.edu/science/about/directory/kuchta/",
+   "https://www.fau.edu/science/about/directory/sica/",
+   "https://shi-bai.github.io/",
+   "https://sites.google.com/site/dasdipayan9038/home",
+   "https://faculty.eng.fau.edu/fenghao/",
+   "https://pqsecurity.com/team/",
+   "https://catalog.fau.edu/programs/XWmhrWRrUNKiA5RqD2Xf/about-the-program-aoYks",
+   "https://catalog.fau.edu/programs/XWmhrWRrUNKiA5RqD2Xf/program-requirements-TCjHU",
+   "https://catalog.fau.edu/programs/oFnLatHjMBkhZPUO4bwS/about-the-program-aoYks",
+   "https://catalog.fau.edu/programs/oFnLatHjMBkhZPUO4bwS/program-requirements-TCjHU",
+   "https://www.fau.edu/engineering/departments/eecs/faq/",
+   "https://www.fau.edu/engineering/departments/eecs/assistantships/",
+   "https://catalog.fau.edu/admissions/admissions#graduate-admissions",
+   "https://www.fau.edu/apply/graduate/",
+   "https://www.fau.edu/administration/controller/student-services/tuition-breakdown/",
+   "https://www.fau.edu/financial-aid/cost-of-attendance/",
+   "https://catalog.fau.edu/programs/Ngd3CMZWD4c98r0edQiL",
+   "https://catalog.fau.edu/programs/hgxiqFhxqnuFDuZ8OW7D/program-requirements-TCjHU"
+  ],
+  "short": "Florida Atlantic University",
+  "fit_score": 6,
+  "fit_profs": [
+   "Reza Azarderakhsh",
+   "Edoardo Persichetti",
+   "Shi Bai",
+   "Dipayan Das",
+   "Veronika Kuchta",
+   "Francesco Sica"
+  ],
+  "phd": {
+   "deadline_iso": "2027-07-01",
+   "priority_iso": null,
+   "url": "https://catalog.fau.edu/admissions/admissions#graduate-admissions",
+   "quote": "Domestic Applicants July 1 November 1 April 1 International Applicants June 1 October 1 March 1",
+   "note": "University graduate filing dates (Fall/Spring/Summer), no year printed; no PhD-CS-specific deadline found. International fall: June 1. PhD requires the GRE (waived for FAU EECS MS holders) and 2 reference letters."
+  },
+  "ms_phd": {
+   "ra_for_ms": {
+    "value": "possible (TA; priority to PhD students)",
+    "quote": "Graduate teaching assistantships are provided for eligible EECS graduate students with a 3.4 GPA, with a priority given to new doctoral students, new BS to PhD Direct-Path program students, and incoming joint BS/MS degree program students.",
+    "url": "https://www.fau.edu/engineering/departments/eecs/assistantships/"
+   },
+   "program_size": {
+    "value": null,
+    "quote": null,
+    "url": null
+   }
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 9,
+   "living_usd": 27382,
+   "fees_usd": 154,
+   "health_usd": null,
+   "url": "https://www.fau.edu/financial-aid/cost-of-attendance/",
+   "quote": "Estimated nine-month budgets for full-time Non-Florida Resident students used in 2026-2027 ... Graduate Students | ON CAMPUS | OFF CAMPUS | WITH PARENTS | Tuition & Fees $20,712* $20,712* $20,712* | Books, course materials, supplies and equipment $1,368 | Living Expenses - Housing $10,524* $12,198 $1,586 | Living Expenses - Food $5,308* $5,498 $4,926 | Transportation $3,090 $3,562 $3,562 | Miscellaneous Personal Expenses $4,756 | TOTAL $45,758 $48,094 $36,910 (Florida Resident graduate: Tuition & Fees $7,704; TOTAL $32,750 / $35,086 / $23,902). Tuition and Fees Per Credit Hour: Graduate Florida Resident $371.82, Non-Florida Resident $1125.06.",
+   "basis": "Off-campus, non-resident: 12198 housing + 5498 food + 1368 books + 3562 transportation + 4756 personal = 27382 (same for residents). Check: 20712 + 27382 = 48094 = page TOTAL.",
+   "note": "Per-credit rate already bundles athletic, activity, health, technology, capital-improvement and financial-aid fees -> fees_included_in_tuition true. fees_usd = Transportation Access Fee $76.90 x 2 semesters (tuition breakdown page); one-time $35 Graduate Student Orientation Fee not included. Student health insurance not listed in the budget -> null.",
+   "fees_included_in_tuition": true
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_usd": null,
+    "fee_url": "https://catalog.fau.edu/admissions/admissions#graduate-admissions",
+    "fee_quote": "Application Fee: A non-refundable application fee is required before an application can be processed. The fee must be paid in U.S. dollars.",
+    "fee_note": "Amount not stated on the FAU graduate pages opened; applications go through EngineeringCAS.",
+    "fee_waiver": "EECS: 'The department is unfortunately unable to waive admission application fees.'",
+    "fee_waiver_url": "https://www.fau.edu/engineering/departments/eecs/faq/",
+    "letters": 2,
+    "letters_min": 2,
+    "letters_max": null,
+    "letters_url": "https://catalog.fau.edu/programs/oFnLatHjMBkhZPUO4bwS/program-requirements-TCjHU",
+    "letters_quote": "The applicant must provide two reference letters that address the student's research potential, motivation, relative academic achievement and personality.",
+    "letters_note": "PhD CS catalog admission requirements (the B.S.-to-Ph.D. path says \"A minimum of two letters of recommendation\")."
+   },
+   "ms": {
+    "fee_usd": null,
+    "fee_url": "https://catalog.fau.edu/admissions/admissions#graduate-admissions",
+    "fee_quote": "Application Fee: A non-refundable application fee is required before an application can be processed. The fee must be paid in U.S. dollars.",
+    "fee_note": "Amount not stated on the FAU graduate pages opened; applications go through EngineeringCAS.",
+    "fee_waiver": "EECS: 'The department is unfortunately unable to waive admission application fees.'",
+    "fee_waiver_url": "https://www.fau.edu/engineering/departments/eecs/faq/",
+    "letters": null,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://catalog.fau.edu/programs/XWmhrWRrUNKiA5RqD2Xf/program-requirements-TCjHU",
+    "letters_quote": null,
+    "letters_note": "MS CS catalog admission requirements list transcripts, GPA 3.0 (last 60 credits) and English proficiency but no letters; the Graduate College says programs may require letters. Not published -> null."
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_phd": "required",
+   "policy_url": "https://www.fau.edu/engineering/departments/eecs/faq/",
+   "policy_quote": "The GRE is currently not required for admission to MS programs in the EECS department. GRE is required for Ph.D. programs.",
+   "policy_phd_url": "https://catalog.fau.edu/programs/oFnLatHjMBkhZPUO4bwS/program-requirements-TCjHU",
+   "policy_phd_quote": "The applicant must submit the Graduate Record Examination (GRE) score and must have a GPA of at least 3.3 (out of 4.0 maximum) in previous graduate work. GRE scores more than five years old are normally not acceptable. The GRE requirement is waived for any student who has an M.S. degree from FAU's Department of Electrical Engineering and Computer Science.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "note": "PhD: GRE required, waived for FAU EECS MS graduates. Direct-path PhD from the FAU MS asks for GRE V+Q >= 310. No official or aggregated averages found.",
+   "unofficial": null
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official FAU CS MS admit statistics found. Unofficial: none recorded (the Peterson's FAU EECS profile URL now redirects to Peterson's search page; web search found only university-wide undergraduate rates).",
+   "unofficial": null
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official FAU CS PhD admit statistics found; unofficial: none recorded.",
+   "unofficial": null
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "direct-path PhD from the FAU MS",
+   "url": "https://catalog.fau.edu/programs/oFnLatHjMBkhZPUO4bwS/about-the-program-aoYks",
+   "quote": "Students in the M.S. Program at FAU: Satisfaction of the department's minimum GPA requirement, normally in the 3.2 - 3.3 range, in the last 60 credits of undergraduate coursework; A combined score (verbal and quantitative) of at least 310 on the GRE; A minimum GPA of 3.5 in the graduate program at FAU; Students must apply for the direct path Ph.D. program within the first year of graduate studies.",
+   "note": "Separately, the PhD catalog waives the GRE for applicants holding an FAU EECS M.S. and says a thesis-option master's is preferred."
+  },
+  "funding": {
+   "ms": {
+    "value": "TA possible",
+    "also": [],
+    "detail": "EECS TAs need a 3.4 GPA and full-time enrollment; priority to new PhD, BS-to-PhD and joint BS/MS students; up to 20 h/week, tuition covered proportionally. Professional-program and full-time-employed students are ineligible.",
+    "url": "https://www.fau.edu/engineering/departments/eecs/assistantships/",
+    "quote": "Support may be provided up to 20 hours/week with tuition covered proportionally."
+   },
+   "phd": {
+    "value": "TA possible",
+    "also": [],
+    "detail": "New doctoral students get priority for EECS TAs. No guaranteed-funding statement found for the CS PhD.",
+    "url": "https://www.fau.edu/engineering/departments/eecs/assistantships/",
+    "quote": "Graduate teaching assistantships are provided for eligible EECS graduate students with a 3.4 GPA, with a priority given to new doctoral students"
+   }
+  }
+ },
+ {
+  "school": "University of South Florida",
+  "csrankings_name": "University of South Florida",
+  "city": "Tampa",
+  "state": "FL",
+  "region": "Southeast",
+  "n_professors": 4,
+  "professors": [
+   {
+    "name": "Attila Altay Yavuz",
+    "dblp": "https://dblp.org/pid/73/4897",
+    "papers": 0,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "lattices/PQ",
+     "applied/systems crypto",
+     "signatures"
+    ],
+    "homepage": "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/yavuz-attila.aspx",
+    "source": "csrankings+dblp (Associate Professor, Bellini College directory); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "signatures/PKE",
+     "lattices/PQC",
+     "applied/systems"
+    ],
+    "tag_evidence": {
+     "signatures/PKE": [
+      {
+       "y": 2026,
+       "t": "Lightweight and Resilient Signatures for Cloud-Assisted Embedded IoT Systems."
+      },
+      {
+       "y": 2025,
+       "t": "LiteQSign: Lightweight and Quantum-Safe Signatures for Heterogeneous IoT Applications."
+      }
+     ],
+     "lattices/PQC": [
+      {
+       "y": 2026,
+       "t": "A Full Threshold NIST PQC-Compliant Framework for Distributed Trust in Federal Public Key Infrastructure."
+      },
+      {
+       "y": 2025,
+       "t": "Signer-optimal multiple-time post-quantum hash-based signature for heterogeneous IoT Systems."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2026,
+       "t": "Lightweight and High-Throughput Secure Logging for Internet of Things and Cold Cloud Continuum."
+      },
+      {
+       "y": 2023,
+       "t": "Efficient Dynamic Proof of Retrievability for Cold Storage."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "some",
+     "items": [
+      {
+       "what": "USF Center for Cryptographic Research",
+       "role": "Co-Director",
+       "since": "",
+       "source_url": "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/yavuz-attila.aspx",
+       "quote": "the Director of Applied Cryptography Research Laboratory, and the Co-Director of the Center for Cryptographic Research at the University of South Florida (USF)"
+      }
+     ],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Mehran Mozaffari Kermani",
+    "dblp": "https://dblp.org/pid/85/5526",
+    "papers": 0,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "lattices/PQ",
+     "applied/systems crypto",
+     "signatures"
+    ],
+    "homepage": "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/mehran-mozaffari-kermani.aspx",
+    "source": "csrankings+dblp (Professor, Bellini College directory); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "lattices/PQC",
+     "applied/systems",
+     "symmetric/hash"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2025,
+       "t": "Efficient Algorithm-Level Error Detection for Number-Theoretic Transform Used for Kyber Assessed on FPGAs and ARM."
+      },
+      {
+       "y": 2025,
+       "t": "PUF-Dilithium: Design of a PUF-Based Dilithium Architecture Benchmarked on ARM Processors."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2026,
+       "t": "Partial Recomputation Fault Detection Architecture for Multiple-Precision Montgomery Modular Multiplication."
+      },
+      {
+       "y": 2025,
+       "t": "Lightweight Fault Detection Architecture for Modular Exponentiation in Cryptography on ARM and FPGA."
+      }
+     ],
+     "symmetric/hash": [
+      {
+       "y": 2026,
+       "t": "A Survey on the Implementations, Attacks, and Countermeasures of the NIST Lightweight Cryptography Standard: ASCON."
+      },
+      {
+       "y": 2022,
+       "t": "Hardware Constructions for Error Detection in Lightweight Authenticated Cipher ASCON Benchmarked on FPGA."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "major",
+     "items": [
+      {
+       "what": "PQSecure Technologies",
+       "role": "VP Engineering",
+       "since": "",
+       "source_url": "https://pqsecurity.com/team/",
+       "quote": "VP Engineering Dr. Mehran Mozaffari Kermani"
+      },
+      {
+       "what": "USF Center for Cryptographic Research",
+       "role": "Co-Director",
+       "since": "2020",
+       "source_url": "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/mehran-mozaffari-kermani.aspx",
+       "quote": "He also has served as co-director of the Center for Cryptographic Research, including the annual CodeBreakHERS outreach workshop for high school girls at USF, since 2020."
+      }
+     ],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Jean-François Biasse",
+    "dblp": "https://dblp.org/pid/86/4052",
+    "papers": 1,
+    "papers_core_iacr_joc": 1,
+    "papers_crypto_themed_ccs_uss_sp": 0,
+    "topics": [
+     "quantum crypto",
+     "signatures",
+     "foundations"
+    ],
+    "homepage": "https://www.usf.edu/arts-sciences/departments/mathematics-statistics/people/faculty/jean-francois-biasse.aspx",
+    "source": "not in CSrankings (Mathematics & Statistics); added after manual check: Professor (USF math faculty page; Core Faculty on usf-crypto.org/people.html); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "quantum crypto",
+     "lattices/PQC",
+     "signatures/PKE"
+    ],
+    "tag_evidence": {
+     "quantum crypto": [
+      {
+       "y": 2025,
+       "t": "An efficient quantum algorithm for computing S-units and its applications."
+      },
+      {
+       "y": 2023,
+       "t": "Quantum algorithms for attacking hardness assumptions in classical and post-quantum cryptography."
+      }
+     ],
+     "lattices/PQC": [
+      {
+       "y": 2025,
+       "t": "Faster SCALLOP from Non-prime Conductor Suborders in Medium Sized Quadratic Fields."
+      },
+      {
+       "y": 2024,
+       "t": "PEARL-SCALLOP: Parameter Extension Applicable in Real-Life SCALLOP."
+      }
+     ],
+     "signatures/PKE": [
+      {
+       "y": 2022,
+       "t": "Advanced signature functionalities from the code equivalence problem."
+      },
+      {
+       "y": 2021,
+       "t": "LESS-FM: Fine-Tuning Signatures from the Code Equivalence Problem."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-08"
+    }
+   },
+   {
+    "name": "Rouzbeh Behnia",
+    "dblp": "https://dblp.org/pid/118/0026",
+    "papers": 2,
+    "papers_core_iacr_joc": 0,
+    "papers_crypto_themed_ccs_uss_sp": 2,
+    "topics": [
+     "lattices/PQ",
+     "applied/systems crypto",
+     "FHE/HE"
+    ],
+    "homepage": "https://rbehnia.github.io",
+    "source": "not in CSrankings (School of Information Systems); added after manual check: assistant professor (homepage; Affiliated Faculty on usf-crypto.org/people.html); counts 2021-2025 from dblp SPARQL (sparql.dblp.org; the dblp.org search API returned HTTP 429). Core = CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/CHES (incl. IACR TCHES, the CHES proceedings since 2018)/JoC; security = main-proceedings CCS/USENIX Security/S&P papers whose title is crypto-themed",
+    "research_tags": [
+     "lattices/PQC",
+     "privacy/DP",
+     "applied/systems"
+    ],
+    "tag_evidence": {
+     "lattices/PQC": [
+      {
+       "y": 2025,
+       "t": "Efficient Full-Stack Private Federated Deep Learning With Post-Quantum Security."
+      },
+      {
+       "y": 2026,
+       "t": "A Lightweight Post-Quantum Authentication Framework for 5G Base Station Bootstrapping."
+      }
+     ],
+     "privacy/DP": [
+      {
+       "y": 2024,
+       "t": "Differentially Private Stochastic Gradient Descent with Fixed-Size Minibatches: Tighter RDP Guarantees with or without Replacement."
+      },
+      {
+       "y": 2025,
+       "t": "Local Differential Privacy for Federated Learning with Fixed Memory Usage and Per-Client Privacy."
+      }
+     ],
+     "applied/systems": [
+      {
+       "y": 2024,
+       "t": "MUSES: Efficient Multi-User Searchable Encrypted Database."
+      },
+      {
+       "y": 2025,
+       "t": "Zero-Knowledge AI Inference with High Precision."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
+    "outside": {
+     "level": "none-found",
+     "items": [],
+     "checked": "2026-11-08"
+    }
+   }
+  ],
+  "program": {
+   "name": "MS in Computer Science (thesis option)",
+   "url": "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16126&returnto=5315",
+   "length": null,
+   "thesis": "yes",
+   "total_tuition_usd": 29829,
+   "tuition_basis": "2026-27 graduate per-credit total, non-Florida resident $994.29 x 30 credits = $29,828.70 (resident $430.43 [tuition $347.91 + state fees $24.15 + local fees $36.48 + transportation $3.00 + facilities $1.50 + tech $17.39] + out-of-state fee $537.01 + out-of-state fin-aid $26.85; tuition + out-of-state fee alone = $884.92/credit x 30 = $26,548). Florida resident: $430.43 x 30 = $12,913. Per year at the COA load of 20 credits: resident $8,682, non-resident $19,960 (incl. $37/term flat fees). Unresolved: the rate sheet charges programmatic tuition ($466.34 resident / $1,030.20 non-resident; 30 credits = $13,990 / $30,906) to \"College of Engineering - all majors\". The MS CS now sits in the Bellini College, and neither the rate sheet nor the Bellini pages say whether it pays that rate. The standard rate is used here.",
+   "tuition_url": "https://www.usf.edu/business-finance/controller/documents/student-services/graduate_tuition_rates_2026_2027.pdf",
+   "deadline_fall2027": "2027-01-15",
+   "deadline_note": "Bellini: MS and PhD priority deadlines Fall January 15 / Spring September 1; MS final university deadlines Fall June 1 / Spring October 15 (no year printed). Applications after the priority deadline are considered on a space-available basis.",
+   "deadline_url": "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/prospective-students.aspx",
+   "gre": "required unless exempt: 'The GRE is required except for US domestic applicants with an undergraduate degree from ABET-accredited degree programs, or from a Carnegie R1 university, or for applicants who have successfully completed USF Pathway to Computing (PTC) Graduate Certificate'",
+   "funding_note": "'Outstanding graduate students can apply for teaching assistantships or research assistantships. These come with a stipend for a fall/spring appointment of 20 hours per week plus a tuition waiver.' RAs are awarded by individual faculty.",
+   "priority_iso": "2027-01-15",
+   "deadline_iso": "2027-06-01",
+   "years": 2,
+   "years_note": "years assumed (no official length for the MSCS; tuition total is per 30 credits, not per term)"
+  },
+  "alt_programs": [
+   {
+    "name": "MS in Cybersecurity (MSCYS), Bellini College",
+    "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/prospective-students.aspx",
+    "note": "Listed among Bellini graduate majors; same Bellini application. Not checked further."
+   },
+   {
+    "name": "MA / PhD in Mathematics (Pure and Applied)",
+    "url": "https://www.usf.edu/arts-sciences/departments/mathematics-statistics/graduate/index.aspx",
+    "note": "Math department home of Biasse (and Micheli, coding theory); the MA/PhD path for number-theoretic, isogeny or code-based crypto."
+   }
+  ],
+  "research_fit_note": "30-credit MS with a thesis option (9 thesis credits, CIS 6971; thesis defense replaces the comprehensive exam). The catalog says the thesis track prepares students for doctoral study. A USF CSE-related MS can count toward the PhD as post-master's status (42 instead of 72 credits). Crypto in Bellini is applied: Yavuz (PQ/IoT signatures, secure logging), Mozaffari Kermani (PQC hardware and fault detection). Neither has a core-venue paper in 2021-25. Yavuz's ORAM and searchable-encryption work (S3ORAM CCS 2017; Efficient Oblivious Data Structures, IEEE TCC 2021) falls before the window or gives only one recent title, so ORAM is not tagged. The theory side is Biasse in Mathematics (isogeny/SCALLOP, quantum cryptanalysis, code equivalence).",
+  "notes": "Faculty: CSrankings lists Yavuz and Mozaffari Kermani; Biasse (Mathematics) and Behnia (School of Information Systems, USF) were added from usf-crypto.org/people.html. Excluded: Giacomo Micheli (Mathematics, Core Faculty; 2021-26 dblp is mostly coding theory and finite fields, with only 2 crypto-adjacent titles), Tefjol Pllaha (Mathematics; quantum PIR capacity and QLDPC coding theory, information theory rather than cryptography), and other affiliated faculty (Karam, Koelsch, Savchuk and others) with no crypto publication record checked. Counts include CHES/TCHES per this pass; none of the USF people has a CHES/TCHES paper in the window. Yavuz's S&P 2026 PQC-PKI paper is outside the 2021-25 window, and the 'QRSec 2025' CCS entry is a workshop summary, so it is excluded. The S&P 2025 privacy-preserving federated learning paper (Yavuz, Kermani, Behnia) does not match the crypto-title test. Topics come from the fixed tag regex over all 2021-26 dblp titles (\"post-quantum\" not counted as quantum crypto). Length null: no official time to degree. GRE: Sahmoud (domestic, UC Davis BS, an R1 university) qualifies for the exemption.",
+  "extra_checks": null,
+  "sources": [
+   "https://github.com/emeryberger/CSrankings (gh-pages csrankings.csv)",
+   "https://sparql.dblp.org/sparql",
+   "https://www.usf-crypto.org/people.html",
+   "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/yavuz-attila.aspx",
+   "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/mehran-mozaffari-kermani.aspx",
+   "https://www.usf.edu/arts-sciences/departments/mathematics-statistics/people/faculty/jean-francois-biasse.aspx",
+   "https://rbehnia.github.io",
+   "https://pqsecurity.com/team/",
+   "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/mscs.aspx",
+   "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/prospective-students.aspx",
+   "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16126&returnto=5315",
+   "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16127&returnto=5315",
+   "https://www.usf.edu/ai-cybersecurity-computing/academics/student-opportunities/assistantships.aspx",
+   "https://www.usf.edu/business-finance/controller/student-services/tuition-rates.aspx",
+   "https://www.usf.edu/business-finance/controller/documents/student-services/graduate_tuition_rates_2026_2027.pdf",
+   "https://tup-ofa.forest.usf.edu/finaid/coa/2627_off_campus_without_parents",
+   "https://www.usf.edu/admissions/graduate/admission-information/how-to-apply.aspx",
+   "https://www.usf.edu/admissions/graduate/admission-information/dates-deadlines.aspx",
+   "https://www.usf.edu/arts-sciences/departments/mathematics-statistics/graduate/index.aspx"
+  ],
+  "short": "University of South Florida",
+  "fit_score": 4,
+  "fit_profs": [
+   "Attila Altay Yavuz",
+   "Mehran Mozaffari Kermani",
+   "Jean-François Biasse",
+   "Rouzbeh Behnia"
+  ],
+  "phd": {
+   "deadline_iso": "2027-02-15",
+   "priority_iso": "2027-01-15",
+   "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/graduate/prospective-students.aspx",
+   "quote": "MS and PhD priority deadlines: Fall: January 15 Spring: September 1 ... PhD final university deadlines: Fall: February 15 Spring: October 15",
+   "note": "Year not printed. GRE \"suggested but not required\" for the PhD CSE; 3 letters; $30 application fee."
+  },
+  "ms_phd": {
+   "ra_for_ms": {
+    "value": "yes",
+    "quote": "Outstanding graduate students can apply for teaching assistantships or research assistantships. These come with a stipend for a fall/spring appointment of 20 hours per week plus a tuition waiver. These are competitive positions and require a faculty recommendation.",
+    "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/student-opportunities/assistantships.aspx"
+   },
+   "program_size": {
+    "value": null,
+    "quote": null,
+    "url": null
+   }
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 9,
+   "living_usd": 21202,
+   "fees_usd": 74,
+   "health_usd": null,
+   "url": "https://tup-ofa.forest.usf.edu/finaid/coa/2627_off_campus_without_parents",
+   "quote": "2026-27 STUDENTS LIVING OFF CAMPUS NOT WITH PARENTS ... GRADUATE STUDENTS Florida Resident Non-Florida Resident Billable Expenses Tuition & Fees* $8,682 $19,960 ... Housing $9,600 $9,600 Food $5,770 $5,770 Books & Supplies $680 $680 Transportation $2,176 $2,176 Personal Allowances** $2,976 $2,976 Total Non-Billable Expenses $21,202 $21,202 Total Cost of Attendance $29,884 $41,162 *Reflects standard tuition and fee rates: ... graduate - 20 credit hours (10 credit hours per semester)",
+   "basis": "Off campus not with parents: 9600 housing + 5770 food + 680 books + 2176 transportation + 2976 personal = 21202. Check: 19960 + 21202 = 41162 = page total. Tuition line = 20 x $994.29 + 2 x $37 flat fees.",
+   "note": "COA uses standard (non-programmatic) graduate rates. Per-credit rate bundles state, local (athletics, activities, health), transportation, facilities and tech fees -> fees_included_in_tuition true; fees_usd = USF flat fees ($7 A&S + $10 athletic + $20 student union = $37/term) x 2. Health insurance not listed in the budget -> null.",
+   "fees_included_in_tuition": true
+  },
+  "app_reqs": {
+   "phd": {
+    "fee_usd": 30,
+    "fee_url": "https://www.usf.edu/admissions/graduate/admission-information/how-to-apply.aspx",
+    "fee_quote": "Pay the nonrefundable $30 application fee.",
+    "fee_note": null,
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16127&returnto=5315",
+    "letters_quote": "Three letters of recommendation",
+    "letters_note": "PhD CSE catalog; the Bellini prospective-students page says letters \"Must be on official letterhead with recommender's title and contact\". No fee-waiver policy found."
+   },
+   "ms": {
+    "fee_usd": 30,
+    "fee_url": "https://www.usf.edu/admissions/graduate/admission-information/how-to-apply.aspx",
+    "fee_quote": "Pay the nonrefundable $30 application fee.",
+    "fee_note": null,
+    "fee_waiver": null,
+    "fee_waiver_url": null,
+    "letters": 3,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16126&returnto=5315",
+    "letters_quote": "Three letters of recommendation.",
+    "letters_note": "MSCS catalog; also statement of purpose, resume, unofficial transcripts and GRE PDF unless exempt. No fee-waiver policy found."
+   }
+  },
+  "gre_info": {
+   "policy_ms": "required (exempt for US domestic applicants with an ABET-accredited or Carnegie R1 undergraduate degree, or USF PTC certificate)",
+   "policy_phd": "optional",
+   "policy_url": "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16126&returnto=5315",
+   "policy_quote": "The GRE is required except for US domestic applicants with an undergraduate degree from ABET-accredited degree programs, or from a Carnegie R1 university, or for applicants who have successfully completed USF Pathway to Computing (PTC) Graduate Certificate",
+   "policy_phd_url": "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16127&returnto=5315",
+   "policy_phd_quote": "The GRE is suggested but not required.  Applicants may provide a PDF of unofficial GRE scores.",
+   "ms_avg": null,
+   "phd_avg": null,
+   "note": "The Bellini prospective-students page words the MS exemption without \"US domestic\". No official or aggregated averages found.",
+   "unofficial": null
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official USF CS MS admit statistics found. Unofficial: none recorded. A GradCafe estimate (~42%, 'estimated based on applicant submissions') appeared only in a search snippet and was not opened, and the Peterson's USF CSE profile URL now redirects to Peterson's search page.",
+   "unofficial": null
+  },
+  "phd_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official USF CSE PhD admit statistics found; unofficial: none recorded.",
+   "unofficial": null
+  },
+  "phd_pathway": {
+   "value": "yes",
+   "kind": "post-master's credit (MS counts toward PhD)",
+   "url": "https://catalog.usf.edu/preview_program.php?catoid=28&poid=16127&returnto=5315",
+   "quote": "Students with an MS degree in computer science and engineering or a related field can be admitted as post-master's if the degree is approved by the grad director in consultation with their major professor.",
+   "note": "Post-master's PhD = 42 credits minimum vs 72 post-bachelor's. The MSCS catalog also says thesis-option graduates are equipped to \"pursue a Ph.D. studies\". No internal MS-to-PhD transfer rule found."
+  },
+  "funding": {
+   "ms": {
+    "value": "TA/RA possible",
+    "also": [],
+    "detail": "Competitive TA/RA (20 h/week, stipend + tuition waiver), needs a faculty recommendation; RAs awarded by individual faculty.",
+    "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/student-opportunities/assistantships.aspx",
+    "quote": "These come with a stipend for a fall/spring appointment of 20 hours per week plus a tuition waiver."
+   },
+   "phd": {
+    "value": "TA/RA possible",
+    "also": [],
+    "detail": "Same Bellini TA/RA mechanism; OGS university fellowships may need an earlier application than the Jan 15 priority deadline. No guaranteed-funding statement found.",
+    "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/student-opportunities/assistantships.aspx",
+    "quote": "RESEARCH ASSISTANTSHIPS These are awarded by individual faculty members."
+   }
+  }
  }
 ]
