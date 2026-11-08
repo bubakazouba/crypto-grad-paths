@@ -2202,7 +2202,7 @@
      "year": "2023",
      "level_at_time": "PhD student, year 4 at UMD & MPI-SP (PhD 2019-Dec 2024)",
      "pubs_before": 5,
-     "pubs_before_note": "5 papers before 2023, 1 in crypto: ACM CCS 2022 (Foundations of Coin Mixing Services); the others are non-crypto (IEEE Sarnoff 2016, Agricultural Systems 2019, CHEP 2019, Astronomy & Computing 2020)",
+     "pubs_before_note": "5 papers before summer 2023, but only 1 in crypto (ACM CCS 2022, Foundations of Coin Mixing Services); the other 4 are non-crypto (IEEE Sarnoff 2016, Agricultural Systems 2019, CHEP 2019, Astronomy & Computing 2020). Verified on her CV.",
      "worked_on": "Cryptographic protocols for blockchains with J. Bonneau; led to Naysayer Proofs (FC 2024) and Cicada private on-chain auctions/voting (CTB 2024), plus an a16z blog post on registration-based encryption",
      "source_url": "https://nglaeser.github.io/files/Glaeser_CV_research_full.pdf",
      "oss_before": "none notable",
@@ -2213,7 +2213,7 @@
      "year": "2023",
      "level_at_time": "PhD student, final year at ELTE Budapest (PhD 2018-Nov 2023)",
      "pubs_before": 11,
-     "pubs_before_note": "about 11 peer-reviewed papers before 2023, e.g. USENIX Security 2022 (Private Signaling, distinguished paper), FC 2022, IEEE EuroS&P Workshops 2020, IEEE Blockchain 2020, Tokenomics 2019",
+     "pubs_before_note": "about 11 peer-reviewed papers before 2023, e.g. USENIX Security 2022 (Private Signaling, distinguished paper), FC 2022, IEEE EuroS&P Workshops 2020, IEEE Blockchain 2020, Tokenomics 2019 Internship verified on his CV (2023, a16z crypto, under Bonneau and Nikolaenko).",
      "worked_on": "Homomorphic time-lock-puzzle e-voting (Cicada) and fair data exchange for EIP-4844 with Bonneau and Nikolaenko; led to Naysayer Proofs (FC 2024) and Atomic and Fair Data Exchange via Blockchain (CCS 2024)",
      "source_url": "https://istvanseres.web.elte.hu/istvanseres.pdf",
      "oss_before": "none notable (largest: MixEth ~53 stars, 2018)",
@@ -2224,29 +2224,18 @@
      "year": "2023",
      "level_at_time": "PhD student, year 4 in EE at Stanford (2019-2025)",
      "pubs_before": 4,
-     "pubs_before_note": "4 peer-reviewed papers before 2023: ACM CCS 2020, IEEE S&P 2021 (Ebb-and-Flow), FC 2022 (Accountability Gadgets), a 2022 Ethereum attacks paper; plus several arXiv preprints",
+     "pubs_before_note": "4 peer-reviewed papers before 2023: ACM CCS 2020, IEEE S&P 2021 (Ebb-and-Flow), FC 2022 (Accountability Gadgets), a 2022 Ethereum attacks paper; plus several arXiv preprints CAUTION: his homepage shows him as a current a16z Research Associate; the 2023 internship year is from a search snippet of a CV that no longer loads, so it is unverified.",
      "worked_on": "The homepage does not say; he is a co-author of Atomic and Fair Data Exchange via Blockchain (CCS 2024) with the other 2023 a16z interns. Year is from his CV (06/2023-08/2023) as quoted in search results.",
      "source_url": "https://nusret1996.github.io/",
      "oss_before": "none notable",
-     "established": true
-    },
-    {
-     "name": "Mahimna Kelkar",
-     "year": "2023",
-     "level_at_time": "PhD student at Cornell (advisor Ari Juels); year not stated",
-     "pubs_before": 5,
-     "pubs_before_note": "5 peer-reviewed papers before 2023: ESORICS 2019, CRYPTO 2020, CRYPTO 2021, USENIX Security 2022, APKC 2022",
-     "worked_on": "Not stated on the homepage; he is a co-author of Atomic and Fair Data Exchange via Blockchain (CCS 2024) with the a16z team",
-     "source_url": "https://www.cs.cornell.edu/~mahimna/",
-     "oss_before": "none notable",
-     "established": true
+     "established": null
     }
    ],
-   "summary": "All 4 sampled 2023 interns were senior PhD students with 4-11 papers before the internship, including top crypto/security venues; none had notable open-source projects.",
+   "summary": "2 verified 2023 interns (Glaeser, Seres), both senior PhD students with prior peer-reviewed papers (Glaeser: 1 crypto paper; Seres: ~11). A third (Tas) is unverified as an intern. Kelkar was removed: his page lists a16z only as a talk venue.",
    "searched": "",
-   "n": 4,
-   "known": 4,
-   "established": 4,
+   "n": 3,
+   "known": 2,
+   "established": 2,
    "checked": "2026-11-08"
   }
  },
