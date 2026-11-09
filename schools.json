@@ -11627,7 +11627,7 @@
   "city": "Stony Brook",
   "state": "NY",
   "region": "Northeast",
-  "n_professors": 2,
+  "n_professors": 1,
   "professors": [
    {
     "name": "Omkant Pandey",
@@ -11703,47 +11703,6 @@
      "url": "https://www3.cs.stonybrook.edu/~omkant/",
      "checked": "2026-11-08"
     }
-   },
-   {
-    "name": "Xin Wang",
-    "dblp": "https://dblp.org/pid/10/5630-1",
-    "papers": 2,
-    "papers_core_iacr_joc": 2,
-    "papers_crypto_themed_ccs_uss_sp": 0,
-    "topics": [
-     "foundations"
-    ],
-    "homepage": "https://www.cs.stonybrook.edu/people/faculty/XinWang",
-    "source": "csrankings+dblp",
-    "research_tags": [
-     "foundations"
-    ],
-    "tag_evidence": {
-     "foundations": [
-      {
-       "y": 2026,
-       "t": "Hashing in Generic Groups: Completing the AGM-to-GGM Transfer."
-      },
-      {
-       "y": 2025,
-       "t": "On the Complexity of Cryptographic Groups and Generic Group Models."
-      }
-     ]
-    },
-    "crypto_core": "core",
-    "dblp_suspect": "dblp pid 10/5630-1 merges ~100 networking/CV/ML papers (INFOCOM, CVPR, IoT) with only 3 generic-group-model crypto papers (ASIACRYPT/PKC); crypto_core reflects the crypto subset only.",
-    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified against a fixed vocabulary",
-    "outside": {
-     "level": "none-found",
-     "items": [],
-     "checked": "2026-11-07"
-    },
-    "taking_students": {
-     "status": "unknown",
-     "quote": null,
-     "url": "https://www.cs.stonybrook.edu/people/faculty/XinWang",
-     "checked": "2026-11-08"
-    }
    }
   ],
   "program": {
@@ -11766,7 +11725,7 @@
   },
   "alt_programs": [],
   "research_fit_note": "Thesis Project option: 'Research project under the guidance of a faculty advisor (typically two or three semesters of CSE 599), completed with the submission and defense of a dissertation' (6 lecture courses + 6-9 credits CSE 599, committee of 3 CS faculty). Catalog: MS students may transfer to the PhD by contacting the Graduate Program Director; 'There is no automatic transfer mechanism'; preferably pass 2 PhD qualifier courses and find a PhD advisor first; MS courses then count toward PhD requirements.",
-  "notes": "length null: neither the CS MS page nor the catalog program page states a typical duration (catalog only says thesis takes typically 2-3 semesters of CSE 599). The rate chart page header reads 'Spring 2027 Tuition and Fee Billing Rates: Graduate' (same per-credit figures cited as Fall 2026). Rates are subject to SUNY Board of Trustees changes. A $500 tuition deposit is required on acceptance for CEAS programs (not included).",
+  "notes": "length null: neither the CS MS page nor the catalog program page states a typical duration (catalog only says thesis takes typically 2-3 semesters of CSE 599). The rate chart page header reads 'Spring 2027 Tuition and Fee Billing Rates: Graduate' (same per-credit figures cited as Fall 2026). Rates are subject to SUNY Board of Trustees changes. A $500 tuition deposit is required on acceptance for CEAS programs (not included). 2026-11-09: removed 'Xin Wang' - the Stony Brook faculty directory lists Xin Wang as ECE (wireless/networking), not cryptography (dblp name collision).",
   "extra_checks": {},
   "sources": [
    "https://csrankings.org (GitHub emeryberger/CSrankings gh-pages csrankings-*.csv, institutions.csv)",
