@@ -11755,7 +11755,7 @@
    "tuition_basis": "Non-NYS-resident graduate tuition $1,158 per credit (Fall 2026 / Spring 2027 billing rate chart; 12 credits = $13,900 flat) x 31 credits (degree minimum) = $35,898. Tuition only; excludes activity, college, health and other fees (non-resident 12-credit total incl. fees $17,518.13/semester).",
    "tuition_url": "https://www.stonybrook.edu/sfs/tuition-fees/Graduate%20Tuition%20and%20Fee%20Per%20Credit%20Rate%20Chart.pcf.html",
    "deadline_fall2027": "2027-03-15",
-   "deadline_note": "Graduate School deadline table: 'Computer Science MS | Masters | Fall 2027 | March 15, 2027' (domestic and international). Compare CS PhD Fall 2027 deadline December 15, 2026.",
+   "deadline_note": "Re-verified 2026-11-09: 'Computer Science MS | Masters | Fall 2027 | 1278 | March 15, 2027 | March 15, 2027' (domestic and international).",
    "deadline_url": "https://graduateadmissions.stonybrook.edu/portal/deadline_dates",
    "gre": "not required for domestic MS applicants ('GRE Policy (Spring 2027 & Fall 2027): GRE is not required for domestic M.S./Ph.D. applicants'); required for international MS applicants without a US/Canada degree",
    "funding_note": "CS admissions page: 'MS students are not typically considered for financial support or tuition waiver at the time of admission. However, in a small number of cases qualified MS students are able to receive partial support via departmental or campus opportunities.'",
@@ -11874,6 +11874,13 @@
     "source_url": "https://gradpilot.com/news/is-stony-brook-ms-cs-a-cash-cow",
     "context": "GradPilot article citing Peterson's: ~843 admits / ~2,400 applicants; unclear whether MS-only or whole department; data year not stated",
     "quote": "Peterson's lists ~843 admits / 2,400 applicants (~35%)."
+   },
+   "unofficial_gradcafe": {
+    "rate_pct": 75.0,
+    "year": "Fall 2022-Spring 2027 (GradCafe seasons)",
+    "source_url": "https://www.thegradcafe.com/survey/?institution=Stony+Brook&program=Computer+Science&degree=Masters",
+    "context": "GradCafe 'Computer Science' Masters self-reports: 9 accepted / 3 rejected (n=12; waitlist/other excluded), computed 2026-11-09; 11 of 12 international. All seasons since ~2011: 138 accepted / 45 rejected. Add alongside (do not replace) the existing Peterson's/GradPilot unofficial figure.",
+    "quote": null
    }
   },
   "phd_admit": {
@@ -11911,6 +11918,11 @@
     "url": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
     "quote": "All students admitted to the PhD program will automatically be considered for financial support and tuition waiver if the application is submitted by the due date."
    }
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "No official MS CS admit rate exists; GradCafe MS CS self-reports Fall 2022-Spring 2027 show 9 accepted / 3 rejected (75%, n=12; 138/183 decided all-time) and GradPilot citing Peterson's gives ~843 admits / ~2,400 applicants (~35%, scope/year unclear); GRE not required for domestic MS and the deadline is Mar 15, 2027, so it is a likely but not guaranteed admit.",
+   "admit_evidence_url": "https://www.thegradcafe.com/survey/?institution=Stony+Brook&program=Computer+Science&degree=Masters"
   }
  },
  {
@@ -16011,8 +16023,8 @@
    "tuition_basis": "2025-26 School of Graduate Studies-NB out-of-state per-credit rate $1,549 x 36 credits (dept says students typically take 9 credits/semester for 4 semesters; tuition is charged per credit up to 12 credits; full-time 12+ credit out-of-state rate is $18,588/semester). 2026-27 NB graduate schedule not found on the finance site.",
    "tuition_url": "https://finance.rutgers.edu/sites/default/files/2025-07/2025-2026%20All%20schools%20tuition%20%26%20fee%20rates%20with%20notes_NB-grad.pdf",
    "deadline_fall2027": "2027-03-01",
-   "deadline_note": "CS prospective-students page: Fall 'February 1st for International MS applicants', March 1st for U.S. citizens/green card holders (no year shown). Domestic date used.",
-   "deadline_url": "https://computerscience.rutgers.edu/academics/graduate/prospective-students",
+   "deadline_note": "Graduate School-New Brunswick program explorer, Computer Science (MS): 'Term Fall 2027 U.S. Mar 1, 2027 Non-U.S. Feb 1, 2027' (also Spring 2027 U.S. Oct 15, 2026). Confirms the year the dept page omits.",
+   "deadline_url": "https://newbrunswickgrad.rutgers.edu/graduate-admissions-program-explorer?page=5",
    "gre": "optional: 'Submitting the GRE [verbal, quantitative, analytical writing] scores is optional'; FAQ recommends 150V/160Q, no minimum",
    "funding_note": "'University or Department funding can not be offered to M.S. students at Rutgers.' Some research groups may fund admitted students case by case through grants.",
    "priority_iso": null,
@@ -16090,8 +16102,8 @@
    },
    "ms": {
     "fee_usd": 70,
-    "fee_url": "https://www.cs.rutgers.edu/graduate/frequently-asked-questions-about-admissions",
-    "fee_quote": "Obtain and fill out an application, and pay a $70 application fee.",
+    "fee_url": "https://gradstudy.rutgers.edu/apply/before-you-apply",
+    "fee_quote": "$70 nonrefundable application fee",
     "fee_note": "Fee from CS dept admissions FAQ (covers M.S., Ph.D., non-degree); MS FAQ itself gives no amount.",
     "fee_waiver": "MS FAQ: \"Unfortunately, we do not have any application fee waivers.\"",
     "fee_waiver_url": "https://www.cs.rutgers.edu/academics/graduate/m-s-program/faq",
@@ -16181,6 +16193,11 @@
     "url": "https://www.cs.rutgers.edu/academics/graduate/ph-d-program/financial-aid",
     "quote": "the department typically provides Ph.D. students with financial support in the form of teaching assistantships, fellowships or grant-funded research assistantships."
    }
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "No official MS CS admit rate exists (the MS FAQ says qualified applicants far exceed admits); GradCafe MS CS self-reports Fall 2022-Spring 2027 show 18 accepted / 6 rejected (75%, n=24; US-citizen subset 5/7), so it is a likely but not guaranteed admit, with GRE optional and a Mar 1, 2027 domestic deadline.",
+   "admit_evidence_url": "https://www.thegradcafe.com/survey/?institution=Rutgers&program=Computer+Science&degree=Masters"
   }
  },
  {
@@ -26139,5 +26156,2053 @@
     "quote": "RESEARCH ASSISTANTSHIPS These are awarded by individual faculty members."
    }
   }
+ },
+ {
+  "school": "Stevens Institute of Technology",
+  "short": "Stevens",
+  "csrankings_name": "Stevens Institute of Technology",
+  "city": "Hoboken",
+  "state": "NJ",
+  "region": "NYC",
+  "country": "US",
+  "n_professors": 4,
+  "professors": [
+   {
+    "name": "Antonio Nicolosi",
+    "title": "Associate Professor",
+    "department": "School of Computing (Computer Science)",
+    "homepage": "https://www.stevens.edu/profile/anicolos",
+    "dblp": "https://dblp.org/pid/58/1326",
+    "topics": [
+     "lattices/PQ",
+     "group-based crypto",
+     "foundations"
+    ],
+    "research_tags": [
+     "lattices/LWR-style PRF",
+     "group-based crypto"
+    ],
+    "tag_evidence": {
+     "lattices/LWR-style PRF": [
+      {
+       "y": 2024,
+       "t": "Learning Burnside Homomorphisms with Rounding and Pseudorandom Function."
+      }
+     ],
+     "group-based crypto": [
+      {
+       "y": 2024,
+       "t": "Learning Burnside Homomorphisms with Rounding and Pseudorandom Function."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 1,
+    "source": "faculty page+dblp",
+    "profile_research_interests": [
+     "Cryptography",
+     "Security and privacy in distributed systems",
+     "Lattices and decoding algorithms"
+    ],
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.stevens.edu/profile/anicolos",
+     "checked": "2026-11-09"
+    },
+    "note": "Active (no emeritus/retired status). Profile lists him as Program Director of the Masters in CyberSecurity and Doctoral Written Qualifying Examination Committee Chair. Only 1 dblp paper 2021-2026 (SecITC 2024): low recent output; no CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/JoC papers 2021-2026. Not on csrankings. Member of the Stevens Algebra and Cryptology Center."
+   },
+   {
+    "name": "Susanne Wetzel",
+    "title": "Professor",
+    "department": "School of Computing (Computer Science)",
+    "homepage": "https://www.stevens.edu/profile/swetzel",
+    "dblp": "https://dblp.org/pid/85/69",
+    "topics": [
+     "MPC",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "privacy-preserving computation/MPC",
+     "security education/policy"
+    ],
+    "tag_evidence": {
+     "privacy-preserving computation/MPC": [
+      {
+       "y": 2024,
+       "t": "Efficient Privacy-Preserving Approximation of the Kidney Exchange Problem."
+      },
+      {
+       "y": 2022,
+       "t": "Privacy-Preserving Maximum Matching on General Graphs and its Application to Enable Privacy-Preserving Kidney Exchange."
+      }
+     ],
+     "security education/policy": [
+      {
+       "y": 2026,
+       "t": "An Evaluation Process for Tools that Build or Evidence Competency in Cybersecurity: Development and Lessons Learned."
+      },
+      {
+       "y": 2024,
+       "t": "A Study on Exploring the Challenges of the CyberCorps®: Scholarship for Service Program to Support PhD Level Scholarships."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 6,
+    "source": "faculty page+dblp",
+    "papers_note": "Counted (CoRR dups removed): AsiaCCS 2024, PST 2024, J. Comput. Secur. 2024, CODASPY 2022, PST 2022, PST 2021 (privacy-preserving kidney exchange / anonymous SMPC). Maritime cybersecurity and education papers not counted.",
+    "profile_quote": "My research interests are in cryptography and algorithmic number theory.",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.stevens.edu/profile/swetzel",
+     "checked": "2026-11-09"
+    },
+    "note": "Active (no emeritus/retired status on profile). Profile also mentions lattice basis reduction (algorithmic number theory) and heading Stevens' CyberCorps SFS program. Listed on csrankings. Recent work is applied privacy-preserving protocols, not lattice crypto."
+   },
+   {
+    "name": "Alexander Ushakov",
+    "title": "Associate Professor",
+    "department": "Mathematical Sciences",
+    "homepage": "https://www.stevens.edu/profile/aushakov",
+    "dblp": "https://dblp.org/pid/69/5394",
+    "topics": [
+     "group-based crypto",
+     "quantum crypto"
+    ],
+    "research_tags": [
+     "cryptanalysis of group-based signatures",
+     "average-case hardness in groups"
+    ],
+    "tag_evidence": {
+     "cryptanalysis of group-based signatures": [
+      {
+       "y": 2025,
+       "t": "Kahrobaei-Koupparis DSS: universal forgery."
+      },
+      {
+       "y": 2023,
+       "t": "Algebraic and quantum attacks on two digital signature schemes."
+      }
+     ],
+     "average-case hardness in groups": [
+      {
+       "y": 2024,
+       "t": "Constrained inhomogeneous spherical equations: average-case hardness."
+      }
+     ]
+    },
+    "crypto_core": "math",
+    "papers": 3,
+    "source": "faculty page+dblp",
+    "papers_note": "Counted: Kahrobaei-Koupparis DSS: universal forgery (Groups Complex. Cryptol. 2025; ePrint dup), Algebraic and quantum attacks on two digital signature schemes (J. Math. Cryptol. 2023), Attack on Kayawood protocol: uncloaking private keys (J. Math. Cryptol. 2021). 2024 GCC average-case hardness paper is crypto-adjacent, not counted. 'quantum crypto' topic = quantum attacks (cryptanalysis), not QKD.",
+    "profile_research_interests": [
+     "Combinatorial group theory",
+     "Computational algebra",
+     "Algebraic cryptography"
+    ],
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.stevens.edu/profile/aushakov",
+     "checked": "2026-11-09"
+    },
+    "note": "Active (no emeritus/retired status). Math dept, not CS."
+   },
+   {
+    "name": "Alexei Miasnikov",
+    "title": "Professor",
+    "department": "Mathematical Sciences",
+    "homepage": "https://www.stevens.edu/profile/amiasnik",
+    "dblp": "https://dblp.org/pid/47/2636",
+    "topics": [
+     "group-based crypto"
+    ],
+    "research_tags": [
+     "algorithmic group theory"
+    ],
+    "tag_evidence": {
+     "algorithmic group theory": [
+      {
+       "y": 2024,
+       "t": "Andrews-Curtis groups."
+      },
+      {
+       "y": 2022,
+       "t": "Parallel complexity for nilpotent groups."
+      }
+     ]
+    },
+    "crypto_core": "math",
+    "papers": 0,
+    "source": "faculty page+dblp",
+    "profile_research_interests": [
+     "Combinatorial, geometric, algorithmic and asymptotic group theory",
+     "Algorithmic and model theoretic algebra",
+     "Mathematical logic and recursion theory",
+     "Average and generic computational complexity",
+     "Cryptography",
+     "Statistical methods in pure mathematics"
+    ],
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.stevens.edu/profile/amiasnik",
+     "checked": "2026-11-09"
+    },
+    "note": "Active (no emeritus/retired status). Profile lists Cryptography, but dblp (as Alexei G. Myasnikov) shows no crypto papers 2021-2026; tag evidence is group theory, not crypto."
+   }
+  ],
+  "program": {
+   "name": "Master of Science in Computer Science (School of Computing)",
+   "url": "https://www.stevens.edu/program/computer-science-masters",
+   "length": "30 credits (2024-25 catalog: 'The program is a 30-credit degree program.'); official duration not stated",
+   "years": null,
+   "years_note": "No official length found; tuition total is per-credit x 30 credits, not a term count.",
+   "thesis": "optional",
+   "thesis_quote": "Optional research or clinical thesis",
+   "thesis_note": "Program page. Catalog course 'CS 900 Thesis in Computer Science (M.S.)', credits '1 - 10'. Current catalog: 'At least twenty-one credits must be Computer Science courses, identified by the CS prefix.' / 'The remaining nine credits can be from computer science or any other disciplines.'",
+   "total_tuition_usd": 64560,
+   "tuition_basis": "2026-27 graduate per-credit rate $2,152 x 30 credits = $64,560. Alternative: full-time flat rate $22,995/semester for 9-12 credits (12+12+6 credits = 2 x 22,995 + 6 x 2,152 = $58,902). Excludes fees (General Service Fee FT $715/sem, Student Activity Fee FT $203/sem) and health insurance ($2,504/yr).",
+   "tuition_url": "https://www.stevens.edu/office-of-student-accounts/tuition-and-fees",
+   "deadline_fall2027": "2027-04-15",
+   "deadline_iso": "2027-04-15",
+   "deadline_note": "Deadlines page: Fall 'Master's Full-Time: April 15' (Part-Time: August 15). No year printed; no separate domestic/international or priority dates. Admission is rolling, so applications are accepted after the preferred deadline.",
+   "deadline_url": "https://www.stevens.edu/admission-aid/graduate-admissions/application-deadlines",
+   "priority_iso": null,
+   "gre": "not required: 'Applicants to Master of Science, Master of Engineering and MBA programs are not required to submit GRE/GMAT scores.'",
+   "funding_note": "TA/RA/fellowships: 'Limited in number, these highly competitive opportunities are awarded to exceptional candidates based on merit.' Provost Master's Scholarship (competitive tuition scholarship awarded at admission; amount not stated)."
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": null,
+   "living_usd": 23144,
+   "fees_usd": 1836,
+   "health_usd": 2504,
+   "url": "https://www.stevens.edu/admission-aid/tuition-financial-aid/graduate-costs-and-funding",
+   "quote": "2026-2027 Full-Time Graduate Costs, Off Campus: Tuition and Fees $47,826; Loan Fees $206; Housing and Meals $20,744; Books and Supplies $1,000; Transportation $350; Miscellaneous $1,050; Total $71,176.",
+   "basis": "living = 20744 + 1000 + 350 + 1050 = 23144; fees = (715 + 203) x 2 semesters = 1836 (tuition-and-fees page; 2 x 22995 + 1836 = 47826 matches COA 'Tuition and Fees'); health = Annual Student Health Insurance Fee $2,504.",
+   "note": "COA page: 'new incoming graduate students are not able to reside on campus'. COA months not stated. Health figure from https://www.stevens.edu/office-of-student-accounts/tuition-and-fees.",
+   "fees_included_in_tuition": false
+  },
+  "alt_programs": [
+   {
+    "name": "M.S. in Cybersecurity",
+    "url": null,
+    "note": "Nicolosi's profile lists him as 'Program Director of the Masters in CyberSecurity'. Program page not fetched; requirements/costs not verified."
+   }
+  ],
+  "research_fit_note": "Crypto at Stevens centers on the Algebra and Cryptology Center (CS: Nicolosi, Wetzel; Math: Miasnikov, Ushakov), with an algebraic/group-based post-quantum flavor. Recent output is thin: Nicolosi 1 paper 2021-2026 (Burnside learning-with-rounding PRF), Wetzel applied privacy-preserving MPC, Ushakov cryptanalysis of group-based signatures, Miasnikov no recent crypto papers. Nobody publishes at CRYPTO/EUROCRYPT/TCC/PKC 2021-2026. Optional MS thesis (CS 900) is the research entry point.",
+  "notes": "Deadline page shows no year; rolling admission stated. Tuition uses official 2026-27 rates (2027-28 not published). Current coursedog catalog shows 21 CS + 9 other credits for the standard MS (implies 30); the explicit '30-credit' sentence is from the 2024-25 catalog archive. A 36-credit Pathways variant (bridge courses) exists. Taking-students status unknown for all four (no statements on profiles).",
+  "sources": [
+   "https://www.stevens.edu/profile/anicolos",
+   "https://www.stevens.edu/profile/swetzel",
+   "https://www.stevens.edu/profile/aushakov",
+   "https://www.stevens.edu/profile/amiasnik",
+   "https://www.stevens.edu/profile/anikolae",
+   "https://web.stevens.edu/algebraic/people.php",
+   "https://sparql.dblp.org/sparql",
+   "https://dblp.org/pid/58/1326",
+   "https://dblp.org/pid/85/69",
+   "https://dblp.org/pid/69/5394",
+   "https://dblp.org/pid/47/2636",
+   "https://raw.githubusercontent.com/emeryberger/CSrankings/gh-pages/institutions.csv",
+   "https://www.stevens.edu/program/computer-science-masters",
+   "https://stevens.catalog.prod.coursedog.com/programs/1c00f8a04b1f01134704aa424432bf6e/requirements-and-concentrations-n90Np",
+   "https://web.stevens.edu/catalog/archive/2024-2025/en/catalog/academic-catalog/department-of-computer-science/graduate-programs/copy-of-master-of-science-in-computer-science.html",
+   "https://web.stevens.edu/catalog/archive/2024-2025/en/catalog/academic-catalog/courses/cs-computer-science/900/cs-900.html",
+   "https://www.stevens.edu/admission-aid/graduate-admissions/application-deadlines",
+   "https://www.stevens.edu/application-requirements",
+   "https://www.stevens.edu/office-of-student-accounts/tuition-and-fees",
+   "https://www.stevens.edu/admission-aid/tuition-financial-aid/graduate-costs-and-funding",
+   "https://www.stevens.edu/graduate-funding-and-aid/masters-scholarships-and-fellowships",
+   "https://www.stevens.edu/events/stevens-graduate-virtual-open-house-november",
+   "https://www.stevens.edu/program/computer-science-doctoral-program"
+  ],
+  "fit_profs": [
+   "Antonio Nicolosi",
+   "Alexander Ushakov"
+  ],
+  "app_reqs": {
+   "ms": {
+    "fee_usd": 60,
+    "fee_url": "https://www.stevens.edu/application-requirements",
+    "fee_quote": "All applicants are required to pay a $60 non-refundable Application Fee.",
+    "fee_note": "Program page also lists '$60 non-refundable Application Fee'.",
+    "fee_waiver": "Open-house waiver: 'The application fee will be waived for those who attend the event.' (Graduate Virtual Open House; date not shown). No standing waiver policy on the requirements page.",
+    "fee_waiver_url": "https://www.stevens.edu/events/stevens-graduate-virtual-open-house-november",
+    "letters": 2,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://www.stevens.edu/program/computer-science-masters",
+    "letters_quote": "Two letters of recommendation (academic or professional only)",
+    "letters_note": null
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required (optional to submit)",
+   "policy_url": "https://www.stevens.edu/application-requirements",
+   "policy_quote": "Applicants to Master of Science, Master of Engineering and MBA programs are not required to submit GRE/GMAT scores.",
+   "note": "Program page: 'GRE/GMAT test score(s) -- (Optional)'."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official MS CS applicant/admit statistics found on the school's pages (dept, graduate admissions, institutional research). See admit_signals for official structural evidence.",
+   "unofficial": {
+    "rate_pct": 100.0,
+    "year": "Fall 2022-Spring 2027 (GradCafe seasons)",
+    "source_url": "https://www.thegradcafe.com/survey/?institution=Stevens+Institute&program=Computer+Science&degree=Masters",
+    "context": "GradCafe 'Computer Science' Masters self-reports: 14 accepted / 0 rejected (n=14; waitlist/interview/other excluded), computed 2026-11-09. US-citizen subset 1/1. All seasons since ~2010: 29 accepted / 2 rejected. Tiny self-selected sample; directional only.",
+    "quote": null
+   }
+  },
+  "admit_signals": [
+   {
+    "kind": "rolling",
+    "quote": "Graduate programs admit students on a \"rolling\" basis, meaning that students may still apply after the preferred deadlines.",
+    "url": "https://www.stevens.edu/admission-aid/graduate-admissions/application-deadlines"
+   },
+   {
+    "kind": "late_deadline",
+    "quote": "Master's Full-Time: April 15 (Fall); Master's Part-Time: August 15",
+    "url": "https://www.stevens.edu/admission-aid/graduate-admissions/application-deadlines"
+   }
+  ],
+  "funding": {
+   "ms": {
+    "value": "Limited/competitive",
+    "also": [
+     "Provost Master's Scholarship (merit tuition scholarship at admission)"
+    ],
+    "detail": "TA/RA/fellowships listed on program page but competitive and merit-based; Provost Master's Scholarship 'awarded to qualified students at the time of admission', amount not stated.",
+    "url": "https://www.stevens.edu/program/computer-science-masters",
+    "quote": "Limited in number, these highly competitive opportunities are awarded to exceptional candidates based on merit."
+   }
+  },
+  "phd_pathway": {
+   "value": "partial",
+   "kind": "credit transfer",
+   "url": "https://www.stevens.edu/program/computer-science-doctoral-program",
+   "quote": "Ideal candidates hold a master's degree in computer science (up to 30 credits may transfer to Stevens' Ph.D. program).",
+   "note": "No explicit internal Stevens MS->PhD route stated. PhD page: 'All Stevens computer science doctoral students receive financial support.' A 30-credit MS matches the 30-credit transfer cap."
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "Stevens officially admits graduate students on a rolling basis and accepts applications after the April 15 preferred deadline; every GradCafe MS CS self-report from Fall 2022 to Spring 2027 was an acceptance (14/14; 29/31 all-time). No official admit rate is published.",
+   "admit_evidence_url": "https://www.stevens.edu/admission-aid/graduate-admissions/application-deadlines"
+  },
+  "fit_score": 0
+ },
+ {
+  "school": "New Jersey Institute of Technology",
+  "short": "NJIT",
+  "csrankings_name": "NJIT",
+  "city": "Newark",
+  "state": "NJ",
+  "region": "NYC",
+  "country": "US",
+  "n_professors": 3,
+  "professors": [
+   {
+    "name": "Varun Madathil",
+    "title": "Assistant Professor, Computer Science",
+    "department": "Computer Science (Ying Wu College of Computing)",
+    "homepage": "https://varunmadathil.com/",
+    "faculty_page": "https://people.njit.edu/profile/vrm8953",
+    "dblp": "https://dblp.org/pid/265/8774",
+    "papers": 18,
+    "papers_note": "Distinct 2021-2026 crypto/privacy-protocol titles on dblp (ePrint/CoRR duplicates merged; 'Secure and Efficient Out-of-band Call Metadata Transmission' CoRR excluded). Venues incl. ASIACRYPT 2025 (dblp year 2026), ITC 2022, IACR CiC 2024, CCS 2024 x2, USENIX Sec 2022, S&P 2021, NDSS 2023, CSF 2025.",
+    "topics": [
+     "MPC",
+     "FHE/HE",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "anonymity/private signaling",
+     "oblivious transfer",
+     "blockchain privacy",
+     "FHE applications",
+     "secure aggregation"
+    ],
+    "tag_evidence": {
+     "anonymity/private signaling": [
+      {
+       "y": 2022,
+       "t": "Private Signaling."
+      },
+      {
+       "y": 2025,
+       "t": "Scalable Private Signaling."
+      }
+     ],
+     "oblivious transfer": [
+      {
+       "y": 2024,
+       "t": "Round-Optimal Compiler for Semi-Honest to Malicious Oblivious Transfer via CIH."
+      },
+      {
+       "y": 2022,
+       "t": "From Privacy-Only to Simulatable OT: Black-Box, Round-Optimal, Information-Theoretic."
+      }
+     ],
+     "blockchain privacy": [
+      {
+       "y": 2026,
+       "t": "PriFHEte: Achieving Full-Privacy in Account-Based Cryptocurrencies is Possible."
+      },
+      {
+       "y": 2021,
+       "t": "On the Anonymity Guarantees of Anonymous Proof-of-Stake Protocols."
+      }
+     ],
+     "FHE applications": [
+      {
+       "y": 2024,
+       "t": "HomeRun: High-efficiency Oblivious Message Retrieval, Unrestricted."
+      },
+      {
+       "y": 2026,
+       "t": "A Linear Operator Framework for Polynomial Divisions in Cryptography."
+      }
+     ],
+     "secure aggregation": [
+      {
+       "y": 2025,
+       "t": "TACITA: Threshold Aggregation without Client Interaction."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org",
+    "taking_students": {
+     "status": "yes",
+     "quote": "I am currently recruiting Ph.D. students. I welcome prospective students interested in applied cryptography and its applications to privacy, anonymity, and security.",
+     "url": "https://varunmadathil.com/",
+     "checked": "2026-11-09"
+    },
+    "note": "Active: listed as Assistant Professor on cs.njit.edu/faculty; teaching CS 608 Cryptography & Security Fall 2026; in CSrankings under NJIT. Homepage: 'My research is in applied cryptography.' NJIT profile page has only a Teaching tab (no research-interest field); crypto area taken from his own homepage. Recruiting is stated for PhD students, not MS."
+   },
+   {
+    "name": "Reza Curtmola",
+    "title": "Professor, Computer Science",
+    "department": "Computer Science (Ying Wu College of Computing)",
+    "homepage": "https://web.njit.edu/~crix/",
+    "faculty_page": "https://people.njit.edu/profile/crix",
+    "dblp": "https://dblp.org/pid/c/RezaCurtmola",
+    "papers": 0,
+    "papers_note": "dblp 2021-2026 lists 11 items, all systems/web security (cache side channels, git/software supply-chain security, deanonymization); none are cryptography papers.",
+    "topics": [
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "software supply-chain security",
+     "side channels/privacy"
+    ],
+    "tag_evidence": {
+     "software supply-chain security": [
+      {
+       "y": 2025,
+       "t": "Rethinking Trust in Forge-Based Git Security."
+      },
+      {
+       "y": 2026,
+       "t": "SourceFabric: Consistent and Scalable Security Policies for Git Repositories."
+      }
+     ],
+     "side channels/privacy": [
+      {
+       "y": 2022,
+       "t": "Targeted Deanonymization via the Cache Side Channel: Attacks and Defenses."
+      },
+      {
+       "y": 2026,
+       "t": "Leaky Apps: Targeted Deanonymization on Mobile Phones."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org",
+    "taking_students": {
+     "status": "unknown",
+     "quote": "If you're a student interested in the type of research I do, please drop me an email or stop by my office.",
+     "url": "https://web.njit.edu/~crix/",
+     "checked": "2026-11-09"
+    },
+    "note": "Active (Professor; co-director Cybersecurity Research Center; director of CS PhD program per homepage; teaching CS 645 and supervising CS 700B/701B Fall 2026). Homepage research interests list 'Applied Cryptography' alongside storage/cloud/software/wireless security, but recent output is systems security, not crypto. Homepage appears long un-updated, so the open invitation is undated."
+   },
+   {
+    "name": "Kurt Rohloff",
+    "title": "Affiliated Faculty, Provost & Academic Affairs",
+    "department": "Provost & Academic Affairs (formerly CS; not on current CS faculty list)",
+    "homepage": "https://web.njit.edu/~rohloff/",
+    "faculty_page": "https://people.njit.edu/profile/rohloff",
+    "dblp": "https://dblp.org/pid/54/1874",
+    "papers": 6,
+    "papers_note": "2021-2025 dblp: 6 FHE/HE papers (excluding WAHC workshop front-matter entries 2022/2023/2025). None at CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/JoC in this window.",
+    "topics": [
+     "FHE/HE",
+     "lattices/PQ",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "FHE libraries",
+     "FHE parameters/implementation"
+    ],
+    "tag_evidence": {
+     "FHE libraries": [
+      {
+       "y": 2022,
+       "t": "OpenFHE: Open-Source Fully Homomorphic Encryption Library."
+      },
+      {
+       "y": 2023,
+       "t": "PREFHE, PREFHE-AES and PREFHE-SGX: Secure Multiparty Computation Protocols from Fully Homomorphic Encryption and Proxy ReEncryption with AES and Intel SGX."
+      }
+     ],
+     "FHE parameters/implementation": [
+      {
+       "y": 2025,
+       "t": "Optimizing parameters for efficient computation with fully homomorphic encryption schemes."
+      },
+      {
+       "y": 2021,
+       "t": "Implementation and Performance Evaluation of RNS Variants of the BFV Homomorphic Encryption Scheme."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org",
+    "taking_students": {
+     "status": "unknown",
+     "quote": "Graduate research assistantships and post-doctoral appointments may be available, but only for dedicated students with extremely strong C/C++ or embedded systems programming skills and a strong mathematical background.",
+     "url": "https://web.njit.edu/~rohloff/",
+     "checked": "2026-11-09"
+    },
+    "note": "LIKELY NOT A CS ADVISOR NOW. NJIT profile title is 'Affiliated Faculty, Provost & Academic Affairs' (research interests: 'Homomorphic encryption, applied cryptography, software engineering, high assurance computing.'), he is NOT on the cs.njit.edu/faculty list, has no Fall 2026 courses on his profile, and is absent from CSrankings. Homepage (says 'associate professor' and Co-Founder/CTO of Duality) is marked 'Last updated: February 5, 2019'. The 2024-25 catalog requires an MS project/thesis advisor to be 'a tenure-track graduate faculty of the CS department', which an affiliated appointment probably is not. Could not confirm his current primary employer from an official page."
+   }
+  ],
+  "program": {
+   "name": "MS in Computer Science",
+   "url": "https://cs.njit.edu/computer-science-ms",
+   "length": "30 credits (10 courses); duration not stated on the dept page",
+   "years": null,
+   "years_note": "No official program duration found; full-time graduate = 9 credits/semester per NJIT COA page, so 30 credits is more than 3 semesters, but no stated year count.",
+   "thesis": "optional",
+   "thesis_quote": "Students who want to pursue research can earn up to 6 of the 30 required credits by taking as elective CS 700B Master's Project, possibly followed by CS 701B Master's Thesis.",
+   "thesis_url": "http://web.archive.org/web/20241213031521/https://catalog.njit.edu/graduate/computing-sciences/computer-science/ms/",
+   "total_tuition_usd": 62040,
+   "tuition_basis": "2026-27 NJIT Tuition & Fee Schedule, GRADUATE non-resident '2,068 per credit' (Credit Hour Rate Only; full-time flat rate 'Eliminated Starting in Fall 26') x 30 credits = $62,040. Mandatory graduate fees are a further $295/credit (x30 = $8,850), not included. NJ resident rate is $1,442/credit (x30 = $43,260); he is a CA resident so non-resident rate used. Dept page (AY 2024-25 rates) quotes 'Newark, non-NJ residents: $44,748-$63,120'. Credit count from the 2024-25 catalog (2026-27 catalog unreachable: catalog.njit.edu refused connections).",
+   "tuition_url": "https://www.njit.edu/boards/sites/njit.edu.boards/files/FY27%20Tuition%20Fee%20Room%20Board%20and%20Meal%20Plan%20Rates%20Resolution%206%25_Final.pdf",
+   "deadline_fall2027": "2027-06-01",
+   "deadline_iso": "2027-06-01",
+   "deadline_note": "Graduate Dates & Deadlines page: Master's - Domestic, Fall: 'June 1' for 'the upcoming terms' (no year printed). Also: 'NJIT employs rolling admissions' and 'Applications submitted after the stated deadlines will be considered on a space-available basis.' 2026-27 catalog: 'Applications for fall (September) admission must be received by June 1'. Same catalog: 'Applications for financial support for fall (September) must be received by December 15.'",
+   "deadline_url": "https://www.njit.edu/admissions/grad-dates-deadlines",
+   "priority_iso": null,
+   "gre": "Conflicting: CS dept page says 'GRE is not required'; university master's page says Ying Wu College of Computing 'GRE optional but strongly recommended for all MS applicants'.",
+   "funding_note": "Dept: 'guaranteed financial support for MS students is limited and typically reserved for doctoral candidates.' MS students can work as graders (up to $9K/yr), tutors, RAs after enrollment."
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 9,
+   "living_usd": 26700,
+   "fees_usd": 5310,
+   "health_usd": null,
+   "url": "https://www.njit.edu/admissions/tuition-costs",
+   "quote": "Graduate Cost of Attendance* for 2026 - 2027 (two semesters at full-time**): Tuition $25,956 (NJ) / $37,224 (non-NJ); Fees $5,310; Total Per Year $31,266 / $42,534. ** Full-time = 9 credits. ... living off campus, the value for Housing & Food is $16,900 and Additional Indirect Cost is $8,100. The value for Books & Supplies is $1,700 for non-architecture students.",
+   "basis": "16900+8100+1700 = 26700 (off-campus graduate)",
+   "note": "COA tuition $37,224 = 18 credits x $2,068; fees $5,310 = 18 x $295. Health insurance not itemized for domestic students (international COA lumps it in 'Other Expenses' $9,978).",
+   "fees_included_in_tuition": false
+  },
+  "alt_programs": [
+   {
+    "name": "MS in Cybersecurity",
+    "url": "https://cs.njit.edu/ms-cybersecurity",
+    "note": "Separate CS-dept MS; not researched in detail."
+   }
+  ],
+  "research_fit_note": "One genuine crypto researcher: Varun Madathil (applied crypto protocols: OT, private signaling, FHE-based blockchain privacy; ASIACRYPT/ITC/CiC/CCS/USENIX), recruiting PhD students. No lattice/PQC theory or quantum-crypto faculty found in CS, ECE (63 profiles checked) or Math (110 profiles checked). Kurt Rohloff (lattice FHE, PALISADE/OpenFHE) is now 'Affiliated Faculty' in the Provost's office and not on the CS faculty roster. The MS allows up to 6 credits of CS 700B project + CS 701B thesis with a tenure-track CS advisor.",
+  "notes": "catalog.njit.edu was unreachable (connection refused/timeouts) on 2026-11-09; MS degree requirements come from the Wayback snapshot of the 2024-25 catalog (Dec 2024) and the admissions section from a Wayback snapshot of the 2026-27 catalog (Jul 2026). Letters conflict: university master's checklist says 'Letter of recommendation (optional for all Master's applicants...)', CS dept page says 'At least one letter of recommendation'. Shantanu Sharma (DB security; 'Basics of cybersecurity and cryptography' is a teaching interest only) and Fuad Hamidli (Senior University Lecturer, PhD in cryptography, finite-field/Boolean-function interests; non-tenure-track so not eligible as MS thesis advisor) excluded from professors. No official MS CS applicant/admit counts found (NJIT IRP pages checked had no graduate admit tables).",
+  "sources": [
+   "https://cs.njit.edu/faculty",
+   "https://people.njit.edu/profile/vrm8953",
+   "https://varunmadathil.com/",
+   "https://people.njit.edu/profile/crix",
+   "https://web.njit.edu/~crix/",
+   "https://people.njit.edu/profile/rohloff",
+   "https://web.njit.edu/~rohloff/",
+   "https://people.njit.edu/profile/ss797",
+   "https://people.njit.edu/profile/fh224",
+   "https://math.njit.edu/people",
+   "https://ece.njit.edu/our-people",
+   "https://sparql.dblp.org/sparql",
+   "https://cs.njit.edu/computer-science-ms",
+   "http://web.archive.org/web/20241213031521/https://catalog.njit.edu/graduate/computing-sciences/computer-science/ms/",
+   "http://web.archive.org/web/20260724213845/https://catalog.njit.edu/graduate/admissions-financial-support/admissions/",
+   "https://www.njit.edu/admissions/grad-dates-deadlines",
+   "https://www.njit.edu/admissions/masters-programs",
+   "https://www.njit.edu/admissions/graduate-faqs",
+   "https://www.njit.edu/boards/sites/njit.edu.boards/files/FY27%20Tuition%20Fee%20Room%20Board%20and%20Meal%20Plan%20Rates%20Resolution%206%25_Final.pdf",
+   "https://www.njit.edu/admissions/tuition-costs",
+   "https://go.grad.njit.edu/guide",
+   "https://cs.njit.edu/phd-computer-science",
+   "https://cs.njit.edu/admission-requirements-and-financial-support-phd-computer-science-program",
+   "https://cs.njit.edu/other-phd-program-options",
+   "https://github.com/emeryberger/CSrankings (gh-pages csrankings-*.csv)"
+  ],
+  "fit_profs": [
+   "Varun Madathil"
+  ],
+  "app_reqs": {
+   "ms": {
+    "fee_usd": 75,
+    "fee_url": "https://www.njit.edu/admissions/masters-programs",
+    "fee_quote": "$75 non-refundable application fee",
+    "fee_note": "University-wide master's checklist.",
+    "fee_waiver": "Graduate recruitment page: 'Waived application fee (use code: MAKE)' ... '*Does not apply to doctoral programs.' (expiry not stated)",
+    "fee_waiver_url": "https://go.grad.njit.edu/guide",
+    "letters": 1,
+    "letters_url": "https://cs.njit.edu/computer-science-ms",
+    "letters_quote": "At least one letter of recommendation",
+    "letters_note": "University master's page instead says 'Letter of recommendation (optional for all Master's applicants; required for Architecture and Urban Design applicants)'; go.grad.njit.edu also advertises 'Optional letters of recommendation'."
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_url": "https://cs.njit.edu/computer-science-ms",
+   "policy_quote": "GRE is not required",
+   "note": "University page https://www.njit.edu/admissions/masters-programs: 'Ying Wu College of Computing - GRE optional but strongly recommended for all MS applicants; GRE required for all PhD applicants'."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official MS CS applicant/admit statistics found on the school's pages (dept, graduate admissions, institutional research). See admit_signals for official structural evidence.",
+   "unofficial": {
+    "rate_pct": 100.0,
+    "year": "Fall 2022-Spring 2027 (GradCafe seasons)",
+    "source_url": "https://www.thegradcafe.com/survey/?institution=New+Jersey+Institute&program=Computer+Science&degree=Masters",
+    "context": "GradCafe 'Computer Science' Masters self-reports: 9 accepted / 0 rejected (n=9; waitlist/interview/other excluded), computed 2026-11-09. US-citizen subset 4/4. All seasons since ~2010: 20 accepted / 2 rejected. Tiny self-selected sample; directional only.",
+    "quote": null
+   }
+  },
+  "admit_signals": [
+   {
+    "kind": "rolling",
+    "quote": "NJIT employs rolling admissions, so your application will be evaluated once your application is complete.",
+    "url": "https://www.njit.edu/admissions/grad-dates-deadlines"
+   },
+   {
+    "kind": "late_deadline",
+    "quote": "Master's - Domestic ... FALL ... June 1 ... Applications submitted after the stated deadlines will be considered on a space-available basis.",
+    "url": "https://www.njit.edu/admissions/grad-dates-deadlines"
+   },
+   {
+    "kind": "late_deadline",
+    "quote": "Applications for fall (September) admission must be received by June 1; for spring (January) admission by November 1.",
+    "url": "http://web.archive.org/web/20260724213845/https://catalog.njit.edu/graduate/admissions-financial-support/admissions/"
+   },
+   {
+    "kind": "min_gpa",
+    "quote": "For students not eligible for direct admission, NJIT offers a Graduate Certificate in Computer Science, which provides a pathway to the MS program. Earning the certificate with a GPA of 3.0 or higher guarantees admission into the MS program.",
+    "url": "https://cs.njit.edu/computer-science-ms"
+   }
+  ],
+  "funding": {
+   "ms": {
+    "value": "Limited",
+    "also": [
+     "grader up to $9K/yr",
+     "campus jobs/RA after enrollment"
+    ],
+    "detail": "Auto-considered at admission; 'Well-performing students are often hired as graders, earning up to $9K annually. In 2023-2024, the CS department paid over $600K to MS graders.'",
+    "url": "https://cs.njit.edu/computer-science-ms",
+    "quote": "All applicants are automatically considered for financial support during admission, with no need for additional communication. However, guaranteed financial support for MS students is limited and typically reserved for doctoral candidates."
+   }
+  },
+  "phd_pathway": {
+   "value": null,
+   "url": "https://cs.njit.edu/admission-requirements-and-financial-support-phd-computer-science-program",
+   "quote": null,
+   "note": "No MS->PhD internal transfer route documented. PhD page: students entering 'with a recognized Master's degree in Computer Science' take 18 instead of 36 course credits. Separate PhD application (Dec 15 for funding consideration, GRE mandatory, 3 letters, $75). Graduate FAQ: program change requires 'completing one full year in their enrolled program'."
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "NJIT reviews master's applications on a rolling basis with a June 1 fall deadline (later applications considered on a space-available basis), and every GradCafe MS CS self-report from Fall 2022 to Spring 2027 was an acceptance (9/9; 20/22 all-time). No official admit rate is published.",
+   "admit_evidence_url": "https://www.njit.edu/admissions/grad-dates-deadlines"
+  },
+  "fit_score": 0
+ },
+ {
+  "school": "Worcester Polytechnic Institute",
+  "short": "WPI",
+  "csrankings_name": "Worcester Polytechnic Institute",
+  "city": "Worcester",
+  "state": "MA",
+  "region": "Boston",
+  "country": "US",
+  "n_professors": 6,
+  "professors": [
+   {
+    "name": "Berk Sunar",
+    "title": "Professor",
+    "department": "Electrical & Computer Engineering (affiliated: Cybersecurity)",
+    "homepage": "https://www.wpi.edu/people/faculty/sunar",
+    "personal_site": "https://sunar.org",
+    "dblp": "https://dblp.org/pid/91/465",
+    "topics": [
+     "lattices/PQ",
+     "FHE/HE",
+     "hardware/side-channel",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "PQC implementation attacks",
+     "Rowhammer/fault attacks",
+     "homomorphic encryption",
+     "AI security"
+    ],
+    "tag_evidence": {
+     "PQC implementation attacks": [
+      {
+       "y": 2024,
+       "t": "Analysis of EM Fault Injection on Bit-sliced Number Theoretic Transform Software in Dilithium."
+      },
+      {
+       "y": 2022,
+       "t": "Signature Correction Attack on Dilithium Signature Scheme."
+      }
+     ],
+     "Rowhammer/fault attacks": [
+      {
+       "y": 2023,
+       "t": "Jolt: Recovering TLS Signing Keys via Rowhammer Faults."
+      },
+      {
+       "y": 2025,
+       "t": "FAULT+PROBE: A Generic Rowhammer-based Bit Recovery Attack."
+      }
+     ],
+     "homomorphic encryption": [
+      {
+       "y": 2021,
+       "t": "Homomorphic Sorting With Better Scalability."
+      }
+     ],
+     "AI security": [
+      {
+       "y": 2025,
+       "t": "Non-Halting Queries: Exploiting Fixed Points in LLMs."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 4,
+    "papers_basis": "Distinct 2021-2026 peer-reviewed crypto items in dblp: Dilithium EMFI (TECS 2024), Jolt (S&P 2023), Dilithium Signature Correction (EuroS&P 2022), Homomorphic Sorting (TPDS 2021). Recent output is mostly microarchitectural/LLM security; no 2021-2026 CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/JoC/TCHES papers in dblp.",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified by hand",
+    "faculty_page_quote": "My research interests include applied cryptography and cybersecurity; ... Research Interests: Applied Cryptography, Network Security",
+    "taking_students": {
+     "status": "yes",
+     "quote": "Multiple fully funded Ph.D. positions are available. Contact us at vernam.labs@gmail.com.",
+     "url": "https://vernamlab.org/docs/join-us",
+     "checked": "2026-11-09"
+    },
+    "note": "Active at WPI (faculty page lists him as Professor, ECE; sunar.org: 'Professor of Electrical & Computer Engineering at Worcester Polytechnic Institute. Founder of the Vernam Lab' and lists 'Post-Quantum Cryptography' among current research interests). Taking-students quote is lab-level (Vernam Lab, PhD). ECE faculty; CS MS thesis advisor eligibility for non-CS faculty not stated in the catalog (see notes)."
+   },
+   {
+    "name": "Patrick Schaumont",
+    "title": "Professor",
+    "department": "Electrical & Computer Engineering",
+    "homepage": "https://www.wpi.edu/people/faculty/pschaumont",
+    "personal_site": "https://schaumont.wpi.edu/",
+    "dblp": "https://dblp.org/pid/39/1269",
+    "topics": [
+     "hardware/side-channel",
+     "lattices/PQ",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "side-channel leakage",
+     "fault injection",
+     "PQC implementation security"
+    ],
+    "tag_evidence": {
+     "side-channel leakage": [
+      {
+       "y": 2022,
+       "t": "SoC Root Canal! Root Cause Analysis of Power Side-Channel Leakage in System-on-Chip Designs."
+      },
+      {
+       "y": 2025,
+       "t": "Telescope: Top-Down Hierarchical Pre-silicon Side-channel Leakage Assessment in System-on-Chip Design."
+      }
+     ],
+     "fault injection": [
+      {
+       "y": 2023,
+       "t": "Quantitative Fault Injection Analysis."
+      },
+      {
+       "y": 2024,
+       "t": "FaultDetective Explainable to a Fault, from the Design Layout to the Software."
+      }
+     ],
+     "PQC implementation security": [
+      {
+       "y": 2024,
+       "t": "Analysis of EM Fault Injection on Bit-sliced Number Theoretic Transform Software in Dilithium."
+      },
+      {
+       "y": 2022,
+       "t": "Signature Correction Attack on Dilithium Signature Scheme."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "papers": 14,
+    "papers_basis": "Distinct 2021-2026 peer-reviewed dblp items on cryptographic implementation security (side-channel/fault/PQC), excluding CoRR/ePrint-only duplicates and editorials: FaultDetective (TCHES 2024), Dilithium EMFI (TECS 2024), Gate-Level Leakage Ranking (TETC 2024), ImpedanceVerif (TCHES 2023), Quantitative Fault Injection Analysis (ASIACRYPT 2023), Improving SCA Leakage Assessment (COSADE 2023), SoC Root Canal (TCHES 2022), Signature Correction Attack on Dilithium (EuroS&P 2022), SoK Side-Channel-Aware Implementations (AsiaCCS 2022), Custom Instruction Support (COSADE 2021), Augmenting Leakage Detection (COSADE 2021), SimpliFI (Cryptography 2021), Telescope (AsiaCCS 2025), SCAPEgoat (VTS 2025). Classification is by title, hand-judged.",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified by hand",
+    "faculty_page_quote": "I work on challenges in cryptographic engineering, and on making systems secure and tamper resistant.",
+    "taking_students": {
+     "status": "yes",
+     "quote": "Multiple fully funded Ph.D. positions are available. Contact us at vernam.labs@gmail.com.",
+     "url": "https://vernamlab.org/docs/join-us",
+     "checked": "2026-11-09"
+    },
+    "note": "Active at WPI (faculty page: Professor, ECE; Vernam Lab member list). Personal homepage schaumont.wpi.edu did not respond to fetch. Taking-students quote is lab-level (Vernam Lab, PhD). Work is cryptographic engineering, not theoretical crypto."
+   },
+   {
+    "name": "Fatemeh Ganji",
+    "title": "Associate Professor",
+    "department": "Electrical & Computer Engineering (affiliated: Cybersecurity)",
+    "homepage": "https://www.wpi.edu/people/faculty/fganji",
+    "dblp": "https://dblp.org/pid/137/6331",
+    "topics": [
+     "hardware/side-channel",
+     "MPC",
+     "lattices/PQ"
+    ],
+    "research_tags": [
+     "ML-assisted side-channel analysis",
+     "garbled circuits/MPC for hardware",
+     "post-quantum physical security"
+    ],
+    "tag_evidence": {
+     "ML-assisted side-channel analysis": [
+      {
+       "y": 2026,
+       "t": "Uncertainty Estimation in Neural Network-enabled Side-channel Analysis and Links to Explainability."
+      },
+      {
+       "y": 2024,
+       "t": "Bake It Till You Make It Heat-induced Power Leakage from Masked Neural Networks."
+      }
+     ],
+     "garbled circuits/MPC for hardware": [
+      {
+       "y": 2025,
+       "t": "Garblet: Multi-party Computation for Protecting Chiplet-based Systems."
+      },
+      {
+       "y": 2024,
+       "t": "Time Is Money, Friend! Timing Side-Channel Attack Against Garbled Circuit Constructions."
+      }
+     ],
+     "post-quantum physical security": [
+      {
+       "y": 2022,
+       "t": "Physical security in the post-quantum era."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "papers": 16,
+    "papers_basis": "Distinct 2021-2026 peer-reviewed dblp items on crypto/implementation security, excluding CoRR/ePrint-only duplicates: Uncertainty Estimation NN-SCA (TCHES 2026), Too Hot To Be True (CASCADE 2026), Swarm in EM Hay (WOOT 2026), Garblet (VTS 2025), GuardianMPC (IEEE Access 2025), SCAPEgoat (VTS 2025), 1/0 Shades of UC (TCHES 2024), Time Is Money (ACNS 2024), Bake It (TCHES 2024), FaultyGarble (FDTC 2024), Information Theory-based Evolution of NNs for SCA (TCHES 2023), HWGN2 (SPACE 2022), Garbled EDA (ICCAD 2022), Physical security in the post-quantum era (JCEN 2022), Rock'n'roll PUFs (JCEN 2021), Real-World Snapshots vs. Theory: t-Probing (S&P 2021). Hand-judged by title.",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified by hand",
+    "faculty_page_quote": "Fatemeh's research focuses on interdisciplinary approaches covering two main angles of hardware security, namely machine learning, and cryptography, for design and evaluation of security-critical hardware.",
+    "taking_students": {
+     "status": "yes",
+     "quote": "Multiple fully funded Ph.D. positions are available. Contact us at vernam.labs@gmail.com.",
+     "url": "https://vernamlab.org/docs/join-us",
+     "checked": "2026-11-09"
+    },
+    "note": "Active at WPI (faculty page title Associate Professor; 2026-27 catalog still says Assistant Professor: 'Security, machine learning, cryptography, privacy-preserving AI'). Taking-students quote is lab-level (Vernam Lab)."
+   },
+   {
+    "name": "Koksal Mus",
+    "title": "Assistant Professor of Teaching",
+    "department": "Electrical & Computer Engineering (affiliated: Computer Science Department)",
+    "homepage": "https://www.wpi.edu/people/faculty/kmus",
+    "dblp": "https://dblp.org/pid/191/5864",
+    "topics": [
+     "lattices/PQ",
+     "hardware/side-channel"
+    ],
+    "research_tags": [
+     "PQC fault attacks",
+     "Rowhammer key recovery"
+    ],
+    "tag_evidence": {
+     "PQC fault attacks": [
+      {
+       "y": 2022,
+       "t": "Signature Correction Attack on Dilithium Signature Scheme."
+      }
+     ],
+     "Rowhammer key recovery": [
+      {
+       "y": 2023,
+       "t": "Jolt: Recovering TLS Signing Keys via Rowhammer Faults."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 2,
+    "papers_basis": "dblp 2021-2026: Jolt (S&P 2023), Signature Correction Attack on Dilithium (EuroS&P 2022); the other 2 entries are CoRR/ePrint duplicates.",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified by hand",
+    "faculty_page_quote": "Koksal Mus' research and teaching interests focus on cybersecurity, cryptography, and computer engineering ... His research includes the standardization of quantum-computer-resistant security",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.wpi.edu/people/faculty/kmus",
+     "checked": "2026-11-09"
+    },
+    "note": "Active at WPI; teaching-track (catalog: 'K. Mus, Assistant Teaching Professor; Ph.D., Middle East Technical University, Turkey. Cybersecurity, post-quantum cryptography, fault attacks.'). Listed on Vernam Lab team page, but no statement that he supervises theses. Faculty page shows an affiliation with the CS Department."
+   },
+   {
+    "name": "William J. Martin",
+    "title": "Professor",
+    "department": "Mathematical Sciences (affiliated appointment: Computer Science)",
+    "homepage": "https://www.wpi.edu/people/faculty/martin",
+    "personal_site": "http://users.wpi.edu/~martin/",
+    "dblp": "https://dblp.org/pid/02/6754",
+    "topics": [
+     "FHE/HE"
+    ],
+    "research_tags": [
+     "quantum information",
+     "algebraic combinatorics"
+    ],
+    "tag_evidence": {
+     "quantum information": [
+      {
+       "y": 2024,
+       "t": "Quantum isomorphism of graphs from association schemes."
+      },
+      {
+       "y": 2023,
+       "t": "Continuous time quantum walks on graphs: Group state transfer."
+      }
+     ],
+     "algebraic combinatorics": [
+      {
+       "y": 2022,
+       "t": "Triple intersection numbers for the Paley graphs."
+      },
+      {
+       "y": 2026,
+       "t": "The Lie Algebra sl4(C) and the Hypercubes."
+      }
+     ]
+    },
+    "crypto_core": "math",
+    "papers": 0,
+    "papers_basis": "dblp lists 5 papers 2021-2026, none on cryptography. The FHE/HE topic comes from the faculty page (past work with Sunar), not recent papers.",
+    "source": "faculty page+dblp",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org, classified by hand",
+    "faculty_page_quote": "With Professor Berk Sunar and co-authors, Martin has investigated homomorphic encryption schemes, random number generators, and other ideas in cryptography.",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "http://users.wpi.edu/~martin/",
+     "checked": "2026-11-09"
+    },
+    "note": "Active at WPI (Professor, Math; personal page lists 'Affiliated Appointments: Computer Science, Bioinformatics and Computational Biology', last modified Aug 23 2024). Catalog listing is 'Algebraic combinatorics, applied combinatorics, quantum information theory'. Listed as a Vernam Lab professor in the catalog. Cryptography is historical, not current."
+   },
+   {
+    "name": "Michael Engling",
+    "title": "Associate Teaching Professor",
+    "department": "Computer Science",
+    "homepage": "https://www.wpi.edu/people/faculty/mengling",
+    "dblp": null,
+    "topics": [],
+    "research_tags": [],
+    "tag_evidence": {},
+    "crypto_core": null,
+    "papers": null,
+    "papers_basis": "No dblp author entry found (sparql.dblp.org name search).",
+    "source": "faculty page",
+    "faculty_page_quote": "My research interests include Computer Science Education, Security and Privacy, Cryptography, and Combinatorial Games.",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.wpi.edu/people/faculty/mengling",
+     "checked": "2026-11-09"
+    },
+    "note": "Teaching-track CS faculty; catalog lists 'Combinatorics, algorithmic complexity, formal languages'. No research publications found; unlikely thesis-supervision fit. Included only because the faculty page lists Cryptography."
+   }
+  ],
+  "program": {
+   "name": "MS in Computer Science (thesis or non-thesis)",
+   "url": "https://www.wpi.edu/academics/study/computer-science-ms",
+   "length": "30 credits; option choice is made 'typically in the second year of study' (catalog)",
+   "years": 2,
+   "years_note": "Catalog implies about 2 years (thesis/non-thesis choice 'typically in the second year'); graduate COA assumes 16 credits/year, so 30 credits is about 2 years.",
+   "thesis": "optional",
+   "thesis_quote": "The M.S. program in Computer Science requires 30 credit hours of work. Students may select a non-thesis option or a thesis-option, which requires a 9-credit thesis. ... A thesis consisting of a research or development project worth a minimum of 9 credit hours must be completed and presented to the faculty. ... Students funded by a teaching assistantship, research assistantship or fellowship must pursue the thesis option.",
+   "thesis_url": "https://wpi-grad.cleancatalog.net/sites/default/files/pdf/pdf_generator/graduate-catalog-202627.pdf",
+   "total_tuition_usd": 53250,
+   "tuition_basis": "2026-2027 graduate tuition $1,775 per credit x 30 credits = $53,250 (excludes Student Organization Fee $90/yr at 9+ credits and health insurance $2,945/yr).",
+   "tuition_url": "https://www.wpi.edu/offices/bursar/tuition",
+   "deadline_fall2027": null,
+   "deadline_iso": null,
+   "deadline_note": "Rolling admission. Requirements page: 'Rolling, but students seeking funding should apply by Jan 15 for fall and Oct 15 for spring.' No year printed; Jan 15 (presumably 2027 for Fall 2027) is only the funding-consideration date, so it is recorded as priority_iso.",
+   "deadline_url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+   "priority_iso": "2027-01-15",
+   "priority_note": "Funding-consideration date 'Jan 15 for fall'; year not printed (2027 inferred for Fall 2027).",
+   "gre": "Not required (graduate application requirements page, Computer Science MS row).",
+   "funding_note": "No MS-specific funding promise. Requirements page says applicants 'seeking funding should apply by Jan 15'; catalog says students on a TA, RA or fellowship must take the thesis option, which implies MS students can be funded."
+  },
+  "cost": {
+   "coa_year": "2026-27",
+   "months": 9,
+   "living_usd": 29932,
+   "fees_usd": 90,
+   "health_usd": 2945,
+   "url": "https://www.wpi.edu/admissions/tuition-aid/cost-attendance",
+   "quote": "2026-2027 Cost of Attendance for Graduate Students, Living off campus: TUITION* $28,400.00; HOUSING $10,660.00; FOOD $9,072.00; BOOKS, COURSE MATERIALS, SUPPLIES, AND EQUIPMENT $1,200.00; PERSONAL EXPENSES $9,000.00; TOTAL BUDGETED COSTS $58,332.00. *This estimated tuition is using general graduate tuition rates at $1,775 per credit and for a student enrolled in 16 credit hours (8 per semester). ... The cost of the health insurance plan is $2,945 for the 2026-2027 academic year.",
+   "basis": "10660+9072+1200+9000 = 29932",
+   "note": "fees_usd = Student Organization Fee $90/yr for 9+ credits/semester ($45/yr below 9), from the Bursar tuition page. Health insurance is required unless the student has their own coverage.",
+   "fees_included_in_tuition": false
+  },
+  "alt_programs": [
+   {
+    "name": "MS in Cyber Security (MS-SEC), CS-department program",
+    "url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+    "catalog_url": "https://wpi-grad.cleancatalog.net/sites/default/files/pdf/pdf_generator/graduate-catalog-202627.pdf",
+    "note": "Same admissions as CS MS (rolling, funding by Jan 15, $70, 3 letters, GRE not required). 30 credits, capstone or thesis; thesis may be 'CS 599 Master's Thesis' or 'ECE 599 Thesis', which suits ECE advisors (Sunar, Schaumont, Ganji). Depth courses include CS/ECE 578 Cryptography and Data Security and CS/ECE 673 Advanced Cryptography. Catalog faculty contacts include Ganji, Martin, Mus, Schaumont, Sunar, Tajik."
+   },
+   {
+    "name": "MS in Electrical & Computer Engineering",
+    "url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+    "note": "Home department of the Vernam Lab faculty. Requirements page: 'Rolling, but students seeking funding should apply by Jan 15 for fall and Oct 15 for spring.'"
+   },
+   {
+    "name": "MS in Computer Science, Specialization in Computer Security",
+    "url": "https://wpi-grad.cleancatalog.net/sites/default/files/pdf/pdf_generator/graduate-catalog-202627.pdf",
+    "note": "A transcript notation within the CS MS: 'Interested students should apply to the CS master's degree program.' Courses include CS/ECE 578 and CS/ECE 673 (Advanced Cryptography)."
+   }
+  ],
+  "research_fit_note": "Crypto at WPI centers on the ECE Vernam Lab (Sunar, Schaumont, Ganji, Tajik, Mus), which does cryptographic engineering: side-channel and fault attacks, PQC (Dilithium) implementation security, and HE in the past. No CS or Math faculty member publishes on theoretical, lattice-based, or quantum cryptography. Sunar lists 'Post-Quantum Cryptography' as a current interest. The CS MS has a 9-credit thesis option. The catalog does not say whether a non-CS (ECE) advisor can supervise a CS MS thesis; the MS in Cyber Security explicitly allows ECE 599, so it is the easier way to get a Vernam Lab advisor.",
+  "notes": "Tuition uses the 2026-27 rate of $1,775/credit (Bursar tuition page). The sponsored-programs page still shows $1,690/credit (effective July 1, 2025). Deadline is rolling, with no year printed. Shahin Tajik (ECE, Vernam Lab; side-channel/PUF/FPGA security, CHES PC) is excluded because his faculty page does not list cryptography as a research area. CS faculty pages for Jun Dai, Craig Shue, Robert Walls, Xiaoyan Sun, and Craig Wills cover security but not cryptography. All 107 CS/Math/ECE faculty pages linked from the department directories were scanned for 'cryptograph'. CS MS thesis-advisor eligibility for ECE/Math faculty is not stated: the catalog says only that the thesis 'must be completed and presented to the faculty' and that proposals are 'accepted by the department'. Cross-department courses: 'With the permission of the academic advisor, a student may take a total of at most six graduate credits from outside of Computer Science towards the M.S. degree.'",
+  "extra_checks": null,
+  "sources": [
+   "https://www.wpi.edu/academics/study/computer-science-ms",
+   "https://www.wpi.edu/admissions/graduate/application-requirements",
+   "https://wpi-grad.cleancatalog.net/sites/default/files/pdf/pdf_generator/graduate-catalog-202627.pdf",
+   "https://www.wpi.edu/offices/bursar/tuition",
+   "https://www.wpi.edu/admissions/tuition-aid/cost-attendance",
+   "https://www.wpi.edu/offices/vice-provost-research/sponsored-programs/resources/institutional-information-rates",
+   "https://www.wpi.edu/academics/departments/cybersecurity/faculty-staff",
+   "https://www.wpi.edu/academics/departments/computer-science/faculty-staff",
+   "https://www.wpi.edu/academics/departments/mathematical-sciences/faculty-staff",
+   "https://www.wpi.edu/academics/departments/electrical-computer-engineering/faculty-staff",
+   "https://www.wpi.edu/people/faculty/sunar",
+   "https://www.wpi.edu/people/faculty/pschaumont",
+   "https://www.wpi.edu/people/faculty/fganji",
+   "https://www.wpi.edu/people/faculty/kmus",
+   "https://www.wpi.edu/people/faculty/martin",
+   "https://www.wpi.edu/people/faculty/mengling",
+   "https://www.wpi.edu/people/faculty/stajik",
+   "https://sunar.org",
+   "http://users.wpi.edu/~martin/",
+   "https://vernamlab.org/",
+   "https://vernamlab.org/docs/join-us",
+   "https://vernamlab.org/docs/members",
+   "https://sparql.dblp.org/sparql",
+   "https://raw.githubusercontent.com/emeryberger/CSrankings/gh-pages/institutions.csv"
+  ],
+  "fit_profs": [
+   "Berk Sunar",
+   "Patrick Schaumont"
+  ],
+  "app_reqs": {
+   "ms": {
+    "fee_usd": 70,
+    "fee_url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+    "fee_quote": "Application fee of $70 Required (waived for online program)",
+    "fee_note": "Computer Science MS row on the graduate application requirements page. Other programs on the page (e.g. AI MS) say 'waived for WPI students and alumni'; the CS MS row does not.",
+    "fee_waiver": "Waived only for the online program (per CS MS row); no general waiver stated.",
+    "fee_waiver_url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+    "letters": 3,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+    "letters_quote": "Three letters of recommendation from individuals who can comment on your qualifications for pursuing graduate study are required. Please invite your recommenders to submit their letters electronically via the application.",
+    "letters_note": null
+   }
+  },
+  "gre_info": {
+   "policy_ms": "not required",
+   "policy_url": "https://www.wpi.edu/admissions/graduate/application-requirements",
+   "policy_quote": "GRE Not required",
+   "ms_avg": null,
+   "note": "Computer Science MS row. The catalog also says 'Students from other backgrounds ... can demonstrate their readiness through other means, such as the Computer Science GRE Subject exam.'"
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official MS CS applicant/admit statistics found on the school's pages (dept, graduate admissions, institutional research). See admit_signals for official structural evidence.",
+   "unofficial": {
+    "rate_pct": 100.0,
+    "year": "Fall 2022-Spring 2027 (GradCafe seasons)",
+    "source_url": "https://www.thegradcafe.com/survey/?institution=Worcester+Polytechnic&program=Computer+Science&degree=Masters",
+    "context": "GradCafe 'Computer Science' Masters self-reports: 7 accepted / 0 rejected (n=7; waitlist/interview/other excluded), computed 2026-11-09. US-citizen subset 1/1. All seasons since ~2010: 17 accepted / 3 rejected. Tiny self-selected sample; directional only.",
+    "quote": null
+   }
+  },
+  "admit_signals": [
+   {
+    "kind": "rolling",
+    "quote": "Application Submission Deadline: Rolling, but students seeking funding should apply by Jan 15 for fall and Oct 15 for spring.",
+    "url": "https://www.wpi.edu/admissions/graduate/application-requirements"
+   },
+   {
+    "kind": "min_gpa",
+    "quote": "Applicants must hold an accredited bachelor’s degree with a GPA of 3.0 or higher in computer science or a closely related field, with a background in both theoretical and applied computer science that includes significant programming experience and some college-level mathematics, with a grade of B or better.",
+    "url": "https://www.wpi.edu/admissions/graduate/application-requirements"
+   },
+   {
+    "kind": "late_deadline",
+    "quote": "All Credentials Deadline: We recommend completing your application within 30 days of submission.",
+    "url": "https://www.wpi.edu/admissions/graduate/application-requirements"
+   }
+  ],
+  "funding": {
+   "ms": {
+    "value": "Possible (not guaranteed)",
+    "also": [
+     "TA/RA/fellowship possible (thesis option required)"
+    ],
+    "detail": "There is no MS funding guarantee. The admissions page sets a funding-consideration date, and the catalog requires funded MS students to take the thesis option.",
+    "url": "https://wpi-grad.cleancatalog.net/sites/default/files/pdf/pdf_generator/graduate-catalog-202627.pdf",
+    "quote": "Students funded by a teaching assistantship, research assistantship or fellowship must pursue the thesis option.",
+    "admissions_quote": "Rolling, but students seeking funding should apply by Jan 15 for fall and Oct 15 for spring.",
+    "admissions_url": "https://www.wpi.edu/admissions/graduate/application-requirements"
+   }
+  },
+  "phd_pathway": {
+   "value": "partial",
+   "kind": "apply",
+   "url": "https://wpi-grad.cleancatalog.net/sites/default/files/pdf/pdf_generator/graduate-catalog-202627.pdf",
+   "quote": "A student may apply to the Ph.D. program upon completion of either a bachelor's (in which case the master's degree must first be completed as part of the Ph.D. studies) or master's degree in Computer Science, or with an equivalent background.",
+   "note": "There is no documented internal MS-to-PhD transfer, so MS students apply to the PhD. PhD-90 students 'must complete a CS MS degree as the first step towards the PhD'. MS holders enter PhD-60 (60 credits) if their master's is 'judged by the Department to be relevant'. The CS PhD also uses rolling admission, with a Jan 15 funding date."
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "WPI's MS CS admits on a rolling basis (no hard deadline; Jan 15 only for funding consideration) with a stated 3.0 minimum GPA that he clears, and every GradCafe MS CS self-report from Fall 2022 to Spring 2027 was an acceptance (7/7; 17/20 all-time). No official admit rate is published.",
+   "admit_evidence_url": "https://www.wpi.edu/admissions/graduate/application-requirements"
+  },
+  "fit_score": 0
+ },
+ {
+  "school": "Rochester Institute of Technology",
+  "short": "RIT",
+  "csrankings_name": "Rochester Inst. of Technology",
+  "city": "Rochester",
+  "state": "NY",
+  "region": "Northeast",
+  "country": "US",
+  "n_professors": 10,
+  "professors": [
+   {
+    "name": "Billy Bob Brumley",
+    "title": "Kevin O'Sullivan Professor (Kevin O'Sullivan Endowed Professor in Cybersecurity); Director of Research, GCI",
+    "department": "Department of Cybersecurity",
+    "homepage": "https://www.rit.edu/directory/bbbics-billy-brumley",
+    "dblp": "https://dblp.org/pid/25/1876",
+    "topics": [
+     "applied/systems crypto",
+     "lattices/PQ"
+    ],
+    "research_tags": [
+     "side-channel analysis",
+     "constant-time / microarchitectural leakage",
+     "ECC implementation attacks",
+     "PQ TLS engineering"
+    ],
+    "tag_evidence": {
+     "side-channel analysis": [
+      {
+       "y": 2025,
+       "t": "U Can Touch This! Microarchitectural Timing Attacks via Machine Clears."
+      },
+      {
+       "y": 2021,
+       "t": "Online Template Attacks: Revisited."
+      }
+     ],
+     "constant-time / microarchitectural leakage": [
+      {
+       "y": 2026,
+       "t": "SoK: The Constant Time Model."
+      }
+     ],
+     "ECC implementation attacks": [
+      {
+       "y": 2021,
+       "t": "A Formula for Disaster: A Unified Approach to Elliptic Curve Special-Point-Based Attacks."
+      }
+     ],
+     "PQ TLS engineering": [
+      {
+       "y": 2022,
+       "t": "OpenSSLNTRU: Faster post-quantum TLS key exchange."
+      }
+     ]
+    },
+    "crypto_core": "core",
+    "papers": 6,
+    "papers_note": "Distinct 2021-2026 crypto/side-channel titles from dblp (CoRR/ePrint duplicates removed): SoK: The Constant Time Model (WOOT 2026), U Can Touch This (SAC 2025), OpenSSLNTRU (USENIX Security 2022), A Formula for Disaster (ASIACRYPT 2021), Online Template Attacks: Revisited (TCHES 2021), SoK: Remote Power Analysis (ARES 2021). Core venue = ASIACRYPT 2021.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Areas of Expertise: System Security | Cryptography Engineering | Side-Channel Analysis",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Active (directory lists him teaching CSEC-522 Side Channel Analysis). Implementation/side-channel crypto, not theory; one lattice-adjacent engineering paper (NTRU in TLS). Listed on CSrankings under Rochester Inst. of Technology. Directory page has no recruiting statement."
+   },
+   {
+    "name": "Stanisław P. Radziszowski",
+    "title": "Professor, Computer Science",
+    "department": "Department of Computer Science",
+    "homepage": "https://www.rit.edu/directory/sprics-stanislaw-radziszowski",
+    "homepage_personal": "https://www.cs.rit.edu/~spr/",
+    "dblp": "https://dblp.org/pid/77/4036",
+    "topics": [
+     "lattices/PQ",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "PQC education",
+     "symmetric/authenticated encryption (MK-3)",
+     "functional encryption",
+     "Ramsey theory (non-crypto)"
+    ],
+    "tag_evidence": {
+     "PQC education": [
+      {
+       "y": 2026,
+       "t": "Modular Approach to Teaching Post-Quantum Cryptography."
+      },
+      {
+       "y": 2024,
+       "t": "Designing and Delivering a Post-Quantum Cryptography Course."
+      }
+     ],
+     "symmetric/authenticated encryption (MK-3)": [
+      {
+       "y": 2023,
+       "t": "Power Analysis Attacks on the Customizable MK-3 Authenticated Encryption Algorithm."
+      },
+      {
+       "y": 2022,
+       "t": "Statistical Analysis of the MK-3 Customizable Authenticated Encryption."
+      }
+     ],
+     "functional encryption": [
+      {
+       "y": 2021,
+       "t": "Solving the Cross Domain Problem with Functional Encryption."
+      }
+     ],
+     "Ramsey theory (non-crypto)": [
+      {
+       "y": 2025,
+       "t": "Some upper bounds on Ramsey numbers involving C4."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 8,
+    "papers_note": "2021-2026 dblp crypto titles: 3 SIGCSE PQC-education papers (2024-2026), MK-3 papers (MILCOM 2022, MIXDES 2023), Memory Protection with Dynamic Authentication Trees (MIXDES 2022), Functional Encryption (MILCOM 2021), MK-3 S-box obfuscation (MIXDES 2021). No IACR-core venues.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Areas of Expertise: Combinatorial computing | Ramsey theory | Applied cryptography",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Still active, NOT emeritus: directory title 'Professor, Computer Science'; personal page lists Fall 2026 teaching of CSCI-462 Introduction to Cryptography and CSCI-662 Foundations of Cryptography; co-teaches CSCI-764 Quantum-Resistant Cryptography (with Borrelli). Main research is Ramsey theory; crypto work is applied (with L3Harris/RIT Computer Engineering collaborators) plus PQC teaching. No recruiting statement found."
+   },
+   {
+    "name": "Peizhao Hu",
+    "title": "Associate Professor, Computer Science (per personal page)",
+    "department": "Department of Computer Science",
+    "homepage": "https://www.cs.rit.edu/~ph/",
+    "dblp": "https://dblp.org/pid/14/4214",
+    "topics": [
+     "FHE/HE",
+     "MPC",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "homomorphic encryption",
+     "multi-key HE",
+     "privacy-preserving ML"
+    ],
+    "tag_evidence": {
+     "homomorphic encryption": [
+      {
+       "y": 2025,
+       "t": "X-Cipher: Achieving Data Resiliency in Homomorphic Ciphertexts."
+      },
+      {
+       "y": 2023,
+       "t": "Privacy-preserving spam filtering using homomorphic and functional encryption."
+      }
+     ],
+     "multi-key HE": [
+      {
+       "y": 2022,
+       "t": "Computing Blindfolded on Data Homomorphically Encrypted under Multiple Keys: A Survey."
+      },
+      {
+       "y": 2021,
+       "t": "Blindfolded Evaluation of Random Forests with Multi-Key Homomorphic Encryption."
+      }
+     ],
+     "privacy-preserving ML": [
+      {
+       "y": 2022,
+       "t": "A Survey of Deep Learning Architectures for Privacy-Preserving Machine Learning With Fully Homomorphic Encryption."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 6,
+    "papers_note": "2021-2026 dblp HE titles: X-Cipher (ICICS 2025), spam filtering HE/FE (Comput. Commun. 2023), two surveys (ACM CSUR 2022, IEEE Access 2022), Blindfolded RF (TDSC 2021), geospatial homomorphic query (Comput. Secur. 2021). dblp pid 14/4214 also carries 2025-2026 LLM-privacy papers (ACL/EMNLP/NAACL) that may belong to a homonym.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Privacy-preserving cloud data analytics, specifically homomorphic encryption and multiparty computations",
+    "taking_students": {
+     "status": "unknown",
+     "quote": "Looking for motivated PhD students who have strong math and/or CS background.",
+     "url": "https://www.cs.rit.edu/~ph/",
+     "checked": "2026-11-09"
+    },
+    "note": "STATUS UNCLEAR: personal page says 'I am an associate professor in the Department of Computer Science at RIT' but looks stale (latest news item: 'Invited to serve as program vice chair for PerCom2022'); his official RIT directory profile (https://www.rit.edu/directory/hxpvcs-peizhao-hu) now 301-redirects to RIT Shibboleth login instead of a public page (Radziszowski's resolves publicly). Still listed on CSrankings and Google Scholar ('Associate Professor @ RIT'). Recruiting quote is undated. Verify by email before counting him."
+   },
+   {
+    "name": "Thomas J. Borrelli",
+    "title": "Principal Lecturer, Computer Science",
+    "department": "Department of Computer Science",
+    "homepage": "https://www.rit.edu/directory/tjbcis-thomas-borrelli",
+    "dblp": "https://dblp.org/pid/143/5689",
+    "topics": [
+     "lattices/PQ"
+    ],
+    "research_tags": [
+     "PQC education"
+    ],
+    "tag_evidence": {
+     "PQC education": [
+      {
+       "y": 2026,
+       "t": "Modular Approach to Teaching Post-Quantum Cryptography."
+      },
+      {
+       "y": 2025,
+       "t": "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 3,
+    "papers_note": "3 SIGCSE PQC-education papers 2024-2026; no research papers in crypto venues.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Areas of Expertise: ... Cryptography | Computer Science Education",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Teaching-track lecturer; co-developed the PQC course (CSCI-764 Quantum-Resistant Cryptography). Not a research advisor in the usual sense."
+   },
+   {
+    "name": "Yidan Hu",
+    "title": "Assistant Professor, Cybersecurity",
+    "department": "Department of Cybersecurity",
+    "homepage": "https://www.rit.edu/directory/yxhics-yidan-hu",
+    "dblp": "https://dblp.org/pid/176/3482",
+    "topics": [
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "authenticated outsourced queries",
+     "local differential privacy"
+    ],
+    "tag_evidence": {
+     "authenticated outsourced queries": [
+      {
+       "y": 2023,
+       "t": "Freshness Authentication for Outsourced Multi-Version Key-Value Stores."
+      },
+      {
+       "y": 2023,
+       "t": "Authenticating Outsourced Location-Based Skyline Queries under Shortest Path Distance."
+      }
+     ],
+     "local differential privacy": [
+      {
+       "y": 2026,
+       "t": "Frequency Estimation of Correlated Multi-attribute Data under Local Differential Privacy."
+      },
+      {
+       "y": 2025,
+       "t": "Optimal Piecewise-based Mechanism for Collecting Bounded Numerical Data under Local Differential Privacy."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": null,
+    "papers_note": "dblp pid 176/3482 appears to merge homonyms (e.g. painting-algorithm and biopharma papers), so no count given. Main line is privacy (LDP, PETS), not cryptography.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Areas of Expertise: Security and Privacy | Network and Distributed System Security | Data Privacy | Applied Cryptography | Adversarial Machine Learning",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Active (teaching CSEC-472). Privacy-focused; weak fit for theoretical crypto."
+   },
+   {
+    "name": "Ersin Uzun",
+    "title": "Professor; Katherine Johnson Executive Director",
+    "department": "Golisano College of Computing and Information Sciences (cybersecurity)",
+    "homepage": "https://www.rit.edu/directory/exugci-ersin-uzun",
+    "dblp": "https://dblp.org/pid/u/ErsinUzun",
+    "topics": [
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "usable security"
+    ],
+    "tag_evidence": {
+     "usable security": [
+      {
+       "y": 2026,
+       "t": "Beyond the Naked Eye: Empirical Study of How People Perceive, Detect, and Respond to AI-Manipulated Videos."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 0,
+    "papers_note": "No 2021-2026 crypto titles on dblp; recent work is deepfake/usable security.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Areas of Expertise: Usable Security and Privacy | Network and IoT Security | Privacy Enhancing Technologies | Applied Cryptography | Cybersecurity",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Lists 'Applied Cryptography' but no recent crypto output; administrative role. Not a crypto fit."
+   },
+   {
+    "name": "Sumita Mishra",
+    "title": "Professor, Cybersecurity; Graduate Program Director, Cybersecurity",
+    "department": "Department of Cybersecurity",
+    "homepage": "https://www.rit.edu/directory/sxm1145-sumita-mishra",
+    "dblp": "https://dblp.org/pid/78/6097",
+    "topics": [
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "PQC education",
+     "smart-grid privacy/integrity"
+    ],
+    "tag_evidence": {
+     "PQC education": [
+      {
+       "y": 2026,
+       "t": "Modular Approach to Teaching Post-Quantum Cryptography."
+      },
+      {
+       "y": 2025,
+       "t": "Towards a Quantum-Resistant Future: Experiences in Post-Quantum Cryptography Education."
+      }
+     ],
+     "smart-grid privacy/integrity": [
+      {
+       "y": 2024,
+       "t": "A Distributed Privacy-Preserving Framework With Integrity Verification Capabilities for Metering Data and Dynamic Billing in a Malicious Setting."
+      },
+      {
+       "y": 2023,
+       "t": "SM-DIV: A Smart Metering Distributed privacy framework with Integrity Verification."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "papers": 2,
+    "papers_note": "Only the 2 PQC-education papers are crypto-titled; smart-grid papers are privacy/integrity frameworks.",
+    "source": "faculty page+dblp",
+    "areas_quote": "Areas of Expertise: Applied Cryptography | Cybersecurity | Security and Privacy | Smartgrid Security | Network Security",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Active; Cybersecurity graduate program director. Applied, not theory."
+   },
+   {
+    "name": "Jonathan S. Weissman",
+    "title": "Principal Lecturer, Cybersecurity",
+    "department": "Department of Cybersecurity",
+    "homepage": "https://www.rit.edu/directory/jswics-jonathan-weissman",
+    "dblp": null,
+    "topics": [
+     "applied/systems crypto"
+    ],
+    "research_tags": [],
+    "tag_evidence": {},
+    "crypto_core": "security",
+    "papers": null,
+    "papers_note": "dblp 'Jonathan S. Weissman' (130/7302) is a different person (biology). No crypto papers found.",
+    "source": "faculty page",
+    "areas_quote": "Areas of Expertise: ... Cryptography | Operating System Design | ...",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Teaching-track lecturer; lists cryptography among many teaching areas. Not a research fit."
+   },
+   {
+    "name": "Anurag Agarwal",
+    "title": "Associate Professor, Applied Mathematics",
+    "department": "School of Mathematics and Statistics (College of Science)",
+    "homepage": "https://www.rit.edu/directory/axasma-anurag-agarwal",
+    "dblp": null,
+    "topics": [
+     "foundations"
+    ],
+    "research_tags": [
+     "number theory",
+     "math information retrieval"
+    ],
+    "tag_evidence": {},
+    "crypto_core": "math",
+    "papers": null,
+    "papers_note": "dblp 'Anurag Agarwal' (36/5094) merges several people; recent RIT-attributable work is math-aware search (ARQMath). No 2021-2026 crypto papers identified.",
+    "source": "faculty page",
+    "areas_quote": "Areas of Expertise: number theory | cryptography | algebra and mathematical information retrieval",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "Lists cryptography, but no recent crypto publications found."
+   },
+   {
+    "name": "Mary Lynn Reed",
+    "title": "Professor, Mathematics (appointed head of RIT's School of Mathematical Sciences per RIT News)",
+    "department": "School of Mathematical Sciences (College of Science)",
+    "homepage": "https://www.rit.edu/directory/mlrsma-mary-lynn-reed",
+    "dblp": null,
+    "topics": [
+     "foundations"
+    ],
+    "research_tags": [
+     "cryptanalysis (NSA background)"
+    ],
+    "tag_evidence": {},
+    "crypto_core": "math",
+    "papers": null,
+    "papers_note": "No dblp profile found.",
+    "source": "faculty page",
+    "areas_quote": "Areas of Expertise: Abstract Algebra | Network Science | Statistical Modeling | Cryptography | Mathematics of Communications Technology | Cybersecurity | Mathematical Modeling",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": null,
+     "checked": "2026-11-09"
+    },
+    "note": "19 years at NSA (chief of the Mathematics Research Group 2016-2019, per RIT News); directory bio cites the NSA Gold Bug Team Award for excellence in cryptanalysis. School head; no recent public crypto papers found. Math, not CS."
+   }
+  ],
+  "excluded_candidates": [
+   {
+    "name": "Monika Polak",
+    "reason": "Left RIT: current page shows 'Associate Professor of Computer Science (Instruction)' at the University of Rochester; bio says she was an RIT Lecturer 2017-2023, promoted to Senior Lecturer in 2023.",
+    "url": "https://anon.cs.rochester.edu/people/faculty/polak_monika/index.html"
+   },
+   {
+    "name": "Michael T. Kurdziel",
+    "reason": "Not RIT faculty: L3Harris principal fellow (Univ. at Buffalo advisory-board page); co-authors MK-3 cipher papers with Radziszowski/Lukowiak. No RIT faculty page found.",
+    "url": "https://engineering.buffalo.edu/computer-science-engineering/people/departmental-advisory-board/mike-kurdziel.html"
+   },
+   {
+    "name": "Marcin Lukowiak",
+    "reason": "Crypto-engineering co-author (MK-3, logic locking; dblp 52/1918) but in Computer Engineering (KGCOE), outside the CS/Cybersecurity/Math scope; faculty page not fetched.",
+    "url": "https://dblp.org/pid/52/1918"
+   },
+   {
+    "name": "Christopher Homan",
+    "reason": "Surfaced in a cryptography search, but his directory Areas of Expertise list AI/NLP/data science/theory, not cryptography.",
+    "url": "https://www.rit.edu/directory/cmhvcs-christopher-homan"
+   }
+  ],
+  "program": {
+   "name": "Computer Science MS (thesis or project option)",
+   "url": "https://www.rit.edu/study/computer-science-ms",
+   "length": "30 credit hours; length in semesters/years not stated on the program page (capstone project is completed in one semester, thesis 'typically completed over two semesters')",
+   "years": null,
+   "years_note": "Not stated officially; total tuition computed per credit so it does not depend on term count.",
+   "thesis": "optional",
+   "thesis_quote": "Students may choose to complete the program with either a thesis or a project and an additional elective course.",
+   "total_tuition_usd": 80700,
+   "tuition_basis": "2026-2027 graduate per-credit rate $2,690 x 30 required credit hours = $80,700 (applies when enrolled in fewer than 12 credits each semester, e.g. 3 semesters of 10 credits). Full-time flat rate for 12-18 credits is $32,271/semester ($64,542/yr); 2 flat-rate semesters ($64,542) would need 15 credits/term. Excludes fees ($235 activity + $315 health services per semester at 9+ credits) and any Master Up 30% scholarship.",
+   "tuition_url": "https://www.rit.edu/admissions/graduate/estimate-education-costs",
+   "tuition_url_2": "https://www.rit.edu/sfs/graduate-students",
+   "tuition_quote": "graduate tuition for the 2026-2027 school year is billed at $2,690 per credit hour when enrolled in fewer than 12 credits per semester ... at a fixed rate of $32,271 when enrolled for 12-18 credits per semester",
+   "deadline_fall2027": "2027-03-01",
+   "deadline_iso": "2027-03-01",
+   "priority_iso": "2027-01-15",
+   "deadline_note": "Program page On Campus table, Full-time Fall: 'January 15 priority deadline; March 1 standard deadline' (no year printed; taken as the Fall 2027 cycle). Spring starts are 'Rolling'. Online version lists the same Fall dates.",
+   "deadline_url": "https://www.rit.edu/study/computer-science-ms",
+   "gre": "optional: 'Entrance exam requirements: GRE optional'; FAQ: 'The GRE is optional but recommended for applicants to the computer science MS.'",
+   "funding_note": "No MS assistantships mentioned on the program page. RIT graduate funding page: automatic scholarship consideration on applying; Master Up = 30% tuition scholarship for a qualifying on-campus master's started by August 2027; assistantships 'competitive and selective, do not cover tuition costs'.",
+   "crypto_courses": "CSCI-462 Introduction to Cryptography and CSCI-662 Foundations of Cryptography (Radziszowski, Fall 2026, per his page); CSCI-764 Quantum-Resistant Cryptography (Radziszowski/Borrelli, Spring 2026); CSEC-522 Side Channel Analysis (Brumley). Program page: Theory specialization covers 'complexity theory to determine the inherent limits of computation, communication, and cryptography'; Security specialization 'spans topics from networking to cryptography to secure databases.'"
+  },
+  "cost": {
+   "coa_year": null,
+   "months": null,
+   "living_usd": 20386,
+   "fees_usd": 1100,
+   "health_usd": null,
+   "url": "https://www.rit.edu/admissions/graduate/estimate-education-costs",
+   "quote": "estimated living expenses (housing and meals): $17,370 per year; estimated transportation, books, supplies, and personal expenses: $3,016 per year; student activity fee ($235/semester); student health services fee ($315/semester)",
+   "basis": "17370+3016 = 20386 living; (235+315) x 2 semesters = 1100 fees",
+   "note": "Living/fee figures carry no academic-year label on the page (tuition on the same page is labeled 2026-2027). Health insurance premium not listed; domestic enrollment voluntary.",
+   "fees_included_in_tuition": false
+  },
+  "alt_programs": [
+   {
+    "name": "Cybersecurity MS (formerly Computing Security MS)",
+    "url": "https://www.rit.edu/study/cybersecurity-ms",
+    "credits": 30,
+    "thesis": "thesis option or capstone project",
+    "deadline": "Fall: January 15 priority; March 1 standard (no year); Spring rolling",
+    "letters": 1,
+    "gre": "GRE optional",
+    "crypto_content": "Program page lists no cryptography-specific courses or tracks; cryptography appears only as a department research area. Department faculty include Brumley (side-channel/crypto engineering, CSEC-522), Mishra, Yidan Hu, Uzun.",
+    "note": "On-campus only. Less crypto theory than the CS MS Theory/Security specializations."
+   }
+  ],
+  "research_fit_note": "RIT's crypto strength is implementation/applied: Billy Bob Brumley (side channels; ASIACRYPT 2021, OpenSSLNTRU) is the only IACR-core publisher. Radziszowski (active Professor, not emeritus) teaches Foundations of Cryptography and the PQC course but researches Ramsey theory; Peizhao Hu (homomorphic encryption) has an unclear current status. Nobody does lattice/PQ theory or quantum-crypto research; Monika Polak (PQC) left for the University of Rochester. The CS MS has a thesis option and Theory/Security specializations with real crypto coursework (CSCI-462/662/764), so it works as a coursework-value safety rather than an advisor match.",
+  "notes": "Tuition total uses the per-credit rate (<12 credits per term); 2026-27 rates from the RIT estimator and SFS graduate page. Program length in years not stated officially. CS dept annual reports for 2022+ were not found (2022-2025 guessed URLs returned HTML, not PDF). No application fee ('RIT does not charge an application fee for graduate programs'). Master Up 30% scholarship requires starting by August 2027 (Fall 2027 entry fits by date). Lukowiak (Computer Engineering, crypto hardware) excluded as outside dept scope.",
+  "sources": [
+   "https://www.rit.edu/study/computer-science-ms",
+   "https://www.rit.edu/admissions/graduate/application-instructions",
+   "https://www.rit.edu/admissions/graduate/estimate-education-costs",
+   "https://www.rit.edu/sfs/graduate-students",
+   "https://www.rit.edu/admissions/financial-aid/graduate-funding-sources",
+   "https://www.rit.edu/study/cybersecurity-ms",
+   "https://www.rit.edu/study/computing-and-information-sciences-phd",
+   "https://www.rit.edu/computing/sites/rit.edu.computing/files/docs/CS/Annual%20Report%202021.pdf",
+   "https://www.cs.rit.edu/~spr/",
+   "https://www.cs.rit.edu/~ph/",
+   "https://www.rit.edu/directory/bbbics-billy-brumley",
+   "https://www.rit.edu/directory/sprics-stanislaw-radziszowski",
+   "https://www.rit.edu/directory/tjbcis-thomas-borrelli",
+   "https://www.rit.edu/directory/yxhics-yidan-hu",
+   "https://www.rit.edu/directory/exugci-ersin-uzun",
+   "https://www.rit.edu/directory/sxm1145-sumita-mishra",
+   "https://www.rit.edu/directory/jswics-jonathan-weissman",
+   "https://www.rit.edu/directory/axasma-anurag-agarwal",
+   "https://www.rit.edu/directory/mlrsma-mary-lynn-reed",
+   "https://www.rit.edu/directory/cmhvcs-christopher-homan",
+   "https://anon.cs.rochester.edu/people/faculty/polak_monika/index.html",
+   "https://scholar.google.com/citations?user=w4PoXGMAAAAJ&hl=en",
+   "https://raw.githubusercontent.com/emeryberger/CSrankings/gh-pages/institutions.csv",
+   "https://sparql.dblp.org/sparql"
+  ],
+  "fit_profs": [
+   "Billy Bob Brumley",
+   "Stanisław P. Radziszowski",
+   "Peizhao Hu"
+  ],
+  "app_reqs": {
+   "ms": {
+    "fee_usd": 0,
+    "fee_url": "https://www.rit.edu/admissions/graduate/application-instructions",
+    "fee_quote": "RIT does not charge an application fee for graduate programs.",
+    "fee_note": "No fee, so a waiver is moot.",
+    "fee_waiver": "n/a (no fee)",
+    "fee_waiver_url": null,
+    "letters": 2,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://www.rit.edu/study/computer-science-ms",
+    "letters_quote": "Submit two letters of recommendation",
+    "letters_note": "University-wide page: 'One or more letters of recommendation are required'."
+   }
+  },
+  "gre_info": {
+   "policy_ms": "optional",
+   "policy_url": "https://www.rit.edu/study/computer-science-ms",
+   "policy_quote": "The GRE is optional but recommended for applicants to the computer science MS.",
+   "ms_avg": null,
+   "note": "Admission requirements line: 'Entrance exam requirements: GRE optional'."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official MS CS applicant/admit statistics found on the school's pages (dept, graduate admissions, institutional research). See admit_signals for official structural evidence.",
+   "unofficial": {
+    "rate_pct": 100.0,
+    "year": "Fall 2022-Spring 2027 (GradCafe seasons)",
+    "source_url": "https://www.thegradcafe.com/survey/?institution=Rochester+Institute&program=Computer+Science&degree=Masters",
+    "context": "GradCafe 'Computer Science' Masters self-reports: 8 accepted / 0 rejected (n=8; waitlist/interview/other excluded), computed 2026-11-09. US-citizen subset 2/2. All seasons since ~2010: 35 accepted / 1 rejected. Tiny self-selected sample; directional only.",
+    "quote": null
+   }
+  },
+  "admit_signals": [
+   {
+    "kind": "min_gpa",
+    "quote": "A minimum cumulative GPA of 3.0 (or equivalent) is recommended.",
+    "url": "https://www.rit.edu/study/computer-science-ms"
+   },
+   {
+    "kind": "rolling",
+    "quote": "Spring: Rolling (all four spring entries: full-/part-time, on-campus/online)",
+    "url": "https://www.rit.edu/study/computer-science-ms",
+    "note": "Paraphrase of the admissions table; spring entry only. Fall has Jan 15 priority / Mar 1 standard."
+   },
+   {
+    "kind": "late_deadline",
+    "quote": "January 15 priority deadline; March 1 standard deadline",
+    "url": "https://www.rit.edu/study/computer-science-ms"
+   },
+   {
+    "kind": "official_counts",
+    "quote": "The MS in Computer Science is by far the most successful graduate program at RIT, attracting 800-1000 applications each year - this is nearly 18% of all applications to graduate programs at RIT. The MS graduation rate is more than 98% with 150-200 graduations each year.",
+    "url": "https://www.rit.edu/computing/sites/rit.edu.computing/files/docs/CS/Annual%20Report%202021.pdf",
+    "note": "CS Dept Annual Report 2021; applications only, no admit count; same report lists 'MS students 374'. No 2022+ report located."
+   }
+  ],
+  "funding": {
+   "ms": {
+    "value": "Scholarship (30% Master Up); assistantships competitive, no tuition",
+    "also": [
+     "automatic merit scholarship consideration"
+    ],
+    "detail": "Master Up: 'A 30% Graduate tuition scholarship', 'Eligible if you are admitted to a qualifying on-campus master's degree at RIT', 'Available for students who begin their master's degrees by August 2027'. 'Scholarships cannot be combined.' 'You are considered for RIT graduate scholarships just by applying for admission.'",
+    "url": "https://www.rit.edu/admissions/financial-aid/graduate-funding-sources",
+    "quote": "Assistantships are competitive and selective, do not cover tuition costs"
+   }
+  },
+  "phd_pathway": {
+   "value": null,
+   "url": "https://www.rit.edu/study/computing-and-information-sciences-phd",
+   "quote": null,
+   "note": "The Computing and Information Sciences PhD page states no MS-to-PhD route or credit transfer from the RIT MS; it only requires a bachelor's. PhD: 'Ph.D. students typically receive full tuition and an RIT Graduate Assistantship'; Fall deadline 'December 31 standard deadline'."
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "RIT charges no application fee, recommends a 3.0 minimum GPA that he clears, and every GradCafe MS CS self-report from Fall 2022 to Spring 2027 was an acceptance (8/8; 35/36 decided all-time); the CS dept's 2021 annual report cites 800-1000 MS applications/year against 374 enrolled MS students but gives no admit count.",
+   "admit_evidence_url": "https://www.rit.edu/study/computer-science-ms"
+  },
+  "fit_score": 0
+ },
+ {
+  "school": "University of Maryland, Baltimore County",
+  "short": "UMBC",
+  "csrankings_name": "Univ. of Maryland - Baltimore County",
+  "city": "Baltimore",
+  "state": "MD",
+  "region": "DC/MD/VA",
+  "country": "US",
+  "n_professors": 2,
+  "professors": [
+   {
+    "name": "Alan T. Sherman",
+    "title": "Professor of Computer Science",
+    "department": "CSEE",
+    "homepage": "https://www.csee.umbc.edu/people/tenure-track-faculty/alan-t-sherman/",
+    "dblp": "https://dblp.org/pid/84/927",
+    "papers": 12,
+    "papers_basis": "distinct 2021-2026 dblp titles on crypto/protocol security (voting, OT/anonymity, channel binding, SecureDNA, C2PA); duplicates across ePrint/CoRR/venue merged; cybersecurity-education papers (CyberGuardian, concept inventories) excluded",
+    "topics": [
+     "voting/protocols",
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "e-voting/coercion resistance",
+     "formal-methods protocol analysis",
+     "applied crypto system analysis",
+     "oblivious transfer/anonymity"
+    ],
+    "tag_evidence": {
+     "e-voting/coercion resistance": [
+      {
+       "y": 2026,
+       "t": "Revisiting Silent Coercion."
+      },
+      {
+       "y": 2024,
+       "t": "Votexx: Extreme Coercion Resistance."
+      }
+     ],
+     "formal-methods protocol analysis": [
+      {
+       "y": 2026,
+       "t": "Cryptographic Binding Should Not Be Optional: A Formal-Methods Analysis of FIDO UAF Channel Binding."
+      },
+      {
+       "y": 2025,
+       "t": "Limitations of Wrapping Protocols and TLS Channel Bindings: Formal-Methods Analysis of the Session Binding Proxy Protocol."
+      }
+     ],
+     "applied crypto system analysis": [
+      {
+       "y": 2026,
+       "t": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System."
+      },
+      {
+       "y": 2026,
+       "t": "Verifying Provenance of Digital Media: Security Analysis of C2PA and its Implementation."
+      }
+     ],
+     "oblivious transfer/anonymity": [
+      {
+       "y": 2021,
+       "t": "AOT: Anonymization by Oblivious Transfer."
+      },
+      {
+       "y": 2024,
+       "t": "BVOT: self-tallying boardroom voting with oblivious transfer."
+      }
+     ]
+    },
+    "crypto_core": "security",
+    "crypto_core_note": "2021-2026 venues: NDSS, SSR, E-VOTE-ID, Cryptologia, IACR ePrint, SIGCSE/ITiCSE/FIE; no CRYPTO/EUROCRYPT/ASIACRYPT/TCC/PKC/JoC papers in dblp 2021-2026.",
+    "tags_source": "dblp titles 2021-2026 via sparql.dblp.org",
+    "faculty_page_quote": "Dr. Sherman’s research focuses on Cybersecurity, security of voting systems, formal methods analysis of cryptographic protocols, cybersecurity education, cryptology, discrete algorithms.",
+    "source": "faculty page+dblp",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.csee.umbc.edu/~sherman/",
+     "checked": "2026-11-09"
+    },
+    "note": "Active: listed on CSEE tenure-track faculty page; 6 dblp entries in 2026 (incl. NDSS 2026). Director of the Cyber Defense Lab and Program Director of UMBC CyberCorps SFS (cybersecurity.umbc.edu team page). Personal homepage last modified 2008, no recruiting statement. PhD MIT 1987 under Rivest. Applied/protocol crypto and e-voting, not lattices/PQC or quantum crypto."
+   },
+   {
+    "name": "Deepinder Sidhu",
+    "title": "Professor",
+    "department": "CSEE",
+    "homepage": "https://www.csee.umbc.edu/people/tenure-track-faculty/deepinder-sidhu/",
+    "dblp": "https://dblp.org/pid/54/2949",
+    "papers": 0,
+    "papers_basis": "dblp pid 54/2949 ('Deepinder P. Sidhu') has no 2021-2026 entries; pid 412/0190 ('Deepinder Sidhu') is a different person (cannabis hyperspectral-imaging paper).",
+    "topics": [
+     "applied/systems crypto"
+    ],
+    "research_tags": [
+     "post-quantum protocol deployment evaluation",
+     "quantum metrology",
+     "AI assurance"
+    ],
+    "tag_evidence": {},
+    "crypto_core": "security",
+    "faculty_page_quote": "In cybersecurity and post-quantum cryptography, his work demonstrated operational evaluation of quantum-resistant communication protocols across large-scale emulated Internet environments, bridging the gap between theoretical security and deployable resilient infrastructure.",
+    "source": "faculty page+dblp",
+    "taking_students": {
+     "status": "unknown",
+     "quote": null,
+     "url": "https://www.csee.umbc.edu/people/tenure-track-faculty/deepinder-sidhu/",
+     "checked": "2026-11-09"
+    },
+    "note": "Listed on CSEE tenure-track faculty page (title 'Professor'); PhD 1973 (theoretical physics) per faculty page, so very senior. PQC work is systems-level deployment evaluation, not lattice theory; no recent dblp-indexed papers. Activity level and student intake unconfirmed."
+   }
+  ],
+  "program": {
+   "name": "MS in Computer Science (thesis or non-thesis)",
+   "url": "https://umbc.edu/academics/programs/graduate/computer-science-electrical-engineering/computer-science-masters/",
+   "length": "30 credits (thesis: 24 course credits + 6 credits CMSC 799) or 33 credits (non-thesis, 11 courses); 5-year time limit",
+   "years": null,
+   "years_note": "No official program length in years found; tuition computed per credit.",
+   "thesis": "optional",
+   "thesis_quote": "For the M.S. degree in computer science, the student must earn a minimum of thirty (30) credit hours with the thesis option, or thirty-three (33) credit hours with the non-thesis option.",
+   "total_tuition_usd": 42150,
+   "total_tuition_resident_usd": 24540,
+   "total_tuition_nonthesis_usd": 46365,
+   "tuition_basis": "Fall 2026/Spring 2027 graduate non-resident tuition $1,405/credit x 30 credits (thesis) = $42,150; resident $818 x 30 = $24,540. Non-thesis 33 credits: $46,365 non-resident / $26,994 resident. Mandatory fees extra: $190/credit (tuition+fees $1,595/credit non-resident, $1,008 resident), i.e. +$5,700 for 30 credits. Page says rates are 'the proposed tuition and fees at the time of publication'.",
+   "tuition_url": "https://sbs.umbc.edu/fall-2026-spring-2027-graduate/",
+   "deadline_fall2027": "2027-06-01",
+   "deadline_iso": "2027-06-01",
+   "priority_iso": "2027-01-20",
+   "deadline_note": "No year printed on dept admission page or Graduate School program page: 'Domestic applicants (U.S. citizens and permanent residents) not seeking financial support: Fall semester – June 1'; 'Domestic students seeking departmental financial support, and all international students: Fall semester – January 20'. CMSC GRE waiver request deadline for Fall: March 1. 'The application review process will begin by February 1 for admission to the fall semester' and 'Favorable consideration will be given to applications received early in each review cycle.'",
+   "deadline_url": "https://www.csee.umbc.edu/admission/",
+   "gre": "Required, with waiver option for MS applicants with a US BS cumulative GPA >= 3.5 not requesting departmental aid (applicant's 3.43 does NOT meet the 3.5 waiver criterion). GRE required for anyone seeking financial support. Program page: 'the GRE is waived for all applications for the Fall 2026 semester' (no Fall 2027 statement found).",
+   "funding_note": "Handbook: MS students without support are welcome but 'opportunities for newly-arrived students in this category are limited. We therefore recommend that MS students plan to support themselves during at least their first year of study.' RAs 'normally not available to incoming M.S. students'. US-citizen route: CyberCorps SFS (full tuition + mandatory fees + $37,000/yr grad stipend, service commitment, clearance): 'Accepting applications for Fall 2027 . Deadline November 15, 2026.'"
+  },
+  "cost": {
+   "coa_year": "2026-27 (page title; table column labeled 2025-2026)",
+   "months": null,
+   "living_usd": 33036,
+   "fees_usd": null,
+   "health_usd": null,
+   "url": "https://financialaid.umbc.edu/2026-2027-graduate-cost-of-attendance/",
+   "quote": "2025-2026 In-State Per Year Out-of-State Per Year Tuition/Fees $18,135 $28,701 Housing/Utilities $16,242 $16,242 Food $5,100 $5,100 Books $800 $800 Transportation $3,348 $3,348 Other $7,546 $7,546 Direct Loan Fee $176 $176 PLUS Loan Fee $830 $830 Total: $52,177 $62,743",
+   "basis": "16242+5100+800+3348+7546 = 33036 (excludes loan fees)",
+   "note": "Page is titled '2026-2027 Graduate Cost of Attendance' but its table header reads 2025-2026; months not stated ('based on full time enrollment (9+ credits)'). Mandatory fees are $190/credit per SBS 2026-27 graduate rates (inside the COA 'Tuition/Fees' line). Health insurance not listed.",
+   "fees_included_in_tuition": false
+  },
+  "alt_programs": [
+   {
+    "name": "CyberCorps Scholarship for Service (funding route for MS CS)",
+    "url": "https://cybersecurity.umbc.edu/scholarship-for-service-sfs/",
+    "note": "'Accepting applications for Fall 2027 . Deadline November 15, 2026.' Eligible programs 'typically CS, CE, IS, or Cyber' at BS/MS/PhD; minimum 3.0 GPA; US citizen preferred; clearance + post-graduation government service; new NSF requirement of four AI courses. Program Director: Alan T. Sherman."
+   }
+  ],
+  "research_fit_note": "Weak fit for lattices/PQC/quantum-crypto theory: the only CSEE faculty whose pages list cryptography are Alan Sherman (applied/protocol crypto, e-voting, formal-methods protocol analysis; active, publishes at NDSS/SSR/E-VOTE-ID, not IACR flagship venues) and Deepinder Sidhu (systems-level PQC deployment evaluation; no recent dblp papers). Samuel Lomonaco (quantum computation; historically quantum cryptography) is on the faculty list but his page does not list cryptography. Math/Stat has no crypto faculty (Mohammad Mohammadisiahroudi lists quantum computing/optimization). Thesis option (6 credits CMSC 799) gives a research entry point.",
+  "notes": "Fall 2027 deadlines shown without year. Letters conflict: CSEE admission page says 'two letters of recommendation for MS' while the 2026-05-22 Graduate Handbook says 'three letters of recommendation'. Free Graduate Application Week Nov 29-Dec 6, 2026 waives the $75 fee. GRE waiver requires BS GPA >= 3.5 (applicant 3.43), so plan on the GRE unless the Fall 2026 blanket waiver is repeated. Naghmeh Karimi (hardware security) and Lomonaco not counted because their faculty pages do not list cryptography. Tuition excludes $190/credit mandatory fees.",
+  "extra_checks": null,
+  "sources": [
+   "https://www.csee.umbc.edu/admission/",
+   "https://www.csee.umbc.edu/wp-content/uploads/sites/659/2026/05/2026-05-22-Graduate_Student_Handbook.pdf",
+   "https://umbc.edu/academics/programs/graduate/computer-science-electrical-engineering/computer-science-masters/",
+   "https://sbs.umbc.edu/fall-2026-spring-2027-graduate/",
+   "https://sbs.umbc.edu/2026-2027-tuition-and-fees/",
+   "https://umbc.edu/admissions/graduate/admissions-requirements/",
+   "https://umbc.edu/admissions/graduate/apply-to-graduate-school-for-free/",
+   "https://financialaid.umbc.edu/2026-2027-graduate-cost-of-attendance/",
+   "https://cybersecurity.umbc.edu/scholarship-for-service-sfs/",
+   "https://cybersecurity.umbc.edu/scholarship-for-service-sfs/team-and-scholars",
+   "https://www.csee.umbc.edu/people/tenure-track-faculty/",
+   "https://www.csee.umbc.edu/people/tenure-track-faculty/alan-t-sherman/",
+   "https://www.csee.umbc.edu/people/tenure-track-faculty/deepinder-sidhu/",
+   "https://www.csee.umbc.edu/people/tenure-track-faculty/samuel-lomonaco/",
+   "https://www.csee.umbc.edu/~sherman/",
+   "https://mathstat.umbc.edu/people/faculty/",
+   "https://sparql.dblp.org/sparql",
+   "https://raw.githubusercontent.com/emeryberger/CSrankings/gh-pages/institutions.csv"
+  ],
+  "fit_profs": [
+   "Alan T. Sherman"
+  ],
+  "app_reqs": {
+   "ms": {
+    "fee_usd": 75,
+    "fee_url": "https://umbc.edu/admissions/graduate/admissions-requirements/",
+    "fee_quote": "An application fee of $75 is required for online submissions.",
+    "fee_note": "UMBC Graduate School fee; dept handbook says waiver requests go to the Graduate School and 'are granted only rarely'.",
+    "fee_waiver": "'During the week of November 29, 2026 UMBC is waiving the $75 application fee for Graduate master’s and doctoral programs. Free Graduate Application Week is open to all domestic and international graduate degree seeking applicants and will end on December 6.' Grad School: 'can no longer provide fee waivers based on financial hardship.'",
+    "fee_waiver_url": "https://umbc.edu/admissions/graduate/apply-to-graduate-school-for-free/",
+    "letters": 2,
+    "letters_min": null,
+    "letters_max": null,
+    "letters_url": "https://www.csee.umbc.edu/admission/",
+    "letters_quote": "Applicants must submit official transcripts, two letters of recommendation for MS, three letters of recommendation for PhD, statement of purpose, Graduate Record Examination (GRE General Test) scores, and, for foreign students, scores for the TOEFL.",
+    "letters_note": "Conflict: 2026-05-22 CS Graduate Handbook says 'Applicants must submit transcripts, three letters of recommendation, statement of purpose, ...' (not split by MS/PhD). Handbook also: 'we can accept letters from any person qualified to attest to your ability.'"
+   }
+  },
+  "gre_info": {
+   "policy_ms": "required (waiver possible)",
+   "policy_url": "https://www.csee.umbc.edu/admission/",
+   "policy_quote": "You may submit a CMSC GRE Waiver Request if you are a MS applicant, and you have, or about to receive a BS degree with a cumulative GPA of 3.5 or higher from an accredited US institution. ... THE GRE IS REQUIRED FOR INTERNATIONAL APPLICANTS, AS WELL AS THOSE SEEKING FINANCIAL SUPPORT.",
+   "ms_avg": null,
+   "note": "Handbook: 'We have no set lower bounds, but most successful applicants score in the 70th percentile or higher on the quantitative exam, and in the 50th percentile or higher on either the verbal or analytical writing exams.' GRE scores accepted only if not more than five years old. Program page: 'the GRE is waived for all applications for the Fall 2026 semester.' Applicant's 3.43 GPA is below the 3.5 waiver threshold."
+  },
+  "ms_admit": {
+   "rate_pct": null,
+   "scope": null,
+   "year": null,
+   "applicants": null,
+   "admits": null,
+   "url": null,
+   "quote": null,
+   "note": "No official MS CS applicant/admit statistics found on the school's pages (dept, graduate admissions, institutional research). See admit_signals for official structural evidence. GradCafe survey queries for UMBC (several name variants) returned an error/empty page on 2026-11-09; no unofficial figure recorded.",
+   "unofficial": null
+  },
+  "admit_signals": [
+   {
+    "kind": "late_deadline",
+    "quote": "Domestic applicants (U.S. citizens and permanent residents) not seeking financial support: Fall semester – June 1 Spring semester – November 1 of the prior calendar year",
+    "url": "https://www.csee.umbc.edu/admission/"
+   },
+   {
+    "kind": "rolling",
+    "quote": "The application review process will begin by February 1 for admission to the fall semester and by October 1 for admission to the following spring semester. Favorable consideration will be given to applications received early in each review cycle.",
+    "url": "https://www.csee.umbc.edu/admission/"
+   },
+   {
+    "kind": "min_gpa",
+    "quote": "The Graduate School recommends applicants have at least a 3.0 GPA or “B” average when applying.",
+    "url": "https://umbc.edu/admissions/graduate/admissions-requirements/"
+   }
+  ],
+  "funding": {
+   "ms": {
+    "value": "Limited (self-support expected); SFS for US citizens",
+    "also": [
+     "CyberCorps SFS: full tuition+fees + $37,000/yr grad stipend (service obligation)"
+    ],
+    "detail": "RAs 'normally not available to incoming M.S. students'; TA preference to first-year PhD applicants. SFS Fall 2027 deadline Nov 15, 2026.",
+    "url": "https://www.csee.umbc.edu/wp-content/uploads/sites/659/2026/05/2026-05-22-Graduate_Student_Handbook.pdf",
+    "quote": "Students who are offered admission without financial support are welcome to enter our M.S. program, but opportunities for newly-arrived students in this category are limited. We therefore recommend that MS students plan to support themselves during at least their first year of study."
+   }
+  },
+  "phd_pathway": {
+   "value": "yes (internal transfer, not guaranteed)",
+   "kind": "MS->PhD plan change",
+   "url": "https://www.csee.umbc.edu/wp-content/uploads/sites/659/2026/05/2026-05-22-Graduate_Student_Handbook.pdf",
+   "quote": "Current CS Master's students interested in joining the PhD program must demonstrate success at UMBC and success as an early researcher. This non-exhaustively includes: A minimum of two completed semesters at UMBC with strong academic performance; An identified CSEE faculty member who has agreed to be your advisor, and who will advocate strongly for acceptance into the program; A demonstration of significant research activity and capability.",
+   "note": "Handbook: 'Permission to change plans is not guaranteed!' and PhD students who transfer from the M.S. program can count two 799s toward the required 10 courses. Admission page advises PhD-intending applicants without research experience or an MS to apply to the MS."
+  },
+  "safety": {
+   "added": "2026-11-09",
+   "why": "UMBC accepts domestic MS CS applications until June 1 (review starts Feb 1) with a 3.0 recommended minimum GPA that he clears; no official admit rate is published and GradCafe returned no usable UMBC results, so the likely-admit call rests on these structural signals only. Crypto fit is weak (applied/voting crypto).",
+   "admit_evidence_url": "https://www.csee.umbc.edu/admission/"
+  },
+  "fit_score": 0
  }
 ]

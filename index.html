@@ -9,8 +9,8 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="Crypto Grad Paths">
 <style>
-:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#5f5f66;--line:#e3e3e0;--accent:#2a52d6;--on-accent:#fff;--good:#17703d;--warn:#8a5000;--bad:#a8302a;--chip:#eef1fb;--past:#f0f0ee;--hover:#f3f5fd;--mark:#fff3c4;--shadow:0 6px 24px rgba(0,0,0,.12)}
-@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#a3a3ab;--line:#34343a;--accent:#8fa8ff;--on-accent:#0d1020;--chip:#262b3d;--good:#5fd08f;--warn:#f0b354;--bad:#ff8a7a;--past:#19191b;--hover:#23262f;--mark:#3a3420;--shadow:0 6px 24px rgba(0,0,0,.5)}}
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#5f5f66;--line:#e3e3e0;--accent:#2a52d6;--on-accent:#fff;--good:#17703d;--warn:#8a5000;--bad:#a8302a;--chip:#eef1fb;--past:#f0f0ee;--hover:#f3f5fd;--mark:#fff3c4;--safe:#7a3fb8;--shadow:0 6px 24px rgba(0,0,0,.12)}
+@media (prefers-color-scheme: dark){:root{--bg:#141416;--card:#1d1d20;--ink:#ececee;--muted:#a3a3ab;--line:#34343a;--accent:#8fa8ff;--on-accent:#0d1020;--chip:#262b3d;--good:#5fd08f;--warn:#f0b354;--bad:#ff8a7a;--past:#19191b;--hover:#23262f;--mark:#3a3420;--safe:#c49bff;--shadow:0 6px 24px rgba(0,0,0,.5)}}
 *{box-sizing:border-box}
 html,body{overflow-x:hidden}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -62,6 +62,10 @@ main *{overflow-wrap:anywhere;min-width:0}
 .fundlist a{white-space:nowrap}
 .fundlist .grp{margin:4px 0}
 .card.mine{border-color:var(--accent)}
+.card.safe{background:color-mix(in srgb,var(--safe) 8%,var(--card));border:2px solid var(--safe)}
+.tbl tr.safe td{background:color-mix(in srgb,var(--safe) 10%,var(--card))}
+.tbl tr.safe td:first-child{box-shadow:inset 4px 0 0 var(--safe)}
+.chip.safe{background:var(--safe);color:var(--card);font-weight:700}
 .card.sl{box-shadow:inset 4px 0 0 var(--accent)}
 .card.skip{opacity:.65}
 .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
@@ -362,10 +366,10 @@ function phdLine(s){const p=phdOf(s);
 function cardMS(s){const p=s.program||{},id=sid(s),m=myst(id),on=openN(s),cn=cryptoProfs(s).length;
   const profs=(s.professors||[]).slice().sort((a,b)=>(tsOf(b)==='yes')-(tsOf(a)==='yes')||profPapers(b)-profPapers(a)).map(profLI).join('');
   const tn=theoryN(s);
-  return `<div class="card${s.his_note||s.baseline?' mine':''}${isFunded(s,'ms')?' fms':''}${onList(id)?' sl':''}${m==='skip'?' skip':''}" id="${cardId(s)}">
+  return `<div class="card${s.his_note||s.baseline?' mine':''}${s.safety?' safe':isFunded(s,'ms')?' fms':''}${onList(id)?' sl':''}${m==='skip'?' skip':''}" id="${cardId(s)}">
     <div class="row"><div class="title">${esc(s.school)}</div><div class="meta">${esc(s.city)}, ${esc(s.state)} · ${esc(s.region)}</div></div>
     ${phdLine(s)}
-    <div class="chips">${countryOf(s)==='Canada'?'<span class="chip acc">Canada · international tuition</span>':''}${fundBadges(s)}${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${allBusy(s)?'<span class="chip bad" title="Every crypto professor here has a major outside commitment (startup, industry role, leave or leaving). See their chips below.">all crypto profs busy elsewhere</span>':''}${s.baseline||!cn?'':`<span class="chip ${on?'good':''}" title="${esc(cryptoProfs(s).filter(x=>tsOf(x)==='yes').map(x=>x.name).join(', ')||'No one says so on their own page (checked 2026-11-08)')}">Open seats: ${on} of ${cn} crypto prof${cn==1?' says':'s say'} they're taking students</span>`}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?`<span class="chip bad">${p.closed_note?'MS not open to international applicants':'MS closed for Fall 2027'}</span>`:''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>
+    <div class="chips">${s.safety?`<span class="chip safe" title="${esc(s.safety.why)}">Likely admit (added ${esc(s.safety.added)})</span>`:''}${countryOf(s)==='Canada'?'<span class="chip acc">Canada · international tuition</span>':''}${fundBadges(s)}${s.baseline?'<span class="chip acc">You are here</span>':''}${s.his_note?'<span class="chip acc">Already admitted (MS)</span>':''}${allBusy(s)?'<span class="chip bad" title="Every crypto professor here has a major outside commitment (startup, industry role, leave or leaving). See their chips below.">all crypto profs busy elsewhere</span>':''}${s.baseline||!cn?'':`<span class="chip ${on?'good':''}" title="${esc(cryptoProfs(s).filter(x=>tsOf(x)==='yes').map(x=>x.name).join(', ')||'No one says so on their own page (checked 2026-11-08)')}">Open seats: ${on} of ${cn} crypto prof${cn==1?' says':'s say'} they're taking students</span>`}${s.baseline?'':`<span class="chip ${tn?'good':''}">${tn} theory-venue cryptographer${tn==1?'':'s'}</span>`}${p.thesis==='yes'?'<span class="chip good">MS thesis/research option</span>':p.thesis==='no'?'<span class="chip warn">no MS thesis option</span>':p.thesis==='research track'?'<span class="chip good">MS research track</span>':''}${s.funded_ms?'<span class="chip good">funded MS track</span>':''}${closedMS(s)?`<span class="chip bad">${p.closed_note?'MS not open to international applicants':'MS closed for Fall 2027'}</span>`:''}${s.phd_direct?'<span class="chip warn">PhD-direct is the real route</span>':''}${s.ms_phd&&s.ms_phd.ms_feeds_phd&&s.ms_phd.ms_feeds_phd.value?`<span class="chip ${/^yes/i.test(s.ms_phd.ms_feeds_phd.value)?'good':/^no/i.test(s.ms_phd.ms_feeds_phd.value)?'warn':''}">MS → PhD: ${esc(String(s.ms_phd.ms_feeds_phd.value).split(/[;:(]/)[0].slice(0,24))}</span>`:''}</div>${s.safety?`<div class="small" style="color:var(--safe);margin:4px 0"><b>Why it's a likely admit:</b> ${esc(s.safety.why)} ${link(s.safety.admit_evidence_url,'evidence')}</div>`:''}
     ${s.his_note?`<div class="small" style="color:var(--accent)">${esc(s.his_note)} ${link(s.his_note_url,'policy')}</div>`:''}
     <div class="kv">
       <div>Program</div><div>${p.name?link(p.url,p.name):'<i>No master\'s to apply to for Fall 2027</i>'}</div>
@@ -460,7 +464,7 @@ const profPapers=p=>p.papers??((p.papers_core_iacr_joc||0)+(p.papers_crypto_them
 const nextMS=s=>{const p=s.program||{};const c=[p.priority_iso,p.deadline_iso,phdIso(s)].filter(d=>d&&dleft(d)>=0).sort();return c[0]||null};
 const MSCOLS=[
   {k:'open',h:'Open seats',sortLabel:'Open seats (profs taking students), then crypto profs',nat:'desc',v:s=>s.baseline?'':`${openN(s)} of ${cryptoProfs(s).length}`,val:openVal},
-  {k:'name',h:'School',sortLabel:'School A-Z',nat:'asc',v:s=>esc(s.short||s.school)+(s.his_note?' <span class="chip acc">admitted</span>':'')+(s.baseline?' <span class="chip acc">current</span>':''),val:s=>s.short||s.school},
+  {k:'name',h:'School',sortLabel:'School A-Z',nat:'asc',v:s=>esc(s.short||s.school)+(s.safety?' <span class="chip safe">likely admit</span>':'')+(s.his_note?' <span class="chip acc">admitted</span>':'')+(s.baseline?' <span class="chip acc">current</span>':''),val:s=>s.short||s.school},
   {k:'phd',h:'PhD deadline',sortLabel:'PhD deadline (soonest first)',nat:'asc',v:s=>{const d=phdIso(s);return d?`${fmt(d)} <span class="left ${leftCls(dleft(d))}">${leftTxt(dleft(d))}</span>`:'<span class="small">n/a</span>'},val:s=>phdIso(s)},
   {k:'deadline',h:'Next deadline',sortLabel:'Next upcoming deadline (PhD or MS)',nat:'asc',v:s=>{const d=nextMS(s);return d?fmt(d):''},val:s=>nextMS(s)},
   {k:'theory',h:'Theory profs',sortLabel:'Most theory-venue cryptographers',nat:'desc',v:s=>s.baseline?'':theoryN(s),val:s=>s.baseline?null:theoryN(s)},
@@ -487,7 +491,7 @@ function renderMS(){
   const real=L.filter(s=>!s.baseline);
   $('#ms-funded').innerHTML=fundedList();
   $('#ms-count').textContent=`${real.length} of ${S.filter(s=>!s.baseline).length} schools${L.length>real.length?' + your current program':''} · ${real.reduce((a,s)=>a+openN(s),0)} professors taking students · sorted by ${r.col.sortLabel}${st['ms.dir']==='rev'?' (reversed)':''}${toks.length?` · search: ${toks.join(' + ')}`:''}`;
-  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,r.asc,cardMS,s=>isFunded(s,'ms')?'fms':'',sid);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
+  if(st['ms.view']==='table'){const t=table('ms',L,MSCOLS,r.asc,cardMS,s=>s.safety?'safe':isFunded(s,'ms')?'fms':'',sid);$('#ms-list').innerHTML=t.html;t.bind($('#ms-list'));return}
   $('#ms-list').innerHTML=L.map(cardMS).join('')||'<div class="card small">Nothing matches. Clear the search or filters.</div>'}
 function fundedList(){const R=S.filter(s=>!s.baseline),M=R.filter(s=>isFunded(s,'ms')),P=R.filter(s=>isFunded(s,'phd'));
   const a=L=>L.map(s=>`<a href="#" data-goto="${esc(cardId(s))}">${esc(s.short||s.school)}</a>`).join(', ');
