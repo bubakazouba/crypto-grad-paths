@@ -164,6 +164,7 @@ a{color:var(--accent)}
 </header>
 <nav role="tablist" aria-label="Sections">
   <button role="tab" id="t-ms" data-tab="ms" aria-controls="ms" aria-selected="true"><span class="lg">Schools (PhD + MS)</span><span class="sm">Schools</span></button>
+  <button role="tab" id="t-f12" data-tab="f12" aria-controls="f12" aria-selected="false"><span class="lg">Final 12</span><span class="sm">Final 12</span></button>
   <button role="tab" id="t-mt" data-tab="mt" aria-controls="mt" aria-selected="false"><span class="lg">My priority table</span><span class="sm">My table</span></button>
   <button role="tab" id="t-in" data-tab="in" aria-controls="in" aria-selected="false">Internships</button>
   <button role="tab" id="t-tl" data-tab="tl" aria-controls="tl" aria-selected="false"><span class="lg">Apply-by timeline</span><span class="sm">Timeline</span></button>
@@ -179,6 +180,7 @@ a{color:var(--accent)}
     <div class="count" id="ms-count" aria-live="polite"></div>
     <div id="ms-list"></div>
   </section>
+  <section id="f12" role="tabpanel" aria-labelledby="t-f12" hidden><p style="margin:.5em 0">Final 12 (Nov 9): 3+ crypto profs and 2+ doing applied work, your ranking, with subfield odds. <a href="final12.html" target="_blank" rel="noopener">Open full-size</a></p><iframe src="final12.html" title="Final 12" loading="lazy" style="width:100%;height:80vh;border:1px solid #ccc;border-radius:8px;background:#fff"></iframe></section>
   <section id="mt" role="tabpanel" aria-labelledby="t-mt" hidden><p style="margin:.5em 0">Master's applications ranked by your priority tier, then final deadline (updated Nov 9). <a href="my_table.html" target="_blank" rel="noopener">Open full-size</a></p><iframe src="my_table.html" title="My priority table" loading="lazy" style="width:100%;height:80vh;border:1px solid #ccc;border-radius:8px;background:#fff"></iframe></section>
   <section id="in" role="tabpanel" aria-labelledby="t-in" hidden>
     <div class="controls" id="in-ctl"></div>
@@ -206,7 +208,7 @@ const money=n=>n==null?'':'$'+Math.round(n).toLocaleString('en-US');
 function more(t,n=150){t=t==null?'':(typeof t==='string'?t:Object.entries(t).map(([k,v])=>k.replace(/_/g,' ')+': '+v).join(' · '));if(t.length<=n+20)return esc(t);
   return `<details class="more"><summary><span class="short">${esc(t.slice(0,n).replace(/\s+\S*$/,''))}…</span><span class="ml">more</span></summary>${esc(t)}</details>`}
 let S=[],I=[],R={},A={},TD={items:[]};
-const TABS=['ms','mt','in','tl','td','or','me'];
+const TABS=['ms','f12','mt','in','tl','td','or','me'];
 // ---------- open seats: p.taking_students = {status:'yes'|'no'|'unknown', quote, url, checked} from the professor's own page ----------
 const cryptoProfs=s=>(s.professors||[]).filter(p=>p.crypto_core!=='not-crypto');
 const tsOf=p=>(p.taking_students&&p.taking_students.status)||'unknown';
